@@ -1,0 +1,81 @@
+[2023-06-24 00:02:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623708]
+[2023-06-24 00:02:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recursiveseriation
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CoLT5-attention
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: im-openai
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: outputfile
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hat-json
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycsbinarywriter
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tinyTroch
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mixture-of-attention
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: animo-trainer
+[2023-06-24 00:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arize
+[2023-06-24 00:02:37] INFO root fetch - processPackages [im-openai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [pycsbinarywriter]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [animo-trainer]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [hat-json]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 00:02:37] WARNING root fetch - processPackages [tinyTroch]: Skipping, unable to determine old version
+[2023-06-24 00:02:37] INFO root fetch - main [MainThread]: End processing [tinyTroch] error
+[2023-06-24 00:02:37] INFO root fetch - processPackages [outputfile]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [arize]: New version: [7.0.6rc2] Old Version: [7.0.6rc1]
+[2023-06-24 00:02:37] INFO root fetch - processPackages [hat-json]: Downloading https://files.pythonhosted.org/packages/d2/35/bf8e3dbcb7fe0dc10fd6faf4dfb732a5bd935a49e72efeda31422e4d6cc0/hat_json-0.5.8-cp38.cp39.cp310-none-any.whl
+[2023-06-24 00:02:37] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/08/5a/020f77bea7ba8191c63a35219cbebe1d6eab1fe1ecc642b70e434c59175e/CoLT5-attention-0.8.1.tar.gz
+[2023-06-24 00:02:37] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/43/d5/ce101545e34d05bdfe8b5969b9f1fac27c3c29ae6d06b935a705d8f80655/im_openai-0.1.1.tar.gz
+[2023-06-24 00:02:37] WARNING root fetch - processPackages [recursiveseriation]: Skipping, unable to determine old version
+[2023-06-24 00:02:37] INFO root fetch - main [MainThread]: End processing [recursiveseriation] error
+[2023-06-24 00:02:37] INFO root fetch - processPackages [pycsbinarywriter]: Downloading https://files.pythonhosted.org/packages/85/f3/6f192882132440dc08ecb405c83d95b80b1bcfbd2aaa85e65ab068e13bbe/pycsbinarywriter-0.0.4.tar.gz
+[2023-06-24 00:02:37] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/5a/06/103d26b9c1d8ab142bd63c2b5168f944195574515f2c5a4f363bb779bd4e/arize-7.0.6rc1.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [outputfile]: Downloading https://files.pythonhosted.org/packages/27/5a/56956bc2e60fdfd37c4deecdfbc118a7276a03629056e6f01e085891da23/outputfile-0.2.1.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/0d/22/2dd6caf2d14841f29b91fbb951059a47b568dfb047bf621a4873a2d92924/mixture-of-attention-0.0.8.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/b8/3e/a80559f3dd845852c1f2cc55ff258a77d0ca88bc8a457ea3b7690b518f2e/animo_trainer-0.1.8.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/df/03/116d9dfdbb93326dde6f8a2bec26f18e4861ec6f83c9eabdf7683a204717/CoLT5-attention-0.9.0.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [im-openai]: Downloading https://files.pythonhosted.org/packages/fc/df/b324cac5ccea7d129ba182a23d31d93906090f00b409c5f617720eff5a7a/im_openai-0.1.2.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [hat-json]: Downloading https://files.pythonhosted.org/packages/5f/cd/36aeb5271c2ec930b94f8cba23fc1562e92e04dc9ac29540a5eb7012ecb1/hat_json-0.5.9-cp38.cp39.cp310-none-any.whl
+[2023-06-24 00:02:38] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230624/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [hat-json]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [hat-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_json-0.5.8-cp38.cp39.cp310-none-any.whl.zip tmp/hat_json-0.5.9-cp38.cp39.cp310-none-any.whl.zip --markdown 20230624/h/hat-json/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [im-openai]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [im-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_openai-0.1.1.tar.gz tmp/im_openai-0.1.2.tar.gz --markdown 20230624/i/im-openai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/c6/6f/c9d29bc32a48be533c77beb34044e5b9b02e15259037ee825f05fb45a1ab/arize-7.0.6rc2.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [outputfile]: Downloading https://files.pythonhosted.org/packages/10/66/f8a7bef0c8b2ee5c61b9153cca8b963d85f9b29c3c6ddcfd9072cd7129fc/outputfile-1.0.0.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/67/a6/a1d065797692d42fe3810427aa234b035b69869ee0f257f19c58020fa8e3/mixture-of-attention-0.0.9.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [pycsbinarywriter]: Downloading https://files.pythonhosted.org/packages/60/f5/12d001055637ce7c4fcdb649b07d6d6c553c9861a97b9bf796f644448fe5/pycsbinarywriter-0.1.0.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [animo-trainer]: Downloading https://files.pythonhosted.org/packages/68/c6/91aa2599a7a5a0a4f2de8aa02299ae970d77f07adf24975d5df59dd425ca/animo_trainer-0.1.9.tar.gz
+[2023-06-24 00:02:38] INFO root fetch - processPackages [outputfile]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [outputfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outputfile-0.2.1.tar.gz tmp/outputfile-1.0.0.tar.gz --markdown 20230624/o/outputfile/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230624/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [pycsbinarywriter]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [pycsbinarywriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycsbinarywriter-0.0.4.tar.gz tmp/pycsbinarywriter-0.1.0.tar.gz --markdown 20230624/p/pycsbinarywriter/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [arize]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.0.6rc1.tar.gz tmp/arize-7.0.6rc2.tar.gz --markdown 20230624/a/arize/7.0.6rc1-7.0.6rc2/diff.md --exclude *.pyd
+[2023-06-24 00:02:38] INFO root fetch - processPackages [animo-trainer]: executing diffoscope
+[2023-06-24 00:02:38] INFO root fetch - processPackages [animo-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animo_trainer-0.1.8.tar.gz tmp/animo_trainer-0.1.9.tar.gz --markdown 20230624/a/animo-trainer/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 00:02:39] INFO root fetch - processPackages [hat-json]: Remove: archive file [/home/abi/fetcher/tmp/hat_json-0.5.8-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-24 00:02:39] INFO root fetch - processPackages [hat-json]: Remove: archive file [/home/abi/fetcher/tmp/hat_json-0.5.9-cp38.cp39.cp310-none-any.whl.zip]
+[2023-06-24 00:02:39] INFO root fetch - main [MainThread]: End processing [hat-json]: success
+[2023-06-24 00:02:39] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.1.1.tar.gz]
+[2023-06-24 00:02:39] INFO root fetch - processPackages [im-openai]: Remove: archive file [/home/abi/fetcher/tmp/im_openai-0.1.2.tar.gz]
+[2023-06-24 00:02:39] INFO root fetch - main [MainThread]: End processing [im-openai]: success
+[2023-06-24 00:02:40] INFO root fetch - processPackages [mixture-of-attention]: Remove: archive file [/home/abi/fetcher/tmp/mixture-of-attention-0.0.8.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - processPackages [mixture-of-attention]: Remove: archive file [/home/abi/fetcher/tmp/mixture-of-attention-0.0.9.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-06-24 00:02:40] INFO root fetch - processPackages [CoLT5-attention]: Remove: archive file [/home/abi/fetcher/tmp/CoLT5-attention-0.8.1.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - processPackages [CoLT5-attention]: Remove: archive file [/home/abi/fetcher/tmp/CoLT5-attention-0.9.0.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-06-24 00:02:40] INFO root fetch - processPackages [pycsbinarywriter]: Remove: archive file [/home/abi/fetcher/tmp/pycsbinarywriter-0.0.4.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - processPackages [pycsbinarywriter]: Remove: archive file [/home/abi/fetcher/tmp/pycsbinarywriter-0.1.0.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - main [MainThread]: End processing [pycsbinarywriter]: success
+[2023-06-24 00:02:40] INFO root fetch - processPackages [outputfile]: Remove: archive file [/home/abi/fetcher/tmp/outputfile-0.2.1.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - processPackages [outputfile]: Remove: archive file [/home/abi/fetcher/tmp/outputfile-1.0.0.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - main [MainThread]: End processing [outputfile]: success
+[2023-06-24 00:02:40] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.0.6rc1.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.0.6rc2.tar.gz]
+[2023-06-24 00:02:40] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2023-06-24 00:02:42] INFO root fetch - processPackages [animo-trainer]: Remove: archive file [/home/abi/fetcher/tmp/animo_trainer-0.1.8.tar.gz]
+[2023-06-24 00:02:42] INFO root fetch - processPackages [animo-trainer]: Remove: archive file [/home/abi/fetcher/tmp/animo_trainer-0.1.9.tar.gz]
+[2023-06-24 00:02:42] INFO root fetch - main [MainThread]: End processing [animo-trainer]: success
+[2023-06-24 00:02:42] INFO root fetch - main [MainThread]: Store serial: [18623739]
