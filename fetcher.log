@@ -1746,3 +1746,78 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 01:49:27] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
 [2023-06-24 01:49:27] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-06-24 01:49:27] INFO root fetch - main [MainThread]: Store serial: [18624439]
+[2023-06-24 01:54:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624439]
+[2023-06-24 01:54:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaaql-monitor
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaaql-middleware-python
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FDGI
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: marcel
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaretool
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmt-cli
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aspeak
+[2023-06-24 01:54:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyspark-ai
+[2023-06-24 01:54:36] INFO root fetch - processPackages [marcel]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [pyspark-ai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.74] Old Version: [1.2.73]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [FDGI]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [flaretool]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [aspeak]: New version: [6.0.0b1] Old Version: [6.0.0a3]
+[2023-06-24 01:54:36] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/3a/07/c626f18aa14df89e1f194e115cbffaa2d99bcfc736f7251795e2f889c0d6/marcel-0.9.8-py3-none-any.whl
+[2023-06-24 01:54:36] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-24 01:54:36] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/f2/8a/df4f70577c0d4950a63482fd627c160b3631e6c351ae12acda582bb819e0/lmt-cli-0.0.4.tar.gz
+[2023-06-24 01:54:36] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/e9/86/7f7856f150dd2f54516591c1604a06536697ffbc074471b0a5d0111ec680/pyspark_ai-0.1.0.tar.gz
+[2023-06-24 01:54:36] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/f3/9f/ccf9cef67a775bc61ecd40ecde84b1e5ee6d0fe40b404959196475d213f7/jaaql-monitor-1.2.73.tar.gz
+[2023-06-24 01:54:36] INFO root fetch - processPackages [flaretool]: Downloading https://files.pythonhosted.org/packages/35/9d/be63e204a9562980c6d30020d6b5b8809bceef5a08cbdaf63289341c5e6e/flaretool-0.1.8.tar.gz
+[2023-06-24 01:54:36] INFO root fetch - processPackages [FDGI]: Downloading https://files.pythonhosted.org/packages/09/1a/35f22ac7f1a83d05bd097be16ea12876f0114a28c4c69c13ff484b75ab7e/FDGI-0.9.3.tar.gz
+[2023-06-24 01:54:36] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-24 01:54:37] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/60/da/8612121f0a1d451279868f9ffa436af1a8d43973b6509dff45129694a563/aspeak-6.0.0a3-cp39-none-win_amd64.whl
+[2023-06-24 01:54:37] INFO root fetch - processPackages [marcel]: Downloading https://files.pythonhosted.org/packages/4b/3d/fd4bc1e7906ea7d19b4ad1010b8dce76e96202ac6886bcab6162db5f992f/marcel-0.9.9-py3-none-any.whl
+[2023-06-24 01:54:37] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/35/af/2e25f65927611bdabe9acc21b6962ac36cd674934e9f35258e2567604c8c/lmt-cli-0.0.5.tar.gz
+[2023-06-24 01:54:37] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230624/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [marcel]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [marcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcel-0.9.8-py3-none-any.whl.zip tmp/marcel-0.9.9-py3-none-any.whl.zip --markdown 20230624/m/marcel/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/33/19/7c88c2c1af9761bdf45adf8b4fcd0e8f8ef295b2a8a4152eaba5a3214237/jaaql-monitor-1.2.74.tar.gz
+[2023-06-24 01:54:37] INFO root fetch - processPackages [pyspark-ai]: Downloading https://files.pythonhosted.org/packages/de/ca/ce9fa96ef13d27cd5a42cf4be9bc4265b97a0fd6d9af5c6690de1b2a5e01/pyspark_ai-0.1.1.tar.gz
+[2023-06-24 01:54:37] INFO root fetch - processPackages [FDGI]: Downloading https://files.pythonhosted.org/packages/ff/7a/29809b722414f73ca67f26aee0f7aa3e6be9a2e95970d9b4c3b970c55ba5/FDGI-0.9.4.tar.gz
+[2023-06-24 01:54:37] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.4.tar.gz tmp/lmt-cli-0.0.5.tar.gz --markdown 20230624/l/lmt-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [flaretool]: Downloading https://files.pythonhosted.org/packages/86/77/89f9cec7e675d626fb627d23843af83d4be8e5f47b557848033f0beb5efe/flaretool-0.1.9-py3-none-any.whl
+[2023-06-24 01:54:37] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.73.tar.gz tmp/jaaql-monitor-1.2.74.tar.gz --markdown 20230624/j/jaaql-monitor/1.2.73-1.2.74/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [FDGI]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [FDGI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FDGI-0.9.3.tar.gz tmp/FDGI-0.9.4.tar.gz --markdown 20230624/F/FDGI/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [flaretool]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [flaretool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaretool-0.1.8.tar.gz tmp/flaretool-0.1.9-py3-none-any.whl.zip --markdown 20230624/f/flaretool/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [pyspark-ai]: executing diffoscope
+[2023-06-24 01:54:37] INFO root fetch - processPackages [pyspark-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspark_ai-0.1.0.tar.gz tmp/pyspark_ai-0.1.1.tar.gz --markdown 20230624/p/pyspark-ai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 01:54:37] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/87/bc/cea97325ef2dc7fb1c056b5cb1255e9de53b9bfcde6a140ea355d2755137/aspeak-6.0.0b1-cp39-none-win_amd64.whl
+[2023-06-24 01:54:38] INFO root fetch - processPackages [aspeak]: executing diffoscope
+[2023-06-24 01:54:38] INFO root fetch - processPackages [aspeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspeak-6.0.0a3-cp39-none-win_amd64.whl.zip tmp/aspeak-6.0.0b1-cp39-none-win_amd64.whl.zip --markdown 20230624/a/aspeak/6.0.0a3-6.0.0b1/diff.md --exclude *.pyd
+[2023-06-24 01:54:38] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.4.tar.gz]
+[2023-06-24 01:54:38] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.5.tar.gz]
+[2023-06-24 01:54:38] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2023-06-24 01:54:39] INFO root fetch - processPackages [FDGI]: Remove: archive file [/home/abi/fetcher/tmp/FDGI-0.9.3.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - processPackages [FDGI]: Remove: archive file [/home/abi/fetcher/tmp/FDGI-0.9.4.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - main [MainThread]: End processing [FDGI]: success
+[2023-06-24 01:54:39] INFO root fetch - processPackages [jaaql-monitor]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-monitor-1.2.73.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - processPackages [jaaql-monitor]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-monitor-1.2.74.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2023-06-24 01:54:39] INFO root fetch - processPackages [flaretool]: Remove: archive file [/home/abi/fetcher/tmp/flaretool-0.1.8.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - processPackages [flaretool]: Remove: archive file [/home/abi/fetcher/tmp/flaretool-0.1.9-py3-none-any.whl.zip]
+[2023-06-24 01:54:39] INFO root fetch - main [MainThread]: End processing [flaretool]: success
+[2023-06-24 01:54:39] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.0.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - processPackages [pyspark-ai]: Remove: archive file [/home/abi/fetcher/tmp/pyspark_ai-0.1.1.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - main [MainThread]: End processing [pyspark-ai]: success
+[2023-06-24 01:54:39] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.8-py3-none-any.whl.zip]
+[2023-06-24 01:54:39] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
+[2023-06-24 01:54:39] INFO root fetch - main [MainThread]: End processing [marcel]: success
+[2023-06-24 01:54:39] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-24 01:54:39] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-24 01:55:03] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0a3-cp39-none-win_amd64.whl.zip]
+[2023-06-24 01:55:03] INFO root fetch - processPackages [aspeak]: Remove: archive file [/home/abi/fetcher/tmp/aspeak-6.0.0b1-cp39-none-win_amd64.whl.zip]
+[2023-06-24 01:55:03] INFO root fetch - main [MainThread]: End processing [aspeak]: success
+[2023-06-24 01:55:03] INFO root fetch - main [MainThread]: Store serial: [18624468]
