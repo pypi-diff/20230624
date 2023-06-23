@@ -223,3 +223,122 @@
 [2023-06-24 00:08:08] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230623220557-py3-none-any.whl.zip]
 [2023-06-24 00:08:08] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-24 00:08:08] INFO root fetch - main [MainThread]: Store serial: [18623789]
+[2023-06-24 00:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623789]
+[2023-06-24 00:13:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SafeURL-Python
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Scrapset
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-stock
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openai-functions
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: messenger-business-api
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: landingai
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oloren
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: osism
+[2023-06-24 00:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: schemaser
+[2023-06-24 00:13:17] INFO root fetch - processPackages [SafeURL-Python]: New version: [1.3] Old Version: [1.2]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [neon-skill-stock]: New version: [0.3.1a4] Old Version: [0.3.1a3]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [messenger-business-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [schemaser]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [osism]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [openai-functions]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [Scrapset]: New version: [2.1.0] Old Version: [1.4.0]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 00:13:17] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/7b/25/5ebc485e76c073bd25b8b3065f050ed6ccd24f1ecff7d41a71b148669943/openai_functions-0.4.0.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [SafeURL-Python]: Downloading https://files.pythonhosted.org/packages/8f/15/84a82d792c946dd96870e8d66533ff1c84b646e8f2c8308db18a95bb4317/SafeURL-Python-1.2.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/08/ec/c7cb875f5d538490a46d0468d5c53e6ddbc022f3dec8ec21b12edf2c8a2e/messenger-business-api-1.0.0.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/8d/ad/e4b59c5a95b4ce177365c7d40b47c63c81ceace2419c5d3c36b418e1c602/neon_skill_stock-0.3.1a3-py3-none-any.whl
+[2023-06-24 00:13:17] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/04/6e/43e2a8c4882c8f5c3a65b581a96c802bb2caa2e87acd582a59b61857b5e4/Scrapset-1.4.0-py3-none-any.whl
+[2023-06-24 00:13:17] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [schemaser]: Downloading https://files.pythonhosted.org/packages/93/ac/826acf5d1a79c9bd7e860e3ba61d97db6fa8d2cee22f2bdf1157a014aa34/schemaser-1.0.0.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/d9/e4/97288db572dab148de08d6921483c28336f8657f5955abf4742e87d99ce1/osism-0.9.7.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/ae/68/2d132595e0236d631546be55db67c7f561a2f498ed4821bb828ad73cd94c/openai_functions-0.4.1.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-24 00:13:17] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230624/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 00:13:17] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-24 00:13:17] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.4.0.tar.gz tmp/openai_functions-0.4.1.tar.gz --markdown 20230624/o/openai-functions/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-24 00:13:17] INFO root fetch - processPackages [SafeURL-Python]: Downloading https://files.pythonhosted.org/packages/4f/b5/f7bf7de32772e495d76f113b5f2817f16ef773cbdeb432ed34720fd686fc/SafeURL-Python-1.3.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-24 00:13:17] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230624/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-24 00:13:17] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/6d/9e/a8f45c79ebddc6b21e5cc27b403feebf237a87fc2f98fdad669f4baaf742/Scrapset-2.1.0.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [schemaser]: Downloading https://files.pythonhosted.org/packages/04/8d/ad5c36a848bb7d79ed772b5d11b5fbd6f2c05aeb87c50d21c5f656a5ce4c/schemaser-1.0.1.tar.gz
+[2023-06-24 00:13:17] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/08/d4/06e548ae4d773ecfed662d4c80b70663371b79633ab556c452a31ce067d0/neon-skill-stock-0.3.1a4.tar.gz
+[2023-06-24 00:13:18] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/fa/1b/3ae64fd3e67ab0f866f69c616e48e22329793896063e751fd80494dfbc5c/messenger-business-api-1.0.1.tar.gz
+[2023-06-24 00:13:18] INFO root fetch - processPackages [SafeURL-Python]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [SafeURL-Python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SafeURL-Python-1.2.tar.gz tmp/SafeURL-Python-1.3.tar.gz --markdown 20230624/S/SafeURL-Python/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-24 00:13:18] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230624/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:13:18] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-1.4.0-py3-none-any.whl.zip tmp/Scrapset-2.1.0.tar.gz --markdown 20230624/S/Scrapset/1.4.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-24 00:13:18] INFO root fetch - processPackages [osism]: Downloading https://files.pythonhosted.org/packages/f7/c9/7fabbdb50265b5306f0b31470c421517d434bda5f7f3f41fe3fcd98acac0/osism-0.9.8.tar.gz
+[2023-06-24 00:13:18] INFO root fetch - processPackages [messenger-business-api]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [messenger-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messenger-business-api-1.0.0.tar.gz tmp/messenger-business-api-1.0.1.tar.gz --markdown 20230624/m/messenger-business-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 00:13:18] INFO root fetch - processPackages [schemaser]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [schemaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemaser-1.0.0.tar.gz tmp/schemaser-1.0.1.tar.gz --markdown 20230624/s/schemaser/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 00:13:18] INFO root fetch - processPackages [neon-skill-stock]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [neon-skill-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_stock-0.3.1a3-py3-none-any.whl.zip tmp/neon-skill-stock-0.3.1a4.tar.gz --markdown 20230624/n/neon-skill-stock/0.3.1a3-0.3.1a4/diff.md --exclude *.pyd
+[2023-06-24 00:13:18] INFO root fetch - processPackages [osism]: executing diffoscope
+[2023-06-24 00:13:18] INFO root fetch - processPackages [osism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osism-0.9.7.tar.gz tmp/osism-0.9.8.tar.gz --markdown 20230624/o/osism/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-24 00:13:19] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.4.0.tar.gz]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.4.1.tar.gz]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [openai-functions]: Start processing: messenger-business-api
+[2023-06-24 00:13:19] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-24 00:13:19] INFO root fetch - processPackages [messenger-business-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [landingai]: Start processing: SpaGoG
+[2023-06-24 00:13:19] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-24 00:13:19] INFO root fetch - processPackages [SpaGoG]: New version: [0.15] Old Version: [0.14]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [messenger-business-api]: executing diffoscope
+[2023-06-24 00:13:19] INFO root fetch - processPackages [messenger-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messenger-business-api-1.0.0.tar.gz tmp/messenger-business-api-1.0.1.tar.gz --markdown 20230624/m/messenger-business-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 00:13:19] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/99/1f/aa4549fb4930a83511461290ed93bef643ab69f86916678704cf64bd2aa5/SpaGoG-0.14.tar.gz
+[2023-06-24 00:13:19] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [airunner]: Start processing: drizzutojr-vader
+[2023-06-24 00:13:19] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-24 00:13:19] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:13:19] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-24 00:13:20] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/f6/2c/82f72c50e052fa6791a8a6d25f348814d0cd5ae3ca9cee99d1e78ed0cafe/SpaGoG-0.15.tar.gz
+[2023-06-24 00:13:20] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-24 00:13:20] INFO root fetch - processPackages [SpaGoG]: executing diffoscope
+[2023-06-24 00:13:20] INFO root fetch - processPackages [SpaGoG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpaGoG-0.14.tar.gz tmp/SpaGoG-0.15.tar.gz --markdown 20230624/S/SpaGoG/0.14-0.15/diff.md --exclude *.pyd
+[2023-06-24 00:13:20] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-24 00:13:20] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:13:20] INFO root fetch - processPackages [SafeURL-Python]: Remove: archive file [/home/abi/fetcher/tmp/SafeURL-Python-1.2.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - processPackages [SafeURL-Python]: Remove: archive file [/home/abi/fetcher/tmp/SafeURL-Python-1.3.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [SafeURL-Python]: success
+[2023-06-24 00:13:20] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-1.4.0-py3-none-any.whl.zip]
+[2023-06-24 00:13:20] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-2.1.0.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-06-24 00:13:20] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_stock-0.3.1a3-py3-none-any.whl.zip]
+[2023-06-24 00:13:20] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-0.3.1a4.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
+[2023-06-24 00:13:20] INFO root fetch - processPackages [schemaser]: Remove: archive file [/home/abi/fetcher/tmp/schemaser-1.0.0.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - processPackages [schemaser]: Remove: archive file [/home/abi/fetcher/tmp/schemaser-1.0.1.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [schemaser]: success
+[2023-06-24 00:13:20] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.0.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.1.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [messenger-business-api]: success
+[2023-06-24 00:13:20] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.7.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - processPackages [osism]: Remove: archive file [/home/abi/fetcher/tmp/osism-0.9.8.tar.gz]
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [osism]: success
+[2023-06-24 00:13:20] ERROR root fetch - processPackages [messenger-business-api]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/messenger-business-api-1.0.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/messenger-business-api-1.0.1.tar.gz: No such file or directory
+
+[2023-06-24 00:13:20] INFO root fetch - main [MainThread]: End processing [messenger-business-api] error
+[2023-06-24 00:13:21] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.14.tar.gz]
+[2023-06-24 00:13:21] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.15.tar.gz]
+[2023-06-24 00:13:21] INFO root fetch - main [MainThread]: End processing [SpaGoG]: success
+[2023-06-24 00:13:21] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-24 00:13:21] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 00:13:21] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-24 00:13:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-24 00:13:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-24 00:13:26] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-24 00:13:26] INFO root fetch - main [MainThread]: Store serial: [18623827]
