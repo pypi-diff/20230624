@@ -794,3 +794,96 @@
 [2023-06-24 00:39:46] INFO root fetch - processPackages [avocado-framework]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-99.0.tar.gz]
 [2023-06-24 00:39:46] INFO root fetch - main [MainThread]: End processing [avocado-framework]: success
 [2023-06-24 00:39:46] INFO root fetch - main [MainThread]: Store serial: [18624053]
+[2023-06-24 00:44:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624053]
+[2023-06-24 00:44:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sense-energy
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aihandler
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: klongpy
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ecopipeline
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reactpy-django
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airunner
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-hcloud
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: always-updates
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: messenger-business-api
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cetto
+[2023-06-24 00:44:55] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ecopipeline]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [reactpy-django]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [sense-energy]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [cetto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [messenger-business-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [klongpy]: New version: [0.3.72] Old Version: [0.3.71]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/cb/75/4560f5e82f0f4207498d2d541602a9919ddc6ae8fabf6f5226fdc7cd498d/ecopipeline-0.0.8.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/8d/46/fbb969e221a8f1d4ace6c529827bdf51adec99df476c0b657f9b1303338b/klongpy-0.3.71.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/56/6c/c7189a10d7e1ff19159e7a29bf8544ec524d33832afbeec5bdc5053b8c1a/messenger-business-api-1.0.4.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [cetto]: Downloading https://files.pythonhosted.org/packages/f9/7f/f7a8b5c39d0a4d4f48dd31896633c00ee06eec683be7ab4f96f95f1f78d0/cetto-0.0.4.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/c6/38/91ce6162b6a739bfe6ce7096cd0d615823259e8f457c150428798e5f340b/reactpy_django-3.1.0.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [sense-energy]: Downloading https://files.pythonhosted.org/packages/99/b8/d9e869906ab53cc1d5c522690e4dd34afd750437fdb64ef8688604a810d6/sense_energy-0.9.5.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [ecopipeline]: Downloading https://files.pythonhosted.org/packages/3a/ba/d8a45feb20c25eba0a4e627b0d5ebc86967c08d62663693c523c091a8486/ecopipeline-0.0.9.tar.gz
+[2023-06-24 00:44:55] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230624/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [ecopipeline]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [ecopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecopipeline-0.0.8.tar.gz tmp/ecopipeline-0.0.9.tar.gz --markdown 20230624/e/ecopipeline/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [klongpy]: Downloading https://files.pythonhosted.org/packages/1c/8f/af07594064f30cece5ac1939c67b76473213cceea574cc34904de55c2951/klongpy-0.3.72.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/cb/19/7aacfb242c6f56e38dcddfd1ce6c5a2b7c8948ccaa922d9afade707c7657/messenger-business-api-1.0.5.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [cetto]: Downloading https://files.pythonhosted.org/packages/07/bd/4955c258172da9be918bdc449c46e30ccacd75ecf63d5a83eb9856f59f24/cetto-0.0.5.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230624/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/f5/ec/54ab2f44466e5bc14cccc90fd34f272ec59af058bdb4427e564348c42d4e/reactpy_django-3.2.0.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [cetto]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [cetto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cetto-0.0.4.tar.gz tmp/cetto-0.0.5.tar.gz --markdown 20230624/c/cetto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230624/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [messenger-business-api]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [messenger-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messenger-business-api-1.0.4.tar.gz tmp/messenger-business-api-1.0.5.tar.gz --markdown 20230624/m/messenger-business-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [klongpy]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [klongpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klongpy-0.3.71.tar.gz tmp/klongpy-0.3.72.tar.gz --markdown 20230624/k/klongpy/0.3.71-0.3.72/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230624/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [reactpy-django]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [reactpy-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_django-3.1.0.tar.gz tmp/reactpy_django-3.2.0.tar.gz --markdown 20230624/r/reactpy-django/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-24 00:44:56] INFO root fetch - processPackages [sense-energy]: Downloading https://files.pythonhosted.org/packages/e3/84/070c4322e2b412b5567b09eef0eb2f0fffbdb95a8d57e8998aa0a60254d4/sense_energy-0.9.6.tar.gz
+[2023-06-24 00:44:56] INFO root fetch - processPackages [sense-energy]: executing diffoscope
+[2023-06-24 00:44:56] INFO root fetch - processPackages [sense-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sense_energy-0.9.5.tar.gz tmp/sense_energy-0.9.6.tar.gz --markdown 20230624/s/sense-energy/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-24 00:44:57] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.0.8.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - processPackages [ecopipeline]: Remove: archive file [/home/abi/fetcher/tmp/ecopipeline-0.0.9.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - main [MainThread]: End processing [ecopipeline]: success
+[2023-06-24 00:44:57] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-24 00:44:57] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-24 00:44:57] INFO root fetch - processPackages [cetto]: Remove: archive file [/home/abi/fetcher/tmp/cetto-0.0.4.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - processPackages [cetto]: Remove: archive file [/home/abi/fetcher/tmp/cetto-0.0.5.tar.gz]
+[2023-06-24 00:44:57] INFO root fetch - main [MainThread]: End processing [cetto]: success
+[2023-06-24 00:44:58] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.4.tar.gz]
+[2023-06-24 00:44:58] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.5.tar.gz]
+[2023-06-24 00:44:58] INFO root fetch - main [MainThread]: End processing [messenger-business-api]: success
+[2023-06-24 00:44:58] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.1.0.tar.gz]
+[2023-06-24 00:44:58] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.2.0.tar.gz]
+[2023-06-24 00:44:58] INFO root fetch - main [MainThread]: End processing [reactpy-django]: success
+[2023-06-24 00:44:58] INFO root fetch - processPackages [sense-energy]: Remove: archive file [/home/abi/fetcher/tmp/sense_energy-0.9.5.tar.gz]
+[2023-06-24 00:44:58] INFO root fetch - processPackages [sense-energy]: Remove: archive file [/home/abi/fetcher/tmp/sense_energy-0.9.6.tar.gz]
+[2023-06-24 00:44:58] INFO root fetch - main [MainThread]: End processing [sense-energy]: success
+[2023-06-24 00:44:59] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-06-24 00:44:59] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-06-24 00:44:59] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-06-24 00:44:59] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-06-24 00:44:59] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-06-24 00:44:59] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-06-24 00:45:00] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.3.71.tar.gz]
+[2023-06-24 00:45:00] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.3.72.tar.gz]
+[2023-06-24 00:45:00] INFO root fetch - main [MainThread]: End processing [klongpy]: success
+[2023-06-24 00:45:00] INFO root fetch - main [MainThread]: Store serial: [18624081]
