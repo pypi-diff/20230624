@@ -1046,3 +1046,33 @@
 [2023-06-24 00:55:55] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-24 00:55:55] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-24 00:55:55] INFO root fetch - main [MainThread]: Store serial: [18624142]
+[2023-06-24 01:00:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624142]
+[2023-06-24 01:01:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 01:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bisque-metadoc
+[2023-06-24 01:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantconnect-stubs
+[2023-06-24 01:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FBA-Matting
+[2023-06-24 01:01:04] INFO root fetch - processPackages [bisque-metadoc]: New version: [0.6.3.27] Old Version: [0.6.3.26]
+[2023-06-24 01:01:04] INFO root fetch - processPackages [FBA-Matting]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 01:01:04] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-24 01:01:04] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/0e/f9/4a18b152680e8cf41deb7404d5b5ef025289f688637f2c24d23f5601663c/bisque_metadoc-0.6.3.26-py3-none-any.whl
+[2023-06-24 01:01:04] INFO root fetch - processPackages [FBA-Matting]: Downloading https://files.pythonhosted.org/packages/b9/76/59be3f210e6d5d0c54bafc4b0165ccc252543ebea2773f71615b15ea2a0b/FBA_Matting-1.0.0-py3-none-any.whl
+[2023-06-24 01:01:04] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-24 01:01:05] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/62/ef/d49275d9efee01832302ff592b3c151933446f4608db864f748322e2c491/bisque_metadoc-0.6.3.27-py3-none-any.whl
+[2023-06-24 01:01:05] INFO root fetch - processPackages [FBA-Matting]: Downloading https://files.pythonhosted.org/packages/19/cb/9794582145eb860e58d46452f6398198202d2b8bb6b2c91e0765803574fd/FBA_Matting-1.0.1-py3-none-any.whl
+[2023-06-24 01:01:05] INFO root fetch - processPackages [bisque-metadoc]: executing diffoscope
+[2023-06-24 01:01:05] INFO root fetch - processPackages [bisque-metadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisque_metadoc-0.6.3.26-py3-none-any.whl.zip tmp/bisque_metadoc-0.6.3.27-py3-none-any.whl.zip --markdown 20230624/b/bisque-metadoc/0.6.3.26-0.6.3.27/diff.md --exclude *.pyd
+[2023-06-24 01:01:05] INFO root fetch - processPackages [FBA-Matting]: executing diffoscope
+[2023-06-24 01:01:05] INFO root fetch - processPackages [FBA-Matting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FBA_Matting-1.0.0-py3-none-any.whl.zip tmp/FBA_Matting-1.0.1-py3-none-any.whl.zip --markdown 20230624/F/FBA-Matting/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 01:01:05] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-24 01:01:05] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-24 01:01:05] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230624/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-24 01:01:06] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.26-py3-none-any.whl.zip]
+[2023-06-24 01:01:06] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.27-py3-none-any.whl.zip]
+[2023-06-24 01:01:06] INFO root fetch - main [MainThread]: End processing [bisque-metadoc]: success
+[2023-06-24 01:01:06] INFO root fetch - processPackages [FBA-Matting]: Remove: archive file [/home/abi/fetcher/tmp/FBA_Matting-1.0.0-py3-none-any.whl.zip]
+[2023-06-24 01:01:06] INFO root fetch - processPackages [FBA-Matting]: Remove: archive file [/home/abi/fetcher/tmp/FBA_Matting-1.0.1-py3-none-any.whl.zip]
+[2023-06-24 01:01:06] INFO root fetch - main [MainThread]: End processing [FBA-Matting]: success
+[2023-06-24 01:01:10] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-24 01:01:10] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-24 01:01:10] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-24 01:01:10] INFO root fetch - main [MainThread]: Store serial: [18624152]
