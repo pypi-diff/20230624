@@ -1334,3 +1334,42 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 01:16:55] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
 [2023-06-24 01:16:55] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
 [2023-06-24 01:16:55] INFO root fetch - main [MainThread]: Store serial: [18624254]
+[2023-06-24 01:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624254]
+[2023-06-24 01:22:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arize
+[2023-06-24 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: housekeeping
+[2023-06-24 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meraki
+[2023-06-24 01:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: epilogos
+[2023-06-24 01:22:04] INFO root fetch - processPackages [arize]: New version: [7.0.6rc2] Old Version: [7.0.6]
+[2023-06-24 01:22:04] INFO root fetch - processPackages [housekeeping]: New version: [1.1] Old Version: [1.0]
+[2023-06-24 01:22:04] INFO root fetch - processPackages [meraki]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-24 01:22:04] INFO root fetch - processPackages [epilogos]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 01:22:04] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/b0/60/2a22d1dbae0afa0c0da63a8f9801b987b6c91901b57a12d1a3b2eed77f91/arize-7.0.6.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [housekeeping]: Downloading https://files.pythonhosted.org/packages/19/d1/472ea2f9b8e8b4dca9003560a0f072bcf41a5d514865d6398f33f3c28e86/housekeeping-1.0.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [meraki]: Downloading https://files.pythonhosted.org/packages/20/52/de333d0487eea821f3befe418fd7c045ca3ac811856dac79a0b9ca996024/meraki-1.7.1.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [epilogos]: Downloading https://files.pythonhosted.org/packages/a6/68/27322488d1fc5082eac6cfe0852775830dfb0d49dd32ac38e0f858eeb219/epilogos-0.1.1.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [arize]: Downloading https://files.pythonhosted.org/packages/c6/6f/c9d29bc32a48be533c77beb34044e5b9b02e15259037ee825f05fb45a1ab/arize-7.0.6rc2.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [housekeeping]: Downloading https://files.pythonhosted.org/packages/a7/56/2e66e26b44f3970d9d6aed1ab1b5dce8a741bc7f0c2918f222831e130c5a/housekeeping-1.1.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [arize]: executing diffoscope
+[2023-06-24 01:22:04] INFO root fetch - processPackages [arize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize-7.0.6.tar.gz tmp/arize-7.0.6rc2.tar.gz --markdown 20230624/a/arize/7.0.6-7.0.6rc2/diff.md --exclude *.pyd
+[2023-06-24 01:22:04] INFO root fetch - processPackages [meraki]: Downloading https://files.pythonhosted.org/packages/76/fd/d35d51325ea61bafb273cc25f384325274be941afeaf95198490d25602b1/meraki-1.7.2.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [epilogos]: Downloading https://files.pythonhosted.org/packages/67/3e/5e39a871a5869d317b9bb546ba330268bbdce27253c9990b5bcf99fd5dca/epilogos-0.1.2.tar.gz
+[2023-06-24 01:22:04] INFO root fetch - processPackages [housekeeping]: executing diffoscope
+[2023-06-24 01:22:04] INFO root fetch - processPackages [housekeeping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeping-1.0.tar.gz tmp/housekeeping-1.1.tar.gz --markdown 20230624/h/housekeeping/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-24 01:22:04] INFO root fetch - processPackages [meraki]: executing diffoscope
+[2023-06-24 01:22:04] INFO root fetch - processPackages [meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meraki-1.7.1.tar.gz tmp/meraki-1.7.2.tar.gz --markdown 20230624/m/meraki/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-24 01:22:04] INFO root fetch - processPackages [epilogos]: executing diffoscope
+[2023-06-24 01:22:04] INFO root fetch - processPackages [epilogos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epilogos-0.1.1.tar.gz tmp/epilogos-0.1.2.tar.gz --markdown 20230624/e/epilogos/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 01:22:06] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.0.6.tar.gz]
+[2023-06-24 01:22:06] INFO root fetch - processPackages [arize]: Remove: archive file [/home/abi/fetcher/tmp/arize-7.0.6rc2.tar.gz]
+[2023-06-24 01:22:06] INFO root fetch - main [MainThread]: End processing [arize]: success
+[2023-06-24 01:22:06] INFO root fetch - processPackages [housekeeping]: Remove: archive file [/home/abi/fetcher/tmp/housekeeping-1.0.tar.gz]
+[2023-06-24 01:22:06] INFO root fetch - processPackages [housekeeping]: Remove: archive file [/home/abi/fetcher/tmp/housekeeping-1.1.tar.gz]
+[2023-06-24 01:22:06] INFO root fetch - main [MainThread]: End processing [housekeeping]: success
+[2023-06-24 01:22:06] INFO root fetch - processPackages [epilogos]: Remove: archive file [/home/abi/fetcher/tmp/epilogos-0.1.1.tar.gz]
+[2023-06-24 01:22:06] INFO root fetch - processPackages [epilogos]: Remove: archive file [/home/abi/fetcher/tmp/epilogos-0.1.2.tar.gz]
+[2023-06-24 01:22:06] INFO root fetch - main [MainThread]: End processing [epilogos]: success
+[2023-06-24 01:22:07] INFO root fetch - processPackages [meraki]: Remove: archive file [/home/abi/fetcher/tmp/meraki-1.7.1.tar.gz]
+[2023-06-24 01:22:07] INFO root fetch - processPackages [meraki]: Remove: archive file [/home/abi/fetcher/tmp/meraki-1.7.2.tar.gz]
+[2023-06-24 01:22:07] INFO root fetch - main [MainThread]: End processing [meraki]: success
+[2023-06-24 01:22:07] INFO root fetch - main [MainThread]: Store serial: [18624266]
