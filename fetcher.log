@@ -692,3 +692,105 @@
 [2023-06-24 00:34:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
 [2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
 [2023-06-24 00:34:24] INFO root fetch - main [MainThread]: Store serial: [18623973]
+[2023-06-24 00:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623973]
+[2023-06-24 00:39:33] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: messenger-business-api
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjson5
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avocado-framework
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: avocado-framework-plugin-ansible
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: avocado-framework-plugin-golang
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avocado-framework-plugin-result-html
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avocado-framework-plugin-result-upload
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: avocado-framework-plugin-resultsdb
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: avocado-framework-plugin-robot
+[2023-06-24 00:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: avocado-framework-plugin-varianter-cit
+[2023-06-24 00:39:33] INFO root fetch - processPackages [messenger-business-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: New version: [99.0] Old Version: [102.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [pyjson5]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-golang]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-robot]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: New version: [99.0] Old Version: [98.0]
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: Downloading https://files.pythonhosted.org/packages/f4/7d/e047b0d5bcc294a50b7ed22bcd59037d1c43b3ce39287a089c0e4c2779aa/avocado_framework_plugin_ansible-102.0-py3-none-any.whl
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: Downloading https://files.pythonhosted.org/packages/63/66/3e0c8c700fb3c9eacff0d86a7290ca11a69da8c233d1b3e71c6b42f2eec7/avocado-framework-plugin-result-html-98.0.tar.gz
+[2023-06-24 00:39:33] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/58/e0/f9635a4686a7177e08242d8fa469fccaa69d16016dc8244429b4873588a8/messenger-business-api-1.0.3.tar.gz
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-golang]: Downloading https://files.pythonhosted.org/packages/d6/a7/efb5e0d4e2174f1ca3a4d005167d0ec289ac0ba255b790031eda24a6a83b/avocado-framework-plugin-golang-98.0.tar.gz
+[2023-06-24 00:39:33] INFO root fetch - processPackages [avocado-framework-plugin-robot]: Downloading https://files.pythonhosted.org/packages/5a/8b/b06baeb7b2f26fb89252faabe0a05fd468b35179ee5f0eb46a0473e856ea/avocado-framework-plugin-robot-98.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: Downloading https://files.pythonhosted.org/packages/4d/35/e710cb4dc3bb3b5a85c20ec8da862aeeb7281f142c378879972e52e5d807/avocado-framework-plugin-result-upload-98.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [pyjson5]: Downloading https://files.pythonhosted.org/packages/69/b3/17e207cface665563321bccf47466be9ea5e446c205137a3bb08952b104d/pyjson5-1.6.2.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: Downloading https://files.pythonhosted.org/packages/aa/20/0c0327320bdc1a62d5851ee68f130c252534324b133083171d6b50b1b090/avocado-framework-plugin-varianter-cit-98.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: Downloading https://files.pythonhosted.org/packages/fa/88/7a5f85e94d8bf41bce39719ef6d2b5864dafa9af8eb3ef6f8857d30e77a4/avocado-framework-plugin-resultsdb-98.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework]: Downloading https://files.pythonhosted.org/packages/72/44/707f4b6d3f75804f18bf0274ea7acb41b0debaa1081b2284245ae069acc2/avocado-framework-98.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/56/6c/c7189a10d7e1ff19159e7a29bf8544ec524d33832afbeec5bdc5053b8c1a/messenger-business-api-1.0.4.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: Downloading https://files.pythonhosted.org/packages/90/83/a4651a61f2bd5aac9f71581890719bfb2a085143d1464bb81ecd7cea68f3/avocado-framework-plugin-ansible-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [pyjson5]: Downloading https://files.pythonhosted.org/packages/1e/11/8afaa74eeb076c345d8e819e8215d6ae85778f385493cb19227c4d8b4567/pyjson5-1.6.3.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-robot]: Downloading https://files.pythonhosted.org/packages/0f/19/cc8da39a2aafb08fc31a5fe2ef653cac77bcad3dffe0f9339bb2a97d043e/avocado-framework-plugin-robot-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-golang]: Downloading https://files.pythonhosted.org/packages/8a/fe/3a06115e120f336d962b4e8b7a3ff04f0b2f8ded1af0d71e29279c1e28d1/avocado-framework-plugin-golang-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: Downloading https://files.pythonhosted.org/packages/a5/6a/e213f8250cc7e6d9fd27dd954a2f2fde813c288ef2710e76b55b719a70d1/avocado-framework-plugin-result-html-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado_framework_plugin_ansible-102.0-py3-none-any.whl.zip tmp/avocado-framework-plugin-ansible-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-ansible/102.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: Downloading https://files.pythonhosted.org/packages/76/03/7617c3b245554c03368766779c090677f5d862795fced7c2e4592516c107/avocado-framework-plugin-result-upload-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: Downloading https://files.pythonhosted.org/packages/ec/15/d60852d3784b71034e9f8b4db7e7f1d0d7cb305d1e15692caf10c856cfe5/avocado-framework-plugin-varianter-cit-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: Downloading https://files.pythonhosted.org/packages/d5/55/10c4b2996aeca415c50a16814718fc5c2182d14f1b135db46ac7b3b46819/avocado-framework-plugin-resultsdb-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [messenger-business-api]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [messenger-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messenger-business-api-1.0.3.tar.gz tmp/messenger-business-api-1.0.4.tar.gz --markdown 20230624/m/messenger-business-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework]: Downloading https://files.pythonhosted.org/packages/64/21/5dcad778c36c43c3761c26f6feb2a80e9bbb41b58d0e08cf511ddea89a07/avocado-framework-99.0.tar.gz
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-plugin-varianter-cit-98.0.tar.gz tmp/avocado-framework-plugin-varianter-cit-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-varianter-cit/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-robot]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-robot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-plugin-robot-98.0.tar.gz tmp/avocado-framework-plugin-robot-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-robot/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [pyjson5]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [pyjson5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjson5-1.6.2.tar.gz tmp/pyjson5-1.6.3.tar.gz --markdown 20230624/p/pyjson5/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-golang]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-golang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-plugin-golang-98.0.tar.gz tmp/avocado-framework-plugin-golang-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-golang/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-plugin-result-upload-98.0.tar.gz tmp/avocado-framework-plugin-result-upload-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-result-upload/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-plugin-result-html-98.0.tar.gz tmp/avocado-framework-plugin-result-html-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-result-html/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-plugin-resultsdb-98.0.tar.gz tmp/avocado-framework-plugin-resultsdb-99.0.tar.gz --markdown 20230624/a/avocado-framework-plugin-resultsdb/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework]: executing diffoscope
+[2023-06-24 00:39:34] INFO root fetch - processPackages [avocado-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocado-framework-98.0.tar.gz tmp/avocado-framework-99.0.tar.gz --markdown 20230624/a/avocado-framework/98.0-99.0/diff.md --exclude *.pyd
+[2023-06-24 00:39:35] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: Remove: archive file [/home/abi/fetcher/tmp/avocado_framework_plugin_ansible-102.0-py3-none-any.whl.zip]
+[2023-06-24 00:39:35] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-ansible-99.0.tar.gz]
+[2023-06-24 00:39:35] INFO root fetch - processPackages [avocado-framework-plugin-ansible]: Start processing: pulumi-confluentcloud
+[2023-06-24 00:39:35] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-ansible]: success
+[2023-06-24 00:39:36] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-varianter-cit-98.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-varianter-cit]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-varianter-cit-99.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-varianter-cit]: success
+[2023-06-24 00:39:36] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.3.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.4.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - main [MainThread]: End processing [messenger-business-api]: success
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-robot]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-robot-98.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-robot]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-robot-99.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-robot]: success
+[2023-06-24 00:39:36] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-06-24 00:39:36] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-06-24 00:39:36] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230624/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-result-upload-98.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-result-upload]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-result-upload-99.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-result-upload]: success
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-resultsdb-98.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-resultsdb]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-resultsdb-99.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-resultsdb]: success
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-golang]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-golang-98.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - processPackages [avocado-framework-plugin-golang]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-golang-99.0.tar.gz]
+[2023-06-24 00:39:36] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-golang]: success
+[2023-06-24 00:39:37] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-result-html-98.0.tar.gz]
+[2023-06-24 00:39:37] INFO root fetch - processPackages [avocado-framework-plugin-result-html]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-plugin-result-html-99.0.tar.gz]
+[2023-06-24 00:39:37] INFO root fetch - main [MainThread]: End processing [avocado-framework-plugin-result-html]: success
+[2023-06-24 00:39:38] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-06-24 00:39:38] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-06-24 00:39:38] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-06-24 00:39:39] INFO root fetch - processPackages [pyjson5]: Remove: archive file [/home/abi/fetcher/tmp/pyjson5-1.6.2.tar.gz]
+[2023-06-24 00:39:39] INFO root fetch - processPackages [pyjson5]: Remove: archive file [/home/abi/fetcher/tmp/pyjson5-1.6.3.tar.gz]
+[2023-06-24 00:39:39] INFO root fetch - main [MainThread]: End processing [pyjson5]: success
+[2023-06-24 00:39:46] INFO root fetch - processPackages [avocado-framework]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-98.0.tar.gz]
+[2023-06-24 00:39:46] INFO root fetch - processPackages [avocado-framework]: Remove: archive file [/home/abi/fetcher/tmp/avocado-framework-99.0.tar.gz]
+[2023-06-24 00:39:46] INFO root fetch - main [MainThread]: End processing [avocado-framework]: success
+[2023-06-24 00:39:46] INFO root fetch - main [MainThread]: Store serial: [18624053]
