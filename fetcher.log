@@ -521,3 +521,93 @@
 [2023-06-24 00:23:57] INFO root fetch - processPackages [tcod]: Remove: archive file [/home/abi/fetcher/tmp/tcod-9.3.0.tar.gz]
 [2023-06-24 00:23:57] INFO root fetch - main [MainThread]: End processing [tcod]: success
 [2023-06-24 00:23:57] INFO root fetch - main [MainThread]: Store serial: [18623895]
+[2023-06-24 00:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623895]
+[2023-06-24 00:29:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neoaccess
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: messenger-business-api
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysqlchiper-conv
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysqlcipher-conv
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Scrapset
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FBA-Matting
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-terraform-registry
+[2023-06-24 00:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openpy-fxts
+[2023-06-24 00:29:06] INFO root fetch - processPackages [messenger-business-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 00:29:06] WARNING root fetch - processPackages [pysqlcipher-conv]: Skipping, unable to determine old version
+[2023-06-24 00:29:06] INFO root fetch - processPackages [pysqlcipher-conv]: Start processing: pulumi-linode
+[2023-06-24 00:29:06] INFO root fetch - main [MainThread]: End processing [pysqlcipher-conv] error
+[2023-06-24 00:29:06] INFO root fetch - processPackages [neoaccess]: New version: [4.3.1] Old Version: [4.2.0]
+[2023-06-24 00:29:06] WARNING root fetch - processPackages [pysqlchiper-conv]: Skipping, unable to determine old version
+[2023-06-24 00:29:06] INFO root fetch - processPackages [pysqlchiper-conv]: Start processing: heaserver
+[2023-06-24 00:29:06] INFO root fetch - main [MainThread]: End processing [pysqlchiper-conv] error
+[2023-06-24 00:29:06] INFO root fetch - processPackages [Scrapset]: New version: [2.4.0] Old Version: [2.2.0]
+[2023-06-24 00:29:06] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:29:06] INFO root fetch - processPackages [kfish]: New version: [99.0.202306232223] Old Version: [99.0.202306231604]
+[2023-06-24 00:29:06] WARNING root fetch - processPackages [aws-terraform-registry]: Skipping, unable to determine old version
+[2023-06-24 00:29:06] INFO root fetch - processPackages [aws-terraform-registry]: Start processing: monthify
+[2023-06-24 00:29:06] WARNING root fetch - processPackages [openpy-fxts]: Skipping, unable to determine old version
+[2023-06-24 00:29:06] INFO root fetch - main [MainThread]: End processing [aws-terraform-registry] error
+[2023-06-24 00:29:06] WARNING root fetch - processPackages [FBA-Matting]: Skipping, unable to determine old version
+[2023-06-24 00:29:06] INFO root fetch - main [MainThread]: End processing [openpy-fxts] error
+[2023-06-24 00:29:06] INFO root fetch - main [MainThread]: End processing [FBA-Matting] error
+[2023-06-24 00:29:06] INFO root fetch - processPackages [pulumi-linode]: New version: [4.4.0a1687557732] Old Version: [4.3.0a1687424922]
+[2023-06-24 00:29:06] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-24 00:29:06] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/fa/1b/3ae64fd3e67ab0f866f69c616e48e22329793896063e751fd80494dfbc5c/messenger-business-api-1.0.1.tar.gz
+[2023-06-24 00:29:06] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-24 00:29:06] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-24 00:29:06] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/c4/56/f9ed369ef37d9d16a15c995d0e9f9bedc939a6c94641124cfb1a2447b137/Scrapset-2.2.0.tar.gz
+[2023-06-24 00:29:06] INFO root fetch - processPackages [monthify]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-24 00:29:07] INFO root fetch - processPackages [neoaccess]: Downloading https://files.pythonhosted.org/packages/ec/f8/53020fb514c5f562f9b8bf04c7c95ba97fde6889b324b4579ab1a13fc0d1/neoaccess-4.2.0.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/83/be/76c3d57aa68379569630b936df7be1e5acb79702dbfdb1813c83c362a1a2/pulumi_linode-4.3.0a1687424922.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/45/55/c7890c75724d4529e35c914e7dac67d9b7bf4e24da9ecd59cafd1846e344/messenger-business-api-1.0.2.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/a9/ab/adb9cc7fd4bebb2ce4eed510df68c1690fb7323d99900cb48971f4e0ee47/Scrapset-2.4.0.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a7/88/580d69247d7e59cb48e117b062ad9df247161380834bc14ebbdb5be07097/kfish-99.0.202306231604-py3-none-any.whl
+[2023-06-24 00:29:07] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/5d/4f/2d8a6483349c7ab6ee46dbe9c37501872a81fad9c97e2cd3c96ebd527816/monthify-0.3.5.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [messenger-business-api]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-2.2.0.tar.gz tmp/Scrapset-2.4.0.tar.gz --markdown 20230624/S/Scrapset/2.2.0-2.4.0/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [messenger-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messenger-business-api-1.0.1.tar.gz tmp/messenger-business-api-1.0.2.tar.gz --markdown 20230624/m/messenger-business-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230624/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230624/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [pulumi-linode]: Downloading https://files.pythonhosted.org/packages/04/b2/cd68a1f08c902d46c76efb3a319f3c32c224ce57fb2b1c89282c2e5c3ced/pulumi_linode-4.4.0a1687557732.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/aa/25/7a513111f0253f3db2b71d31d7a3947ee6a1314f0169e6dcb8417a2c2209/kfish-99.0.202306232223-py3-none-any.whl
+[2023-06-24 00:29:07] INFO root fetch - processPackages [neoaccess]: Downloading https://files.pythonhosted.org/packages/f7/7d/0023b1098bef6033f57d12b783c72e089852b0ade3a67a6c13f1d729b7ba/neoaccess-4.3.1.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/a4/a2/c0fb4e44c688bb04b36d41f1a91cab506d31fadcde4cfd69b07e90fcb0d2/monthify-0.3.6.tar.gz
+[2023-06-24 00:29:07] INFO root fetch - processPackages [pulumi-linode]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [pulumi-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_linode-4.3.0a1687424922.tar.gz tmp/pulumi_linode-4.4.0a1687557732.tar.gz --markdown 20230624/p/pulumi-linode/4.3.0a1687424922-4.4.0a1687557732/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306231604-py3-none-any.whl.zip tmp/kfish-99.0.202306232223-py3-none-any.whl.zip --markdown 20230624/k/kfish/99.0.202306231604-99.0.202306232223/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [monthify]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [neoaccess]: executing diffoscope
+[2023-06-24 00:29:07] INFO root fetch - processPackages [monthify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monthify-0.3.5.tar.gz tmp/monthify-0.3.6.tar.gz --markdown 20230624/m/monthify/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-24 00:29:07] INFO root fetch - processPackages [neoaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neoaccess-4.2.0.tar.gz tmp/neoaccess-4.3.1.tar.gz --markdown 20230624/n/neoaccess/4.2.0-4.3.1/diff.md --exclude *.pyd
+[2023-06-24 00:29:08] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.1.tar.gz]
+[2023-06-24 00:29:08] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.2.tar.gz]
+[2023-06-24 00:29:08] INFO root fetch - main [MainThread]: End processing [messenger-business-api]: success
+[2023-06-24 00:29:08] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-2.2.0.tar.gz]
+[2023-06-24 00:29:08] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-2.4.0.tar.gz]
+[2023-06-24 00:29:08] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-06-24 00:29:09] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306231604-py3-none-any.whl.zip]
+[2023-06-24 00:29:09] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306232223-py3-none-any.whl.zip]
+[2023-06-24 00:29:09] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-24 00:29:09] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.3.5.tar.gz]
+[2023-06-24 00:29:09] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.3.6.tar.gz]
+[2023-06-24 00:29:09] INFO root fetch - main [MainThread]: End processing [monthify]: success
+[2023-06-24 00:29:09] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-24 00:29:09] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-24 00:29:09] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-24 00:29:09] INFO root fetch - processPackages [neoaccess]: Remove: archive file [/home/abi/fetcher/tmp/neoaccess-4.2.0.tar.gz]
+[2023-06-24 00:29:09] INFO root fetch - processPackages [neoaccess]: Remove: archive file [/home/abi/fetcher/tmp/neoaccess-4.3.1.tar.gz]
+[2023-06-24 00:29:09] INFO root fetch - main [MainThread]: End processing [neoaccess]: success
+[2023-06-24 00:29:10] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.3.0a1687424922.tar.gz]
+[2023-06-24 00:29:10] INFO root fetch - processPackages [pulumi-linode]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_linode-4.4.0a1687557732.tar.gz]
+[2023-06-24 00:29:10] INFO root fetch - main [MainThread]: End processing [pulumi-linode]: success
+[2023-06-24 00:29:13] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-24 00:29:13] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-24 00:29:13] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-24 00:29:13] INFO root fetch - main [MainThread]: Store serial: [18623938]
