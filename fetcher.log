@@ -425,3 +425,99 @@
 [2023-06-24 00:18:40] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
 [2023-06-24 00:18:40] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-06-24 00:18:40] INFO root fetch - main [MainThread]: Store serial: [18623856]
+[2023-06-24 00:23:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623856]
+[2023-06-24 00:23:49] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-functions
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-gui
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hat-syslog
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql-to-sqlite
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tcod
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: generation-models
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-idem
+[2023-06-24 00:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onion-network
+[2023-06-24 00:23:49] INFO root fetch - processPackages [openai-functions]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-24 00:23:49] WARNING root fetch - processPackages [sql-to-sqlite]: Skipping, unable to determine old version
+[2023-06-24 00:23:49] INFO root fetch - processPackages [sql-to-sqlite]: Start processing: kfish
+[2023-06-24 00:23:49] INFO root fetch - main [MainThread]: End processing [sql-to-sqlite] error
+[2023-06-24 00:23:49] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [tcod]: New version: [9.3.0] Old Version: [9.2.5]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [neon-gui]: New version: [1.1.3a7] Old Version: [1.1.3a6]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [hat-syslog]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kfish]: New version: [99.0.202306231604] Old Version: [99.0.202306222257]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kcli]: New version: [99.0.202306232221] Old Version: [99.0.202306231602]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/ae/68/2d132595e0236d631546be55db67c7f561a2f498ed4821bb828ad73cd94c/openai_functions-0.4.1.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [onion-network]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [generation-models]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [pytest-idem]: New version: [4.0.0] Old Version: [3.1.0]
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/53/97/94d0fcf674c240aaba006db3e01d99319e528dee26119ab4dd8aed4e87e4/kfish-99.0.202306222257-py3-none-any.whl
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/4f/ae/740e82286cf2b698128f9de902022ec6d239897a6fba81991191ceec4e89/kcli-99.0.202306231602-py3-none-any.whl
+[2023-06-24 00:23:49] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/c4/47/31d1d3e28bd45705077adac2630b0e0f499d3f0cca89496a551ac6656840/neon_gui-1.1.3a6-py3-none-any.whl
+[2023-06-24 00:23:49] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/62/0f/5a078b47368def9f565d339efa7a0d294167377c91e7053f6d9fdc5c087d/hat_syslog-0.7.6-cp38.cp39.cp310.cp311-none-any.whl
+[2023-06-24 00:23:49] INFO root fetch - processPackages [tcod]: Downloading https://files.pythonhosted.org/packages/5f/39/3216d0ebbb1e8aa877f5431c9ddeac7ff06ccc1599bb732d7dc0be457f92/tcod-9.2.5.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [onion-network]: Downloading https://files.pythonhosted.org/packages/08/17/f8178bd5e3d927f3ace69099647ae24dbab5096e85edfcc86711fe4a3a0a/onion_network-1.0.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a7/88/580d69247d7e59cb48e117b062ad9df247161380834bc14ebbdb5be07097/kfish-99.0.202306231604-py3-none-any.whl
+[2023-06-24 00:23:49] INFO root fetch - processPackages [pytest-idem]: Downloading https://files.pythonhosted.org/packages/60/79/6fbf1e0cd1cc5d44237a197656dd791e69b917350759cba649d8d4bae3ee/pytest-idem-3.1.0.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/6d/c8/0c500f99d50b4e43aa86b4a35a5733aa0a6f0c5ae4fac60980444dd1d8f0/openai_functions-0.4.2.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [generation-models]: Downloading https://files.pythonhosted.org/packages/27/b0/f39153c960541ac92346c4a8bc01ce34a4da957d10392db97c1337d62d5d/generation_models-0.2.1.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/06/5c/b34bf722c4a3a82b54e81f124d1b1b6bb50609598c0165a68b226b96373a/neon_gui-1.1.3a7.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306222257-py3-none-any.whl.zip tmp/kfish-99.0.202306231604-py3-none-any.whl.zip --markdown 20230624/k/kfish/99.0.202306222257-99.0.202306231604/diff.md --exclude *.pyd
+[2023-06-24 00:23:49] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-24 00:23:49] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.4.1.tar.gz tmp/openai_functions-0.4.2.tar.gz --markdown 20230624/o/openai-functions/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/5d/94/bf0b77e99fba235962a9344cc0c8987a89aa8e86e1f6e91113f305b760f6/kcli-99.0.202306232221-py3-none-any.whl
+[2023-06-24 00:23:49] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-24 00:23:49] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306231602-py3-none-any.whl.zip tmp/kcli-99.0.202306232221-py3-none-any.whl.zip --markdown 20230624/k/kcli/99.0.202306231602-99.0.202306232221/diff.md --exclude *.pyd
+[2023-06-24 00:23:49] INFO root fetch - processPackages [neon-gui]: executing diffoscope
+[2023-06-24 00:23:49] INFO root fetch - processPackages [neon-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_gui-1.1.3a6-py3-none-any.whl.zip tmp/neon_gui-1.1.3a7.tar.gz --markdown 20230624/n/neon-gui/1.1.3a6-1.1.3a7/diff.md --exclude *.pyd
+[2023-06-24 00:23:49] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-24 00:23:49] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230624/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:23:49] INFO root fetch - processPackages [onion-network]: Downloading https://files.pythonhosted.org/packages/7e/2b/134eb34ce3313b1736583f8043cc29eb2242bf2154e97fe0022e258cb4f8/onion_network-1.0.1.tar.gz
+[2023-06-24 00:23:49] INFO root fetch - processPackages [pytest-idem]: Downloading https://files.pythonhosted.org/packages/35/60/9cbc4f9a475bd7be49b2f07e05f7d8fd3e3be3a94cc2300f0c77d099b274/pytest-idem-4.0.0.tar.gz
+[2023-06-24 00:23:50] INFO root fetch - processPackages [tcod]: Downloading https://files.pythonhosted.org/packages/74/35/d1552bd3aed75544a87a58c47b29660281ecfc7c3e54438a4b9e9989079e/tcod-9.3.0.tar.gz
+[2023-06-24 00:23:50] INFO root fetch - processPackages [generation-models]: Downloading https://files.pythonhosted.org/packages/67/9e/0cb8d0897230ed9abb05df035eda3243d1560a6a17b240fd674ebc7eb7e5/generation_models-0.2.2.tar.gz
+[2023-06-24 00:23:50] INFO root fetch - processPackages [pytest-idem]: executing diffoscope
+[2023-06-24 00:23:50] INFO root fetch - processPackages [pytest-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-idem-3.1.0.tar.gz tmp/pytest-idem-4.0.0.tar.gz --markdown 20230624/p/pytest-idem/3.1.0-4.0.0/diff.md --exclude *.pyd
+[2023-06-24 00:23:50] INFO root fetch - processPackages [onion-network]: executing diffoscope
+[2023-06-24 00:23:50] INFO root fetch - processPackages [onion-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_network-1.0.tar.gz tmp/onion_network-1.0.1.tar.gz --markdown 20230624/o/onion-network/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 00:23:50] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/39/43/31bc029aef8a07c7f1b09d6965b17749bbef6b121f28329d25233f6e7966/hat_syslog-0.7.7-cp310.cp311-none-any.whl
+[2023-06-24 00:23:50] INFO root fetch - processPackages [generation-models]: executing diffoscope
+[2023-06-24 00:23:50] INFO root fetch - processPackages [generation-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generation_models-0.2.1.tar.gz tmp/generation_models-0.2.2.tar.gz --markdown 20230624/g/generation-models/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-24 00:23:50] INFO root fetch - processPackages [tcod]: executing diffoscope
+[2023-06-24 00:23:50] INFO root fetch - processPackages [tcod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcod-9.2.5.tar.gz tmp/tcod-9.3.0.tar.gz --markdown 20230624/t/tcod/9.2.5-9.3.0/diff.md --exclude *.pyd
+[2023-06-24 00:23:50] INFO root fetch - processPackages [hat-syslog]: executing diffoscope
+[2023-06-24 00:23:50] INFO root fetch - processPackages [hat-syslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_syslog-0.7.6-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_syslog-0.7.7-cp310.cp311-none-any.whl.zip --markdown 20230624/h/hat-syslog/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-24 00:23:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306222257-py3-none-any.whl.zip]
+[2023-06-24 00:23:51] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306231604-py3-none-any.whl.zip]
+[2023-06-24 00:23:51] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-24 00:23:51] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.4.1.tar.gz]
+[2023-06-24 00:23:51] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.4.2.tar.gz]
+[2023-06-24 00:23:51] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-24 00:23:51] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a6-py3-none-any.whl.zip]
+[2023-06-24 00:23:51] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a7.tar.gz]
+[2023-06-24 00:23:51] INFO root fetch - main [MainThread]: End processing [neon-gui]: success
+[2023-06-24 00:23:52] INFO root fetch - processPackages [generation-models]: Remove: archive file [/home/abi/fetcher/tmp/generation_models-0.2.1.tar.gz]
+[2023-06-24 00:23:52] INFO root fetch - processPackages [generation-models]: Remove: archive file [/home/abi/fetcher/tmp/generation_models-0.2.2.tar.gz]
+[2023-06-24 00:23:52] INFO root fetch - main [MainThread]: End processing [generation-models]: success
+[2023-06-24 00:23:52] INFO root fetch - processPackages [onion-network]: Remove: archive file [/home/abi/fetcher/tmp/onion_network-1.0.tar.gz]
+[2023-06-24 00:23:52] INFO root fetch - processPackages [onion-network]: Remove: archive file [/home/abi/fetcher/tmp/onion_network-1.0.1.tar.gz]
+[2023-06-24 00:23:52] INFO root fetch - main [MainThread]: End processing [onion-network]: success
+[2023-06-24 00:23:52] INFO root fetch - processPackages [pytest-idem]: Remove: archive file [/home/abi/fetcher/tmp/pytest-idem-3.1.0.tar.gz]
+[2023-06-24 00:23:52] INFO root fetch - processPackages [pytest-idem]: Remove: archive file [/home/abi/fetcher/tmp/pytest-idem-4.0.0.tar.gz]
+[2023-06-24 00:23:52] INFO root fetch - main [MainThread]: End processing [pytest-idem]: success
+[2023-06-24 00:23:54] INFO root fetch - processPackages [hat-syslog]: Remove: archive file [/home/abi/fetcher/tmp/hat_syslog-0.7.6-cp38.cp39.cp310.cp311-none-any.whl.zip]
+[2023-06-24 00:23:54] INFO root fetch - processPackages [hat-syslog]: Remove: archive file [/home/abi/fetcher/tmp/hat_syslog-0.7.7-cp310.cp311-none-any.whl.zip]
+[2023-06-24 00:23:54] INFO root fetch - main [MainThread]: End processing [hat-syslog]: success
+[2023-06-24 00:23:55] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-24 00:23:55] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-24 00:23:55] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-24 00:23:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306231602-py3-none-any.whl.zip]
+[2023-06-24 00:23:57] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306232221-py3-none-any.whl.zip]
+[2023-06-24 00:23:57] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-24 00:23:57] INFO root fetch - processPackages [tcod]: Remove: archive file [/home/abi/fetcher/tmp/tcod-9.2.5.tar.gz]
+[2023-06-24 00:23:57] INFO root fetch - processPackages [tcod]: Remove: archive file [/home/abi/fetcher/tmp/tcod-9.3.0.tar.gz]
+[2023-06-24 00:23:57] INFO root fetch - main [MainThread]: End processing [tcod]: success
+[2023-06-24 00:23:57] INFO root fetch - main [MainThread]: Store serial: [18623895]
