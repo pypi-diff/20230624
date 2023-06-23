@@ -1707,3 +1707,42 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 01:44:05] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230623233804-py3-none-any.whl.zip]
 [2023-06-24 01:44:05] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-24 01:44:05] INFO root fetch - main [MainThread]: Store serial: [18624429]
+[2023-06-24 01:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624429]
+[2023-06-24 01:49:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chalk-harness
+[2023-06-24 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: describr
+[2023-06-24 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2023-06-24 01:49:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: intel-xai
+[2023-06-24 01:49:14] INFO root fetch - processPackages [chalk-harness]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 01:49:14] INFO root fetch - processPackages [describr]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 01:49:14] INFO root fetch - processPackages [intel-xai]: New version: [0.5.0] Old Version: [0.3.1.dev20230608]
+[2023-06-24 01:49:14] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-06-24 01:49:14] INFO root fetch - processPackages [describr]: Downloading https://files.pythonhosted.org/packages/5b/6a/64dc265939c9ef1982e7ef9c688a8c9fe7eadd1177353e8c54047fead573/describr-0.0.4.tar.gz
+[2023-06-24 01:49:14] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/8e/3a/1b7bcfd68b3fb7e312a8d5dfe975c73f564cd879a55be62b0791d2c939a7/chalk-harness-0.9.8.tar.gz
+[2023-06-24 01:49:14] INFO root fetch - processPackages [intel-xai]: Downloading https://files.pythonhosted.org/packages/73/1d/b0ec5be8d0961f51f47bb2b0bccd70713aa4abdfecb3d99935ed665a2307/intel_xai-0.3.1.dev20230608-py3-none-any.whl
+[2023-06-24 01:49:14] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/03/9b/bb0c0f52cb17eac01abbac01348d951f12bac85014ab1d671932c5579a5b/pulumi_gcp-6.9.0.tar.gz
+[2023-06-24 01:49:14] INFO root fetch - processPackages [describr]: Downloading https://files.pythonhosted.org/packages/c4/e7/e494397ae6435e5f7754dd458f6dff0af19956472c59b447a46c200e22e5/describr-0.0.5.tar.gz
+[2023-06-24 01:49:14] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/5a/a1/ebd94059e71285766b03c097e6d74809a224502f80a4a6bfbcd4279de9d3/chalk-harness-0.9.9.tar.gz
+[2023-06-24 01:49:14] INFO root fetch - processPackages [describr]: executing diffoscope
+[2023-06-24 01:49:14] INFO root fetch - processPackages [describr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/describr-0.0.4.tar.gz tmp/describr-0.0.5.tar.gz --markdown 20230624/d/describr/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 01:49:14] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2023-06-24 01:49:14] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-0.9.8.tar.gz tmp/chalk-harness-0.9.9.tar.gz --markdown 20230624/c/chalk-harness/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 01:49:14] INFO root fetch - processPackages [intel-xai]: Downloading https://files.pythonhosted.org/packages/77/56/3a350be8474ab31e78a72cd4e590eff6279a6f28e9582cd5fdba7435742c/intel_xai-0.5.0-py3-none-any.whl
+[2023-06-24 01:49:14] INFO root fetch - processPackages [intel-xai]: executing diffoscope
+[2023-06-24 01:49:14] INFO root fetch - processPackages [intel-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_xai-0.3.1.dev20230608-py3-none-any.whl.zip tmp/intel_xai-0.5.0-py3-none-any.whl.zip --markdown 20230624/i/intel-xai/0.3.1.dev20230608-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 01:49:15] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/39/74/41d1cc3685622f458efd5675d5dac2a2be81a4c87627192c0fd616107756/pulumi_gcp-6.9.0a1643146354.tar.gz
+[2023-06-24 01:49:15] INFO root fetch - processPackages [describr]: Remove: archive file [/home/abi/fetcher/tmp/describr-0.0.4.tar.gz]
+[2023-06-24 01:49:15] INFO root fetch - processPackages [describr]: Remove: archive file [/home/abi/fetcher/tmp/describr-0.0.5.tar.gz]
+[2023-06-24 01:49:15] INFO root fetch - main [MainThread]: End processing [describr]: success
+[2023-06-24 01:49:16] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-0.9.8.tar.gz]
+[2023-06-24 01:49:16] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-0.9.9.tar.gz]
+[2023-06-24 01:49:16] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2023-06-24 01:49:16] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-06-24 01:49:16] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230624/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-06-24 01:49:16] INFO root fetch - processPackages [intel-xai]: Remove: archive file [/home/abi/fetcher/tmp/intel_xai-0.3.1.dev20230608-py3-none-any.whl.zip]
+[2023-06-24 01:49:16] INFO root fetch - processPackages [intel-xai]: Remove: archive file [/home/abi/fetcher/tmp/intel_xai-0.5.0-py3-none-any.whl.zip]
+[2023-06-24 01:49:16] INFO root fetch - main [MainThread]: End processing [intel-xai]: success
+[2023-06-24 01:49:27] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0.tar.gz]
+[2023-06-24 01:49:27] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
+[2023-06-24 01:49:27] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-06-24 01:49:27] INFO root fetch - main [MainThread]: Store serial: [18624439]
