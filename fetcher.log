@@ -1283,3 +1283,54 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 01:11:43] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
 [2023-06-24 01:11:43] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-06-24 01:11:43] INFO root fetch - main [MainThread]: Store serial: [18624232]
+[2023-06-24 01:16:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624232]
+[2023-06-24 01:16:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simple-locize
+[2023-06-24 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-volumes
+[2023-06-24 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-user-settings
+[2023-06-24 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pointnet
+[2023-06-24 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foreverbull
+[2023-06-24 01:16:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caltechdata-api
+[2023-06-24 01:16:52] INFO root fetch - processPackages [neon-skill-user-settings]: New version: [0.5.2a5] Old Version: [0.5.2a4]
+[2023-06-24 01:16:52] INFO root fetch - processPackages [caltechdata-api]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-06-24 01:16:52] INFO root fetch - processPackages [pointnet]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 01:16:52] WARNING root fetch - processPackages [simple-locize]: Skipping, unable to determine old version
+[2023-06-24 01:16:52] INFO root fetch - processPackages [foreverbull]: New version: [0.0.0.99.20230610094209] Old Version: [0.0.0.92]
+[2023-06-24 01:16:52] INFO root fetch - main [MainThread]: End processing [simple-locize] error
+[2023-06-24 01:16:52] INFO root fetch - processPackages [heaserver-volumes]: New version: [1.0.0a9.post0] Old Version: [1.0.0a9]
+[2023-06-24 01:16:52] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/a7/57/8338fa3ab490528dfe9ec741af8936ce1ac91fbebeb52472cce3fa5749cc/neon-skill-user_settings-0.5.2a4.tar.gz
+[2023-06-24 01:16:52] INFO root fetch - processPackages [caltechdata-api]: Downloading https://files.pythonhosted.org/packages/02/ff/a1ce155609305fff701d2d415132d6b99fd5be3c3095b103eb2741194cd4/caltechdata_api-1.4.1.tar.gz
+[2023-06-24 01:16:52] INFO root fetch - processPackages [pointnet]: Downloading https://files.pythonhosted.org/packages/12/6c/ddd88a8fb688414b4dee8d4fe9f7520107d8f858b00e359013731301b1b0/pointnet-0.0.1-py3-none-any.whl
+[2023-06-24 01:16:52] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/83/5e/402b3d8e197a33b59ae5994459465f8027f487cad42df3747b300fe53dc4/foreverbull-0.0.0.92.tar.gz
+[2023-06-24 01:16:52] INFO root fetch - processPackages [heaserver-volumes]: Downloading https://files.pythonhosted.org/packages/24/cf/9f1736d6c814c2dddbcad71d63fb1d9724dfae3727a4b73fa85e6dc002d5/heaserver-volumes-1.0.0a9.tar.gz
+[2023-06-24 01:16:53] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/2e/bd/48bcbd61a5fd23ca79f81205c0042e5f9ff439d236b4d05b18a696b96300/neon-skill-user_settings-0.5.2a5.tar.gz
+[2023-06-24 01:16:53] INFO root fetch - processPackages [pointnet]: Downloading https://files.pythonhosted.org/packages/5e/7f/173b918e0756f8ebfe8bfcc8b5d47fd3b0bc7de020ed4312d3a5dbc7af4e/pointnet-0.0.2.tar.gz
+[2023-06-24 01:16:53] INFO root fetch - processPackages [caltechdata-api]: Downloading https://files.pythonhosted.org/packages/94/d9/89486a4eef21b205186a3c80fff63180564d374de4580257ddfc526bf072/caltechdata_api-1.4.2.tar.gz
+[2023-06-24 01:16:53] INFO root fetch - processPackages [neon-skill-user-settings]: executing diffoscope
+[2023-06-24 01:16:53] INFO root fetch - processPackages [neon-skill-user-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-user_settings-0.5.2a4.tar.gz tmp/neon-skill-user_settings-0.5.2a5.tar.gz --markdown 20230624/n/neon-skill-user-settings/0.5.2a4-0.5.2a5/diff.md --exclude *.pyd
+[2023-06-24 01:16:53] INFO root fetch - processPackages [foreverbull]: Downloading https://files.pythonhosted.org/packages/6e/c3/cf13499a255fd30c5d6ccd05686ba0af46cbde2f1cb23b7a4e121a7e23ee/foreverbull-0.0.0.99.20230610094209.tar.gz
+[2023-06-24 01:16:53] INFO root fetch - processPackages [pointnet]: executing diffoscope
+[2023-06-24 01:16:53] INFO root fetch - processPackages [pointnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointnet-0.0.1-py3-none-any.whl.zip tmp/pointnet-0.0.2.tar.gz --markdown 20230624/p/pointnet/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 01:16:53] INFO root fetch - processPackages [heaserver-volumes]: Downloading https://files.pythonhosted.org/packages/e6/df/fc0b632aa4f2dd9f5a783089987ae09b93e157b472acd0d468ed58f9245d/heaserver-volumes-1.0.0a9.post0.tar.gz
+[2023-06-24 01:16:53] INFO root fetch - processPackages [foreverbull]: executing diffoscope
+[2023-06-24 01:16:53] INFO root fetch - processPackages [foreverbull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foreverbull-0.0.0.92.tar.gz tmp/foreverbull-0.0.0.99.20230610094209.tar.gz --markdown 20230624/f/foreverbull/0.0.0.92-0.0.0.99.20230610094209/diff.md --exclude *.pyd
+[2023-06-24 01:16:53] INFO root fetch - processPackages [caltechdata-api]: executing diffoscope
+[2023-06-24 01:16:53] INFO root fetch - processPackages [caltechdata-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caltechdata_api-1.4.1.tar.gz tmp/caltechdata_api-1.4.2.tar.gz --markdown 20230624/c/caltechdata-api/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-06-24 01:16:53] INFO root fetch - processPackages [heaserver-volumes]: executing diffoscope
+[2023-06-24 01:16:53] INFO root fetch - processPackages [heaserver-volumes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-volumes-1.0.0a9.tar.gz tmp/heaserver-volumes-1.0.0a9.post0.tar.gz --markdown 20230624/h/heaserver-volumes/1.0.0a9-1.0.0a9.post0/diff.md --exclude *.pyd
+[2023-06-24 01:16:54] INFO root fetch - processPackages [pointnet]: Remove: archive file [/home/abi/fetcher/tmp/pointnet-0.0.1-py3-none-any.whl.zip]
+[2023-06-24 01:16:54] INFO root fetch - processPackages [pointnet]: Remove: archive file [/home/abi/fetcher/tmp/pointnet-0.0.2.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - main [MainThread]: End processing [pointnet]: success
+[2023-06-24 01:16:54] INFO root fetch - processPackages [heaserver-volumes]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-volumes-1.0.0a9.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - processPackages [heaserver-volumes]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-volumes-1.0.0a9.post0.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - main [MainThread]: End processing [heaserver-volumes]: success
+[2023-06-24 01:16:54] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-0.5.2a4.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-0.5.2a5.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
+[2023-06-24 01:16:54] INFO root fetch - processPackages [caltechdata-api]: Remove: archive file [/home/abi/fetcher/tmp/caltechdata_api-1.4.1.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - processPackages [caltechdata-api]: Remove: archive file [/home/abi/fetcher/tmp/caltechdata_api-1.4.2.tar.gz]
+[2023-06-24 01:16:54] INFO root fetch - main [MainThread]: End processing [caltechdata-api]: success
+[2023-06-24 01:16:55] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.92.tar.gz]
+[2023-06-24 01:16:55] INFO root fetch - processPackages [foreverbull]: Remove: archive file [/home/abi/fetcher/tmp/foreverbull-0.0.0.99.20230610094209.tar.gz]
+[2023-06-24 01:16:55] INFO root fetch - main [MainThread]: End processing [foreverbull]: success
+[2023-06-24 01:16:55] INFO root fetch - main [MainThread]: Store serial: [18624254]
