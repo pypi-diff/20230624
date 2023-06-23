@@ -611,3 +611,84 @@
 [2023-06-24 00:29:13] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-24 00:29:13] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-24 00:29:13] INFO root fetch - main [MainThread]: Store serial: [18623938]
+[2023-06-24 00:34:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623938]
+[2023-06-24 00:34:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EclipsingBinaries
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-update
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XoxoDay
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sixth-python
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labelprinterkit
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-activation
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ankilol
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-restit
+[2023-06-24 00:34:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: messenger-business-api
+[2023-06-24 00:34:22] INFO root fetch - processPackages [neon-skill-update]: New version: [0.3.3a3] Old Version: [0.3.3a2]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [sixth-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [XoxoDay]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [messenger-business-api]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 00:34:22] WARNING root fetch - processPackages [ankilol]: Skipping, unable to determine old version
+[2023-06-24 00:34:22] WARNING root fetch - processPackages [django-restit]: Skipping, unable to determine old version
+[2023-06-24 00:34:22] INFO root fetch - main [MainThread]: End processing [ankilol] error
+[2023-06-24 00:34:22] INFO root fetch - main [MainThread]: End processing [django-restit] error
+[2023-06-24 00:34:22] INFO root fetch - processPackages [labelprinterkit]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [torch-activation]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [EclipsingBinaries]: New version: [3.1.5] Old Version: [3.1.3]
+[2023-06-24 00:34:22] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/50/ac/5994f585a48615667f2ae70a774a6e9ab7cc8d9c170c4de3b351f9d041de/XoxoDay-0.0.22.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/bc/f3/c8d941e12dd90fee2fffad28f84ed32465294707d904ba2e575454222138/sixth-python-0.0.8.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/fa/1b/3ae64fd3e67ab0f866f69c616e48e22329793896063e751fd80494dfbc5c/messenger-business-api-1.0.1.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/b2/81/cbd652a79f860968e82708543771fa7a920ef2d513f6b3fd2661dc92702c/labelprinterkit-0.4.0.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [torch-activation]: Downloading https://files.pythonhosted.org/packages/22/75/f6e5034c1a31b92de31c5f6a729aa113c28c664c0ace7a7c0f301a916c19/torch_activation-0.1.1.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/8f/8c/81b1f8775af3219beec82ce3df38f13977c13d1d50f25c8971e3d0312724/neon-skill-update-0.3.3a2.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/23/8d/47cf0b532cf215e8be4c0c71e3744d12444449d49c22bae6728b37c335a3/EclipsingBinaries-3.1.3.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [messenger-business-api]: Downloading https://files.pythonhosted.org/packages/45/55/c7890c75724d4529e35c914e7dac67d9b7bf4e24da9ecd59cafd1846e344/messenger-business-api-1.0.2.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [sixth-python]: Downloading https://files.pythonhosted.org/packages/21/a1/8092f526df9ab29a73f8fb55f51f57cfd6eccdf8240314b92ad814da5dd1/sixth-python-0.0.9.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [messenger-business-api]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [messenger-business-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messenger-business-api-1.0.1.tar.gz tmp/messenger-business-api-1.0.2.tar.gz --markdown 20230624/m/messenger-business-api/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/25/b7/107c02ce9fc7a7f39649f1683f7dcec831eab246f23be3aaec7aa6f30010/labelprinterkit-0.4.1.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [sixth-python]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [sixth-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixth-python-0.0.8.tar.gz tmp/sixth-python-0.0.9.tar.gz --markdown 20230624/s/sixth-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/af/76/c4e9feec32db5290851a380db23c1fac0467d500f8f8a8080434a3d94299/XoxoDay-0.0.23.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.4.0.tar.gz tmp/labelprinterkit-0.4.1.tar.gz --markdown 20230624/l/labelprinterkit/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [torch-activation]: Downloading https://files.pythonhosted.org/packages/b4/5b/16a6b576e4ea770accf5540605e84cf83ff4f17ea97e40be77dd36b5c285/torch_activation-0.1.2.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [neon-skill-update]: Downloading https://files.pythonhosted.org/packages/7d/07/9024f2753fb2e899ef946c2c92f7093c2d2100f6ef393b79657ae8a34dae/neon-skill-update-0.3.3a3.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [EclipsingBinaries]: Downloading https://files.pythonhosted.org/packages/58/87/81236db3b05506a49b04ee9206461ace932502147279f37327bd2c7fff84/EclipsingBinaries-3.1.5.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [XoxoDay]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [XoxoDay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XoxoDay-0.0.22.tar.gz tmp/XoxoDay-0.0.23.tar.gz --markdown 20230624/X/XoxoDay/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-24 00:34:22] INFO root fetch - processPackages [torch-activation]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [torch-activation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_activation-0.1.1.tar.gz tmp/torch_activation-0.1.2.tar.gz --markdown 20230624/t/torch-activation/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [neon-skill-update]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [neon-skill-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-update-0.3.3a2.tar.gz tmp/neon-skill-update-0.3.3a3.tar.gz --markdown 20230624/n/neon-skill-update/0.3.3a2-0.3.3a3/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [EclipsingBinaries]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [EclipsingBinaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EclipsingBinaries-3.1.3.tar.gz tmp/EclipsingBinaries-3.1.5.tar.gz --markdown 20230624/E/EclipsingBinaries/3.1.3-3.1.5/diff.md --exclude *.pyd
+[2023-06-24 00:34:22] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-24 00:34:22] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230624/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 00:34:23] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.1.tar.gz]
+[2023-06-24 00:34:23] INFO root fetch - processPackages [messenger-business-api]: Remove: archive file [/home/abi/fetcher/tmp/messenger-business-api-1.0.2.tar.gz]
+[2023-06-24 00:34:23] INFO root fetch - main [MainThread]: End processing [messenger-business-api]: success
+[2023-06-24 00:34:23] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.0.8.tar.gz]
+[2023-06-24 00:34:23] INFO root fetch - processPackages [sixth-python]: Remove: archive file [/home/abi/fetcher/tmp/sixth-python-0.0.9.tar.gz]
+[2023-06-24 00:34:23] INFO root fetch - main [MainThread]: End processing [sixth-python]: success
+[2023-06-24 00:34:24] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.22.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.23.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [XoxoDay]: success
+[2023-06-24 00:34:24] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-0.3.3a2.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - processPackages [neon-skill-update]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-update-0.3.3a3.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [neon-skill-update]: success
+[2023-06-24 00:34:24] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.0.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.1.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 00:34:24] INFO root fetch - processPackages [torch-activation]: Remove: archive file [/home/abi/fetcher/tmp/torch_activation-0.1.1.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - processPackages [torch-activation]: Remove: archive file [/home/abi/fetcher/tmp/torch_activation-0.1.2.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [torch-activation]: success
+[2023-06-24 00:34:24] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.3.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - processPackages [EclipsingBinaries]: Remove: archive file [/home/abi/fetcher/tmp/EclipsingBinaries-3.1.5.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [EclipsingBinaries]: success
+[2023-06-24 00:34:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-24 00:34:24] INFO root fetch - main [MainThread]: Store serial: [18623973]
