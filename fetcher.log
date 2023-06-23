@@ -887,3 +887,74 @@
 [2023-06-24 00:45:00] INFO root fetch - processPackages [klongpy]: Remove: archive file [/home/abi/fetcher/tmp/klongpy-0.3.72.tar.gz]
 [2023-06-24 00:45:00] INFO root fetch - main [MainThread]: End processing [klongpy]: success
 [2023-06-24 00:45:00] INFO root fetch - main [MainThread]: Store serial: [18624081]
+[2023-06-24 00:50:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624081]
+[2023-06-24 00:50:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reliableGPT
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cetto
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llvm-installer
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sleap-io
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SpaGoG
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ladybug-vectorworks
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tyba-financial-model
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vsiew
+[2023-06-24 00:50:09] INFO root fetch - processPackages [sleap-io]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [SpaGoG]: New version: [0.16] Old Version: [0.15]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.903] Old Version: [0.2.902]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [tyba-financial-model]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [cetto]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [llvm-installer]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ladybug-vectorworks]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [tyba-financial-model]: Downloading https://files.pythonhosted.org/packages/ad/a3/77458f547e8f5a90f512931b5a634c1d169814b4dfd6cf9ff3e9ffd26e04/tyba_financial_model-0.1.1.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/10/e2/6dc15b2b917725e82d08546e92e3d7388e7c9d0d0c6c7b9c56cfa7a7897e/reliableGPT-0.2.902.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [cetto]: Downloading https://files.pythonhosted.org/packages/07/bd/4955c258172da9be918bdc449c46e30ccacd75ecf63d5a83eb9856f59f24/cetto-0.0.5.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/f6/2c/82f72c50e052fa6791a8a6d25f348814d0cd5ae3ca9cee99d1e78ed0cafe/SpaGoG-0.15.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/81/ef/a82103d7a3be6927549aac6923f2eb99569ef8e0535ef5fd3a89860b4531/sleap_io-0.0.4-py3-none-any.whl
+[2023-06-24 00:50:09] INFO root fetch - processPackages [vsiew]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-06-24 00:50:09] INFO root fetch - processPackages [llvm-installer]: Downloading https://files.pythonhosted.org/packages/9e/9c/3c454dfc0d6f90bbe656ba06546751ed6638fda2d96b12b053fb67f17f63/llvm-installer-1.3.4.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [ladybug-vectorworks]: Downloading https://files.pythonhosted.org/packages/e3/63/a44fe7c5b4c3e5d95d8c185c9be511fa131c95da93a3e3cba6713e3ef348/ladybug_vectorworks-0.2.0-py3-none-any.whl
+[2023-06-24 00:50:09] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping package: exceeds size limit 38648499>=10485760
+[2023-06-24 00:50:09] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-06-24 00:50:09] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/58/2c/6185f425e75be93c7cd276424eeb134d8d6e43463427da369ab8d7b091df/reliableGPT-0.2.903.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [cetto]: Downloading https://files.pythonhosted.org/packages/8e/12/a693ff4822a3aaa0ebc45678e2ede22eb70eb0a681b4195737ac5ec4905d/cetto-0.0.6.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [tyba-financial-model]: Downloading https://files.pythonhosted.org/packages/78/21/58098c6834fd46b1d3aa4d4799833cb9af64262e79fc02ae159f8706c976/tyba_financial_model-0.1.2.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [SpaGoG]: Downloading https://files.pythonhosted.org/packages/20/14/0d6a2ea664998e9f34c3eee241c7159af4dee42a7d84d8cd677c0f88f32a/SpaGoG-0.16.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/66/9d/b5310f68d0016f8b7ddd883986d5d432b91284f60cd6794b565e619e3457/vsiew-2.3.5.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/48/a0/b78baf938643d1b19c3bdcd35dc95e9aac93d3f95d1be6a95b46729bd2b3/sleap_io-0.0.5-py3-none-any.whl
+[2023-06-24 00:50:09] INFO root fetch - processPackages [cetto]: executing diffoscope
+[2023-06-24 00:50:09] INFO root fetch - processPackages [cetto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cetto-0.0.5.tar.gz tmp/cetto-0.0.6.tar.gz --markdown 20230624/c/cetto/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 00:50:09] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-24 00:50:09] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.902.tar.gz tmp/reliableGPT-0.2.903.tar.gz --markdown 20230624/r/reliableGPT/0.2.902-0.2.903/diff.md --exclude *.pyd
+[2023-06-24 00:50:09] INFO root fetch - processPackages [llvm-installer]: Downloading https://files.pythonhosted.org/packages/96/0e/cca17c34ff3d8fc89d7382a92e8edaca6d93690690157554d5456eaadb01/llvm-installer-1.3.5.tar.gz
+[2023-06-24 00:50:09] INFO root fetch - processPackages [sleap-io]: executing diffoscope
+[2023-06-24 00:50:09] INFO root fetch - processPackages [sleap-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleap_io-0.0.4-py3-none-any.whl.zip tmp/sleap_io-0.0.5-py3-none-any.whl.zip --markdown 20230624/s/sleap-io/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 00:50:09] INFO root fetch - processPackages [SpaGoG]: executing diffoscope
+[2023-06-24 00:50:09] INFO root fetch - processPackages [SpaGoG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpaGoG-0.15.tar.gz tmp/SpaGoG-0.16.tar.gz --markdown 20230624/S/SpaGoG/0.15-0.16/diff.md --exclude *.pyd
+[2023-06-24 00:50:09] INFO root fetch - processPackages [tyba-financial-model]: executing diffoscope
+[2023-06-24 00:50:09] INFO root fetch - processPackages [tyba-financial-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyba_financial_model-0.1.1.tar.gz tmp/tyba_financial_model-0.1.2.tar.gz --markdown 20230624/t/tyba-financial-model/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 00:50:09] INFO root fetch - processPackages [llvm-installer]: executing diffoscope
+[2023-06-24 00:50:09] INFO root fetch - processPackages [llvm-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llvm-installer-1.3.4.tar.gz tmp/llvm-installer-1.3.5.tar.gz --markdown 20230624/l/llvm-installer/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-24 00:50:09] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/b5/92/9a4cc943c467f75a976fccb1faa7015c31c1829f7dd16326ad5eeb8f059f/vsiew-2.3.6.tar.gz
+[2023-06-24 00:50:10] INFO root fetch - processPackages [vsiew]: executing diffoscope
+[2023-06-24 00:50:10] INFO root fetch - processPackages [vsiew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsiew-2.3.5.tar.gz tmp/vsiew-2.3.6.tar.gz --markdown 20230624/v/vsiew/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-06-24 00:50:10] INFO root fetch - processPackages [cetto]: Remove: archive file [/home/abi/fetcher/tmp/cetto-0.0.5.tar.gz]
+[2023-06-24 00:50:10] INFO root fetch - processPackages [cetto]: Remove: archive file [/home/abi/fetcher/tmp/cetto-0.0.6.tar.gz]
+[2023-06-24 00:50:10] INFO root fetch - main [MainThread]: End processing [cetto]: success
+[2023-06-24 00:50:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.902.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.903.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-24 00:50:11] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.15.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - processPackages [SpaGoG]: Remove: archive file [/home/abi/fetcher/tmp/SpaGoG-0.16.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [SpaGoG]: success
+[2023-06-24 00:50:11] INFO root fetch - processPackages [tyba-financial-model]: Remove: archive file [/home/abi/fetcher/tmp/tyba_financial_model-0.1.1.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - processPackages [tyba-financial-model]: Remove: archive file [/home/abi/fetcher/tmp/tyba_financial_model-0.1.2.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [tyba-financial-model]: success
+[2023-06-24 00:50:11] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.4-py3-none-any.whl.zip]
+[2023-06-24 00:50:11] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.5-py3-none-any.whl.zip]
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [sleap-io]: success
+[2023-06-24 00:50:11] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.3.5.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.3.6.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [vsiew]: success
+[2023-06-24 00:50:11] INFO root fetch - processPackages [llvm-installer]: Remove: archive file [/home/abi/fetcher/tmp/llvm-installer-1.3.4.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - processPackages [llvm-installer]: Remove: archive file [/home/abi/fetcher/tmp/llvm-installer-1.3.5.tar.gz]
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [llvm-installer]: success
+[2023-06-24 00:50:11] INFO root fetch - main [MainThread]: Store serial: [18624101]
