@@ -958,3 +958,91 @@
 [2023-06-24 00:50:11] INFO root fetch - processPackages [llvm-installer]: Remove: archive file [/home/abi/fetcher/tmp/llvm-installer-1.3.5.tar.gz]
 [2023-06-24 00:50:11] INFO root fetch - main [MainThread]: End processing [llvm-installer]: success
 [2023-06-24 00:50:11] INFO root fetch - main [MainThread]: Store serial: [18624101]
+[2023-06-24 00:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624101]
+[2023-06-24 00:55:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vsiew
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nepalitokenizers
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BeeDrive
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Droplet-Detector
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tapescript
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tapescript
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CoLT5-attention
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agixt
+[2023-06-24 00:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langflow
+[2023-06-24 00:55:20] WARNING root fetch - processPackages [nepalitokenizers]: Skipping, unable to determine old version
+[2023-06-24 00:55:20] INFO root fetch - processPackages [nepalitokenizers]: Start processing: mixture-of-attention
+[2023-06-24 00:55:20] INFO root fetch - main [MainThread]: End processing [nepalitokenizers] error
+[2023-06-24 00:55:20] INFO root fetch - processPackages [vsiew]: New version: [2.3.6] Old Version: [2.3.5]
+[2023-06-24 00:55:20] WARNING root fetch - processPackages [Droplet-Detector]: Skipping, unable to determine old version
+[2023-06-24 00:55:20] INFO root fetch - main [MainThread]: End processing [Droplet-Detector] error
+[2023-06-24 00:55:20] INFO root fetch - processPackages [langflow]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [BeeDrive]: New version: [0.3.5.5] Old Version: [0.3.5.4]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [CoLT5-attention]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [tapescript]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [tapescript]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [mixture-of-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 00:55:20] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/08/5a/020f77bea7ba8191c63a35219cbebe1d6eab1fe1ecc642b70e434c59175e/CoLT5-attention-0.8.1.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/66/9d/b5310f68d0016f8b7ddd883986d5d432b91284f60cd6794b565e619e3457/vsiew-2.3.5.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/0d/22/2dd6caf2d14841f29b91fbb951059a47b568dfb047bf621a4873a2d92924/mixture-of-attention-0.0.8.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/8b/56/ef217121d02bcfba4b36deb2bbd8209a4edfda5a7de32f58483ea18b5b85/langflow-0.1.7.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/08/62/93780fd7396e83a3d32ce90988a2ef0e48f6d327d981b1b9e4a244dbd3cb/tapescript-0.1.3.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/08/62/93780fd7396e83a3d32ce90988a2ef0e48f6d327d981b1b9e4a244dbd3cb/tapescript-0.1.3.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [BeeDrive]: Downloading https://files.pythonhosted.org/packages/04/98/419871cca83fbe8838a91cdd55ecf4b6e9d310e7b51190a67e7948da4be3/BeeDrive-0.3.5.4.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [CoLT5-attention]: Downloading https://files.pythonhosted.org/packages/df/03/116d9dfdbb93326dde6f8a2bec26f18e4861ec6f83c9eabdf7683a204717/CoLT5-attention-0.9.0.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [mixture-of-attention]: Downloading https://files.pythonhosted.org/packages/67/a6/a1d065797692d42fe3810427aa234b035b69869ee0f257f19c58020fa8e3/mixture-of-attention-0.0.9.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/b5/92/9a4cc943c467f75a976fccb1faa7015c31c1829f7dd16326ad5eeb8f059f/vsiew-2.3.6.tar.gz
+[2023-06-24 00:55:20] INFO root fetch - processPackages [vsiew]: executing diffoscope
+[2023-06-24 00:55:20] INFO root fetch - processPackages [vsiew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsiew-2.3.5.tar.gz tmp/vsiew-2.3.6.tar.gz --markdown 20230624/v/vsiew/2.3.5-2.3.6/diff.md --exclude *.pyd
+[2023-06-24 00:55:20] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-24 00:55:20] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230624/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [mixture-of-attention]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [mixture-of-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixture-of-attention-0.0.8.tar.gz tmp/mixture-of-attention-0.0.9.tar.gz --markdown 20230624/m/mixture-of-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [CoLT5-attention]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [CoLT5-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoLT5-attention-0.8.1.tar.gz tmp/CoLT5-attention-0.9.0.tar.gz --markdown 20230624/C/CoLT5-attention/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [BeeDrive]: Downloading https://files.pythonhosted.org/packages/4d/de/03c70508482db79c67820a384884de3655f2a158c84a91d476723b1d642b/BeeDrive-0.3.5.5.tar.gz
+[2023-06-24 00:55:21] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/6e/55/894ba0b2f04a1e0c8ec08d49ccc4ea8101ea1f54d9be9713d9a2a18b6023/langflow-0.2.0.tar.gz
+[2023-06-24 00:55:21] INFO root fetch - processPackages [BeeDrive]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [BeeDrive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BeeDrive-0.3.5.4.tar.gz tmp/BeeDrive-0.3.5.5.tar.gz --markdown 20230624/B/BeeDrive/0.3.5.4-0.3.5.5/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-24 00:55:21] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230624/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.1.7.tar.gz tmp/langflow-0.2.0.tar.gz --markdown 20230624/l/langflow/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/75/41/03ce5c520559449b8a37aad4e3102b9b54b630167d67950d1802507ffee8/tapescript-0.2.0.tar.gz
+[2023-06-24 00:55:21] INFO root fetch - processPackages [tapescript]: Downloading https://files.pythonhosted.org/packages/75/41/03ce5c520559449b8a37aad4e3102b9b54b630167d67950d1802507ffee8/tapescript-0.2.0.tar.gz
+[2023-06-24 00:55:21] INFO root fetch - processPackages [tapescript]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [tapescript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapescript-0.1.3.tar.gz tmp/tapescript-0.2.0.tar.gz --markdown 20230624/t/tapescript/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 00:55:21] INFO root fetch - processPackages [tapescript]: executing diffoscope
+[2023-06-24 00:55:21] INFO root fetch - processPackages [tapescript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapescript-0.1.3.tar.gz tmp/tapescript-0.2.0.tar.gz --markdown 20230624/t/tapescript/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 00:55:22] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.3.5.tar.gz]
+[2023-06-24 00:55:22] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.3.6.tar.gz]
+[2023-06-24 00:55:22] INFO root fetch - main [MainThread]: End processing [vsiew]: success
+[2023-06-24 00:55:22] INFO root fetch - processPackages [CoLT5-attention]: Remove: archive file [/home/abi/fetcher/tmp/CoLT5-attention-0.8.1.tar.gz]
+[2023-06-24 00:55:22] INFO root fetch - processPackages [CoLT5-attention]: Remove: archive file [/home/abi/fetcher/tmp/CoLT5-attention-0.9.0.tar.gz]
+[2023-06-24 00:55:22] INFO root fetch - main [MainThread]: End processing [CoLT5-attention]: success
+[2023-06-24 00:55:22] INFO root fetch - processPackages [BeeDrive]: Remove: archive file [/home/abi/fetcher/tmp/BeeDrive-0.3.5.4.tar.gz]
+[2023-06-24 00:55:22] INFO root fetch - processPackages [BeeDrive]: Remove: archive file [/home/abi/fetcher/tmp/BeeDrive-0.3.5.5.tar.gz]
+[2023-06-24 00:55:22] INFO root fetch - main [MainThread]: End processing [BeeDrive]: success
+[2023-06-24 00:55:23] INFO root fetch - processPackages [mixture-of-attention]: Remove: archive file [/home/abi/fetcher/tmp/mixture-of-attention-0.0.8.tar.gz]
+[2023-06-24 00:55:23] INFO root fetch - processPackages [mixture-of-attention]: Remove: archive file [/home/abi/fetcher/tmp/mixture-of-attention-0.0.9.tar.gz]
+[2023-06-24 00:55:23] INFO root fetch - main [MainThread]: End processing [mixture-of-attention]: success
+[2023-06-24 00:55:25] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-24 00:55:25] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-24 00:55:25] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-24 00:55:35] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.1.3.tar.gz]
+[2023-06-24 00:55:35] INFO root fetch - processPackages [tapescript]: Remove: archive file [/home/abi/fetcher/tmp/tapescript-0.2.0.tar.gz]
+[2023-06-24 00:55:35] INFO root fetch - main [MainThread]: End processing [tapescript]: success
+[2023-06-24 00:55:35] INFO root fetch - main [MainThread]: End processing [tapescript]: success
+[2023-06-24 00:55:49] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.1.7.tar.gz]
+[2023-06-24 00:55:49] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.2.0.tar.gz]
+[2023-06-24 00:55:49] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-24 00:55:55] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-24 00:55:55] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-24 00:55:55] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-24 00:55:55] INFO root fetch - main [MainThread]: Store serial: [18624142]
