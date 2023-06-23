@@ -1076,3 +1076,144 @@
 [2023-06-24 01:01:10] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-06-24 01:01:10] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-06-24 01:01:10] INFO root fetch - main [MainThread]: Store serial: [18624152]
+[2023-06-24 01:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624152]
+[2023-06-24 01:06:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythoncryptographypackage
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getpaper
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-translation
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: morss
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: napari
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt-cu101
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: confapi
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latch
+[2023-06-24 01:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flwr-nightly
+[2023-06-24 01:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pythoncryptographypackage
+[2023-06-24 01:06:20] INFO root fetch - processPackages [morss]: New version: [20230623.2301] Old Version: [20221213.2216]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [getpaper]: New version: [0.1.6] Old Version: [0.1.4]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [neon-skill-translation]: New version: [0.3.1a4] Old Version: [0.3.1a3]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [napari]: New version: [0.4.9rc3] Old Version: [0.4.9rc2]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [confapi]: New version: [0.2] Old Version: [0.1]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230623] Old Version: [0.7.0b20230622]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/94/ac/67158daa5bba519575c9e11e0808998d7f4ee311acffd1b8512e91cffcdf/napari-0.4.9rc2.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/4d/00/25ca25391844006a057b9c0e28daf73211285b71c0ba64f01d272000c340/tmnt-cu101-0.7.0b20230622.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230623] Old Version: [1.5.0.dev20230621]
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: Downloading https://files.pythonhosted.org/packages/ff/8f/6ca627401a4097ffa6098aad7ac63cfd9874990f63a601377b31fa9b2ef9/pythoncryptographypackage-1.0.0.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: Downloading https://files.pythonhosted.org/packages/ff/8f/6ca627401a4097ffa6098aad7ac63cfd9874990f63a601377b31fa9b2ef9/pythoncryptographypackage-1.0.0.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [neon-skill-translation]: Downloading https://files.pythonhosted.org/packages/9b/5e/e2bd91785068d1186bc3078407aceb2c66dd73e59cb7ad2854b09723d70a/neon-skill-translation-0.3.1a3.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/fe/59/21e006097f9ceab850199736c9cb9fe1487805ba1d816cba5c93ae98dd7b/getpaper-0.1.4.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [morss]: Downloading https://files.pythonhosted.org/packages/60/0d/60a6241e44b61816a5837d20fe3bbc195882dfdb61990edc680c3dd19a64/morss-20221213.2216.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [confapi]: Downloading https://files.pythonhosted.org/packages/be/3b/c8bd71febf15d2f59947e3fd7948178c813fa1d001ab72d80d0edd46d20f/confapi-0.1.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [napari]: Downloading https://files.pythonhosted.org/packages/1b/4c/d0eb81702c5009d60f3ef04222671898f04d97d6cf073aac05a3b7376526/napari-0.4.9rc3.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/07/ed/fc94cced07d3626306d35271049568a47ea42909e117585e7ce4ab4480ac/tmnt-cu101-0.7.0b20230623.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [napari]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-0.4.9rc2.tar.gz tmp/napari-0.4.9rc3.tar.gz --markdown 20230624/n/napari/0.4.9rc2-0.4.9rc3/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/41/76/332f411db04993a906293333b9719849a4fd6a79764080b5fe3188a20ec5/getpaper-0.1.6.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [confapi]: Downloading https://files.pythonhosted.org/packages/7a/8b/6b0838b22d41730ed7c345d51c527310f8114c8b5a0646b852dbc7f5ea00/confapi-0.2.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/12/f5/22bcc8334c31c53d1a438b6f45b0f81d83a2fe4ae77dabdf2a25cc47a1a6/flwr_nightly-1.5.0.dev20230621.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [morss]: Downloading https://files.pythonhosted.org/packages/0e/e5/e9a7e87bd9561c8c8b93062b7997058f488a816589849b4ef5426cac2824/morss-20230623.2301.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: Downloading https://files.pythonhosted.org/packages/76/22/c7bb86a30be606d9b4af9405be081668def991fddc1d4af2621f3d09e70d/pythoncryptographypackage-1.1.0.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: Downloading https://files.pythonhosted.org/packages/76/22/c7bb86a30be606d9b4af9405be081668def991fddc1d4af2621f3d09e70d/pythoncryptographypackage-1.1.0.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [neon-skill-translation]: Downloading https://files.pythonhosted.org/packages/30/d7/df64df2c712f81593e86a1eff0e5b0a93ffb040e01b532f9d7bc9bf3d9dc/neon-skill-translation-0.3.1a4.tar.gz
+[2023-06-24 01:06:20] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230622.tar.gz tmp/tmnt-cu101-0.7.0b20230623.tar.gz --markdown 20230624/t/tmnt-cu101/0.7.0b20230622-0.7.0b20230623/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [confapi]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [confapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confapi-0.1.tar.gz tmp/confapi-0.2.tar.gz --markdown 20230624/c/confapi/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230624/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [getpaper]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [getpaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpaper-0.1.4.tar.gz tmp/getpaper-0.1.6.tar.gz --markdown 20230624/g/getpaper/0.1.4-0.1.6/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptographypackage-1.0.0.tar.gz tmp/pythoncryptographypackage-1.1.0.tar.gz --markdown 20230624/p/pythoncryptographypackage/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [pythoncryptographypackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythoncryptographypackage-1.0.0.tar.gz tmp/pythoncryptographypackage-1.1.0.tar.gz --markdown 20230624/p/pythoncryptographypackage/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [morss]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [morss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morss-20221213.2216.tar.gz tmp/morss-20230623.2301.tar.gz --markdown 20230624/m/morss/20221213.2216-20230623.2301/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [neon-skill-translation]: executing diffoscope
+[2023-06-24 01:06:20] INFO root fetch - processPackages [neon-skill-translation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-translation-0.3.1a3.tar.gz tmp/neon-skill-translation-0.3.1a4.tar.gz --markdown 20230624/n/neon-skill-translation/0.3.1a3-0.3.1a4/diff.md --exclude *.pyd
+[2023-06-24 01:06:20] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4e/60/926bf3b5781b2f61405229a08066f0ee8a52159aa5b34d430950c38ed951/flwr_nightly-1.5.0.dev20230623.tar.gz
+[2023-06-24 01:06:21] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-06-24 01:06:21] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230621.tar.gz tmp/flwr_nightly-1.5.0.dev20230623.tar.gz --markdown 20230624/f/flwr-nightly/1.5.0.dev20230621-1.5.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 01:06:22] INFO root fetch - processPackages [pythoncryptographypackage]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptographypackage-1.0.0.tar.gz]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [pythoncryptographypackage]: Remove: archive file [/home/abi/fetcher/tmp/pythoncryptographypackage-1.1.0.tar.gz]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [pythoncryptographypackage]: Start processing: tmnt
+[2023-06-24 01:06:22] INFO root fetch - main [MainThread]: End processing [pythoncryptographypackage]: success
+[2023-06-24 01:06:22] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230623] Old Version: [0.7.0b20230622]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/45/42/c4c6eac9064ec67e35f6341eb71634a9792f1051bd91304b6f96a90c23e0/tmnt-0.7.0b20230622.tar.gz
+[2023-06-24 01:06:22] INFO root fetch - processPackages [confapi]: Remove: archive file [/home/abi/fetcher/tmp/confapi-0.1.tar.gz]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [confapi]: Remove: archive file [/home/abi/fetcher/tmp/confapi-0.2.tar.gz]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [confapi]: Start processing: musicntwrk
+[2023-06-24 01:06:22] INFO root fetch - main [MainThread]: End processing [confapi]: success
+[2023-06-24 01:06:22] INFO root fetch - processPackages [musicntwrk]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-06-24 01:06:22] ERROR root fetch - processPackages [pythoncryptographypackage]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
+
+[2023-06-24 01:06:22] INFO root fetch - processPackages [pythoncryptographypackage]: Start processing: echolog
+[2023-06-24 01:06:22] INFO root fetch - main [MainThread]: End processing [pythoncryptographypackage] error
+[2023-06-24 01:06:22] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.1.4.tar.gz]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.1.6.tar.gz]
+[2023-06-24 01:06:22] INFO root fetch - processPackages [getpaper]: Start processing: pypeec
+[2023-06-24 01:06:22] INFO root fetch - main [MainThread]: End processing [getpaper]: success
+[2023-06-24 01:06:22] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/b5/d5/d7ac03cbcafca8f6ce5af2928235051faa8063523d2176822106fd7bcc8b/tmnt-0.7.0b20230623.tar.gz
+[2023-06-24 01:06:22] INFO root fetch - processPackages [echolog]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 01:06:22] WARNING root fetch - processPackages [pypeec]: Skipping, unable to determine old version
+[2023-06-24 01:06:22] INFO root fetch - main [MainThread]: End processing [pypeec] error
+[2023-06-24 01:06:22] INFO root fetch - processPackages [echolog]: Downloading https://files.pythonhosted.org/packages/74/16/31aa51a1158699fac3cb103ee33b3c2eeb941796c233ccef431b20951ccb/echolog-0.0.4.tar.gz
+[2023-06-24 01:06:22] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/db/b0/33a1d7d52fd51dce61dfff102411b95254fdc0a41aaf69600c7f5d277b8a/musicntwrk-2.2.8.tar.gz
+[2023-06-24 01:06:22] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-06-24 01:06:22] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230622.tar.gz tmp/tmnt-0.7.0b20230623.tar.gz --markdown 20230624/t/tmnt/0.7.0b20230622-0.7.0b20230623/diff.md --exclude *.pyd
+[2023-06-24 01:06:23] INFO root fetch - processPackages [echolog]: Downloading https://files.pythonhosted.org/packages/a7/1e/c844cf1784c6ecad559bd97a373e184f6b1762e228e819752a4eb536370e/echolog-0.0.5.tar.gz
+[2023-06-24 01:06:23] INFO root fetch - processPackages [neon-skill-translation]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-translation-0.3.1a3.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - processPackages [neon-skill-translation]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-translation-0.3.1a4.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - main [MainThread]: End processing [neon-skill-translation]: success
+[2023-06-24 01:06:23] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230622.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230623.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-24 01:06:23] INFO root fetch - processPackages [morss]: Remove: archive file [/home/abi/fetcher/tmp/morss-20221213.2216.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - processPackages [morss]: Remove: archive file [/home/abi/fetcher/tmp/morss-20230623.2301.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - main [MainThread]: End processing [morss]: success
+[2023-06-24 01:06:23] INFO root fetch - processPackages [echolog]: executing diffoscope
+[2023-06-24 01:06:23] INFO root fetch - processPackages [echolog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echolog-0.0.4.tar.gz tmp/echolog-0.0.5.tar.gz --markdown 20230624/e/echolog/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 01:06:23] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-24 01:06:23] INFO root fetch - processPackages [musicntwrk]: Downloading https://files.pythonhosted.org/packages/eb/54/cfcd0ec154a945cf9ea03456f0b5db99228d517531e7f6568ba971ed433e/musicntwrk-2.2.9.tar.gz
+[2023-06-24 01:06:23] INFO root fetch - processPackages [musicntwrk]: executing diffoscope
+[2023-06-24 01:06:23] INFO root fetch - processPackages [musicntwrk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicntwrk-2.2.8.tar.gz tmp/musicntwrk-2.2.9.tar.gz --markdown 20230624/m/musicntwrk/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-06-24 01:06:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230621.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230623.tar.gz]
+[2023-06-24 01:06:23] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-06-24 01:06:24] INFO root fetch - processPackages [echolog]: Remove: archive file [/home/abi/fetcher/tmp/echolog-0.0.4.tar.gz]
+[2023-06-24 01:06:24] INFO root fetch - processPackages [echolog]: Remove: archive file [/home/abi/fetcher/tmp/echolog-0.0.5.tar.gz]
+[2023-06-24 01:06:24] INFO root fetch - main [MainThread]: End processing [echolog]: success
+[2023-06-24 01:06:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230622.tar.gz]
+[2023-06-24 01:06:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230623.tar.gz]
+[2023-06-24 01:06:24] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-06-24 01:06:25] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.2.8.tar.gz]
+[2023-06-24 01:06:25] INFO root fetch - processPackages [musicntwrk]: Remove: archive file [/home/abi/fetcher/tmp/musicntwrk-2.2.9.tar.gz]
+[2023-06-24 01:06:25] INFO root fetch - main [MainThread]: End processing [musicntwrk]: success
+[2023-06-24 01:06:30] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc2.tar.gz]
+[2023-06-24 01:06:30] INFO root fetch - processPackages [napari]: Remove: archive file [/home/abi/fetcher/tmp/napari-0.4.9rc3.tar.gz]
+[2023-06-24 01:06:30] INFO root fetch - main [MainThread]: End processing [napari]: success
+[2023-06-24 01:06:30] INFO root fetch - main [MainThread]: Store serial: [18624204]
