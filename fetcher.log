@@ -342,3 +342,86 @@
 [2023-06-24 00:13:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-24 00:13:26] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-24 00:13:26] INFO root fetch - main [MainThread]: Store serial: [18623827]
+[2023-06-24 00:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18623827]
+[2023-06-24 00:18:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morel
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Scrapset
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satmut-utils
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NeuroGraph
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-hcloud
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyThorlabsTC300
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-skill-stock
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sleap-io
+[2023-06-24 00:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-kubernetes
+[2023-06-24 00:18:35] INFO root fetch - processPackages [morel]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [Scrapset]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [satmut-utils]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [neon-skill-stock]: New version: [0.3.1a5] Old Version: [0.3.1a4]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pyThorlabsTC300]: New version: [0.3] Old Version: [0.2]
+[2023-06-24 00:18:35] WARNING root fetch - processPackages [NeuroGraph]: Skipping, unable to determine old version
+[2023-06-24 00:18:35] INFO root fetch - main [MainThread]: End processing [NeuroGraph] error
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-hcloud]: New version: [1.9.0a1657117726] Old Version: [1.9.0a1654086467]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev90] Old Version: [0.6.3.dev89]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [sleap-io]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-06-24 00:18:35] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/08/d4/06e548ae4d773ecfed662d4c80b70663371b79633ab556c452a31ce067d0/neon-skill-stock-0.3.1a4.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/6d/9e/a8f45c79ebddc6b21e5cc27b403feebf237a87fc2f98fdad669f4baaf742/Scrapset-2.1.0.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ba/a4/6c41a4f50461ed3028a83a534b2370550bfd5ae0fb6dd3efba44e06a2547/pulumi_kubernetes-3.8.3.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/44/be/23135454c286cf78ae20f6c81535425067a7905bb84f9d66fb62fa6c59c4/sleap_io-0.0.2-py3-none-any.whl
+[2023-06-24 00:18:35] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/db/93/cfea446cdeb1ca044581bb3077dc3037522c4d953b67e53c054b0c3d028a/khoj_assistant-0.6.3.dev89.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [satmut-utils]: Downloading https://files.pythonhosted.org/packages/4b/1b/2697ef2eb5e7fc90aaeb8fbe64d2c24069dbd0871f1fb6b23e5c7f66273f/satmut_utils-1.0.2.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pyThorlabsTC300]: Downloading https://files.pythonhosted.org/packages/22/db/8b0f74ec672f00ade88685a3136ef91e87b1b0446a88ac2f21d0cdcdbbed/pyThorlabsTC300-0.2.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/1e/de/85c84bdc98af81b1861ea03167e7faad6dd7b509bfdcee385939fe2050ca/morel-1.5.2.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/9e/22/c81b563f1969f4bcdaa7c4060d0d67a0d9deb4bc415487e125f459e269e7/pulumi_hcloud-1.9.0a1654086467.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [sleap-io]: Downloading https://files.pythonhosted.org/packages/04/49/2016cea141ae11041479e54286d8b835472177f0f349ac909c4ed26a3397/sleap_io-0.0.3-py3-none-any.whl
+[2023-06-24 00:18:35] WARNING root fetch - processPackages [satmut-utils]: Skipping package: exceeds size limit 11980401>=10485760
+[2023-06-24 00:18:35] INFO root fetch - main [MainThread]: End processing [satmut-utils] error
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [neon-skill-stock]: Downloading https://files.pythonhosted.org/packages/67/c8/8449e0b60a13da9e097fe66bec91067b22af24c81411d30afa1e37e2e614/neon-skill-stock-0.3.1a5.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/c4/56/f9ed369ef37d9d16a15c995d0e9f9bedc939a6c94641124cfb1a2447b137/Scrapset-2.2.0.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [sleap-io]: executing diffoscope
+[2023-06-24 00:18:35] INFO root fetch - processPackages [sleap-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleap_io-0.0.2-py3-none-any.whl.zip tmp/sleap_io-0.0.3-py3-none-any.whl.zip --markdown 20230624/s/sleap-io/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230624/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-06-24 00:18:35] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/30/40/07fa1441054a85247393422af0a58e083ef344aeac70d1c308bc9d7bdd78/khoj_assistant-0.6.3.dev90.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-06-24 00:18:35] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-2.1.0.tar.gz tmp/Scrapset-2.2.0.tar.gz --markdown 20230624/S/Scrapset/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-24 00:18:35] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/84/86/d3d5a8084fa50cf7cbdb435c3444214ab72a28fb06cb22058a02519978aa/morel-1.6.0.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [neon-skill-stock]: executing diffoscope
+[2023-06-24 00:18:35] INFO root fetch - processPackages [neon-skill-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-stock-0.3.1a4.tar.gz tmp/neon-skill-stock-0.3.1a5.tar.gz --markdown 20230624/n/neon-skill-stock/0.3.1a4-0.3.1a5/diff.md --exclude *.pyd
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pulumi-hcloud]: Downloading https://files.pythonhosted.org/packages/de/c3/b526f6942ee390fb3e0e080d961419b28ee26cada0150934184297ffeb15/pulumi_hcloud-1.9.0a1657117726.tar.gz
+[2023-06-24 00:18:35] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-24 00:18:35] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.5.2.tar.gz tmp/morel-1.6.0.tar.gz --markdown 20230624/m/morel/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-24 00:18:35] INFO root fetch - processPackages [pyThorlabsTC300]: Downloading https://files.pythonhosted.org/packages/93/67/5d7276fafde185c051d9e847bb1f8d2c1d6685611e48af70230c4c587036/pyThorlabsTC300-0.3.tar.gz
+[2023-06-24 00:18:36] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-24 00:18:36] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev89.tar.gz tmp/khoj_assistant-0.6.3.dev90.tar.gz --markdown 20230624/k/khoj-assistant/0.6.3.dev89-0.6.3.dev90/diff.md --exclude *.pyd
+[2023-06-24 00:18:36] INFO root fetch - processPackages [pyThorlabsTC300]: executing diffoscope
+[2023-06-24 00:18:36] INFO root fetch - processPackages [pyThorlabsTC300]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyThorlabsTC300-0.2.tar.gz tmp/pyThorlabsTC300-0.3.tar.gz --markdown 20230624/p/pyThorlabsTC300/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-24 00:18:36] INFO root fetch - processPackages [pulumi-hcloud]: executing diffoscope
+[2023-06-24 00:18:36] INFO root fetch - processPackages [pulumi-hcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz --markdown 20230624/p/pulumi-hcloud/1.9.0a1654086467-1.9.0a1657117726/diff.md --exclude *.pyd
+[2023-06-24 00:18:37] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.2-py3-none-any.whl.zip]
+[2023-06-24 00:18:37] INFO root fetch - processPackages [sleap-io]: Remove: archive file [/home/abi/fetcher/tmp/sleap_io-0.0.3-py3-none-any.whl.zip]
+[2023-06-24 00:18:37] INFO root fetch - main [MainThread]: End processing [sleap-io]: success
+[2023-06-24 00:18:37] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-2.1.0.tar.gz]
+[2023-06-24 00:18:37] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-2.2.0.tar.gz]
+[2023-06-24 00:18:37] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-06-24 00:18:37] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-0.3.1a4.tar.gz]
+[2023-06-24 00:18:37] INFO root fetch - processPackages [neon-skill-stock]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-stock-0.3.1a5.tar.gz]
+[2023-06-24 00:18:37] INFO root fetch - main [MainThread]: End processing [neon-skill-stock]: success
+[2023-06-24 00:18:37] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.5.2.tar.gz]
+[2023-06-24 00:18:37] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.0.tar.gz]
+[2023-06-24 00:18:37] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-24 00:18:38] INFO root fetch - processPackages [pyThorlabsTC300]: Remove: archive file [/home/abi/fetcher/tmp/pyThorlabsTC300-0.2.tar.gz]
+[2023-06-24 00:18:38] INFO root fetch - processPackages [pyThorlabsTC300]: Remove: archive file [/home/abi/fetcher/tmp/pyThorlabsTC300-0.3.tar.gz]
+[2023-06-24 00:18:38] INFO root fetch - main [MainThread]: End processing [pyThorlabsTC300]: success
+[2023-06-24 00:18:38] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1654086467.tar.gz]
+[2023-06-24 00:18:38] INFO root fetch - processPackages [pulumi-hcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_hcloud-1.9.0a1657117726.tar.gz]
+[2023-06-24 00:18:38] INFO root fetch - main [MainThread]: End processing [pulumi-hcloud]: success
+[2023-06-24 00:18:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev89.tar.gz]
+[2023-06-24 00:18:39] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev90.tar.gz]
+[2023-06-24 00:18:39] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-24 00:18:40] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.8.3.tar.gz]
+[2023-06-24 00:18:40] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-06-24 00:18:40] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-06-24 00:18:40] INFO root fetch - main [MainThread]: Store serial: [18623856]
