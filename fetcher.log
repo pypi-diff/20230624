@@ -9914,3 +9914,61 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 07:19:37] INFO root fetch - processPackages [cocotbext-pcie]: Remove: archive file [/home/abi/fetcher/tmp/cocotbext-pcie-0.2.8.tar.gz]
 [2023-06-24 07:19:37] INFO root fetch - main [MainThread]: End processing [cocotbext-pcie]: success
 [2023-06-24 07:19:37] INFO root fetch - main [MainThread]: Store serial: [18627351]
+[2023-06-24 07:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627351]
+[2023-06-24 07:24:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fakesnow
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keymap-drawer
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: almavik
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: k3down2
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: almavik
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drupaljsonapiclient
+[2023-06-24 07:24:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EDA-recordk
+[2023-06-24 07:24:46] INFO root fetch - processPackages [fakesnow]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-24 07:24:46] INFO root fetch - processPackages [almavik]: New version: [362] Old Version: [361]
+[2023-06-24 07:24:46] INFO root fetch - processPackages [EDA-recordk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 07:24:46] INFO root fetch - processPackages [k3down2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 07:24:46] INFO root fetch - processPackages [almavik]: New version: [362] Old Version: [361]
+[2023-06-24 07:24:46] INFO root fetch - processPackages [keymap-drawer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-24 07:24:46] INFO root fetch - processPackages [k3down2]: Downloading https://files.pythonhosted.org/packages/2d/1b/389c1d6c26563e824fb4f626982b65548881178eacb2cab2d18a7a43b2ba/k3down2-0.1.8.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [drupaljsonapiclient]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 07:24:47] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/04/bb/18bb1751741c192ba359485966895e948049ba18fa1f3db80e3f6ae752d0/EDA_recordk-1.0.0-py3-none-any.whl
+[2023-06-24 07:24:47] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/04/70/83bebb13a8764fda18ab82474d293821c3cd5a90a5158a6160e0531c44f9/almavik-361.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/04/70/83bebb13a8764fda18ab82474d293821c3cd5a90a5158a6160e0531c44f9/almavik-361.tar.gz
+[2023-06-24 07:24:47] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85082342>=10485760
+[2023-06-24 07:24:47] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-24 07:24:47] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85082342>=10485760
+[2023-06-24 07:24:47] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-24 07:24:47] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/02/c1/342feaefb755c72190f1b94b8460bf874850f06f8f1afe572b15600ce1eb/keymap_drawer-0.8.0-py3-none-any.whl
+[2023-06-24 07:24:47] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/49/e7/e15b5d800b2e32630f06dd793d0dd15c415150b72a9a67f22e89e915c6be/fakesnow-0.1.0.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [k3down2]: Downloading https://files.pythonhosted.org/packages/d8/74/3ec8660e29e1af704ecd02fab74ce3ad6f73933170fad99b6e7799050655/k3down2-0.1.9.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/0f/ab/5d74575eabdd2e211811707e735ccbc1016e4874ef8175c5ec59660ce543/drupaljsonapiclient-1.0.0.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/d0/e2/6332254f4c3c184823bbf230df56ae97e1d9d681106a660d75eb7ad17d65/EDA_recordk-1.0.1-py3-none-any.whl
+[2023-06-24 07:24:47] INFO root fetch - processPackages [k3down2]: executing diffoscope
+[2023-06-24 07:24:47] INFO root fetch - processPackages [k3down2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k3down2-0.1.8.tar.gz tmp/k3down2-0.1.9.tar.gz --markdown 20230624/k/k3down2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 07:24:47] INFO root fetch - processPackages [EDA-recordk]: executing diffoscope
+[2023-06-24 07:24:47] INFO root fetch - processPackages [EDA-recordk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDA_recordk-1.0.0-py3-none-any.whl.zip tmp/EDA_recordk-1.0.1-py3-none-any.whl.zip --markdown 20230624/E/EDA-recordk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 07:24:47] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/e0/64/5774919b5f54125aedcd31dab164f792dbfe0adf5e797a21dc6156fc30be/fakesnow-0.2.0.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/ab/01/dd63e69388a7661d3d81d7c06be238627021a9165bb755783bbbcb693d74/keymap_drawer-0.9.0-py3-none-any.whl
+[2023-06-24 07:24:47] INFO root fetch - processPackages [drupaljsonapiclient]: Downloading https://files.pythonhosted.org/packages/dc/f2/2af8a8137af748fc4820887a5d0d4d2cb39917cb3459ea2af7628d2b326b/drupaljsonapiclient-1.0.1.tar.gz
+[2023-06-24 07:24:47] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2023-06-24 07:24:47] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.1.0.tar.gz tmp/fakesnow-0.2.0.tar.gz --markdown 20230624/f/fakesnow/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 07:24:47] INFO root fetch - processPackages [drupaljsonapiclient]: executing diffoscope
+[2023-06-24 07:24:47] INFO root fetch - processPackages [drupaljsonapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drupaljsonapiclient-1.0.0.tar.gz tmp/drupaljsonapiclient-1.0.1.tar.gz --markdown 20230624/d/drupaljsonapiclient/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 07:24:47] INFO root fetch - processPackages [keymap-drawer]: executing diffoscope
+[2023-06-24 07:24:47] INFO root fetch - processPackages [keymap-drawer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip --markdown 20230624/k/keymap-drawer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 07:24:48] INFO root fetch - processPackages [k3down2]: Remove: archive file [/home/abi/fetcher/tmp/k3down2-0.1.8.tar.gz]
+[2023-06-24 07:24:48] INFO root fetch - processPackages [k3down2]: Remove: archive file [/home/abi/fetcher/tmp/k3down2-0.1.9.tar.gz]
+[2023-06-24 07:24:48] INFO root fetch - main [MainThread]: End processing [k3down2]: success
+[2023-06-24 07:24:48] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.0-py3-none-any.whl.zip]
+[2023-06-24 07:24:48] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.1-py3-none-any.whl.zip]
+[2023-06-24 07:24:48] INFO root fetch - main [MainThread]: End processing [EDA-recordk]: success
+[2023-06-24 07:24:49] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.0.tar.gz]
+[2023-06-24 07:24:49] INFO root fetch - processPackages [drupaljsonapiclient]: Remove: archive file [/home/abi/fetcher/tmp/drupaljsonapiclient-1.0.1.tar.gz]
+[2023-06-24 07:24:49] INFO root fetch - main [MainThread]: End processing [drupaljsonapiclient]: success
+[2023-06-24 07:24:49] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.1.0.tar.gz]
+[2023-06-24 07:24:49] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.2.0.tar.gz]
+[2023-06-24 07:24:49] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2023-06-24 07:25:42] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip]
+[2023-06-24 07:25:42] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip]
+[2023-06-24 07:25:42] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
+[2023-06-24 07:25:42] INFO root fetch - main [MainThread]: Store serial: [18627372]
