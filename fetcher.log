@@ -7062,3 +7062,70 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:28:09] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.3.0.tar.gz]
 [2023-06-24 04:28:09] INFO root fetch - main [MainThread]: End processing [even-dist]: success
 [2023-06-24 04:28:09] INFO root fetch - main [MainThread]: Store serial: [18626344]
+[2023-06-24 04:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626344]
+[2023-06-24 04:33:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidocr-api
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidocr-web
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dimstack
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidocr-onnxruntime
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapidocr-openvino
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mayatk
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netdem
+[2023-06-24 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yter
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-onnxruntime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-web]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [dimstack]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [netdem]: New version: [1.21] Old Version: [1.2]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [mayatk]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [yter]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-openvino]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-24 04:33:19] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/08/34/9cdded3678a7f8fb6224d50842b113247def47e600a6b2fbb05494120b3f/yter-3.0.0.tar.gz
+[2023-06-24 04:33:19] INFO root fetch - processPackages [dimstack]: Downloading https://files.pythonhosted.org/packages/c7/e3/00e6e2e931454b4cb680f897ac9452f86a3675cdb4ce4e1acfcb7752c7ff/dimstack-0.1.0.tar.gz
+[2023-06-24 04:33:19] INFO root fetch - processPackages [netdem]: Downloading https://files.pythonhosted.org/packages/bb/17/9bf83d7d9424b334112460789af121c8a81024760264dbe188492496d20e/netdem-1.2-cp311-cp311-manylinux2014_x86_64.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-onnxruntime]: Downloading https://files.pythonhosted.org/packages/69/da/333dc321825b1da48c8e2760e58d9b64d7431cec083e89fa719102b99dba/rapidocr_onnxruntime-1.2.8-py3-none-any.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-api]: Downloading https://files.pythonhosted.org/packages/2f/8f/080eb4f701810f7fd36a9215fea4280f878bb88629718153b05740587063/rapidocr_api-0.0.3-py3-none-any.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-openvino]: Downloading https://files.pythonhosted.org/packages/84/b4/d898eebf016a6f875cb116ae4c6cd5e7e9931fb2508a6d6960f44d3ef2ff/rapidocr_openvino-1.2.8-py3-none-any.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/48/98/e3f1591927f7b8716a555e142a47ceab81ed8a79ed3eca89201adc25b7d7/mayatk-0.6.3.tar.gz
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-web]: Downloading https://files.pythonhosted.org/packages/47/41/69a5ca1e8b5ad91cd9c47bfca8cee64f3817b57e3b9f50556295799be628/rapidocr_web-0.1.7-py3-none-any.whl
+[2023-06-24 04:33:19] WARNING root fetch - processPackages [rapidocr-openvino]: Skipping package: exceeds size limit 12342232>=10485760
+[2023-06-24 04:33:19] INFO root fetch - main [MainThread]: End processing [rapidocr-openvino] error
+[2023-06-24 04:33:19] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/84/1e/6f3c4d09c6f214c59aff15073ae3316a0ba719c7713dff92cb5935ba7421/yter-3.0.1.tar.gz
+[2023-06-24 04:33:19] INFO root fetch - processPackages [dimstack]: Downloading https://files.pythonhosted.org/packages/10/78/2ba5bb514c45fb7ddf7639f3a026e6f4c90dda88c4e442f96589efef3784/dimstack-0.2.0.tar.gz
+[2023-06-24 04:33:19] INFO root fetch - processPackages [yter]: executing diffoscope
+[2023-06-24 04:33:19] INFO root fetch - processPackages [yter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yter-3.0.0.tar.gz tmp/yter-3.0.1.tar.gz --markdown 20230624/y/yter/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-24 04:33:19] INFO root fetch - processPackages [netdem]: Downloading https://files.pythonhosted.org/packages/fe/17/d1a68ec7da51b0ed982e574678e817a14c9928fedb6ab5b0963afd0c471a/netdem-1.21-cp38-cp38-manylinux1_x86_64.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-api]: Downloading https://files.pythonhosted.org/packages/52/32/ca1adf5914c4732a3ed7e2e910b858f0d42123034cf72badd31e46ec3e77/rapidocr_api-0.0.4-py3-none-any.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [dimstack]: executing diffoscope
+[2023-06-24 04:33:19] INFO root fetch - processPackages [dimstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimstack-0.1.0.tar.gz tmp/dimstack-0.2.0.tar.gz --markdown 20230624/d/dimstack/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-web]: Downloading https://files.pythonhosted.org/packages/3b/4d/b20d8c1479f3f85f094fbfbe149cb58195fcfce5e66587b7d9383a57a48a/rapidocr_web-0.1.8-py3-none-any.whl
+[2023-06-24 04:33:19] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/2f/53/48f7474e903913126c4be9da6a44e7642991514f360a3710d47f0ced13db/mayatk-0.6.4.tar.gz
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-api]: executing diffoscope
+[2023-06-24 04:33:19] INFO root fetch - processPackages [rapidocr-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_api-0.0.3-py3-none-any.whl.zip tmp/rapidocr_api-0.0.4-py3-none-any.whl.zip --markdown 20230624/r/rapidocr-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 04:33:20] INFO root fetch - processPackages [netdem]: executing diffoscope
+[2023-06-24 04:33:20] INFO root fetch - processPackages [netdem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdem-1.2-cp311-cp311-manylinux2014_x86_64.whl.zip tmp/netdem-1.21-cp38-cp38-manylinux1_x86_64.whl.zip --markdown 20230624/n/netdem/1.2-1.21/diff.md --exclude *.pyd
+[2023-06-24 04:33:20] INFO root fetch - processPackages [rapidocr-web]: executing diffoscope
+[2023-06-24 04:33:20] INFO root fetch - processPackages [rapidocr-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidocr_web-0.1.7-py3-none-any.whl.zip tmp/rapidocr_web-0.1.8-py3-none-any.whl.zip --markdown 20230624/r/rapidocr-web/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-24 04:33:20] INFO root fetch - processPackages [mayatk]: executing diffoscope
+[2023-06-24 04:33:20] INFO root fetch - processPackages [mayatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayatk-0.6.3.tar.gz tmp/mayatk-0.6.4.tar.gz --markdown 20230624/m/mayatk/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-06-24 04:33:20] WARNING root fetch - processPackages [rapidocr-onnxruntime]: Skipping package: exceeds size limit 12326258>=10485760
+[2023-06-24 04:33:20] INFO root fetch - main [MainThread]: End processing [rapidocr-onnxruntime] error
+[2023-06-24 04:33:21] INFO root fetch - processPackages [dimstack]: Remove: archive file [/home/abi/fetcher/tmp/dimstack-0.1.0.tar.gz]
+[2023-06-24 04:33:21] INFO root fetch - processPackages [dimstack]: Remove: archive file [/home/abi/fetcher/tmp/dimstack-0.2.0.tar.gz]
+[2023-06-24 04:33:21] INFO root fetch - main [MainThread]: End processing [dimstack]: success
+[2023-06-24 04:33:21] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.0.0.tar.gz]
+[2023-06-24 04:33:21] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.0.1.tar.gz]
+[2023-06-24 04:33:21] INFO root fetch - main [MainThread]: End processing [yter]: success
+[2023-06-24 04:33:21] INFO root fetch - processPackages [rapidocr-api]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_api-0.0.3-py3-none-any.whl.zip]
+[2023-06-24 04:33:21] INFO root fetch - processPackages [rapidocr-api]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_api-0.0.4-py3-none-any.whl.zip]
+[2023-06-24 04:33:21] INFO root fetch - main [MainThread]: End processing [rapidocr-api]: success
+[2023-06-24 04:33:21] INFO root fetch - processPackages [rapidocr-web]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_web-0.1.7-py3-none-any.whl.zip]
+[2023-06-24 04:33:21] INFO root fetch - processPackages [rapidocr-web]: Remove: archive file [/home/abi/fetcher/tmp/rapidocr_web-0.1.8-py3-none-any.whl.zip]
+[2023-06-24 04:33:21] INFO root fetch - main [MainThread]: End processing [rapidocr-web]: success
+[2023-06-24 04:33:22] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.3.tar.gz]
+[2023-06-24 04:33:22] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.4.tar.gz]
+[2023-06-24 04:33:22] INFO root fetch - main [MainThread]: End processing [mayatk]: success
+[2023-06-24 04:33:22] INFO root fetch - processPackages [netdem]: Remove: archive file [/home/abi/fetcher/tmp/netdem-1.2-cp311-cp311-manylinux2014_x86_64.whl.zip]
+[2023-06-24 04:33:22] INFO root fetch - processPackages [netdem]: Remove: archive file [/home/abi/fetcher/tmp/netdem-1.21-cp38-cp38-manylinux1_x86_64.whl.zip]
+[2023-06-24 04:33:22] INFO root fetch - main [MainThread]: End processing [netdem]: success
+[2023-06-24 04:33:22] INFO root fetch - main [MainThread]: Store serial: [18626370]
