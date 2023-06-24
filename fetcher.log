@@ -10331,3 +10331,99 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:02:58] INFO root fetch - processPackages [sog4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sog4onnx-1.0.9.tar.gz]
 [2023-06-24 08:02:58] INFO root fetch - main [MainThread]: End processing [sog4onnx]: success
 [2023-06-24 08:02:58] INFO root fetch - main [MainThread]: Store serial: [18627534]
+[2023-06-24 08:08:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627534]
+[2023-06-24 08:08:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: badi-users
+[2023-06-24 08:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alfred-cli
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-onnx-processing-tools
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: w3bstream-client-python
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplug
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jplaw
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyg-nightly
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: multion
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchlearn
+[2023-06-24 08:08:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fictional-names
+[2023-06-24 08:08:07] INFO root fetch - processPackages [badi-users]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [alfred-cli]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [jplaw]: New version: [0.1.1] Old Version: [0.1]
+[2023-06-24 08:08:07] WARNING root fetch - processPackages [w3bstream-client-python]: Skipping, unable to determine old version
+[2023-06-24 08:08:07] INFO root fetch - processPackages [w3bstream-client-python]: Start processing: pqp
+[2023-06-24 08:08:07] INFO root fetch - main [MainThread]: End processing [w3bstream-client-python] error
+[2023-06-24 08:08:07] INFO root fetch - processPackages [torchlearn]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simple-onnx-processing-tools]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simplug]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [fictional-names]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230623] Old Version: [2.4.0.dev20230622]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pqp]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 08:08:07] INFO root fetch - processPackages [torchlearn]: Downloading https://files.pythonhosted.org/packages/18/c7/3f79cd4b10206fe9cf33b3f4231c7747ffd59a9743936177c5a43d643ea2/torchlearn-0.2.1.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [alfred-cli]: Downloading https://files.pythonhosted.org/packages/ba/9d/d13a233e3a19fa29b5c03e5c755b827f3ef400d3230ccabfa08b7a648387/alfred_cli-2.1.0.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [fictional-names]: Downloading https://files.pythonhosted.org/packages/75/68/1418dff362c682528011b84bd16f5b9569f61ff88a6e19c04c06faeeba2c/fictional_names-0.0.5.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/39/11/524205f0250a2169085c261544708bf1c31b1998d0c5442f284902b7ce20/pyg_nightly-2.4.0.dev20230622.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/7d/e9/b151c20c6168949d7d61ac1fb31bdbb72a0b7021aa8b30e97bce0070e849/pqp-0.3.0.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/b2/06/7c7a91045129a64a182fb20828603187b88bba960a9f3f4a182e3f10141f/jplaw-0.1-py3-none-any.whl
+[2023-06-24 08:08:07] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/ae/59/609f6ce4186dec2bf9feed36a6ce6d054e2ca3805b4743718990383aada7/badi_users-1.1.0.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simple-onnx-processing-tools]: Downloading https://files.pythonhosted.org/packages/3f/f4/92df8a57b9bcea54014b43b0770d7180cc4a8a391ae2633a195977439cac/simple_onnx_processing_tools-1.1.8.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simplug]: Downloading https://files.pythonhosted.org/packages/1a/63/caf51359b8f4c9fa88526e1b08f4732e9beff30ac96e4ba16be94a0301db/simplug-0.3.0.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/dc/a2/2bb71399480daf3543aa56e4af421651eeded9cdf10c9c3024d67e7ef294/pqp-0.3.1.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [torchlearn]: Downloading https://files.pythonhosted.org/packages/3b/09/1be4bfab3589aacabeedae41192945b9e3869adbfd5d5fd5c3d4d7810012/torchlearn-0.2.2.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230624/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [alfred-cli]: Downloading https://files.pythonhosted.org/packages/65/4e/5173a691a98b8e0933c3147930a3d18b4a016adfb8ff600b3063d6fd21b4/alfred_cli-2.1.1.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/49/b6/b42b48ebcc412a2baa430c3d123570687f82f6b847893ba925d829928876/pyg_nightly-2.4.0.dev20230623.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/09/cb/ff33ffccb475968c712c6af5e85fa90b6571e0a36f23bc3c344ba99793a8/jplaw-0.1.1.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [fictional-names]: Downloading https://files.pythonhosted.org/packages/1d/11/debc923f1c64dc7bf22448375a73b7e00b27d9406717df5f4b775a4af874/fictional_names-0.0.6.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [torchlearn]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [torchlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlearn-0.2.1.tar.gz tmp/torchlearn-0.2.2.tar.gz --markdown 20230624/t/torchlearn/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pqp]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqp-0.3.0.tar.gz tmp/pqp-0.3.1.tar.gz --markdown 20230624/p/pqp/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [alfred-cli]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [alfred-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred_cli-2.1.0.tar.gz tmp/alfred_cli-2.1.1.tar.gz --markdown 20230624/a/alfred-cli/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/ac/41/da412e8769a7dd6189bce6eb2c92ad82efd50c623fbab6e36d97b0b063cd/badi_users-1.1.1.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1-py3-none-any.whl.zip tmp/jplaw-0.1.1.tar.gz --markdown 20230624/j/jplaw/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230622.tar.gz tmp/pyg_nightly-2.4.0.dev20230623.tar.gz --markdown 20230624/p/pyg-nightly/2.4.0.dev20230622-2.4.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [fictional-names]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [fictional-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fictional_names-0.0.5.tar.gz tmp/fictional_names-0.0.6.tar.gz --markdown 20230624/f/fictional-names/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simplug]: Downloading https://files.pythonhosted.org/packages/cc/a7/6b3a19e34a381c55dcb4391e20e19ace36824e6029f05f96b39a2ec09c35/simplug-0.3.1.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-1.1.0.tar.gz tmp/badi_users-1.1.1.tar.gz --markdown 20230624/b/badi-users/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simple-onnx-processing-tools]: Downloading https://files.pythonhosted.org/packages/bf/72/77720ef0c0527d0fe245204514e2d72ac6fa100c69e63a5b7516ba21ad1c/simple_onnx_processing_tools-1.1.9.tar.gz
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simplug]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simplug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplug-0.3.0.tar.gz tmp/simplug-0.3.1.tar.gz --markdown 20230624/s/simplug/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simple-onnx-processing-tools]: executing diffoscope
+[2023-06-24 08:08:07] INFO root fetch - processPackages [simple-onnx-processing-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_onnx_processing_tools-1.1.8.tar.gz tmp/simple_onnx_processing_tools-1.1.9.tar.gz --markdown 20230624/s/simple-onnx-processing-tools/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-24 08:08:08] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-06-24 08:08:08] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-06-24 08:08:08] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-06-24 08:08:09] INFO root fetch - processPackages [torchlearn]: Remove: archive file [/home/abi/fetcher/tmp/torchlearn-0.2.1.tar.gz]
+[2023-06-24 08:08:09] INFO root fetch - processPackages [torchlearn]: Remove: archive file [/home/abi/fetcher/tmp/torchlearn-0.2.2.tar.gz]
+[2023-06-24 08:08:09] INFO root fetch - main [MainThread]: End processing [torchlearn]: success
+[2023-06-24 08:08:09] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1-py3-none-any.whl.zip]
+[2023-06-24 08:08:09] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.1.tar.gz]
+[2023-06-24 08:08:09] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-06-24 08:08:09] INFO root fetch - processPackages [alfred-cli]: Remove: archive file [/home/abi/fetcher/tmp/alfred_cli-2.1.0.tar.gz]
+[2023-06-24 08:08:09] INFO root fetch - processPackages [alfred-cli]: Remove: archive file [/home/abi/fetcher/tmp/alfred_cli-2.1.1.tar.gz]
+[2023-06-24 08:08:09] INFO root fetch - main [MainThread]: End processing [alfred-cli]: success
+[2023-06-24 08:08:10] INFO root fetch - processPackages [fictional-names]: Remove: archive file [/home/abi/fetcher/tmp/fictional_names-0.0.5.tar.gz]
+[2023-06-24 08:08:10] INFO root fetch - processPackages [fictional-names]: Remove: archive file [/home/abi/fetcher/tmp/fictional_names-0.0.6.tar.gz]
+[2023-06-24 08:08:10] INFO root fetch - main [MainThread]: End processing [fictional-names]: success
+[2023-06-24 08:08:10] INFO root fetch - processPackages [simplug]: Remove: archive file [/home/abi/fetcher/tmp/simplug-0.3.0.tar.gz]
+[2023-06-24 08:08:10] INFO root fetch - processPackages [simplug]: Remove: archive file [/home/abi/fetcher/tmp/simplug-0.3.1.tar.gz]
+[2023-06-24 08:08:10] INFO root fetch - main [MainThread]: End processing [simplug]: success
+[2023-06-24 08:08:10] INFO root fetch - processPackages [simple-onnx-processing-tools]: Remove: archive file [/home/abi/fetcher/tmp/simple_onnx_processing_tools-1.1.8.tar.gz]
+[2023-06-24 08:08:10] INFO root fetch - processPackages [simple-onnx-processing-tools]: Remove: archive file [/home/abi/fetcher/tmp/simple_onnx_processing_tools-1.1.9.tar.gz]
+[2023-06-24 08:08:10] INFO root fetch - main [MainThread]: End processing [simple-onnx-processing-tools]: success
+[2023-06-24 08:08:11] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.0.tar.gz]
+[2023-06-24 08:08:11] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.1.tar.gz]
+[2023-06-24 08:08:11] INFO root fetch - main [MainThread]: End processing [pqp]: success
+[2023-06-24 08:08:11] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.0.tar.gz]
+[2023-06-24 08:08:11] INFO root fetch - processPackages [badi-users]: Remove: archive file [/home/abi/fetcher/tmp/badi_users-1.1.1.tar.gz]
+[2023-06-24 08:08:11] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-06-24 08:08:13] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230622.tar.gz]
+[2023-06-24 08:08:13] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230623.tar.gz]
+[2023-06-24 08:08:13] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-24 08:08:13] INFO root fetch - main [MainThread]: Store serial: [18627567]
