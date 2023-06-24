@@ -3243,3 +3243,96 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 03:21:03] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.1.tar.gz]
 [2023-06-24 03:21:03] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2023-06-24 03:21:03] INFO root fetch - main [MainThread]: Store serial: [18625031]
+[2023-06-24 03:26:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18625031]
+[2023-06-24 03:26:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intel-transfer-learning-tool
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-date-time
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-hugo-deploy
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: landingai
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: even-dist
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airportsdata
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: greeting-green
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-sops-secrets
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: n2y
+[2023-06-24 03:26:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drtodo
+[2023-06-24 03:26:12] INFO root fetch - processPackages [neon-skill-date-time]: New version: [1.0.0] Old Version: [0.3.2a4]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [greeting-green]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [intel-transfer-learning-tool]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [even-dist]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [drtodo]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [airportsdata]: New version: [20230624] Old Version: [20230617]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/e2/a1/b9955e67bded244ffda6e36084e031dbc42534d8fab31ba34d3a79f1c770/neon-skill-date_time-0.3.2a4.tar.gz
+[2023-06-24 03:26:12] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/2a/12/7d50d1a50fb84b8b19fc396742e6bb05b3861876437b446afb4e055dd3d0/even-dist-0.2.2.tar.gz
+[2023-06-24 03:26:12] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-24 03:26:12] INFO root fetch - processPackages [greeting-green]: Downloading https://files.pythonhosted.org/packages/3a/96/ae6b2bcd00c5ab0e64ae97865677cc8570a2505c1abaa5f62755338b920a/greeting_green-0.0.2.tar.gz
+[2023-06-24 03:26:12] INFO root fetch - processPackages [n2y]: New version: [0.8.0] Old Version: [0.7.5]
+[2023-06-24 03:26:12] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-24 03:26:12] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-24 03:26:12] INFO root fetch - processPackages [intel-transfer-learning-tool]: Downloading https://files.pythonhosted.org/packages/76/8e/fea46d53b7b042cc0ec91d244c879859c64a478b5c4a6e308793d446f001/intel_transfer_learning_tool-0.4.0-py3-none-any.whl
+[2023-06-24 03:26:12] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/48/7c/94a2dbbfad01e8d2f7d453b7d2b565a6fe3953941d4ee1839d2d0f6c1374/airportsdata-20230617.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/a4/be/e2dd66c4ac11ba6ed6ebffe014c24cd8fad95ce4e387230c36c4341a2c9d/drtodo-0.6.5.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/04/db/ccccd48aaf5fb8588ae486fbabfa102507f4028bcf2d3ae1b6ac4c1891e2/even-dist-0.2.3.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [n2y]: Downloading https://files.pythonhosted.org/packages/6d/fc/739a1aa38b731ac10a3b83d0a98717959b86b035e57035777504d5004854/n2y-0.7.5.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [greeting-green]: Downloading https://files.pythonhosted.org/packages/8b/ba/d6f33507ef7ff6356d25c09850285ab8d0cc01739188bb393a4c08fa60b6/greeting_green-0.0.3.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230624/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/1d/d0/07ed443afac369a3f3130fe4a4a3dcd23a35fc32a08088e6b7ebf65ed4d0/neon-skill-date_time-1.0.0.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.2.2.tar.gz tmp/even-dist-0.2.3.tar.gz --markdown 20230624/e/even-dist/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230624/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [greeting-green]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [greeting-green]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greeting_green-0.0.2.tar.gz tmp/greeting_green-0.0.3.tar.gz --markdown 20230624/g/greeting-green/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [intel-transfer-learning-tool]: Downloading https://files.pythonhosted.org/packages/22/ee/aca14867a6c348e9d084bf6b80538576c3981a85c899f93bab33cb976438/intel_transfer_learning_tool-0.5.0-py3-none-any.whl
+[2023-06-24 03:26:13] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230624/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/82/c0/45417f1577d7e26357dbdd0480408b47b8aabadd91d592eb926d697431a1/airportsdata-20230624.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [n2y]: Downloading https://files.pythonhosted.org/packages/a9/fe/afb50e088453148b61df778defdc7798c56d65e8c6e810b6e9cf29a0ab80/n2y-0.8.0.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/f2/25/aa2f9a16e3c69f48b075439808ed2085e5d2d82707c6e1f36bf30794955d/drtodo-0.6.6.tar.gz
+[2023-06-24 03:26:13] INFO root fetch - processPackages [neon-skill-date-time]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [neon-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-date_time-0.3.2a4.tar.gz tmp/neon-skill-date_time-1.0.0.tar.gz --markdown 20230624/n/neon-skill-date-time/0.3.2a4-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [airportsdata]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [airportsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airportsdata-20230617.tar.gz tmp/airportsdata-20230624.tar.gz --markdown 20230624/a/airportsdata/20230617-20230624/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [intel-transfer-learning-tool]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [intel-transfer-learning-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel_transfer_learning_tool-0.4.0-py3-none-any.whl.zip tmp/intel_transfer_learning_tool-0.5.0-py3-none-any.whl.zip --markdown 20230624/i/intel-transfer-learning-tool/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [drtodo]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [drtodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtodo-0.6.5.tar.gz tmp/drtodo-0.6.6.tar.gz --markdown 20230624/d/drtodo/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-24 03:26:13] INFO root fetch - processPackages [n2y]: executing diffoscope
+[2023-06-24 03:26:13] INFO root fetch - processPackages [n2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n2y-0.7.5.tar.gz tmp/n2y-0.8.0.tar.gz --markdown 20230624/n/n2y/0.7.5-0.8.0/diff.md --exclude *.pyd
+[2023-06-24 03:26:14] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.2.tar.gz]
+[2023-06-24 03:26:14] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.3.tar.gz]
+[2023-06-24 03:26:14] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 03:26:14] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-24 03:26:14] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-24 03:26:14] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-24 03:26:14] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-24 03:26:14] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-24 03:26:14] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-24 03:26:15] INFO root fetch - processPackages [greeting-green]: Remove: archive file [/home/abi/fetcher/tmp/greeting_green-0.0.2.tar.gz]
+[2023-06-24 03:26:15] INFO root fetch - processPackages [greeting-green]: Remove: archive file [/home/abi/fetcher/tmp/greeting_green-0.0.3.tar.gz]
+[2023-06-24 03:26:15] INFO root fetch - main [MainThread]: End processing [greeting-green]: success
+[2023-06-24 03:26:15] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-24 03:26:15] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-24 03:26:15] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-24 03:26:15] INFO root fetch - processPackages [drtodo]: Remove: archive file [/home/abi/fetcher/tmp/drtodo-0.6.5.tar.gz]
+[2023-06-24 03:26:15] INFO root fetch - processPackages [drtodo]: Remove: archive file [/home/abi/fetcher/tmp/drtodo-0.6.6.tar.gz]
+[2023-06-24 03:26:15] INFO root fetch - main [MainThread]: End processing [drtodo]: success
+[2023-06-24 03:26:16] INFO root fetch - processPackages [n2y]: Remove: archive file [/home/abi/fetcher/tmp/n2y-0.7.5.tar.gz]
+[2023-06-24 03:26:16] INFO root fetch - processPackages [n2y]: Remove: archive file [/home/abi/fetcher/tmp/n2y-0.8.0.tar.gz]
+[2023-06-24 03:26:16] INFO root fetch - main [MainThread]: End processing [n2y]: success
+[2023-06-24 03:26:16] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-date_time-0.3.2a4.tar.gz]
+[2023-06-24 03:26:16] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-date_time-1.0.0.tar.gz]
+[2023-06-24 03:26:16] INFO root fetch - main [MainThread]: End processing [neon-skill-date-time]: success
+[2023-06-24 03:26:16] INFO root fetch - processPackages [intel-transfer-learning-tool]: Remove: archive file [/home/abi/fetcher/tmp/intel_transfer_learning_tool-0.4.0-py3-none-any.whl.zip]
+[2023-06-24 03:26:16] INFO root fetch - processPackages [intel-transfer-learning-tool]: Remove: archive file [/home/abi/fetcher/tmp/intel_transfer_learning_tool-0.5.0-py3-none-any.whl.zip]
+[2023-06-24 03:26:16] INFO root fetch - main [MainThread]: End processing [intel-transfer-learning-tool]: success
+[2023-06-24 03:26:17] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230617.tar.gz]
+[2023-06-24 03:26:17] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230624.tar.gz]
+[2023-06-24 03:26:17] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
+[2023-06-24 03:26:17] INFO root fetch - main [MainThread]: Store serial: [18625060]
