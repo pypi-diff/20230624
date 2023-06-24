@@ -18868,3 +18868,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:19:36] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
 [2023-06-24 21:19:36] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
 [2023-06-24 21:19:36] INFO root fetch - main [MainThread]: Store serial: [18631485]
+[2023-06-24 21:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631485]
+[2023-06-24 21:24:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roys-pyxtension
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atro-pyrsync
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leuci-geo
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swoopyui
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OZI
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gehomesdk
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: timeout-executor
+[2023-06-24 21:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fancyTextTools
+[2023-06-24 21:24:52] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 21:24:52] INFO root fetch - processPackages [swoopyui]: New version: [1.6] Old Version: [1.5]
+[2023-06-24 21:24:52] WARNING root fetch - processPackages [roys-pyxtension]: Skipping, unable to determine old version
+[2023-06-24 21:24:52] INFO root fetch - main [MainThread]: End processing [roys-pyxtension] error
+[2023-06-24 21:24:52] INFO root fetch - processPackages [OZI]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-24 21:24:52] INFO root fetch - processPackages [leuci-geo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 21:24:52] INFO root fetch - processPackages [gehomesdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 21:24:52] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/fa/2e/2511897693e2152cfffb67f6eba930275ab44542a3b10c1b2452a9c525fb/atro-pyrsync-0.0.2.tar.gz
+[2023-06-24 21:24:52] WARNING root fetch - processPackages [fancyTextTools]: Skipping, unable to determine old version
+[2023-06-24 21:24:52] INFO root fetch - main [MainThread]: End processing [fancyTextTools] error
+[2023-06-24 21:24:52] WARNING root fetch - processPackages [timeout-executor]: Skipping, unable to determine old version
+[2023-06-24 21:24:52] INFO root fetch - main [MainThread]: End processing [timeout-executor] error
+[2023-06-24 21:24:52] INFO root fetch - processPackages [swoopyui]: Downloading https://files.pythonhosted.org/packages/cc/f3/5f1d64b88486bdbbbce855d0e430ed6efb803abd0be1faf11c380ef58613/swoopyui-1.5.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/ae/9c/8fd980e33da77fefefc96bf26a328fdedda9b50452094fddb0d75d9894f2/OZI-0.0.6-~=3.9-none-any.whl
+[2023-06-24 21:24:53] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/79/d1/1683c5bc2160a7247bb67272dfcefbbb277369c246d2acfc192d614b9b6a/leuci-geo-0.0.8.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/78/e5/65dceafdeed2a83f4b797c95f5b80947cac4ec3190896167f2cd247dc1a0/gehomesdk-0.5.8.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/3f/98/99b9968bbc5a9cde4a7f3ebad5c6a52726d77916bd58bdb9a2db174960da/atro-pyrsync-0.0.3.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [swoopyui]: Downloading https://files.pythonhosted.org/packages/58/12/9ce889e2cced8af28b2d8b949f754250086f71a20faf5cef68b6fbdf1f41/swoopyui-1.6.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/7f/12/46e3f3793de828bf9551ea05af54362105ebd5752e688a3067953670a206/OZI-0.0.7.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-06-24 21:24:53] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.2.tar.gz tmp/atro-pyrsync-0.0.3.tar.gz --markdown 20230624/a/atro-pyrsync/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 21:24:53] INFO root fetch - processPackages [leuci-geo]: Downloading https://files.pythonhosted.org/packages/01/cd/67fa3295b8a8a6c6220cf4855f6e7c3540059dc0dad01d591283e5d9ae58/leuci-geo-0.0.9.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [swoopyui]: executing diffoscope
+[2023-06-24 21:24:53] INFO root fetch - processPackages [swoopyui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swoopyui-1.5.tar.gz tmp/swoopyui-1.6.tar.gz --markdown 20230624/s/swoopyui/1.5-1.6/diff.md --exclude *.pyd
+[2023-06-24 21:24:53] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2023-06-24 21:24:53] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.6-~=3.9-none-any.whl.zip tmp/OZI-0.0.7.tar.gz --markdown 20230624/O/OZI/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-24 21:24:53] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/5d/14/ca1060e76076aab267e2a6e7dccae7575d443a3075ccc7203d8704e52b3a/gehomesdk-0.5.9.tar.gz
+[2023-06-24 21:24:53] INFO root fetch - processPackages [gehomesdk]: executing diffoscope
+[2023-06-24 21:24:53] INFO root fetch - processPackages [gehomesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gehomesdk-0.5.8.tar.gz tmp/gehomesdk-0.5.9.tar.gz --markdown 20230624/g/gehomesdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 21:24:53] INFO root fetch - processPackages [leuci-geo]: executing diffoscope
+[2023-06-24 21:24:53] INFO root fetch - processPackages [leuci-geo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leuci-geo-0.0.8.tar.gz tmp/leuci-geo-0.0.9.tar.gz --markdown 20230624/l/leuci-geo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:24:54] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.2.tar.gz]
+[2023-06-24 21:24:54] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.3.tar.gz]
+[2023-06-24 21:24:54] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-06-24 21:24:54] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.6-~=3.9-none-any.whl.zip]
+[2023-06-24 21:24:54] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.7.tar.gz]
+[2023-06-24 21:24:54] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2023-06-24 21:24:54] INFO root fetch - processPackages [swoopyui]: Remove: archive file [/home/abi/fetcher/tmp/swoopyui-1.5.tar.gz]
+[2023-06-24 21:24:54] INFO root fetch - processPackages [swoopyui]: Remove: archive file [/home/abi/fetcher/tmp/swoopyui-1.6.tar.gz]
+[2023-06-24 21:24:54] INFO root fetch - main [MainThread]: End processing [swoopyui]: success
+[2023-06-24 21:24:55] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.8.tar.gz]
+[2023-06-24 21:24:55] INFO root fetch - processPackages [leuci-geo]: Remove: archive file [/home/abi/fetcher/tmp/leuci-geo-0.0.9.tar.gz]
+[2023-06-24 21:24:55] INFO root fetch - main [MainThread]: End processing [leuci-geo]: success
+[2023-06-24 21:24:56] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.8.tar.gz]
+[2023-06-24 21:24:56] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
+[2023-06-24 21:24:56] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
+[2023-06-24 21:24:56] INFO root fetch - main [MainThread]: Store serial: [18631515]
