@@ -3379,3 +3379,72 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 03:31:34] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
 [2023-06-24 03:31:34] INFO root fetch - main [MainThread]: End processing [openllm]: success
 [2023-06-24 03:31:34] INFO root fetch - main [MainThread]: Store serial: [18625083]
+[2023-06-24 03:36:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18625083]
+[2023-06-24 03:36:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-subminute
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backports.hook-compressed
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pandas
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-pytorch
+[2023-06-24 03:36:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: instagram-to-discord
+[2023-06-24 03:36:43] INFO root fetch - processPackages [backports.hook-compressed]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-24 03:36:43] WARNING root fetch - processPackages [instagram-to-discord]: Skipping, unable to determine old version
+[2023-06-24 03:36:43] INFO root fetch - main [MainThread]: End processing [instagram-to-discord] error
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [backports.hook-compressed]: Downloading https://files.pythonhosted.org/packages/b1/c6/92b19f274fdd6b5c0cdb4c8b2ba10d6031e9fc4d8b1e0e935f96faf7be19/backports.hook_compressed-1.0.0.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230624/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230624/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230624/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230624/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:36:43] INFO root fetch - processPackages [backports.hook-compressed]: Downloading https://files.pythonhosted.org/packages/5e/41/7f1622340b9e9a7a3edc88c54b7ef85aca5df10be30be9c7fd694bb107b5/backports.hook_compressed-1.1.0.tar.gz
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230624/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230624/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:36:43] INFO root fetch - processPackages [backports.hook-compressed]: executing diffoscope
+[2023-06-24 03:36:43] INFO root fetch - processPackages [backports.hook-compressed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backports.hook_compressed-1.0.0.tar.gz tmp/backports.hook_compressed-1.1.0.tar.gz --markdown 20230624/b/backports.hook-compressed/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 03:36:45] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-24 03:36:45] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-24 03:36:45] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-24 03:36:45] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-24 03:36:45] INFO root fetch - processPackages [backports.hook-compressed]: Remove: archive file [/home/abi/fetcher/tmp/backports.hook_compressed-1.0.0.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - processPackages [backports.hook-compressed]: Remove: archive file [/home/abi/fetcher/tmp/backports.hook_compressed-1.1.0.tar.gz]
+[2023-06-24 03:36:45] INFO root fetch - main [MainThread]: End processing [backports.hook-compressed]: success
+[2023-06-24 03:36:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-24 03:36:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-24 03:36:46] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-24 03:36:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-24 03:36:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-24 03:36:46] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-24 03:36:46] INFO root fetch - main [MainThread]: Store serial: [18625109]
