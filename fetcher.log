@@ -7129,3 +7129,63 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:33:22] INFO root fetch - processPackages [netdem]: Remove: archive file [/home/abi/fetcher/tmp/netdem-1.21-cp38-cp38-manylinux1_x86_64.whl.zip]
 [2023-06-24 04:33:22] INFO root fetch - main [MainThread]: End processing [netdem]: success
 [2023-06-24 04:33:22] INFO root fetch - main [MainThread]: Store serial: [18626370]
+[2023-06-24 04:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626370]
+[2023-06-24 04:38:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-cutoff-accrual-picking
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: even-dist
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-cutoff-base
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-account-financial-report
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cleanphi
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-account-asset-management
+[2023-06-24 04:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mayatk
+[2023-06-24 04:38:31] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-06-24 04:38:31] INFO root fetch - processPackages [even-dist]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 04:38:31] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: New version: [12.0.3.2.0.99.dev8] Old Version: [12.0.3.2.0.99.dev7]
+[2023-06-24 04:38:31] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2023-06-24 04:38:31] INFO root fetch - processPackages [mayatk]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-06-24 04:38:31] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: New version: [13.0.2.5.2.dev3] Old Version: [13.0.2.5.2.dev2]
+[2023-06-24 04:38:31] WARNING root fetch - processPackages [cleanphi]: Skipping, unable to determine old version
+[2023-06-24 04:38:31] INFO root fetch - main [MainThread]: End processing [cleanphi] error
+[2023-06-24 04:38:31] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/c8/54/4858ff792fae5eaad7a0eaa438f736d4b12bc53326c09b5756e3acc0558b/even-dist-0.3.0.tar.gz
+[2023-06-24 04:38:31] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/2f/53/48f7474e903913126c4be9da6a44e7642991514f360a3710d47f0ced13db/mayatk-0.6.4.tar.gz
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/db/ba/7cf0ed114d7819341676cb679fdd4c60413192314bb0065a1dd1b5b80109/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/9e/1e/20092d65027b891b020cb1e5302fe42b746602875368672095aa7107524e/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/bb/84/0dc606052ab47cb71f9d77de034f62fd91f68b0b3aa90c5fa1679b843b38/odoo13_addon_account_financial_report-13.0.2.5.2.dev2-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/41/a4/c5bdfac82e182cf5701bea4ea41ebd743d8ce8125070fd475a0dfcf5f190/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev7-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/64/ac/60df325a0e34158450e88a87ee89d671a7595881cb410cb06700f592130c/even_dist-0.3.1-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [mayatk]: Downloading https://files.pythonhosted.org/packages/70/9b/24195cacd59384a6049547e5ed2e5d4d3eaa94e7551b2d8265ddc934043b/mayatk-0.6.5.tar.gz
+[2023-06-24 04:38:32] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 04:38:32] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.3.0.tar.gz tmp/even_dist-0.3.1-py3-none-any.whl.zip --markdown 20230624/e/even-dist/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/11/40/04e26bf61ba7f6753a6ff85b27dd31339f41c77913c5a951a88523186d47/odoo13_addon_account_financial_report-13.0.2.5.2.dev3-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/a6/b4/504611d54c27bee509c928e8a552a03023237ad69ae77e7a01e57423bb86/odoo_addon_account_cutoff_base-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [mayatk]: executing diffoscope
+[2023-06-24 04:38:32] INFO root fetch - processPackages [mayatk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayatk-0.6.4.tar.gz tmp/mayatk-0.6.5.tar.gz --markdown 20230624/m/mayatk/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/3e/70/a503610346750505020b13a0fec585f06f7d9afb81fa4fc211f61228d229/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev8-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Downloading https://files.pythonhosted.org/packages/7c/b9/c8905f02c56599a9d5c4c16aeaddf00924cf1b5412241b0eb08432d9f800/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.4-py3-none-any.whl
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: executing diffoscope
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_financial_report-13.0.2.5.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_account_financial_report-13.0.2.5.2.dev3-py3-none-any.whl.zip --markdown 20230624/o/odoo13-addon-account-financial-report/13.0.2.5.2.dev2-13.0.2.5.2.dev3/diff.md --exclude *.pyd
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-account-cutoff-base/16.0.1.1.0.1-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: executing diffoscope
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev8-py3-none-any.whl.zip --markdown 20230624/o/odoo12-addon-account-asset-management/12.0.3.2.0.99.dev7-12.0.3.2.0.99.dev8/diff.md --exclude *.pyd
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: executing diffoscope
+[2023-06-24 04:38:32] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-account-cutoff-accrual-picking/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-24 04:38:33] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.3.0.tar.gz]
+[2023-06-24 04:38:33] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even_dist-0.3.1-py3-none-any.whl.zip]
+[2023-06-24 04:38:33] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 04:38:34] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.4.tar.gz]
+[2023-06-24 04:38:34] INFO root fetch - processPackages [mayatk]: Remove: archive file [/home/abi/fetcher/tmp/mayatk-0.6.5.tar.gz]
+[2023-06-24 04:38:34] INFO root fetch - main [MainThread]: End processing [mayatk]: success
+[2023-06-24 04:38:34] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-24 04:38:34] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_picking-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-24 04:38:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-picking]: success
+[2023-06-24 04:38:34] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_financial_report-13.0.2.5.2.dev2-py3-none-any.whl.zip]
+[2023-06-24 04:38:34] INFO root fetch - processPackages [odoo13-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_financial_report-13.0.2.5.2.dev3-py3-none-any.whl.zip]
+[2023-06-24 04:38:34] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-financial-report]: success
+[2023-06-24 04:38:34] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-24 04:38:34] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-24 04:38:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-06-24 04:38:35] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev7-py3-none-any.whl.zip]
+[2023-06-24 04:38:35] INFO root fetch - processPackages [odoo12-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_asset_management-12.0.3.2.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-24 04:38:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-asset-management]: success
+[2023-06-24 04:38:35] INFO root fetch - main [MainThread]: Store serial: [18626387]
