@@ -18748,3 +18748,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:08:34] INFO root fetch - processPackages [pyrates]: Remove: archive file [/home/abi/fetcher/tmp/pyrates-1.0.2.tar.gz]
 [2023-06-24 21:08:34] INFO root fetch - main [MainThread]: End processing [pyrates]: success
 [2023-06-24 21:08:34] INFO root fetch - main [MainThread]: Store serial: [18631403]
+[2023-06-24 21:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631403]
+[2023-06-24 21:13:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 21:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roys-pyxtension
+[2023-06-24 21:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scProject-stable
+[2023-06-24 21:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irregular-chars
+[2023-06-24 21:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WIDscript
+[2023-06-24 21:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c4m-flexcell
+[2023-06-24 21:13:43] WARNING root fetch - processPackages [roys-pyxtension]: Skipping, unable to determine old version
+[2023-06-24 21:13:43] INFO root fetch - main [MainThread]: End processing [roys-pyxtension] error
+[2023-06-24 21:13:43] INFO root fetch - processPackages [irregular-chars]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-24 21:13:43] INFO root fetch - processPackages [scProject-stable]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-24 21:13:43] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/e1/a3/0b73b6c2d56d75c207dba93832c45bf4e70e1f928cd30bc044675e6e62e3/irregular-chars-0.1.2.tar.gz
+[2023-06-24 21:13:43] INFO root fetch - processPackages [c4m-flexcell]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 21:13:43] INFO root fetch - processPackages [WIDscript]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-06-24 21:13:43] INFO root fetch - processPackages [scProject-stable]: Downloading https://files.pythonhosted.org/packages/ec/e5/15d8ee94fb8b1829d25e9803a20d93c2733ce02fd49f6af387ab556647c2/scProject-stable-1.1.1.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/16/ce/c4828990956f71f788fb9ac3c0ddb3887c4be26810f16b0c064757f37d9f/c4m_flexcell-0.3.0.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/ff/2d/73bd4199c807cb9a4f788640042d39d3c3901b3fcbd846fb0143a12c9fca/WIDscript-1.0.8.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/98/74/4564c962b3131b2ace332a9f12cddfe3ffc2deca2a2269fc190787ae690a/irregular-chars-1.0.0.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [scProject-stable]: Downloading https://files.pythonhosted.org/packages/a9/62/93113345e63240bb79ccd490c43fe5c70132aa4ca51640ec11ce2dff5f89/scProject-stable-1.1.2.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [irregular-chars]: executing diffoscope
+[2023-06-24 21:13:44] INFO root fetch - processPackages [irregular-chars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irregular-chars-0.1.2.tar.gz tmp/irregular-chars-1.0.0.tar.gz --markdown 20230624/i/irregular-chars/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 21:13:44] INFO root fetch - processPackages [WIDscript]: Downloading https://files.pythonhosted.org/packages/60/73/1f330571b5677642c8fcfe04b09369adc7c2582e0a830997ac852e729946/WIDscript-1.1.0.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [scProject-stable]: executing diffoscope
+[2023-06-24 21:13:44] INFO root fetch - processPackages [scProject-stable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scProject-stable-1.1.1.tar.gz tmp/scProject-stable-1.1.2.tar.gz --markdown 20230624/s/scProject-stable/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-24 21:13:44] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/94/7e/1e2084b80816e98f9fbf75c4468fc196aa2d9fa6f486d02fb1d8606e4301/c4m_flexcell-0.3.1.tar.gz
+[2023-06-24 21:13:44] INFO root fetch - processPackages [WIDscript]: executing diffoscope
+[2023-06-24 21:13:44] INFO root fetch - processPackages [WIDscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WIDscript-1.0.8.tar.gz tmp/WIDscript-1.1.0.tar.gz --markdown 20230624/W/WIDscript/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 21:13:44] INFO root fetch - processPackages [c4m-flexcell]: executing diffoscope
+[2023-06-24 21:13:44] INFO root fetch - processPackages [c4m-flexcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexcell-0.3.0.tar.gz tmp/c4m_flexcell-0.3.1.tar.gz --markdown 20230624/c/c4m-flexcell/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 21:13:45] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-0.1.2.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.0.0.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
+[2023-06-24 21:13:45] INFO root fetch - processPackages [scProject-stable]: Remove: archive file [/home/abi/fetcher/tmp/scProject-stable-1.1.1.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - processPackages [scProject-stable]: Remove: archive file [/home/abi/fetcher/tmp/scProject-stable-1.1.2.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - main [MainThread]: End processing [scProject-stable]: success
+[2023-06-24 21:13:45] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.0.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.1.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
+[2023-06-24 21:13:45] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.0.8.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.1.0.tar.gz]
+[2023-06-24 21:13:45] INFO root fetch - main [MainThread]: End processing [WIDscript]: success
+[2023-06-24 21:13:45] INFO root fetch - main [MainThread]: Store serial: [18631456]
