@@ -11795,3 +11795,77 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:51:44] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.6-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
 [2023-06-24 10:51:44] INFO root fetch - main [MainThread]: End processing [miniosl]: success
 [2023-06-24 10:51:44] INFO root fetch - main [MainThread]: Store serial: [18628148]
+[2023-06-24 10:56:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628148]
+[2023-06-24 10:56:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marshmallow-recipe
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgpt
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rain-orm
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elasticai-creator
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minidevice
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python3-nbctl
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: music-assistant
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tl2
+[2023-06-24 10:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: non-normal
+[2023-06-24 10:56:53] INFO root fetch - processPackages [rain-orm]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [pgpt]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [python3-nbctl]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [marshmallow-recipe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [minidevice]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-24 10:56:53] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/d1/6c/a732371959f3d797aef84c1dfd557cba11ba28b88755f1392af6d0d928df/rain_orm-1.0.7.tar.gz
+[2023-06-24 10:56:53] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/4a/bd/95b8b8b860ed8dc000a2d6da544daf993717eb788b3e0693a6901fd11d1d/minidevice-2.0.8.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [tl2]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 10:56:54] WARNING root fetch - processPackages [non-normal]: Skipping, unable to determine old version
+[2023-06-24 10:56:54] INFO root fetch - main [MainThread]: End processing [non-normal] error
+[2023-06-24 10:56:54] INFO root fetch - processPackages [pgpt]: Downloading https://files.pythonhosted.org/packages/20/d4/b3796c1a43ca63df3950bffb82e2f3ba262edfd9ed622995f0475e29ad8e/pgpt-0.0.4.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [marshmallow-recipe]: Downloading https://files.pythonhosted.org/packages/3f/b3/2fd5bda096684bd22fd9934ecf7576f821d30e0f7d3d0a8b6539b8c56f95/marshmallow-recipe-0.0.8.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [python3-nbctl]: Downloading https://files.pythonhosted.org/packages/a1/58/4a842a023f3e20a4c284f64af05a740ce3ab2e4b39f35ba8a843ef7839bf/python3-nbctl-0.0.2.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/07/81/96bfbb2665e7dd4692406778e1c6e5255048e7d37aedec5c1fb60554a11c/rain_orm-1.0.8.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [tl2]: Downloading https://files.pythonhosted.org/packages/29/31/720bf3dc0b6dfa9961967ec2e55dabe28cb2e5f9fdd9b8b335602bb9e0df/tl2-0.1.0.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/29/5b/b86f14528ffb3f9794f794cc148d8362c266397dc0a30cbb55f5f2f506bf/minidevice-2.0.9.tar.gz
+[2023-06-24 10:56:54] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-06-24 10:56:54] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-06-24 10:56:54] INFO root fetch - processPackages [pgpt]: Downloading https://files.pythonhosted.org/packages/f5/35/568f9a46eb53f0fee90bce6b2abe94433542730a2c87a3dfc996ca7f1968/pgpt-0.0.5.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [rain-orm]: executing diffoscope
+[2023-06-24 10:56:54] INFO root fetch - processPackages [rain-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rain_orm-1.0.7.tar.gz tmp/rain_orm-1.0.8.tar.gz --markdown 20230624/r/rain-orm/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-24 10:56:54] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-24 10:56:54] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.8.tar.gz tmp/minidevice-2.0.9.tar.gz --markdown 20230624/m/minidevice/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-24 10:56:54] INFO root fetch - processPackages [python3-nbctl]: Downloading https://files.pythonhosted.org/packages/84/8a/5e6ae316f35ed142300cb672d2090ebe7d0ef4e4a86127eec74b2a3e4e80/python3-nbctl-1.0.0.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [pgpt]: executing diffoscope
+[2023-06-24 10:56:54] INFO root fetch - processPackages [pgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpt-0.0.4.tar.gz tmp/pgpt-0.0.5.tar.gz --markdown 20230624/p/pgpt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 10:56:54] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [marshmallow-recipe]: Downloading https://files.pythonhosted.org/packages/02/69/8b7bba1c82742b39afe116d18d305bc96a3c20f7dd8e38772ca92cbbbfe2/marshmallow-recipe-0.0.9.tar.gz
+[2023-06-24 10:56:54] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-24 10:56:54] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230624/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 10:56:54] INFO root fetch - processPackages [python3-nbctl]: executing diffoscope
+[2023-06-24 10:56:54] INFO root fetch - processPackages [python3-nbctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-nbctl-0.0.2.tar.gz tmp/python3-nbctl-1.0.0.tar.gz --markdown 20230624/p/python3-nbctl/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 10:56:54] INFO root fetch - processPackages [marshmallow-recipe]: executing diffoscope
+[2023-06-24 10:56:54] INFO root fetch - processPackages [marshmallow-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marshmallow-recipe-0.0.8.tar.gz tmp/marshmallow-recipe-0.0.9.tar.gz --markdown 20230624/m/marshmallow-recipe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 10:56:55] INFO root fetch - processPackages [tl2]: Downloading https://files.pythonhosted.org/packages/88/5c/b40e5ec63aace2c18bff65820d9c355a2ae9722aad8f55721a95c1c2a136/tl2-0.1.1.tar.gz
+[2023-06-24 10:56:55] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.7.tar.gz]
+[2023-06-24 10:56:55] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.8.tar.gz]
+[2023-06-24 10:56:55] INFO root fetch - main [MainThread]: End processing [rain-orm]: success
+[2023-06-24 10:56:55] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.8.tar.gz]
+[2023-06-24 10:56:55] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.9.tar.gz]
+[2023-06-24 10:56:55] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-24 10:56:55] INFO root fetch - processPackages [tl2]: executing diffoscope
+[2023-06-24 10:56:55] INFO root fetch - processPackages [tl2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tl2-0.1.0.tar.gz tmp/tl2-0.1.1.tar.gz --markdown 20230624/t/tl2/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 10:56:56] INFO root fetch - processPackages [python3-nbctl]: Remove: archive file [/home/abi/fetcher/tmp/python3-nbctl-0.0.2.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - processPackages [python3-nbctl]: Remove: archive file [/home/abi/fetcher/tmp/python3-nbctl-1.0.0.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - main [MainThread]: End processing [python3-nbctl]: success
+[2023-06-24 10:56:56] INFO root fetch - processPackages [pgpt]: Remove: archive file [/home/abi/fetcher/tmp/pgpt-0.0.4.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - processPackages [pgpt]: Remove: archive file [/home/abi/fetcher/tmp/pgpt-0.0.5.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - main [MainThread]: End processing [pgpt]: success
+[2023-06-24 10:56:56] INFO root fetch - processPackages [marshmallow-recipe]: Remove: archive file [/home/abi/fetcher/tmp/marshmallow-recipe-0.0.8.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - processPackages [marshmallow-recipe]: Remove: archive file [/home/abi/fetcher/tmp/marshmallow-recipe-0.0.9.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - main [MainThread]: End processing [marshmallow-recipe]: success
+[2023-06-24 10:56:56] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-24 10:56:56] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-24 10:57:01] INFO root fetch - processPackages [tl2]: Remove: archive file [/home/abi/fetcher/tmp/tl2-0.1.0.tar.gz]
+[2023-06-24 10:57:01] INFO root fetch - processPackages [tl2]: Remove: archive file [/home/abi/fetcher/tmp/tl2-0.1.1.tar.gz]
+[2023-06-24 10:57:01] INFO root fetch - main [MainThread]: End processing [tl2]: success
+[2023-06-24 10:57:01] INFO root fetch - main [MainThread]: Store serial: [18628191]
