@@ -12961,3 +12961,31 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:44:37] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.5.8.tar.gz]
 [2023-06-24 12:44:37] INFO root fetch - main [MainThread]: End processing [mloptimizer]: success
 [2023-06-24 12:44:37] INFO root fetch - main [MainThread]: Store serial: [18628845]
+[2023-06-24 12:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628845]
+[2023-06-24 12:49:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydatawork
+[2023-06-24 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydatawork
+[2023-06-24 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beet
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 12:49:46] INFO root fetch - processPackages [beet]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 12:49:46] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/84/31/49542bab904501be84c4a4ad27cf7f5dc53f09a6051a00259052fde2501f/beet-0.9.3.tar.gz
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 12:49:46] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 12:49:47] INFO root fetch - processPackages [beet]: Downloading https://files.pythonhosted.org/packages/5f/82/25a5f91b6637a12511ea929ecd269e5ed8d81db04a4f558ae40c43492fc7/beet-0.9.4.tar.gz
+[2023-06-24 12:49:47] INFO root fetch - processPackages [beet]: executing diffoscope
+[2023-06-24 12:49:47] INFO root fetch - processPackages [beet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet-0.9.3.tar.gz tmp/beet-0.9.4.tar.gz --markdown 20230624/b/beet/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-24 12:49:48] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 12:49:48] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 12:49:48] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 12:49:48] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 12:49:48] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.3.tar.gz]
+[2023-06-24 12:49:48] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.4.tar.gz]
+[2023-06-24 12:49:48] INFO root fetch - main [MainThread]: End processing [beet]: success
+[2023-06-24 12:49:48] INFO root fetch - main [MainThread]: Store serial: [18628854]
