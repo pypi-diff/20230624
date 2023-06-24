@@ -13341,3 +13341,124 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:29:16] ERROR root fetch - processPackages [amplify]: Timeout during execution of pkgdiff
 [2023-06-24 13:29:16] INFO root fetch - main [MainThread]: End processing [amplify] error
 [2023-06-24 13:29:16] INFO root fetch - main [MainThread]: Store serial: [18628986]
+[2023-06-24 13:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628986]
+[2023-06-24 13:34:25] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-azure-auth
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: findmyfile
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: XoxoDay
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-model-archiver-nightly
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-workflow-archiver-nightly
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: patato
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-nano
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-llm
+[2023-06-24 13:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-chronos
+[2023-06-24 13:34:25] INFO root fetch - processPackages [fastapi-azure-auth]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [XoxoDay]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [findmyfile]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [patato]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-24 13:34:25] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/eb/08/2a07453a529bd8cdde51060ab900c2daf1aec99295b9999faa3fa5ffe95d/findmyfile-0.2.6.tar.gz
+[2023-06-24 13:34:25] INFO root fetch - processPackages [fastapi-azure-auth]: Downloading https://files.pythonhosted.org/packages/84/b1/ab8a8e95bc81a24b856a47f5290a1066453817cfbf5ffa43e341f4339325/fastapi_azure_auth-4.1.2.tar.gz
+[2023-06-24 13:34:25] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/dc/06/f0aafc0cf2b1480f145deaa07300de1af301678b5ecfab34010dd5a96cf0/bigdl_llm-2.4.0b20230623-py3-none-win_amd64.whl
+[2023-06-24 13:34:25] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/af/76/c4e9feec32db5290851a380db23c1fac0467d500f8f8a8080434a3d94299/XoxoDay-0.0.23.tar.gz
+[2023-06-24 13:34:25] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/8f/f4/94d7178ca353f8e945399182448be9a82d8f03981cbe46676f13c5ef161a/bigdl_nano-2.4.0b20230623-py3-none-win_amd64.whl
+[2023-06-24 13:34:25] INFO root fetch - processPackages [patato]: Downloading https://files.pythonhosted.org/packages/ed/33/3632d6d7a79a38755dd69129ceff94e6b9849812df913c3bf1151ae8fc60/patato-0.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-24 13:34:25] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/24/ca/241781775ddb9f9a626ac498a7029ddc9cde647f5215b70fcb04e1cfa649/bigdl_chronos-2.4.0b20230623-py3-none-win_amd64.whl
+[2023-06-24 13:34:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-24 13:34:25] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-24 13:34:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-24 13:34:26] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torchserve-nightly]: Start processing: pyre-check-nightly
+[2023-06-24 13:34:26] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-24 13:34:26] INFO root fetch - processPackages [fastapi-azure-auth]: Downloading https://files.pythonhosted.org/packages/3b/4d/805b5ed46f12ab20f8125ea3d1e7fb7cae122f8096b3f88129a5ec230b7f/fastapi_azure_auth-4.1.3.tar.gz
+[2023-06-24 13:34:26] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/bc/6f/494847fb38d73d42d207372022feac578edd72b7236299eabde1e5319b88/findmyfile-0.2.7.tar.gz
+[2023-06-24 13:34:26] INFO root fetch - processPackages [fastapi-azure-auth]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [fastapi-azure-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_azure_auth-4.1.2.tar.gz tmp/fastapi_azure_auth-4.1.3.tar.gz --markdown 20230624/f/fastapi-azure-auth/4.1.2-4.1.3/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/57/a9/9ae2f7bada942c80784e51dcdefc429374bdba86b0ca7a5c4ae5c91b1383/bigdl_nano-2.4.0b20230624-py3-none-win_amd64.whl
+[2023-06-24 13:34:26] INFO root fetch - processPackages [XoxoDay]: Downloading https://files.pythonhosted.org/packages/96/88/bd198395692d21d93951ff67df197e0eba5c26622f76da518419e9b06474/XoxoDay-0.0.24.tar.gz
+[2023-06-24 13:34:26] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101687605135] Old Version: [0.0.101687518669]
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-24 13:34:26] INFO root fetch - processPackages [findmyfile]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [findmyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyfile-0.2.6.tar.gz tmp/findmyfile-0.2.7.tar.gz --markdown 20230624/f/findmyfile/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/69/69/142b790c65522ca65af5142866c49ac6c92de32c654049fbb4472e494db8/bigdl_chronos-2.4.0b20230624-py3-none-win_amd64.whl
+[2023-06-24 13:34:26] INFO root fetch - processPackages [XoxoDay]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [XoxoDay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XoxoDay-0.0.23.tar.gz tmp/XoxoDay-0.0.24.tar.gz --markdown 20230624/X/XoxoDay/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [patato]: Downloading https://files.pythonhosted.org/packages/09/6a/da47f7452c438d844159cc8f3561e12981fc96be8d3dd05973a9d3135ef7/patato-0.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230624/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230624/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/96/ab/57624a22c2c894089fc0f6cd8a372c1cfcf46a8eb99d9fbe11fb2d77bd4f/bigdl_llm-2.4.0b20230624-py3-none-win_amd64.whl
+[2023-06-24 13:34:26] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/be/ec/0841e7c6609934b3987bf2e518c109b37edb822a0e4a60da35a836f94fd7/pyre-check-nightly-0.0.101687518669.tar.gz
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230623-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230624-py3-none-win_amd64.whl.zip --markdown 20230624/b/bigdl-chronos/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [patato]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [patato]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patato-0.5.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/patato-0.5.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230624/p/patato/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23542097>=10485760
+[2023-06-24 13:34:26] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: meo
+[2023-06-24 13:34:26] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-24 13:34:26] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230623-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230624-py3-none-win_amd64.whl.zip --markdown 20230624/b/bigdl-nano/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 13:34:26] INFO root fetch - processPackages [meo]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-06-24 13:34:27] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/c1/7d/556b07c4f39a42853e3f7f32b872da279199d6a79f801ed11180d9f6276d/meo-0.0.8.tar.gz
+[2023-06-24 13:34:27] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-06-24 13:34:27] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230623-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230624-py3-none-win_amd64.whl.zip --markdown 20230624/b/bigdl-llm/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 13:34:27] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/f8/22/83bd08fb640542cc638999e61152121c173a83ffd33b81715b62c02958a6/meo-0.1.0.tar.gz
+[2023-06-24 13:34:27] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-06-24 13:34:27] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.0.8.tar.gz tmp/meo-0.1.0.tar.gz --markdown 20230624/m/meo/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 13:34:28] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.6.tar.gz]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.7.tar.gz]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [findmyfile]: Start processing: bigdl-serving
+[2023-06-24 13:34:28] INFO root fetch - main [MainThread]: End processing [findmyfile]: success
+[2023-06-24 13:34:28] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230623] Old Version: [2.4.0b20230622]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d8/24/2da2e5b9bf5a85653fe1d6eba9fe88097bc2f83a2453999d19e0981402d1/bigdl_serving-2.4.0b20230622-py2.py3-none-any.whl
+[2023-06-24 13:34:28] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/39/e4/99a9341580993a01ba732d187ba6a13e32faa4fc39f5a72791e6b7af31ef/bigdl_serving-2.4.0b20230623-py2.py3-none-any.whl
+[2023-06-24 13:34:28] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.23.tar.gz]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [XoxoDay]: Remove: archive file [/home/abi/fetcher/tmp/XoxoDay-0.0.24.tar.gz]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [XoxoDay]: Start processing: pythorhead
+[2023-06-24 13:34:28] INFO root fetch - main [MainThread]: End processing [XoxoDay]: success
+[2023-06-24 13:34:28] INFO root fetch - processPackages [pythorhead]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [fastapi-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_azure_auth-4.1.2.tar.gz]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [fastapi-azure-auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_azure_auth-4.1.3.tar.gz]
+[2023-06-24 13:34:28] INFO root fetch - main [MainThread]: End processing [fastapi-azure-auth]: success
+[2023-06-24 13:34:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-24 13:34:28] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-24 13:34:28] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/f0/3f/e0a1adc30f3c1df7d94de5dc26c53a13ace308eb00c0b715ea82ac0aa627/pythorhead-0.7.2.tar.gz
+[2023-06-24 13:34:28] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-24 13:34:28] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230622-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230623-py2.py3-none-any.whl.zip --markdown 20230624/b/bigdl-serving/2.4.0b20230622-2.4.0b20230623/diff.md --exclude *.pyd
+[2023-06-24 13:34:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-24 13:34:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-24 13:34:28] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-24 13:34:28] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/32/24/db2058a14e353c815a934a7e654c4ea5926ed07cfeaba65ba778d4b63707/pythorhead-0.8.0.tar.gz
+[2023-06-24 13:34:28] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-24 13:34:28] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.7.2.tar.gz tmp/pythorhead-0.8.0.tar.gz --markdown 20230624/p/pythorhead/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-06-24 13:34:29] INFO root fetch - processPackages [patato]: Remove: archive file [/home/abi/fetcher/tmp/patato-0.5.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - processPackages [patato]: Remove: archive file [/home/abi/fetcher/tmp/patato-0.5.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - main [MainThread]: End processing [patato]: success
+[2023-06-24 13:34:29] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.0.8.tar.gz]
+[2023-06-24 13:34:29] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.0.tar.gz]
+[2023-06-24 13:34:29] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-06-24 13:34:29] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230623-py3-none-win_amd64.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230624-py3-none-win_amd64.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-06-24 13:34:29] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230623-py3-none-win_amd64.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230624-py3-none-win_amd64.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-24 13:34:29] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230622-py2.py3-none-any.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230623-py2.py3-none-any.whl.zip]
+[2023-06-24 13:34:29] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-24 13:34:30] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230623-py3-none-win_amd64.whl.zip]
+[2023-06-24 13:34:30] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230624-py3-none-win_amd64.whl.zip]
+[2023-06-24 13:34:30] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-24 13:34:30] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.7.2.tar.gz]
+[2023-06-24 13:34:30] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.0.tar.gz]
+[2023-06-24 13:34:30] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-24 13:34:30] INFO root fetch - main [MainThread]: Store serial: [18629051]
