@@ -10576,3 +10576,15 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:29:02] INFO root fetch - processPackages [citronella]: Remove: archive file [/home/abi/fetcher/tmp/citronella-1.0.0.tar.gz]
 [2023-06-24 08:29:02] INFO root fetch - main [MainThread]: End processing [citronella]: success
 [2023-06-24 08:29:02] INFO root fetch - main [MainThread]: Store serial: [18627618]
+[2023-06-24 08:34:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627618]
+[2023-06-24 08:34:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-24 08:34:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcrs
+[2023-06-24 08:34:11] INFO root fetch - processPackages [mcrs]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-24 08:34:11] INFO root fetch - processPackages [mcrs]: Downloading https://files.pythonhosted.org/packages/79/00/9623de3a4bfd953962b1b422bd51a0d1fe3e92a4f9e4ff9bfc12c5b0b3b7/mcrs-0.1.9.tar.gz
+[2023-06-24 08:34:11] INFO root fetch - processPackages [mcrs]: Downloading https://files.pythonhosted.org/packages/58/00/372f9e5c8fba4a238a6ac897f852df6b2b354a0bc65a930b72cb0a0792bc/mcrs-0.2.0.tar.gz
+[2023-06-24 08:34:12] INFO root fetch - processPackages [mcrs]: executing diffoscope
+[2023-06-24 08:34:12] INFO root fetch - processPackages [mcrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrs-0.1.9.tar.gz tmp/mcrs-0.2.0.tar.gz --markdown 20230624/m/mcrs/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 08:34:13] INFO root fetch - processPackages [mcrs]: Remove: archive file [/home/abi/fetcher/tmp/mcrs-0.1.9.tar.gz]
+[2023-06-24 08:34:13] INFO root fetch - processPackages [mcrs]: Remove: archive file [/home/abi/fetcher/tmp/mcrs-0.2.0.tar.gz]
+[2023-06-24 08:34:13] INFO root fetch - main [MainThread]: End processing [mcrs]: success
+[2023-06-24 08:34:13] INFO root fetch - main [MainThread]: Store serial: [18627624]
