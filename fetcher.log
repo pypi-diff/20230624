@@ -14018,3 +14018,42 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:37:23] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.8.tar.gz]
 [2023-06-24 14:37:23] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
 [2023-06-24 14:37:23] INFO root fetch - main [MainThread]: Store serial: [18629274]
+[2023-06-24 14:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629274]
+[2023-06-24 14:42:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 14:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kz-iin-validator
+[2023-06-24 14:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-06-24 14:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-upsolver
+[2023-06-24 14:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-mcqq
+[2023-06-24 14:42:32] INFO root fetch - processPackages [kz-iin-validator]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-24 14:42:32] INFO root fetch - processPackages [dbt-upsolver]: New version: [1.5.25] Old Version: [1.5.24]
+[2023-06-24 14:42:32] INFO root fetch - processPackages [nonebot-plugin-mcqq]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-06-24 14:42:32] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-06-24 14:42:32] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-06-24 14:42:32] INFO root fetch - processPackages [kz-iin-validator]: Downloading https://files.pythonhosted.org/packages/8f/75/6a409073ab653b029b47a6245259b5868265ca2b9b4f415529209815e507/kz_iin_validator-0.6.0.tar.gz
+[2023-06-24 14:42:32] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/ce/79/475e8a6bf4e5d7b4c141ae7d132d4d834269af01eeaf0f82678d8bdea96a/dbt-upsolver-1.5.24.tar.gz
+[2023-06-24 14:42:32] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/0e/91/3957f9534a74af194751684e45017cba69a3628cf639d014ce351a3fb2e1/nonebot-plugin-mcqq-1.2.4.tar.gz
+[2023-06-24 14:42:32] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-06-24 14:42:33] INFO root fetch - processPackages [dbt-upsolver]: Downloading https://files.pythonhosted.org/packages/c8/8a/a974f9327d565eac005821bda2c48a5e110a06acd42441df2582e1d90930/dbt-upsolver-1.5.25.tar.gz
+[2023-06-24 14:42:33] INFO root fetch - processPackages [kz-iin-validator]: Downloading https://files.pythonhosted.org/packages/ce/f1/6395307fc800fa20e32e25354e978b7acf88fbd5a3a2810c4413c240811a/kz_iin_validator-0.7.0.tar.gz
+[2023-06-24 14:42:33] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-06-24 14:42:33] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230624/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-06-24 14:42:33] INFO root fetch - processPackages [dbt-upsolver]: executing diffoscope
+[2023-06-24 14:42:33] INFO root fetch - processPackages [dbt-upsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-upsolver-1.5.24.tar.gz tmp/dbt-upsolver-1.5.25.tar.gz --markdown 20230624/d/dbt-upsolver/1.5.24-1.5.25/diff.md --exclude *.pyd
+[2023-06-24 14:42:33] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Downloading https://files.pythonhosted.org/packages/95/a0/2d1e0b39b06df3548c5dadd05b1aa90ebec1029bbb1d00ea3540fc51f0fd/nonebot-plugin-mcqq-1.2.5.tar.gz
+[2023-06-24 14:42:33] INFO root fetch - processPackages [kz-iin-validator]: executing diffoscope
+[2023-06-24 14:42:33] INFO root fetch - processPackages [kz-iin-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kz_iin_validator-0.6.0.tar.gz tmp/kz_iin_validator-0.7.0.tar.gz --markdown 20230624/k/kz-iin-validator/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-24 14:42:33] INFO root fetch - processPackages [nonebot-plugin-mcqq]: executing diffoscope
+[2023-06-24 14:42:33] INFO root fetch - processPackages [nonebot-plugin-mcqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mcqq-1.2.4.tar.gz tmp/nonebot-plugin-mcqq-1.2.5.tar.gz --markdown 20230624/n/nonebot-plugin-mcqq/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-06-24 14:42:34] INFO root fetch - processPackages [kz-iin-validator]: Remove: archive file [/home/abi/fetcher/tmp/kz_iin_validator-0.6.0.tar.gz]
+[2023-06-24 14:42:34] INFO root fetch - processPackages [kz-iin-validator]: Remove: archive file [/home/abi/fetcher/tmp/kz_iin_validator-0.7.0.tar.gz]
+[2023-06-24 14:42:34] INFO root fetch - main [MainThread]: End processing [kz-iin-validator]: success
+[2023-06-24 14:42:34] INFO root fetch - processPackages [dbt-upsolver]: Remove: archive file [/home/abi/fetcher/tmp/dbt-upsolver-1.5.24.tar.gz]
+[2023-06-24 14:42:34] INFO root fetch - processPackages [dbt-upsolver]: Remove: archive file [/home/abi/fetcher/tmp/dbt-upsolver-1.5.25.tar.gz]
+[2023-06-24 14:42:34] INFO root fetch - main [MainThread]: End processing [dbt-upsolver]: success
+[2023-06-24 14:42:34] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.4.tar.gz]
+[2023-06-24 14:42:34] INFO root fetch - processPackages [nonebot-plugin-mcqq]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mcqq-1.2.5.tar.gz]
+[2023-06-24 14:42:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mcqq]: success
+[2023-06-24 14:42:35] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-06-24 14:42:35] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-06-24 14:42:35] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-06-24 14:42:35] INFO root fetch - main [MainThread]: Store serial: [18629287]
