@@ -1,0 +1,3725 @@
+# Comparing `tmp/impedance-1.5.0.tar.gz` & `tmp/impedance-1.6.0.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "impedance-1.5.0.tar", last modified: Mon Feb 20 20:54:08 2023, max compression
++gzip compressed data, was "impedance-1.6.0.tar", last modified: Sat Jun 24 04:43:45 2023, max compression
+```
+
+## Comparing `impedance-1.5.0.tar` & `impedance-1.6.0.tar`
+
+### file list
+
+```diff
+@@ -1,33 +1,33 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:08.945132 impedance-1.5.0/
+--rw-r--r--   0 runner    (1001) docker     (123)     1081 2023-02-20 20:54:03.000000 impedance-1.5.0/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (123)    14113 2023-02-20 20:54:08.945132 impedance-1.5.0/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)    13638 2023-02-20 20:54:03.000000 impedance-1.5.0/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:08.945132 impedance-1.5.0/impedance/
+--rw-r--r--   0 runner    (1001) docker     (123)       22 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/__init__.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:08.945132 impedance-1.5.0/impedance/models/
+--rw-r--r--   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/models/__init__.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:08.945132 impedance-1.5.0/impedance/models/circuits/
+--rw-r--r--   0 runner    (1001) docker     (123)      100 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/models/circuits/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)    15946 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/models/circuits/circuits.py
+--rw-r--r--   0 runner    (1001) docker     (123)     9692 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/models/circuits/elements.py
+--rw-r--r--   0 runner    (1001) docker     (123)    14154 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/models/circuits/fitting.py
+--rw-r--r--   0 runner    (1001) docker     (123)    13612 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/preprocessing.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:08.945132 impedance-1.5.0/impedance/tests/
+--rw-r--r--   0 runner    (1001) docker     (123)      180 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     6150 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_circuit_elements.py
+--rw-r--r--   0 runner    (1001) docker     (123)     7147 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_circuits.py
+--rw-r--r--   0 runner    (1001) docker     (123)     8482 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_fitting.py
+--rw-r--r--   0 runner    (1001) docker     (123)     1027 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_model_io.py
+--rw-r--r--   0 runner    (1001) docker     (123)    29741 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_preprocessing.py
+--rw-r--r--   0 runner    (1001) docker     (123)    12348 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_validation.py
+--rw-r--r--   0 runner    (1001) docker     (123)     2166 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/tests/test_visualization.py
+--rw-r--r--   0 runner    (1001) docker     (123)    10741 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/validation.py
+--rw-r--r--   0 runner    (1001) docker     (123)    11004 2023-02-20 20:54:03.000000 impedance-1.5.0/impedance/visualization.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-02-20 20:54:08.945132 impedance-1.5.0/impedance.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)    14113 2023-02-20 20:54:08.000000 impedance-1.5.0/impedance.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      748 2023-02-20 20:54:08.000000 impedance-1.5.0/impedance.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-02-20 20:54:08.000000 impedance-1.5.0/impedance.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       51 2023-02-20 20:54:08.000000 impedance-1.5.0/impedance.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       10 2023-02-20 20:54:08.000000 impedance-1.5.0/impedance.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       38 2023-02-20 20:54:08.945132 impedance-1.5.0/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)      854 2023-02-20 20:54:03.000000 impedance-1.5.0/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:45.707716 impedance-1.6.0/
++-rw-r--r--   0 runner    (1001) docker     (123)     1081 2023-06-24 04:43:42.000000 impedance-1.6.0/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)    14222 2023-06-24 04:43:45.707716 impedance-1.6.0/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)    13747 2023-06-24 04:43:42.000000 impedance-1.6.0/README.md
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:45.707716 impedance-1.6.0/impedance/
++-rw-r--r--   0 runner    (1001) docker     (123)       22 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/__init__.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:45.707716 impedance-1.6.0/impedance/models/
++-rw-r--r--   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/models/__init__.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:45.707716 impedance-1.6.0/impedance/models/circuits/
++-rw-r--r--   0 runner    (1001) docker     (123)      100 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/models/circuits/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)    15946 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/models/circuits/circuits.py
++-rw-r--r--   0 runner    (1001) docker     (123)     9698 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/models/circuits/elements.py
++-rw-r--r--   0 runner    (1001) docker     (123)    14154 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/models/circuits/fitting.py
++-rw-r--r--   0 runner    (1001) docker     (123)    13612 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/preprocessing.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:45.707716 impedance-1.6.0/impedance/tests/
++-rw-r--r--   0 runner    (1001) docker     (123)      180 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     6150 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_circuit_elements.py
++-rw-r--r--   0 runner    (1001) docker     (123)     7147 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_circuits.py
++-rw-r--r--   0 runner    (1001) docker     (123)     8482 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_fitting.py
++-rw-r--r--   0 runner    (1001) docker     (123)     1027 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_model_io.py
++-rw-r--r--   0 runner    (1001) docker     (123)    29741 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_preprocessing.py
++-rw-r--r--   0 runner    (1001) docker     (123)    12348 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_validation.py
++-rw-r--r--   0 runner    (1001) docker     (123)     2166 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/tests/test_visualization.py
++-rw-r--r--   0 runner    (1001) docker     (123)    10741 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/validation.py
++-rw-r--r--   0 runner    (1001) docker     (123)    11029 2023-06-24 04:43:42.000000 impedance-1.6.0/impedance/visualization.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 04:43:45.707716 impedance-1.6.0/impedance.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)    14222 2023-06-24 04:43:45.000000 impedance-1.6.0/impedance.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      748 2023-06-24 04:43:45.000000 impedance-1.6.0/impedance.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-24 04:43:45.000000 impedance-1.6.0/impedance.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       51 2023-06-24 04:43:45.000000 impedance-1.6.0/impedance.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       10 2023-06-24 04:43:45.000000 impedance-1.6.0/impedance.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       38 2023-06-24 04:43:45.707716 impedance-1.6.0/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)      854 2023-06-24 04:43:42.000000 impedance-1.6.0/setup.py
+```
+
+### Comparing `impedance-1.5.0/LICENSE` & `impedance-1.6.0/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/PKG-INFO` & `impedance-1.6.0/README.md`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,883 +1,860 @@
+-00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310a 4e61 6d65 3a20 696d 7065  : 2.1.Name: impe
+-00000020: 6461 6e63 650a 5665 7273 696f 6e3a 2031  dance.Version: 1
+-00000030: 2e35 2e30 0a53 756d 6d61 7279 3a20 4120  .5.0.Summary: A 
+-00000040: 7061 636b 6167 6520 666f 7220 616e 616c  package for anal
+-00000050: 797a 696e 6720 656c 6563 7472 6f63 6865  yzing electroche
+-00000060: 6d69 6361 6c20 696d 7065 6461 6e63 6520  mical impedance 
+-00000070: 6461 7461 0a48 6f6d 652d 7061 6765 3a20  data.Home-page: 
+-00000080: 6874 7470 733a 2f2f 696d 7065 6461 6e63  https://impedanc
+-00000090: 6570 792e 7265 6164 7468 6564 6f63 732e  epy.readthedocs.
+-000000a0: 696f 2f65 6e2f 6c61 7465 7374 2f0a 4175  io/en/latest/.Au
+-000000b0: 7468 6f72 3a20 696d 7065 6461 6e63 652e  thor: impedance.
+-000000c0: 7079 2064 6576 656c 6f70 6572 730a 4175  py developers.Au
+-000000d0: 7468 6f72 2d65 6d61 696c 3a20 6d61 7474  thor-email: matt
+-000000e0: 2e6d 7572 6261 6368 4067 6d61 696c 2e63  .murbach@gmail.c
+-000000f0: 6f6d 0a43 6c61 7373 6966 6965 723a 2050  om.Classifier: P
+-00000100: 726f 6772 616d 6d69 6e67 204c 616e 6775  rogramming Langu
+-00000110: 6167 6520 3a3a 2050 7974 686f 6e20 3a3a  age :: Python ::
+-00000120: 2033 0a43 6c61 7373 6966 6965 723a 204c   3.Classifier: L
+-00000130: 6963 656e 7365 203a 3a20 4f53 4920 4170  icense :: OSI Ap
+-00000140: 7072 6f76 6564 203a 3a20 4d49 5420 4c69  proved :: MIT Li
+-00000150: 6365 6e73 650a 436c 6173 7369 6669 6572  cense.Classifier
+-00000160: 3a20 4f70 6572 6174 696e 6720 5379 7374  : Operating Syst
+-00000170: 656d 203a 3a20 4f53 2049 6e64 6570 656e  em :: OS Indepen
+-00000180: 6465 6e74 0a52 6571 7569 7265 732d 5079  dent.Requires-Py
+-00000190: 7468 6f6e 3a20 7e3d 332e 370a 4465 7363  thon: ~=3.7.Desc
+-000001a0: 7269 7074 696f 6e2d 436f 6e74 656e 742d  ription-Content-
+-000001b0: 5479 7065 3a20 7465 7874 2f6d 6172 6b64  Type: text/markd
+-000001c0: 6f77 6e0a 4c69 6365 6e73 652d 4669 6c65  own.License-File
+-000001d0: 3a20 4c49 4345 4e53 450a 0a5b 215b 444f  : LICENSE..[![DO
+-000001e0: 495d 2868 7474 7073 3a2f 2f7a 656e 6f64  I](https://zenod
+-000001f0: 6f2e 6f72 672f 6261 6467 652f 3133 3631  o.org/badge/1361
+-00000200: 3130 3630 392e 7376 6729 5d28 6874 7470  10609.svg)](http
+-00000210: 733a 2f2f 7a65 6e6f 646f 2e6f 7267 2f62  s://zenodo.org/b
+-00000220: 6164 6765 2f6c 6174 6573 7464 6f69 2f31  adge/latestdoi/1
+-00000230: 3336 3131 3036 3039 2920 2021 5b47 6974  36110609)  ![Git
+-00000240: 4875 6220 7265 6c65 6173 655d 2868 7474  Hub release](htt
+-00000250: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-00000260: 2e69 6f2f 6769 7468 7562 2f72 656c 6561  .io/github/relea
+-00000270: 7365 2f45 4353 4861 636b 5765 656b 2f69  se/ECSHackWeek/i
+-00000280: 6d70 6564 616e 6365 2e70 7929 0a0a 215b  mpedance.py)..![
+-00000290: 5079 5049 202d 2044 6f77 6e6c 6f61 6473  PyPI - Downloads
+-000002a0: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
+-000002b0: 6965 6c64 732e 696f 2f70 7970 692f 646d  ields.io/pypi/dm
+-000002c0: 2f69 6d70 6564 616e 6365 3f73 7479 6c65  /impedance?style
+-000002d0: 3d66 6c61 742d 7371 7561 7265 2920 205b  =flat-square)  [
+-000002e0: 215b 416c 6c20 436f 6e74 7269 6275 746f  ![All Contributo
+-000002f0: 7273 5d28 6874 7470 733a 2f2f 696d 672e  rs](https://img.
+-00000300: 7368 6965 6c64 732e 696f 2f62 6164 6765  shields.io/badge
+-00000310: 2f61 6c6c 5f63 6f6e 7472 6962 7574 6f72  /all_contributor
+-00000320: 732d 3131 2d6f 7261 6e67 652e 7376 673f  s-11-orange.svg?
+-00000330: 7374 796c 653d 666c 6174 2d73 7175 6172  style=flat-squar
+-00000340: 6529 5d28 2363 6f6e 7472 6962 7574 6f72  e)](#contributor
+-00000350: 7329 0a0a 5b21 5b42 7569 6c64 2053 7461  s)..[![Build Sta
+-00000360: 7475 735d 2868 7474 7073 3a2f 2f74 7261  tus](https://tra
+-00000370: 7669 732d 6369 2e6f 7267 2f45 4353 4861  vis-ci.org/ECSHa
+-00000380: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-00000390: 2e70 792e 7376 673f 6272 616e 6368 3d6d  .py.svg?branch=m
+-000003a0: 6173 7465 7226 6b69 6c6c 5f63 6163 6865  aster&kill_cache
+-000003b0: 3d31 295d 2868 7474 7073 3a2f 2f74 7261  =1)](https://tra
+-000003c0: 7669 732d 6369 2e6f 7267 2f45 4353 4861  vis-ci.org/ECSHa
+-000003d0: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-000003e0: 2e70 7929 2020 5b21 5b44 6f63 756d 656e  .py)  [![Documen
+-000003f0: 7461 7469 6f6e 2053 7461 7475 735d 2868  tation Status](h
+-00000400: 7474 7073 3a2f 2f72 6561 6474 6865 646f  ttps://readthedo
+-00000410: 6373 2e6f 7267 2f70 726f 6a65 6374 732f  cs.org/projects/
+-00000420: 696d 7065 6461 6e63 6570 792f 6261 6467  impedancepy/badg
+-00000430: 652f 3f76 6572 7369 6f6e 3d6c 6174 6573  e/?version=lates
+-00000440: 7426 6b69 6c6c 5f63 6163 6865 3d31 295d  t&kill_cache=1)]
+-00000450: 2868 7474 7073 3a2f 2f69 6d70 6564 616e  (https://impedan
+-00000460: 6365 7079 2e72 6561 6474 6865 646f 6373  cepy.readthedocs
+-00000470: 2e69 6f2f 656e 2f6c 6174 6573 742f 3f62  .io/en/latest/?b
+-00000480: 6164 6765 3d6c 6174 6573 7429 205b 215b  adge=latest) [![
+-00000490: 436f 7665 7261 6765 2053 7461 7475 735d  Coverage Status]
+-000004a0: 2868 7474 7073 3a2f 2f63 6f76 6572 616c  (https://coveral
+-000004b0: 6c73 2e69 6f2f 7265 706f 732f 6769 7468  ls.io/repos/gith
+-000004c0: 7562 2f45 4353 4861 636b 5765 656b 2f69  ub/ECSHackWeek/i
+-000004d0: 6d70 6564 616e 6365 2e70 792f 6261 6467  mpedance.py/badg
+-000004e0: 652e 7376 673f 6272 616e 6368 3d6d 6173  e.svg?branch=mas
+-000004f0: 7465 7226 6b69 6c6c 5f63 6163 6865 3d31  ter&kill_cache=1
+-00000500: 295d 2868 7474 7073 3a2f 2f63 6f76 6572  )](https://cover
+-00000510: 616c 6c73 2e69 6f2f 6769 7468 7562 2f45  alls.io/github/E
+-00000520: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
+-00000530: 616e 6365 2e70 793f 6272 616e 6368 3d6d  ance.py?branch=m
+-00000540: 6173 7465 7229 0a0a 696d 7065 6461 6e63  aster)..impedanc
+-00000550: 652e 7079 0a2d 2d2d 2d2d 2d2d 2d2d 2d2d  e.py.-----------
+-00000560: 2d0a 0a60 696d 7065 6461 6e63 652e 7079  -..`impedance.py
+-00000570: 6020 6973 2061 2050 7974 686f 6e20 7061  ` is a Python pa
+-00000580: 636b 6167 6520 666f 7220 6d61 6b69 6e67  ckage for making
+-00000590: 2065 6c65 6374 726f 6368 656d 6963 616c   electrochemical
+-000005a0: 2069 6d70 6564 616e 6365 2073 7065 6374   impedance spect
+-000005b0: 726f 7363 6f70 7920 2845 4953 2920 616e  roscopy (EIS) an
+-000005c0: 616c 7973 6973 2072 6570 726f 6475 6369  alysis reproduci
+-000005d0: 626c 6520 616e 6420 6561 7379 2d74 6f2d  ble and easy-to-
+-000005e0: 7573 652e 0a0a 4169 6d69 6e67 2074 6f20  use...Aiming to 
+-000005f0: 6372 6561 7465 2061 2063 6f6e 7369 7374  create a consist
+-00000600: 656e 742c 205b 7363 696b 6974 2d6c 6561  ent, [scikit-lea
+-00000610: 726e 2d6c 696b 6520 4150 495d 2868 7474  rn-like API](htt
+-00000620: 7073 3a2f 2f61 7278 6976 2e6f 7267 2f61  ps://arxiv.org/a
+-00000630: 6273 2f31 3330 392e 3032 3338 2920 666f  bs/1309.0238) fo
+-00000640: 7220 696d 7065 6461 6e63 6520 616e 616c  r impedance anal
+-00000650: 7973 6973 2c20 696d 7065 6461 6e63 652e  ysis, impedance.
+-00000660: 7079 2063 6f6e 7461 696e 7320 6d6f 6475  py contains modu
+-00000670: 6c65 7320 666f 7220 6461 7461 2070 7265  les for data pre
+-00000680: 7072 6f63 6573 7369 6e67 2c20 7661 6c69  processing, vali
+-00000690: 6461 7469 6f6e 2c20 6d6f 6465 6c20 6669  dation, model fi
+-000006a0: 7474 696e 672c 2061 6e64 2076 6973 7561  tting, and visua
+-000006b0: 6c69 7a61 7469 6f6e 2e0a 0a46 6f72 2061  lization...For a
+-000006c0: 206c 6974 746c 6520 6d6f 7265 2069 6e2d   little more in-
+-000006d0: 6465 7074 6820 6469 7363 7573 7369 6f6e  depth discussion
+-000006e0: 206f 6620 7468 6520 7061 636b 6167 6520   of the package 
+-000006f0: 6261 636b 6772 6f75 6e64 2061 6e64 2063  background and c
+-00000700: 6170 6162 696c 6974 6965 732c 2063 6865  apabilities, che
+-00000710: 636b 206f 7574 206f 7572 205b 4a6f 7572  ck out our [Jour
+-00000720: 6e61 6c20 6f66 204f 7065 6e20 536f 7572  nal of Open Sour
+-00000730: 6365 2053 6f66 7477 6172 6520 7061 7065  ce Software pape
+-00000740: 725d 2868 7474 7073 3a2f 2f6a 6f73 732e  r](https://joss.
+-00000750: 7468 656f 6a2e 6f72 672f 7061 7065 7273  theoj.org/papers
+-00000760: 2f31 302e 3231 3130 352f 6a6f 7373 2e30  /10.21105/joss.0
+-00000770: 3233 3439 292e 0a0a 4966 2079 6f75 2068  2349)...If you h
+-00000780: 6176 6520 6120 6665 6174 7572 6520 7265  ave a feature re
+-00000790: 7175 6573 7420 6f72 2066 696e 6420 6120  quest or find a 
+-000007a0: 6275 672c 2070 6c65 6173 6520 5b66 696c  bug, please [fil
+-000007b0: 6520 616e 2069 7373 7565 5d28 6874 7470  e an issue](http
+-000007c0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
+-000007d0: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
+-000007e0: 616e 6365 2e70 792f 6973 7375 6573 2920  ance.py/issues) 
+-000007f0: 6f72 2c20 6265 7474 6572 2079 6574 2c20  or, better yet, 
+-00000800: 6d61 6b65 2074 6865 2063 6f64 6520 696d  make the code im
+-00000810: 7072 6f76 656d 656e 7473 2061 6e64 205b  provements and [
+-00000820: 7375 626d 6974 2061 2070 756c 6c20 7265  submit a pull re
+-00000830: 7175 6573 745d 2868 7474 7073 3a2f 2f68  quest](https://h
+-00000840: 656c 702e 6769 7468 7562 2e63 6f6d 2f61  elp.github.com/a
+-00000850: 7274 6963 6c65 732f 6372 6561 7469 6e67  rticles/creating
+-00000860: 2d61 2d70 756c 6c2d 7265 7175 6573 742d  -a-pull-request-
+-00000870: 6672 6f6d 2d61 2d66 6f72 6b2f 2921 2054  from-a-fork/)! T
+-00000880: 6865 2067 6f61 6c20 6973 2074 6f20 6275  he goal is to bu
+-00000890: 696c 6420 616e 206f 7065 6e2d 736f 7572  ild an open-sour
+-000008a0: 6365 2074 6f6f 6c20 7468 6174 2074 6865  ce tool that the
+-000008b0: 2065 6e74 6972 6520 696d 7065 6461 6e63   entire impedanc
+-000008c0: 6520 636f 6d6d 756e 6974 7920 6361 6e20  e community can 
+-000008d0: 696d 7072 6f76 6520 616e 6420 7573 6521  improve and use!
+-000008e0: 0a0a 2323 2320 496e 7374 616c 6c61 7469  ..### Installati
+-000008f0: 6f6e 0a0a 5468 6520 6561 7369 6573 7420  on..The easiest 
+-00000900: 7761 7920 746f 2069 6e73 7461 6c6c 2069  way to install i
+-00000910: 6d70 6564 616e 6365 2e70 7920 6973 2066  mpedance.py is f
+-00000920: 726f 6d20 5b50 7950 495d 2868 7474 7073  rom [PyPI](https
+-00000930: 3a2f 2f70 7970 692e 6f72 672f 7072 6f6a  ://pypi.org/proj
+-00000940: 6563 742f 696d 7065 6461 6e63 652f 2920  ect/impedance/) 
+-00000950: 7573 696e 6720 7069 702e 0a0a 6060 6062  using pip...```b
+-00000960: 6173 680a 7069 7020 696e 7374 616c 6c20  ash.pip install 
+-00000970: 696d 7065 6461 6e63 650a 6060 600a 0a53  impedance.```..S
+-00000980: 6565 205b 4765 7474 696e 6720 7374 6172  ee [Getting star
+-00000990: 7465 6420 7769 7468 2069 6d70 6564 616e  ted with impedan
+-000009a0: 6365 2e70 795d 2868 7474 7073 3a2f 2f69  ce.py](https://i
+-000009b0: 6d70 6564 616e 6365 7079 2e72 6561 6474  mpedancepy.readt
+-000009c0: 6865 646f 6373 2e69 6f2f 656e 2f6c 6174  hedocs.io/en/lat
+-000009d0: 6573 742f 6765 7474 696e 672d 7374 6172  est/getting-star
+-000009e0: 7465 642e 6874 6d6c 2920 666f 7220 696e  ted.html) for in
+-000009f0: 7374 7275 6374 696f 6e73 206f 6e20 6765  structions on ge
+-00000a00: 7474 696e 6720 7374 6172 7465 6420 6672  tting started fr
+-00000a10: 6f6d 2073 6372 6174 6368 2e0a 0a23 2323  om scratch...###
+-00000a20: 2320 4465 7065 6e64 656e 6369 6573 0a0a  # Dependencies..
+-00000a30: 696d 7065 6461 6e63 652e 7079 2072 6571  impedance.py req
+-00000a40: 7569 7265 733a 0a0a 2d20 2020 5079 7468  uires:..-   Pyth
+-00000a50: 6f6e 2028 3e3d 332e 3729 0a2d 2020 2053  on (>=3.7).-   S
+-00000a60: 6369 5079 2028 3e3d 312e 3029 0a2d 2020  ciPy (>=1.0).-  
+-00000a70: 204e 756d 5079 2028 3e3d 312e 3134 290a   NumPy (>=1.14).
+-00000a80: 2d20 2020 4d61 7470 6c6f 746c 6962 2028  -   Matplotlib (
+-00000a90: 3e3d 332e 3029 0a2d 2020 2041 6c74 6169  >=3.0).-   Altai
+-00000aa0: 7220 283e 3d33 2e30 290a 0a53 6576 6572  r (>=3.0)..Sever
+-00000ab0: 616c 2065 7861 6d70 6c65 206e 6f74 6562  al example noteb
+-00000ac0: 6f6f 6b73 2061 7265 2070 726f 7669 6465  ooks are provide
+-00000ad0: 6420 696e 2074 6865 2060 646f 6373 2f73  d in the `docs/s
+-00000ae0: 6f75 7263 652f 6578 616d 706c 6573 2f60  ource/examples/`
+-00000af0: 2064 6972 6563 746f 7279 2e20 4f70 656e   directory. Open
+-00000b00: 696e 6720 7468 6573 6520 7769 6c6c 2072  ing these will r
+-00000b10: 6571 7569 7265 204a 7570 7974 6572 206e  equire Jupyter n
+-00000b20: 6f74 6562 6f6f 6b20 6f72 204a 7570 7974  otebook or Jupyt
+-00000b30: 6572 206c 6162 2e0a 0a23 2323 2320 4578  er lab...#### Ex
+-00000b40: 616d 706c 6573 2061 6e64 2044 6f63 756d  amples and Docum
+-00000b50: 656e 7461 7469 6f6e 0a0a 5365 7665 7261  entation..Severa
+-00000b60: 6c20 6578 616d 706c 6573 2063 616e 2062  l examples can b
+-00000b70: 6520 666f 756e 6420 696e 2074 6865 2060  e found in the `
+-00000b80: 646f 6373 2f73 6f75 7263 652f 6578 616d  docs/source/exam
+-00000b90: 706c 6573 2f60 2064 6972 6563 746f 7279  ples/` directory
+-00000ba0: 2028 7468 6520 5b46 6974 7469 6e67 2069   (the [Fitting i
+-00000bb0: 6d70 6564 616e 6365 2073 7065 6374 7261  mpedance spectra
+-00000bc0: 206e 6f74 6562 6f6f 6b5d 2868 7474 7073   notebook](https
+-00000bd0: 3a2f 2f69 6d70 6564 616e 6365 7079 2e72  ://impedancepy.r
+-00000be0: 6561 6474 6865 646f 6373 2e69 6f2f 656e  eadthedocs.io/en
+-00000bf0: 2f6c 6174 6573 742f 6578 616d 706c 6573  /latest/examples
+-00000c00: 2f66 6974 7469 6e67 5f65 7861 6d70 6c65  /fitting_example
+-00000c10: 2e68 746d 6c29 2069 7320 6120 6772 6561  .html) is a grea
+-00000c20: 7420 706c 6163 6520 746f 2073 7461 7274  t place to start
+-00000c30: 2920 616e 6420 7468 6520 646f 6375 6d65  ) and the docume
+-00000c40: 6e74 6174 696f 6e20 6361 6e20 6265 2066  ntation can be f
+-00000c50: 6f75 6e64 2061 7420 5b69 6d70 6564 616e  ound at [impedan
+-00000c60: 6365 7079 2e72 6561 6474 6865 646f 6373  cepy.readthedocs
+-00000c70: 2e69 6f5d 2868 7474 7073 3a2f 2f69 6d70  .io](https://imp
+-00000c80: 6564 616e 6365 7079 2e72 6561 6474 6865  edancepy.readthe
+-00000c90: 646f 6373 2e69 6f2f 656e 2f6c 6174 6573  docs.io/en/lates
+-00000ca0: 742f 292e 0a0a 2323 2043 6974 696e 6720  t/)...## Citing 
+-00000cb0: 696d 7065 6461 6e63 652e 7079 0a0a 5b21  impedance.py..[!
+-00000cc0: 5b44 4f49 5d28 6874 7470 733a 2f2f 6a6f  [DOI](https://jo
+-00000cd0: 7373 2e74 6865 6f6a 2e6f 7267 2f70 6170  ss.theoj.org/pap
+-00000ce0: 6572 732f 3130 2e32 3131 3035 2f6a 6f73  ers/10.21105/jos
+-00000cf0: 732e 3032 3334 392f 7374 6174 7573 2e73  s.02349/status.s
+-00000d00: 7667 295d 2868 7474 7073 3a2f 2f64 6f69  vg)](https://doi
+-00000d10: 2e6f 7267 2f31 302e 3231 3130 352f 6a6f  .org/10.21105/jo
+-00000d20: 7373 2e30 3233 3439 290a 0a49 6620 796f  ss.02349)..If yo
+-00000d30: 7520 7573 6520 696d 7065 6461 6e63 652e  u use impedance.
+-00000d40: 7079 2069 6e20 7075 626c 6973 6865 6420  py in published 
+-00000d50: 776f 726b 2c20 706c 6561 7365 2063 6f6e  work, please con
+-00000d60: 7369 6465 7220 6369 7469 6e67 2068 7474  sider citing htt
+-00000d70: 7073 3a2f 2f6a 6f73 732e 7468 656f 6a2e  ps://joss.theoj.
+-00000d80: 6f72 672f 7061 7065 7273 2f31 302e 3231  org/papers/10.21
+-00000d90: 3130 352f 6a6f 7373 2e30 3233 3439 2061  105/joss.02349 a
+-00000da0: 730a 0a60 6060 6261 7368 0a40 6172 7469  s..```bash.@arti
+-00000db0: 636c 657b 4d75 7262 6163 6832 3032 302c  cle{Murbach2020,
+-00000dc0: 0a20 2064 6f69 203d 207b 3130 2e32 3131  .  doi = {10.211
+-00000dd0: 3035 2f6a 6f73 732e 3032 3334 397d 2c0a  05/joss.02349},.
+-00000de0: 2020 7572 6c20 3d20 7b68 7474 7073 3a2f    url = {https:/
+-00000df0: 2f64 6f69 2e6f 7267 2f31 302e 3231 3130  /doi.org/10.2110
+-00000e00: 352f 6a6f 7373 2e30 3233 3439 7d2c 0a20  5/joss.02349},. 
+-00000e10: 2079 6561 7220 3d20 7b32 3032 307d 2c0a   year = {2020},.
+-00000e20: 2020 7075 626c 6973 6865 7220 3d20 7b54    publisher = {T
+-00000e30: 6865 204f 7065 6e20 4a6f 7572 6e61 6c7d  he Open Journal}
+-00000e40: 2c0a 2020 766f 6c75 6d65 203d 207b 357d  ,.  volume = {5}
+-00000e50: 2c0a 2020 6e75 6d62 6572 203d 207b 3532  ,.  number = {52
+-00000e60: 7d2c 0a20 2070 6167 6573 203d 207b 3233  },.  pages = {23
+-00000e70: 3439 7d2c 0a20 2061 7574 686f 7220 3d20  49},.  author = 
+-00000e80: 7b4d 6174 7468 6577 2044 2e20 4d75 7262  {Matthew D. Murb
+-00000e90: 6163 6820 616e 6420 4272 6961 6e20 4765  ach and Brian Ge
+-00000ea0: 7277 6520 616e 6420 4e65 616c 2044 6177  rwe and Neal Daw
+-00000eb0: 736f 6e2d 456c 6c69 2061 6e64 204c 6f6b  son-Elli and Lok
+-00000ec0: 2d6b 756e 2054 7375 697d 2c0a 2020 7469  -kun Tsui},.  ti
+-00000ed0: 746c 6520 3d20 7b69 6d70 6564 616e 6365  tle = {impedance
+-00000ee0: 2e70 793a 2041 2050 7974 686f 6e20 7061  .py: A Python pa
+-00000ef0: 636b 6167 6520 666f 7220 656c 6563 7472  ckage for electr
+-00000f00: 6f63 6865 6d69 6361 6c20 696d 7065 6461  ochemical impeda
+-00000f10: 6e63 6520 616e 616c 7973 6973 7d2c 0a20  nce analysis},. 
+-00000f20: 206a 6f75 726e 616c 203d 207b 4a6f 7572   journal = {Jour
+-00000f30: 6e61 6c20 6f66 204f 7065 6e20 536f 7572  nal of Open Sour
+-00000f40: 6365 2053 6f66 7477 6172 657d 0a7d 0a60  ce Software}.}.`
+-00000f50: 6060 0a0a 2323 2043 6f6e 7472 6962 7574  ``..## Contribut
+-00000f60: 6f72 7320 e29c a80a 0a54 6869 7320 7072  ors .....This pr
+-00000f70: 6f6a 6563 7420 7374 6172 7465 6420 6174  oject started at
+-00000f80: 2074 6865 205b 3230 3138 2045 6c65 6374   the [2018 Elect
+-00000f90: 726f 6368 656d 6963 616c 2053 6f63 6965  rochemical Socie
+-00000fa0: 7479 2028 4543 5329 2048 6163 6b20 5765  ty (ECS) Hack We
+-00000fb0: 656b 2069 6e20 5365 6174 746c 655d 2868  ek in Seattle](h
+-00000fc0: 7474 7073 3a2f 2f77 7777 2e65 6c65 6374  ttps://www.elect
+-00000fd0: 726f 6368 656d 2e6f 7267 2f32 3333 2f68  rochem.org/233/h
+-00000fe0: 6163 6b2d 7765 656b 2920 616e 6420 6861  ack-week) and ha
+-00000ff0: 7320 6265 6e65 6669 7465 6420 6672 6f6d  s benefited from
+-00001000: 2061 2063 6f6d 6d75 6e69 7479 206f 6620   a community of 
+-00001010: 7573 6572 7320 616e 6420 636f 6e74 7269  users and contri
+-00001020: 6275 746f 7273 2073 696e 6365 2e20 5468  butors since. Th
+-00001030: 616e 6b73 2067 6f65 7320 746f 2074 6865  anks goes to the
+-00001040: 7365 2077 6f6e 6465 7266 756c 2070 656f  se wonderful peo
+-00001050: 706c 6520 285b 656d 6f6a 6920 6b65 795d  ple ([emoji key]
+-00001060: 2868 7474 7073 3a2f 2f61 6c6c 636f 6e74  (https://allcont
+-00001070: 7269 6275 746f 7273 2e6f 7267 2f64 6f63  ributors.org/doc
+-00001080: 732f 656e 2f65 6d6f 6a69 2d6b 6579 2929  s/en/emoji-key))
+-00001090: 3a0a 0a3c 212d 2d20 414c 4c2d 434f 4e54  :..<!-- ALL-CONT
+-000010a0: 5249 4255 544f 5253 2d4c 4953 543a 5354  RIBUTORS-LIST:ST
+-000010b0: 4152 5420 2d20 446f 206e 6f74 2072 656d  ART - Do not rem
+-000010c0: 6f76 6520 6f72 206d 6f64 6966 7920 7468  ove or modify th
+-000010d0: 6973 2073 6563 7469 6f6e 202d 2d3e 0a3c  is section -->.<
+-000010e0: 212d 2d20 7072 6574 7469 6572 2d69 676e  !-- prettier-ign
+-000010f0: 6f72 652d 7374 6172 7420 2d2d 3e0a 3c21  ore-start -->.<!
+-00001100: 2d2d 206d 6172 6b64 6f77 6e6c 696e 742d  -- markdownlint-
+-00001110: 6469 7361 626c 6520 2d2d 3e0a 3c74 6162  disable -->.<tab
+-00001120: 6c65 3e0a 2020 3c74 626f 6479 3e0a 2020  le>.  <tbody>.  
+-00001130: 2020 3c74 723e 0a20 2020 2020 203c 7464    <tr>.      <td
+-00001140: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
+-00001150: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
+-00001160: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
+-00001170: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00001180: 6875 622e 636f 6d2f 6c6b 7473 7569 223e  hub.com/lktsui">
+-00001190: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
+-000011a0: 2f2f 6176 6174 6172 7330 2e67 6974 6875  //avatars0.githu
+-000011b0: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-000011c0: 2f75 2f32 3232 3436 3036 393f 763d 343f  /u/22246069?v=4?
+-000011d0: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
+-000011e0: 3070 783b 2220 616c 743d 224c 6f6b 2d6b  0px;" alt="Lok-k
+-000011f0: 756e 2054 7375 6922 2f3e 3c62 7220 2f3e  un Tsui"/><br />
+-00001200: 3c73 7562 3e3c 623e 4c6f 6b2d 6b75 6e20  <sub><b>Lok-kun 
+-00001210: 5473 7569 3c2f 623e 3c2f 7375 623e 3c2f  Tsui</b></sub></
+-00001220: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
+-00001230: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00001240: 636f 6d2f 4543 5348 6163 6b57 6565 6b2f  com/ECSHackWeek/
+-00001250: 696d 7065 6461 6e63 652e 7079 2f63 6f6d  impedance.py/com
+-00001260: 6d69 7473 3f61 7574 686f 723d 6c6b 7473  mits?author=lkts
+-00001270: 7569 2220 7469 746c 653d 2243 6f64 6522  ui" title="Code"
+-00001280: 3ef0 9f92 bb3c 2f61 3e20 3c61 2068 7265  >....</a> <a hre
+-00001290: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-000012a0: 622e 636f 6d2f 4543 5348 6163 6b57 6565  b.com/ECSHackWee
+-000012b0: 6b2f 696d 7065 6461 6e63 652e 7079 2f63  k/impedance.py/c
+-000012c0: 6f6d 6d69 7473 3f61 7574 686f 723d 6c6b  ommits?author=lk
+-000012d0: 7473 7569 2220 7469 746c 653d 2254 6573  tsui" title="Tes
+-000012e0: 7473 223e e29a a0ef b88f 3c2f 613e 203c  ts">......</a> <
+-000012f0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001300: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
+-00001310: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-00001320: 2e70 792f 636f 6d6d 6974 733f 6175 7468  .py/commits?auth
+-00001330: 6f72 3d6c 6b74 7375 6922 2074 6974 6c65  or=lktsui" title
+-00001340: 3d22 446f 6375 6d65 6e74 6174 696f 6e22  ="Documentation"
+-00001350: 3ef0 9f93 963c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
+-00001360: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00001370: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
+-00001380: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
+-00001390: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
+-000013a0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-000013b0: 4247 6572 7765 223e 3c69 6d67 2073 7263  BGerwe"><img src
+-000013c0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-000013d0: 7333 2e67 6974 6875 6275 7365 7263 6f6e  s3.githubusercon
+-000013e0: 7465 6e74 2e63 6f6d 2f75 2f33 3838 3139  tent.com/u/38819
+-000013f0: 3332 313f 763d 343f 733d 3130 3022 2077  321?v=4?s=100" w
+-00001400: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00001410: 743d 2242 7269 616e 2047 6572 7765 222f  t="Brian Gerwe"/
+-00001420: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e42  ><br /><sub><b>B
+-00001430: 7269 616e 2047 6572 7765 3c2f 623e 3c2f  rian Gerwe</b></
+-00001440: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00001450: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00001460: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
+-00001470: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
+-00001480: 7079 2f63 6f6d 6d69 7473 3f61 7574 686f  py/commits?autho
+-00001490: 723d 4247 6572 7765 2220 7469 746c 653d  r=BGerwe" title=
+-000014a0: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e20  "Code">....</a> 
+-000014b0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000014c0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-000014d0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-000014e0: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
+-000014f0: 686f 723d 4247 6572 7765 2220 7469 746c  hor=BGerwe" titl
+-00001500: 653d 2254 6573 7473 223e e29a a0ef b88f  e="Tests">......
+-00001510: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
+-00001520: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00001530: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-00001540: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
+-00001550: 733f 6175 7468 6f72 3d42 4765 7277 6522  s?author=BGerwe"
+-00001560: 2074 6974 6c65 3d22 446f 6375 6d65 6e74   title="Document
+-00001570: 6174 696f 6e22 3ef0 9f93 963c 2f61 3e20  ation">....</a> 
+-00001580: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001590: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-000015a0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-000015b0: 652e 7079 2f70 756c 6c73 3f71 3d69 7325  e.py/pulls?q=is%
+-000015c0: 3341 7072 2b72 6576 6965 7765 642d 6279  3Apr+reviewed-by
+-000015d0: 2533 4142 4765 7277 6522 2074 6974 6c65  %3ABGerwe" title
+-000015e0: 3d22 5265 7669 6577 6564 2050 756c 6c20  ="Reviewed Pull 
+-000015f0: 5265 7175 6573 7473 223e f09f 9180 3c2f  Requests">....</
+-00001600: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
+-00001610: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00001620: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
+-00001630: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
+-00001640: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00001650: 7468 7562 2e63 6f6d 2f6e 6561 6c64 6522  thub.com/nealde"
+-00001660: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00001670: 3a2f 2f61 7661 7461 7273 322e 6769 7468  ://avatars2.gith
+-00001680: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00001690: 6d2f 752f 3235 3837 3738 3638 3f76 3d34  m/u/25877868?v=4
+-000016a0: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-000016b0: 3030 7078 3b22 2061 6c74 3d22 4e65 616c  00px;" alt="Neal
+-000016c0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-000016d0: 3e4e 6561 6c3c 2f62 3e3c 2f73 7562 3e3c  >Neal</b></sub><
+-000016e0: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-000016f0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001700: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
+-00001710: 2f69 6d70 6564 616e 6365 2e70 792f 7075  /impedance.py/pu
+-00001720: 6c6c 733f 713d 6973 2533 4170 722b 7265  lls?q=is%3Apr+re
+-00001730: 7669 6577 6564 2d62 7925 3341 6e65 616c  viewed-by%3Aneal
+-00001740: 6465 2220 7469 746c 653d 2252 6576 6965  de" title="Revie
+-00001750: 7765 6420 5075 6c6c 2052 6571 7565 7374  wed Pull Request
+-00001760: 7322 3ef0 9f91 803c 2f61 3e20 3c61 2068  s">....</a> <a h
+-00001770: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00001780: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
+-00001790: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
+-000017a0: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
+-000017b0: 6e65 616c 6465 2220 7469 746c 653d 2243  nealde" title="C
+-000017c0: 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74  ode">....</a></t
+-000017d0: 643e 0a20 2020 2020 203c 7464 2061 6c69  d>.      <td ali
+-000017e0: 676e 3d22 6365 6e74 6572 2220 7661 6c69  gn="center" vali
+-000017f0: 676e 3d22 746f 7022 2077 6964 7468 3d22  gn="top" width="
+-00001800: 3134 2e32 3825 223e 3c61 2068 7265 663d  14.28%"><a href=
+-00001810: 2268 7474 703a 2f2f 6d61 7474 6d75 7262  "http://mattmurb
+-00001820: 6163 682e 636f 6d22 3e3c 696d 6720 7372  ach.com"><img sr
+-00001830: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00001840: 7273 332e 6769 7468 7562 7573 6572 636f  rs3.githubuserco
+-00001850: 6e74 656e 742e 636f 6d2f 752f 3933 3639  ntent.com/u/9369
+-00001860: 3032 303f 763d 343f 733d 3130 3022 2077  020?v=4?s=100" w
+-00001870: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00001880: 743d 224d 6174 7420 4d75 7262 6163 6822  t="Matt Murbach"
+-00001890: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
+-000018a0: 4d61 7474 204d 7572 6261 6368 3c2f 623e  Matt Murbach</b>
+-000018b0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-000018c0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000018d0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-000018e0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-000018f0: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
+-00001900: 686f 723d 6d64 6d75 7262 6163 6822 2074  hor=mdmurbach" t
+-00001910: 6974 6c65 3d22 446f 6375 6d65 6e74 6174  itle="Documentat
+-00001920: 696f 6e22 3ef0 9f93 963c 2f61 3e20 3c61  ion">....</a> <a
+-00001930: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00001940: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
+-00001950: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
+-00001960: 7079 2f70 756c 6c73 3f71 3d69 7325 3341  py/pulls?q=is%3A
+-00001970: 7072 2b72 6576 6965 7765 642d 6279 2533  pr+reviewed-by%3
+-00001980: 416d 646d 7572 6261 6368 2220 7469 746c  Amdmurbach" titl
+-00001990: 653d 2252 6576 6965 7765 6420 5075 6c6c  e="Reviewed Pull
+-000019a0: 2052 6571 7565 7374 7322 3ef0 9f91 803c   Requests">....<
+-000019b0: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
+-000019c0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-000019d0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-000019e0: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
+-000019f0: 3f61 7574 686f 723d 6d64 6d75 7262 6163  ?author=mdmurbac
+-00001a00: 6822 2074 6974 6c65 3d22 5465 7374 7322  h" title="Tests"
+-00001a10: 3ee2 9aa0 efb8 8f3c 2f61 3e20 3c61 2068  >......</a> <a h
+-00001a20: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00001a30: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
+-00001a40: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
+-00001a50: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
+-00001a60: 6d64 6d75 7262 6163 6822 2074 6974 6c65  mdmurbach" title
+-00001a70: 3d22 436f 6465 223e f09f 92bb 3c2f 613e  ="Code">....</a>
+-00001a80: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
+-00001a90: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
+-00001aa0: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
+-00001ab0: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
+-00001ac0: 6566 3d22 6874 7470 733a 2f2f 6b65 6e6e  ef="https://kenn
+-00001ad0: 7976 682e 636f 6d22 3e3c 696d 6720 7372  yvh.com"><img sr
+-00001ae0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00001af0: 7273 322e 6769 7468 7562 7573 6572 636f  rs2.githubuserco
+-00001b00: 6e74 656e 742e 636f 6d2f 752f 3239 3930  ntent.com/u/2990
+-00001b10: 3932 3033 3f76 3d34 3f73 3d31 3030 2220  9203?v=4?s=100" 
+-00001b20: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00001b30: 6c74 3d22 4b65 6e6e 7920 4875 796e 6822  lt="Kenny Huynh"
+-00001b40: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
+-00001b50: 4b65 6e6e 7920 4875 796e 683c 2f62 3e3c  Kenny Huynh</b><
+-00001b60: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00001b70: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00001b80: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
+-00001b90: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-00001ba0: 2e70 792f 6973 7375 6573 3f71 3d61 7574  .py/issues?q=aut
+-00001bb0: 686f 7225 3341 686b 656e 6e79 7622 2074  hor%3Ahkennyv" t
+-00001bc0: 6974 6c65 3d22 4275 6720 7265 706f 7274  itle="Bug report
+-00001bd0: 7322 3ef0 9f90 9b3c 2f61 3e20 3c61 2068  s">....</a> <a h
+-00001be0: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00001bf0: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
+-00001c00: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
+-00001c10: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
+-00001c20: 686b 656e 6e79 7622 2074 6974 6c65 3d22  hkennyv" title="
+-00001c30: 436f 6465 223e f09f 92bb 3c2f 613e 3c2f  Code">....</a></
+-00001c40: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00001c50: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-00001c60: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-00001c70: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-00001c80: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001c90: 2e63 6f6d 2f6c 6177 7265 6e63 6572 656e  .com/lawrenceren
+-00001ca0: 6e61 223e 3c69 6d67 2073 7263 3d22 6874  na"><img src="ht
+-00001cb0: 7470 733a 2f2f 6176 6174 6172 7330 2e67  tps://avatars0.g
+-00001cc0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
+-00001cd0: 2e63 6f6d 2f75 2f34 3931 3734 3333 373f  .com/u/49174337?
+-00001ce0: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
+-00001cf0: 3d22 3130 3070 783b 2220 616c 743d 226c  ="100px;" alt="l
+-00001d00: 6177 7265 6e63 6572 656e 6e61 222f 3e3c  awrencerenna"/><
+-00001d10: 6272 202f 3e3c 7375 623e 3c62 3e6c 6177  br /><sub><b>law
+-00001d20: 7265 6e63 6572 656e 6e61 3c2f 623e 3c2f  rencerenna</b></
+-00001d30: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00001d40: 2068 7265 663d 2223 6964 6561 732d 6c61   href="#ideas-la
+-00001d50: 7772 656e 6365 7265 6e6e 6122 2074 6974  wrencerenna" tit
+-00001d60: 6c65 3d22 4964 6561 732c 2050 6c61 6e6e  le="Ideas, Plann
+-00001d70: 696e 672c 2026 2046 6565 6462 6163 6b22  ing, & Feedback"
+-00001d80: 3ef0 9fa4 943c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
+-00001d90: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00001da0: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
+-00001db0: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
+-00001dc0: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
+-00001dd0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00001de0: 526f 7769 6e22 3e3c 696d 6720 7372 633d  Rowin"><img src=
+-00001df0: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00001e00: 332e 6769 7468 7562 7573 6572 636f 6e74  3.githubusercont
+-00001e10: 656e 742e 636f 6d2f 752f 3137 3237 3437  ent.com/u/172747
+-00001e20: 383f 763d 343f 733d 3130 3022 2077 6964  8?v=4?s=100" wid
+-00001e30: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00001e40: 2252 6f77 696e 222f 3e3c 6272 202f 3e3c  "Rowin"/><br /><
+-00001e50: 7375 623e 3c62 3e52 6f77 696e 3c2f 623e  sub><b>Rowin</b>
+-00001e60: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-00001e70: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001e80: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-00001e90: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-00001ea0: 652e 7079 2f69 7373 7565 733f 713d 6175  e.py/issues?q=au
+-00001eb0: 7468 6f72 2533 4152 6f77 696e 2220 7469  thor%3ARowin" ti
+-00001ec0: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
+-00001ed0: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
+-00001ee0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00001ef0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
+-00001f00: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
+-00001f10: 636f 6d6d 6974 733f 6175 7468 6f72 3d52  commits?author=R
+-00001f20: 6f77 696e 2220 7469 746c 653d 2243 6f64  owin" title="Cod
+-00001f30: 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e  e">....</a></td>
+-00001f40: 0a20 2020 203c 2f74 723e 0a20 2020 203c  .    </tr>.    <
+-00001f50: 7472 3e0a 2020 2020 2020 3c74 6420 616c  tr>.      <td al
+-00001f60: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-00001f70: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-00001f80: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-00001f90: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001fa0: 2e63 6f6d 2f6d 6963 6861 656c 706c 6577  .com/michaelplew
+-00001fb0: 7322 3e3c 696d 6720 7372 633d 2268 7474  s"><img src="htt
+-00001fc0: 7073 3a2f 2f61 7661 7461 7273 322e 6769  ps://avatars2.gi
+-00001fd0: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00001fe0: 636f 6d2f 752f 3134 3039 3839 3239 3f76  com/u/14098929?v
+-00001ff0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-00002000: 2231 3030 7078 3b22 2061 6c74 3d22 4d69  "100px;" alt="Mi
+-00002010: 6368 6165 6c20 506c 6577 7322 2f3e 3c62  chael Plews"/><b
+-00002020: 7220 2f3e 3c73 7562 3e3c 623e 4d69 6368  r /><sub><b>Mich
+-00002030: 6165 6c20 506c 6577 733c 2f62 3e3c 2f73  ael Plews</b></s
+-00002040: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00002050: 6872 6566 3d22 2369 6465 6173 2d6d 6963  href="#ideas-mic
+-00002060: 6861 656c 706c 6577 7322 2074 6974 6c65  haelplews" title
+-00002070: 3d22 4964 6561 732c 2050 6c61 6e6e 696e  ="Ideas, Plannin
+-00002080: 672c 2026 2046 6565 6462 6163 6b22 3ef0  g, & Feedback">.
+-00002090: 9fa4 943c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-000020a0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-000020b0: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
+-000020c0: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
+-000020d0: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-000020e0: 3a2f 2f67 6974 6875 622e 636f 6d2f 4368  ://github.com/Ch
+-000020f0: 6562 7573 6b69 6e22 3e3c 696d 6720 7372  ebuskin"><img sr
+-00002100: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00002110: 7273 302e 6769 7468 7562 7573 6572 636f  rs0.githubuserco
+-00002120: 6e74 656e 742e 636f 6d2f 752f 3333 3738  ntent.com/u/3378
+-00002130: 3737 3233 3f76 3d34 3f73 3d31 3030 2220  7723?v=4?s=100" 
+-00002140: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00002150: 6c74 3d22 4368 6562 7573 6b69 6e22 2f3e  lt="Chebuskin"/>
+-00002160: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4368  <br /><sub><b>Ch
+-00002170: 6562 7573 6b69 6e3c 2f62 3e3c 2f73 7562  ebuskin</b></sub
+-00002180: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-00002190: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-000021a0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
+-000021b0: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
+-000021c0: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
+-000021d0: 3341 4368 6562 7573 6b69 6e22 2074 6974  3AChebuskin" tit
+-000021e0: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
+-000021f0: 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
+-00002200: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00002210: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
+-00002220: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
+-00002230: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
+-00002240: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002250: 656e 7669 726f 6e6d 6174 223e 3c69 6d67  environmat"><img
+-00002260: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
+-00002270: 6174 6172 7330 2e67 6974 6875 6275 7365  atars0.githubuse
+-00002280: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f39  rcontent.com/u/9
+-00002290: 3330 3933 3533 3f76 3d34 3f73 3d31 3030  309353?v=4?s=100
+-000022a0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
+-000022b0: 2061 6c74 3d22 656e 7669 726f 6e6d 6174   alt="environmat
+-000022c0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-000022d0: 3e65 6e76 6972 6f6e 6d61 743c 2f62 3e3c  >environmat</b><
+-000022e0: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-000022f0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00002300: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
+-00002310: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-00002320: 2e70 792f 6973 7375 6573 3f71 3d61 7574  .py/issues?q=aut
+-00002330: 686f 7225 3341 656e 7669 726f 6e6d 6174  hor%3Aenvironmat
+-00002340: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
+-00002350: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
+-00002360: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00002370: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-00002380: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-00002390: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-000023a0: 3d22 6874 7470 3a2f 2f77 7777 2e61 6264  ="http://www.abd
+-000023b0: 756c 6c61 6873 756d 6261 6c2e 636f 6d22  ullahsumbal.com"
+-000023c0: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-000023d0: 3a2f 2f61 7661 7461 7273 322e 6769 7468  ://avatars2.gith
+-000023e0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-000023f0: 6d2f 752f 3132 3934 3639 3437 3f76 3d34  m/u/12946947?v=4
+-00002400: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00002410: 3030 7078 3b22 2061 6c74 3d22 4162 6475  00px;" alt="Abdu
+-00002420: 6c6c 6168 2053 756d 6261 6c22 2f3e 3c62  llah Sumbal"/><b
+-00002430: 7220 2f3e 3c73 7562 3e3c 623e 4162 6475  r /><sub><b>Abdu
+-00002440: 6c6c 6168 2053 756d 6261 6c3c 2f62 3e3c  llah Sumbal</b><
+-00002450: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
+-00002460: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00002470: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
+-00002480: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-00002490: 2e70 792f 6973 7375 6573 3f71 3d61 7574  .py/issues?q=aut
+-000024a0: 686f 7225 3341 6162 6475 6c6c 6168 7375  hor%3Aabdullahsu
+-000024b0: 6d62 616c 2220 7469 746c 653d 2242 7567  mbal" title="Bug
+-000024c0: 2072 6570 6f72 7473 223e f09f 909b 3c2f   reports">....</
+-000024d0: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
+-000024e0: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-000024f0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
+-00002500: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
+-00002510: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00002520: 7468 7562 2e63 6f6d 2f6e 6f62 6b61 7422  thub.com/nobkat"
+-00002530: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00002540: 3a2f 2f61 7661 7461 7273 332e 6769 7468  ://avatars3.gith
+-00002550: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00002560: 6d2f 752f 3239 3037 3734 3435 3f76 3d34  m/u/29077445?v=4
+-00002570: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00002580: 3030 7078 3b22 2061 6c74 3d22 6e6f 626b  00px;" alt="nobk
+-00002590: 6174 222f 3e3c 6272 202f 3e3c 7375 623e  at"/><br /><sub>
+-000025a0: 3c62 3e6e 6f62 6b61 743c 2f62 3e3c 2f73  <b>nobkat</b></s
+-000025b0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-000025c0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-000025d0: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
+-000025e0: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
+-000025f0: 792f 636f 6d6d 6974 733f 6175 7468 6f72  y/commits?author
+-00002600: 3d6e 6f62 6b61 7422 2074 6974 6c65 3d22  =nobkat" title="
+-00002610: 436f 6465 223e f09f 92bb 3c2f 613e 3c2f  Code">....</a></
+-00002620: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00002630: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-00002640: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-00002650: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-00002660: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002670: 2e63 6f6d 2f6e 6963 6b62 7261 6479 223e  .com/nickbrady">
+-00002680: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
+-00002690: 2f2f 6176 6174 6172 7331 2e67 6974 6875  //avatars1.githu
+-000026a0: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
+-000026b0: 2f75 2f37 3437 3133 3637 3f76 3d34 3f73  /u/7471367?v=4?s
+-000026c0: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
+-000026d0: 7078 3b22 2061 6c74 3d22 4e69 636b 222f  px;" alt="Nick"/
+-000026e0: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e4e  ><br /><sub><b>N
+-000026f0: 6963 6b3c 2f62 3e3c 2f73 7562 3e3c 2f61  ick</b></sub></a
+-00002700: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
+-00002710: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00002720: 6f6d 2f45 4353 4861 636b 5765 656b 2f69  om/ECSHackWeek/i
+-00002730: 6d70 6564 616e 6365 2e70 792f 6973 7375  mpedance.py/issu
+-00002740: 6573 3f71 3d61 7574 686f 7225 3341 6e69  es?q=author%3Ani
+-00002750: 636b 6272 6164 7922 2074 6974 6c65 3d22  ckbrady" title="
+-00002760: 4275 6720 7265 706f 7274 7322 3ef0 9f90  Bug reports">...
+-00002770: 9b3c 2f61 3e20 3c61 2068 7265 663d 2268  .</a> <a href="h
+-00002780: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002790: 6d2f 4543 5348 6163 6b57 6565 6b2f 696d  m/ECSHackWeek/im
+-000027a0: 7065 6461 6e63 652e 7079 2f63 6f6d 6d69  pedance.py/commi
+-000027b0: 7473 3f61 7574 686f 723d 6e69 636b 6272  ts?author=nickbr
+-000027c0: 6164 7922 2074 6974 6c65 3d22 436f 6465  ady" title="Code
+-000027d0: 223e f09f 92bb 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
+-000027e0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
+-000027f0: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
+-00002800: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
+-00002810: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
+-00002820: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00002830: 2f61 6f6b 6f6d 6f72 6f77 736b 6922 3e3c  /aokomorowski"><
+-00002840: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
+-00002850: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
+-00002860: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00002870: 2f34 3336 3635 3437 343f 763d 343f 733d  /43665474?v=4?s=
+-00002880: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-00002890: 783b 2220 616c 743d 2261 6f6b 6f6d 6f72  x;" alt="aokomor
+-000028a0: 6f77 736b 6922 2f3e 3c62 7220 2f3e 3c73  owski"/><br /><s
+-000028b0: 7562 3e3c 623e 616f 6b6f 6d6f 726f 7773  ub><b>aokomorows
+-000028c0: 6b69 3c2f 623e 3c2f 7375 623e 3c2f 613e  ki</b></sub></a>
+-000028d0: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
+-000028e0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-000028f0: 6d2f 4543 5348 6163 6b57 6565 6b2f 696d  m/ECSHackWeek/im
+-00002900: 7065 6461 6e63 652e 7079 2f63 6f6d 6d69  pedance.py/commi
+-00002910: 7473 3f61 7574 686f 723d 616f 6b6f 6d6f  ts?author=aokomo
+-00002920: 726f 7773 6b69 2220 7469 746c 653d 2243  rowski" title="C
+-00002930: 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74  ode">....</a></t
+-00002940: 643e 0a20 2020 203c 2f74 723e 0a20 2020  d>.    </tr>.   
+-00002950: 203c 7472 3e0a 2020 2020 2020 3c74 6420   <tr>.      <td 
+-00002960: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
+-00002970: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
+-00002980: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
+-00002990: 6566 3d22 6874 7470 733a 2f2f 7065 7465  ef="https://pete
+-000029a0: 726d 6174 7469 612e 636f 6d22 3e3c 696d  rmattia.com"><im
+-000029b0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-000029c0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-000029d0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f32  rcontent.com/u/2
+-000029e0: 3935 3531 3835 383f 763d 343f 733d 3130  9551858?v=4?s=10
+-000029f0: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
+-00002a00: 2220 616c 743d 2250 6574 6572 2041 7474  " alt="Peter Att
+-00002a10: 6961 222f 3e3c 6272 202f 3e3c 7375 623e  ia"/><br /><sub>
+-00002a20: 3c62 3e50 6574 6572 2041 7474 6961 3c2f  <b>Peter Attia</
+-00002a30: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-00002a40: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
+-00002a50: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
+-00002a60: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
+-00002a70: 6e63 652e 7079 2f63 6f6d 6d69 7473 3f61  nce.py/commits?a
+-00002a80: 7574 686f 723d 7065 7465 726d 6174 7469  uthor=petermatti
+-00002a90: 6122 2074 6974 6c65 3d22 436f 6465 223e  a" title="Code">
+-00002aa0: f09f 92bb 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
+-00002ab0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002ac0: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
+-00002ad0: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
+-00002ae0: 6d6d 6974 733f 6175 7468 6f72 3d70 6574  mmits?author=pet
+-00002af0: 6572 6d61 7474 6961 2220 7469 746c 653d  ermattia" title=
+-00002b00: 2254 6573 7473 223e e29a a0ef b88f 3c2f  "Tests">......</
+-00002b10: 613e 203c 6120 6872 6566 3d22 6874 7470  a> <a href="http
+-00002b20: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
+-00002b30: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
+-00002b40: 616e 6365 2e70 792f 636f 6d6d 6974 733f  ance.py/commits?
+-00002b50: 6175 7468 6f72 3d70 6574 6572 6d61 7474  author=petermatt
+-00002b60: 6961 2220 7469 746c 653d 2244 6f63 756d  ia" title="Docum
+-00002b70: 656e 7461 7469 6f6e 223e f09f 9396 3c2f  entation">....</
+-00002b80: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
+-00002b90: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00002ba0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
+-00002bb0: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
+-00002bc0: 6872 6566 3d22 6874 7470 3a2f 2f73 646b  href="http://sdk
+-00002bd0: 616e 672e 6f72 6722 3e3c 696d 6720 7372  ang.org"><img sr
+-00002be0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00002bf0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-00002c00: 7465 6e74 2e63 6f6d 2f75 2f35 3531 3136  tent.com/u/55116
+-00002c10: 3530 313f 763d 343f 733d 3130 3022 2077  501?v=4?s=100" w
+-00002c20: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00002c30: 743d 2273 646b 616e 6722 2f3e 3c62 7220  t="sdkang"/><br 
+-00002c40: 2f3e 3c73 7562 3e3c 623e 7364 6b61 6e67  /><sub><b>sdkang
+-00002c50: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00002c60: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
+-00002c70: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002c80: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-00002c90: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
+-00002ca0: 3f61 7574 686f 723d 7374 6570 6865 6e64  ?author=stephend
+-00002cb0: 6b61 6e67 2220 7469 746c 653d 2254 6573  kang" title="Tes
+-00002cc0: 7473 223e e29a a0ef b88f 3c2f 613e 203c  ts">......</a> <
+-00002cd0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00002ce0: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
+-00002cf0: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-00002d00: 2e70 792f 636f 6d6d 6974 733f 6175 7468  .py/commits?auth
+-00002d10: 6f72 3d73 7465 7068 656e 646b 616e 6722  or=stephendkang"
+-00002d20: 2074 6974 6c65 3d22 436f 6465 223e f09f   title="Code">..
+-00002d30: 92bb 3c2f 613e 3c2f 7464 3e0a 2020 2020  ..</a></td>.    
+-00002d40: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
+-00002d50: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
+-00002d60: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
+-00002d70: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00002d80: 2f2f 6769 7468 7562 2e63 6f6d 2f6c 7563  //github.com/luc
+-00002d90: 6173 6664 7678 223e 3c69 6d67 2073 7263  asfdvx"><img src
+-00002da0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00002db0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-00002dc0: 656e 742e 636f 6d2f 752f 3835 3838 3839  ent.com/u/858889
+-00002dd0: 3034 3f76 3d34 3f73 3d31 3030 2220 7769  04?v=4?s=100" wi
+-00002de0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-00002df0: 3d22 6c75 6361 7366 6476 7822 2f3e 3c62  ="lucasfdvx"/><b
+-00002e00: 7220 2f3e 3c73 7562 3e3c 623e 6c75 6361  r /><sub><b>luca
+-00002e10: 7366 6476 783c 2f62 3e3c 2f73 7562 3e3c  sfdvx</b></sub><
+-00002e20: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00002e30: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002e40: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
+-00002e50: 2f69 6d70 6564 616e 6365 2e70 792f 6973  /impedance.py/is
+-00002e60: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
+-00002e70: 6c75 6361 7366 6476 7822 2074 6974 6c65  lucasfdvx" title
+-00002e80: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
+-00002e90: 9f90 9b3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00002ea0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002eb0: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
+-00002ec0: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
+-00002ed0: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-00002ee0: 3a2f 2f67 6974 6875 622e 636f 6d2f 5361  ://github.com/Sa
+-00002ef0: 6674 4d61 636b 6922 3e3c 696d 6720 7372  ftMacki"><img sr
+-00002f00: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00002f10: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-00002f20: 7465 6e74 2e63 6f6d 2f75 2f39 3030 3330  tent.com/u/90030
+-00002f30: 3237 313f 763d 343f 733d 3130 3022 2077  271?v=4?s=100" w
+-00002f40: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00002f50: 743d 224d 6172 6375 7320 4b61 726c 7374  t="Marcus Karlst
+-00002f60: 6164 222f 3e3c 6272 202f 3e3c 7375 623e  ad"/><br /><sub>
+-00002f70: 3c62 3e4d 6172 6375 7320 4b61 726c 7374  <b>Marcus Karlst
+-00002f80: 6164 3c2f 623e 3c2f 7375 623e 3c2f 613e  ad</b></sub></a>
+-00002f90: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
+-00002fa0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002fb0: 6d2f 4543 5348 6163 6b57 6565 6b2f 696d  m/ECSHackWeek/im
+-00002fc0: 7065 6461 6e63 652e 7079 2f69 7373 7565  pedance.py/issue
+-00002fd0: 733f 713d 6175 7468 6f72 2533 4153 6166  s?q=author%3ASaf
+-00002fe0: 744d 6163 6b69 2220 7469 746c 653d 2242  tMacki" title="B
+-00002ff0: 7567 2072 6570 6f72 7473 223e f09f 909b  ug reports">....
+-00003000: 3c2f 613e 3c2f 7464 3e0a 2020 2020 2020  </a></td>.      
+-00003010: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
+-00003020: 7222 2076 616c 6967 6e3d 2274 6f70 2220  r" valign="top" 
+-00003030: 7769 6474 683d 2231 342e 3238 2522 3e3c  width="14.28%"><
+-00003040: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00003050: 6769 7468 7562 2e63 6f6d 2f6d 6172 6b62  github.com/markb
+-00003060: 6f75 6d61 6e22 3e3c 696d 6720 7372 633d  ouman"><img src=
+-00003070: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00003080: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00003090: 6e74 2e63 6f6d 2f75 2f31 3033 3934 3431  nt.com/u/1039441
+-000030a0: 3230 3f76 3d34 3f73 3d31 3030 2220 7769  20?v=4?s=100" wi
+-000030b0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-000030c0: 3d22 4d61 726b 2042 6f75 6d61 6e22 2f3e  ="Mark Bouman"/>
+-000030d0: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4d61  <br /><sub><b>Ma
+-000030e0: 726b 2042 6f75 6d61 6e3c 2f62 3e3c 2f73  rk Bouman</b></s
+-000030f0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00003100: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00003110: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
+-00003120: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
+-00003130: 792f 6973 7375 6573 3f71 3d61 7574 686f  y/issues?q=autho
+-00003140: 7225 3341 6d61 726b 626f 756d 616e 2220  r%3Amarkbouman" 
+-00003150: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
+-00003160: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
+-00003170: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00003180: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
+-00003190: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
+-000031a0: 792f 636f 6d6d 6974 733f 6175 7468 6f72  y/commits?author
+-000031b0: 3d6d 6172 6b62 6f75 6d61 6e22 2074 6974  =markbouman" tit
+-000031c0: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
+-000031d0: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
+-000031e0: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-000031f0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
+-00003200: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
+-00003210: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00003220: 7468 7562 2e63 6f6d 2f6f 736c 6f70 616e  thub.com/oslopan
+-00003230: 6461 223e 3c69 6d67 2073 7263 3d22 6874  da"><img src="ht
+-00003240: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
+-00003250: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00003260: 636f 6d2f 752f 3333 3831 3034 3330 3f76  com/u/33810430?v
+-00003270: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-00003280: 2231 3030 7078 3b22 2061 6c74 3d22 6f73  "100px;" alt="os
+-00003290: 6c6f 7061 6e64 6122 2f3e 3c62 7220 2f3e  lopanda"/><br />
+-000032a0: 3c73 7562 3e3c 623e 6f73 6c6f 7061 6e64  <sub><b>oslopand
+-000032b0: 613c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  a</b></sub></a><
+-000032c0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-000032d0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000032e0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-000032f0: 6564 616e 6365 2e70 792f 6973 7375 6573  edance.py/issues
+-00003300: 3f71 3d61 7574 686f 7225 3341 6f73 6c6f  ?q=author%3Aoslo
+-00003310: 7061 6e64 6122 2074 6974 6c65 3d22 4275  panda" title="Bu
+-00003320: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-00003330: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
+-00003340: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-00003350: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
+-00003360: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
+-00003370: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00003380: 6974 6875 622e 636f 6d2f 7069 6c69 6c61  ithub.com/pilila
+-00003390: 6322 3e3c 696d 6720 7372 633d 2268 7474  c"><img src="htt
+-000033a0: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
+-000033b0: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
+-000033c0: 6f6d 2f75 2f36 3031 3136 3634 363f 763d  om/u/60116646?v=
+-000033d0: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
+-000033e0: 3130 3070 783b 2220 616c 743d 2270 696c  100px;" alt="pil
+-000033f0: 696c 6163 222f 3e3c 6272 202f 3e3c 7375  ilac"/><br /><su
+-00003400: 623e 3c62 3e70 696c 696c 6163 3c2f 623e  b><b>pililac</b>
+-00003410: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-00003420: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00003430: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-00003440: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-00003450: 652e 7079 2f69 7373 7565 733f 713d 6175  e.py/issues?q=au
+-00003460: 7468 6f72 2533 4170 696c 696c 6163 2220  thor%3Apililac" 
+-00003470: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
+-00003480: 7473 223e f09f 909b 3c2f 613e 3c2f 7464  ts">....</a></td
+-00003490: 3e0a 2020 2020 3c2f 7472 3e0a 2020 2020  >.    </tr>.    
+-000034a0: 3c74 723e 0a20 2020 2020 203c 7464 2061  <tr>.      <td a
+-000034b0: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
+-000034c0: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
+-000034d0: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
+-000034e0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-000034f0: 622e 636f 6d2f 6b65 7669 6e73 6d69 6131  b.com/kevinsmia1
+-00003500: 3933 3922 3e3c 696d 6720 7372 633d 2268  939"><img src="h
+-00003510: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
+-00003520: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
+-00003530: 2e63 6f6d 2f75 2f31 3134 3037 3932 323f  .com/u/11407922?
+-00003540: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
+-00003550: 3d22 3130 3070 783b 2220 616c 743d 224b  ="100px;" alt="K
+-00003560: 6176 696e 2054 6565 6e61 6b75 6c22 2f3e  avin Teenakul"/>
+-00003570: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4b61  <br /><sub><b>Ka
+-00003580: 7669 6e20 5465 656e 616b 756c 3c2f 623e  vin Teenakul</b>
+-00003590: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-000035a0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000035b0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-000035c0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-000035d0: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
+-000035e0: 686f 723d 6b65 7669 6e73 6d69 6131 3933  hor=kevinsmia193
+-000035f0: 3922 2074 6974 6c65 3d22 436f 6465 223e  9" title="Code">
+-00003600: f09f 92bb 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
+-00003610: 2020 3c2f 7472 3e0a 2020 3c2f 7462 6f64    </tr>.  </tbod
+-00003620: 793e 0a3c 2f74 6162 6c65 3e0a 0a3c 212d  y>.</table>..<!-
+-00003630: 2d20 6d61 726b 646f 776e 6c69 6e74 2d72  - markdownlint-r
+-00003640: 6573 746f 7265 202d 2d3e 0a3c 212d 2d20  estore -->.<!-- 
+-00003650: 7072 6574 7469 6572 2d69 676e 6f72 652d  prettier-ignore-
+-00003660: 656e 6420 2d2d 3e0a 0a3c 212d 2d20 414c  end -->..<!-- AL
+-00003670: 4c2d 434f 4e54 5249 4255 544f 5253 2d4c  L-CONTRIBUTORS-L
+-00003680: 4953 543a 454e 4420 2d2d 3e0a 0a54 6869  IST:END -->..Thi
+-00003690: 7320 7072 6f6a 6563 7420 666f 6c6c 6f77  s project follow
+-000036a0: 7320 7468 6520 5b61 6c6c 2d63 6f6e 7472  s the [all-contr
+-000036b0: 6962 7574 6f72 735d 2868 7474 7073 3a2f  ibutors](https:/
+-000036c0: 2f67 6974 6875 622e 636f 6d2f 616c 6c2d  /github.com/all-
+-000036d0: 636f 6e74 7269 6275 746f 7273 2f61 6c6c  contributors/all
+-000036e0: 2d63 6f6e 7472 6962 7574 6f72 7329 2073  -contributors) s
+-000036f0: 7065 6369 6669 6361 7469 6f6e 2e20 436f  pecification. Co
+-00003700: 6e74 7269 6275 7469 6f6e 7320 6f66 2061  ntributions of a
+-00003710: 6e79 206b 696e 6420 7765 6c63 6f6d 6521  ny kind welcome!
+-00003720: 0a                                       .
++00000000: 5b21 5b44 4f49 5d28 6874 7470 733a 2f2f  [![DOI](https://
++00000010: 7a65 6e6f 646f 2e6f 7267 2f62 6164 6765  zenodo.org/badge
++00000020: 2f31 3336 3131 3036 3039 2e73 7667 295d  /136110609.svg)]
++00000030: 2868 7474 7073 3a2f 2f7a 656e 6f64 6f2e  (https://zenodo.
++00000040: 6f72 672f 6261 6467 652f 6c61 7465 7374  org/badge/latest
++00000050: 646f 692f 3133 3631 3130 3630 3929 2020  doi/136110609)  
++00000060: 215b 4769 7448 7562 2072 656c 6561 7365  ![GitHub release
++00000070: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
++00000080: 6965 6c64 732e 696f 2f67 6974 6875 622f  ields.io/github/
++00000090: 7265 6c65 6173 652f 4543 5348 6163 6b57  release/ECSHackW
++000000a0: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
++000000b0: 290a 0a21 5b50 7950 4920 2d20 446f 776e  )..![PyPI - Down
++000000c0: 6c6f 6164 735d 2868 7474 7073 3a2f 2f69  loads](https://i
++000000d0: 6d67 2e73 6869 656c 6473 2e69 6f2f 7079  mg.shields.io/py
++000000e0: 7069 2f64 6d2f 696d 7065 6461 6e63 653f  pi/dm/impedance?
++000000f0: 7374 796c 653d 666c 6174 2d73 7175 6172  style=flat-squar
++00000100: 6529 2020 5b21 5b41 6c6c 2043 6f6e 7472  e)  [![All Contr
++00000110: 6962 7574 6f72 735d 2868 7474 7073 3a2f  ibutors](https:/
++00000120: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
++00000130: 6261 6467 652f 616c 6c5f 636f 6e74 7269  badge/all_contri
++00000140: 6275 746f 7273 2d31 312d 6f72 616e 6765  butors-11-orange
++00000150: 2e73 7667 3f73 7479 6c65 3d66 6c61 742d  .svg?style=flat-
++00000160: 7371 7561 7265 295d 2823 636f 6e74 7269  square)](#contri
++00000170: 6275 746f 7273 290a 0a5b 215b 4275 696c  butors)..[![Buil
++00000180: 6420 5374 6174 7573 5d28 6874 7470 733a  d Status](https:
++00000190: 2f2f 7472 6176 6973 2d63 692e 6f72 672f  //travis-ci.org/
++000001a0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++000001b0: 6461 6e63 652e 7079 2e73 7667 3f62 7261  dance.py.svg?bra
++000001c0: 6e63 683d 6d61 7374 6572 266b 696c 6c5f  nch=master&kill_
++000001d0: 6361 6368 653d 3129 5d28 6874 7470 733a  cache=1)](https:
++000001e0: 2f2f 7472 6176 6973 2d63 692e 6f72 672f  //travis-ci.org/
++000001f0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++00000200: 6461 6e63 652e 7079 2920 205b 215b 446f  dance.py)  [![Do
++00000210: 6375 6d65 6e74 6174 696f 6e20 5374 6174  cumentation Stat
++00000220: 7573 5d28 6874 7470 733a 2f2f 7265 6164  us](https://read
++00000230: 7468 6564 6f63 732e 6f72 672f 7072 6f6a  thedocs.org/proj
++00000240: 6563 7473 2f69 6d70 6564 616e 6365 7079  ects/impedancepy
++00000250: 2f62 6164 6765 2f3f 7665 7273 696f 6e3d  /badge/?version=
++00000260: 6c61 7465 7374 266b 696c 6c5f 6361 6368  latest&kill_cach
++00000270: 653d 3129 5d28 6874 7470 733a 2f2f 696d  e=1)](https://im
++00000280: 7065 6461 6e63 6570 792e 7265 6164 7468  pedancepy.readth
++00000290: 6564 6f63 732e 696f 2f65 6e2f 6c61 7465  edocs.io/en/late
++000002a0: 7374 2f3f 6261 6467 653d 6c61 7465 7374  st/?badge=latest
++000002b0: 2920 5b21 5b43 6f76 6572 6167 6520 5374  ) [![Coverage St
++000002c0: 6174 7573 5d28 6874 7470 733a 2f2f 636f  atus](https://co
++000002d0: 7665 7261 6c6c 732e 696f 2f72 6570 6f73  veralls.io/repos
++000002e0: 2f67 6974 6875 622f 4543 5348 6163 6b57  /github/ECSHackW
++000002f0: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
++00000300: 2f62 6164 6765 2e73 7667 3f62 7261 6e63  /badge.svg?branc
++00000310: 683d 6d61 7374 6572 266b 696c 6c5f 6361  h=master&kill_ca
++00000320: 6368 653d 3129 5d28 6874 7470 733a 2f2f  che=1)](https://
++00000330: 636f 7665 7261 6c6c 732e 696f 2f67 6974  coveralls.io/git
++00000340: 6875 622f 4543 5348 6163 6b57 6565 6b2f  hub/ECSHackWeek/
++00000350: 696d 7065 6461 6e63 652e 7079 3f62 7261  impedance.py?bra
++00000360: 6e63 683d 6d61 7374 6572 290a 0a69 6d70  nch=master)..imp
++00000370: 6564 616e 6365 2e70 790a 2d2d 2d2d 2d2d  edance.py.------
++00000380: 2d2d 2d2d 2d2d 0a0a 6069 6d70 6564 616e  ------..`impedan
++00000390: 6365 2e70 7960 2069 7320 6120 5079 7468  ce.py` is a Pyth
++000003a0: 6f6e 2070 6163 6b61 6765 2066 6f72 206d  on package for m
++000003b0: 616b 696e 6720 656c 6563 7472 6f63 6865  aking electroche
++000003c0: 6d69 6361 6c20 696d 7065 6461 6e63 6520  mical impedance 
++000003d0: 7370 6563 7472 6f73 636f 7079 2028 4549  spectroscopy (EI
++000003e0: 5329 2061 6e61 6c79 7369 7320 7265 7072  S) analysis repr
++000003f0: 6f64 7563 6962 6c65 2061 6e64 2065 6173  oducible and eas
++00000400: 792d 746f 2d75 7365 2e0a 0a41 696d 696e  y-to-use...Aimin
++00000410: 6720 746f 2063 7265 6174 6520 6120 636f  g to create a co
++00000420: 6e73 6973 7465 6e74 2c20 5b73 6369 6b69  nsistent, [sciki
++00000430: 742d 6c65 6172 6e2d 6c69 6b65 2041 5049  t-learn-like API
++00000440: 5d28 6874 7470 733a 2f2f 6172 7869 762e  ](https://arxiv.
++00000450: 6f72 672f 6162 732f 3133 3039 2e30 3233  org/abs/1309.023
++00000460: 3829 2066 6f72 2069 6d70 6564 616e 6365  8) for impedance
++00000470: 2061 6e61 6c79 7369 732c 2069 6d70 6564   analysis, imped
++00000480: 616e 6365 2e70 7920 636f 6e74 6169 6e73  ance.py contains
++00000490: 206d 6f64 756c 6573 2066 6f72 2064 6174   modules for dat
++000004a0: 6120 7072 6570 726f 6365 7373 696e 672c  a preprocessing,
++000004b0: 2076 616c 6964 6174 696f 6e2c 206d 6f64   validation, mod
++000004c0: 656c 2066 6974 7469 6e67 2c20 616e 6420  el fitting, and 
++000004d0: 7669 7375 616c 697a 6174 696f 6e2e 0a0a  visualization...
++000004e0: 466f 7220 6120 6c69 7474 6c65 206d 6f72  For a little mor
++000004f0: 6520 696e 2d64 6570 7468 2064 6973 6375  e in-depth discu
++00000500: 7373 696f 6e20 6f66 2074 6865 2070 6163  ssion of the pac
++00000510: 6b61 6765 2062 6163 6b67 726f 756e 6420  kage background 
++00000520: 616e 6420 6361 7061 6269 6c69 7469 6573  and capabilities
++00000530: 2c20 6368 6563 6b20 6f75 7420 6f75 7220  , check out our 
++00000540: 5b4a 6f75 726e 616c 206f 6620 4f70 656e  [Journal of Open
++00000550: 2053 6f75 7263 6520 536f 6674 7761 7265   Source Software
++00000560: 2070 6170 6572 5d28 6874 7470 733a 2f2f   paper](https://
++00000570: 6a6f 7373 2e74 6865 6f6a 2e6f 7267 2f70  joss.theoj.org/p
++00000580: 6170 6572 732f 3130 2e32 3131 3035 2f6a  apers/10.21105/j
++00000590: 6f73 732e 3032 3334 3929 2e0a 0a49 6620  oss.02349)...If 
++000005a0: 796f 7520 6861 7665 2061 2066 6561 7475  you have a featu
++000005b0: 7265 2072 6571 7565 7374 206f 7220 6669  re request or fi
++000005c0: 6e64 2061 2062 7567 2c20 706c 6561 7365  nd a bug, please
++000005d0: 205b 6669 6c65 2061 6e20 6973 7375 655d   [file an issue]
++000005e0: 2868 7474 7073 3a2f 2f67 6974 6875 622e  (https://github.
++000005f0: 636f 6d2f 4543 5348 6163 6b57 6565 6b2f  com/ECSHackWeek/
++00000600: 696d 7065 6461 6e63 652e 7079 2f69 7373  impedance.py/iss
++00000610: 7565 7329 206f 722c 2062 6574 7465 7220  ues) or, better 
++00000620: 7965 742c 206d 616b 6520 7468 6520 636f  yet, make the co
++00000630: 6465 2069 6d70 726f 7665 6d65 6e74 7320  de improvements 
++00000640: 616e 6420 5b73 7562 6d69 7420 6120 7075  and [submit a pu
++00000650: 6c6c 2072 6571 7565 7374 5d28 6874 7470  ll request](http
++00000660: 733a 2f2f 6865 6c70 2e67 6974 6875 622e  s://help.github.
++00000670: 636f 6d2f 6172 7469 636c 6573 2f63 7265  com/articles/cre
++00000680: 6174 696e 672d 612d 7075 6c6c 2d72 6571  ating-a-pull-req
++00000690: 7565 7374 2d66 726f 6d2d 612d 666f 726b  uest-from-a-fork
++000006a0: 2f29 2120 5468 6520 676f 616c 2069 7320  /)! The goal is 
++000006b0: 746f 2062 7569 6c64 2061 6e20 6f70 656e  to build an open
++000006c0: 2d73 6f75 7263 6520 746f 6f6c 2074 6861  -source tool tha
++000006d0: 7420 7468 6520 656e 7469 7265 2069 6d70  t the entire imp
++000006e0: 6564 616e 6365 2063 6f6d 6d75 6e69 7479  edance community
++000006f0: 2063 616e 2069 6d70 726f 7665 2061 6e64   can improve and
++00000700: 2075 7365 210a 0a23 2323 2049 6e73 7461   use!..### Insta
++00000710: 6c6c 6174 696f 6e0a 0a54 6865 2065 6173  llation..The eas
++00000720: 6965 7374 2077 6179 2074 6f20 696e 7374  iest way to inst
++00000730: 616c 6c20 696d 7065 6461 6e63 652e 7079  all impedance.py
++00000740: 2069 7320 6672 6f6d 205b 5079 5049 5d28   is from [PyPI](
++00000750: 6874 7470 733a 2f2f 7079 7069 2e6f 7267  https://pypi.org
++00000760: 2f70 726f 6a65 6374 2f69 6d70 6564 616e  /project/impedan
++00000770: 6365 2f29 2075 7369 6e67 2070 6970 2e0a  ce/) using pip..
++00000780: 0a60 6060 6261 7368 0a70 6970 2069 6e73  .```bash.pip ins
++00000790: 7461 6c6c 2069 6d70 6564 616e 6365 0a60  tall impedance.`
++000007a0: 6060 0a0a 5365 6520 5b47 6574 7469 6e67  ``..See [Getting
++000007b0: 2073 7461 7274 6564 2077 6974 6820 696d   started with im
++000007c0: 7065 6461 6e63 652e 7079 5d28 6874 7470  pedance.py](http
++000007d0: 733a 2f2f 696d 7065 6461 6e63 6570 792e  s://impedancepy.
++000007e0: 7265 6164 7468 6564 6f63 732e 696f 2f65  readthedocs.io/e
++000007f0: 6e2f 6c61 7465 7374 2f67 6574 7469 6e67  n/latest/getting
++00000800: 2d73 7461 7274 6564 2e68 746d 6c29 2066  -started.html) f
++00000810: 6f72 2069 6e73 7472 7563 7469 6f6e 7320  or instructions 
++00000820: 6f6e 2067 6574 7469 6e67 2073 7461 7274  on getting start
++00000830: 6564 2066 726f 6d20 7363 7261 7463 682e  ed from scratch.
++00000840: 0a0a 2323 2323 2044 6570 656e 6465 6e63  ..#### Dependenc
++00000850: 6965 730a 0a69 6d70 6564 616e 6365 2e70  ies..impedance.p
++00000860: 7920 7265 7175 6972 6573 3a0a 0a2d 2020  y requires:..-  
++00000870: 2050 7974 686f 6e20 283e 3d33 2e37 290a   Python (>=3.7).
++00000880: 2d20 2020 5363 6950 7920 283e 3d31 2e30  -   SciPy (>=1.0
++00000890: 290a 2d20 2020 4e75 6d50 7920 283e 3d31  ).-   NumPy (>=1
++000008a0: 2e31 3429 0a2d 2020 204d 6174 706c 6f74  .14).-   Matplot
++000008b0: 6c69 6220 283e 3d33 2e30 290a 2d20 2020  lib (>=3.0).-   
++000008c0: 416c 7461 6972 2028 3e3d 332e 3029 0a0a  Altair (>=3.0)..
++000008d0: 5365 7665 7261 6c20 6578 616d 706c 6520  Several example 
++000008e0: 6e6f 7465 626f 6f6b 7320 6172 6520 7072  notebooks are pr
++000008f0: 6f76 6964 6564 2069 6e20 7468 6520 6064  ovided in the `d
++00000900: 6f63 732f 736f 7572 6365 2f65 7861 6d70  ocs/source/examp
++00000910: 6c65 732f 6020 6469 7265 6374 6f72 792e  les/` directory.
++00000920: 204f 7065 6e69 6e67 2074 6865 7365 2077   Opening these w
++00000930: 696c 6c20 7265 7175 6972 6520 4a75 7079  ill require Jupy
++00000940: 7465 7220 6e6f 7465 626f 6f6b 206f 7220  ter notebook or 
++00000950: 4a75 7079 7465 7220 6c61 622e 0a0a 2323  Jupyter lab...##
++00000960: 2323 2045 7861 6d70 6c65 7320 616e 6420  ## Examples and 
++00000970: 446f 6375 6d65 6e74 6174 696f 6e0a 0a53  Documentation..S
++00000980: 6576 6572 616c 2065 7861 6d70 6c65 7320  everal examples 
++00000990: 6361 6e20 6265 2066 6f75 6e64 2069 6e20  can be found in 
++000009a0: 7468 6520 6064 6f63 732f 736f 7572 6365  the `docs/source
++000009b0: 2f65 7861 6d70 6c65 732f 6020 6469 7265  /examples/` dire
++000009c0: 6374 6f72 7920 2874 6865 205b 4669 7474  ctory (the [Fitt
++000009d0: 696e 6720 696d 7065 6461 6e63 6520 7370  ing impedance sp
++000009e0: 6563 7472 6120 6e6f 7465 626f 6f6b 5d28  ectra notebook](
++000009f0: 6874 7470 733a 2f2f 696d 7065 6461 6e63  https://impedanc
++00000a00: 6570 792e 7265 6164 7468 6564 6f63 732e  epy.readthedocs.
++00000a10: 696f 2f65 6e2f 6c61 7465 7374 2f65 7861  io/en/latest/exa
++00000a20: 6d70 6c65 732f 6669 7474 696e 675f 6578  mples/fitting_ex
++00000a30: 616d 706c 652e 6874 6d6c 2920 6973 2061  ample.html) is a
++00000a40: 2067 7265 6174 2070 6c61 6365 2074 6f20   great place to 
++00000a50: 7374 6172 7429 2061 6e64 2074 6865 2064  start) and the d
++00000a60: 6f63 756d 656e 7461 7469 6f6e 2063 616e  ocumentation can
++00000a70: 2062 6520 666f 756e 6420 6174 205b 696d   be found at [im
++00000a80: 7065 6461 6e63 6570 792e 7265 6164 7468  pedancepy.readth
++00000a90: 6564 6f63 732e 696f 5d28 6874 7470 733a  edocs.io](https:
++00000aa0: 2f2f 696d 7065 6461 6e63 6570 792e 7265  //impedancepy.re
++00000ab0: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
++00000ac0: 6c61 7465 7374 2f29 2e0a 0a23 2320 4369  latest/)...## Ci
++00000ad0: 7469 6e67 2069 6d70 6564 616e 6365 2e70  ting impedance.p
++00000ae0: 790a 0a5b 215b 444f 495d 2868 7474 7073  y..[![DOI](https
++00000af0: 3a2f 2f6a 6f73 732e 7468 656f 6a2e 6f72  ://joss.theoj.or
++00000b00: 672f 7061 7065 7273 2f31 302e 3231 3130  g/papers/10.2110
++00000b10: 352f 6a6f 7373 2e30 3233 3439 2f73 7461  5/joss.02349/sta
++00000b20: 7475 732e 7376 6729 5d28 6874 7470 733a  tus.svg)](https:
++00000b30: 2f2f 646f 692e 6f72 672f 3130 2e32 3131  //doi.org/10.211
++00000b40: 3035 2f6a 6f73 732e 3032 3334 3929 0a0a  05/joss.02349)..
++00000b50: 4966 2079 6f75 2075 7365 2069 6d70 6564  If you use imped
++00000b60: 616e 6365 2e70 7920 696e 2070 7562 6c69  ance.py in publi
++00000b70: 7368 6564 2077 6f72 6b2c 2070 6c65 6173  shed work, pleas
++00000b80: 6520 636f 6e73 6964 6572 2063 6974 696e  e consider citin
++00000b90: 6720 6874 7470 733a 2f2f 6a6f 7373 2e74  g https://joss.t
++00000ba0: 6865 6f6a 2e6f 7267 2f70 6170 6572 732f  heoj.org/papers/
++00000bb0: 3130 2e32 3131 3035 2f6a 6f73 732e 3032  10.21105/joss.02
++00000bc0: 3334 3920 6173 0a0a 6060 6062 6173 680a  349 as..```bash.
++00000bd0: 4061 7274 6963 6c65 7b4d 7572 6261 6368  @article{Murbach
++00000be0: 3230 3230 2c0a 2020 646f 6920 3d20 7b31  2020,.  doi = {1
++00000bf0: 302e 3231 3130 352f 6a6f 7373 2e30 3233  0.21105/joss.023
++00000c00: 3439 7d2c 0a20 2075 726c 203d 207b 6874  49},.  url = {ht
++00000c10: 7470 733a 2f2f 646f 692e 6f72 672f 3130  tps://doi.org/10
++00000c20: 2e32 3131 3035 2f6a 6f73 732e 3032 3334  .21105/joss.0234
++00000c30: 397d 2c0a 2020 7965 6172 203d 207b 3230  9},.  year = {20
++00000c40: 3230 7d2c 0a20 2070 7562 6c69 7368 6572  20},.  publisher
++00000c50: 203d 207b 5468 6520 4f70 656e 204a 6f75   = {The Open Jou
++00000c60: 726e 616c 7d2c 0a20 2076 6f6c 756d 6520  rnal},.  volume 
++00000c70: 3d20 7b35 7d2c 0a20 206e 756d 6265 7220  = {5},.  number 
++00000c80: 3d20 7b35 327d 2c0a 2020 7061 6765 7320  = {52},.  pages 
++00000c90: 3d20 7b32 3334 397d 2c0a 2020 6175 7468  = {2349},.  auth
++00000ca0: 6f72 203d 207b 4d61 7474 6865 7720 442e  or = {Matthew D.
++00000cb0: 204d 7572 6261 6368 2061 6e64 2042 7269   Murbach and Bri
++00000cc0: 616e 2047 6572 7765 2061 6e64 204e 6561  an Gerwe and Nea
++00000cd0: 6c20 4461 7773 6f6e 2d45 6c6c 6920 616e  l Dawson-Elli an
++00000ce0: 6420 4c6f 6b2d 6b75 6e20 5473 7569 7d2c  d Lok-kun Tsui},
++00000cf0: 0a20 2074 6974 6c65 203d 207b 696d 7065  .  title = {impe
++00000d00: 6461 6e63 652e 7079 3a20 4120 5079 7468  dance.py: A Pyth
++00000d10: 6f6e 2070 6163 6b61 6765 2066 6f72 2065  on package for e
++00000d20: 6c65 6374 726f 6368 656d 6963 616c 2069  lectrochemical i
++00000d30: 6d70 6564 616e 6365 2061 6e61 6c79 7369  mpedance analysi
++00000d40: 737d 2c0a 2020 6a6f 7572 6e61 6c20 3d20  s},.  journal = 
++00000d50: 7b4a 6f75 726e 616c 206f 6620 4f70 656e  {Journal of Open
++00000d60: 2053 6f75 7263 6520 536f 6674 7761 7265   Source Software
++00000d70: 7d0a 7d0a 6060 600a 0a23 2320 436f 6e74  }.}.```..## Cont
++00000d80: 7269 6275 746f 7273 20e2 9ca8 0a0a 5468  ributors .....Th
++00000d90: 6973 2070 726f 6a65 6374 2073 7461 7274  is project start
++00000da0: 6564 2061 7420 7468 6520 5b32 3031 3820  ed at the [2018 
++00000db0: 456c 6563 7472 6f63 6865 6d69 6361 6c20  Electrochemical 
++00000dc0: 536f 6369 6574 7920 2845 4353 2920 4861  Society (ECS) Ha
++00000dd0: 636b 2057 6565 6b20 696e 2053 6561 7474  ck Week in Seatt
++00000de0: 6c65 5d28 6874 7470 733a 2f2f 7777 772e  le](https://www.
++00000df0: 656c 6563 7472 6f63 6865 6d2e 6f72 672f  electrochem.org/
++00000e00: 3233 332f 6861 636b 2d77 6565 6b29 2061  233/hack-week) a
++00000e10: 6e64 2068 6173 2062 656e 6566 6974 6564  nd has benefited
++00000e20: 2066 726f 6d20 6120 636f 6d6d 756e 6974   from a communit
++00000e30: 7920 6f66 2075 7365 7273 2061 6e64 2063  y of users and c
++00000e40: 6f6e 7472 6962 7574 6f72 7320 7369 6e63  ontributors sinc
++00000e50: 652e 2054 6861 6e6b 7320 676f 6573 2074  e. Thanks goes t
++00000e60: 6f20 7468 6573 6520 776f 6e64 6572 6675  o these wonderfu
++00000e70: 6c20 7065 6f70 6c65 2028 5b65 6d6f 6a69  l people ([emoji
++00000e80: 206b 6579 5d28 6874 7470 733a 2f2f 616c   key](https://al
++00000e90: 6c63 6f6e 7472 6962 7574 6f72 732e 6f72  lcontributors.or
++00000ea0: 672f 646f 6373 2f65 6e2f 656d 6f6a 692d  g/docs/en/emoji-
++00000eb0: 6b65 7929 293a 0a0a 3c21 2d2d 2041 4c4c  key)):..<!-- ALL
++00000ec0: 2d43 4f4e 5452 4942 5554 4f52 532d 4c49  -CONTRIBUTORS-LI
++00000ed0: 5354 3a53 5441 5254 202d 2044 6f20 6e6f  ST:START - Do no
++00000ee0: 7420 7265 6d6f 7665 206f 7220 6d6f 6469  t remove or modi
++00000ef0: 6679 2074 6869 7320 7365 6374 696f 6e20  fy this section 
++00000f00: 2d2d 3e0a 3c21 2d2d 2070 7265 7474 6965  -->.<!-- prettie
++00000f10: 722d 6967 6e6f 7265 2d73 7461 7274 202d  r-ignore-start -
++00000f20: 2d3e 0a3c 212d 2d20 6d61 726b 646f 776e  ->.<!-- markdown
++00000f30: 6c69 6e74 2d64 6973 6162 6c65 202d 2d3e  lint-disable -->
++00000f40: 0a3c 7461 626c 653e 0a20 203c 7462 6f64  .<table>.  <tbod
++00000f50: 793e 0a20 2020 203c 7472 3e0a 2020 2020  y>.    <tr>.    
++00000f60: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
++00000f70: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
++00000f80: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
++00000f90: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00000fa0: 2f2f 6769 7468 7562 2e63 6f6d 2f6c 6b74  //github.com/lkt
++00000fb0: 7375 6922 3e3c 696d 6720 7372 633d 2268  sui"><img src="h
++00000fc0: 7474 7073 3a2f 2f61 7661 7461 7273 302e  ttps://avatars0.
++00000fd0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++00000fe0: 742e 636f 6d2f 752f 3232 3234 3630 3639  t.com/u/22246069
++00000ff0: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
++00001000: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
++00001010: 4c6f 6b2d 6b75 6e20 5473 7569 222f 3e3c  Lok-kun Tsui"/><
++00001020: 6272 202f 3e3c 7375 623e 3c62 3e4c 6f6b  br /><sub><b>Lok
++00001030: 2d6b 756e 2054 7375 693c 2f62 3e3c 2f73  -kun Tsui</b></s
++00001040: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00001050: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00001060: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
++00001070: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
++00001080: 792f 636f 6d6d 6974 733f 6175 7468 6f72  y/commits?author
++00001090: 3d6c 6b74 7375 6922 2074 6974 6c65 3d22  =lktsui" title="
++000010a0: 436f 6465 223e f09f 92bb 3c2f 613e 203c  Code">....</a> <
++000010b0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++000010c0: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
++000010d0: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++000010e0: 2e70 792f 636f 6d6d 6974 733f 6175 7468  .py/commits?auth
++000010f0: 6f72 3d6c 6b74 7375 6922 2074 6974 6c65  or=lktsui" title
++00001100: 3d22 5465 7374 7322 3ee2 9aa0 efb8 8f3c  ="Tests">......<
++00001110: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
++00001120: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00001130: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++00001140: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
++00001150: 3f61 7574 686f 723d 6c6b 7473 7569 2220  ?author=lktsui" 
++00001160: 7469 746c 653d 2244 6f63 756d 656e 7461  title="Documenta
++00001170: 7469 6f6e 223e f09f 9396 3c2f 613e 3c2f  tion">....</a></
++00001180: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00001190: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++000011a0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++000011b0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++000011c0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++000011d0: 2e63 6f6d 2f42 4765 7277 6522 3e3c 696d  .com/BGerwe"><im
++000011e0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++000011f0: 7661 7461 7273 332e 6769 7468 7562 7573  vatars3.githubus
++00001200: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
++00001210: 3338 3831 3933 3231 3f76 3d34 3f73 3d31  38819321?v=4?s=1
++00001220: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00001230: 3b22 2061 6c74 3d22 4272 6961 6e20 4765  ;" alt="Brian Ge
++00001240: 7277 6522 2f3e 3c62 7220 2f3e 3c73 7562  rwe"/><br /><sub
++00001250: 3e3c 623e 4272 6961 6e20 4765 7277 653c  ><b>Brian Gerwe<
++00001260: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00001270: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
++00001280: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
++00001290: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
++000012a0: 616e 6365 2e70 792f 636f 6d6d 6974 733f  ance.py/commits?
++000012b0: 6175 7468 6f72 3d42 4765 7277 6522 2074  author=BGerwe" t
++000012c0: 6974 6c65 3d22 436f 6465 223e f09f 92bb  itle="Code">....
++000012d0: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
++000012e0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000012f0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++00001300: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
++00001310: 733f 6175 7468 6f72 3d42 4765 7277 6522  s?author=BGerwe"
++00001320: 2074 6974 6c65 3d22 5465 7374 7322 3ee2   title="Tests">.
++00001330: 9aa0 efb8 8f3c 2f61 3e20 3c61 2068 7265  .....</a> <a hre
++00001340: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00001350: 622e 636f 6d2f 4543 5348 6163 6b57 6565  b.com/ECSHackWee
++00001360: 6b2f 696d 7065 6461 6e63 652e 7079 2f63  k/impedance.py/c
++00001370: 6f6d 6d69 7473 3f61 7574 686f 723d 4247  ommits?author=BG
++00001380: 6572 7765 2220 7469 746c 653d 2244 6f63  erwe" title="Doc
++00001390: 756d 656e 7461 7469 6f6e 223e f09f 9396  umentation">....
++000013a0: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
++000013b0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000013c0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++000013d0: 6564 616e 6365 2e70 792f 7075 6c6c 733f  edance.py/pulls?
++000013e0: 713d 6973 2533 4170 722b 7265 7669 6577  q=is%3Apr+review
++000013f0: 6564 2d62 7925 3341 4247 6572 7765 2220  ed-by%3ABGerwe" 
++00001400: 7469 746c 653d 2252 6576 6965 7765 6420  title="Reviewed 
++00001410: 5075 6c6c 2052 6571 7565 7374 7322 3ef0  Pull Requests">.
++00001420: 9f91 803c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00001430: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00001440: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00001450: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00001460: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00001470: 3a2f 2f67 6974 6875 622e 636f 6d2f 6e65  ://github.com/ne
++00001480: 616c 6465 223e 3c69 6d67 2073 7263 3d22  alde"><img src="
++00001490: 6874 7470 733a 2f2f 6176 6174 6172 7332  https://avatars2
++000014a0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++000014b0: 6e74 2e63 6f6d 2f75 2f32 3538 3737 3836  nt.com/u/2587786
++000014c0: 383f 763d 343f 733d 3130 3022 2077 6964  8?v=4?s=100" wid
++000014d0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++000014e0: 224e 6561 6c22 2f3e 3c62 7220 2f3e 3c73  "Neal"/><br /><s
++000014f0: 7562 3e3c 623e 4e65 616c 3c2f 623e 3c2f  ub><b>Neal</b></
++00001500: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00001510: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001520: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
++00001530: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
++00001540: 7079 2f70 756c 6c73 3f71 3d69 7325 3341  py/pulls?q=is%3A
++00001550: 7072 2b72 6576 6965 7765 642d 6279 2533  pr+reviewed-by%3
++00001560: 416e 6561 6c64 6522 2074 6974 6c65 3d22  Anealde" title="
++00001570: 5265 7669 6577 6564 2050 756c 6c20 5265  Reviewed Pull Re
++00001580: 7175 6573 7473 223e f09f 9180 3c2f 613e  quests">....</a>
++00001590: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
++000015a0: 2f2f 6769 7468 7562 2e63 6f6d 2f45 4353  //github.com/ECS
++000015b0: 4861 636b 5765 656b 2f69 6d70 6564 616e  HackWeek/impedan
++000015c0: 6365 2e70 792f 636f 6d6d 6974 733f 6175  ce.py/commits?au
++000015d0: 7468 6f72 3d6e 6561 6c64 6522 2074 6974  thor=nealde" tit
++000015e0: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
++000015f0: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00001600: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00001610: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00001620: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00001630: 6872 6566 3d22 6874 7470 3a2f 2f6d 6174  href="http://mat
++00001640: 746d 7572 6261 6368 2e63 6f6d 223e 3c69  tmurbach.com"><i
++00001650: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00001660: 6176 6174 6172 7333 2e67 6974 6875 6275  avatars3.githubu
++00001670: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00001680: 2f39 3336 3930 3230 3f76 3d34 3f73 3d31  /9369020?v=4?s=1
++00001690: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++000016a0: 3b22 2061 6c74 3d22 4d61 7474 204d 7572  ;" alt="Matt Mur
++000016b0: 6261 6368 222f 3e3c 6272 202f 3e3c 7375  bach"/><br /><su
++000016c0: 623e 3c62 3e4d 6174 7420 4d75 7262 6163  b><b>Matt Murbac
++000016d0: 683c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  h</b></sub></a><
++000016e0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++000016f0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00001700: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++00001710: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
++00001720: 733f 6175 7468 6f72 3d6d 646d 7572 6261  s?author=mdmurba
++00001730: 6368 2220 7469 746c 653d 2244 6f63 756d  ch" title="Docum
++00001740: 656e 7461 7469 6f6e 223e f09f 9396 3c2f  entation">....</
++00001750: 613e 203c 6120 6872 6566 3d22 6874 7470  a> <a href="http
++00001760: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
++00001770: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
++00001780: 616e 6365 2e70 792f 7075 6c6c 733f 713d  ance.py/pulls?q=
++00001790: 6973 2533 4170 722b 7265 7669 6577 6564  is%3Apr+reviewed
++000017a0: 2d62 7925 3341 6d64 6d75 7262 6163 6822  -by%3Amdmurbach"
++000017b0: 2074 6974 6c65 3d22 5265 7669 6577 6564   title="Reviewed
++000017c0: 2050 756c 6c20 5265 7175 6573 7473 223e   Pull Requests">
++000017d0: f09f 9180 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++000017e0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++000017f0: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
++00001800: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
++00001810: 6d6d 6974 733f 6175 7468 6f72 3d6d 646d  mmits?author=mdm
++00001820: 7572 6261 6368 2220 7469 746c 653d 2254  urbach" title="T
++00001830: 6573 7473 223e e29a a0ef b88f 3c2f 613e  ests">......</a>
++00001840: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
++00001850: 2f2f 6769 7468 7562 2e63 6f6d 2f45 4353  //github.com/ECS
++00001860: 4861 636b 5765 656b 2f69 6d70 6564 616e  HackWeek/impedan
++00001870: 6365 2e70 792f 636f 6d6d 6974 733f 6175  ce.py/commits?au
++00001880: 7468 6f72 3d6d 646d 7572 6261 6368 2220  thor=mdmurbach" 
++00001890: 7469 746c 653d 2243 6f64 6522 3ef0 9f92  title="Code">...
++000018a0: bb3c 2f61 3e3c 2f74 643e 0a20 2020 2020  .</a></td>.     
++000018b0: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
++000018c0: 6572 2220 7661 6c69 676e 3d22 746f 7022  er" valign="top"
++000018d0: 2077 6964 7468 3d22 3134 2e32 3825 223e   width="14.28%">
++000018e0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000018f0: 2f6b 656e 6e79 7668 2e63 6f6d 223e 3c69  /kennyvh.com"><i
++00001900: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00001910: 6176 6174 6172 7332 2e67 6974 6875 6275  avatars2.githubu
++00001920: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00001930: 2f32 3939 3039 3230 333f 763d 343f 733d  /29909203?v=4?s=
++00001940: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
++00001950: 783b 2220 616c 743d 224b 656e 6e79 2048  x;" alt="Kenny H
++00001960: 7579 6e68 222f 3e3c 6272 202f 3e3c 7375  uynh"/><br /><su
++00001970: 623e 3c62 3e4b 656e 6e79 2048 7579 6e68  b><b>Kenny Huynh
++00001980: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00001990: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
++000019a0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000019b0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++000019c0: 6461 6e63 652e 7079 2f69 7373 7565 733f  dance.py/issues?
++000019d0: 713d 6175 7468 6f72 2533 4168 6b65 6e6e  q=author%3Ahkenn
++000019e0: 7976 2220 7469 746c 653d 2242 7567 2072  yv" title="Bug r
++000019f0: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
++00001a00: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
++00001a10: 2f2f 6769 7468 7562 2e63 6f6d 2f45 4353  //github.com/ECS
++00001a20: 4861 636b 5765 656b 2f69 6d70 6564 616e  HackWeek/impedan
++00001a30: 6365 2e70 792f 636f 6d6d 6974 733f 6175  ce.py/commits?au
++00001a40: 7468 6f72 3d68 6b65 6e6e 7976 2220 7469  thor=hkennyv" ti
++00001a50: 746c 653d 2243 6f64 6522 3ef0 9f92 bb3c  tle="Code">....<
++00001a60: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00001a70: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00001a80: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00001a90: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00001aa0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001ab0: 6974 6875 622e 636f 6d2f 6c61 7772 656e  ithub.com/lawren
++00001ac0: 6365 7265 6e6e 6122 3e3c 696d 6720 7372  cerenna"><img sr
++00001ad0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00001ae0: 7273 302e 6769 7468 7562 7573 6572 636f  rs0.githubuserco
++00001af0: 6e74 656e 742e 636f 6d2f 752f 3439 3137  ntent.com/u/4917
++00001b00: 3433 3337 3f76 3d34 3f73 3d31 3030 2220  4337?v=4?s=100" 
++00001b10: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00001b20: 6c74 3d22 6c61 7772 656e 6365 7265 6e6e  lt="lawrencerenn
++00001b30: 6122 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  a"/><br /><sub><
++00001b40: 623e 6c61 7772 656e 6365 7265 6e6e 613c  b>lawrencerenna<
++00001b50: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
++00001b60: 202f 3e3c 6120 6872 6566 3d22 2369 6465   /><a href="#ide
++00001b70: 6173 2d6c 6177 7265 6e63 6572 656e 6e61  as-lawrencerenna
++00001b80: 2220 7469 746c 653d 2249 6465 6173 2c20  " title="Ideas, 
++00001b90: 506c 616e 6e69 6e67 2c20 2620 4665 6564  Planning, & Feed
++00001ba0: 6261 636b 223e f09f a494 3c2f 613e 3c2f  back">....</a></
++00001bb0: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00001bc0: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00001bd0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00001be0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00001bf0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00001c00: 2e63 6f6d 2f52 6f77 696e 223e 3c69 6d67  .com/Rowin"><img
++00001c10: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00001c20: 6174 6172 7333 2e67 6974 6875 6275 7365  atars3.githubuse
++00001c30: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f31  rcontent.com/u/1
++00001c40: 3732 3734 3738 3f76 3d34 3f73 3d31 3030  727478?v=4?s=100
++00001c50: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++00001c60: 2061 6c74 3d22 526f 7769 6e22 2f3e 3c62   alt="Rowin"/><b
++00001c70: 7220 2f3e 3c73 7562 3e3c 623e 526f 7769  r /><sub><b>Rowi
++00001c80: 6e3c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  n</b></sub></a><
++00001c90: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++00001ca0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00001cb0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++00001cc0: 6564 616e 6365 2e70 792f 6973 7375 6573  edance.py/issues
++00001cd0: 3f71 3d61 7574 686f 7225 3341 526f 7769  ?q=author%3ARowi
++00001ce0: 6e22 2074 6974 6c65 3d22 4275 6720 7265  n" title="Bug re
++00001cf0: 706f 7274 7322 3ef0 9f90 9b3c 2f61 3e20  ports">....</a> 
++00001d00: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001d10: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++00001d20: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++00001d30: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
++00001d40: 686f 723d 526f 7769 6e22 2074 6974 6c65  hor=Rowin" title
++00001d50: 3d22 436f 6465 223e f09f 92bb 3c2f 613e  ="Code">....</a>
++00001d60: 3c2f 7464 3e0a 2020 2020 3c2f 7472 3e0a  </td>.    </tr>.
++00001d70: 2020 2020 3c74 723e 0a20 2020 2020 203c      <tr>.      <
++00001d80: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00001d90: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00001da0: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00001db0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001dc0: 6974 6875 622e 636f 6d2f 6d69 6368 6165  ithub.com/michae
++00001dd0: 6c70 6c65 7773 223e 3c69 6d67 2073 7263  lplews"><img src
++00001de0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++00001df0: 7332 2e67 6974 6875 6275 7365 7263 6f6e  s2.githubusercon
++00001e00: 7465 6e74 2e63 6f6d 2f75 2f31 3430 3938  tent.com/u/14098
++00001e10: 3932 393f 763d 343f 733d 3130 3022 2077  929?v=4?s=100" w
++00001e20: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00001e30: 743d 224d 6963 6861 656c 2050 6c65 7773  t="Michael Plews
++00001e40: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++00001e50: 3e4d 6963 6861 656c 2050 6c65 7773 3c2f  >Michael Plews</
++00001e60: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
++00001e70: 2f3e 3c61 2068 7265 663d 2223 6964 6561  /><a href="#idea
++00001e80: 732d 6d69 6368 6165 6c70 6c65 7773 2220  s-michaelplews" 
++00001e90: 7469 746c 653d 2249 6465 6173 2c20 506c  title="Ideas, Pl
++00001ea0: 616e 6e69 6e67 2c20 2620 4665 6564 6261  anning, & Feedba
++00001eb0: 636b 223e f09f a494 3c2f 613e 3c2f 7464  ck">....</a></td
++00001ec0: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00001ed0: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00001ee0: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00001ef0: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00001f00: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00001f10: 6f6d 2f43 6865 6275 736b 696e 223e 3c69  om/Chebuskin"><i
++00001f20: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00001f30: 6176 6174 6172 7330 2e67 6974 6875 6275  avatars0.githubu
++00001f40: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00001f50: 2f33 3337 3837 3732 333f 763d 343f 733d  /33787723?v=4?s=
++00001f60: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
++00001f70: 783b 2220 616c 743d 2243 6865 6275 736b  x;" alt="Chebusk
++00001f80: 696e 222f 3e3c 6272 202f 3e3c 7375 623e  in"/><br /><sub>
++00001f90: 3c62 3e43 6865 6275 736b 696e 3c2f 623e  <b>Chebuskin</b>
++00001fa0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++00001fb0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001fc0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++00001fd0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++00001fe0: 652e 7079 2f69 7373 7565 733f 713d 6175  e.py/issues?q=au
++00001ff0: 7468 6f72 2533 4143 6865 6275 736b 696e  thor%3AChebuskin
++00002000: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
++00002010: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
++00002020: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00002030: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00002040: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00002050: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00002060: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002070: 2e63 6f6d 2f65 6e76 6972 6f6e 6d61 7422  .com/environmat"
++00002080: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00002090: 3a2f 2f61 7661 7461 7273 302e 6769 7468  ://avatars0.gith
++000020a0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++000020b0: 6d2f 752f 3933 3039 3335 333f 763d 343f  m/u/9309353?v=4?
++000020c0: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++000020d0: 3070 783b 2220 616c 743d 2265 6e76 6972  0px;" alt="envir
++000020e0: 6f6e 6d61 7422 2f3e 3c62 7220 2f3e 3c73  onmat"/><br /><s
++000020f0: 7562 3e3c 623e 656e 7669 726f 6e6d 6174  ub><b>environmat
++00002100: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00002110: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
++00002120: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002130: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++00002140: 6461 6e63 652e 7079 2f69 7373 7565 733f  dance.py/issues?
++00002150: 713d 6175 7468 6f72 2533 4165 6e76 6972  q=author%3Aenvir
++00002160: 6f6e 6d61 7422 2074 6974 6c65 3d22 4275  onmat" title="Bu
++00002170: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
++00002180: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00002190: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++000021a0: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++000021b0: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++000021c0: 2068 7265 663d 2268 7474 703a 2f2f 7777   href="http://ww
++000021d0: 772e 6162 6475 6c6c 6168 7375 6d62 616c  w.abdullahsumbal
++000021e0: 2e63 6f6d 223e 3c69 6d67 2073 7263 3d22  .com"><img src="
++000021f0: 6874 7470 733a 2f2f 6176 6174 6172 7332  https://avatars2
++00002200: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00002210: 6e74 2e63 6f6d 2f75 2f31 3239 3436 3934  nt.com/u/1294694
++00002220: 373f 763d 343f 733d 3130 3022 2077 6964  7?v=4?s=100" wid
++00002230: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00002240: 2241 6264 756c 6c61 6820 5375 6d62 616c  "Abdullah Sumbal
++00002250: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++00002260: 3e41 6264 756c 6c61 6820 5375 6d62 616c  >Abdullah Sumbal
++00002270: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00002280: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
++00002290: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000022a0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++000022b0: 6461 6e63 652e 7079 2f69 7373 7565 733f  dance.py/issues?
++000022c0: 713d 6175 7468 6f72 2533 4161 6264 756c  q=author%3Aabdul
++000022d0: 6c61 6873 756d 6261 6c22 2074 6974 6c65  lahsumbal" title
++000022e0: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
++000022f0: 9f90 9b3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00002300: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00002310: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00002320: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00002330: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00002340: 3a2f 2f67 6974 6875 622e 636f 6d2f 6e6f  ://github.com/no
++00002350: 626b 6174 223e 3c69 6d67 2073 7263 3d22  bkat"><img src="
++00002360: 6874 7470 733a 2f2f 6176 6174 6172 7333  https://avatars3
++00002370: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00002380: 6e74 2e63 6f6d 2f75 2f32 3930 3737 3434  nt.com/u/2907744
++00002390: 353f 763d 343f 733d 3130 3022 2077 6964  5?v=4?s=100" wid
++000023a0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++000023b0: 226e 6f62 6b61 7422 2f3e 3c62 7220 2f3e  "nobkat"/><br />
++000023c0: 3c73 7562 3e3c 623e 6e6f 626b 6174 3c2f  <sub><b>nobkat</
++000023d0: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
++000023e0: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
++000023f0: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
++00002400: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
++00002410: 6e63 652e 7079 2f63 6f6d 6d69 7473 3f61  nce.py/commits?a
++00002420: 7574 686f 723d 6e6f 626b 6174 2220 7469  uthor=nobkat" ti
++00002430: 746c 653d 2243 6f64 6522 3ef0 9f92 bb3c  tle="Code">....<
++00002440: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00002450: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00002460: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00002470: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00002480: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00002490: 6974 6875 622e 636f 6d2f 6e69 636b 6272  ithub.com/nickbr
++000024a0: 6164 7922 3e3c 696d 6720 7372 633d 2268  ady"><img src="h
++000024b0: 7474 7073 3a2f 2f61 7661 7461 7273 312e  ttps://avatars1.
++000024c0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++000024d0: 742e 636f 6d2f 752f 3734 3731 3336 373f  t.com/u/7471367?
++000024e0: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++000024f0: 3d22 3130 3070 783b 2220 616c 743d 224e  ="100px;" alt="N
++00002500: 6963 6b22 2f3e 3c62 7220 2f3e 3c73 7562  ick"/><br /><sub
++00002510: 3e3c 623e 4e69 636b 3c2f 623e 3c2f 7375  ><b>Nick</b></su
++00002520: 623e 3c2f 613e 3c62 7220 2f3e 3c61 2068  b></a><br /><a h
++00002530: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00002540: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
++00002550: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
++00002560: 2f69 7373 7565 733f 713d 6175 7468 6f72  /issues?q=author
++00002570: 2533 416e 6963 6b62 7261 6479 2220 7469  %3Anickbrady" ti
++00002580: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++00002590: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
++000025a0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++000025b0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
++000025c0: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
++000025d0: 636f 6d6d 6974 733f 6175 7468 6f72 3d6e  commits?author=n
++000025e0: 6963 6b62 7261 6479 2220 7469 746c 653d  ickbrady" title=
++000025f0: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c  "Code">....</a><
++00002600: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
++00002610: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++00002620: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++00002630: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++00002640: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00002650: 622e 636f 6d2f 616f 6b6f 6d6f 726f 7773  b.com/aokomorows
++00002660: 6b69 223e 3c69 6d67 2073 7263 3d22 6874  ki"><img src="ht
++00002670: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
++00002680: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00002690: 636f 6d2f 752f 3433 3636 3534 3734 3f76  com/u/43665474?v
++000026a0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
++000026b0: 2231 3030 7078 3b22 2061 6c74 3d22 616f  "100px;" alt="ao
++000026c0: 6b6f 6d6f 726f 7773 6b69 222f 3e3c 6272  komorowski"/><br
++000026d0: 202f 3e3c 7375 623e 3c62 3e61 6f6b 6f6d   /><sub><b>aokom
++000026e0: 6f72 6f77 736b 693c 2f62 3e3c 2f73 7562  orowski</b></sub
++000026f0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++00002700: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00002710: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
++00002720: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
++00002730: 636f 6d6d 6974 733f 6175 7468 6f72 3d61  commits?author=a
++00002740: 6f6b 6f6d 6f72 6f77 736b 6922 2074 6974  okomorowski" tit
++00002750: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
++00002760: 613e 3c2f 7464 3e0a 2020 2020 3c2f 7472  a></td>.    </tr
++00002770: 3e0a 2020 2020 3c74 723e 0a20 2020 2020  >.    <tr>.     
++00002780: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
++00002790: 6572 2220 7661 6c69 676e 3d22 746f 7022  er" valign="top"
++000027a0: 2077 6964 7468 3d22 3134 2e32 3825 223e   width="14.28%">
++000027b0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000027c0: 2f70 6574 6572 6d61 7474 6961 2e63 6f6d  /petermattia.com
++000027d0: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
++000027e0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
++000027f0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00002800: 6d2f 752f 3239 3535 3138 3538 3f76 3d34  m/u/29551858?v=4
++00002810: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++00002820: 3030 7078 3b22 2061 6c74 3d22 5065 7465  00px;" alt="Pete
++00002830: 7220 4174 7469 6122 2f3e 3c62 7220 2f3e  r Attia"/><br />
++00002840: 3c73 7562 3e3c 623e 5065 7465 7220 4174  <sub><b>Peter At
++00002850: 7469 613c 2f62 3e3c 2f73 7562 3e3c 2f61  tia</b></sub></a
++00002860: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00002870: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002880: 6f6d 2f45 4353 4861 636b 5765 656b 2f69  om/ECSHackWeek/i
++00002890: 6d70 6564 616e 6365 2e70 792f 636f 6d6d  mpedance.py/comm
++000028a0: 6974 733f 6175 7468 6f72 3d70 6574 6572  its?author=peter
++000028b0: 6d61 7474 6961 2220 7469 746c 653d 2243  mattia" title="C
++000028c0: 6f64 6522 3ef0 9f92 bb3c 2f61 3e20 3c61  ode">....</a> <a
++000028d0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++000028e0: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
++000028f0: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
++00002900: 7079 2f63 6f6d 6d69 7473 3f61 7574 686f  py/commits?autho
++00002910: 723d 7065 7465 726d 6174 7469 6122 2074  r=petermattia" t
++00002920: 6974 6c65 3d22 5465 7374 7322 3ee2 9aa0  itle="Tests">...
++00002930: efb8 8f3c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
++00002940: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00002950: 636f 6d2f 4543 5348 6163 6b57 6565 6b2f  com/ECSHackWeek/
++00002960: 696d 7065 6461 6e63 652e 7079 2f63 6f6d  impedance.py/com
++00002970: 6d69 7473 3f61 7574 686f 723d 7065 7465  mits?author=pete
++00002980: 726d 6174 7469 6122 2074 6974 6c65 3d22  rmattia" title="
++00002990: 446f 6375 6d65 6e74 6174 696f 6e22 3ef0  Documentation">.
++000029a0: 9f93 963c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++000029b0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++000029c0: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++000029d0: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++000029e0: 223e 3c61 2068 7265 663d 2268 7474 703a  "><a href="http:
++000029f0: 2f2f 7364 6b61 6e67 2e6f 7267 223e 3c69  //sdkang.org"><i
++00002a00: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00002a10: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
++00002a20: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
++00002a30: 3535 3131 3635 3031 3f76 3d34 3f73 3d31  55116501?v=4?s=1
++00002a40: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00002a50: 3b22 2061 6c74 3d22 7364 6b61 6e67 222f  ;" alt="sdkang"/
++00002a60: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e73  ><br /><sub><b>s
++00002a70: 646b 616e 673c 2f62 3e3c 2f73 7562 3e3c  dkang</b></sub><
++00002a80: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
++00002a90: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002aa0: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
++00002ab0: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
++00002ac0: 6d6d 6974 733f 6175 7468 6f72 3d73 7465  mmits?author=ste
++00002ad0: 7068 656e 646b 616e 6722 2074 6974 6c65  phendkang" title
++00002ae0: 3d22 5465 7374 7322 3ee2 9aa0 efb8 8f3c  ="Tests">......<
++00002af0: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
++00002b00: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002b10: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++00002b20: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
++00002b30: 3f61 7574 686f 723d 7374 6570 6865 6e64  ?author=stephend
++00002b40: 6b61 6e67 2220 7469 746c 653d 2243 6f64  kang" title="Cod
++00002b50: 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e  e">....</a></td>
++00002b60: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
++00002b70: 3d22 6365 6e74 6572 2220 7661 6c69 676e  ="center" valign
++00002b80: 3d22 746f 7022 2077 6964 7468 3d22 3134  ="top" width="14
++00002b90: 2e32 3825 223e 3c61 2068 7265 663d 2268  .28%"><a href="h
++00002ba0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00002bb0: 6d2f 6c75 6361 7366 6476 7822 3e3c 696d  m/lucasfdvx"><im
++00002bc0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++00002bd0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
++00002be0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f38  rcontent.com/u/8
++00002bf0: 3538 3838 3930 343f 763d 343f 733d 3130  5888904?v=4?s=10
++00002c00: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
++00002c10: 2220 616c 743d 226c 7563 6173 6664 7678  " alt="lucasfdvx
++00002c20: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++00002c30: 3e6c 7563 6173 6664 7678 3c2f 623e 3c2f  >lucasfdvx</b></
++00002c40: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00002c50: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00002c60: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
++00002c70: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
++00002c80: 7079 2f69 7373 7565 733f 713d 6175 7468  py/issues?q=auth
++00002c90: 6f72 2533 416c 7563 6173 6664 7678 2220  or%3Alucasfdvx" 
++00002ca0: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00002cb0: 7473 223e f09f 909b 3c2f 613e 3c2f 7464  ts">....</a></td
++00002cc0: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00002cd0: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00002ce0: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00002cf0: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00002d00: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002d10: 6f6d 2f53 6166 744d 6163 6b69 223e 3c69  om/SaftMacki"><i
++00002d20: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
++00002d30: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
++00002d40: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
++00002d50: 3930 3033 3032 3731 3f76 3d34 3f73 3d31  90030271?v=4?s=1
++00002d60: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
++00002d70: 3b22 2061 6c74 3d22 4d61 7263 7573 204b  ;" alt="Marcus K
++00002d80: 6172 6c73 7461 6422 2f3e 3c62 7220 2f3e  arlstad"/><br />
++00002d90: 3c73 7562 3e3c 623e 4d61 7263 7573 204b  <sub><b>Marcus K
++00002da0: 6172 6c73 7461 643c 2f62 3e3c 2f73 7562  arlstad</b></sub
++00002db0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++00002dc0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00002dd0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
++00002de0: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
++00002df0: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
++00002e00: 3341 5361 6674 4d61 636b 6922 2074 6974  3ASaftMacki" tit
++00002e10: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
++00002e20: 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00002e30: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00002e40: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002e50: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002e60: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002e70: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002e80: 6d61 726b 626f 756d 616e 223e 3c69 6d67  markbouman"><img
++00002e90: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00002ea0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++00002eb0: 636f 6e74 656e 742e 636f 6d2f 752f 3130  content.com/u/10
++00002ec0: 3339 3434 3132 303f 763d 343f 733d 3130  3944120?v=4?s=10
++00002ed0: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
++00002ee0: 2220 616c 743d 224d 6172 6b20 426f 756d  " alt="Mark Boum
++00002ef0: 616e 222f 3e3c 6272 202f 3e3c 7375 623e  an"/><br /><sub>
++00002f00: 3c62 3e4d 6172 6b20 426f 756d 616e 3c2f  <b>Mark Bouman</
++00002f10: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
++00002f20: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
++00002f30: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
++00002f40: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
++00002f50: 6e63 652e 7079 2f69 7373 7565 733f 713d  nce.py/issues?q=
++00002f60: 6175 7468 6f72 2533 416d 6172 6b62 6f75  author%3Amarkbou
++00002f70: 6d61 6e22 2074 6974 6c65 3d22 4275 6720  man" title="Bug 
++00002f80: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
++00002f90: 3e20 3c61 2068 7265 663d 2268 7474 7073  > <a href="https
++00002fa0: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
++00002fb0: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
++00002fc0: 6e63 652e 7079 2f63 6f6d 6d69 7473 3f61  nce.py/commits?a
++00002fd0: 7574 686f 723d 6d61 726b 626f 756d 616e  uthor=markbouman
++00002fe0: 2220 7469 746c 653d 2243 6f64 6522 3ef0  " title="Code">.
++00002ff0: 9f92 bb3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00003000: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00003010: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00003020: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00003030: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00003040: 3a2f 2f67 6974 6875 622e 636f 6d2f 6f73  ://github.com/os
++00003050: 6c6f 7061 6e64 6122 3e3c 696d 6720 7372  lopanda"><img sr
++00003060: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00003070: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00003080: 7465 6e74 2e63 6f6d 2f75 2f33 3338 3130  tent.com/u/33810
++00003090: 3433 303f 763d 343f 733d 3130 3022 2077  430?v=4?s=100" w
++000030a0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++000030b0: 743d 226f 736c 6f70 616e 6461 222f 3e3c  t="oslopanda"/><
++000030c0: 6272 202f 3e3c 7375 623e 3c62 3e6f 736c  br /><sub><b>osl
++000030d0: 6f70 616e 6461 3c2f 623e 3c2f 7375 623e  opanda</b></sub>
++000030e0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
++000030f0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00003100: 622e 636f 6d2f 4543 5348 6163 6b57 6565  b.com/ECSHackWee
++00003110: 6b2f 696d 7065 6461 6e63 652e 7079 2f69  k/impedance.py/i
++00003120: 7373 7565 733f 713d 6175 7468 6f72 2533  ssues?q=author%3
++00003130: 416f 736c 6f70 616e 6461 2220 7469 746c  Aoslopanda" titl
++00003140: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
++00003150: f09f 909b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++00003160: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++00003170: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++00003180: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++00003190: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++000031a0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f70  s://github.com/p
++000031b0: 696c 696c 6163 223e 3c69 6d67 2073 7263  ililac"><img src
++000031c0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++000031d0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++000031e0: 656e 742e 636f 6d2f 752f 3630 3131 3636  ent.com/u/601166
++000031f0: 3436 3f76 3d34 3f73 3d31 3030 2220 7769  46?v=4?s=100" wi
++00003200: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++00003210: 3d22 7069 6c69 6c61 6322 2f3e 3c62 7220  ="pililac"/><br 
++00003220: 2f3e 3c73 7562 3e3c 623e 7069 6c69 6c61  /><sub><b>pilila
++00003230: 633c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  c</b></sub></a><
++00003240: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++00003250: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00003260: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++00003270: 6564 616e 6365 2e70 792f 6973 7375 6573  edance.py/issues
++00003280: 3f71 3d61 7574 686f 7225 3341 7069 6c69  ?q=author%3Apili
++00003290: 6c61 6322 2074 6974 6c65 3d22 4275 6720  lac" title="Bug 
++000032a0: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
++000032b0: 3e3c 2f74 643e 0a20 2020 203c 2f74 723e  ></td>.    </tr>
++000032c0: 0a20 2020 203c 7472 3e0a 2020 2020 2020  .    <tr>.      
++000032d0: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
++000032e0: 7222 2076 616c 6967 6e3d 2274 6f70 2220  r" valign="top" 
++000032f0: 7769 6474 683d 2231 342e 3238 2522 3e3c  width="14.28%"><
++00003300: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00003310: 6769 7468 7562 2e63 6f6d 2f6b 6576 696e  github.com/kevin
++00003320: 736d 6961 3139 3339 223e 3c69 6d67 2073  smia1939"><img s
++00003330: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
++00003340: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
++00003350: 6e74 656e 742e 636f 6d2f 752f 3131 3430  ntent.com/u/1140
++00003360: 3739 3232 3f76 3d34 3f73 3d31 3030 2220  7922?v=4?s=100" 
++00003370: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00003380: 6c74 3d22 4b61 7669 6e20 5465 656e 616b  lt="Kavin Teenak
++00003390: 756c 222f 3e3c 6272 202f 3e3c 7375 623e  ul"/><br /><sub>
++000033a0: 3c62 3e4b 6176 696e 2054 6565 6e61 6b75  <b>Kavin Teenaku
++000033b0: 6c3c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  l</b></sub></a><
++000033c0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++000033d0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000033e0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++000033f0: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
++00003400: 733f 6175 7468 6f72 3d6b 6576 696e 736d  s?author=kevinsm
++00003410: 6961 3139 3339 2220 7469 746c 653d 2243  ia1939" title="C
++00003420: 6f64 6522 3ef0 9f92 bb3c 2f61 3e20 3c61  ode">....</a> <a
++00003430: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00003440: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
++00003450: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
++00003460: 7079 2f63 6f6d 6d69 7473 3f61 7574 686f  py/commits?autho
++00003470: 723d 6b65 7669 6e73 6d69 6131 3933 3922  r=kevinsmia1939"
++00003480: 2074 6974 6c65 3d22 446f 6375 6d65 6e74   title="Document
++00003490: 6174 696f 6e22 3ef0 9f93 963c 2f61 3e0a  ation">....</a>.
++000034a0: 2020 2020 3c2f 7472 3e0a 2020 3c2f 7462      </tr>.  </tb
++000034b0: 6f64 793e 0a3c 2f74 6162 6c65 3e0a 0a3c  ody>.</table>..<
++000034c0: 212d 2d20 6d61 726b 646f 776e 6c69 6e74  !-- markdownlint
++000034d0: 2d72 6573 746f 7265 202d 2d3e 0a3c 212d  -restore -->.<!-
++000034e0: 2d20 7072 6574 7469 6572 2d69 676e 6f72  - prettier-ignor
++000034f0: 652d 656e 6420 2d2d 3e0a 0a3c 212d 2d20  e-end -->..<!-- 
++00003500: 414c 4c2d 434f 4e54 5249 4255 544f 5253  ALL-CONTRIBUTORS
++00003510: 2d4c 4953 543a 454e 4420 2d2d 3e0a 0a54  -LIST:END -->..T
++00003520: 6869 7320 7072 6f6a 6563 7420 666f 6c6c  his project foll
++00003530: 6f77 7320 7468 6520 5b61 6c6c 2d63 6f6e  ows the [all-con
++00003540: 7472 6962 7574 6f72 735d 2868 7474 7073  tributors](https
++00003550: 3a2f 2f67 6974 6875 622e 636f 6d2f 616c  ://github.com/al
++00003560: 6c2d 636f 6e74 7269 6275 746f 7273 2f61  l-contributors/a
++00003570: 6c6c 2d63 6f6e 7472 6962 7574 6f72 7329  ll-contributors)
++00003580: 2073 7065 6369 6669 6361 7469 6f6e 2e20   specification. 
++00003590: 436f 6e74 7269 6275 7469 6f6e 7320 6f66  Contributions of
++000035a0: 2061 6e79 206b 696e 6420 7765 6c63 6f6d   any kind welcom
++000035b0: 6521 0a                                  e!.
+```
+
+### Comparing `impedance-1.5.0/README.md` & `impedance-1.6.0/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,853 +1,889 @@
+-00000000: 5b21 5b44 4f49 5d28 6874 7470 733a 2f2f  [![DOI](https://
+-00000010: 7a65 6e6f 646f 2e6f 7267 2f62 6164 6765  zenodo.org/badge
+-00000020: 2f31 3336 3131 3036 3039 2e73 7667 295d  /136110609.svg)]
+-00000030: 2868 7474 7073 3a2f 2f7a 656e 6f64 6f2e  (https://zenodo.
+-00000040: 6f72 672f 6261 6467 652f 6c61 7465 7374  org/badge/latest
+-00000050: 646f 692f 3133 3631 3130 3630 3929 2020  doi/136110609)  
+-00000060: 215b 4769 7448 7562 2072 656c 6561 7365  ![GitHub release
+-00000070: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
+-00000080: 6965 6c64 732e 696f 2f67 6974 6875 622f  ields.io/github/
+-00000090: 7265 6c65 6173 652f 4543 5348 6163 6b57  release/ECSHackW
+-000000a0: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
+-000000b0: 290a 0a21 5b50 7950 4920 2d20 446f 776e  )..![PyPI - Down
+-000000c0: 6c6f 6164 735d 2868 7474 7073 3a2f 2f69  loads](https://i
+-000000d0: 6d67 2e73 6869 656c 6473 2e69 6f2f 7079  mg.shields.io/py
+-000000e0: 7069 2f64 6d2f 696d 7065 6461 6e63 653f  pi/dm/impedance?
+-000000f0: 7374 796c 653d 666c 6174 2d73 7175 6172  style=flat-squar
+-00000100: 6529 2020 5b21 5b41 6c6c 2043 6f6e 7472  e)  [![All Contr
+-00000110: 6962 7574 6f72 735d 2868 7474 7073 3a2f  ibutors](https:/
+-00000120: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
+-00000130: 6261 6467 652f 616c 6c5f 636f 6e74 7269  badge/all_contri
+-00000140: 6275 746f 7273 2d31 312d 6f72 616e 6765  butors-11-orange
+-00000150: 2e73 7667 3f73 7479 6c65 3d66 6c61 742d  .svg?style=flat-
+-00000160: 7371 7561 7265 295d 2823 636f 6e74 7269  square)](#contri
+-00000170: 6275 746f 7273 290a 0a5b 215b 4275 696c  butors)..[![Buil
+-00000180: 6420 5374 6174 7573 5d28 6874 7470 733a  d Status](https:
+-00000190: 2f2f 7472 6176 6973 2d63 692e 6f72 672f  //travis-ci.org/
+-000001a0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-000001b0: 6461 6e63 652e 7079 2e73 7667 3f62 7261  dance.py.svg?bra
+-000001c0: 6e63 683d 6d61 7374 6572 266b 696c 6c5f  nch=master&kill_
+-000001d0: 6361 6368 653d 3129 5d28 6874 7470 733a  cache=1)](https:
+-000001e0: 2f2f 7472 6176 6973 2d63 692e 6f72 672f  //travis-ci.org/
+-000001f0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-00000200: 6461 6e63 652e 7079 2920 205b 215b 446f  dance.py)  [![Do
+-00000210: 6375 6d65 6e74 6174 696f 6e20 5374 6174  cumentation Stat
+-00000220: 7573 5d28 6874 7470 733a 2f2f 7265 6164  us](https://read
+-00000230: 7468 6564 6f63 732e 6f72 672f 7072 6f6a  thedocs.org/proj
+-00000240: 6563 7473 2f69 6d70 6564 616e 6365 7079  ects/impedancepy
+-00000250: 2f62 6164 6765 2f3f 7665 7273 696f 6e3d  /badge/?version=
+-00000260: 6c61 7465 7374 266b 696c 6c5f 6361 6368  latest&kill_cach
+-00000270: 653d 3129 5d28 6874 7470 733a 2f2f 696d  e=1)](https://im
+-00000280: 7065 6461 6e63 6570 792e 7265 6164 7468  pedancepy.readth
+-00000290: 6564 6f63 732e 696f 2f65 6e2f 6c61 7465  edocs.io/en/late
+-000002a0: 7374 2f3f 6261 6467 653d 6c61 7465 7374  st/?badge=latest
+-000002b0: 2920 5b21 5b43 6f76 6572 6167 6520 5374  ) [![Coverage St
+-000002c0: 6174 7573 5d28 6874 7470 733a 2f2f 636f  atus](https://co
+-000002d0: 7665 7261 6c6c 732e 696f 2f72 6570 6f73  veralls.io/repos
+-000002e0: 2f67 6974 6875 622f 4543 5348 6163 6b57  /github/ECSHackW
+-000002f0: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
+-00000300: 2f62 6164 6765 2e73 7667 3f62 7261 6e63  /badge.svg?branc
+-00000310: 683d 6d61 7374 6572 266b 696c 6c5f 6361  h=master&kill_ca
+-00000320: 6368 653d 3129 5d28 6874 7470 733a 2f2f  che=1)](https://
+-00000330: 636f 7665 7261 6c6c 732e 696f 2f67 6974  coveralls.io/git
+-00000340: 6875 622f 4543 5348 6163 6b57 6565 6b2f  hub/ECSHackWeek/
+-00000350: 696d 7065 6461 6e63 652e 7079 3f62 7261  impedance.py?bra
+-00000360: 6e63 683d 6d61 7374 6572 290a 0a69 6d70  nch=master)..imp
+-00000370: 6564 616e 6365 2e70 790a 2d2d 2d2d 2d2d  edance.py.------
+-00000380: 2d2d 2d2d 2d2d 0a0a 6069 6d70 6564 616e  ------..`impedan
+-00000390: 6365 2e70 7960 2069 7320 6120 5079 7468  ce.py` is a Pyth
+-000003a0: 6f6e 2070 6163 6b61 6765 2066 6f72 206d  on package for m
+-000003b0: 616b 696e 6720 656c 6563 7472 6f63 6865  aking electroche
+-000003c0: 6d69 6361 6c20 696d 7065 6461 6e63 6520  mical impedance 
+-000003d0: 7370 6563 7472 6f73 636f 7079 2028 4549  spectroscopy (EI
+-000003e0: 5329 2061 6e61 6c79 7369 7320 7265 7072  S) analysis repr
+-000003f0: 6f64 7563 6962 6c65 2061 6e64 2065 6173  oducible and eas
+-00000400: 792d 746f 2d75 7365 2e0a 0a41 696d 696e  y-to-use...Aimin
+-00000410: 6720 746f 2063 7265 6174 6520 6120 636f  g to create a co
+-00000420: 6e73 6973 7465 6e74 2c20 5b73 6369 6b69  nsistent, [sciki
+-00000430: 742d 6c65 6172 6e2d 6c69 6b65 2041 5049  t-learn-like API
+-00000440: 5d28 6874 7470 733a 2f2f 6172 7869 762e  ](https://arxiv.
+-00000450: 6f72 672f 6162 732f 3133 3039 2e30 3233  org/abs/1309.023
+-00000460: 3829 2066 6f72 2069 6d70 6564 616e 6365  8) for impedance
+-00000470: 2061 6e61 6c79 7369 732c 2069 6d70 6564   analysis, imped
+-00000480: 616e 6365 2e70 7920 636f 6e74 6169 6e73  ance.py contains
+-00000490: 206d 6f64 756c 6573 2066 6f72 2064 6174   modules for dat
+-000004a0: 6120 7072 6570 726f 6365 7373 696e 672c  a preprocessing,
+-000004b0: 2076 616c 6964 6174 696f 6e2c 206d 6f64   validation, mod
+-000004c0: 656c 2066 6974 7469 6e67 2c20 616e 6420  el fitting, and 
+-000004d0: 7669 7375 616c 697a 6174 696f 6e2e 0a0a  visualization...
+-000004e0: 466f 7220 6120 6c69 7474 6c65 206d 6f72  For a little mor
+-000004f0: 6520 696e 2d64 6570 7468 2064 6973 6375  e in-depth discu
+-00000500: 7373 696f 6e20 6f66 2074 6865 2070 6163  ssion of the pac
+-00000510: 6b61 6765 2062 6163 6b67 726f 756e 6420  kage background 
+-00000520: 616e 6420 6361 7061 6269 6c69 7469 6573  and capabilities
+-00000530: 2c20 6368 6563 6b20 6f75 7420 6f75 7220  , check out our 
+-00000540: 5b4a 6f75 726e 616c 206f 6620 4f70 656e  [Journal of Open
+-00000550: 2053 6f75 7263 6520 536f 6674 7761 7265   Source Software
+-00000560: 2070 6170 6572 5d28 6874 7470 733a 2f2f   paper](https://
+-00000570: 6a6f 7373 2e74 6865 6f6a 2e6f 7267 2f70  joss.theoj.org/p
+-00000580: 6170 6572 732f 3130 2e32 3131 3035 2f6a  apers/10.21105/j
+-00000590: 6f73 732e 3032 3334 3929 2e0a 0a49 6620  oss.02349)...If 
+-000005a0: 796f 7520 6861 7665 2061 2066 6561 7475  you have a featu
+-000005b0: 7265 2072 6571 7565 7374 206f 7220 6669  re request or fi
+-000005c0: 6e64 2061 2062 7567 2c20 706c 6561 7365  nd a bug, please
+-000005d0: 205b 6669 6c65 2061 6e20 6973 7375 655d   [file an issue]
+-000005e0: 2868 7474 7073 3a2f 2f67 6974 6875 622e  (https://github.
+-000005f0: 636f 6d2f 4543 5348 6163 6b57 6565 6b2f  com/ECSHackWeek/
+-00000600: 696d 7065 6461 6e63 652e 7079 2f69 7373  impedance.py/iss
+-00000610: 7565 7329 206f 722c 2062 6574 7465 7220  ues) or, better 
+-00000620: 7965 742c 206d 616b 6520 7468 6520 636f  yet, make the co
+-00000630: 6465 2069 6d70 726f 7665 6d65 6e74 7320  de improvements 
+-00000640: 616e 6420 5b73 7562 6d69 7420 6120 7075  and [submit a pu
+-00000650: 6c6c 2072 6571 7565 7374 5d28 6874 7470  ll request](http
+-00000660: 733a 2f2f 6865 6c70 2e67 6974 6875 622e  s://help.github.
+-00000670: 636f 6d2f 6172 7469 636c 6573 2f63 7265  com/articles/cre
+-00000680: 6174 696e 672d 612d 7075 6c6c 2d72 6571  ating-a-pull-req
+-00000690: 7565 7374 2d66 726f 6d2d 612d 666f 726b  uest-from-a-fork
+-000006a0: 2f29 2120 5468 6520 676f 616c 2069 7320  /)! The goal is 
+-000006b0: 746f 2062 7569 6c64 2061 6e20 6f70 656e  to build an open
+-000006c0: 2d73 6f75 7263 6520 746f 6f6c 2074 6861  -source tool tha
+-000006d0: 7420 7468 6520 656e 7469 7265 2069 6d70  t the entire imp
+-000006e0: 6564 616e 6365 2063 6f6d 6d75 6e69 7479  edance community
+-000006f0: 2063 616e 2069 6d70 726f 7665 2061 6e64   can improve and
+-00000700: 2075 7365 210a 0a23 2323 2049 6e73 7461   use!..### Insta
+-00000710: 6c6c 6174 696f 6e0a 0a54 6865 2065 6173  llation..The eas
+-00000720: 6965 7374 2077 6179 2074 6f20 696e 7374  iest way to inst
+-00000730: 616c 6c20 696d 7065 6461 6e63 652e 7079  all impedance.py
+-00000740: 2069 7320 6672 6f6d 205b 5079 5049 5d28   is from [PyPI](
+-00000750: 6874 7470 733a 2f2f 7079 7069 2e6f 7267  https://pypi.org
+-00000760: 2f70 726f 6a65 6374 2f69 6d70 6564 616e  /project/impedan
+-00000770: 6365 2f29 2075 7369 6e67 2070 6970 2e0a  ce/) using pip..
+-00000780: 0a60 6060 6261 7368 0a70 6970 2069 6e73  .```bash.pip ins
+-00000790: 7461 6c6c 2069 6d70 6564 616e 6365 0a60  tall impedance.`
+-000007a0: 6060 0a0a 5365 6520 5b47 6574 7469 6e67  ``..See [Getting
+-000007b0: 2073 7461 7274 6564 2077 6974 6820 696d   started with im
+-000007c0: 7065 6461 6e63 652e 7079 5d28 6874 7470  pedance.py](http
+-000007d0: 733a 2f2f 696d 7065 6461 6e63 6570 792e  s://impedancepy.
+-000007e0: 7265 6164 7468 6564 6f63 732e 696f 2f65  readthedocs.io/e
+-000007f0: 6e2f 6c61 7465 7374 2f67 6574 7469 6e67  n/latest/getting
+-00000800: 2d73 7461 7274 6564 2e68 746d 6c29 2066  -started.html) f
+-00000810: 6f72 2069 6e73 7472 7563 7469 6f6e 7320  or instructions 
+-00000820: 6f6e 2067 6574 7469 6e67 2073 7461 7274  on getting start
+-00000830: 6564 2066 726f 6d20 7363 7261 7463 682e  ed from scratch.
+-00000840: 0a0a 2323 2323 2044 6570 656e 6465 6e63  ..#### Dependenc
+-00000850: 6965 730a 0a69 6d70 6564 616e 6365 2e70  ies..impedance.p
+-00000860: 7920 7265 7175 6972 6573 3a0a 0a2d 2020  y requires:..-  
+-00000870: 2050 7974 686f 6e20 283e 3d33 2e37 290a   Python (>=3.7).
+-00000880: 2d20 2020 5363 6950 7920 283e 3d31 2e30  -   SciPy (>=1.0
+-00000890: 290a 2d20 2020 4e75 6d50 7920 283e 3d31  ).-   NumPy (>=1
+-000008a0: 2e31 3429 0a2d 2020 204d 6174 706c 6f74  .14).-   Matplot
+-000008b0: 6c69 6220 283e 3d33 2e30 290a 2d20 2020  lib (>=3.0).-   
+-000008c0: 416c 7461 6972 2028 3e3d 332e 3029 0a0a  Altair (>=3.0)..
+-000008d0: 5365 7665 7261 6c20 6578 616d 706c 6520  Several example 
+-000008e0: 6e6f 7465 626f 6f6b 7320 6172 6520 7072  notebooks are pr
+-000008f0: 6f76 6964 6564 2069 6e20 7468 6520 6064  ovided in the `d
+-00000900: 6f63 732f 736f 7572 6365 2f65 7861 6d70  ocs/source/examp
+-00000910: 6c65 732f 6020 6469 7265 6374 6f72 792e  les/` directory.
+-00000920: 204f 7065 6e69 6e67 2074 6865 7365 2077   Opening these w
+-00000930: 696c 6c20 7265 7175 6972 6520 4a75 7079  ill require Jupy
+-00000940: 7465 7220 6e6f 7465 626f 6f6b 206f 7220  ter notebook or 
+-00000950: 4a75 7079 7465 7220 6c61 622e 0a0a 2323  Jupyter lab...##
+-00000960: 2323 2045 7861 6d70 6c65 7320 616e 6420  ## Examples and 
+-00000970: 446f 6375 6d65 6e74 6174 696f 6e0a 0a53  Documentation..S
+-00000980: 6576 6572 616c 2065 7861 6d70 6c65 7320  everal examples 
+-00000990: 6361 6e20 6265 2066 6f75 6e64 2069 6e20  can be found in 
+-000009a0: 7468 6520 6064 6f63 732f 736f 7572 6365  the `docs/source
+-000009b0: 2f65 7861 6d70 6c65 732f 6020 6469 7265  /examples/` dire
+-000009c0: 6374 6f72 7920 2874 6865 205b 4669 7474  ctory (the [Fitt
+-000009d0: 696e 6720 696d 7065 6461 6e63 6520 7370  ing impedance sp
+-000009e0: 6563 7472 6120 6e6f 7465 626f 6f6b 5d28  ectra notebook](
+-000009f0: 6874 7470 733a 2f2f 696d 7065 6461 6e63  https://impedanc
+-00000a00: 6570 792e 7265 6164 7468 6564 6f63 732e  epy.readthedocs.
+-00000a10: 696f 2f65 6e2f 6c61 7465 7374 2f65 7861  io/en/latest/exa
+-00000a20: 6d70 6c65 732f 6669 7474 696e 675f 6578  mples/fitting_ex
+-00000a30: 616d 706c 652e 6874 6d6c 2920 6973 2061  ample.html) is a
+-00000a40: 2067 7265 6174 2070 6c61 6365 2074 6f20   great place to 
+-00000a50: 7374 6172 7429 2061 6e64 2074 6865 2064  start) and the d
+-00000a60: 6f63 756d 656e 7461 7469 6f6e 2063 616e  ocumentation can
+-00000a70: 2062 6520 666f 756e 6420 6174 205b 696d   be found at [im
+-00000a80: 7065 6461 6e63 6570 792e 7265 6164 7468  pedancepy.readth
+-00000a90: 6564 6f63 732e 696f 5d28 6874 7470 733a  edocs.io](https:
+-00000aa0: 2f2f 696d 7065 6461 6e63 6570 792e 7265  //impedancepy.re
+-00000ab0: 6164 7468 6564 6f63 732e 696f 2f65 6e2f  adthedocs.io/en/
+-00000ac0: 6c61 7465 7374 2f29 2e0a 0a23 2320 4369  latest/)...## Ci
+-00000ad0: 7469 6e67 2069 6d70 6564 616e 6365 2e70  ting impedance.p
+-00000ae0: 790a 0a5b 215b 444f 495d 2868 7474 7073  y..[![DOI](https
+-00000af0: 3a2f 2f6a 6f73 732e 7468 656f 6a2e 6f72  ://joss.theoj.or
+-00000b00: 672f 7061 7065 7273 2f31 302e 3231 3130  g/papers/10.2110
+-00000b10: 352f 6a6f 7373 2e30 3233 3439 2f73 7461  5/joss.02349/sta
+-00000b20: 7475 732e 7376 6729 5d28 6874 7470 733a  tus.svg)](https:
+-00000b30: 2f2f 646f 692e 6f72 672f 3130 2e32 3131  //doi.org/10.211
+-00000b40: 3035 2f6a 6f73 732e 3032 3334 3929 0a0a  05/joss.02349)..
+-00000b50: 4966 2079 6f75 2075 7365 2069 6d70 6564  If you use imped
+-00000b60: 616e 6365 2e70 7920 696e 2070 7562 6c69  ance.py in publi
+-00000b70: 7368 6564 2077 6f72 6b2c 2070 6c65 6173  shed work, pleas
+-00000b80: 6520 636f 6e73 6964 6572 2063 6974 696e  e consider citin
+-00000b90: 6720 6874 7470 733a 2f2f 6a6f 7373 2e74  g https://joss.t
+-00000ba0: 6865 6f6a 2e6f 7267 2f70 6170 6572 732f  heoj.org/papers/
+-00000bb0: 3130 2e32 3131 3035 2f6a 6f73 732e 3032  10.21105/joss.02
+-00000bc0: 3334 3920 6173 0a0a 6060 6062 6173 680a  349 as..```bash.
+-00000bd0: 4061 7274 6963 6c65 7b4d 7572 6261 6368  @article{Murbach
+-00000be0: 3230 3230 2c0a 2020 646f 6920 3d20 7b31  2020,.  doi = {1
+-00000bf0: 302e 3231 3130 352f 6a6f 7373 2e30 3233  0.21105/joss.023
+-00000c00: 3439 7d2c 0a20 2075 726c 203d 207b 6874  49},.  url = {ht
+-00000c10: 7470 733a 2f2f 646f 692e 6f72 672f 3130  tps://doi.org/10
+-00000c20: 2e32 3131 3035 2f6a 6f73 732e 3032 3334  .21105/joss.0234
+-00000c30: 397d 2c0a 2020 7965 6172 203d 207b 3230  9},.  year = {20
+-00000c40: 3230 7d2c 0a20 2070 7562 6c69 7368 6572  20},.  publisher
+-00000c50: 203d 207b 5468 6520 4f70 656e 204a 6f75   = {The Open Jou
+-00000c60: 726e 616c 7d2c 0a20 2076 6f6c 756d 6520  rnal},.  volume 
+-00000c70: 3d20 7b35 7d2c 0a20 206e 756d 6265 7220  = {5},.  number 
+-00000c80: 3d20 7b35 327d 2c0a 2020 7061 6765 7320  = {52},.  pages 
+-00000c90: 3d20 7b32 3334 397d 2c0a 2020 6175 7468  = {2349},.  auth
+-00000ca0: 6f72 203d 207b 4d61 7474 6865 7720 442e  or = {Matthew D.
+-00000cb0: 204d 7572 6261 6368 2061 6e64 2042 7269   Murbach and Bri
+-00000cc0: 616e 2047 6572 7765 2061 6e64 204e 6561  an Gerwe and Nea
+-00000cd0: 6c20 4461 7773 6f6e 2d45 6c6c 6920 616e  l Dawson-Elli an
+-00000ce0: 6420 4c6f 6b2d 6b75 6e20 5473 7569 7d2c  d Lok-kun Tsui},
+-00000cf0: 0a20 2074 6974 6c65 203d 207b 696d 7065  .  title = {impe
+-00000d00: 6461 6e63 652e 7079 3a20 4120 5079 7468  dance.py: A Pyth
+-00000d10: 6f6e 2070 6163 6b61 6765 2066 6f72 2065  on package for e
+-00000d20: 6c65 6374 726f 6368 656d 6963 616c 2069  lectrochemical i
+-00000d30: 6d70 6564 616e 6365 2061 6e61 6c79 7369  mpedance analysi
+-00000d40: 737d 2c0a 2020 6a6f 7572 6e61 6c20 3d20  s},.  journal = 
+-00000d50: 7b4a 6f75 726e 616c 206f 6620 4f70 656e  {Journal of Open
+-00000d60: 2053 6f75 7263 6520 536f 6674 7761 7265   Source Software
+-00000d70: 7d0a 7d0a 6060 600a 0a23 2320 436f 6e74  }.}.```..## Cont
+-00000d80: 7269 6275 746f 7273 20e2 9ca8 0a0a 5468  ributors .....Th
+-00000d90: 6973 2070 726f 6a65 6374 2073 7461 7274  is project start
+-00000da0: 6564 2061 7420 7468 6520 5b32 3031 3820  ed at the [2018 
+-00000db0: 456c 6563 7472 6f63 6865 6d69 6361 6c20  Electrochemical 
+-00000dc0: 536f 6369 6574 7920 2845 4353 2920 4861  Society (ECS) Ha
+-00000dd0: 636b 2057 6565 6b20 696e 2053 6561 7474  ck Week in Seatt
+-00000de0: 6c65 5d28 6874 7470 733a 2f2f 7777 772e  le](https://www.
+-00000df0: 656c 6563 7472 6f63 6865 6d2e 6f72 672f  electrochem.org/
+-00000e00: 3233 332f 6861 636b 2d77 6565 6b29 2061  233/hack-week) a
+-00000e10: 6e64 2068 6173 2062 656e 6566 6974 6564  nd has benefited
+-00000e20: 2066 726f 6d20 6120 636f 6d6d 756e 6974   from a communit
+-00000e30: 7920 6f66 2075 7365 7273 2061 6e64 2063  y of users and c
+-00000e40: 6f6e 7472 6962 7574 6f72 7320 7369 6e63  ontributors sinc
+-00000e50: 652e 2054 6861 6e6b 7320 676f 6573 2074  e. Thanks goes t
+-00000e60: 6f20 7468 6573 6520 776f 6e64 6572 6675  o these wonderfu
+-00000e70: 6c20 7065 6f70 6c65 2028 5b65 6d6f 6a69  l people ([emoji
+-00000e80: 206b 6579 5d28 6874 7470 733a 2f2f 616c   key](https://al
+-00000e90: 6c63 6f6e 7472 6962 7574 6f72 732e 6f72  lcontributors.or
+-00000ea0: 672f 646f 6373 2f65 6e2f 656d 6f6a 692d  g/docs/en/emoji-
+-00000eb0: 6b65 7929 293a 0a0a 3c21 2d2d 2041 4c4c  key)):..<!-- ALL
+-00000ec0: 2d43 4f4e 5452 4942 5554 4f52 532d 4c49  -CONTRIBUTORS-LI
+-00000ed0: 5354 3a53 5441 5254 202d 2044 6f20 6e6f  ST:START - Do no
+-00000ee0: 7420 7265 6d6f 7665 206f 7220 6d6f 6469  t remove or modi
+-00000ef0: 6679 2074 6869 7320 7365 6374 696f 6e20  fy this section 
+-00000f00: 2d2d 3e0a 3c21 2d2d 2070 7265 7474 6965  -->.<!-- prettie
+-00000f10: 722d 6967 6e6f 7265 2d73 7461 7274 202d  r-ignore-start -
+-00000f20: 2d3e 0a3c 212d 2d20 6d61 726b 646f 776e  ->.<!-- markdown
+-00000f30: 6c69 6e74 2d64 6973 6162 6c65 202d 2d3e  lint-disable -->
+-00000f40: 0a3c 7461 626c 653e 0a20 203c 7462 6f64  .<table>.  <tbod
+-00000f50: 793e 0a20 2020 203c 7472 3e0a 2020 2020  y>.    <tr>.    
+-00000f60: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
+-00000f70: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
+-00000f80: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
+-00000f90: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-00000fa0: 2f2f 6769 7468 7562 2e63 6f6d 2f6c 6b74  //github.com/lkt
+-00000fb0: 7375 6922 3e3c 696d 6720 7372 633d 2268  sui"><img src="h
+-00000fc0: 7474 7073 3a2f 2f61 7661 7461 7273 302e  ttps://avatars0.
+-00000fd0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-00000fe0: 742e 636f 6d2f 752f 3232 3234 3630 3639  t.com/u/22246069
+-00000ff0: 3f76 3d34 3f73 3d31 3030 2220 7769 6474  ?v=4?s=100" widt
+-00001000: 683d 2231 3030 7078 3b22 2061 6c74 3d22  h="100px;" alt="
+-00001010: 4c6f 6b2d 6b75 6e20 5473 7569 222f 3e3c  Lok-kun Tsui"/><
+-00001020: 6272 202f 3e3c 7375 623e 3c62 3e4c 6f6b  br /><sub><b>Lok
+-00001030: 2d6b 756e 2054 7375 693c 2f62 3e3c 2f73  -kun Tsui</b></s
+-00001040: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-00001050: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00001060: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
+-00001070: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
+-00001080: 792f 636f 6d6d 6974 733f 6175 7468 6f72  y/commits?author
+-00001090: 3d6c 6b74 7375 6922 2074 6974 6c65 3d22  =lktsui" title="
+-000010a0: 436f 6465 223e f09f 92bb 3c2f 613e 203c  Code">....</a> <
+-000010b0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-000010c0: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
+-000010d0: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
+-000010e0: 2e70 792f 636f 6d6d 6974 733f 6175 7468  .py/commits?auth
+-000010f0: 6f72 3d6c 6b74 7375 6922 2074 6974 6c65  or=lktsui" title
+-00001100: 3d22 5465 7374 7322 3ee2 9aa0 efb8 8f3c  ="Tests">......<
+-00001110: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
+-00001120: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00001130: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-00001140: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
+-00001150: 3f61 7574 686f 723d 6c6b 7473 7569 2220  ?author=lktsui" 
+-00001160: 7469 746c 653d 2244 6f63 756d 656e 7461  title="Documenta
+-00001170: 7469 6f6e 223e f09f 9396 3c2f 613e 3c2f  tion">....</a></
+-00001180: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00001190: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-000011a0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-000011b0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-000011c0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-000011d0: 2e63 6f6d 2f42 4765 7277 6522 3e3c 696d  .com/BGerwe"><im
+-000011e0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-000011f0: 7661 7461 7273 332e 6769 7468 7562 7573  vatars3.githubus
+-00001200: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-00001210: 3338 3831 3933 3231 3f76 3d34 3f73 3d31  38819321?v=4?s=1
+-00001220: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00001230: 3b22 2061 6c74 3d22 4272 6961 6e20 4765  ;" alt="Brian Ge
+-00001240: 7277 6522 2f3e 3c62 7220 2f3e 3c73 7562  rwe"/><br /><sub
+-00001250: 3e3c 623e 4272 6961 6e20 4765 7277 653c  ><b>Brian Gerwe<
+-00001260: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-00001270: 202f 3e3c 6120 6872 6566 3d22 6874 7470   /><a href="http
+-00001280: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
+-00001290: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
+-000012a0: 616e 6365 2e70 792f 636f 6d6d 6974 733f  ance.py/commits?
+-000012b0: 6175 7468 6f72 3d42 4765 7277 6522 2074  author=BGerwe" t
+-000012c0: 6974 6c65 3d22 436f 6465 223e f09f 92bb  itle="Code">....
+-000012d0: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
+-000012e0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000012f0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-00001300: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
+-00001310: 733f 6175 7468 6f72 3d42 4765 7277 6522  s?author=BGerwe"
+-00001320: 2074 6974 6c65 3d22 5465 7374 7322 3ee2   title="Tests">.
+-00001330: 9aa0 efb8 8f3c 2f61 3e20 3c61 2068 7265  .....</a> <a hre
+-00001340: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00001350: 622e 636f 6d2f 4543 5348 6163 6b57 6565  b.com/ECSHackWee
+-00001360: 6b2f 696d 7065 6461 6e63 652e 7079 2f63  k/impedance.py/c
+-00001370: 6f6d 6d69 7473 3f61 7574 686f 723d 4247  ommits?author=BG
+-00001380: 6572 7765 2220 7469 746c 653d 2244 6f63  erwe" title="Doc
+-00001390: 756d 656e 7461 7469 6f6e 223e f09f 9396  umentation">....
+-000013a0: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
+-000013b0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000013c0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-000013d0: 6564 616e 6365 2e70 792f 7075 6c6c 733f  edance.py/pulls?
+-000013e0: 713d 6973 2533 4170 722b 7265 7669 6577  q=is%3Apr+review
+-000013f0: 6564 2d62 7925 3341 4247 6572 7765 2220  ed-by%3ABGerwe" 
+-00001400: 7469 746c 653d 2252 6576 6965 7765 6420  title="Reviewed 
+-00001410: 5075 6c6c 2052 6571 7565 7374 7322 3ef0  Pull Requests">.
+-00001420: 9f91 803c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00001430: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00001440: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
+-00001450: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
+-00001460: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-00001470: 3a2f 2f67 6974 6875 622e 636f 6d2f 6e65  ://github.com/ne
+-00001480: 616c 6465 223e 3c69 6d67 2073 7263 3d22  alde"><img src="
+-00001490: 6874 7470 733a 2f2f 6176 6174 6172 7332  https://avatars2
+-000014a0: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-000014b0: 6e74 2e63 6f6d 2f75 2f32 3538 3737 3836  nt.com/u/2587786
+-000014c0: 383f 763d 343f 733d 3130 3022 2077 6964  8?v=4?s=100" wid
+-000014d0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-000014e0: 224e 6561 6c22 2f3e 3c62 7220 2f3e 3c73  "Neal"/><br /><s
+-000014f0: 7562 3e3c 623e 4e65 616c 3c2f 623e 3c2f  ub><b>Neal</b></
+-00001500: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00001510: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00001520: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
+-00001530: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
+-00001540: 7079 2f70 756c 6c73 3f71 3d69 7325 3341  py/pulls?q=is%3A
+-00001550: 7072 2b72 6576 6965 7765 642d 6279 2533  pr+reviewed-by%3
+-00001560: 416e 6561 6c64 6522 2074 6974 6c65 3d22  Anealde" title="
+-00001570: 5265 7669 6577 6564 2050 756c 6c20 5265  Reviewed Pull Re
+-00001580: 7175 6573 7473 223e f09f 9180 3c2f 613e  quests">....</a>
+-00001590: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
+-000015a0: 2f2f 6769 7468 7562 2e63 6f6d 2f45 4353  //github.com/ECS
+-000015b0: 4861 636b 5765 656b 2f69 6d70 6564 616e  HackWeek/impedan
+-000015c0: 6365 2e70 792f 636f 6d6d 6974 733f 6175  ce.py/commits?au
+-000015d0: 7468 6f72 3d6e 6561 6c64 6522 2074 6974  thor=nealde" tit
+-000015e0: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
+-000015f0: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
+-00001600: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
+-00001610: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
+-00001620: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
+-00001630: 6872 6566 3d22 6874 7470 3a2f 2f6d 6174  href="http://mat
+-00001640: 746d 7572 6261 6368 2e63 6f6d 223e 3c69  tmurbach.com"><i
+-00001650: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00001660: 6176 6174 6172 7333 2e67 6974 6875 6275  avatars3.githubu
+-00001670: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00001680: 2f39 3336 3930 3230 3f76 3d34 3f73 3d31  /9369020?v=4?s=1
+-00001690: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-000016a0: 3b22 2061 6c74 3d22 4d61 7474 204d 7572  ;" alt="Matt Mur
+-000016b0: 6261 6368 222f 3e3c 6272 202f 3e3c 7375  bach"/><br /><su
+-000016c0: 623e 3c62 3e4d 6174 7420 4d75 7262 6163  b><b>Matt Murbac
+-000016d0: 683c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  h</b></sub></a><
+-000016e0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-000016f0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00001700: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-00001710: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
+-00001720: 733f 6175 7468 6f72 3d6d 646d 7572 6261  s?author=mdmurba
+-00001730: 6368 2220 7469 746c 653d 2244 6f63 756d  ch" title="Docum
+-00001740: 656e 7461 7469 6f6e 223e f09f 9396 3c2f  entation">....</
+-00001750: 613e 203c 6120 6872 6566 3d22 6874 7470  a> <a href="http
+-00001760: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
+-00001770: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
+-00001780: 616e 6365 2e70 792f 7075 6c6c 733f 713d  ance.py/pulls?q=
+-00001790: 6973 2533 4170 722b 7265 7669 6577 6564  is%3Apr+reviewed
+-000017a0: 2d62 7925 3341 6d64 6d75 7262 6163 6822  -by%3Amdmurbach"
+-000017b0: 2074 6974 6c65 3d22 5265 7669 6577 6564   title="Reviewed
+-000017c0: 2050 756c 6c20 5265 7175 6573 7473 223e   Pull Requests">
+-000017d0: f09f 9180 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
+-000017e0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-000017f0: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
+-00001800: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
+-00001810: 6d6d 6974 733f 6175 7468 6f72 3d6d 646d  mmits?author=mdm
+-00001820: 7572 6261 6368 2220 7469 746c 653d 2254  urbach" title="T
+-00001830: 6573 7473 223e e29a a0ef b88f 3c2f 613e  ests">......</a>
+-00001840: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
+-00001850: 2f2f 6769 7468 7562 2e63 6f6d 2f45 4353  //github.com/ECS
+-00001860: 4861 636b 5765 656b 2f69 6d70 6564 616e  HackWeek/impedan
+-00001870: 6365 2e70 792f 636f 6d6d 6974 733f 6175  ce.py/commits?au
+-00001880: 7468 6f72 3d6d 646d 7572 6261 6368 2220  thor=mdmurbach" 
+-00001890: 7469 746c 653d 2243 6f64 6522 3ef0 9f92  title="Code">...
+-000018a0: bb3c 2f61 3e3c 2f74 643e 0a20 2020 2020  .</a></td>.     
+-000018b0: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
+-000018c0: 6572 2220 7661 6c69 676e 3d22 746f 7022  er" valign="top"
+-000018d0: 2077 6964 7468 3d22 3134 2e32 3825 223e   width="14.28%">
+-000018e0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000018f0: 2f6b 656e 6e79 7668 2e63 6f6d 223e 3c69  /kennyvh.com"><i
+-00001900: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00001910: 6176 6174 6172 7332 2e67 6974 6875 6275  avatars2.githubu
+-00001920: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00001930: 2f32 3939 3039 3230 333f 763d 343f 733d  /29909203?v=4?s=
+-00001940: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-00001950: 783b 2220 616c 743d 224b 656e 6e79 2048  x;" alt="Kenny H
+-00001960: 7579 6e68 222f 3e3c 6272 202f 3e3c 7375  uynh"/><br /><su
+-00001970: 623e 3c62 3e4b 656e 6e79 2048 7579 6e68  b><b>Kenny Huynh
+-00001980: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00001990: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
+-000019a0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-000019b0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-000019c0: 6461 6e63 652e 7079 2f69 7373 7565 733f  dance.py/issues?
+-000019d0: 713d 6175 7468 6f72 2533 4168 6b65 6e6e  q=author%3Ahkenn
+-000019e0: 7976 2220 7469 746c 653d 2242 7567 2072  yv" title="Bug r
+-000019f0: 6570 6f72 7473 223e f09f 909b 3c2f 613e  eports">....</a>
+-00001a00: 203c 6120 6872 6566 3d22 6874 7470 733a   <a href="https:
+-00001a10: 2f2f 6769 7468 7562 2e63 6f6d 2f45 4353  //github.com/ECS
+-00001a20: 4861 636b 5765 656b 2f69 6d70 6564 616e  HackWeek/impedan
+-00001a30: 6365 2e70 792f 636f 6d6d 6974 733f 6175  ce.py/commits?au
+-00001a40: 7468 6f72 3d68 6b65 6e6e 7976 2220 7469  thor=hkennyv" ti
+-00001a50: 746c 653d 2243 6f64 6522 3ef0 9f92 bb3c  tle="Code">....<
+-00001a60: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
+-00001a70: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-00001a80: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
+-00001a90: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
+-00001aa0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00001ab0: 6974 6875 622e 636f 6d2f 6c61 7772 656e  ithub.com/lawren
+-00001ac0: 6365 7265 6e6e 6122 3e3c 696d 6720 7372  cerenna"><img sr
+-00001ad0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00001ae0: 7273 302e 6769 7468 7562 7573 6572 636f  rs0.githubuserco
+-00001af0: 6e74 656e 742e 636f 6d2f 752f 3439 3137  ntent.com/u/4917
+-00001b00: 3433 3337 3f76 3d34 3f73 3d31 3030 2220  4337?v=4?s=100" 
+-00001b10: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00001b20: 6c74 3d22 6c61 7772 656e 6365 7265 6e6e  lt="lawrencerenn
+-00001b30: 6122 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  a"/><br /><sub><
+-00001b40: 623e 6c61 7772 656e 6365 7265 6e6e 613c  b>lawrencerenna<
+-00001b50: 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c 6272  /b></sub></a><br
+-00001b60: 202f 3e3c 6120 6872 6566 3d22 2369 6465   /><a href="#ide
+-00001b70: 6173 2d6c 6177 7265 6e63 6572 656e 6e61  as-lawrencerenna
+-00001b80: 2220 7469 746c 653d 2249 6465 6173 2c20  " title="Ideas, 
+-00001b90: 506c 616e 6e69 6e67 2c20 2620 4665 6564  Planning, & Feed
+-00001ba0: 6261 636b 223e f09f a494 3c2f 613e 3c2f  back">....</a></
+-00001bb0: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00001bc0: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-00001bd0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-00001be0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-00001bf0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001c00: 2e63 6f6d 2f52 6f77 696e 223e 3c69 6d67  .com/Rowin"><img
+-00001c10: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
+-00001c20: 6174 6172 7333 2e67 6974 6875 6275 7365  atars3.githubuse
+-00001c30: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f31  rcontent.com/u/1
+-00001c40: 3732 3734 3738 3f76 3d34 3f73 3d31 3030  727478?v=4?s=100
+-00001c50: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
+-00001c60: 2061 6c74 3d22 526f 7769 6e22 2f3e 3c62   alt="Rowin"/><b
+-00001c70: 7220 2f3e 3c73 7562 3e3c 623e 526f 7769  r /><sub><b>Rowi
+-00001c80: 6e3c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  n</b></sub></a><
+-00001c90: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-00001ca0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00001cb0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-00001cc0: 6564 616e 6365 2e70 792f 6973 7375 6573  edance.py/issues
+-00001cd0: 3f71 3d61 7574 686f 7225 3341 526f 7769  ?q=author%3ARowi
+-00001ce0: 6e22 2074 6974 6c65 3d22 4275 6720 7265  n" title="Bug re
+-00001cf0: 706f 7274 7322 3ef0 9f90 9b3c 2f61 3e20  ports">....</a> 
+-00001d00: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001d10: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-00001d20: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-00001d30: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
+-00001d40: 686f 723d 526f 7769 6e22 2074 6974 6c65  hor=Rowin" title
+-00001d50: 3d22 436f 6465 223e f09f 92bb 3c2f 613e  ="Code">....</a>
+-00001d60: 3c2f 7464 3e0a 2020 2020 3c2f 7472 3e0a  </td>.    </tr>.
+-00001d70: 2020 2020 3c74 723e 0a20 2020 2020 203c      <tr>.      <
+-00001d80: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-00001d90: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
+-00001da0: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
+-00001db0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00001dc0: 6974 6875 622e 636f 6d2f 6d69 6368 6165  ithub.com/michae
+-00001dd0: 6c70 6c65 7773 223e 3c69 6d67 2073 7263  lplews"><img src
+-00001de0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00001df0: 7332 2e67 6974 6875 6275 7365 7263 6f6e  s2.githubusercon
+-00001e00: 7465 6e74 2e63 6f6d 2f75 2f31 3430 3938  tent.com/u/14098
+-00001e10: 3932 393f 763d 343f 733d 3130 3022 2077  929?v=4?s=100" w
+-00001e20: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-00001e30: 743d 224d 6963 6861 656c 2050 6c65 7773  t="Michael Plews
+-00001e40: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-00001e50: 3e4d 6963 6861 656c 2050 6c65 7773 3c2f  >Michael Plews</
+-00001e60: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-00001e70: 2f3e 3c61 2068 7265 663d 2223 6964 6561  /><a href="#idea
+-00001e80: 732d 6d69 6368 6165 6c70 6c65 7773 2220  s-michaelplews" 
+-00001e90: 7469 746c 653d 2249 6465 6173 2c20 506c  title="Ideas, Pl
+-00001ea0: 616e 6e69 6e67 2c20 2620 4665 6564 6261  anning, & Feedba
+-00001eb0: 636b 223e f09f a494 3c2f 613e 3c2f 7464  ck">....</a></td
+-00001ec0: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
+-00001ed0: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
+-00001ee0: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
+-00001ef0: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
+-00001f00: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00001f10: 6f6d 2f43 6865 6275 736b 696e 223e 3c69  om/Chebuskin"><i
+-00001f20: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00001f30: 6176 6174 6172 7330 2e67 6974 6875 6275  avatars0.githubu
+-00001f40: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00001f50: 2f33 3337 3837 3732 333f 763d 343f 733d  /33787723?v=4?s=
+-00001f60: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
+-00001f70: 783b 2220 616c 743d 2243 6865 6275 736b  x;" alt="Chebusk
+-00001f80: 696e 222f 3e3c 6272 202f 3e3c 7375 623e  in"/><br /><sub>
+-00001f90: 3c62 3e43 6865 6275 736b 696e 3c2f 623e  <b>Chebuskin</b>
+-00001fa0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
+-00001fb0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001fc0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
+-00001fd0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
+-00001fe0: 652e 7079 2f69 7373 7565 733f 713d 6175  e.py/issues?q=au
+-00001ff0: 7468 6f72 2533 4143 6865 6275 736b 696e  thor%3AChebuskin
+-00002000: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
+-00002010: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
+-00002020: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00002030: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
+-00002040: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
+-00002050: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
+-00002060: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002070: 2e63 6f6d 2f65 6e76 6972 6f6e 6d61 7422  .com/environmat"
+-00002080: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
+-00002090: 3a2f 2f61 7661 7461 7273 302e 6769 7468  ://avatars0.gith
+-000020a0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-000020b0: 6d2f 752f 3933 3039 3335 333f 763d 343f  m/u/9309353?v=4?
+-000020c0: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
+-000020d0: 3070 783b 2220 616c 743d 2265 6e76 6972  0px;" alt="envir
+-000020e0: 6f6e 6d61 7422 2f3e 3c62 7220 2f3e 3c73  onmat"/><br /><s
+-000020f0: 7562 3e3c 623e 656e 7669 726f 6e6d 6174  ub><b>environmat
+-00002100: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00002110: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
+-00002120: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002130: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-00002140: 6461 6e63 652e 7079 2f69 7373 7565 733f  dance.py/issues?
+-00002150: 713d 6175 7468 6f72 2533 4165 6e76 6972  q=author%3Aenvir
+-00002160: 6f6e 6d61 7422 2074 6974 6c65 3d22 4275  onmat" title="Bu
+-00002170: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
+-00002180: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
+-00002190: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-000021a0: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
+-000021b0: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
+-000021c0: 2068 7265 663d 2268 7474 703a 2f2f 7777   href="http://ww
+-000021d0: 772e 6162 6475 6c6c 6168 7375 6d62 616c  w.abdullahsumbal
+-000021e0: 2e63 6f6d 223e 3c69 6d67 2073 7263 3d22  .com"><img src="
+-000021f0: 6874 7470 733a 2f2f 6176 6174 6172 7332  https://avatars2
+-00002200: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00002210: 6e74 2e63 6f6d 2f75 2f31 3239 3436 3934  nt.com/u/1294694
+-00002220: 373f 763d 343f 733d 3130 3022 2077 6964  7?v=4?s=100" wid
+-00002230: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002240: 2241 6264 756c 6c61 6820 5375 6d62 616c  "Abdullah Sumbal
+-00002250: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-00002260: 3e41 6264 756c 6c61 6820 5375 6d62 616c  >Abdullah Sumbal
+-00002270: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00002280: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
+-00002290: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-000022a0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-000022b0: 6461 6e63 652e 7079 2f69 7373 7565 733f  dance.py/issues?
+-000022c0: 713d 6175 7468 6f72 2533 4161 6264 756c  q=author%3Aabdul
+-000022d0: 6c61 6873 756d 6261 6c22 2074 6974 6c65  lahsumbal" title
+-000022e0: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
+-000022f0: 9f90 9b3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00002300: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002310: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
+-00002320: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
+-00002330: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-00002340: 3a2f 2f67 6974 6875 622e 636f 6d2f 6e6f  ://github.com/no
+-00002350: 626b 6174 223e 3c69 6d67 2073 7263 3d22  bkat"><img src="
+-00002360: 6874 7470 733a 2f2f 6176 6174 6172 7333  https://avatars3
+-00002370: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00002380: 6e74 2e63 6f6d 2f75 2f32 3930 3737 3434  nt.com/u/2907744
+-00002390: 353f 763d 343f 733d 3130 3022 2077 6964  5?v=4?s=100" wid
+-000023a0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-000023b0: 226e 6f62 6b61 7422 2f3e 3c62 7220 2f3e  "nobkat"/><br />
+-000023c0: 3c73 7562 3e3c 623e 6e6f 626b 6174 3c2f  <sub><b>nobkat</
+-000023d0: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-000023e0: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
+-000023f0: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
+-00002400: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
+-00002410: 6e63 652e 7079 2f63 6f6d 6d69 7473 3f61  nce.py/commits?a
+-00002420: 7574 686f 723d 6e6f 626b 6174 2220 7469  uthor=nobkat" ti
+-00002430: 746c 653d 2243 6f64 6522 3ef0 9f92 bb3c  tle="Code">....<
+-00002440: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
+-00002450: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
+-00002460: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
+-00002470: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
+-00002480: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002490: 6974 6875 622e 636f 6d2f 6e69 636b 6272  ithub.com/nickbr
+-000024a0: 6164 7922 3e3c 696d 6720 7372 633d 2268  ady"><img src="h
+-000024b0: 7474 7073 3a2f 2f61 7661 7461 7273 312e  ttps://avatars1.
+-000024c0: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
+-000024d0: 742e 636f 6d2f 752f 3734 3731 3336 373f  t.com/u/7471367?
+-000024e0: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
+-000024f0: 3d22 3130 3070 783b 2220 616c 743d 224e  ="100px;" alt="N
+-00002500: 6963 6b22 2f3e 3c62 7220 2f3e 3c73 7562  ick"/><br /><sub
+-00002510: 3e3c 623e 4e69 636b 3c2f 623e 3c2f 7375  ><b>Nick</b></su
+-00002520: 623e 3c2f 613e 3c62 7220 2f3e 3c61 2068  b></a><br /><a h
+-00002530: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00002540: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
+-00002550: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
+-00002560: 2f69 7373 7565 733f 713d 6175 7468 6f72  /issues?q=author
+-00002570: 2533 416e 6963 6b62 7261 6479 2220 7469  %3Anickbrady" ti
+-00002580: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
+-00002590: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
+-000025a0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-000025b0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
+-000025c0: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
+-000025d0: 636f 6d6d 6974 733f 6175 7468 6f72 3d6e  commits?author=n
+-000025e0: 6963 6b62 7261 6479 2220 7469 746c 653d  ickbrady" title=
+-000025f0: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c  "Code">....</a><
+-00002600: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
+-00002610: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
+-00002620: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
+-00002630: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
+-00002640: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00002650: 622e 636f 6d2f 616f 6b6f 6d6f 726f 7773  b.com/aokomorows
+-00002660: 6b69 223e 3c69 6d67 2073 7263 3d22 6874  ki"><img src="ht
+-00002670: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
+-00002680: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00002690: 636f 6d2f 752f 3433 3636 3534 3734 3f76  com/u/43665474?v
+-000026a0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-000026b0: 2231 3030 7078 3b22 2061 6c74 3d22 616f  "100px;" alt="ao
+-000026c0: 6b6f 6d6f 726f 7773 6b69 222f 3e3c 6272  komorowski"/><br
+-000026d0: 202f 3e3c 7375 623e 3c62 3e61 6f6b 6f6d   /><sub><b>aokom
+-000026e0: 6f72 6f77 736b 693c 2f62 3e3c 2f73 7562  orowski</b></sub
+-000026f0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-00002700: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00002710: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
+-00002720: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
+-00002730: 636f 6d6d 6974 733f 6175 7468 6f72 3d61  commits?author=a
+-00002740: 6f6b 6f6d 6f72 6f77 736b 6922 2074 6974  okomorowski" tit
+-00002750: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
+-00002760: 613e 3c2f 7464 3e0a 2020 2020 3c2f 7472  a></td>.    </tr
+-00002770: 3e0a 2020 2020 3c74 723e 0a20 2020 2020  >.    <tr>.     
+-00002780: 203c 7464 2061 6c69 676e 3d22 6365 6e74   <td align="cent
+-00002790: 6572 2220 7661 6c69 676e 3d22 746f 7022  er" valign="top"
+-000027a0: 2077 6964 7468 3d22 3134 2e32 3825 223e   width="14.28%">
+-000027b0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-000027c0: 2f70 6574 6572 6d61 7474 6961 2e63 6f6d  /petermattia.com
+-000027d0: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
+-000027e0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
+-000027f0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-00002800: 6d2f 752f 3239 3535 3138 3538 3f76 3d34  m/u/29551858?v=4
+-00002810: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
+-00002820: 3030 7078 3b22 2061 6c74 3d22 5065 7465  00px;" alt="Pete
+-00002830: 7220 4174 7469 6122 2f3e 3c62 7220 2f3e  r Attia"/><br />
+-00002840: 3c73 7562 3e3c 623e 5065 7465 7220 4174  <sub><b>Peter At
+-00002850: 7469 613c 2f62 3e3c 2f73 7562 3e3c 2f61  tia</b></sub></a
+-00002860: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
+-00002870: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00002880: 6f6d 2f45 4353 4861 636b 5765 656b 2f69  om/ECSHackWeek/i
+-00002890: 6d70 6564 616e 6365 2e70 792f 636f 6d6d  mpedance.py/comm
+-000028a0: 6974 733f 6175 7468 6f72 3d70 6574 6572  its?author=peter
+-000028b0: 6d61 7474 6961 2220 7469 746c 653d 2243  mattia" title="C
+-000028c0: 6f64 6522 3ef0 9f92 bb3c 2f61 3e20 3c61  ode">....</a> <a
+-000028d0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-000028e0: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
+-000028f0: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
+-00002900: 7079 2f63 6f6d 6d69 7473 3f61 7574 686f  py/commits?autho
+-00002910: 723d 7065 7465 726d 6174 7469 6122 2074  r=petermattia" t
+-00002920: 6974 6c65 3d22 5465 7374 7322 3ee2 9aa0  itle="Tests">...
+-00002930: efb8 8f3c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
+-00002940: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
+-00002950: 636f 6d2f 4543 5348 6163 6b57 6565 6b2f  com/ECSHackWeek/
+-00002960: 696d 7065 6461 6e63 652e 7079 2f63 6f6d  impedance.py/com
+-00002970: 6d69 7473 3f61 7574 686f 723d 7065 7465  mits?author=pete
+-00002980: 726d 6174 7469 6122 2074 6974 6c65 3d22  rmattia" title="
+-00002990: 446f 6375 6d65 6e74 6174 696f 6e22 3ef0  Documentation">.
+-000029a0: 9f93 963c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-000029b0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-000029c0: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
+-000029d0: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
+-000029e0: 223e 3c61 2068 7265 663d 2268 7474 703a  "><a href="http:
+-000029f0: 2f2f 7364 6b61 6e67 2e6f 7267 223e 3c69  //sdkang.org"><i
+-00002a00: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00002a10: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
+-00002a20: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-00002a30: 3535 3131 3635 3031 3f76 3d34 3f73 3d31  55116501?v=4?s=1
+-00002a40: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00002a50: 3b22 2061 6c74 3d22 7364 6b61 6e67 222f  ;" alt="sdkang"/
+-00002a60: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e73  ><br /><sub><b>s
+-00002a70: 646b 616e 673c 2f62 3e3c 2f73 7562 3e3c  dkang</b></sub><
+-00002a80: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
+-00002a90: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002aa0: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
+-00002ab0: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
+-00002ac0: 6d6d 6974 733f 6175 7468 6f72 3d73 7465  mmits?author=ste
+-00002ad0: 7068 656e 646b 616e 6722 2074 6974 6c65  phendkang" title
+-00002ae0: 3d22 5465 7374 7322 3ee2 9aa0 efb8 8f3c  ="Tests">......<
+-00002af0: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
+-00002b00: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002b10: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
+-00002b20: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
+-00002b30: 3f61 7574 686f 723d 7374 6570 6865 6e64  ?author=stephend
+-00002b40: 6b61 6e67 2220 7469 746c 653d 2243 6f64  kang" title="Cod
+-00002b50: 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e  e">....</a></td>
+-00002b60: 0a20 2020 2020 203c 7464 2061 6c69 676e  .      <td align
+-00002b70: 3d22 6365 6e74 6572 2220 7661 6c69 676e  ="center" valign
+-00002b80: 3d22 746f 7022 2077 6964 7468 3d22 3134  ="top" width="14
+-00002b90: 2e32 3825 223e 3c61 2068 7265 663d 2268  .28%"><a href="h
+-00002ba0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002bb0: 6d2f 6c75 6361 7366 6476 7822 3e3c 696d  m/lucasfdvx"><im
+-00002bc0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-00002bd0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00002be0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f38  rcontent.com/u/8
+-00002bf0: 3538 3838 3930 343f 763d 343f 733d 3130  5888904?v=4?s=10
+-00002c00: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
+-00002c10: 2220 616c 743d 226c 7563 6173 6664 7678  " alt="lucasfdvx
+-00002c20: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-00002c30: 3e6c 7563 6173 6664 7678 3c2f 623e 3c2f  >lucasfdvx</b></
+-00002c40: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00002c50: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002c60: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
+-00002c70: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
+-00002c80: 7079 2f69 7373 7565 733f 713d 6175 7468  py/issues?q=auth
+-00002c90: 6f72 2533 416c 7563 6173 6664 7678 2220  or%3Alucasfdvx" 
+-00002ca0: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
+-00002cb0: 7473 223e f09f 909b 3c2f 613e 3c2f 7464  ts">....</a></td
+-00002cc0: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
+-00002cd0: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
+-00002ce0: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
+-00002cf0: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
+-00002d00: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00002d10: 6f6d 2f53 6166 744d 6163 6b69 223e 3c69  om/SaftMacki"><i
+-00002d20: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00002d30: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
+-00002d40: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-00002d50: 3930 3033 3032 3731 3f76 3d34 3f73 3d31  90030271?v=4?s=1
+-00002d60: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00002d70: 3b22 2061 6c74 3d22 4d61 7263 7573 204b  ;" alt="Marcus K
+-00002d80: 6172 6c73 7461 6422 2f3e 3c62 7220 2f3e  arlstad"/><br />
+-00002d90: 3c73 7562 3e3c 623e 4d61 7263 7573 204b  <sub><b>Marcus K
+-00002da0: 6172 6c73 7461 643c 2f62 3e3c 2f73 7562  arlstad</b></sub
+-00002db0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-00002dc0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00002dd0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
+-00002de0: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
+-00002df0: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
+-00002e00: 3341 5361 6674 4d61 636b 6922 2074 6974  3ASaftMacki" tit
+-00002e10: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
+-00002e20: 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
+-00002e30: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
+-00002e40: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
+-00002e50: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
+-00002e60: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
+-00002e70: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00002e80: 6d61 726b 626f 756d 616e 223e 3c69 6d67  markbouman"><img
+-00002e90: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
+-00002ea0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
+-00002eb0: 636f 6e74 656e 742e 636f 6d2f 752f 3130  content.com/u/10
+-00002ec0: 3339 3434 3132 303f 763d 343f 733d 3130  3944120?v=4?s=10
+-00002ed0: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
+-00002ee0: 2220 616c 743d 224d 6172 6b20 426f 756d  " alt="Mark Boum
+-00002ef0: 616e 222f 3e3c 6272 202f 3e3c 7375 623e  an"/><br /><sub>
+-00002f00: 3c62 3e4d 6172 6b20 426f 756d 616e 3c2f  <b>Mark Bouman</
+-00002f10: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
+-00002f20: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
+-00002f30: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
+-00002f40: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
+-00002f50: 6e63 652e 7079 2f69 7373 7565 733f 713d  nce.py/issues?q=
+-00002f60: 6175 7468 6f72 2533 416d 6172 6b62 6f75  author%3Amarkbou
+-00002f70: 6d61 6e22 2074 6974 6c65 3d22 4275 6720  man" title="Bug 
+-00002f80: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
+-00002f90: 3e20 3c61 2068 7265 663d 2268 7474 7073  > <a href="https
+-00002fa0: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
+-00002fb0: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
+-00002fc0: 6e63 652e 7079 2f63 6f6d 6d69 7473 3f61  nce.py/commits?a
+-00002fd0: 7574 686f 723d 6d61 726b 626f 756d 616e  uthor=markbouman
+-00002fe0: 2220 7469 746c 653d 2243 6f64 6522 3ef0  " title="Code">.
+-00002ff0: 9f92 bb3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00003000: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00003010: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
+-00003020: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
+-00003030: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
+-00003040: 3a2f 2f67 6974 6875 622e 636f 6d2f 6f73  ://github.com/os
+-00003050: 6c6f 7061 6e64 6122 3e3c 696d 6720 7372  lopanda"><img sr
+-00003060: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
+-00003070: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
+-00003080: 7465 6e74 2e63 6f6d 2f75 2f33 3338 3130  tent.com/u/33810
+-00003090: 3433 303f 763d 343f 733d 3130 3022 2077  430?v=4?s=100" w
+-000030a0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
+-000030b0: 743d 226f 736c 6f70 616e 6461 222f 3e3c  t="oslopanda"/><
+-000030c0: 6272 202f 3e3c 7375 623e 3c62 3e6f 736c  br /><sub><b>osl
+-000030d0: 6f70 616e 6461 3c2f 623e 3c2f 7375 623e  opanda</b></sub>
+-000030e0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
+-000030f0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00003100: 622e 636f 6d2f 4543 5348 6163 6b57 6565  b.com/ECSHackWee
+-00003110: 6b2f 696d 7065 6461 6e63 652e 7079 2f69  k/impedance.py/i
+-00003120: 7373 7565 733f 713d 6175 7468 6f72 2533  ssues?q=author%3
+-00003130: 416f 736c 6f70 616e 6461 2220 7469 746c  Aoslopanda" titl
+-00003140: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
+-00003150: f09f 909b 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
+-00003160: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
+-00003170: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
+-00003180: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
+-00003190: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
+-000031a0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f70  s://github.com/p
+-000031b0: 696c 696c 6163 223e 3c69 6d67 2073 7263  ililac"><img src
+-000031c0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-000031d0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-000031e0: 656e 742e 636f 6d2f 752f 3630 3131 3636  ent.com/u/601166
+-000031f0: 3436 3f76 3d34 3f73 3d31 3030 2220 7769  46?v=4?s=100" wi
+-00003200: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
+-00003210: 3d22 7069 6c69 6c61 6322 2f3e 3c62 7220  ="pililac"/><br 
+-00003220: 2f3e 3c73 7562 3e3c 623e 7069 6c69 6c61  /><sub><b>pilila
+-00003230: 633c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  c</b></sub></a><
+-00003240: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-00003250: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00003260: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-00003270: 6564 616e 6365 2e70 792f 6973 7375 6573  edance.py/issues
+-00003280: 3f71 3d61 7574 686f 7225 3341 7069 6c69  ?q=author%3Apili
+-00003290: 6c61 6322 2074 6974 6c65 3d22 4275 6720  lac" title="Bug 
+-000032a0: 7265 706f 7274 7322 3ef0 9f90 9b3c 2f61  reports">....</a
+-000032b0: 3e3c 2f74 643e 0a20 2020 203c 2f74 723e  ></td>.    </tr>
+-000032c0: 0a20 2020 203c 7472 3e0a 2020 2020 2020  .    <tr>.      
+-000032d0: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
+-000032e0: 7222 2076 616c 6967 6e3d 2274 6f70 2220  r" valign="top" 
+-000032f0: 7769 6474 683d 2231 342e 3238 2522 3e3c  width="14.28%"><
+-00003300: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-00003310: 6769 7468 7562 2e63 6f6d 2f6b 6576 696e  github.com/kevin
+-00003320: 736d 6961 3139 3339 223e 3c69 6d67 2073  smia1939"><img s
+-00003330: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
+-00003340: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
+-00003350: 6e74 656e 742e 636f 6d2f 752f 3131 3430  ntent.com/u/1140
+-00003360: 3739 3232 3f76 3d34 3f73 3d31 3030 2220  7922?v=4?s=100" 
+-00003370: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
+-00003380: 6c74 3d22 4b61 7669 6e20 5465 656e 616b  lt="Kavin Teenak
+-00003390: 756c 222f 3e3c 6272 202f 3e3c 7375 623e  ul"/><br /><sub>
+-000033a0: 3c62 3e4b 6176 696e 2054 6565 6e61 6b75  <b>Kavin Teenaku
+-000033b0: 6c3c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  l</b></sub></a><
+-000033c0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
+-000033d0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000033e0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
+-000033f0: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
+-00003400: 733f 6175 7468 6f72 3d6b 6576 696e 736d  s?author=kevinsm
+-00003410: 6961 3139 3339 2220 7469 746c 653d 2243  ia1939" title="C
+-00003420: 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74  ode">....</a></t
+-00003430: 643e 0a20 2020 203c 2f74 723e 0a20 203c  d>.    </tr>.  <
+-00003440: 2f74 626f 6479 3e0a 3c2f 7461 626c 653e  /tbody>.</table>
+-00003450: 0a0a 3c21 2d2d 206d 6172 6b64 6f77 6e6c  ..<!-- markdownl
+-00003460: 696e 742d 7265 7374 6f72 6520 2d2d 3e0a  int-restore -->.
+-00003470: 3c21 2d2d 2070 7265 7474 6965 722d 6967  <!-- prettier-ig
+-00003480: 6e6f 7265 2d65 6e64 202d 2d3e 0a0a 3c21  nore-end -->..<!
+-00003490: 2d2d 2041 4c4c 2d43 4f4e 5452 4942 5554  -- ALL-CONTRIBUT
+-000034a0: 4f52 532d 4c49 5354 3a45 4e44 202d 2d3e  ORS-LIST:END -->
+-000034b0: 0a0a 5468 6973 2070 726f 6a65 6374 2066  ..This project f
+-000034c0: 6f6c 6c6f 7773 2074 6865 205b 616c 6c2d  ollows the [all-
+-000034d0: 636f 6e74 7269 6275 746f 7273 5d28 6874  contributors](ht
+-000034e0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000034f0: 2f61 6c6c 2d63 6f6e 7472 6962 7574 6f72  /all-contributor
+-00003500: 732f 616c 6c2d 636f 6e74 7269 6275 746f  s/all-contributo
+-00003510: 7273 2920 7370 6563 6966 6963 6174 696f  rs) specificatio
+-00003520: 6e2e 2043 6f6e 7472 6962 7574 696f 6e73  n. Contributions
+-00003530: 206f 6620 616e 7920 6b69 6e64 2077 656c   of any kind wel
+-00003540: 636f 6d65 210a                           come!.
++00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
++00000010: 3a20 322e 310a 4e61 6d65 3a20 696d 7065  : 2.1.Name: impe
++00000020: 6461 6e63 650a 5665 7273 696f 6e3a 2031  dance.Version: 1
++00000030: 2e36 2e30 0a53 756d 6d61 7279 3a20 4120  .6.0.Summary: A 
++00000040: 7061 636b 6167 6520 666f 7220 616e 616c  package for anal
++00000050: 797a 696e 6720 656c 6563 7472 6f63 6865  yzing electroche
++00000060: 6d69 6361 6c20 696d 7065 6461 6e63 6520  mical impedance 
++00000070: 6461 7461 0a48 6f6d 652d 7061 6765 3a20  data.Home-page: 
++00000080: 6874 7470 733a 2f2f 696d 7065 6461 6e63  https://impedanc
++00000090: 6570 792e 7265 6164 7468 6564 6f63 732e  epy.readthedocs.
++000000a0: 696f 2f65 6e2f 6c61 7465 7374 2f0a 4175  io/en/latest/.Au
++000000b0: 7468 6f72 3a20 696d 7065 6461 6e63 652e  thor: impedance.
++000000c0: 7079 2064 6576 656c 6f70 6572 730a 4175  py developers.Au
++000000d0: 7468 6f72 2d65 6d61 696c 3a20 6d61 7474  thor-email: matt
++000000e0: 2e6d 7572 6261 6368 4067 6d61 696c 2e63  .murbach@gmail.c
++000000f0: 6f6d 0a43 6c61 7373 6966 6965 723a 2050  om.Classifier: P
++00000100: 726f 6772 616d 6d69 6e67 204c 616e 6775  rogramming Langu
++00000110: 6167 6520 3a3a 2050 7974 686f 6e20 3a3a  age :: Python ::
++00000120: 2033 0a43 6c61 7373 6966 6965 723a 204c   3.Classifier: L
++00000130: 6963 656e 7365 203a 3a20 4f53 4920 4170  icense :: OSI Ap
++00000140: 7072 6f76 6564 203a 3a20 4d49 5420 4c69  proved :: MIT Li
++00000150: 6365 6e73 650a 436c 6173 7369 6669 6572  cense.Classifier
++00000160: 3a20 4f70 6572 6174 696e 6720 5379 7374  : Operating Syst
++00000170: 656d 203a 3a20 4f53 2049 6e64 6570 656e  em :: OS Indepen
++00000180: 6465 6e74 0a52 6571 7569 7265 732d 5079  dent.Requires-Py
++00000190: 7468 6f6e 3a20 7e3d 332e 370a 4465 7363  thon: ~=3.7.Desc
++000001a0: 7269 7074 696f 6e2d 436f 6e74 656e 742d  ription-Content-
++000001b0: 5479 7065 3a20 7465 7874 2f6d 6172 6b64  Type: text/markd
++000001c0: 6f77 6e0a 4c69 6365 6e73 652d 4669 6c65  own.License-File
++000001d0: 3a20 4c49 4345 4e53 450a 0a5b 215b 444f  : LICENSE..[![DO
++000001e0: 495d 2868 7474 7073 3a2f 2f7a 656e 6f64  I](https://zenod
++000001f0: 6f2e 6f72 672f 6261 6467 652f 3133 3631  o.org/badge/1361
++00000200: 3130 3630 392e 7376 6729 5d28 6874 7470  10609.svg)](http
++00000210: 733a 2f2f 7a65 6e6f 646f 2e6f 7267 2f62  s://zenodo.org/b
++00000220: 6164 6765 2f6c 6174 6573 7464 6f69 2f31  adge/latestdoi/1
++00000230: 3336 3131 3036 3039 2920 2021 5b47 6974  36110609)  ![Git
++00000240: 4875 6220 7265 6c65 6173 655d 2868 7474  Hub release](htt
++00000250: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
++00000260: 2e69 6f2f 6769 7468 7562 2f72 656c 6561  .io/github/relea
++00000270: 7365 2f45 4353 4861 636b 5765 656b 2f69  se/ECSHackWeek/i
++00000280: 6d70 6564 616e 6365 2e70 7929 0a0a 215b  mpedance.py)..![
++00000290: 5079 5049 202d 2044 6f77 6e6c 6f61 6473  PyPI - Downloads
++000002a0: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
++000002b0: 6965 6c64 732e 696f 2f70 7970 692f 646d  ields.io/pypi/dm
++000002c0: 2f69 6d70 6564 616e 6365 3f73 7479 6c65  /impedance?style
++000002d0: 3d66 6c61 742d 7371 7561 7265 2920 205b  =flat-square)  [
++000002e0: 215b 416c 6c20 436f 6e74 7269 6275 746f  ![All Contributo
++000002f0: 7273 5d28 6874 7470 733a 2f2f 696d 672e  rs](https://img.
++00000300: 7368 6965 6c64 732e 696f 2f62 6164 6765  shields.io/badge
++00000310: 2f61 6c6c 5f63 6f6e 7472 6962 7574 6f72  /all_contributor
++00000320: 732d 3131 2d6f 7261 6e67 652e 7376 673f  s-11-orange.svg?
++00000330: 7374 796c 653d 666c 6174 2d73 7175 6172  style=flat-squar
++00000340: 6529 5d28 2363 6f6e 7472 6962 7574 6f72  e)](#contributor
++00000350: 7329 0a0a 5b21 5b42 7569 6c64 2053 7461  s)..[![Build Sta
++00000360: 7475 735d 2868 7474 7073 3a2f 2f74 7261  tus](https://tra
++00000370: 7669 732d 6369 2e6f 7267 2f45 4353 4861  vis-ci.org/ECSHa
++00000380: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++00000390: 2e70 792e 7376 673f 6272 616e 6368 3d6d  .py.svg?branch=m
++000003a0: 6173 7465 7226 6b69 6c6c 5f63 6163 6865  aster&kill_cache
++000003b0: 3d31 295d 2868 7474 7073 3a2f 2f74 7261  =1)](https://tra
++000003c0: 7669 732d 6369 2e6f 7267 2f45 4353 4861  vis-ci.org/ECSHa
++000003d0: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++000003e0: 2e70 7929 2020 5b21 5b44 6f63 756d 656e  .py)  [![Documen
++000003f0: 7461 7469 6f6e 2053 7461 7475 735d 2868  tation Status](h
++00000400: 7474 7073 3a2f 2f72 6561 6474 6865 646f  ttps://readthedo
++00000410: 6373 2e6f 7267 2f70 726f 6a65 6374 732f  cs.org/projects/
++00000420: 696d 7065 6461 6e63 6570 792f 6261 6467  impedancepy/badg
++00000430: 652f 3f76 6572 7369 6f6e 3d6c 6174 6573  e/?version=lates
++00000440: 7426 6b69 6c6c 5f63 6163 6865 3d31 295d  t&kill_cache=1)]
++00000450: 2868 7474 7073 3a2f 2f69 6d70 6564 616e  (https://impedan
++00000460: 6365 7079 2e72 6561 6474 6865 646f 6373  cepy.readthedocs
++00000470: 2e69 6f2f 656e 2f6c 6174 6573 742f 3f62  .io/en/latest/?b
++00000480: 6164 6765 3d6c 6174 6573 7429 205b 215b  adge=latest) [![
++00000490: 436f 7665 7261 6765 2053 7461 7475 735d  Coverage Status]
++000004a0: 2868 7474 7073 3a2f 2f63 6f76 6572 616c  (https://coveral
++000004b0: 6c73 2e69 6f2f 7265 706f 732f 6769 7468  ls.io/repos/gith
++000004c0: 7562 2f45 4353 4861 636b 5765 656b 2f69  ub/ECSHackWeek/i
++000004d0: 6d70 6564 616e 6365 2e70 792f 6261 6467  mpedance.py/badg
++000004e0: 652e 7376 673f 6272 616e 6368 3d6d 6173  e.svg?branch=mas
++000004f0: 7465 7226 6b69 6c6c 5f63 6163 6865 3d31  ter&kill_cache=1
++00000500: 295d 2868 7474 7073 3a2f 2f63 6f76 6572  )](https://cover
++00000510: 616c 6c73 2e69 6f2f 6769 7468 7562 2f45  alls.io/github/E
++00000520: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
++00000530: 616e 6365 2e70 793f 6272 616e 6368 3d6d  ance.py?branch=m
++00000540: 6173 7465 7229 0a0a 696d 7065 6461 6e63  aster)..impedanc
++00000550: 652e 7079 0a2d 2d2d 2d2d 2d2d 2d2d 2d2d  e.py.-----------
++00000560: 2d0a 0a60 696d 7065 6461 6e63 652e 7079  -..`impedance.py
++00000570: 6020 6973 2061 2050 7974 686f 6e20 7061  ` is a Python pa
++00000580: 636b 6167 6520 666f 7220 6d61 6b69 6e67  ckage for making
++00000590: 2065 6c65 6374 726f 6368 656d 6963 616c   electrochemical
++000005a0: 2069 6d70 6564 616e 6365 2073 7065 6374   impedance spect
++000005b0: 726f 7363 6f70 7920 2845 4953 2920 616e  roscopy (EIS) an
++000005c0: 616c 7973 6973 2072 6570 726f 6475 6369  alysis reproduci
++000005d0: 626c 6520 616e 6420 6561 7379 2d74 6f2d  ble and easy-to-
++000005e0: 7573 652e 0a0a 4169 6d69 6e67 2074 6f20  use...Aiming to 
++000005f0: 6372 6561 7465 2061 2063 6f6e 7369 7374  create a consist
++00000600: 656e 742c 205b 7363 696b 6974 2d6c 6561  ent, [scikit-lea
++00000610: 726e 2d6c 696b 6520 4150 495d 2868 7474  rn-like API](htt
++00000620: 7073 3a2f 2f61 7278 6976 2e6f 7267 2f61  ps://arxiv.org/a
++00000630: 6273 2f31 3330 392e 3032 3338 2920 666f  bs/1309.0238) fo
++00000640: 7220 696d 7065 6461 6e63 6520 616e 616c  r impedance anal
++00000650: 7973 6973 2c20 696d 7065 6461 6e63 652e  ysis, impedance.
++00000660: 7079 2063 6f6e 7461 696e 7320 6d6f 6475  py contains modu
++00000670: 6c65 7320 666f 7220 6461 7461 2070 7265  les for data pre
++00000680: 7072 6f63 6573 7369 6e67 2c20 7661 6c69  processing, vali
++00000690: 6461 7469 6f6e 2c20 6d6f 6465 6c20 6669  dation, model fi
++000006a0: 7474 696e 672c 2061 6e64 2076 6973 7561  tting, and visua
++000006b0: 6c69 7a61 7469 6f6e 2e0a 0a46 6f72 2061  lization...For a
++000006c0: 206c 6974 746c 6520 6d6f 7265 2069 6e2d   little more in-
++000006d0: 6465 7074 6820 6469 7363 7573 7369 6f6e  depth discussion
++000006e0: 206f 6620 7468 6520 7061 636b 6167 6520   of the package 
++000006f0: 6261 636b 6772 6f75 6e64 2061 6e64 2063  background and c
++00000700: 6170 6162 696c 6974 6965 732c 2063 6865  apabilities, che
++00000710: 636b 206f 7574 206f 7572 205b 4a6f 7572  ck out our [Jour
++00000720: 6e61 6c20 6f66 204f 7065 6e20 536f 7572  nal of Open Sour
++00000730: 6365 2053 6f66 7477 6172 6520 7061 7065  ce Software pape
++00000740: 725d 2868 7474 7073 3a2f 2f6a 6f73 732e  r](https://joss.
++00000750: 7468 656f 6a2e 6f72 672f 7061 7065 7273  theoj.org/papers
++00000760: 2f31 302e 3231 3130 352f 6a6f 7373 2e30  /10.21105/joss.0
++00000770: 3233 3439 292e 0a0a 4966 2079 6f75 2068  2349)...If you h
++00000780: 6176 6520 6120 6665 6174 7572 6520 7265  ave a feature re
++00000790: 7175 6573 7420 6f72 2066 696e 6420 6120  quest or find a 
++000007a0: 6275 672c 2070 6c65 6173 6520 5b66 696c  bug, please [fil
++000007b0: 6520 616e 2069 7373 7565 5d28 6874 7470  e an issue](http
++000007c0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
++000007d0: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
++000007e0: 616e 6365 2e70 792f 6973 7375 6573 2920  ance.py/issues) 
++000007f0: 6f72 2c20 6265 7474 6572 2079 6574 2c20  or, better yet, 
++00000800: 6d61 6b65 2074 6865 2063 6f64 6520 696d  make the code im
++00000810: 7072 6f76 656d 656e 7473 2061 6e64 205b  provements and [
++00000820: 7375 626d 6974 2061 2070 756c 6c20 7265  submit a pull re
++00000830: 7175 6573 745d 2868 7474 7073 3a2f 2f68  quest](https://h
++00000840: 656c 702e 6769 7468 7562 2e63 6f6d 2f61  elp.github.com/a
++00000850: 7274 6963 6c65 732f 6372 6561 7469 6e67  rticles/creating
++00000860: 2d61 2d70 756c 6c2d 7265 7175 6573 742d  -a-pull-request-
++00000870: 6672 6f6d 2d61 2d66 6f72 6b2f 2921 2054  from-a-fork/)! T
++00000880: 6865 2067 6f61 6c20 6973 2074 6f20 6275  he goal is to bu
++00000890: 696c 6420 616e 206f 7065 6e2d 736f 7572  ild an open-sour
++000008a0: 6365 2074 6f6f 6c20 7468 6174 2074 6865  ce tool that the
++000008b0: 2065 6e74 6972 6520 696d 7065 6461 6e63   entire impedanc
++000008c0: 6520 636f 6d6d 756e 6974 7920 6361 6e20  e community can 
++000008d0: 696d 7072 6f76 6520 616e 6420 7573 6521  improve and use!
++000008e0: 0a0a 2323 2320 496e 7374 616c 6c61 7469  ..### Installati
++000008f0: 6f6e 0a0a 5468 6520 6561 7369 6573 7420  on..The easiest 
++00000900: 7761 7920 746f 2069 6e73 7461 6c6c 2069  way to install i
++00000910: 6d70 6564 616e 6365 2e70 7920 6973 2066  mpedance.py is f
++00000920: 726f 6d20 5b50 7950 495d 2868 7474 7073  rom [PyPI](https
++00000930: 3a2f 2f70 7970 692e 6f72 672f 7072 6f6a  ://pypi.org/proj
++00000940: 6563 742f 696d 7065 6461 6e63 652f 2920  ect/impedance/) 
++00000950: 7573 696e 6720 7069 702e 0a0a 6060 6062  using pip...```b
++00000960: 6173 680a 7069 7020 696e 7374 616c 6c20  ash.pip install 
++00000970: 696d 7065 6461 6e63 650a 6060 600a 0a53  impedance.```..S
++00000980: 6565 205b 4765 7474 696e 6720 7374 6172  ee [Getting star
++00000990: 7465 6420 7769 7468 2069 6d70 6564 616e  ted with impedan
++000009a0: 6365 2e70 795d 2868 7474 7073 3a2f 2f69  ce.py](https://i
++000009b0: 6d70 6564 616e 6365 7079 2e72 6561 6474  mpedancepy.readt
++000009c0: 6865 646f 6373 2e69 6f2f 656e 2f6c 6174  hedocs.io/en/lat
++000009d0: 6573 742f 6765 7474 696e 672d 7374 6172  est/getting-star
++000009e0: 7465 642e 6874 6d6c 2920 666f 7220 696e  ted.html) for in
++000009f0: 7374 7275 6374 696f 6e73 206f 6e20 6765  structions on ge
++00000a00: 7474 696e 6720 7374 6172 7465 6420 6672  tting started fr
++00000a10: 6f6d 2073 6372 6174 6368 2e0a 0a23 2323  om scratch...###
++00000a20: 2320 4465 7065 6e64 656e 6369 6573 0a0a  # Dependencies..
++00000a30: 696d 7065 6461 6e63 652e 7079 2072 6571  impedance.py req
++00000a40: 7569 7265 733a 0a0a 2d20 2020 5079 7468  uires:..-   Pyth
++00000a50: 6f6e 2028 3e3d 332e 3729 0a2d 2020 2053  on (>=3.7).-   S
++00000a60: 6369 5079 2028 3e3d 312e 3029 0a2d 2020  ciPy (>=1.0).-  
++00000a70: 204e 756d 5079 2028 3e3d 312e 3134 290a   NumPy (>=1.14).
++00000a80: 2d20 2020 4d61 7470 6c6f 746c 6962 2028  -   Matplotlib (
++00000a90: 3e3d 332e 3029 0a2d 2020 2041 6c74 6169  >=3.0).-   Altai
++00000aa0: 7220 283e 3d33 2e30 290a 0a53 6576 6572  r (>=3.0)..Sever
++00000ab0: 616c 2065 7861 6d70 6c65 206e 6f74 6562  al example noteb
++00000ac0: 6f6f 6b73 2061 7265 2070 726f 7669 6465  ooks are provide
++00000ad0: 6420 696e 2074 6865 2060 646f 6373 2f73  d in the `docs/s
++00000ae0: 6f75 7263 652f 6578 616d 706c 6573 2f60  ource/examples/`
++00000af0: 2064 6972 6563 746f 7279 2e20 4f70 656e   directory. Open
++00000b00: 696e 6720 7468 6573 6520 7769 6c6c 2072  ing these will r
++00000b10: 6571 7569 7265 204a 7570 7974 6572 206e  equire Jupyter n
++00000b20: 6f74 6562 6f6f 6b20 6f72 204a 7570 7974  otebook or Jupyt
++00000b30: 6572 206c 6162 2e0a 0a23 2323 2320 4578  er lab...#### Ex
++00000b40: 616d 706c 6573 2061 6e64 2044 6f63 756d  amples and Docum
++00000b50: 656e 7461 7469 6f6e 0a0a 5365 7665 7261  entation..Severa
++00000b60: 6c20 6578 616d 706c 6573 2063 616e 2062  l examples can b
++00000b70: 6520 666f 756e 6420 696e 2074 6865 2060  e found in the `
++00000b80: 646f 6373 2f73 6f75 7263 652f 6578 616d  docs/source/exam
++00000b90: 706c 6573 2f60 2064 6972 6563 746f 7279  ples/` directory
++00000ba0: 2028 7468 6520 5b46 6974 7469 6e67 2069   (the [Fitting i
++00000bb0: 6d70 6564 616e 6365 2073 7065 6374 7261  mpedance spectra
++00000bc0: 206e 6f74 6562 6f6f 6b5d 2868 7474 7073   notebook](https
++00000bd0: 3a2f 2f69 6d70 6564 616e 6365 7079 2e72  ://impedancepy.r
++00000be0: 6561 6474 6865 646f 6373 2e69 6f2f 656e  eadthedocs.io/en
++00000bf0: 2f6c 6174 6573 742f 6578 616d 706c 6573  /latest/examples
++00000c00: 2f66 6974 7469 6e67 5f65 7861 6d70 6c65  /fitting_example
++00000c10: 2e68 746d 6c29 2069 7320 6120 6772 6561  .html) is a grea
++00000c20: 7420 706c 6163 6520 746f 2073 7461 7274  t place to start
++00000c30: 2920 616e 6420 7468 6520 646f 6375 6d65  ) and the docume
++00000c40: 6e74 6174 696f 6e20 6361 6e20 6265 2066  ntation can be f
++00000c50: 6f75 6e64 2061 7420 5b69 6d70 6564 616e  ound at [impedan
++00000c60: 6365 7079 2e72 6561 6474 6865 646f 6373  cepy.readthedocs
++00000c70: 2e69 6f5d 2868 7474 7073 3a2f 2f69 6d70  .io](https://imp
++00000c80: 6564 616e 6365 7079 2e72 6561 6474 6865  edancepy.readthe
++00000c90: 646f 6373 2e69 6f2f 656e 2f6c 6174 6573  docs.io/en/lates
++00000ca0: 742f 292e 0a0a 2323 2043 6974 696e 6720  t/)...## Citing 
++00000cb0: 696d 7065 6461 6e63 652e 7079 0a0a 5b21  impedance.py..[!
++00000cc0: 5b44 4f49 5d28 6874 7470 733a 2f2f 6a6f  [DOI](https://jo
++00000cd0: 7373 2e74 6865 6f6a 2e6f 7267 2f70 6170  ss.theoj.org/pap
++00000ce0: 6572 732f 3130 2e32 3131 3035 2f6a 6f73  ers/10.21105/jos
++00000cf0: 732e 3032 3334 392f 7374 6174 7573 2e73  s.02349/status.s
++00000d00: 7667 295d 2868 7474 7073 3a2f 2f64 6f69  vg)](https://doi
++00000d10: 2e6f 7267 2f31 302e 3231 3130 352f 6a6f  .org/10.21105/jo
++00000d20: 7373 2e30 3233 3439 290a 0a49 6620 796f  ss.02349)..If yo
++00000d30: 7520 7573 6520 696d 7065 6461 6e63 652e  u use impedance.
++00000d40: 7079 2069 6e20 7075 626c 6973 6865 6420  py in published 
++00000d50: 776f 726b 2c20 706c 6561 7365 2063 6f6e  work, please con
++00000d60: 7369 6465 7220 6369 7469 6e67 2068 7474  sider citing htt
++00000d70: 7073 3a2f 2f6a 6f73 732e 7468 656f 6a2e  ps://joss.theoj.
++00000d80: 6f72 672f 7061 7065 7273 2f31 302e 3231  org/papers/10.21
++00000d90: 3130 352f 6a6f 7373 2e30 3233 3439 2061  105/joss.02349 a
++00000da0: 730a 0a60 6060 6261 7368 0a40 6172 7469  s..```bash.@arti
++00000db0: 636c 657b 4d75 7262 6163 6832 3032 302c  cle{Murbach2020,
++00000dc0: 0a20 2064 6f69 203d 207b 3130 2e32 3131  .  doi = {10.211
++00000dd0: 3035 2f6a 6f73 732e 3032 3334 397d 2c0a  05/joss.02349},.
++00000de0: 2020 7572 6c20 3d20 7b68 7474 7073 3a2f    url = {https:/
++00000df0: 2f64 6f69 2e6f 7267 2f31 302e 3231 3130  /doi.org/10.2110
++00000e00: 352f 6a6f 7373 2e30 3233 3439 7d2c 0a20  5/joss.02349},. 
++00000e10: 2079 6561 7220 3d20 7b32 3032 307d 2c0a   year = {2020},.
++00000e20: 2020 7075 626c 6973 6865 7220 3d20 7b54    publisher = {T
++00000e30: 6865 204f 7065 6e20 4a6f 7572 6e61 6c7d  he Open Journal}
++00000e40: 2c0a 2020 766f 6c75 6d65 203d 207b 357d  ,.  volume = {5}
++00000e50: 2c0a 2020 6e75 6d62 6572 203d 207b 3532  ,.  number = {52
++00000e60: 7d2c 0a20 2070 6167 6573 203d 207b 3233  },.  pages = {23
++00000e70: 3439 7d2c 0a20 2061 7574 686f 7220 3d20  49},.  author = 
++00000e80: 7b4d 6174 7468 6577 2044 2e20 4d75 7262  {Matthew D. Murb
++00000e90: 6163 6820 616e 6420 4272 6961 6e20 4765  ach and Brian Ge
++00000ea0: 7277 6520 616e 6420 4e65 616c 2044 6177  rwe and Neal Daw
++00000eb0: 736f 6e2d 456c 6c69 2061 6e64 204c 6f6b  son-Elli and Lok
++00000ec0: 2d6b 756e 2054 7375 697d 2c0a 2020 7469  -kun Tsui},.  ti
++00000ed0: 746c 6520 3d20 7b69 6d70 6564 616e 6365  tle = {impedance
++00000ee0: 2e70 793a 2041 2050 7974 686f 6e20 7061  .py: A Python pa
++00000ef0: 636b 6167 6520 666f 7220 656c 6563 7472  ckage for electr
++00000f00: 6f63 6865 6d69 6361 6c20 696d 7065 6461  ochemical impeda
++00000f10: 6e63 6520 616e 616c 7973 6973 7d2c 0a20  nce analysis},. 
++00000f20: 206a 6f75 726e 616c 203d 207b 4a6f 7572   journal = {Jour
++00000f30: 6e61 6c20 6f66 204f 7065 6e20 536f 7572  nal of Open Sour
++00000f40: 6365 2053 6f66 7477 6172 657d 0a7d 0a60  ce Software}.}.`
++00000f50: 6060 0a0a 2323 2043 6f6e 7472 6962 7574  ``..## Contribut
++00000f60: 6f72 7320 e29c a80a 0a54 6869 7320 7072  ors .....This pr
++00000f70: 6f6a 6563 7420 7374 6172 7465 6420 6174  oject started at
++00000f80: 2074 6865 205b 3230 3138 2045 6c65 6374   the [2018 Elect
++00000f90: 726f 6368 656d 6963 616c 2053 6f63 6965  rochemical Socie
++00000fa0: 7479 2028 4543 5329 2048 6163 6b20 5765  ty (ECS) Hack We
++00000fb0: 656b 2069 6e20 5365 6174 746c 655d 2868  ek in Seattle](h
++00000fc0: 7474 7073 3a2f 2f77 7777 2e65 6c65 6374  ttps://www.elect
++00000fd0: 726f 6368 656d 2e6f 7267 2f32 3333 2f68  rochem.org/233/h
++00000fe0: 6163 6b2d 7765 656b 2920 616e 6420 6861  ack-week) and ha
++00000ff0: 7320 6265 6e65 6669 7465 6420 6672 6f6d  s benefited from
++00001000: 2061 2063 6f6d 6d75 6e69 7479 206f 6620   a community of 
++00001010: 7573 6572 7320 616e 6420 636f 6e74 7269  users and contri
++00001020: 6275 746f 7273 2073 696e 6365 2e20 5468  butors since. Th
++00001030: 616e 6b73 2067 6f65 7320 746f 2074 6865  anks goes to the
++00001040: 7365 2077 6f6e 6465 7266 756c 2070 656f  se wonderful peo
++00001050: 706c 6520 285b 656d 6f6a 6920 6b65 795d  ple ([emoji key]
++00001060: 2868 7474 7073 3a2f 2f61 6c6c 636f 6e74  (https://allcont
++00001070: 7269 6275 746f 7273 2e6f 7267 2f64 6f63  ributors.org/doc
++00001080: 732f 656e 2f65 6d6f 6a69 2d6b 6579 2929  s/en/emoji-key))
++00001090: 3a0a 0a3c 212d 2d20 414c 4c2d 434f 4e54  :..<!-- ALL-CONT
++000010a0: 5249 4255 544f 5253 2d4c 4953 543a 5354  RIBUTORS-LIST:ST
++000010b0: 4152 5420 2d20 446f 206e 6f74 2072 656d  ART - Do not rem
++000010c0: 6f76 6520 6f72 206d 6f64 6966 7920 7468  ove or modify th
++000010d0: 6973 2073 6563 7469 6f6e 202d 2d3e 0a3c  is section -->.<
++000010e0: 212d 2d20 7072 6574 7469 6572 2d69 676e  !-- prettier-ign
++000010f0: 6f72 652d 7374 6172 7420 2d2d 3e0a 3c21  ore-start -->.<!
++00001100: 2d2d 206d 6172 6b64 6f77 6e6c 696e 742d  -- markdownlint-
++00001110: 6469 7361 626c 6520 2d2d 3e0a 3c74 6162  disable -->.<tab
++00001120: 6c65 3e0a 2020 3c74 626f 6479 3e0a 2020  le>.  <tbody>.  
++00001130: 2020 3c74 723e 0a20 2020 2020 203c 7464    <tr>.      <td
++00001140: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++00001150: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00001160: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00001170: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00001180: 6875 622e 636f 6d2f 6c6b 7473 7569 223e  hub.com/lktsui">
++00001190: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
++000011a0: 2f2f 6176 6174 6172 7330 2e67 6974 6875  //avatars0.githu
++000011b0: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++000011c0: 2f75 2f32 3232 3436 3036 393f 763d 343f  /u/22246069?v=4?
++000011d0: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++000011e0: 3070 783b 2220 616c 743d 224c 6f6b 2d6b  0px;" alt="Lok-k
++000011f0: 756e 2054 7375 6922 2f3e 3c62 7220 2f3e  un Tsui"/><br />
++00001200: 3c73 7562 3e3c 623e 4c6f 6b2d 6b75 6e20  <sub><b>Lok-kun 
++00001210: 5473 7569 3c2f 623e 3c2f 7375 623e 3c2f  Tsui</b></sub></
++00001220: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++00001230: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00001240: 636f 6d2f 4543 5348 6163 6b57 6565 6b2f  com/ECSHackWeek/
++00001250: 696d 7065 6461 6e63 652e 7079 2f63 6f6d  impedance.py/com
++00001260: 6d69 7473 3f61 7574 686f 723d 6c6b 7473  mits?author=lkts
++00001270: 7569 2220 7469 746c 653d 2243 6f64 6522  ui" title="Code"
++00001280: 3ef0 9f92 bb3c 2f61 3e20 3c61 2068 7265  >....</a> <a hre
++00001290: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++000012a0: 622e 636f 6d2f 4543 5348 6163 6b57 6565  b.com/ECSHackWee
++000012b0: 6b2f 696d 7065 6461 6e63 652e 7079 2f63  k/impedance.py/c
++000012c0: 6f6d 6d69 7473 3f61 7574 686f 723d 6c6b  ommits?author=lk
++000012d0: 7473 7569 2220 7469 746c 653d 2254 6573  tsui" title="Tes
++000012e0: 7473 223e e29a a0ef b88f 3c2f 613e 203c  ts">......</a> <
++000012f0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00001300: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
++00001310: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++00001320: 2e70 792f 636f 6d6d 6974 733f 6175 7468  .py/commits?auth
++00001330: 6f72 3d6c 6b74 7375 6922 2074 6974 6c65  or=lktsui" title
++00001340: 3d22 446f 6375 6d65 6e74 6174 696f 6e22  ="Documentation"
++00001350: 3ef0 9f93 963c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00001360: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00001370: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00001380: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00001390: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++000013a0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000013b0: 4247 6572 7765 223e 3c69 6d67 2073 7263  BGerwe"><img src
++000013c0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++000013d0: 7333 2e67 6974 6875 6275 7365 7263 6f6e  s3.githubusercon
++000013e0: 7465 6e74 2e63 6f6d 2f75 2f33 3838 3139  tent.com/u/38819
++000013f0: 3332 313f 763d 343f 733d 3130 3022 2077  321?v=4?s=100" w
++00001400: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00001410: 743d 2242 7269 616e 2047 6572 7765 222f  t="Brian Gerwe"/
++00001420: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e42  ><br /><sub><b>B
++00001430: 7269 616e 2047 6572 7765 3c2f 623e 3c2f  rian Gerwe</b></
++00001440: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00001450: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001460: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
++00001470: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
++00001480: 7079 2f63 6f6d 6d69 7473 3f61 7574 686f  py/commits?autho
++00001490: 723d 4247 6572 7765 2220 7469 746c 653d  r=BGerwe" title=
++000014a0: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e20  "Code">....</a> 
++000014b0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000014c0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++000014d0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++000014e0: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
++000014f0: 686f 723d 4247 6572 7765 2220 7469 746c  hor=BGerwe" titl
++00001500: 653d 2254 6573 7473 223e e29a a0ef b88f  e="Tests">......
++00001510: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
++00001520: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00001530: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++00001540: 6564 616e 6365 2e70 792f 636f 6d6d 6974  edance.py/commit
++00001550: 733f 6175 7468 6f72 3d42 4765 7277 6522  s?author=BGerwe"
++00001560: 2074 6974 6c65 3d22 446f 6375 6d65 6e74   title="Document
++00001570: 6174 696f 6e22 3ef0 9f93 963c 2f61 3e20  ation">....</a> 
++00001580: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001590: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++000015a0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++000015b0: 652e 7079 2f70 756c 6c73 3f71 3d69 7325  e.py/pulls?q=is%
++000015c0: 3341 7072 2b72 6576 6965 7765 642d 6279  3Apr+reviewed-by
++000015d0: 2533 4142 4765 7277 6522 2074 6974 6c65  %3ABGerwe" title
++000015e0: 3d22 5265 7669 6577 6564 2050 756c 6c20  ="Reviewed Pull 
++000015f0: 5265 7175 6573 7473 223e f09f 9180 3c2f  Requests">....</
++00001600: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00001610: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00001620: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00001630: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00001640: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00001650: 7468 7562 2e63 6f6d 2f6e 6561 6c64 6522  thub.com/nealde"
++00001660: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00001670: 3a2f 2f61 7661 7461 7273 322e 6769 7468  ://avatars2.gith
++00001680: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00001690: 6d2f 752f 3235 3837 3738 3638 3f76 3d34  m/u/25877868?v=4
++000016a0: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++000016b0: 3030 7078 3b22 2061 6c74 3d22 4e65 616c  00px;" alt="Neal
++000016c0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++000016d0: 3e4e 6561 6c3c 2f62 3e3c 2f73 7562 3e3c  >Neal</b></sub><
++000016e0: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
++000016f0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00001700: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
++00001710: 2f69 6d70 6564 616e 6365 2e70 792f 7075  /impedance.py/pu
++00001720: 6c6c 733f 713d 6973 2533 4170 722b 7265  lls?q=is%3Apr+re
++00001730: 7669 6577 6564 2d62 7925 3341 6e65 616c  viewed-by%3Aneal
++00001740: 6465 2220 7469 746c 653d 2252 6576 6965  de" title="Revie
++00001750: 7765 6420 5075 6c6c 2052 6571 7565 7374  wed Pull Request
++00001760: 7322 3ef0 9f91 803c 2f61 3e20 3c61 2068  s">....</a> <a h
++00001770: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00001780: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
++00001790: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
++000017a0: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++000017b0: 6e65 616c 6465 2220 7469 746c 653d 2243  nealde" title="C
++000017c0: 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74  ode">....</a></t
++000017d0: 643e 0a20 2020 2020 203c 7464 2061 6c69  d>.      <td ali
++000017e0: 676e 3d22 6365 6e74 6572 2220 7661 6c69  gn="center" vali
++000017f0: 676e 3d22 746f 7022 2077 6964 7468 3d22  gn="top" width="
++00001800: 3134 2e32 3825 223e 3c61 2068 7265 663d  14.28%"><a href=
++00001810: 2268 7474 703a 2f2f 6d61 7474 6d75 7262  "http://mattmurb
++00001820: 6163 682e 636f 6d22 3e3c 696d 6720 7372  ach.com"><img sr
++00001830: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00001840: 7273 332e 6769 7468 7562 7573 6572 636f  rs3.githubuserco
++00001850: 6e74 656e 742e 636f 6d2f 752f 3933 3639  ntent.com/u/9369
++00001860: 3032 303f 763d 343f 733d 3130 3022 2077  020?v=4?s=100" w
++00001870: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00001880: 743d 224d 6174 7420 4d75 7262 6163 6822  t="Matt Murbach"
++00001890: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++000018a0: 4d61 7474 204d 7572 6261 6368 3c2f 623e  Matt Murbach</b>
++000018b0: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++000018c0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000018d0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++000018e0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++000018f0: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
++00001900: 686f 723d 6d64 6d75 7262 6163 6822 2074  hor=mdmurbach" t
++00001910: 6974 6c65 3d22 446f 6375 6d65 6e74 6174  itle="Documentat
++00001920: 696f 6e22 3ef0 9f93 963c 2f61 3e20 3c61  ion">....</a> <a
++00001930: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001940: 6974 6875 622e 636f 6d2f 4543 5348 6163  ithub.com/ECSHac
++00001950: 6b57 6565 6b2f 696d 7065 6461 6e63 652e  kWeek/impedance.
++00001960: 7079 2f70 756c 6c73 3f71 3d69 7325 3341  py/pulls?q=is%3A
++00001970: 7072 2b72 6576 6965 7765 642d 6279 2533  pr+reviewed-by%3
++00001980: 416d 646d 7572 6261 6368 2220 7469 746c  Amdmurbach" titl
++00001990: 653d 2252 6576 6965 7765 6420 5075 6c6c  e="Reviewed Pull
++000019a0: 2052 6571 7565 7374 7322 3ef0 9f91 803c   Requests">....<
++000019b0: 2f61 3e20 3c61 2068 7265 663d 2268 7474  /a> <a href="htt
++000019c0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++000019d0: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++000019e0: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
++000019f0: 3f61 7574 686f 723d 6d64 6d75 7262 6163  ?author=mdmurbac
++00001a00: 6822 2074 6974 6c65 3d22 5465 7374 7322  h" title="Tests"
++00001a10: 3ee2 9aa0 efb8 8f3c 2f61 3e20 3c61 2068  >......</a> <a h
++00001a20: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00001a30: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
++00001a40: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
++00001a50: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++00001a60: 6d64 6d75 7262 6163 6822 2074 6974 6c65  mdmurbach" title
++00001a70: 3d22 436f 6465 223e f09f 92bb 3c2f 613e  ="Code">....</a>
++00001a80: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
++00001a90: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++00001aa0: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++00001ab0: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++00001ac0: 6566 3d22 6874 7470 733a 2f2f 6b65 6e6e  ef="https://kenn
++00001ad0: 7976 682e 636f 6d22 3e3c 696d 6720 7372  yvh.com"><img sr
++00001ae0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00001af0: 7273 322e 6769 7468 7562 7573 6572 636f  rs2.githubuserco
++00001b00: 6e74 656e 742e 636f 6d2f 752f 3239 3930  ntent.com/u/2990
++00001b10: 3932 3033 3f76 3d34 3f73 3d31 3030 2220  9203?v=4?s=100" 
++00001b20: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00001b30: 6c74 3d22 4b65 6e6e 7920 4875 796e 6822  lt="Kenny Huynh"
++00001b40: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++00001b50: 4b65 6e6e 7920 4875 796e 683c 2f62 3e3c  Kenny Huynh</b><
++00001b60: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
++00001b70: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00001b80: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
++00001b90: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++00001ba0: 2e70 792f 6973 7375 6573 3f71 3d61 7574  .py/issues?q=aut
++00001bb0: 686f 7225 3341 686b 656e 6e79 7622 2074  hor%3Ahkennyv" t
++00001bc0: 6974 6c65 3d22 4275 6720 7265 706f 7274  itle="Bug report
++00001bd0: 7322 3ef0 9f90 9b3c 2f61 3e20 3c61 2068  s">....</a> <a h
++00001be0: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00001bf0: 6875 622e 636f 6d2f 4543 5348 6163 6b57  hub.com/ECSHackW
++00001c00: 6565 6b2f 696d 7065 6461 6e63 652e 7079  eek/impedance.py
++00001c10: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++00001c20: 686b 656e 6e79 7622 2074 6974 6c65 3d22  hkennyv" title="
++00001c30: 436f 6465 223e f09f 92bb 3c2f 613e 3c2f  Code">....</a></
++00001c40: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00001c50: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00001c60: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00001c70: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00001c80: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00001c90: 2e63 6f6d 2f6c 6177 7265 6e63 6572 656e  .com/lawrenceren
++00001ca0: 6e61 223e 3c69 6d67 2073 7263 3d22 6874  na"><img src="ht
++00001cb0: 7470 733a 2f2f 6176 6174 6172 7330 2e67  tps://avatars0.g
++00001cc0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++00001cd0: 2e63 6f6d 2f75 2f34 3931 3734 3333 373f  .com/u/49174337?
++00001ce0: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00001cf0: 3d22 3130 3070 783b 2220 616c 743d 226c  ="100px;" alt="l
++00001d00: 6177 7265 6e63 6572 656e 6e61 222f 3e3c  awrencerenna"/><
++00001d10: 6272 202f 3e3c 7375 623e 3c62 3e6c 6177  br /><sub><b>law
++00001d20: 7265 6e63 6572 656e 6e61 3c2f 623e 3c2f  rencerenna</b></
++00001d30: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00001d40: 2068 7265 663d 2223 6964 6561 732d 6c61   href="#ideas-la
++00001d50: 7772 656e 6365 7265 6e6e 6122 2074 6974  wrencerenna" tit
++00001d60: 6c65 3d22 4964 6561 732c 2050 6c61 6e6e  le="Ideas, Plann
++00001d70: 696e 672c 2026 2046 6565 6462 6163 6b22  ing, & Feedback"
++00001d80: 3ef0 9fa4 943c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00001d90: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00001da0: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00001db0: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00001dc0: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00001dd0: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00001de0: 526f 7769 6e22 3e3c 696d 6720 7372 633d  Rowin"><img src=
++00001df0: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++00001e00: 332e 6769 7468 7562 7573 6572 636f 6e74  3.githubusercont
++00001e10: 656e 742e 636f 6d2f 752f 3137 3237 3437  ent.com/u/172747
++00001e20: 383f 763d 343f 733d 3130 3022 2077 6964  8?v=4?s=100" wid
++00001e30: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00001e40: 2252 6f77 696e 222f 3e3c 6272 202f 3e3c  "Rowin"/><br /><
++00001e50: 7375 623e 3c62 3e52 6f77 696e 3c2f 623e  sub><b>Rowin</b>
++00001e60: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++00001e70: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001e80: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++00001e90: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++00001ea0: 652e 7079 2f69 7373 7565 733f 713d 6175  e.py/issues?q=au
++00001eb0: 7468 6f72 2533 4152 6f77 696e 2220 7469  thor%3ARowin" ti
++00001ec0: 746c 653d 2242 7567 2072 6570 6f72 7473  tle="Bug reports
++00001ed0: 223e f09f 909b 3c2f 613e 203c 6120 6872  ">....</a> <a hr
++00001ee0: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00001ef0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
++00001f00: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
++00001f10: 636f 6d6d 6974 733f 6175 7468 6f72 3d52  commits?author=R
++00001f20: 6f77 696e 2220 7469 746c 653d 2243 6f64  owin" title="Cod
++00001f30: 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74 643e  e">....</a></td>
++00001f40: 0a20 2020 203c 2f74 723e 0a20 2020 203c  .    </tr>.    <
++00001f50: 7472 3e0a 2020 2020 2020 3c74 6420 616c  tr>.      <td al
++00001f60: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00001f70: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00001f80: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00001f90: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00001fa0: 2e63 6f6d 2f6d 6963 6861 656c 706c 6577  .com/michaelplew
++00001fb0: 7322 3e3c 696d 6720 7372 633d 2268 7474  s"><img src="htt
++00001fc0: 7073 3a2f 2f61 7661 7461 7273 322e 6769  ps://avatars2.gi
++00001fd0: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00001fe0: 636f 6d2f 752f 3134 3039 3839 3239 3f76  com/u/14098929?v
++00001ff0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
++00002000: 2231 3030 7078 3b22 2061 6c74 3d22 4d69  "100px;" alt="Mi
++00002010: 6368 6165 6c20 506c 6577 7322 2f3e 3c62  chael Plews"/><b
++00002020: 7220 2f3e 3c73 7562 3e3c 623e 4d69 6368  r /><sub><b>Mich
++00002030: 6165 6c20 506c 6577 733c 2f62 3e3c 2f73  ael Plews</b></s
++00002040: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00002050: 6872 6566 3d22 2369 6465 6173 2d6d 6963  href="#ideas-mic
++00002060: 6861 656c 706c 6577 7322 2074 6974 6c65  haelplews" title
++00002070: 3d22 4964 6561 732c 2050 6c61 6e6e 696e  ="Ideas, Plannin
++00002080: 672c 2026 2046 6565 6462 6163 6b22 3ef0  g, & Feedback">.
++00002090: 9fa4 943c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++000020a0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++000020b0: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++000020c0: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++000020d0: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++000020e0: 3a2f 2f67 6974 6875 622e 636f 6d2f 4368  ://github.com/Ch
++000020f0: 6562 7573 6b69 6e22 3e3c 696d 6720 7372  ebuskin"><img sr
++00002100: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00002110: 7273 302e 6769 7468 7562 7573 6572 636f  rs0.githubuserco
++00002120: 6e74 656e 742e 636f 6d2f 752f 3333 3738  ntent.com/u/3378
++00002130: 3737 3233 3f76 3d34 3f73 3d31 3030 2220  7723?v=4?s=100" 
++00002140: 7769 6474 683d 2231 3030 7078 3b22 2061  width="100px;" a
++00002150: 6c74 3d22 4368 6562 7573 6b69 6e22 2f3e  lt="Chebuskin"/>
++00002160: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4368  <br /><sub><b>Ch
++00002170: 6562 7573 6b69 6e3c 2f62 3e3c 2f73 7562  ebuskin</b></sub
++00002180: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++00002190: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++000021a0: 7562 2e63 6f6d 2f45 4353 4861 636b 5765  ub.com/ECSHackWe
++000021b0: 656b 2f69 6d70 6564 616e 6365 2e70 792f  ek/impedance.py/
++000021c0: 6973 7375 6573 3f71 3d61 7574 686f 7225  issues?q=author%
++000021d0: 3341 4368 6562 7573 6b69 6e22 2074 6974  3AChebuskin" tit
++000021e0: 6c65 3d22 4275 6720 7265 706f 7274 7322  le="Bug reports"
++000021f0: 3ef0 9f90 9b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00002200: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00002210: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002220: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002230: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002240: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002250: 656e 7669 726f 6e6d 6174 223e 3c69 6d67  environmat"><img
++00002260: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00002270: 6174 6172 7330 2e67 6974 6875 6275 7365  atars0.githubuse
++00002280: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f39  rcontent.com/u/9
++00002290: 3330 3933 3533 3f76 3d34 3f73 3d31 3030  309353?v=4?s=100
++000022a0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++000022b0: 2061 6c74 3d22 656e 7669 726f 6e6d 6174   alt="environmat
++000022c0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
++000022d0: 3e65 6e76 6972 6f6e 6d61 743c 2f62 3e3c  >environmat</b><
++000022e0: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
++000022f0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00002300: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
++00002310: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++00002320: 2e70 792f 6973 7375 6573 3f71 3d61 7574  .py/issues?q=aut
++00002330: 686f 7225 3341 656e 7669 726f 6e6d 6174  hor%3Aenvironmat
++00002340: 2220 7469 746c 653d 2242 7567 2072 6570  " title="Bug rep
++00002350: 6f72 7473 223e f09f 909b 3c2f 613e 3c2f  orts">....</a></
++00002360: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00002370: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00002380: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00002390: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++000023a0: 3d22 6874 7470 3a2f 2f77 7777 2e61 6264  ="http://www.abd
++000023b0: 756c 6c61 6873 756d 6261 6c2e 636f 6d22  ullahsumbal.com"
++000023c0: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++000023d0: 3a2f 2f61 7661 7461 7273 322e 6769 7468  ://avatars2.gith
++000023e0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++000023f0: 6d2f 752f 3132 3934 3639 3437 3f76 3d34  m/u/12946947?v=4
++00002400: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++00002410: 3030 7078 3b22 2061 6c74 3d22 4162 6475  00px;" alt="Abdu
++00002420: 6c6c 6168 2053 756d 6261 6c22 2f3e 3c62  llah Sumbal"/><b
++00002430: 7220 2f3e 3c73 7562 3e3c 623e 4162 6475  r /><sub><b>Abdu
++00002440: 6c6c 6168 2053 756d 6261 6c3c 2f62 3e3c  llah Sumbal</b><
++00002450: 2f73 7562 3e3c 2f61 3e3c 6272 202f 3e3c  /sub></a><br /><
++00002460: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00002470: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
++00002480: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++00002490: 2e70 792f 6973 7375 6573 3f71 3d61 7574  .py/issues?q=aut
++000024a0: 686f 7225 3341 6162 6475 6c6c 6168 7375  hor%3Aabdullahsu
++000024b0: 6d62 616c 2220 7469 746c 653d 2242 7567  mbal" title="Bug
++000024c0: 2072 6570 6f72 7473 223e f09f 909b 3c2f   reports">....</
++000024d0: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++000024e0: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++000024f0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00002500: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00002510: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00002520: 7468 7562 2e63 6f6d 2f6e 6f62 6b61 7422  thub.com/nobkat"
++00002530: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00002540: 3a2f 2f61 7661 7461 7273 332e 6769 7468  ://avatars3.gith
++00002550: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00002560: 6d2f 752f 3239 3037 3734 3435 3f76 3d34  m/u/29077445?v=4
++00002570: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++00002580: 3030 7078 3b22 2061 6c74 3d22 6e6f 626b  00px;" alt="nobk
++00002590: 6174 222f 3e3c 6272 202f 3e3c 7375 623e  at"/><br /><sub>
++000025a0: 3c62 3e6e 6f62 6b61 743c 2f62 3e3c 2f73  <b>nobkat</b></s
++000025b0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++000025c0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++000025d0: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
++000025e0: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
++000025f0: 792f 636f 6d6d 6974 733f 6175 7468 6f72  y/commits?author
++00002600: 3d6e 6f62 6b61 7422 2074 6974 6c65 3d22  =nobkat" title="
++00002610: 436f 6465 223e f09f 92bb 3c2f 613e 3c2f  Code">....</a></
++00002620: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++00002630: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++00002640: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++00002650: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00002660: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002670: 2e63 6f6d 2f6e 6963 6b62 7261 6479 223e  .com/nickbrady">
++00002680: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
++00002690: 2f2f 6176 6174 6172 7331 2e67 6974 6875  //avatars1.githu
++000026a0: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++000026b0: 2f75 2f37 3437 3133 3637 3f76 3d34 3f73  /u/7471367?v=4?s
++000026c0: 3d31 3030 2220 7769 6474 683d 2231 3030  =100" width="100
++000026d0: 7078 3b22 2061 6c74 3d22 4e69 636b 222f  px;" alt="Nick"/
++000026e0: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e4e  ><br /><sub><b>N
++000026f0: 6963 6b3c 2f62 3e3c 2f73 7562 3e3c 2f61  ick</b></sub></a
++00002700: 3e3c 6272 202f 3e3c 6120 6872 6566 3d22  ><br /><a href="
++00002710: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002720: 6f6d 2f45 4353 4861 636b 5765 656b 2f69  om/ECSHackWeek/i
++00002730: 6d70 6564 616e 6365 2e70 792f 6973 7375  mpedance.py/issu
++00002740: 6573 3f71 3d61 7574 686f 7225 3341 6e69  es?q=author%3Ani
++00002750: 636b 6272 6164 7922 2074 6974 6c65 3d22  ckbrady" title="
++00002760: 4275 6720 7265 706f 7274 7322 3ef0 9f90  Bug reports">...
++00002770: 9b3c 2f61 3e20 3c61 2068 7265 663d 2268  .</a> <a href="h
++00002780: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00002790: 6d2f 4543 5348 6163 6b57 6565 6b2f 696d  m/ECSHackWeek/im
++000027a0: 7065 6461 6e63 652e 7079 2f63 6f6d 6d69  pedance.py/commi
++000027b0: 7473 3f61 7574 686f 723d 6e69 636b 6272  ts?author=nickbr
++000027c0: 6164 7922 2074 6974 6c65 3d22 436f 6465  ady" title="Code
++000027d0: 223e f09f 92bb 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
++000027e0: 2020 2020 2020 3c74 6420 616c 6967 6e3d        <td align=
++000027f0: 2263 656e 7465 7222 2076 616c 6967 6e3d  "center" valign=
++00002800: 2274 6f70 2220 7769 6474 683d 2231 342e  "top" width="14.
++00002810: 3238 2522 3e3c 6120 6872 6566 3d22 6874  28%"><a href="ht
++00002820: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00002830: 2f61 6f6b 6f6d 6f72 6f77 736b 6922 3e3c  /aokomorowski"><
++00002840: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
++00002850: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
++00002860: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
++00002870: 2f34 3336 3635 3437 343f 763d 343f 733d  /43665474?v=4?s=
++00002880: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
++00002890: 783b 2220 616c 743d 2261 6f6b 6f6d 6f72  x;" alt="aokomor
++000028a0: 6f77 736b 6922 2f3e 3c62 7220 2f3e 3c73  owski"/><br /><s
++000028b0: 7562 3e3c 623e 616f 6b6f 6d6f 726f 7773  ub><b>aokomorows
++000028c0: 6b69 3c2f 623e 3c2f 7375 623e 3c2f 613e  ki</b></sub></a>
++000028d0: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
++000028e0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++000028f0: 6d2f 4543 5348 6163 6b57 6565 6b2f 696d  m/ECSHackWeek/im
++00002900: 7065 6461 6e63 652e 7079 2f63 6f6d 6d69  pedance.py/commi
++00002910: 7473 3f61 7574 686f 723d 616f 6b6f 6d6f  ts?author=aokomo
++00002920: 726f 7773 6b69 2220 7469 746c 653d 2243  rowski" title="C
++00002930: 6f64 6522 3ef0 9f92 bb3c 2f61 3e3c 2f74  ode">....</a></t
++00002940: 643e 0a20 2020 203c 2f74 723e 0a20 2020  d>.    </tr>.   
++00002950: 203c 7472 3e0a 2020 2020 2020 3c74 6420   <tr>.      <td 
++00002960: 616c 6967 6e3d 2263 656e 7465 7222 2076  align="center" v
++00002970: 616c 6967 6e3d 2274 6f70 2220 7769 6474  align="top" widt
++00002980: 683d 2231 342e 3238 2522 3e3c 6120 6872  h="14.28%"><a hr
++00002990: 6566 3d22 6874 7470 733a 2f2f 7065 7465  ef="https://pete
++000029a0: 726d 6174 7469 612e 636f 6d22 3e3c 696d  rmattia.com"><im
++000029b0: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
++000029c0: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
++000029d0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f32  rcontent.com/u/2
++000029e0: 3935 3531 3835 383f 763d 343f 733d 3130  9551858?v=4?s=10
++000029f0: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
++00002a00: 2220 616c 743d 2250 6574 6572 2041 7474  " alt="Peter Att
++00002a10: 6961 222f 3e3c 6272 202f 3e3c 7375 623e  ia"/><br /><sub>
++00002a20: 3c62 3e50 6574 6572 2041 7474 6961 3c2f  <b>Peter Attia</
++00002a30: 623e 3c2f 7375 623e 3c2f 613e 3c62 7220  b></sub></a><br 
++00002a40: 2f3e 3c61 2068 7265 663d 2268 7474 7073  /><a href="https
++00002a50: 3a2f 2f67 6974 6875 622e 636f 6d2f 4543  ://github.com/EC
++00002a60: 5348 6163 6b57 6565 6b2f 696d 7065 6461  SHackWeek/impeda
++00002a70: 6e63 652e 7079 2f63 6f6d 6d69 7473 3f61  nce.py/commits?a
++00002a80: 7574 686f 723d 7065 7465 726d 6174 7469  uthor=petermatti
++00002a90: 6122 2074 6974 6c65 3d22 436f 6465 223e  a" title="Code">
++00002aa0: f09f 92bb 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++00002ab0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002ac0: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
++00002ad0: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
++00002ae0: 6d6d 6974 733f 6175 7468 6f72 3d70 6574  mmits?author=pet
++00002af0: 6572 6d61 7474 6961 2220 7469 746c 653d  ermattia" title=
++00002b00: 2254 6573 7473 223e e29a a0ef b88f 3c2f  "Tests">......</
++00002b10: 613e 203c 6120 6872 6566 3d22 6874 7470  a> <a href="http
++00002b20: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f45  s://github.com/E
++00002b30: 4353 4861 636b 5765 656b 2f69 6d70 6564  CSHackWeek/imped
++00002b40: 616e 6365 2e70 792f 636f 6d6d 6974 733f  ance.py/commits?
++00002b50: 6175 7468 6f72 3d70 6574 6572 6d61 7474  author=petermatt
++00002b60: 6961 2220 7469 746c 653d 2244 6f63 756d  ia" title="Docum
++00002b70: 656e 7461 7469 6f6e 223e f09f 9396 3c2f  entation">....</
++00002b80: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00002b90: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00002ba0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00002bb0: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00002bc0: 6872 6566 3d22 6874 7470 3a2f 2f73 646b  href="http://sdk
++00002bd0: 616e 672e 6f72 6722 3e3c 696d 6720 7372  ang.org"><img sr
++00002be0: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00002bf0: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00002c00: 7465 6e74 2e63 6f6d 2f75 2f35 3531 3136  tent.com/u/55116
++00002c10: 3530 313f 763d 343f 733d 3130 3022 2077  501?v=4?s=100" w
++00002c20: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00002c30: 743d 2273 646b 616e 6722 2f3e 3c62 7220  t="sdkang"/><br 
++00002c40: 2f3e 3c73 7562 3e3c 623e 7364 6b61 6e67  /><sub><b>sdkang
++00002c50: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00002c60: 7220 2f3e 3c61 2068 7265 663d 2268 7474  r /><a href="htt
++00002c70: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002c80: 4543 5348 6163 6b57 6565 6b2f 696d 7065  ECSHackWeek/impe
++00002c90: 6461 6e63 652e 7079 2f63 6f6d 6d69 7473  dance.py/commits
++00002ca0: 3f61 7574 686f 723d 7374 6570 6865 6e64  ?author=stephend
++00002cb0: 6b61 6e67 2220 7469 746c 653d 2254 6573  kang" title="Tes
++00002cc0: 7473 223e e29a a0ef b88f 3c2f 613e 203c  ts">......</a> <
++00002cd0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00002ce0: 6769 7468 7562 2e63 6f6d 2f45 4353 4861  github.com/ECSHa
++00002cf0: 636b 5765 656b 2f69 6d70 6564 616e 6365  ckWeek/impedance
++00002d00: 2e70 792f 636f 6d6d 6974 733f 6175 7468  .py/commits?auth
++00002d10: 6f72 3d73 7465 7068 656e 646b 616e 6722  or=stephendkang"
++00002d20: 2074 6974 6c65 3d22 436f 6465 223e f09f   title="Code">..
++00002d30: 92bb 3c2f 613e 3c2f 7464 3e0a 2020 2020  ..</a></td>.    
++00002d40: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
++00002d50: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
++00002d60: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
++00002d70: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00002d80: 2f2f 6769 7468 7562 2e63 6f6d 2f6c 7563  //github.com/luc
++00002d90: 6173 6664 7678 223e 3c69 6d67 2073 7263  asfdvx"><img src
++00002da0: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
++00002db0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++00002dc0: 656e 742e 636f 6d2f 752f 3835 3838 3839  ent.com/u/858889
++00002dd0: 3034 3f76 3d34 3f73 3d31 3030 2220 7769  04?v=4?s=100" wi
++00002de0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++00002df0: 3d22 6c75 6361 7366 6476 7822 2f3e 3c62  ="lucasfdvx"/><b
++00002e00: 7220 2f3e 3c73 7562 3e3c 623e 6c75 6361  r /><sub><b>luca
++00002e10: 7366 6476 783c 2f62 3e3c 2f73 7562 3e3c  sfdvx</b></sub><
++00002e20: 2f61 3e3c 6272 202f 3e3c 6120 6872 6566  /a><br /><a href
++00002e30: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002e40: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
++00002e50: 2f69 6d70 6564 616e 6365 2e70 792f 6973  /impedance.py/is
++00002e60: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
++00002e70: 6c75 6361 7366 6476 7822 2074 6974 6c65  lucasfdvx" title
++00002e80: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
++00002e90: 9f90 9b3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00002ea0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00002eb0: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00002ec0: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00002ed0: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00002ee0: 3a2f 2f67 6974 6875 622e 636f 6d2f 5361  ://github.com/Sa
++00002ef0: 6674 4d61 636b 6922 3e3c 696d 6720 7372  ftMacki"><img sr
++00002f00: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00002f10: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00002f20: 7465 6e74 2e63 6f6d 2f75 2f39 3030 3330  tent.com/u/90030
++00002f30: 3237 313f 763d 343f 733d 3130 3022 2077  271?v=4?s=100" w
++00002f40: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00002f50: 743d 224d 6172 6375 7320 4b61 726c 7374  t="Marcus Karlst
++00002f60: 6164 222f 3e3c 6272 202f 3e3c 7375 623e  ad"/><br /><sub>
++00002f70: 3c62 3e4d 6172 6375 7320 4b61 726c 7374  <b>Marcus Karlst
++00002f80: 6164 3c2f 623e 3c2f 7375 623e 3c2f 613e  ad</b></sub></a>
++00002f90: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
++00002fa0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00002fb0: 6d2f 4543 5348 6163 6b57 6565 6b2f 696d  m/ECSHackWeek/im
++00002fc0: 7065 6461 6e63 652e 7079 2f69 7373 7565  pedance.py/issue
++00002fd0: 733f 713d 6175 7468 6f72 2533 4153 6166  s?q=author%3ASaf
++00002fe0: 744d 6163 6b69 2220 7469 746c 653d 2242  tMacki" title="B
++00002ff0: 7567 2072 6570 6f72 7473 223e f09f 909b  ug reports">....
++00003000: 3c2f 613e 3c2f 7464 3e0a 2020 2020 2020  </a></td>.      
++00003010: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
++00003020: 7222 2076 616c 6967 6e3d 2274 6f70 2220  r" valign="top" 
++00003030: 7769 6474 683d 2231 342e 3238 2522 3e3c  width="14.28%"><
++00003040: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00003050: 6769 7468 7562 2e63 6f6d 2f6d 6172 6b62  github.com/markb
++00003060: 6f75 6d61 6e22 3e3c 696d 6720 7372 633d  ouman"><img src=
++00003070: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++00003080: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00003090: 6e74 2e63 6f6d 2f75 2f31 3033 3934 3431  nt.com/u/1039441
++000030a0: 3230 3f76 3d34 3f73 3d31 3030 2220 7769  20?v=4?s=100" wi
++000030b0: 6474 683d 2231 3030 7078 3b22 2061 6c74  dth="100px;" alt
++000030c0: 3d22 4d61 726b 2042 6f75 6d61 6e22 2f3e  ="Mark Bouman"/>
++000030d0: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4d61  <br /><sub><b>Ma
++000030e0: 726b 2042 6f75 6d61 6e3c 2f62 3e3c 2f73  rk Bouman</b></s
++000030f0: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
++00003100: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00003110: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
++00003120: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
++00003130: 792f 6973 7375 6573 3f71 3d61 7574 686f  y/issues?q=autho
++00003140: 7225 3341 6d61 726b 626f 756d 616e 2220  r%3Amarkbouman" 
++00003150: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00003160: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
++00003170: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00003180: 7468 7562 2e63 6f6d 2f45 4353 4861 636b  thub.com/ECSHack
++00003190: 5765 656b 2f69 6d70 6564 616e 6365 2e70  Week/impedance.p
++000031a0: 792f 636f 6d6d 6974 733f 6175 7468 6f72  y/commits?author
++000031b0: 3d6d 6172 6b62 6f75 6d61 6e22 2074 6974  =markbouman" tit
++000031c0: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
++000031d0: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++000031e0: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++000031f0: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00003200: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00003210: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00003220: 7468 7562 2e63 6f6d 2f6f 736c 6f70 616e  thub.com/oslopan
++00003230: 6461 223e 3c69 6d67 2073 7263 3d22 6874  da"><img src="ht
++00003240: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
++00003250: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00003260: 636f 6d2f 752f 3333 3831 3034 3330 3f76  com/u/33810430?v
++00003270: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
++00003280: 2231 3030 7078 3b22 2061 6c74 3d22 6f73  "100px;" alt="os
++00003290: 6c6f 7061 6e64 6122 2f3e 3c62 7220 2f3e  lopanda"/><br />
++000032a0: 3c73 7562 3e3c 623e 6f73 6c6f 7061 6e64  <sub><b>oslopand
++000032b0: 613c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  a</b></sub></a><
++000032c0: 6272 202f 3e3c 6120 6872 6566 3d22 6874  br /><a href="ht
++000032d0: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++000032e0: 2f45 4353 4861 636b 5765 656b 2f69 6d70  /ECSHackWeek/imp
++000032f0: 6564 616e 6365 2e70 792f 6973 7375 6573  edance.py/issues
++00003300: 3f71 3d61 7574 686f 7225 3341 6f73 6c6f  ?q=author%3Aoslo
++00003310: 7061 6e64 6122 2074 6974 6c65 3d22 4275  panda" title="Bu
++00003320: 6720 7265 706f 7274 7322 3ef0 9f90 9b3c  g reports">....<
++00003330: 2f61 3e3c 2f74 643e 0a20 2020 2020 203c  /a></td>.      <
++00003340: 7464 2061 6c69 676e 3d22 6365 6e74 6572  td align="center
++00003350: 2220 7661 6c69 676e 3d22 746f 7022 2077  " valign="top" w
++00003360: 6964 7468 3d22 3134 2e32 3825 223e 3c61  idth="14.28%"><a
++00003370: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00003380: 6974 6875 622e 636f 6d2f 7069 6c69 6c61  ithub.com/pilila
++00003390: 6322 3e3c 696d 6720 7372 633d 2268 7474  c"><img src="htt
++000033a0: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
++000033b0: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
++000033c0: 6f6d 2f75 2f36 3031 3136 3634 363f 763d  om/u/60116646?v=
++000033d0: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
++000033e0: 3130 3070 783b 2220 616c 743d 2270 696c  100px;" alt="pil
++000033f0: 696c 6163 222f 3e3c 6272 202f 3e3c 7375  ilac"/><br /><su
++00003400: 623e 3c62 3e70 696c 696c 6163 3c2f 623e  b><b>pililac</b>
++00003410: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++00003420: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00003430: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++00003440: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++00003450: 652e 7079 2f69 7373 7565 733f 713d 6175  e.py/issues?q=au
++00003460: 7468 6f72 2533 4170 696c 696c 6163 2220  thor%3Apililac" 
++00003470: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00003480: 7473 223e f09f 909b 3c2f 613e 3c2f 7464  ts">....</a></td
++00003490: 3e0a 2020 2020 3c2f 7472 3e0a 2020 2020  >.    </tr>.    
++000034a0: 3c74 723e 0a20 2020 2020 203c 7464 2061  <tr>.      <td a
++000034b0: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++000034c0: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++000034d0: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++000034e0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++000034f0: 622e 636f 6d2f 6b65 7669 6e73 6d69 6131  b.com/kevinsmia1
++00003500: 3933 3922 3e3c 696d 6720 7372 633d 2268  939"><img src="h
++00003510: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
++00003520: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++00003530: 2e63 6f6d 2f75 2f31 3134 3037 3932 323f  .com/u/11407922?
++00003540: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00003550: 3d22 3130 3070 783b 2220 616c 743d 224b  ="100px;" alt="K
++00003560: 6176 696e 2054 6565 6e61 6b75 6c22 2f3e  avin Teenakul"/>
++00003570: 3c62 7220 2f3e 3c73 7562 3e3c 623e 4b61  <br /><sub><b>Ka
++00003580: 7669 6e20 5465 656e 616b 756c 3c2f 623e  vin Teenakul</b>
++00003590: 3c2f 7375 623e 3c2f 613e 3c62 7220 2f3e  </sub></a><br />
++000035a0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++000035b0: 2f67 6974 6875 622e 636f 6d2f 4543 5348  /github.com/ECSH
++000035c0: 6163 6b57 6565 6b2f 696d 7065 6461 6e63  ackWeek/impedanc
++000035d0: 652e 7079 2f63 6f6d 6d69 7473 3f61 7574  e.py/commits?aut
++000035e0: 686f 723d 6b65 7669 6e73 6d69 6131 3933  hor=kevinsmia193
++000035f0: 3922 2074 6974 6c65 3d22 436f 6465 223e  9" title="Code">
++00003600: f09f 92bb 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++00003610: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00003620: 2e63 6f6d 2f45 4353 4861 636b 5765 656b  .com/ECSHackWeek
++00003630: 2f69 6d70 6564 616e 6365 2e70 792f 636f  /impedance.py/co
++00003640: 6d6d 6974 733f 6175 7468 6f72 3d6b 6576  mmits?author=kev
++00003650: 696e 736d 6961 3139 3339 2220 7469 746c  insmia1939" titl
++00003660: 653d 2244 6f63 756d 656e 7461 7469 6f6e  e="Documentation
++00003670: 223e f09f 9396 3c2f 613e 0a20 2020 203c  ">....</a>.    <
++00003680: 2f74 723e 0a20 203c 2f74 626f 6479 3e0a  /tr>.  </tbody>.
++00003690: 3c2f 7461 626c 653e 0a0a 3c21 2d2d 206d  </table>..<!-- m
++000036a0: 6172 6b64 6f77 6e6c 696e 742d 7265 7374  arkdownlint-rest
++000036b0: 6f72 6520 2d2d 3e0a 3c21 2d2d 2070 7265  ore -->.<!-- pre
++000036c0: 7474 6965 722d 6967 6e6f 7265 2d65 6e64  ttier-ignore-end
++000036d0: 202d 2d3e 0a0a 3c21 2d2d 2041 4c4c 2d43   -->..<!-- ALL-C
++000036e0: 4f4e 5452 4942 5554 4f52 532d 4c49 5354  ONTRIBUTORS-LIST
++000036f0: 3a45 4e44 202d 2d3e 0a0a 5468 6973 2070  :END -->..This p
++00003700: 726f 6a65 6374 2066 6f6c 6c6f 7773 2074  roject follows t
++00003710: 6865 205b 616c 6c2d 636f 6e74 7269 6275  he [all-contribu
++00003720: 746f 7273 5d28 6874 7470 733a 2f2f 6769  tors](https://gi
++00003730: 7468 7562 2e63 6f6d 2f61 6c6c 2d63 6f6e  thub.com/all-con
++00003740: 7472 6962 7574 6f72 732f 616c 6c2d 636f  tributors/all-co
++00003750: 6e74 7269 6275 746f 7273 2920 7370 6563  ntributors) spec
++00003760: 6966 6963 6174 696f 6e2e 2043 6f6e 7472  ification. Contr
++00003770: 6962 7574 696f 6e73 206f 6620 616e 7920  ibutions of any 
++00003780: 6b69 6e64 2077 656c 636f 6d65 210a       kind welcome!.
+```
+
+### Comparing `impedance-1.5.0/impedance/models/circuits/circuits.py` & `impedance-1.6.0/impedance/models/circuits/circuits.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/models/circuits/elements.py` & `impedance-1.6.0/impedance/models/circuits/elements.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -327,16 +327,16 @@
+     [1] J. Landesfeind et al.,
+     Journal of The Electrochemical Society, 163 (7) A1373-A1387 (2016)
+     `doi: 10.1016/10.1149/2.1141607jes
+     <http://doi.org/10.1149/2.1141607jes>`_.
+     """
+     omega = 2 * np.pi * np.array(f)
+     Rion, Qs, gamma = p[0], p[1], p[2]
+-    Zs = Qs * (1j * omega) ** gamma
+-    Z = np.sqrt(Rion / Zs) / np.tanh(np.sqrt(Rion * Zs))
++    Zs = 1 / (Qs * (1j * omega) ** gamma)
++    Z = np.sqrt(Rion * Zs) / np.tanh(np.sqrt(Rion / Zs))
+     return Z
+ 
+ 
+ @element(num_params=4, units=["Ohm-m^2", "Ohm-m^2", "", "sec"])
+ def T(p, f):
+     """A macrohomogeneous porous electrode model from Paasch et al. [1]
+```
+
+### Comparing `impedance-1.5.0/impedance/models/circuits/fitting.py` & `impedance-1.6.0/impedance/models/circuits/fitting.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/preprocessing.py` & `impedance-1.6.0/impedance/preprocessing.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_circuit_elements.py` & `impedance-1.6.0/impedance/tests/test_circuit_elements.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_circuits.py` & `impedance-1.6.0/impedance/tests/test_circuits.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_fitting.py` & `impedance-1.6.0/impedance/tests/test_fitting.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_model_io.py` & `impedance-1.6.0/impedance/tests/test_model_io.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_preprocessing.py` & `impedance-1.6.0/impedance/tests/test_preprocessing.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_validation.py` & `impedance-1.6.0/impedance/tests/test_validation.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/tests/test_visualization.py` & `impedance-1.6.0/impedance/tests/test_visualization.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/validation.py` & `impedance-1.6.0/impedance/validation.py`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/impedance/visualization.py` & `impedance-1.6.0/impedance/visualization.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -164,15 +164,15 @@
+         f = data_dict[kind]['f']
+         Z = data_dict[kind]['Z']
+         fmt = data_dict[kind].get('fmt', 'o')
+ 
+         df = pd.DataFrame({'f': f, 'z_real': Z.real, 'z_imag': Z.imag,
+                            'kind': kind, 'fmt': fmt})
+ 
+-        Z_df = Z_df.append(df)
++        Z_df = pd.concat([Z_df, df], ignore_index=True)
+ 
+     range_x = max(Z_df['z_real']) - min(Z_df['z_real'])
+     range_y = max(-Z_df['z_imag']) - min(-Z_df['z_imag'])
+ 
+     rng = max(range_x, range_y)
+ 
+     min_x = min(Z_df['z_real'])
+```
+
+### Comparing `impedance-1.5.0/impedance.egg-info/PKG-INFO` & `impedance-1.6.0/impedance.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: impedance
+-Version: 1.5.0
++Version: 1.6.0
+ Summary: A package for analyzing electrochemical impedance data
+ Home-page: https://impedancepy.readthedocs.io/en/latest/
+ Author: impedance.py developers
+ Author-email: matt.murbach@gmail.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Operating System :: OS Independent
+@@ -109,15 +109,15 @@
+       <td align="center" valign="top" width="14.28%"><a href="https://github.com/lucasfdvx"><img src="https://avatars.githubusercontent.com/u/85888904?v=4?s=100" width="100px;" alt="lucasfdvx"/><br /><sub><b>lucasfdvx</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/issues?q=author%3Alucasfdvx" title="Bug reports">🐛</a></td>
+       <td align="center" valign="top" width="14.28%"><a href="https://github.com/SaftMacki"><img src="https://avatars.githubusercontent.com/u/90030271?v=4?s=100" width="100px;" alt="Marcus Karlstad"/><br /><sub><b>Marcus Karlstad</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/issues?q=author%3ASaftMacki" title="Bug reports">🐛</a></td>
+       <td align="center" valign="top" width="14.28%"><a href="https://github.com/markbouman"><img src="https://avatars.githubusercontent.com/u/103944120?v=4?s=100" width="100px;" alt="Mark Bouman"/><br /><sub><b>Mark Bouman</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/issues?q=author%3Amarkbouman" title="Bug reports">🐛</a> <a href="https://github.com/ECSHackWeek/impedance.py/commits?author=markbouman" title="Code">💻</a></td>
+       <td align="center" valign="top" width="14.28%"><a href="https://github.com/oslopanda"><img src="https://avatars.githubusercontent.com/u/33810430?v=4?s=100" width="100px;" alt="oslopanda"/><br /><sub><b>oslopanda</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/issues?q=author%3Aoslopanda" title="Bug reports">🐛</a></td>
+       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pililac"><img src="https://avatars.githubusercontent.com/u/60116646?v=4?s=100" width="100px;" alt="pililac"/><br /><sub><b>pililac</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/issues?q=author%3Apililac" title="Bug reports">🐛</a></td>
+     </tr>
+     <tr>
+-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kevinsmia1939"><img src="https://avatars.githubusercontent.com/u/11407922?v=4?s=100" width="100px;" alt="Kavin Teenakul"/><br /><sub><b>Kavin Teenakul</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/commits?author=kevinsmia1939" title="Code">💻</a></td>
++      <td align="center" valign="top" width="14.28%"><a href="https://github.com/kevinsmia1939"><img src="https://avatars.githubusercontent.com/u/11407922?v=4?s=100" width="100px;" alt="Kavin Teenakul"/><br /><sub><b>Kavin Teenakul</b></sub></a><br /><a href="https://github.com/ECSHackWeek/impedance.py/commits?author=kevinsmia1939" title="Code">💻</a> <a href="https://github.com/ECSHackWeek/impedance.py/commits?author=kevinsmia1939" title="Documentation">📖</a>
+     </tr>
+   </tbody>
+ </table>
+ 
+ <!-- markdownlint-restore -->
+ <!-- prettier-ignore-end -->
+```
+
+### Comparing `impedance-1.5.0/impedance.egg-info/SOURCES.txt` & `impedance-1.6.0/impedance.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `impedance-1.5.0/setup.py` & `impedance-1.6.0/setup.py`
+
+ * *Files identical despite different names*
+

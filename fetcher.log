@@ -9493,3 +9493,75 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 06:42:21] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
 [2023-06-24 06:42:21] INFO root fetch - main [MainThread]: End processing [netron] error
 [2023-06-24 06:42:21] INFO root fetch - main [MainThread]: Store serial: [18627177]
+[2023-06-24 06:47:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627177]
+[2023-06-24 06:47:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Kinho
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EncroX
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multion
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-project-milestone
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-project-type
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: impedance
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addons-oca-project
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymod112
+[2023-06-24 06:47:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pelidoc
+[2023-06-24 06:47:30] INFO root fetch - processPackages [Kinho]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-24 06:47:30] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 06:47:30] INFO root fetch - processPackages [odoo14-addon-project-milestone]: New version: [14.0.1.3.1.dev8] Old Version: [14.0.1.3.1.dev7]
+[2023-06-24 06:47:30] WARNING root fetch - processPackages [pymod112]: Skipping, unable to determine old version
+[2023-06-24 06:47:30] INFO root fetch - main [MainThread]: End processing [pymod112] error
+[2023-06-24 06:47:30] INFO root fetch - processPackages [EncroX]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 06:47:30] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230623.0] Old Version: [16.0.20230613.0]
+[2023-06-24 06:47:30] INFO root fetch - processPackages [odoo-addon-project-type]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-24 06:47:30] INFO root fetch - processPackages [impedance]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-24 06:47:30] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-06-24 06:47:30] WARNING root fetch - processPackages [pelidoc]: Skipping, unable to determine old version
+[2023-06-24 06:47:30] INFO root fetch - main [MainThread]: End processing [pelidoc] error
+[2023-06-24 06:47:31] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/b6/22/d7590f5ef93d0d2e48bbe1fca7404bbf0128dbb8546bf1462c1b1fa390ce/EncroX-1.0.1.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [Kinho]: Downloading https://files.pythonhosted.org/packages/91/74/8928b7b9e8400ab7ba3b510c1713c8ab6bbd2fa5b3c59749ee493dc11759/Kinho-2.1.0.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/f9/6e/a99ee215b8db9a522dbeac690054c3929fdfb3a5cbce76d5885c539a9da8/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo14-addon-project-milestone]: Downloading https://files.pythonhosted.org/packages/19/7f/529917dae912a74f87d17fcf14a58889da49e707f789f39bc9f2e9ffd1bf/odoo14_addon_project_milestone-14.0.1.3.1.dev7-py3-none-any.whl
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/e6/f9/a27e31943960e9aacb713e590725eddc6e6b8ecd7c7b56bb370527bf577e/odoo_addon_project_type-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-24 06:47:31] INFO root fetch - processPackages [impedance]: Downloading https://files.pythonhosted.org/packages/1c/14/f9ad9b26c78714fa0b7da16fb17532654576150f9e84b9e257267066a812/impedance-1.5.0.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/59/6f/a42bb55009bf31c9693f61f3be282872f2f4b6c4192d59eec7281d298bfc/EncroX-1.0.2.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/45/cc/bd11817f702b3fffe19a4fa1dcec14ce40c30e29fbeaa5de410418894dbf/odoo_addons_oca_project-16.0.20230623.0-py3-none-any.whl
+[2023-06-24 06:47:31] INFO root fetch - processPackages [Kinho]: Downloading https://files.pythonhosted.org/packages/0a/89/168c8db18cc1b5eb64563fd5080e9d4b33c150f656d3a81c06da16c74cae/Kinho-2.1.1.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addon-project-type]: Downloading https://files.pythonhosted.org/packages/46/48/7beff60bd0c5ccb7b29083e4a75808fb32854a47bcacc1e62688351a67b2/odoo_addon_project_type-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-24 06:47:31] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230624/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 06:47:31] INFO root fetch - processPackages [impedance]: Downloading https://files.pythonhosted.org/packages/70/e0/b5965369e8c0cc97c289f391be383baecaf18d22df16cdf808edb47da1e8/impedance-1.6.0.tar.gz
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo14-addon-project-milestone]: Downloading https://files.pythonhosted.org/packages/cf/e2/33850af8eba69f1dcab1c66d39664970b506487df8d72ace37bc1001417e/odoo14_addon_project_milestone-14.0.1.3.1.dev8-py3-none-any.whl
+[2023-06-24 06:47:31] INFO root fetch - processPackages [EncroX]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [EncroX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EncroX-1.0.1.tar.gz tmp/EncroX-1.0.2.tar.gz --markdown 20230624/E/EncroX/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230623.0-py3-none-any.whl.zip --markdown 20230624/o/odoo-addons-oca-project/16.0.20230613.0-16.0.20230623.0/diff.md --exclude *.pyd
+[2023-06-24 06:47:31] INFO root fetch - processPackages [Kinho]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [Kinho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Kinho-2.1.0.tar.gz tmp/Kinho-2.1.1.tar.gz --markdown 20230624/K/Kinho/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo14-addon-project-milestone]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo14-addon-project-milestone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_milestone-14.0.1.3.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_project_milestone-14.0.1.3.1.dev8-py3-none-any.whl.zip --markdown 20230624/o/odoo14-addon-project-milestone/14.0.1.3.1.dev7-14.0.1.3.1.dev8/diff.md --exclude *.pyd
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addon-project-type]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [odoo-addon-project-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_type-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_project_type-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-project-type/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-24 06:47:31] INFO root fetch - processPackages [impedance]: executing diffoscope
+[2023-06-24 06:47:31] INFO root fetch - processPackages [impedance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impedance-1.5.0.tar.gz tmp/impedance-1.6.0.tar.gz --markdown 20230624/i/impedance/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-24 06:47:32] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-06-24 06:47:32] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-06-24 06:47:32] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-06-24 06:47:33] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-24 06:47:33] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-06-24 06:47:33] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.1.tar.gz]
+[2023-06-24 06:47:33] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.2.tar.gz]
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [EncroX]: success
+[2023-06-24 06:47:33] INFO root fetch - processPackages [odoo14-addon-project-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_milestone-14.0.1.3.1.dev7-py3-none-any.whl.zip]
+[2023-06-24 06:47:33] INFO root fetch - processPackages [odoo14-addon-project-milestone]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_milestone-14.0.1.3.1.dev8-py3-none-any.whl.zip]
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-milestone]: success
+[2023-06-24 06:47:33] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-24 06:47:33] INFO root fetch - processPackages [odoo-addon-project-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_type-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-type]: success
+[2023-06-24 06:47:33] INFO root fetch - processPackages [Kinho]: Remove: archive file [/home/abi/fetcher/tmp/Kinho-2.1.0.tar.gz]
+[2023-06-24 06:47:33] INFO root fetch - processPackages [Kinho]: Remove: archive file [/home/abi/fetcher/tmp/Kinho-2.1.1.tar.gz]
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [Kinho]: success
+[2023-06-24 06:47:33] INFO root fetch - processPackages [impedance]: Remove: archive file [/home/abi/fetcher/tmp/impedance-1.5.0.tar.gz]
+[2023-06-24 06:47:33] INFO root fetch - processPackages [impedance]: Remove: archive file [/home/abi/fetcher/tmp/impedance-1.6.0.tar.gz]
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [impedance]: success
+[2023-06-24 06:47:33] INFO root fetch - main [MainThread]: Store serial: [18627209]
