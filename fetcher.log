@@ -16032,3 +16032,61 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:06:23] INFO root fetch - main [MainThread]: End processing [autooc]: success
 [2023-06-24 17:06:23] INFO root fetch - main [MainThread]: End processing [autooc]: success
 [2023-06-24 17:06:23] INFO root fetch - main [MainThread]: Store serial: [18630150]
+[2023-06-24 17:11:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630150]
+[2023-06-24 17:11:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnx
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autooc
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autooc
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bantam
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydatawork
+[2023-06-24 17:11:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: transllm
+[2023-06-24 17:11:32] WARNING root fetch - processPackages [cnx]: Skipping, unable to determine old version
+[2023-06-24 17:11:32] INFO root fetch - main [MainThread]: End processing [cnx] error
+[2023-06-24 17:11:32] INFO root fetch - processPackages [autooc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-24 17:11:32] INFO root fetch - processPackages [autooc]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-24 17:11:32] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 17:11:32] INFO root fetch - processPackages [bantam]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-06-24 17:11:32] INFO root fetch - processPackages [transllm]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-24 17:11:32] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-24 17:11:32] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/58/4f/7da459a30306e15909cad5f4abf817e31d03528f5b3c55b2ccf09aafd9c9/transllm-0.1.6.tar.gz
+[2023-06-24 17:11:32] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 17:11:32] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/07/5e/7d72d1876d7353701d0107c4b7074f13c0f46ef686af5957deaefa6ba2d6/autooc-0.0.6.tar.gz
+[2023-06-24 17:11:32] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/07/5e/7d72d1876d7353701d0107c4b7074f13c0f46ef686af5957deaefa6ba2d6/autooc-0.0.6.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/47/6f/e5a717847010e574275c6a4c72dd813ca4d4fb2de8d1eb9958040b6b0d2c/bantam-2.4.4.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/2d/3c/6696763feec29e2d10d1f2ce216e1f8b7abbe1bae1285b11b665e4b53ba1/transllm-0.1.7.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 17:11:33] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 17:11:33] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/e6/81/82cceb5e4a9d90ce9a14d3eca1cff68a886e9327eff0ad43d4bee0493c26/autooc-0.0.7.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/e6/81/82cceb5e4a9d90ce9a14d3eca1cff68a886e9327eff0ad43d4bee0493c26/autooc-0.0.7.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-24 17:11:33] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230624/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-24 17:11:33] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/be/f4/581ee23211a4053ced7fbfb98c5bb2800865f831f89cdd13b33ff7a657b2/bantam-2.4.5.tar.gz
+[2023-06-24 17:11:33] INFO root fetch - processPackages [transllm]: executing diffoscope
+[2023-06-24 17:11:33] INFO root fetch - processPackages [transllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transllm-0.1.6.tar.gz tmp/transllm-0.1.7.tar.gz --markdown 20230624/t/transllm/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-24 17:11:33] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-24 17:11:33] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.4.4.tar.gz tmp/bantam-2.4.5.tar.gz --markdown 20230624/b/bantam/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-06-24 17:11:33] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:11:33] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:11:33] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.6.tar.gz tmp/autooc-0.0.7.tar.gz --markdown 20230624/a/autooc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-24 17:11:33] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.6.tar.gz tmp/autooc-0.0.7.tar.gz --markdown 20230624/a/autooc/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-24 17:11:34] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 17:11:34] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 17:11:34] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 17:11:34] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-24 17:11:34] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-24 17:11:34] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-24 17:11:34] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.6.tar.gz]
+[2023-06-24 17:11:34] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.7.tar.gz]
+[2023-06-24 17:11:34] INFO root fetch - main [MainThread]: End processing [transllm]: success
+[2023-06-24 17:11:35] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.4.tar.gz]
+[2023-06-24 17:11:35] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.5.tar.gz]
+[2023-06-24 17:11:35] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-24 17:11:35] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.6.tar.gz]
+[2023-06-24 17:11:35] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.7.tar.gz]
+[2023-06-24 17:11:35] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:11:35] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:11:35] INFO root fetch - main [MainThread]: Store serial: [18630184]
