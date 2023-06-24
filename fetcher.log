@@ -6862,3 +6862,24 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:02:14] INFO root fetch - processPackages [gpubs]: Remove: archive file [/home/abi/fetcher/tmp/gpubs-2.tar.gz]
 [2023-06-24 04:02:14] INFO root fetch - main [MainThread]: End processing [gpubs]: success
 [2023-06-24 04:02:14] INFO root fetch - main [MainThread]: Store serial: [18626261]
+[2023-06-24 04:07:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626261]
+[2023-06-24 04:07:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 04:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkadw
+[2023-06-24 04:07:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openai-functions
+[2023-06-24 04:07:23] INFO root fetch - processPackages [tkadw]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-24 04:07:23] INFO root fetch - processPackages [openai-functions]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-24 04:07:23] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/f3/40/40c18510a6c7ed9f1cb6ca9c763cd490149308252f30b86b5cdff4448fae/tkadw-0.1.5.tar.gz
+[2023-06-24 04:07:23] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/9f/b4/34d50a2d66546906950a1b8917a1c4dbefac418a59887fe084732991062a/openai_functions-0.5.4.tar.gz
+[2023-06-24 04:07:23] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/5a/78/8decf6b078a39cb7cccb6c7469f0b55bdf67e59cac2aed172b02dc73e163/tkadw-0.2.0.tar.gz
+[2023-06-24 04:07:23] INFO root fetch - processPackages [openai-functions]: Downloading https://files.pythonhosted.org/packages/ea/5c/8ea5ce1443077ec4b87689dda05badc13d361cd7574813fa2141fd9e85fc/openai_functions-0.5.5.tar.gz
+[2023-06-24 04:07:23] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-24 04:07:23] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.1.5.tar.gz tmp/tkadw-0.2.0.tar.gz --markdown 20230624/t/tkadw/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 04:07:23] INFO root fetch - processPackages [openai-functions]: executing diffoscope
+[2023-06-24 04:07:23] INFO root fetch - processPackages [openai-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_functions-0.5.4.tar.gz tmp/openai_functions-0.5.5.tar.gz --markdown 20230624/o/openai-functions/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-24 04:07:25] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.5.4.tar.gz]
+[2023-06-24 04:07:25] INFO root fetch - processPackages [openai-functions]: Remove: archive file [/home/abi/fetcher/tmp/openai_functions-0.5.5.tar.gz]
+[2023-06-24 04:07:25] INFO root fetch - main [MainThread]: End processing [openai-functions]: success
+[2023-06-24 04:07:25] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.1.5.tar.gz]
+[2023-06-24 04:07:25] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.0.tar.gz]
+[2023-06-24 04:07:25] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-24 04:07:25] INFO root fetch - main [MainThread]: Store serial: [18626268]
