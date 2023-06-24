@@ -3032,3 +3032,32 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 02:49:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl.zip]
 [2023-06-24 02:49:21] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-24 02:49:21] INFO root fetch - main [MainThread]: Store serial: [18624938]
+[2023-06-24 02:54:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624938]
+[2023-06-24 02:54:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 02:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: backports.functools-lru-cache
+[2023-06-24 02:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: holle-world-test
+[2023-06-24 02:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-06-24 02:54:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantconnect-stubs
+[2023-06-24 02:54:29] WARNING root fetch - processPackages [holle-world-test]: Skipping, unable to determine old version
+[2023-06-24 02:54:29] INFO root fetch - main [MainThread]: End processing [holle-world-test] error
+[2023-06-24 02:54:29] INFO root fetch - processPackages [backports.functools-lru-cache]: New version: [1.6.5] Old Version: [1.6.4]
+[2023-06-24 02:54:29] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-24 02:54:30] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-24 02:54:30] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-24 02:54:30] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-24 02:54:30] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-24 02:54:30] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-24 02:54:30] INFO root fetch - processPackages [backports.functools-lru-cache]: Downloading https://files.pythonhosted.org/packages/95/9f/122a41912932c77d5b8e6cab6bd456e6270211a3ed7248a80c235179a012/backports.functools_lru_cache-1.6.4.tar.gz
+[2023-06-24 02:54:30] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-24 02:54:30] INFO root fetch - processPackages [backports.functools-lru-cache]: Downloading https://files.pythonhosted.org/packages/d7/e9/2585a2b3de3b246ad90370a3a3d19b82b857784975559b44122a4cb5ceb7/backports.functools_lru_cache-1.6.5.tar.gz
+[2023-06-24 02:54:30] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-24 02:54:30] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230624/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-24 02:54:30] INFO root fetch - processPackages [backports.functools-lru-cache]: executing diffoscope
+[2023-06-24 02:54:30] INFO root fetch - processPackages [backports.functools-lru-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backports.functools_lru_cache-1.6.4.tar.gz tmp/backports.functools_lru_cache-1.6.5.tar.gz --markdown 20230624/b/backports.functools-lru-cache/1.6.4-1.6.5/diff.md --exclude *.pyd
+[2023-06-24 02:54:31] INFO root fetch - processPackages [backports.functools-lru-cache]: Remove: archive file [/home/abi/fetcher/tmp/backports.functools_lru_cache-1.6.4.tar.gz]
+[2023-06-24 02:54:31] INFO root fetch - processPackages [backports.functools-lru-cache]: Remove: archive file [/home/abi/fetcher/tmp/backports.functools_lru_cache-1.6.5.tar.gz]
+[2023-06-24 02:54:31] INFO root fetch - main [MainThread]: End processing [backports.functools-lru-cache]: success
+[2023-06-24 02:54:35] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-24 02:54:35] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-24 02:54:35] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-24 02:54:35] INFO root fetch - main [MainThread]: Store serial: [18624952]
