@@ -20128,3 +20128,95 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:15:59] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl.zip]
 [2023-06-24 23:15:59] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
 [2023-06-24 23:15:59] INFO root fetch - main [MainThread]: Store serial: [18632049]
+[2023-06-24 23:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632049]
+[2023-06-24 23:21:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyvipe
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unihan-etl
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morp
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git2doc
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arabica
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xcomfort
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deeponto
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FuncsForSPO
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: prom
+[2023-06-24 23:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: irregular-chars
+[2023-06-24 23:21:09] WARNING root fetch - processPackages [pyvipe]: Skipping, unable to determine old version
+[2023-06-24 23:21:09] INFO root fetch - processPackages [pyvipe]: Start processing: multion
+[2023-06-24 23:21:09] INFO root fetch - main [MainThread]: End processing [pyvipe] error
+[2023-06-24 23:21:09] INFO root fetch - processPackages [deeponto]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [irregular-chars]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [prom]: New version: [4.4.0] Old Version: [4.3.3]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [deeponto]: Downloading https://files.pythonhosted.org/packages/c8/a8/e70b06f01e491f3507446ca496caabaad6662d3c0a0f3b8accb723feed52/deeponto-0.7.0.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/af/5c/9958c9e620d36c14ec2ebb3bd50bb0bc56bb5a43b3dca9bd422df3033c99/irregular-chars-1.1.0.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [morp]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [xcomfort]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [git2doc]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-24 23:21:09] WARNING root fetch - processPackages [deeponto]: Skipping package: exceeds size limit 30358264>=10485760
+[2023-06-24 23:21:09] INFO root fetch - main [MainThread]: End processing [deeponto] error
+[2023-06-24 23:21:09] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [arabica]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-24 23:21:09] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/37/14/066e914a42711f3958eb560df7f67a79c85fb27c2f5c35fc493218718e8c/prom-4.3.3.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/3c/bf/a9517e23701e61f7b7365cddf27eb04f663d88530a0edd3f96ad03444380/irregular-chars-1.2.0.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [morp]: Downloading https://files.pythonhosted.org/packages/91/02/270879a68cbfb7a1d20f087d5921496d9db1917e0d32012188dae072d5b0/morp-5.2.1.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/c9/71/40d9f51f1e43bc7550ea07e6a3ab353a39981755be51ff5a443e4ef73c99/git2doc-0.2.1.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [xcomfort]: Downloading https://files.pythonhosted.org/packages/0e/62/dcfe9bbd901be544e567c92e050d7fca453ab39182a87fde49ce58f554a3/xcomfort-0.0.8.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [irregular-chars]: executing diffoscope
+[2023-06-24 23:21:09] INFO root fetch - processPackages [irregular-chars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irregular-chars-1.1.0.tar.gz tmp/irregular-chars-1.2.0.tar.gz --markdown 20230624/i/irregular-chars/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-24 23:21:09] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/cd/ba/7f739942d7127e1f407249977c90f4f6404cda228ca8ec1d763659a553ab/FuncsForSPO-6.0.2.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/92/58/97c425b4d8a7fb1e2b2dda2e2232bb7348fb41711228c16559d796043279/arabica-1.6.3.tar.gz
+[2023-06-24 23:21:09] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-24 23:21:09] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230624/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 23:21:09] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-06-24 23:21:09] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230624/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-24 23:21:10] ERROR root fetch - processPackages [multion]: Diffoscope failed: Error: error creating container storage: the container name "agitated_zhukovsky" is already in use by "79b62fb017323a9ad6a8ec56ef168595069e8805c71f8328e22835ad6dd933ef". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-24 23:21:10] INFO root fetch - main [MainThread]: End processing [multion] error
+[2023-06-24 23:21:10] INFO root fetch - processPackages [git2doc]: Downloading https://files.pythonhosted.org/packages/91/8e/1d53acb3c8cdbf5ab45b0c52901f2a18cd937398a0fffcfb357b769c4226/git2doc-0.2.2.tar.gz
+[2023-06-24 23:21:10] INFO root fetch - processPackages [prom]: Downloading https://files.pythonhosted.org/packages/e0/b8/45f2c4a396bd3afcdd82301607157f2ab6177d55d6a0ee9a64bf945136b1/prom-4.4.0.tar.gz
+[2023-06-24 23:21:10] INFO root fetch - processPackages [morp]: Downloading https://files.pythonhosted.org/packages/b2/4b/40c24f2a01cbba02eb24f091d278846cf37c5912d39f93907ea88d1476e4/morp-5.2.2.tar.gz
+[2023-06-24 23:21:10] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/90/51/5c8d08be4590038f3721d851529482a9efdd7e11ef4e667a4bd87332c3be/FuncsForSPO-6.1.0.tar.gz
+[2023-06-24 23:21:10] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/fa/ac/6f081507afd3c6e6f099c41d868714405dd2bf71ad2b1579d193d9a60b4d/arabica-1.6.4.tar.gz
+[2023-06-24 23:21:10] INFO root fetch - processPackages [git2doc]: executing diffoscope
+[2023-06-24 23:21:10] INFO root fetch - processPackages [git2doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git2doc-0.2.1.tar.gz tmp/git2doc-0.2.2.tar.gz --markdown 20230624/g/git2doc/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-24 23:21:10] INFO root fetch - processPackages [morp]: executing diffoscope
+[2023-06-24 23:21:10] INFO root fetch - processPackages [morp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morp-5.2.1.tar.gz tmp/morp-5.2.2.tar.gz --markdown 20230624/m/morp/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-06-24 23:21:10] INFO root fetch - processPackages [prom]: executing diffoscope
+[2023-06-24 23:21:10] INFO root fetch - processPackages [prom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prom-4.3.3.tar.gz tmp/prom-4.4.0.tar.gz --markdown 20230624/p/prom/4.3.3-4.4.0/diff.md --exclude *.pyd
+[2023-06-24 23:21:10] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-24 23:21:10] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.0.2.tar.gz tmp/FuncsForSPO-6.1.0.tar.gz --markdown 20230624/F/FuncsForSPO/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-06-24 23:21:10] INFO root fetch - processPackages [xcomfort]: Downloading https://files.pythonhosted.org/packages/03/8a/c86951fd973e7598f899c714abadc67ce7da7a061f73d155ecf9aa156cd8/xcomfort-0.0.9.tar.gz
+[2023-06-24 23:21:10] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-06-24 23:21:10] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.6.3.tar.gz tmp/arabica-1.6.4.tar.gz --markdown 20230624/a/arabica/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-24 23:21:10] INFO root fetch - processPackages [xcomfort]: executing diffoscope
+[2023-06-24 23:21:10] INFO root fetch - processPackages [xcomfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcomfort-0.0.8.tar.gz tmp/xcomfort-0.0.9.tar.gz --markdown 20230624/x/xcomfort/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 23:21:11] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.1.0.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.2.0.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
+[2023-06-24 23:21:11] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-06-24 23:21:11] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.1.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - processPackages [git2doc]: Remove: archive file [/home/abi/fetcher/tmp/git2doc-0.2.2.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - main [MainThread]: End processing [git2doc]: success
+[2023-06-24 23:21:11] INFO root fetch - processPackages [morp]: Remove: archive file [/home/abi/fetcher/tmp/morp-5.2.1.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - processPackages [morp]: Remove: archive file [/home/abi/fetcher/tmp/morp-5.2.2.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - main [MainThread]: End processing [morp]: success
+[2023-06-24 23:21:11] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.3.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - processPackages [arabica]: Remove: archive file [/home/abi/fetcher/tmp/arabica-1.6.4.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-06-24 23:21:11] INFO root fetch - processPackages [xcomfort]: Remove: archive file [/home/abi/fetcher/tmp/xcomfort-0.0.8.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - processPackages [xcomfort]: Remove: archive file [/home/abi/fetcher/tmp/xcomfort-0.0.9.tar.gz]
+[2023-06-24 23:21:11] INFO root fetch - main [MainThread]: End processing [xcomfort]: success
+[2023-06-24 23:21:12] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.3.3.tar.gz]
+[2023-06-24 23:21:12] INFO root fetch - processPackages [prom]: Remove: archive file [/home/abi/fetcher/tmp/prom-4.4.0.tar.gz]
+[2023-06-24 23:21:12] INFO root fetch - main [MainThread]: End processing [prom]: success
+[2023-06-24 23:21:12] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.0.2.tar.gz]
+[2023-06-24 23:21:12] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.0.tar.gz]
+[2023-06-24 23:21:12] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-24 23:21:12] INFO root fetch - main [MainThread]: Store serial: [18632083]
