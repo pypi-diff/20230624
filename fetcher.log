@@ -14963,3 +14963,175 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-24 15:57:41] INFO root fetch - main [MainThread]: End processing [deeppipe-api] error
 [2023-06-24 15:57:41] INFO root fetch - main [MainThread]: Store serial: [18629647]
+[2023-06-24 16:02:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629647]
+[2023-06-24 16:02:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YoHtml
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deeppipe-api
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spyder-line-profiler
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-model-builder
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mojo-xmodules
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: boombig
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: illumigator
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyvhs
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deeppipe-api
+[2023-06-24 16:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OpenAIAuth
+[2023-06-24 16:02:49] INFO root fetch - processPackages [deeppipe-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 16:02:49] INFO root fetch - processPackages [YoHtml]: New version: [0.5] Old Version: [0.3]
+[2023-06-24 16:02:49] INFO root fetch - processPackages [spyder-line-profiler]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 16:02:49] INFO root fetch - processPackages [deeppipe-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 16:02:49] INFO root fetch - processPackages [pyvhs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 16:02:49] INFO root fetch - processPackages [sqlalchemy-model-builder]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-06-24 16:02:49] WARNING root fetch - processPackages [illumigator]: Skipping, unable to determine old version
+[2023-06-24 16:02:49] INFO root fetch - processPackages [boombig]: New version: [0.3] Old Version: [0.2]
+[2023-06-24 16:02:49] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-06-24 16:02:49] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 16:02:49] INFO root fetch - processPackages [YoHtml]: Downloading https://files.pythonhosted.org/packages/b9/a0/b0682d9b35f913ef4a5a7da64bb07186feffbbe35ef52f0d5d5569d7d737/YoHtml-0.3.tar.gz
+[2023-06-24 16:02:49] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/6d/07/eafcb40ef7b0df49b8a370dcfa111aa74189af8251f3698bb407999f9ffb/deeppipe_api-0.0.8.tar.gz
+[2023-06-24 16:02:49] INFO root fetch - processPackages [boombig]: Downloading https://files.pythonhosted.org/packages/03/80/6e3a4381dba880cf642ce9f576c2d5f1e2ae8fa9227ff9da5f31e8ba5941/boombig-0.2.tar.gz
+[2023-06-24 16:02:49] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-06-24 16:02:49] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/6d/07/eafcb40ef7b0df49b8a370dcfa111aa74189af8251f3698bb407999f9ffb/deeppipe_api-0.0.8.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [OpenAIAuth]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-06-24 16:02:50] INFO root fetch - processPackages [spyder-line-profiler]: Downloading https://files.pythonhosted.org/packages/2d/0c/bc05fe9698eada337d65922387a113558fe5250f624f8cc891ce801b8e12/spyder_line_profiler-0.3.1.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [pyvhs]: Downloading https://files.pythonhosted.org/packages/da/59/7d984a48a276ab0bd4ac595df066271f5032c6e2672d60c36467a6edfbe8/pyvhs-0.1.0.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [sqlalchemy-model-builder]: Downloading https://files.pythonhosted.org/packages/66/27/48668d8ecd0830f8600fc256c47eaf90e3415b78976daa5f865a90766868/sqlalchemy-model-builder-0.0.6.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [OpenAIAuth]: Downloading https://files.pythonhosted.org/packages/36/a7/970e942bae840b9a0cc6f2118f538cb0e77cd8d8b2eaf69e33ca5f9acfcd/OpenAIAuth-1.0.3.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [YoHtml]: Downloading https://files.pythonhosted.org/packages/df/21/73e46b4117ef780cd1a0057e4262e3b83f43834b83f2becb3019004dd04e/YoHtml-0.5.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [boombig]: Downloading https://files.pythonhosted.org/packages/9c/37/c4eafbf015e4d2d29d220d5820e7490eeb9bcf9656b022b6fd98238f8055/boombig-0.3.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/ee/41/26de2e583f35a1ee09ea35ce94370883409d4cd54f128fc22f259c8ef2f9/deeppipe_api-0.0.9.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/ee/41/26de2e583f35a1ee09ea35ce94370883409d4cd54f128fc22f259c8ef2f9/deeppipe_api-0.0.9.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230624/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [boombig]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [boombig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boombig-0.2.tar.gz tmp/boombig-0.3.tar.gz --markdown 20230624/b/boombig/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [YoHtml]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [YoHtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YoHtml-0.3.tar.gz tmp/YoHtml-0.5.tar.gz --markdown 20230624/Y/YoHtml/0.3-0.5/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [pyvhs]: Downloading https://files.pythonhosted.org/packages/42/5f/7dcfc9dc86683f31748fe6de473c61eba22b6e6acc483d39b0f2dc5b1e32/pyvhs-0.1.1.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [OpenAIAuth]: Downloading https://files.pythonhosted.org/packages/41/2e/3fe3b2a43e7a38250e53a40bf0a3a422e31e44c6b4a3baeffecf57311697/OpenAIAuth-2.0.0.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [spyder-line-profiler]: Downloading https://files.pythonhosted.org/packages/c9/69/dfc9729de1f0ae95c13ef576c19a624aa379d1d143c6fb397c203f0b785e/spyder_line_profiler-0.3.2.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [sqlalchemy-model-builder]: Downloading https://files.pythonhosted.org/packages/cd/7e/88391bb7634827f2f60ad98d60d08aad3fcf7b61b6adaf5591aaa3d05343/sqlalchemy_model_builder-0.1.0.tar.gz
+[2023-06-24 16:02:50] INFO root fetch - processPackages [deeppipe-api]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [deeppipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppipe_api-0.0.8.tar.gz tmp/deeppipe_api-0.0.9.tar.gz --markdown 20230624/d/deeppipe-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [deeppipe-api]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [deeppipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppipe_api-0.0.8.tar.gz tmp/deeppipe_api-0.0.9.tar.gz --markdown 20230624/d/deeppipe-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [pyvhs]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [pyvhs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvhs-0.1.0.tar.gz tmp/pyvhs-0.1.1.tar.gz --markdown 20230624/p/pyvhs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [sqlalchemy-model-builder]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [sqlalchemy-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-model-builder-0.0.6.tar.gz tmp/sqlalchemy_model_builder-0.1.0.tar.gz --markdown 20230624/s/sqlalchemy-model-builder/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [spyder-line-profiler]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [spyder-line-profiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyder_line_profiler-0.3.1.tar.gz tmp/spyder_line_profiler-0.3.2.tar.gz --markdown 20230624/s/spyder-line-profiler/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 16:02:50] INFO root fetch - processPackages [OpenAIAuth]: executing diffoscope
+[2023-06-24 16:02:50] INFO root fetch - processPackages [OpenAIAuth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenAIAuth-1.0.3.tar.gz tmp/OpenAIAuth-2.0.0.tar.gz --markdown 20230624/O/OpenAIAuth/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-24 16:02:51] INFO root fetch - processPackages [boombig]: Remove: archive file [/home/abi/fetcher/tmp/boombig-0.2.tar.gz]
+[2023-06-24 16:02:51] INFO root fetch - processPackages [boombig]: Remove: archive file [/home/abi/fetcher/tmp/boombig-0.3.tar.gz]
+[2023-06-24 16:02:51] INFO root fetch - main [MainThread]: End processing [boombig]: success
+[2023-06-24 16:02:51] INFO root fetch - processPackages [YoHtml]: Remove: archive file [/home/abi/fetcher/tmp/YoHtml-0.3.tar.gz]
+[2023-06-24 16:02:51] INFO root fetch - processPackages [YoHtml]: Remove: archive file [/home/abi/fetcher/tmp/YoHtml-0.5.tar.gz]
+[2023-06-24 16:02:51] INFO root fetch - main [MainThread]: End processing [YoHtml]: success
+[2023-06-24 16:02:52] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.8.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.9.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - main [MainThread]: End processing [deeppipe-api]: success
+[2023-06-24 16:02:52] INFO root fetch - processPackages [pyvhs]: Remove: archive file [/home/abi/fetcher/tmp/pyvhs-0.1.0.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - processPackages [pyvhs]: Remove: archive file [/home/abi/fetcher/tmp/pyvhs-0.1.1.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - main [MainThread]: End processing [pyvhs]: success
+[2023-06-24 16:02:52] INFO root fetch - processPackages [sqlalchemy-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-model-builder-0.0.6.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - processPackages [sqlalchemy-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_model_builder-0.1.0.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - main [MainThread]: End processing [sqlalchemy-model-builder]: success
+[2023-06-24 16:02:52] INFO root fetch - processPackages [spyder-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/spyder_line_profiler-0.3.1.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - processPackages [spyder-line-profiler]: Remove: archive file [/home/abi/fetcher/tmp/spyder_line_profiler-0.3.2.tar.gz]
+[2023-06-24 16:02:52] INFO root fetch - main [MainThread]: End processing [spyder-line-profiler]: success
+[2023-06-24 16:02:52] ERROR root fetch - processPackages [deeppipe-api]: Diffoscope failed: gzip: tmp/deeppipe_api-0.0.9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/deeppipe_api-0.0.9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-24 16:02:52] INFO root fetch - main [MainThread]: End processing [deeppipe-api] error
+[2023-06-24 16:02:53] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-06-24 16:02:53] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-06-24 16:02:53] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-06-24 16:03:45] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-1.0.3.tar.gz]
+[2023-06-24 16:03:45] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-2.0.0.tar.gz]
+[2023-06-24 16:03:45] INFO root fetch - main [MainThread]: End processing [OpenAIAuth]: success
+[2023-06-24 16:03:45] INFO root fetch - main [MainThread]: Store serial: [18629697]
