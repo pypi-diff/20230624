@@ -2966,3 +2966,69 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 02:44:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-06-24 02:44:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-06-24 02:44:01] INFO root fetch - main [MainThread]: Store serial: [18624917]
+[2023-06-24 02:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624917]
+[2023-06-24 02:49:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: even-dist
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mini-set
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CONGA
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-prime-rando
+[2023-06-24 02:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kubric-nightly
+[2023-06-24 02:49:09] INFO root fetch - processPackages [mini-set]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [open-prime-rando]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [CONGA]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [even-dist]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306230045] Old Version: [4.9.2.dev202306230044]
+[2023-06-24 02:49:09] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/43/8e/c8834d171ec13f45e514bb10d88176a2d0f8efd7609e3b354dbb2d5f3914/open-prime-rando-0.7.0.tar.gz
+[2023-06-24 02:49:09] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-24 02:49:09] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/2e/70/ac17962704392138d7b396d42ea7deacb9f8fcf10c6e8b3f438395786728/even-dist-0.1.0.tar.gz
+[2023-06-24 02:49:09] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/ad/19/8d2ab67de17756611a8378c25afd2b06a187b09eec43cbcdd7ee275dbc63/tfds-nightly-4.9.2.dev202306230044.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [mini-set]: Downloading https://files.pythonhosted.org/packages/00/20/27a42e82eac2d009ff9fe046732942eb2a017ac5e37f89b4e50018b1d657/mini_set-0.1.0.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [CONGA]: Downloading https://files.pythonhosted.org/packages/02/38/ab184a2ce2508a89815c08a75f2f91837bb6636eae1c06eed2b93af2e116/CONGA-3.0.5.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/eb/08/ff1b86446e2c4338cb3e777659047e7a84b584d068c5da14c1768a0fe5e9/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl
+[2023-06-24 02:49:10] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/fd/91/55aef49b0d733f69301aa79a37e11499124d10595b13a8158f6826235654/open-prime-rando-0.7.1.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230624/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-24 02:49:10] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/e6/45/9726371c8eea2c352cbdcb7380f723c3fb4630c752328136f81d845bb473/even-dist-0.2.0.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [mini-set]: Downloading https://files.pythonhosted.org/packages/27/7b/9ca142144c7a3327722d28c5c028a2519901054f35c8e50e99d8bdb3da94/mini_set-0.1.1.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.7.0.tar.gz tmp/open-prime-rando-0.7.1.tar.gz --markdown 20230624/o/open-prime-rando/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-24 02:49:10] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306230044.tar.gz tmp/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl.zip --markdown 20230624/t/tfds-nightly/4.9.2.dev202306230044-4.9.2.dev202306230045/diff.md --exclude *.pyd
+[2023-06-24 02:49:10] INFO root fetch - processPackages [CONGA]: Downloading https://files.pythonhosted.org/packages/bd/64/10d24b88b9385b67be83ea670a50aab1448f2b01dab96958af6f7a6580de/CONGA-3.0.6.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.1.0.tar.gz tmp/even-dist-0.2.0.tar.gz --markdown 20230624/e/even-dist/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 02:49:10] INFO root fetch - processPackages [mini-set]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [mini-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mini_set-0.1.0.tar.gz tmp/mini_set-0.1.1.tar.gz --markdown 20230624/m/mini-set/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 02:49:10] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-24 02:49:10] INFO root fetch - processPackages [CONGA]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [CONGA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CONGA-3.0.5.tar.gz tmp/CONGA-3.0.6.tar.gz --markdown 20230624/C/CONGA/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-06-24 02:49:10] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-24 02:49:10] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230624/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-24 02:49:11] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-24 02:49:11] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-24 02:49:11] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-24 02:49:11] INFO root fetch - processPackages [mini-set]: Remove: archive file [/home/abi/fetcher/tmp/mini_set-0.1.0.tar.gz]
+[2023-06-24 02:49:11] INFO root fetch - processPackages [mini-set]: Remove: archive file [/home/abi/fetcher/tmp/mini_set-0.1.1.tar.gz]
+[2023-06-24 02:49:11] INFO root fetch - main [MainThread]: End processing [mini-set]: success
+[2023-06-24 02:49:12] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.1.0.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.0.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 02:49:12] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.7.0.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.7.1.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-06-24 02:49:12] INFO root fetch - processPackages [CONGA]: Remove: archive file [/home/abi/fetcher/tmp/CONGA-3.0.5.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - processPackages [CONGA]: Remove: archive file [/home/abi/fetcher/tmp/CONGA-3.0.6.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - main [MainThread]: End processing [CONGA]: success
+[2023-06-24 02:49:12] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-24 02:49:12] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-24 02:49:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306230044.tar.gz]
+[2023-06-24 02:49:21] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.2.dev202306230045-py3-none-any.whl.zip]
+[2023-06-24 02:49:21] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-24 02:49:21] INFO root fetch - main [MainThread]: Store serial: [18624938]
