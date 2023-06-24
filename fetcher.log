@@ -19509,3 +19509,43 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 22:19:32] INFO root fetch - processPackages [socketify]: Remove: archive file [/home/abi/fetcher/tmp/socketify-0.0.9.tar.gz]
 [2023-06-24 22:19:32] INFO root fetch - main [MainThread]: End processing [socketify]: success
 [2023-06-24 22:19:32] INFO root fetch - main [MainThread]: Store serial: [18631761]
+[2023-06-24 22:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631761]
+[2023-06-24 22:24:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 22:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irregular-chars
+[2023-06-24 22:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2023-06-24 22:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-24 22:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: theboringlibrary
+[2023-06-24 22:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: porringer-core
+[2023-06-24 22:24:41] WARNING root fetch - processPackages [porringer-core]: Skipping, unable to determine old version
+[2023-06-24 22:24:41] INFO root fetch - main [MainThread]: End processing [porringer-core] error
+[2023-06-24 22:24:41] INFO root fetch - processPackages [irregular-chars]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-24 22:24:41] INFO root fetch - processPackages [theboringlibrary]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 22:24:41] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 22:24:41] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/5f/77/d12cabbf40fafb3f035d457a7721dd5cd3ba1aeaf1fb71260d003c7b95e9/theboringlibrary-0.3.1.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/af/5c/9958c9e620d36c14ec2ebb3bd50bb0bc56bb5a43b3dca9bd422df3033c99/irregular-chars-1.1.0.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/f1/8c/a154e303814ef3f236bcb1c22fe56cc13e8fd8cc6a3a42d340fae3a43df0/theboringlibrary-0.3.2.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [theboringlibrary]: executing diffoscope
+[2023-06-24 22:24:42] INFO root fetch - processPackages [theboringlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theboringlibrary-0.3.1.tar.gz tmp/theboringlibrary-0.3.2.tar.gz --markdown 20230624/t/theboringlibrary/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 22:24:42] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 22:24:42] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/3c/bf/a9517e23701e61f7b7365cddf27eb04f663d88530a0edd3f96ad03444380/irregular-chars-1.2.0.tar.gz
+[2023-06-24 22:24:42] INFO root fetch - processPackages [irregular-chars]: executing diffoscope
+[2023-06-24 22:24:42] INFO root fetch - processPackages [irregular-chars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irregular-chars-1.1.0.tar.gz tmp/irregular-chars-1.2.0.tar.gz --markdown 20230624/i/irregular-chars/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-24 22:24:43] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.3.1.tar.gz]
+[2023-06-24 22:24:43] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.3.2.tar.gz]
+[2023-06-24 22:24:43] INFO root fetch - main [MainThread]: End processing [theboringlibrary]: success
+[2023-06-24 22:24:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-24 22:24:43] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-24 22:24:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 22:24:43] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 22:24:44] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.1.0.tar.gz]
+[2023-06-24 22:24:44] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.2.0.tar.gz]
+[2023-06-24 22:24:44] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
+[2023-06-24 22:24:44] INFO root fetch - main [MainThread]: Store serial: [18631821]
