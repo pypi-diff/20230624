@@ -10176,3 +10176,72 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 07:42:12] INFO root fetch - processPackages [rainbow-connection]: Remove: archive file [/home/abi/fetcher/tmp/rainbow-connection-0.0.7.tar.gz]
 [2023-06-24 07:42:12] INFO root fetch - main [MainThread]: End processing [rainbow-connection]: success
 [2023-06-24 07:42:12] INFO root fetch - main [MainThread]: Store serial: [18627441]
+[2023-06-24 07:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627441]
+[2023-06-24 07:47:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxutil
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addons-oca-web
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CKAstroTools
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-website-slides
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diot
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-website-portal-contact
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pgpt
+[2023-06-24 07:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: groupme-bot
+[2023-06-24 07:47:21] INFO root fetch - processPackages [diot]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-06-24 07:47:21] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 07:47:21] WARNING root fetch - processPackages [pgpt]: Skipping, unable to determine old version
+[2023-06-24 07:47:21] INFO root fetch - main [MainThread]: End processing [pgpt] error
+[2023-06-24 07:47:21] INFO root fetch - processPackages [odoo8-addon-website-slides]: New version: [8.0.2.0.1.99.dev9] Old Version: [8.0.2.0.1.99.dev8]
+[2023-06-24 07:47:21] INFO root fetch - processPackages [odoo14-addons-oca-web]: New version: [14.0.20230623.0] Old Version: [14.0.20230622.0]
+[2023-06-24 07:47:21] INFO root fetch - processPackages [groupme-bot]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 07:47:21] INFO root fetch - processPackages [CKAstroTools]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 07:47:21] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-06-24 07:47:21] INFO root fetch - processPackages [odoo14-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/e6/8a/d74fe966829091c40815cae4827e95f789099e878f9977e864c39431c14d/odoo14_addons_oca_web-14.0.20230622.0-py3-none-any.whl
+[2023-06-24 07:47:21] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/1e/10/2da58bae93177e123814189260e9d6071d49cb0aa407a242c8524e2c27e8/CKAstroTools-0.0.5.tar.gz
+[2023-06-24 07:47:21] INFO root fetch - processPackages [diot]: Downloading https://files.pythonhosted.org/packages/76/49/1ffeb0e2ccc0e56f79193d70f924ebb4880f78a4ae72cfa97ca85b084319/diot-0.1.8.tar.gz
+[2023-06-24 07:47:21] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2023-06-24 07:47:21] INFO root fetch - processPackages [groupme-bot]: Downloading https://files.pythonhosted.org/packages/e3/44/35195fc4c8ced34803ff34972b53c718316981e91ff27fe8ca6bc3d14829/groupme-bot-0.2.8.tar.gz
+[2023-06-24 07:47:21] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/db/73/bc846d26c50e08f2a11db15308de999701d2ef36e74b15a6254d448d2c0b/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl
+[2023-06-24 07:47:21] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: Downloading https://files.pythonhosted.org/packages/49/24/3b9f35f750e879d9c3c2abb3c54a6f675fe4ad4aabc91f8790e9289cb4ba/odoo12_addon_website_portal_contact-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-06-24 07:47:22] INFO root fetch - processPackages [odoo14-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/0a/c3/aba437f2158caa9ac69af04d9fe026400ffcf08c6ad3b7da00299063f699/odoo14_addons_oca_web-14.0.20230623.0-py3-none-any.whl
+[2023-06-24 07:47:22] INFO root fetch - processPackages [CKAstroTools]: Downloading https://files.pythonhosted.org/packages/62/6d/424ad7c3b64981c146d7416fbfadf297ddfcba636cfe5174d4a890c1f250/CKAstroTools-0.0.6.tar.gz
+[2023-06-24 07:47:22] INFO root fetch - processPackages [diot]: Downloading https://files.pythonhosted.org/packages/2a/6d/f0ac2d0089714236033adf3cd849a020da739712d01749efb6672d334416/diot-0.2.0.tar.gz
+[2023-06-24 07:47:22] INFO root fetch - processPackages [odoo14-addons-oca-web]: executing diffoscope
+[2023-06-24 07:47:22] INFO root fetch - processPackages [odoo14-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_web-14.0.20230622.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_web-14.0.20230623.0-py3-none-any.whl.zip --markdown 20230624/o/odoo14-addons-oca-web/14.0.20230622.0-14.0.20230623.0/diff.md --exclude *.pyd
+[2023-06-24 07:47:22] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2023-06-24 07:47:22] INFO root fetch - processPackages [CKAstroTools]: executing diffoscope
+[2023-06-24 07:47:22] INFO root fetch - processPackages [diot]: executing diffoscope
+[2023-06-24 07:47:22] INFO root fetch - processPackages [CKAstroTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CKAstroTools-0.0.5.tar.gz tmp/CKAstroTools-0.0.6.tar.gz --markdown 20230624/C/CKAstroTools/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 07:47:22] INFO root fetch - processPackages [diot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diot-0.1.8.tar.gz tmp/diot-0.2.0.tar.gz --markdown 20230624/d/diot/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 07:47:22] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: Downloading https://files.pythonhosted.org/packages/18/f6/1b5bff68ed0c849422a6143eac38c2327ab5817e1a3a520a309444159d18/odoo12_addon_website_portal_contact-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-06-24 07:47:22] INFO root fetch - processPackages [groupme-bot]: Downloading https://files.pythonhosted.org/packages/da/b4/623f84b8ae2e2cff32ee65489b4de5cd5ea15152c548edd8e17401bb5419/groupme-bot-0.2.9.tar.gz
+[2023-06-24 07:47:22] INFO root fetch - processPackages [groupme-bot]: executing diffoscope
+[2023-06-24 07:47:22] INFO root fetch - processPackages [groupme-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groupme-bot-0.2.8.tar.gz tmp/groupme-bot-0.2.9.tar.gz --markdown 20230624/g/groupme-bot/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 07:47:22] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: executing diffoscope
+[2023-06-24 07:47:22] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_portal_contact-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_website_portal_contact-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230624/o/odoo12-addon-website-portal-contact/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-24 07:47:22] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2023-06-24 07:47:22] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20230624/p/pxutil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 07:47:23] INFO root fetch - processPackages [odoo8-addon-website-slides]: Downloading https://files.pythonhosted.org/packages/9f/ce/4a233360dfbbadf7571ab2ce56b8a846bac4677b5cc4245467711c98d8ae/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl
+[2023-06-24 07:47:23] INFO root fetch - processPackages [odoo14-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_web-14.0.20230622.0-py3-none-any.whl.zip]
+[2023-06-24 07:47:23] INFO root fetch - processPackages [odoo14-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_web-14.0.20230623.0-py3-none-any.whl.zip]
+[2023-06-24 07:47:23] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-web]: success
+[2023-06-24 07:47:23] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.1.8.tar.gz]
+[2023-06-24 07:47:23] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.2.0.tar.gz]
+[2023-06-24 07:47:23] INFO root fetch - main [MainThread]: End processing [diot]: success
+[2023-06-24 07:47:23] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.5.tar.gz]
+[2023-06-24 07:47:23] INFO root fetch - processPackages [CKAstroTools]: Remove: archive file [/home/abi/fetcher/tmp/CKAstroTools-0.0.6.tar.gz]
+[2023-06-24 07:47:23] INFO root fetch - main [MainThread]: End processing [CKAstroTools]: success
+[2023-06-24 07:47:24] INFO root fetch - processPackages [groupme-bot]: Remove: archive file [/home/abi/fetcher/tmp/groupme-bot-0.2.8.tar.gz]
+[2023-06-24 07:47:24] INFO root fetch - processPackages [groupme-bot]: Remove: archive file [/home/abi/fetcher/tmp/groupme-bot-0.2.9.tar.gz]
+[2023-06-24 07:47:24] INFO root fetch - main [MainThread]: End processing [groupme-bot]: success
+[2023-06-24 07:47:24] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2023-06-24 07:47:24] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2023-06-24 07:47:24] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2023-06-24 07:47:24] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_portal_contact-12.0.1.0.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-24 07:47:24] INFO root fetch - processPackages [odoo12-addon-website-portal-contact]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_portal_contact-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-24 07:47:24] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-portal-contact]: success
+[2023-06-24 07:47:24] INFO root fetch - processPackages [odoo8-addon-website-slides]: executing diffoscope
+[2023-06-24 07:47:24] INFO root fetch - processPackages [odoo8-addon-website-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230624/o/odoo8-addon-website-slides/8.0.2.0.1.99.dev8-8.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-24 07:47:26] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev8-py2-none-any.whl.zip]
+[2023-06-24 07:47:26] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip]
+[2023-06-24 07:47:26] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
+[2023-06-24 07:47:26] INFO root fetch - main [MainThread]: Store serial: [18627479]
