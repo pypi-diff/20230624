@@ -18676,3 +18676,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 
 [2023-06-24 21:03:20] INFO root fetch - main [MainThread]: End processing [mycotools] error
 [2023-06-24 21:03:20] INFO root fetch - main [MainThread]: Store serial: [18631364]
+[2023-06-24 21:08:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631364]
+[2023-06-24 21:08:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scProject-stable
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glinkfix
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dockery
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrates
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wasmpy
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: roys-pyxtension
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omnata-plugin-devkit
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parser201
+[2023-06-24 21:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robyn
+[2023-06-24 21:08:30] INFO root fetch - processPackages [glinkfix]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 21:08:30] INFO root fetch - processPackages [dockery]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-24 21:08:30] WARNING root fetch - processPackages [scProject-stable]: Skipping, unable to determine old version
+[2023-06-24 21:08:30] INFO root fetch - main [MainThread]: End processing [scProject-stable] error
+[2023-06-24 21:08:30] INFO root fetch - processPackages [pyrates]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 21:08:30] INFO root fetch - processPackages [parser201]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-24 21:08:30] INFO root fetch - processPackages [wasmpy]: New version: [0.1.1] Old Version: [0.1.0a3]
+[2023-06-24 21:08:30] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 21:08:30] ERROR root fetch - processPackages [roys-pyxtension]: Unable to get metadata: No such project 'roys-pyxtension'
+[2023-06-24 21:08:30] INFO root fetch - main [MainThread]: End processing [roys-pyxtension] error
+[2023-06-24 21:08:30] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-24 21:08:30] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/3f/97/189e80dce7d1c87b3ee7d445adc3515f59e4261c2cc27aafdae600cc9c54/dockery-0.4.0.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [pyrates]: Downloading https://files.pythonhosted.org/packages/66/64/6ab0e2359bf676e6852cc88b1005f480cf3bc7f981aeb4af3889fbe41f70/pyrates-1.0.1.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [glinkfix]: Downloading https://files.pythonhosted.org/packages/25/36/8f802702b2c2e9a5c971e396244d524270c3e7afbe4d31f012059c2c2368/glinkfix-1.0.8.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [wasmpy]: Downloading https://files.pythonhosted.org/packages/f1/ba/fb9b4e6aa39ed0cf33541f0affb2d8b6bacc9158c92f3045a70d6cd00b0e/wasmpy-0.1.0a3.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [parser201]: Downloading https://files.pythonhosted.org/packages/63/2d/e684d57583dfc0611f98e6ab696842eccbb63943fc3d49c089aa4db6a47c/parser201-1.4.0.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [dockery]: Downloading https://files.pythonhosted.org/packages/15/3d/2b45d3f102f808c15140c532b4e29644fbfec8d129d2d880de34fe727113/dockery-0.5.0.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [parser201]: Downloading https://files.pythonhosted.org/packages/5d/d4/18676f7d9f546041fe8040abd8bea52a5808b97ad9cda2f45686ea2f9239/parser201-1.4.1.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [glinkfix]: Downloading https://files.pythonhosted.org/packages/39/d5/415e54dbe582f8f4c9b2f47594e6369d29c201fdbe0c69a1d1fd08b04c51/glinkfix-1.0.9.tar.gz
+[2023-06-24 21:08:30] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-24 21:08:31] INFO root fetch - processPackages [pyrates]: Downloading https://files.pythonhosted.org/packages/1c/23/71193495ca0ba695282379e8844c0678a763d47c39b15a5439199aa852e2/pyrates-1.0.2.tar.gz
+[2023-06-24 21:08:31] INFO root fetch - processPackages [dockery]: executing diffoscope
+[2023-06-24 21:08:31] INFO root fetch - processPackages [dockery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dockery-0.4.0.tar.gz tmp/dockery-0.5.0.tar.gz --markdown 20230624/d/dockery/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 21:08:31] INFO root fetch - processPackages [glinkfix]: executing diffoscope
+[2023-06-24 21:08:31] INFO root fetch - processPackages [glinkfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinkfix-1.0.8.tar.gz tmp/glinkfix-1.0.9.tar.gz --markdown 20230624/g/glinkfix/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:08:31] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-24 21:08:31] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230624/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 21:08:31] INFO root fetch - processPackages [parser201]: executing diffoscope
+[2023-06-24 21:08:31] INFO root fetch - processPackages [parser201]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parser201-1.4.0.tar.gz tmp/parser201-1.4.1.tar.gz --markdown 20230624/p/parser201/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-24 21:08:31] INFO root fetch - processPackages [pyrates]: executing diffoscope
+[2023-06-24 21:08:31] INFO root fetch - processPackages [pyrates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrates-1.0.1.tar.gz tmp/pyrates-1.0.2.tar.gz --markdown 20230624/p/pyrates/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 21:08:31] INFO root fetch - processPackages [wasmpy]: Downloading https://files.pythonhosted.org/packages/81/2d/279d5f235183f7d25fa8f3f7970ef87c69f95e2df1d899f25e70a4f5acab/wasmpy-0.1.1.tar.gz
+[2023-06-24 21:08:31] INFO root fetch - processPackages [wasmpy]: executing diffoscope
+[2023-06-24 21:08:31] INFO root fetch - processPackages [wasmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasmpy-0.1.0a3.tar.gz tmp/wasmpy-0.1.1.tar.gz --markdown 20230624/w/wasmpy/0.1.0a3-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 21:08:31] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2023-06-24 21:08:32] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2023-06-24 21:08:32] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20230624/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 21:08:32] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.4.0.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - processPackages [dockery]: Remove: archive file [/home/abi/fetcher/tmp/dockery-0.5.0.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - main [MainThread]: End processing [dockery]: success
+[2023-06-24 21:08:32] INFO root fetch - processPackages [parser201]: Remove: archive file [/home/abi/fetcher/tmp/parser201-1.4.0.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - processPackages [parser201]: Remove: archive file [/home/abi/fetcher/tmp/parser201-1.4.1.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - main [MainThread]: End processing [parser201]: success
+[2023-06-24 21:08:32] INFO root fetch - processPackages [glinkfix]: Remove: archive file [/home/abi/fetcher/tmp/glinkfix-1.0.8.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - processPackages [glinkfix]: Remove: archive file [/home/abi/fetcher/tmp/glinkfix-1.0.9.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - main [MainThread]: End processing [glinkfix]: success
+[2023-06-24 21:08:32] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-24 21:08:32] INFO root fetch - processPackages [wasmpy]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-0.1.0a3.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - processPackages [wasmpy]: Remove: archive file [/home/abi/fetcher/tmp/wasmpy-0.1.1.tar.gz]
+[2023-06-24 21:08:32] INFO root fetch - main [MainThread]: End processing [wasmpy]: success
+[2023-06-24 21:08:33] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2023-06-24 21:08:33] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2023-06-24 21:08:33] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2023-06-24 21:08:34] INFO root fetch - processPackages [pyrates]: Remove: archive file [/home/abi/fetcher/tmp/pyrates-1.0.1.tar.gz]
+[2023-06-24 21:08:34] INFO root fetch - processPackages [pyrates]: Remove: archive file [/home/abi/fetcher/tmp/pyrates-1.0.2.tar.gz]
+[2023-06-24 21:08:34] INFO root fetch - main [MainThread]: End processing [pyrates]: success
+[2023-06-24 21:08:34] INFO root fetch - main [MainThread]: Store serial: [18631403]
