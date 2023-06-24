@@ -15859,3 +15859,55 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:55:57] INFO root fetch - processPackages [djaodjin-survey]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-survey-0.9.9.tar.gz]
 [2023-06-24 16:55:57] INFO root fetch - main [MainThread]: End processing [djaodjin-survey]: success
 [2023-06-24 16:55:57] INFO root fetch - main [MainThread]: Store serial: [18630062]
+[2023-06-24 17:01:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630062]
+[2023-06-24 17:01:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pants-plugin-dep-graph
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: primary-math
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autooc
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chat2plot
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deeppipe-api
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autooc
+[2023-06-24 17:01:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-bind-manager
+[2023-06-24 17:01:06] INFO root fetch - processPackages [autooc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 17:01:06] INFO root fetch - processPackages [deeppipe-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 17:01:06] WARNING root fetch - processPackages [primary-math]: Skipping, unable to determine old version
+[2023-06-24 17:01:06] INFO root fetch - main [MainThread]: End processing [primary-math] error
+[2023-06-24 17:01:06] INFO root fetch - processPackages [chat2plot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 17:01:06] WARNING root fetch - processPackages [pants-plugin-dep-graph]: Skipping, unable to determine old version
+[2023-06-24 17:01:06] INFO root fetch - main [MainThread]: End processing [pants-plugin-dep-graph] error
+[2023-06-24 17:01:06] INFO root fetch - processPackages [autooc]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 17:01:06] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/6d/07/eafcb40ef7b0df49b8a370dcfa111aa74189af8251f3698bb407999f9ffb/deeppipe_api-0.0.8.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/67/8e/d8cfe9b31efabe0bc6db76a803ee650025108a885af2f1769c5d4c2619de/autooc-0.0.1.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/67/8e/d8cfe9b31efabe0bc6db76a803ee650025108a885af2f1769c5d4c2619de/autooc-0.0.1.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/7c/38/9e73889cd36ea82b13ea089308b1c2d73a6fe94d77bac5a6d42daf66407e/chat2plot-0.0.8.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/ee/41/26de2e583f35a1ee09ea35ce94370883409d4cd54f128fc22f259c8ef2f9/deeppipe_api-0.0.9.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [deeppipe-api]: executing diffoscope
+[2023-06-24 17:01:07] INFO root fetch - processPackages [deeppipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppipe_api-0.0.8.tar.gz tmp/deeppipe_api-0.0.9.tar.gz --markdown 20230624/d/deeppipe-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 17:01:07] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/49/22/5d65fca0d9868d55f4c96bb48f22eb2f76c6b592eaee50614732b792c238/sqlalchemy_bind_manager-0.3.0.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/f1/14/66639e809eb28486573c482f88dff3ee4c7c5597a857bea8d60830891d49/autooc-0.0.2.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/f1/14/66639e809eb28486573c482f88dff3ee4c7c5597a857bea8d60830891d49/autooc-0.0.2.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/ca/cb/8aebdeab6e2727238095d30e4ac4e630f6f6537b3baad9e457846872b9b0/chat2plot-0.0.9.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.1.tar.gz tmp/autooc-0.0.2.tar.gz --markdown 20230624/a/autooc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:01:07] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.1.tar.gz tmp/autooc-0.0.2.tar.gz --markdown 20230624/a/autooc/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 17:01:07] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/39/de/6f3d6dcf0b7d8536bdcadee76a4e0e127ef51b5b53c18edef7f848e2c92c/sqlalchemy_bind_manager-0.3.1.tar.gz
+[2023-06-24 17:01:07] INFO root fetch - processPackages [chat2plot]: executing diffoscope
+[2023-06-24 17:01:07] INFO root fetch - processPackages [chat2plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat2plot-0.0.8.tar.gz tmp/chat2plot-0.0.9.tar.gz --markdown 20230624/c/chat2plot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 17:01:08] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-06-24 17:01:08] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.3.0.tar.gz tmp/sqlalchemy_bind_manager-0.3.1.tar.gz --markdown 20230624/s/sqlalchemy-bind-manager/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 17:01:08] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.8.tar.gz]
+[2023-06-24 17:01:08] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.9.tar.gz]
+[2023-06-24 17:01:08] INFO root fetch - main [MainThread]: End processing [deeppipe-api]: success
+[2023-06-24 17:01:08] INFO root fetch - processPackages [chat2plot]: Remove: archive file [/home/abi/fetcher/tmp/chat2plot-0.0.8.tar.gz]
+[2023-06-24 17:01:08] INFO root fetch - processPackages [chat2plot]: Remove: archive file [/home/abi/fetcher/tmp/chat2plot-0.0.9.tar.gz]
+[2023-06-24 17:01:08] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
+[2023-06-24 17:01:09] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.1.tar.gz]
+[2023-06-24 17:01:09] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.2.tar.gz]
+[2023-06-24 17:01:09] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:01:09] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:01:09] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.0.tar.gz]
+[2023-06-24 17:01:09] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.1.tar.gz]
+[2023-06-24 17:01:09] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-06-24 17:01:09] INFO root fetch - main [MainThread]: Store serial: [18630091]
