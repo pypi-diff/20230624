@@ -16468,3 +16468,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:48:04] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.6.tar.gz]
 [2023-06-24 17:48:04] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
 [2023-06-24 17:48:04] INFO root fetch - main [MainThread]: Store serial: [18630367]
+[2023-06-24 17:53:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630367]
+[2023-06-24 17:53:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 17:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pivotal-solver
+[2023-06-24 17:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioesphomeapi
+[2023-06-24 17:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udsoncan
+[2023-06-24 17:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TEST-TC
+[2023-06-24 17:53:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mycotools
+[2023-06-24 17:53:13] INFO root fetch - processPackages [pivotal-solver]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 17:53:13] INFO root fetch - processPackages [udsoncan]: New version: [1.9] Old Version: [1.8.1]
+[2023-06-24 17:53:13] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-24 17:53:13] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-06-24 17:53:13] WARNING root fetch - processPackages [TEST-TC]: Skipping, unable to determine old version
+[2023-06-24 17:53:13] INFO root fetch - main [MainThread]: End processing [TEST-TC] error
+[2023-06-24 17:53:13] INFO root fetch - processPackages [pivotal-solver]: Downloading https://files.pythonhosted.org/packages/90/09/83173f17b67d859d5a253cff72798b49b8e2a9584abd954adf9e602be9ea/pivotal-solver-0.0.1.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [udsoncan]: Downloading https://files.pythonhosted.org/packages/ef/d2/7a13c04fc038c23e06174391be1e8313282dbdb77cc0964ef6943764c97f/udsoncan-1.8.1.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [pivotal-solver]: Downloading https://files.pythonhosted.org/packages/8e/76/dc77309017b1fcaa02d3bd14c78b55cb845c4419bb3579d01f9d65a40ca6/pivotal-solver-0.0.2.tar.gz
+[2023-06-24 17:53:13] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-24 17:53:13] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230624/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-24 17:53:13] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-06-24 17:53:13] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230624/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-06-24 17:53:14] INFO root fetch - processPackages [udsoncan]: Downloading https://files.pythonhosted.org/packages/74/20/6b0f21d203552d1c7deec845af56969cdc89b53df3ad557f7df49673fa59/udsoncan-1.9.tar.gz
+[2023-06-24 17:53:14] INFO root fetch - processPackages [udsoncan]: executing diffoscope
+[2023-06-24 17:53:14] INFO root fetch - processPackages [pivotal-solver]: executing diffoscope
+[2023-06-24 17:53:14] INFO root fetch - processPackages [udsoncan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udsoncan-1.8.1.tar.gz tmp/udsoncan-1.9.tar.gz --markdown 20230624/u/udsoncan/1.8.1-1.9/diff.md --exclude *.pyd
+[2023-06-24 17:53:14] INFO root fetch - processPackages [pivotal-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pivotal-solver-0.0.1.tar.gz tmp/pivotal-solver-0.0.2.tar.gz --markdown 20230624/p/pivotal-solver/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 17:53:15] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-06-24 17:53:15] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-06-24 17:53:15] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-06-24 17:53:15] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-06-24 17:53:15] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-06-24 17:53:15] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-06-24 17:53:15] INFO root fetch - processPackages [pivotal-solver]: Remove: archive file [/home/abi/fetcher/tmp/pivotal-solver-0.0.1.tar.gz]
+[2023-06-24 17:53:15] INFO root fetch - processPackages [pivotal-solver]: Remove: archive file [/home/abi/fetcher/tmp/pivotal-solver-0.0.2.tar.gz]
+[2023-06-24 17:53:15] INFO root fetch - main [MainThread]: End processing [pivotal-solver]: success
+[2023-06-24 17:53:16] INFO root fetch - processPackages [udsoncan]: Remove: archive file [/home/abi/fetcher/tmp/udsoncan-1.8.1.tar.gz]
+[2023-06-24 17:53:16] INFO root fetch - processPackages [udsoncan]: Remove: archive file [/home/abi/fetcher/tmp/udsoncan-1.9.tar.gz]
+[2023-06-24 17:53:16] INFO root fetch - main [MainThread]: End processing [udsoncan]: success
+[2023-06-24 17:53:16] INFO root fetch - main [MainThread]: Store serial: [18630383]
