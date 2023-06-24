@@ -15303,3 +15303,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:19:19] INFO root fetch - processPackages [constrainedlr]: Remove: archive file [/home/abi/fetcher/tmp/constrainedlr-0.1.2.tar.gz]
 [2023-06-24 16:19:19] INFO root fetch - main [MainThread]: End processing [constrainedlr]: success
 [2023-06-24 16:19:19] INFO root fetch - main [MainThread]: Store serial: [18629763]
+[2023-06-24 16:24:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629763]
+[2023-06-24 16:24:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 16:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: illumigator
+[2023-06-24 16:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kBmc
+[2023-06-24 16:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-06-24 16:24:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-24 16:24:28] INFO root fetch - processPackages [kBmc]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-24 16:24:28] INFO root fetch - processPackages [illumigator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 16:24:28] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/56/20/a5b74aea45d4559b486376997a805ece73b9aa52cae1033feecd70c7cb23/illumigator-0.0.3.tar.gz
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 16:24:28] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/2b/de/249f78c2669bc02f7556068ddf04fbc11c896564b5727a852834f39241da/kBmc-2.1.8.tar.gz
+[2023-06-24 16:24:28] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 61061256>=10485760
+[2023-06-24 16:24:28] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 16:24:28] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 16:24:28] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/11/f3/0b422206b6dbb38439c6c57ef395a0592b89154eb63300ef3e20097bda82/kBmc-2.1.9.tar.gz
+[2023-06-24 16:24:29] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2023-06-24 16:24:29] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.1.8.tar.gz tmp/kBmc-2.1.9.tar.gz --markdown 20230624/k/kBmc/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-24 16:24:30] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-24 16:24:30] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-24 16:24:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 16:24:30] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 16:24:30] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.1.8.tar.gz]
+[2023-06-24 16:24:30] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.1.9.tar.gz]
+[2023-06-24 16:24:30] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2023-06-24 16:24:30] INFO root fetch - main [MainThread]: Store serial: [18629778]
