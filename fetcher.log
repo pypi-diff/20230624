@@ -11337,3 +11337,47 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:58:23] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev92.tar.gz]
 [2023-06-24 09:58:23] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2023-06-24 09:58:23] INFO root fetch - main [MainThread]: Store serial: [18627951]
+[2023-06-24 10:03:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627951]
+[2023-06-24 10:03:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 10:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GPTConnect
+[2023-06-24 10:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FunID
+[2023-06-24 10:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rico
+[2023-06-24 10:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-st
+[2023-06-24 10:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitlab-emulator
+[2023-06-24 10:03:31] INFO root fetch - processPackages [FunID]: New version: [0.3.9] Old Version: [0.3.8.2]
+[2023-06-24 10:03:31] INFO root fetch - processPackages [GPTConnect]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-24 10:03:32] INFO root fetch - processPackages [rico]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-24 10:03:32] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/ac/37/f8441c79380953860a274e3e95bdbea1793c657553d8ea9fea4686f2ab78/GPTConnect-0.1.7.tar.gz
+[2023-06-24 10:03:32] INFO root fetch - processPackages [spider-st]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 10:03:32] INFO root fetch - processPackages [gitlab-emulator]: New version: [1.5.6] Old Version: [1.5.5]
+[2023-06-24 10:03:32] INFO root fetch - processPackages [FunID]: Downloading https://files.pythonhosted.org/packages/4a/4a/3bf498c2707726c16177fb6d5e4c1fb6b942aa0f857378f22345cee709b9/FunID-0.3.8.2.tar.gz
+[2023-06-24 10:03:32] INFO root fetch - processPackages [rico]: Downloading https://files.pythonhosted.org/packages/c1/82/fac657d4a76bae63897d7632047dc5bfcbf69943cc6f8bcea30faedd3b68/rico-0.2.3.tar.gz
+[2023-06-24 10:03:32] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/27/f0/797c715930041af8dcdb6be6e3b61bac6e084f6335e8e1bb34a7163c65d9/spider-st-0.1.8.tar.gz
+[2023-06-24 10:03:32] INFO root fetch - processPackages [gitlab-emulator]: Downloading https://files.pythonhosted.org/packages/2e/c3/bd8c3ad15814aab622869477eee65088f47ffcb519ea37023854399b54cf/gitlab_emulator-1.5.5-py3-none-any.whl
+[2023-06-24 10:03:32] WARNING root fetch - processPackages [FunID]: Skipping package: exceeds size limit 51450650>=10485760
+[2023-06-24 10:03:32] INFO root fetch - main [MainThread]: End processing [FunID] error
+[2023-06-24 10:03:32] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/05/fd/23b15e06f9ec72708c8384cf45016ce588dbd78920e9654ca65e8fcb58e3/GPTConnect-0.1.8.tar.gz
+[2023-06-24 10:03:32] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-24 10:03:32] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.7.tar.gz tmp/GPTConnect-0.1.8.tar.gz --markdown 20230624/G/GPTConnect/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-24 10:03:32] INFO root fetch - processPackages [rico]: Downloading https://files.pythonhosted.org/packages/1c/12/b3ab1ab9341b9ddf574e4a1cbb08f039b7fed71446d5cdcea70b25b55b9b/rico-0.3.0.tar.gz
+[2023-06-24 10:03:32] INFO root fetch - processPackages [gitlab-emulator]: Downloading https://files.pythonhosted.org/packages/14/4d/f7d522b21145a53fdb4b5a698d294947a6e55ae01ffbbc0c35c75925a06b/gitlab_emulator-1.5.6-py3-none-any.whl
+[2023-06-24 10:03:32] INFO root fetch - processPackages [rico]: executing diffoscope
+[2023-06-24 10:03:32] INFO root fetch - processPackages [rico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rico-0.2.3.tar.gz tmp/rico-0.3.0.tar.gz --markdown 20230624/r/rico/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 10:03:32] INFO root fetch - processPackages [gitlab-emulator]: executing diffoscope
+[2023-06-24 10:03:32] INFO root fetch - processPackages [gitlab-emulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab_emulator-1.5.5-py3-none-any.whl.zip tmp/gitlab_emulator-1.5.6-py3-none-any.whl.zip --markdown 20230624/g/gitlab-emulator/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2023-06-24 10:03:33] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.7.tar.gz]
+[2023-06-24 10:03:33] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.8.tar.gz]
+[2023-06-24 10:03:33] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-24 10:03:34] INFO root fetch - processPackages [rico]: Remove: archive file [/home/abi/fetcher/tmp/rico-0.2.3.tar.gz]
+[2023-06-24 10:03:34] INFO root fetch - processPackages [rico]: Remove: archive file [/home/abi/fetcher/tmp/rico-0.3.0.tar.gz]
+[2023-06-24 10:03:34] INFO root fetch - main [MainThread]: End processing [rico]: success
+[2023-06-24 10:03:34] INFO root fetch - processPackages [gitlab-emulator]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_emulator-1.5.5-py3-none-any.whl.zip]
+[2023-06-24 10:03:34] INFO root fetch - processPackages [gitlab-emulator]: Remove: archive file [/home/abi/fetcher/tmp/gitlab_emulator-1.5.6-py3-none-any.whl.zip]
+[2023-06-24 10:03:34] INFO root fetch - main [MainThread]: End processing [gitlab-emulator]: success
+[2023-06-24 10:03:34] INFO root fetch - processPackages [spider-st]: Downloading https://files.pythonhosted.org/packages/cd/c9/655add848a603be8b1146a92ed2829a4fa4b2f18fbe6bc408dd130d11b22/spider-st-0.1.9.tar.gz
+[2023-06-24 10:03:35] INFO root fetch - processPackages [spider-st]: executing diffoscope
+[2023-06-24 10:03:35] INFO root fetch - processPackages [spider-st]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-st-0.1.8.tar.gz tmp/spider-st-0.1.9.tar.gz --markdown 20230624/s/spider-st/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 10:03:47] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.8.tar.gz]
+[2023-06-24 10:03:47] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
+[2023-06-24 10:03:47] INFO root fetch - main [MainThread]: End processing [spider-st]: success
+[2023-06-24 10:03:47] INFO root fetch - main [MainThread]: Store serial: [18627972]
