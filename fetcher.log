@@ -10762,3 +10762,65 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:50:00] INFO root fetch - processPackages [pgpt]: Remove: archive file [/home/abi/fetcher/tmp/pgpt-0.0.3.tar.gz]
 [2023-06-24 08:50:00] INFO root fetch - main [MainThread]: End processing [pgpt]: success
 [2023-06-24 08:50:00] INFO root fetch - main [MainThread]: Store serial: [18627692]
+[2023-06-24 08:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627692]
+[2023-06-24 08:55:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modular-rl
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argrelay
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulsars
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-hub
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embedchain
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dnd5epy
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weather-forecast-cli-dotnetthoughts
+[2023-06-24 08:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: FluidCubeGame
+[2023-06-24 08:55:08] INFO root fetch - processPackages [pulsars]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 08:55:08] INFO root fetch - processPackages [modular-rl]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-24 08:55:08] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 08:55:08] INFO root fetch - processPackages [argrelay]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-06-24 08:55:08] WARNING root fetch - processPackages [weather-forecast-cli-dotnetthoughts]: Skipping, unable to determine old version
+[2023-06-24 08:55:08] INFO root fetch - main [MainThread]: End processing [weather-forecast-cli-dotnetthoughts] error
+[2023-06-24 08:55:09] WARNING root fetch - processPackages [dnd5epy]: Skipping, unable to determine old version
+[2023-06-24 08:55:09] INFO root fetch - processPackages [llama-hub]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 08:55:09] INFO root fetch - main [MainThread]: End processing [dnd5epy] error
+[2023-06-24 08:55:09] INFO root fetch - processPackages [FluidCubeGame]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-24 08:55:09] INFO root fetch - processPackages [pulsars]: Downloading https://files.pythonhosted.org/packages/4d/dc/19eef3ee8ee07de6845c7c6a65ed90591857d84bb3a57bf6dbbd0c28144a/pulsars-0.0.4.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/14/ad/ccaad984dbc46840e202d83f14d5c77b5874cf938e741b211a45199a7919/FluidCubeGame-1.0.5.tar.gz
+[2023-06-24 08:55:09] WARNING root fetch - processPackages [argrelay]: fallback to get urls: [0.0.0.dev8]
+[2023-06-24 08:55:09] WARNING root fetch - processPackages [argrelay]: None
+[2023-06-24 08:55:09] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/08/25/44146caef64ce971813c42fe0ac72c3ee1e0b3cf85ef1591efe36cfc787c/modular_rl-0.3.3.tar.gz
+[2023-06-24 08:55:09] WARNING root fetch - processPackages [argrelay]: None
+[2023-06-24 08:55:09] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/4b/92/a626eedb1a7c73b5174140b71c6d96d632ea5b63ec023c7cb0f3ce4da715/llama_hub-0.0.3.tar.gz
+[2023-06-24 08:55:09] WARNING root fetch - processPackages [argrelay]: unable to get url for both version [0.0.0.dev8]
+[2023-06-24 08:55:09] WARNING root fetch - processPackages [argrelay]: None
+[2023-06-24 08:55:09] INFO root fetch - main [MainThread]: End processing [argrelay] error
+[2023-06-24 08:55:09] INFO root fetch - processPackages [pulsars]: Downloading https://files.pythonhosted.org/packages/72/7f/90f78df59dd4829df3712dbdbedc03d7c869788f6ca78ec3bb65f3a17a60/pulsars-0.0.5.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [modular-rl]: Downloading https://files.pythonhosted.org/packages/ed/b8/cac87e495575af5f61945f9e1c642953aca9121a6f5c3c916a97768fd38e/modular_rl-0.4.0.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/e6/9e/23af3796102bf47311b70c67272c1d1beb78f563a1fe54829020bdec1ca6/FluidCubeGame-1.0.6.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [pulsars]: executing diffoscope
+[2023-06-24 08:55:09] INFO root fetch - processPackages [pulsars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsars-0.0.4.tar.gz tmp/pulsars-0.0.5.tar.gz --markdown 20230624/p/pulsars/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 08:55:09] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-06-24 08:55:09] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230624/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 08:55:09] INFO root fetch - processPackages [FluidCubeGame]: executing diffoscope
+[2023-06-24 08:55:09] INFO root fetch - processPackages [FluidCubeGame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidCubeGame-1.0.5.tar.gz tmp/FluidCubeGame-1.0.6.tar.gz --markdown 20230624/F/FluidCubeGame/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-24 08:55:09] INFO root fetch - processPackages [modular-rl]: executing diffoscope
+[2023-06-24 08:55:09] INFO root fetch - processPackages [modular-rl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modular_rl-0.3.3.tar.gz tmp/modular_rl-0.4.0.tar.gz --markdown 20230624/m/modular-rl/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 08:55:09] INFO root fetch - processPackages [llama-hub]: Downloading https://files.pythonhosted.org/packages/82/49/af4df9a8b65f7975df649ed9d970196de50248cc17e029a56e49beb63f91/llama_hub-0.0.4.tar.gz
+[2023-06-24 08:55:09] INFO root fetch - processPackages [llama-hub]: executing diffoscope
+[2023-06-24 08:55:09] INFO root fetch - processPackages [llama-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_hub-0.0.3.tar.gz tmp/llama_hub-0.0.4.tar.gz --markdown 20230624/l/llama-hub/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 08:55:10] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.5.tar.gz]
+[2023-06-24 08:55:10] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.6.tar.gz]
+[2023-06-24 08:55:10] INFO root fetch - main [MainThread]: End processing [FluidCubeGame]: success
+[2023-06-24 08:55:11] INFO root fetch - processPackages [pulsars]: Remove: archive file [/home/abi/fetcher/tmp/pulsars-0.0.4.tar.gz]
+[2023-06-24 08:55:11] INFO root fetch - processPackages [pulsars]: Remove: archive file [/home/abi/fetcher/tmp/pulsars-0.0.5.tar.gz]
+[2023-06-24 08:55:11] INFO root fetch - main [MainThread]: End processing [pulsars]: success
+[2023-06-24 08:55:11] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-06-24 08:55:11] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-06-24 08:55:11] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-06-24 08:55:11] INFO root fetch - processPackages [modular-rl]: Remove: archive file [/home/abi/fetcher/tmp/modular_rl-0.3.3.tar.gz]
+[2023-06-24 08:55:11] INFO root fetch - processPackages [modular-rl]: Remove: archive file [/home/abi/fetcher/tmp/modular_rl-0.4.0.tar.gz]
+[2023-06-24 08:55:11] INFO root fetch - main [MainThread]: End processing [modular-rl]: success
+[2023-06-24 08:55:13] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.3.tar.gz]
+[2023-06-24 08:55:13] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.4.tar.gz]
+[2023-06-24 08:55:13] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
+[2023-06-24 08:55:13] INFO root fetch - main [MainThread]: Store serial: [18627720]
