@@ -16961,3 +16961,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:34:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.9.tar.gz]
 [2023-06-24 18:34:56] INFO root fetch - main [MainThread]: End processing [pillar1]: success
 [2023-06-24 18:34:56] INFO root fetch - main [MainThread]: Store serial: [18630552]
+[2023-06-24 18:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630552]
+[2023-06-24 18:40:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 18:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyInstl
+[2023-06-24 18:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irregular-chars
+[2023-06-24 18:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-utilities
+[2023-06-24 18:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feathub-nightly
+[2023-06-24 18:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: diot
+[2023-06-24 18:40:05] INFO root fetch - processPackages [PyInstl]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 18:40:05] WARNING root fetch - processPackages [automation-utilities]: Skipping, unable to determine old version
+[2023-06-24 18:40:05] INFO root fetch - main [MainThread]: End processing [automation-utilities] error
+[2023-06-24 18:40:05] INFO root fetch - processPackages [irregular-chars]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 18:40:05] INFO root fetch - processPackages [diot]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 18:40:05] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230624] Old Version: [0.1.dev20230623]
+[2023-06-24 18:40:05] INFO root fetch - processPackages [diot]: Downloading https://files.pythonhosted.org/packages/2a/6d/f0ac2d0089714236033adf3cd849a020da739712d01749efb6672d334416/diot-0.2.0.tar.gz
+[2023-06-24 18:40:05] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/d5/24/85cafd36205d047155765fd47610fa3cf60ee1997da74a69b8c26bce13f3/feathub_nightly-0.1.dev20230623-py3-none-any.whl
+[2023-06-24 18:40:05] INFO root fetch - processPackages [PyInstl]: Downloading https://files.pythonhosted.org/packages/49/89/392198bc7d1f112b3440c251863033cea23f96d18856b642faaf74d599ea/PyInstl-1.0.1.tar.gz
+[2023-06-24 18:40:05] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12203996>=10485760
+[2023-06-24 18:40:05] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-06-24 18:40:05] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/00/2f/38adff49bf9c3923f10eae2fb2446ca1bca2a6c53314e3cb00b8e08d59f9/irregular_chars-0.1.0.tar.gz
+[2023-06-24 18:40:05] INFO root fetch - processPackages [diot]: Downloading https://files.pythonhosted.org/packages/57/9a/e289e11106ee51134269e80e0d823106fff3986aa767722bf74e3fdc4cbb/diot-0.2.1.tar.gz
+[2023-06-24 18:40:05] INFO root fetch - processPackages [PyInstl]: Downloading https://files.pythonhosted.org/packages/f3/d0/2d4cd4771651fef65cadf8ab2e9e8b8431178c5b13fe9e79087a0821c696/PyInstl-1.0.2.tar.gz
+[2023-06-24 18:40:05] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/cb/41/5f9a5a5cdd8804f85398053eaafccace2e9f5bf012a220a1723ffccda3d6/irregular_chars-0.1.1.tar.gz
+[2023-06-24 18:40:05] INFO root fetch - processPackages [PyInstl]: executing diffoscope
+[2023-06-24 18:40:05] INFO root fetch - processPackages [PyInstl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyInstl-1.0.1.tar.gz tmp/PyInstl-1.0.2.tar.gz --markdown 20230624/P/PyInstl/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 18:40:05] INFO root fetch - processPackages [diot]: executing diffoscope
+[2023-06-24 18:40:05] INFO root fetch - processPackages [diot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diot-0.2.0.tar.gz tmp/diot-0.2.1.tar.gz --markdown 20230624/d/diot/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 18:40:05] INFO root fetch - processPackages [irregular-chars]: executing diffoscope
+[2023-06-24 18:40:05] INFO root fetch - processPackages [irregular-chars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irregular_chars-0.1.0.tar.gz tmp/irregular_chars-0.1.1.tar.gz --markdown 20230624/i/irregular-chars/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 18:40:06] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.1.tar.gz]
+[2023-06-24 18:40:06] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.2.tar.gz]
+[2023-06-24 18:40:06] INFO root fetch - main [MainThread]: End processing [PyInstl]: success
+[2023-06-24 18:40:06] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular_chars-0.1.0.tar.gz]
+[2023-06-24 18:40:06] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular_chars-0.1.1.tar.gz]
+[2023-06-24 18:40:06] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
+[2023-06-24 18:40:06] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.2.0.tar.gz]
+[2023-06-24 18:40:06] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.2.1.tar.gz]
+[2023-06-24 18:40:06] INFO root fetch - main [MainThread]: End processing [diot]: success
+[2023-06-24 18:40:06] INFO root fetch - main [MainThread]: Store serial: [18630577]
