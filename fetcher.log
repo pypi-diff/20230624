@@ -16396,3 +16396,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:32:32] INFO root fetch - processPackages [xsdata]: Remove: archive file [/home/abi/fetcher/tmp/xsdata-23.6.tar.gz]
 [2023-06-24 17:32:32] INFO root fetch - main [MainThread]: End processing [xsdata]: success
 [2023-06-24 17:32:32] INFO root fetch - main [MainThread]: Store serial: [18630322]
+[2023-06-24 17:37:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630322]
+[2023-06-24 17:37:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 17:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mc3
+[2023-06-24 17:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: licensecheck
+[2023-06-24 17:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplePythonModule
+[2023-06-24 17:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clubscore
+[2023-06-24 17:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arts
+[2023-06-24 17:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hydrusvideodeduplicator
+[2023-06-24 17:37:41] INFO root fetch - processPackages [mc3]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-24 17:37:41] INFO root fetch - processPackages [clubscore]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-24 17:37:41] INFO root fetch - processPackages [licensecheck]: New version: [2023.1.2] Old Version: [2023.1.1]
+[2023-06-24 17:37:41] INFO root fetch - processPackages [simplePythonModule]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 17:37:41] WARNING root fetch - processPackages [arts]: Skipping, unable to determine old version
+[2023-06-24 17:37:41] INFO root fetch - main [MainThread]: End processing [arts] error
+[2023-06-24 17:37:41] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-24 17:37:41] INFO root fetch - processPackages [simplePythonModule]: Downloading https://files.pythonhosted.org/packages/dd/fd/89a97a733621b4faa76a81e13da2d2d6543e6a11889ce89f0aa6c286cc5a/simplePythonModule-0.0.2.tar.gz
+[2023-06-24 17:37:41] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/5a/28/9d2ed0ae1527254789138745ada9c11d6b06384c7486b902dd02be3676bc/hydrusvideodeduplicator-0.1.4.tar.gz
+[2023-06-24 17:37:41] INFO root fetch - processPackages [mc3]: Downloading https://files.pythonhosted.org/packages/3c/4e/9fe11dcaa1a021028b2a2d7664c6c8a20e97efd1f872a610bc24a6c7a83f/mc3-3.1.2.tar.gz
+[2023-06-24 17:37:41] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/48/6f/ef8585543d59440c7d3f2ee518286685996d5a1b965d7d007ba419a0d1f1/licensecheck-2023.1.1.tar.gz
+[2023-06-24 17:37:41] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/c8/74/8d72f169a97d51d29dfbc4f48f65ea822118ffb1a2995185a43a0122663a/clubscore-0.2.2.tar.gz
+[2023-06-24 17:37:41] INFO root fetch - processPackages [simplePythonModule]: Downloading https://files.pythonhosted.org/packages/5f/db/b5d5111d0ebaeddbda6e5fd8d257ced47f79634bc44e8b184f4e4bda9a53/simplePythonModule-0.0.3.tar.gz
+[2023-06-24 17:37:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/e4/92/43fd01357b98f57d788875a3904edd8ff0797304dc09c10c05899008ed88/hydrusvideodeduplicator-0.1.5.tar.gz
+[2023-06-24 17:37:42] INFO root fetch - processPackages [simplePythonModule]: executing diffoscope
+[2023-06-24 17:37:42] INFO root fetch - processPackages [simplePythonModule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplePythonModule-0.0.2.tar.gz tmp/simplePythonModule-0.0.3.tar.gz --markdown 20230624/s/simplePythonModule/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 17:37:42] INFO root fetch - processPackages [mc3]: Downloading https://files.pythonhosted.org/packages/ba/a2/9e0be16001e4072312f2ada1ecdaf5902af4c5a373ef4d2e31e92758c51e/mc3-3.1.3.tar.gz
+[2023-06-24 17:37:42] INFO root fetch - processPackages [licensecheck]: Downloading https://files.pythonhosted.org/packages/80/22/56da16e594f7175ae301e83cea43f0ade56e388b50058f328a60d31841f5/licensecheck-2023.1.2.tar.gz
+[2023-06-24 17:37:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-06-24 17:37:42] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.4.tar.gz tmp/hydrusvideodeduplicator-0.1.5.tar.gz --markdown 20230624/h/hydrusvideodeduplicator/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-24 17:37:42] INFO root fetch - processPackages [licensecheck]: executing diffoscope
+[2023-06-24 17:37:42] INFO root fetch - processPackages [licensecheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/licensecheck-2023.1.1.tar.gz tmp/licensecheck-2023.1.2.tar.gz --markdown 20230624/l/licensecheck/2023.1.1-2023.1.2/diff.md --exclude *.pyd
+[2023-06-24 17:37:42] INFO root fetch - processPackages [mc3]: executing diffoscope
+[2023-06-24 17:37:42] INFO root fetch - processPackages [mc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc3-3.1.2.tar.gz tmp/mc3-3.1.3.tar.gz --markdown 20230624/m/mc3/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-24 17:37:42] INFO root fetch - processPackages [clubscore]: Downloading https://files.pythonhosted.org/packages/a0/29/5f5fb855ad74c9b3f0ae53831690e3a59e8115584d1032c6a83f844adc62/clubscore-0.2.3.tar.gz
+[2023-06-24 17:37:42] INFO root fetch - processPackages [clubscore]: executing diffoscope
+[2023-06-24 17:37:42] INFO root fetch - processPackages [clubscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clubscore-0.2.2.tar.gz tmp/clubscore-0.2.3.tar.gz --markdown 20230624/c/clubscore/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-24 17:37:43] INFO root fetch - processPackages [simplePythonModule]: Remove: archive file [/home/abi/fetcher/tmp/simplePythonModule-0.0.2.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - processPackages [simplePythonModule]: Remove: archive file [/home/abi/fetcher/tmp/simplePythonModule-0.0.3.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - main [MainThread]: End processing [simplePythonModule]: success
+[2023-06-24 17:37:43] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.4.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.5.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-06-24 17:37:43] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2023.1.1.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - processPackages [licensecheck]: Remove: archive file [/home/abi/fetcher/tmp/licensecheck-2023.1.2.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - main [MainThread]: End processing [licensecheck]: success
+[2023-06-24 17:37:43] INFO root fetch - processPackages [clubscore]: Remove: archive file [/home/abi/fetcher/tmp/clubscore-0.2.2.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - processPackages [clubscore]: Remove: archive file [/home/abi/fetcher/tmp/clubscore-0.2.3.tar.gz]
+[2023-06-24 17:37:43] INFO root fetch - main [MainThread]: End processing [clubscore]: success
+[2023-06-24 17:37:44] INFO root fetch - processPackages [mc3]: Remove: archive file [/home/abi/fetcher/tmp/mc3-3.1.2.tar.gz]
+[2023-06-24 17:37:44] INFO root fetch - processPackages [mc3]: Remove: archive file [/home/abi/fetcher/tmp/mc3-3.1.3.tar.gz]
+[2023-06-24 17:37:44] INFO root fetch - main [MainThread]: End processing [mc3]: success
+[2023-06-24 17:37:44] INFO root fetch - main [MainThread]: Store serial: [18630349]
