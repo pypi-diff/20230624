@@ -11490,3 +11490,51 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:20:16] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks]: success
 [2023-06-24 10:20:16] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks]: success
 [2023-06-24 10:20:16] INFO root fetch - main [MainThread]: Store serial: [18628021]
+[2023-06-24 10:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628021]
+[2023-06-24 10:25:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-model-optimization-nightly
+[2023-06-24 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dl2050utils
+[2023-06-24 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacecutter-torch
+[2023-06-24 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EncroX
+[2023-06-24 10:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pharindoko.cdk-internal-gateway
+[2023-06-24 10:25:25] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-24 10:25:25] INFO root fetch - processPackages [EncroX]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-24 10:25:25] INFO root fetch - processPackages [spacecutter-torch]: New version: [1.0.0] Old Version: [0.4.1]
+[2023-06-24 10:25:25] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-06-24 10:25:25] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230624] Old Version: [0.7.5.dev20230623]
+[2023-06-24 10:25:25] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/59/6f/a42bb55009bf31c9693f61f3be282872f2f4b6c4192d59eec7281d298bfc/EncroX-1.0.2.tar.gz
+[2023-06-24 10:25:25] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-24 10:25:25] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-06-24 10:25:25] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/38/16/43724f1075da96c3a4f9df2cb50a8f40d42c94e2f6bf2c920920fd80d8a1/EncroX-1.0.3.tar.gz
+[2023-06-24 10:25:25] INFO root fetch - processPackages [spacecutter-torch]: Downloading https://files.pythonhosted.org/packages/71/d1/4130c5e8d27ef92559f450d436bb2051326b0e1778d60152c579701066ec/spacecutter_torch-0.4.1.tar.gz
+[2023-06-24 10:25:25] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/a6/cb/616bc61ab773b9fad03f8b1f83d7b7678b1f319121cac090ffcf5c3b8e6f/tf_model_optimization_nightly-0.7.5.dev20230623-py2.py3-none-any.whl
+[2023-06-24 10:25:25] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-06-24 10:25:25] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-06-24 10:25:25] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230624/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-24 10:25:25] INFO root fetch - processPackages [EncroX]: executing diffoscope
+[2023-06-24 10:25:25] INFO root fetch - processPackages [EncroX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EncroX-1.0.2.tar.gz tmp/EncroX-1.0.3.tar.gz --markdown 20230624/E/EncroX/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-24 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/78/92/070d6ebeabbe1051a878485d85955b1783ae1d21ff656328ca39be150101/tf_model_optimization_nightly-0.7.5.dev20230624-py2.py3-none-any.whl
+[2023-06-24 10:25:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-06-24 10:25:26] INFO root fetch - processPackages [spacecutter-torch]: Downloading https://files.pythonhosted.org/packages/60/9b/134d3654fec1611c704fd3438330eb4bb1d46929accaa6731e573ef33958/spacecutter_torch-1.0.0.tar.gz
+[2023-06-24 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-06-24 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230623-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230624-py2.py3-none-any.whl.zip --markdown 20230624/t/tf-model-optimization-nightly/0.7.5.dev20230623-0.7.5.dev20230624/diff.md --exclude *.pyd
+[2023-06-24 10:25:26] INFO root fetch - processPackages [spacecutter-torch]: executing diffoscope
+[2023-06-24 10:25:26] INFO root fetch - processPackages [spacecutter-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacecutter_torch-0.4.1.tar.gz tmp/spacecutter_torch-1.0.0.tar.gz --markdown 20230624/s/spacecutter-torch/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 10:25:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-06-24 10:25:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230624/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-24 10:25:27] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-06-24 10:25:27] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.2.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.3.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - main [MainThread]: End processing [EncroX]: success
+[2023-06-24 10:25:27] INFO root fetch - processPackages [spacecutter-torch]: Remove: archive file [/home/abi/fetcher/tmp/spacecutter_torch-0.4.1.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - processPackages [spacecutter-torch]: Remove: archive file [/home/abi/fetcher/tmp/spacecutter_torch-1.0.0.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - main [MainThread]: End processing [spacecutter-torch]: success
+[2023-06-24 10:25:27] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-06-24 10:25:27] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-06-24 10:25:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230623-py2.py3-none-any.whl.zip]
+[2023-06-24 10:25:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230624-py2.py3-none-any.whl.zip]
+[2023-06-24 10:25:28] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-06-24 10:25:28] INFO root fetch - main [MainThread]: Store serial: [18628036]
