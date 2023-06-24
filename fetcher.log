@@ -12644,3 +12644,90 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:06:44] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0a0.tar.gz]
 [2023-06-24 12:06:44] INFO root fetch - main [MainThread]: End processing [bhv]: success
 [2023-06-24 12:06:44] INFO root fetch - main [MainThread]: Store serial: [18628590]
+[2023-06-24 12:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628590]
+[2023-06-24 12:11:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dgopy
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phub
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: perke
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morel
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: i8-terminal
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dm-reverb-nightly
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bhv
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vedro-allure-reporter
+[2023-06-24 12:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nicovideo.py
+[2023-06-24 12:11:53] INFO root fetch - processPackages [phub]: New version: [2.8] Old Version: [2.7]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [morel]: New version: [1.6.2] Old Version: [1.6.1]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [pydatawork]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [dgopy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.86]
+[2023-06-24 12:11:53] WARNING root fetch - processPackages [nicovideo.py]: Skipping, unable to determine old version
+[2023-06-24 12:11:53] INFO root fetch - main [MainThread]: End processing [nicovideo.py] error
+[2023-06-24 12:11:53] INFO root fetch - processPackages [bhv]: New version: [0.6.0b0] Old Version: [0.6.0a0]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/80/4b/77da6ecc8763c5a7e4205ccac436f83b607feb2f0ae1f6551818c25bac40/phub-2.7.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/db/43/0adb6b92927eaae1991b3b0d2a52a7e88e68b94088e8ec603a23555652ca/morel-1.6.1.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [perke]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [vedro-allure-reporter]: New version: [1.8.0] Old Version: [1.7.1]
+[2023-06-24 12:11:53] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/12/8d/1235e5129a0400cfb9013d0b6dce4cb1d6ddf34320ad80607390d2258128/i8-terminal-0.2.86.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [dgopy]: Downloading https://files.pythonhosted.org/packages/3e/56/501fe600c52774998faf6de94795a227bcb7b1b36f34862e7c20f4d78ab6/dgopy-0.0.3.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/91/0e/cda7fb45ff314707db02d6848ea4debb78ef0b25aae3ff84b05f97482c53/bhv-0.6.0a0.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/35/eb/e6838950c01122e55870afd351627376b60e7e45dd1d1c8ff09204f0a1b0/pydatawork-0.1.7.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-24 12:11:53] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/9f/0f/f5d05ffb53f9b5b3d5019386ec80dfe7ebe764e6b0d591968418bdc6b9d4/morel-1.6.2.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [vedro-allure-reporter]: Downloading https://files.pythonhosted.org/packages/af/4f/09d23e34065f55c182877d5f028c9023b8dfc13eecd236106f6cbc9e5eaa/vedro-allure-reporter-1.7.1.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [perke]: Downloading https://files.pythonhosted.org/packages/6d/02/4cd74626a7cf848004ec028e2e1093f808f60486c4b5910765e3bd211933/perke-0.4.2.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [phub]: Downloading https://files.pythonhosted.org/packages/cc/1a/d7eb0ab23852bf3a05c01ab5ede524c2f60c93bd4f3a85d990cdf872963b/phub-2.8.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/3a/4e/059b0e0994331c6b3c544b088856473010361bbdd6bcf135283c19003870/i8-terminal-0.2.9.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-24 12:11:53] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.6.1.tar.gz tmp/morel-1.6.2.tar.gz --markdown 20230624/m/morel/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2023-06-24 12:11:53] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/e5/db/ba691641ab36b64dca7cf8f972b2f311c2e3264419c6c5c7b9c03538abc6/bhv-0.6.0b0.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [phub]: executing diffoscope
+[2023-06-24 12:11:53] INFO root fetch - processPackages [phub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phub-2.7.tar.gz tmp/phub-2.8.tar.gz --markdown 20230624/p/phub/2.7-2.8/diff.md --exclude *.pyd
+[2023-06-24 12:11:53] INFO root fetch - processPackages [dgopy]: Downloading https://files.pythonhosted.org/packages/ac/f1/34950d86a7a2ca907e66508c60900c698f47cce39f76969852bc188cbf6e/dgopy-0.0.4.tar.gz
+[2023-06-24 12:11:53] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-24 12:11:53] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.86.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230624/i/i8-terminal/0.2.86-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 12:11:53] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 12:11:54] INFO root fetch - processPackages [dgopy]: executing diffoscope
+[2023-06-24 12:11:54] INFO root fetch - processPackages [dgopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgopy-0.0.3.tar.gz tmp/dgopy-0.0.4.tar.gz --markdown 20230624/d/dgopy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 12:11:54] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 12:11:54] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.7.tar.gz tmp/pydatawork-0.1.8.tar.gz --markdown 20230624/p/pydatawork/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-24 12:11:54] INFO root fetch - processPackages [perke]: Downloading https://files.pythonhosted.org/packages/8d/8d/df535ae2bfd039cd8871444b2ac555dcad9ec9686c2a087b642ec53d6939/perke-0.4.3.tar.gz
+[2023-06-24 12:11:54] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-24 12:11:54] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-24 12:11:54] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.6.0a0.tar.gz tmp/bhv-0.6.0b0.tar.gz --markdown 20230624/b/bhv/0.6.0a0-0.6.0b0/diff.md --exclude *.pyd
+[2023-06-24 12:11:54] INFO root fetch - processPackages [vedro-allure-reporter]: Downloading https://files.pythonhosted.org/packages/c1/e3/383fbc4da531c0fcb8762604dc474f47fd394b607206e16d4581ba4bc4f7/vedro-allure-reporter-1.8.0.tar.gz
+[2023-06-24 12:11:54] INFO root fetch - processPackages [perke]: executing diffoscope
+[2023-06-24 12:11:54] INFO root fetch - processPackages [perke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perke-0.4.2.tar.gz tmp/perke-0.4.3.tar.gz --markdown 20230624/p/perke/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-24 12:11:54] INFO root fetch - processPackages [vedro-allure-reporter]: executing diffoscope
+[2023-06-24 12:11:54] INFO root fetch - processPackages [vedro-allure-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-allure-reporter-1.7.1.tar.gz tmp/vedro-allure-reporter-1.8.0.tar.gz --markdown 20230624/v/vedro-allure-reporter/1.7.1-1.8.0/diff.md --exclude *.pyd
+[2023-06-24 12:11:54] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-24 12:11:54] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230624/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-24 12:11:55] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.7.tar.gz]
+[2023-06-24 12:11:55] INFO root fetch - processPackages [phub]: Remove: archive file [/home/abi/fetcher/tmp/phub-2.8.tar.gz]
+[2023-06-24 12:11:55] INFO root fetch - main [MainThread]: End processing [phub]: success
+[2023-06-24 12:11:55] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.1.tar.gz]
+[2023-06-24 12:11:55] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.2.tar.gz]
+[2023-06-24 12:11:55] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-24 12:11:56] INFO root fetch - processPackages [dgopy]: Remove: archive file [/home/abi/fetcher/tmp/dgopy-0.0.3.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - processPackages [dgopy]: Remove: archive file [/home/abi/fetcher/tmp/dgopy-0.0.4.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - main [MainThread]: End processing [dgopy]: success
+[2023-06-24 12:11:56] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.7.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 12:11:56] INFO root fetch - processPackages [perke]: Remove: archive file [/home/abi/fetcher/tmp/perke-0.4.2.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - processPackages [perke]: Remove: archive file [/home/abi/fetcher/tmp/perke-0.4.3.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - main [MainThread]: End processing [perke]: success
+[2023-06-24 12:11:56] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.86.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.9.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-24 12:11:56] INFO root fetch - processPackages [vedro-allure-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vedro-allure-reporter-1.7.1.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - processPackages [vedro-allure-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vedro-allure-reporter-1.8.0.tar.gz]
+[2023-06-24 12:11:56] INFO root fetch - main [MainThread]: End processing [vedro-allure-reporter]: success
+[2023-06-24 12:11:57] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0a0.tar.gz]
+[2023-06-24 12:11:57] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0b0.tar.gz]
+[2023-06-24 12:11:57] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-24 12:12:48] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-24 12:12:48] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-24 12:12:48] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-24 12:12:48] INFO root fetch - main [MainThread]: Store serial: [18628621]
