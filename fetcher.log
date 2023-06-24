@@ -12788,3 +12788,27 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:18:28] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-24 12:18:28] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-24 12:18:28] INFO root fetch - main [MainThread]: Store serial: [18628643]
+[2023-06-24 12:23:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628643]
+[2023-06-24 12:23:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 12:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: non-normal
+[2023-06-24 12:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apache-airflow-providers-prophecy
+[2023-06-24 12:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unihan-etl
+[2023-06-24 12:23:37] WARNING root fetch - processPackages [non-normal]: Skipping, unable to determine old version
+[2023-06-24 12:23:37] INFO root fetch - main [MainThread]: End processing [non-normal] error
+[2023-06-24 12:23:37] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 12:23:37] INFO root fetch - processPackages [unihan-etl]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-24 12:23:37] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: Downloading https://files.pythonhosted.org/packages/d5/cc/59790cb3506f62e389eef37be7afe964c23598e4495a6fa5217ac8018fa4/apache-airflow-providers-prophecy-1.0.0.tar.gz
+[2023-06-24 12:23:37] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/e6/f2/ad475612c1951852fbf186e9c2ffac59296b278605657be60b58b4699358/unihan-etl-0.9.4.tar.gz
+[2023-06-24 12:23:38] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: Downloading https://files.pythonhosted.org/packages/e5/a3/4c90d8cc217976b35eddc07d485cf445f0ca9989c5813535e1d4a31938d7/apache-airflow-providers-prophecy-1.0.1.tar.gz
+[2023-06-24 12:23:38] INFO root fetch - processPackages [unihan-etl]: Downloading https://files.pythonhosted.org/packages/d8/de/3d9897770b4f0eafb171ba960ce769fa5034edcb5ffc2b3c0538635c5b63/unihan-etl-0.9.5.tar.gz
+[2023-06-24 12:23:38] INFO root fetch - processPackages [unihan-etl]: executing diffoscope
+[2023-06-24 12:23:38] INFO root fetch - processPackages [unihan-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan-etl-0.9.4.tar.gz tmp/unihan-etl-0.9.5.tar.gz --markdown 20230624/u/unihan-etl/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-24 12:23:38] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: executing diffoscope
+[2023-06-24 12:23:38] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-prophecy-1.0.0.tar.gz tmp/apache-airflow-providers-prophecy-1.0.1.tar.gz --markdown 20230624/a/apache-airflow-providers-prophecy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 12:23:39] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-prophecy-1.0.0.tar.gz]
+[2023-06-24 12:23:39] INFO root fetch - processPackages [apache-airflow-providers-prophecy]: Remove: archive file [/home/abi/fetcher/tmp/apache-airflow-providers-prophecy-1.0.1.tar.gz]
+[2023-06-24 12:23:39] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-prophecy]: success
+[2023-06-24 12:23:39] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.4.tar.gz]
+[2023-06-24 12:23:39] INFO root fetch - processPackages [unihan-etl]: Remove: archive file [/home/abi/fetcher/tmp/unihan-etl-0.9.5.tar.gz]
+[2023-06-24 12:23:39] INFO root fetch - main [MainThread]: End processing [unihan-etl]: success
+[2023-06-24 12:23:39] INFO root fetch - main [MainThread]: Store serial: [18628664]
