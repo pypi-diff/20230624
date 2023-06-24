@@ -13097,3 +13097,33 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 13:00:11] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-37.1.25.4.tar.gz]
 [2023-06-24 13:00:11] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-06-24 13:00:11] INFO root fetch - main [MainThread]: Store serial: [18628885]
+[2023-06-24 13:05:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628885]
+[2023-06-24 13:05:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labelprinterkit
+[2023-06-24 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Flask-PyTelegramBotAPI
+[2023-06-24 13:05:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mflag
+[2023-06-24 13:05:22] INFO root fetch - processPackages [labelprinterkit]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-24 13:05:22] INFO root fetch - processPackages [mflag]: New version: [1.6.6] Old Version: [1.6.5]
+[2023-06-24 13:05:22] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 13:05:22] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/64/f4/7171a7d2fab71b47eb8e35467cf01bdf576925554dc9ac42bb041b971864/mflag-1.6.5.tar.gz
+[2023-06-24 13:05:22] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/25/b7/107c02ce9fc7a7f39649f1683f7dcec831eab246f23be3aaec7aa6f30010/labelprinterkit-0.4.1.tar.gz
+[2023-06-24 13:05:22] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/d2/61/5c3c45941364b45dbd7e616afdc34884c13053a065af2a3d7a6af768d850/Flask-PyTelegramBotAPI-0.0.4.tar.gz
+[2023-06-24 13:05:22] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/3f/bc/295cdc5daad0264be6aadf4a2bc5bece9987b45b8837dc859226304280d7/mflag-1.6.6.tar.gz
+[2023-06-24 13:05:22] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/33/4c/bb16edcc92ec3bd4c4c32d3a5c826333425653c50e092baae73746a0ac8b/labelprinterkit-0.4.2.tar.gz
+[2023-06-24 13:05:22] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/83/6b/54552e691c00b9168d63954d0141ed5840f62b3230d1e613e5170c1bd8e8/Flask-PyTelegramBotAPI-0.0.5.tar.gz
+[2023-06-24 13:05:22] INFO root fetch - processPackages [mflag]: executing diffoscope
+[2023-06-24 13:05:22] INFO root fetch - processPackages [mflag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflag-1.6.5.tar.gz tmp/mflag-1.6.6.tar.gz --markdown 20230624/m/mflag/1.6.5-1.6.6/diff.md --exclude *.pyd
+[2023-06-24 13:05:22] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: executing diffoscope
+[2023-06-24 13:05:22] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-PyTelegramBotAPI-0.0.4.tar.gz tmp/Flask-PyTelegramBotAPI-0.0.5.tar.gz --markdown 20230624/F/Flask-PyTelegramBotAPI/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 13:05:22] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 13:05:22] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.4.1.tar.gz tmp/labelprinterkit-0.4.2.tar.gz --markdown 20230624/l/labelprinterkit/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-24 13:05:23] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.5.tar.gz]
+[2023-06-24 13:05:23] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.6.tar.gz]
+[2023-06-24 13:05:23] INFO root fetch - main [MainThread]: End processing [mflag]: success
+[2023-06-24 13:05:24] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.1.tar.gz]
+[2023-06-24 13:05:24] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.2.tar.gz]
+[2023-06-24 13:05:24] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 13:05:24] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: Remove: archive file [/home/abi/fetcher/tmp/Flask-PyTelegramBotAPI-0.0.4.tar.gz]
+[2023-06-24 13:05:24] INFO root fetch - processPackages [Flask-PyTelegramBotAPI]: Remove: archive file [/home/abi/fetcher/tmp/Flask-PyTelegramBotAPI-0.0.5.tar.gz]
+[2023-06-24 13:05:24] INFO root fetch - main [MainThread]: End processing [Flask-PyTelegramBotAPI]: success
+[2023-06-24 13:05:24] INFO root fetch - main [MainThread]: Store serial: [18628895]
