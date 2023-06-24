@@ -3171,3 +3171,45 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 03:10:37] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-24 03:10:37] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-24 03:10:37] INFO root fetch - main [MainThread]: Store serial: [18625003]
+[2023-06-24 03:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18625003]
+[2023-06-24 03:15:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 03:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: even-dist
+[2023-06-24 03:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phuego
+[2023-06-24 03:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2023-06-24 03:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aemcmc-nightly
+[2023-06-24 03:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: racplusplus
+[2023-06-24 03:15:45] INFO root fetch - processPackages [racplusplus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 03:15:46] INFO root fetch - processPackages [even-dist]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 03:15:46] WARNING root fetch - processPackages [phuego]: Skipping, unable to determine old version
+[2023-06-24 03:15:46] INFO root fetch - main [MainThread]: End processing [phuego] error
+[2023-06-24 03:15:46] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230623] Old Version: [0.0.8.dev20230622]
+[2023-06-24 03:15:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-24 03:15:46] INFO root fetch - processPackages [racplusplus]: Downloading https://files.pythonhosted.org/packages/35/90/066f54fc8d6e0eecdb54436fb2481f99cc92e0586201117e508ce7a29c5b/racplusplus-0.0.2.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/64/25/cafbe6ab2d03170518fed154e83b7f30aa3f2d169d89db95cc7a0ae80b87/aemcmc-nightly-0.0.8.dev20230622.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/e6/45/9726371c8eea2c352cbdcb7380f723c3fb4630c752328136f81d845bb473/even-dist-0.2.0.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/65/36/8f69ae27faae1df92fd4be4f13e65f8d2c2c258a51215b54f29603943e79/aemcmc-nightly-0.0.8.dev20230623.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [racplusplus]: Downloading https://files.pythonhosted.org/packages/fe/86/407ed042fcda0edd2be0f41f214675b505654b0d72358be8cac34cab1fd8/racplusplus-0.0.3.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-24 03:15:46] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/67/9d/e860848e2ca07efa2359bc2f7740552af08c820ad2e76f8d9a665d2f4986/even-dist-0.2.1.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230622.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230623.tar.gz --markdown 20230624/a/aemcmc-nightly/0.0.8.dev20230622-0.0.8.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 03:15:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-24 03:15:46] INFO root fetch - processPackages [racplusplus]: executing diffoscope
+[2023-06-24 03:15:46] INFO root fetch - processPackages [racplusplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racplusplus-0.0.2.tar.gz tmp/racplusplus-0.0.3.tar.gz --markdown 20230624/r/racplusplus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 03:15:46] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 03:15:46] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.2.0.tar.gz tmp/even-dist-0.2.1.tar.gz --markdown 20230624/e/even-dist/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 03:15:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-24 03:15:46] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230624/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:15:47] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230622.tar.gz]
+[2023-06-24 03:15:47] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230623.tar.gz]
+[2023-06-24 03:15:47] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-24 03:15:47] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.0.tar.gz]
+[2023-06-24 03:15:47] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.1.tar.gz]
+[2023-06-24 03:15:47] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 03:15:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-24 03:15:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-24 03:15:48] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-24 03:15:50] INFO root fetch - processPackages [racplusplus]: Remove: archive file [/home/abi/fetcher/tmp/racplusplus-0.0.2.tar.gz]
+[2023-06-24 03:15:50] INFO root fetch - processPackages [racplusplus]: Remove: archive file [/home/abi/fetcher/tmp/racplusplus-0.0.3.tar.gz]
+[2023-06-24 03:15:50] INFO root fetch - main [MainThread]: End processing [racplusplus]: success
+[2023-06-24 03:15:50] INFO root fetch - main [MainThread]: Store serial: [18625022]
