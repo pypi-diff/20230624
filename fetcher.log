@@ -11093,3 +11093,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:26:32] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.1.tar.gz]
 [2023-06-24 09:26:32] INFO root fetch - main [MainThread]: End processing [commitizen]: success
 [2023-06-24 09:26:32] INFO root fetch - main [MainThread]: Store serial: [18627821]
+[2023-06-24 09:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627821]
+[2023-06-24 09:31:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 09:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgenis-emx2-pyclient
+[2023-06-24 09:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epyt
+[2023-06-24 09:31:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm
+[2023-06-24 09:31:41] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 09:31:41] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.198.1] Old Version: [8.198.0]
+[2023-06-24 09:31:41] INFO root fetch - processPackages [epyt]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-24 09:31:41] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-06-24 09:31:41] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/84/17/7aa93c2bac6f0a025bc22a6600546f9a13cbe0672af4ea58d2d34494deb5/molgenis_emx2_pyclient-8.198.0.tar.gz
+[2023-06-24 09:31:41] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/a1/b1/c4e5d71558de13f10bf4d71e8d08828be86c96a7fa4c92b5535af6dcaee1/epyt-1.0.5.tar.gz
+[2023-06-24 09:31:41] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-06-24 09:31:41] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/7c/02/bb1d201e1589fa190537eeb9d9c52b06024f8441a6199e72d4eb06c78dcc/molgenis_emx2_pyclient-8.198.1.tar.gz
+[2023-06-24 09:31:41] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-06-24 09:31:41] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.198.0.tar.gz tmp/molgenis_emx2_pyclient-8.198.1.tar.gz --markdown 20230624/m/molgenis-emx2-pyclient/8.198.0-8.198.1/diff.md --exclude *.pyd
+[2023-06-24 09:31:42] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-24 09:31:42] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230624/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 09:31:42] INFO root fetch - processPackages [epyt]: Downloading https://files.pythonhosted.org/packages/ab/23/9854bacc554d21aa57654cc47b6c8dfe84f282f8ad38f03ce889d67f5066/epyt-1.0.6.tar.gz
+[2023-06-24 09:31:42] INFO root fetch - processPackages [epyt]: executing diffoscope
+[2023-06-24 09:31:42] INFO root fetch - processPackages [epyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyt-1.0.5.tar.gz tmp/epyt-1.0.6.tar.gz --markdown 20230624/e/epyt/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-24 09:31:43] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.198.0.tar.gz]
+[2023-06-24 09:31:43] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.198.1.tar.gz]
+[2023-06-24 09:31:43] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-06-24 09:31:44] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-06-24 09:31:44] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-06-24 09:31:44] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-24 09:31:47] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.5.tar.gz]
+[2023-06-24 09:31:47] INFO root fetch - processPackages [epyt]: Remove: archive file [/home/abi/fetcher/tmp/epyt-1.0.6.tar.gz]
+[2023-06-24 09:31:47] INFO root fetch - main [MainThread]: End processing [epyt]: success
+[2023-06-24 09:31:47] INFO root fetch - main [MainThread]: Store serial: [18627829]
