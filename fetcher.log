@@ -12324,3 +12324,51 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 11:33:37] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
 [2023-06-24 11:33:37] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-06-24 11:33:37] INFO root fetch - main [MainThread]: Store serial: [18628440]
+[2023-06-24 11:38:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628440]
+[2023-06-24 11:38:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 11:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: translang
+[2023-06-24 11:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minidevice
+[2023-06-24 11:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: anticaptchaofficial
+[2023-06-24 11:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EDA-recordk
+[2023-06-24 11:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GPTConnect
+[2023-06-24 11:38:46] INFO root fetch - processPackages [translang]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 11:38:46] INFO root fetch - processPackages [anticaptchaofficial]: New version: [1.0.53] Old Version: [1.0.52]
+[2023-06-24 11:38:46] INFO root fetch - processPackages [GPTConnect]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 11:38:46] INFO root fetch - processPackages [EDA-recordk]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-24 11:38:46] INFO root fetch - processPackages [minidevice]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-06-24 11:38:46] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/05/fd/23b15e06f9ec72708c8384cf45016ce588dbd78920e9654ca65e8fcb58e3/GPTConnect-0.1.8.tar.gz
+[2023-06-24 11:38:46] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/79/97/ac21f9b6f5a34ea187e5ce43fc67347bc5fe076c889b1ff9656f7372a03d/EDA_recordk-1.0.3-py3-none-any.whl
+[2023-06-24 11:38:46] INFO root fetch - processPackages [translang]: Downloading https://files.pythonhosted.org/packages/6e/ae/794fd987a62727b36c5017f5ecf9fd09c920cb3087d53ae14684327e60e8/translang-0.1.0.tar.gz
+[2023-06-24 11:38:46] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/89/4e/410d7b7b4ee06b40dc5d946c61bf961684f7528e6f71c7721ba064e43fbf/minidevice-2.1.0.tar.gz
+[2023-06-24 11:38:46] INFO root fetch - processPackages [anticaptchaofficial]: Downloading https://files.pythonhosted.org/packages/52/ba/5b86beb0e520e63e8832e737cbf1463f3bf9ccedb43035a9d98afdc81b1c/anticaptchaofficial-1.0.52-py3-none-any.whl
+[2023-06-24 11:38:47] INFO root fetch - processPackages [GPTConnect]: Downloading https://files.pythonhosted.org/packages/f8/3d/6da137fb1e93001a5242b355d6a595311912078e91bc4ba43f119b0342e9/GPTConnect-0.1.9.tar.gz
+[2023-06-24 11:38:47] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/13/3d/badeeea566bfb386479b4d9bd685449b507eedcb16f06f790a45c2e4458d/EDA_recordk-1.0.4-py3-none-any.whl
+[2023-06-24 11:38:47] INFO root fetch - processPackages [EDA-recordk]: executing diffoscope
+[2023-06-24 11:38:47] INFO root fetch - processPackages [EDA-recordk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDA_recordk-1.0.3-py3-none-any.whl.zip tmp/EDA_recordk-1.0.4-py3-none-any.whl.zip --markdown 20230624/E/EDA-recordk/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-24 11:38:47] INFO root fetch - processPackages [anticaptchaofficial]: Downloading https://files.pythonhosted.org/packages/74/87/21e5f3c4840715e45e50fc02c065c3eab5c07bec897469f043c6c1462f4a/anticaptchaofficial-1.0.53-py3-none-any.whl
+[2023-06-24 11:38:47] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/89/1a/5b8b2787b8919717b70e60c1b9b5d8d1d6168e754d9e974d3b218f0ccfad/minidevice-2.1.1.tar.gz
+[2023-06-24 11:38:47] INFO root fetch - processPackages [GPTConnect]: executing diffoscope
+[2023-06-24 11:38:47] INFO root fetch - processPackages [GPTConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTConnect-0.1.8.tar.gz tmp/GPTConnect-0.1.9.tar.gz --markdown 20230624/G/GPTConnect/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 11:38:47] INFO root fetch - processPackages [translang]: Downloading https://files.pythonhosted.org/packages/2c/83/7c64233f6f49b5e9298e6c38fe284d9873c0860cc0efbc42eb20b4d4708a/translang-0.1.1.tar.gz
+[2023-06-24 11:38:47] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-24 11:38:47] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.0.tar.gz tmp/minidevice-2.1.1.tar.gz --markdown 20230624/m/minidevice/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-06-24 11:38:47] INFO root fetch - processPackages [anticaptchaofficial]: executing diffoscope
+[2023-06-24 11:38:47] INFO root fetch - processPackages [anticaptchaofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anticaptchaofficial-1.0.52-py3-none-any.whl.zip tmp/anticaptchaofficial-1.0.53-py3-none-any.whl.zip --markdown 20230624/a/anticaptchaofficial/1.0.52-1.0.53/diff.md --exclude *.pyd
+[2023-06-24 11:38:47] INFO root fetch - processPackages [translang]: executing diffoscope
+[2023-06-24 11:38:47] INFO root fetch - processPackages [translang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translang-0.1.0.tar.gz tmp/translang-0.1.1.tar.gz --markdown 20230624/t/translang/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 11:38:48] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.3-py3-none-any.whl.zip]
+[2023-06-24 11:38:48] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.4-py3-none-any.whl.zip]
+[2023-06-24 11:38:48] INFO root fetch - main [MainThread]: End processing [EDA-recordk]: success
+[2023-06-24 11:38:48] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.8.tar.gz]
+[2023-06-24 11:38:48] INFO root fetch - processPackages [GPTConnect]: Remove: archive file [/home/abi/fetcher/tmp/GPTConnect-0.1.9.tar.gz]
+[2023-06-24 11:38:48] INFO root fetch - main [MainThread]: End processing [GPTConnect]: success
+[2023-06-24 11:38:48] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.0.tar.gz]
+[2023-06-24 11:38:48] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.1.tar.gz]
+[2023-06-24 11:38:48] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-24 11:38:49] INFO root fetch - processPackages [anticaptchaofficial]: Remove: archive file [/home/abi/fetcher/tmp/anticaptchaofficial-1.0.52-py3-none-any.whl.zip]
+[2023-06-24 11:38:49] INFO root fetch - processPackages [anticaptchaofficial]: Remove: archive file [/home/abi/fetcher/tmp/anticaptchaofficial-1.0.53-py3-none-any.whl.zip]
+[2023-06-24 11:38:49] INFO root fetch - main [MainThread]: End processing [anticaptchaofficial]: success
+[2023-06-24 11:38:49] INFO root fetch - processPackages [translang]: Remove: archive file [/home/abi/fetcher/tmp/translang-0.1.0.tar.gz]
+[2023-06-24 11:38:49] INFO root fetch - processPackages [translang]: Remove: archive file [/home/abi/fetcher/tmp/translang-0.1.1.tar.gz]
+[2023-06-24 11:38:49] INFO root fetch - main [MainThread]: End processing [translang]: success
+[2023-06-24 11:38:49] INFO root fetch - main [MainThread]: Store serial: [18628491]
