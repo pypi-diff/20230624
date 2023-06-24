@@ -15651,3 +15651,86 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:40:17] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.9-py3-none-any.whl.zip]
 [2023-06-24 16:40:17] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
 [2023-06-24 16:40:17] INFO root fetch - main [MainThread]: Store serial: [18629911]
+[2023-06-24 16:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629911]
+[2023-06-24 16:45:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colored
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytrf
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: illumigator
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proJSON
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Finance-Hermes
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dtw-flex
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PySide1-Customized-Window
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PySide2-Customized-Window
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ast-comments
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymatgen
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pytrf]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [proJSON]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-24 16:45:26] WARNING root fetch - processPackages [dtw-flex]: Skipping, unable to determine old version
+[2023-06-24 16:45:26] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-06-24 16:45:26] INFO root fetch - main [MainThread]: End processing [dtw-flex] error
+[2023-06-24 16:45:26] INFO root fetch - processPackages [illumigator]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [PySide1-Customized-Window]: New version: [1.9] Old Version: [1.8]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ast-comments]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pymatgen]: New version: [4.7.7] Old Version: [4.7.6]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [PySide2-Customized-Window]: New version: [1.9] Old Version: [1.8]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [colored]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-06-24 16:45:26] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/28/1e/d57692ca0c52d84ef0470b121cc812f81d9645c68a3e9d7695855743cae8/proJSON-1.2.2.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/79/fd/1e6d50139fcadc069c515c3c176e7063c9a586ea3d6fa94e85648f8062f8/illumigator-0.0.4.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pytrf]: Downloading https://files.pythonhosted.org/packages/10/e2/40c3a19d54f5cd0c0f3e3950e3226336cd066fd159d203fea6fb4854d470/pytrf-1.0.0.tar.gz
+[2023-06-24 16:45:26] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 61063284>=10485760
+[2023-06-24 16:45:26] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ast-comments]: Downloading https://files.pythonhosted.org/packages/d6/06/d5e63893f6ab799264e7ab5928e7f177ed790efd1f6a43439916f8c33a65/ast_comments-1.0.1.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/47/29/2510c1432057a734d39cc8fe1fd6c6fe560d5017f6e9f865c1f7c81d92a1/Finance-Hermes-0.2.1.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/8d/14/747b854a87311339615c911fa672daea628696cd659cea1f6ab4cdbce16c/PySide1_Customized_Window-1.8-py3-none-any.whl
+[2023-06-24 16:45:26] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/31/1e/3905b30016da892732662aedf828c80f348fd7bf956718d7ef7655cfdcbc/colored-2.1.1.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/f8/11/932dcc4ebb444717ca49389e060aeb54f98ed9df48131df12df030e2ad3d/pymatgen-4.7.6.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/b5/30/7e66a07b6ee06c69e436b1ed9fd45e41dc55f233094bfa2dc927cece4fd1/PySide2_Customized_Window-1.8-py3-none-any.whl
+[2023-06-24 16:45:26] INFO root fetch - processPackages [proJSON]: Downloading https://files.pythonhosted.org/packages/76/6f/23922d7b75366468b7b853081d5bae8abae13a2d7836ce41ff2884d2cd02/proJSON-1.2.3.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pytrf]: Downloading https://files.pythonhosted.org/packages/1d/2f/09e8d50507e1b01e9f39f1f75f9eb3588d13ba9f32a4b7d04574c11e8109/pytrf-1.0.1.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [proJSON]: executing diffoscope
+[2023-06-24 16:45:26] INFO root fetch - processPackages [proJSON]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proJSON-1.2.2.tar.gz tmp/proJSON-1.2.3.tar.gz --markdown 20230624/p/proJSON/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-24 16:45:26] INFO root fetch - processPackages [ast-comments]: Downloading https://files.pythonhosted.org/packages/2c/eb/38858d1d59d20fcb91a5a798533b1ba9c20634dbed0f731a51d21d58d047/ast_comments-1.1.0.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [colored]: Downloading https://files.pythonhosted.org/packages/5a/ac/1bd8fea22728659417bad6af3f0db39b625a82324fe1e918d81aa51e9837/colored-2.2.0.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/cd/73/4eda456da7f1cd1950902c011effb464b68f0e4ab6dbc192b09a8cc36860/Finance-Hermes-0.2.3.tar.gz
+[2023-06-24 16:45:26] INFO root fetch - processPackages [PySide1-Customized-Window]: Downloading https://files.pythonhosted.org/packages/47/f0/a290eb50822cb8c5ccbb1be060a6a3edc2ddd2bddd9a21c61c4f56ce967a/PySide1_Customized_Window-1.9-py3-none-any.whl
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pytrf]: executing diffoscope
+[2023-06-24 16:45:26] INFO root fetch - processPackages [pytrf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrf-1.0.0.tar.gz tmp/pytrf-1.0.1.tar.gz --markdown 20230624/p/pytrf/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 16:45:26] INFO root fetch - processPackages [PySide2-Customized-Window]: Downloading https://files.pythonhosted.org/packages/a3/d2/a5e891b6bdc1f570fc0d3aced001205f1495c34d1a740364666b5ea884c3/PySide2_Customized_Window-1.9-py3-none-any.whl
+[2023-06-24 16:45:27] INFO root fetch - processPackages [colored]: executing diffoscope
+[2023-06-24 16:45:27] INFO root fetch - processPackages [colored]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colored-2.1.1.tar.gz tmp/colored-2.2.0.tar.gz --markdown 20230624/c/colored/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-06-24 16:45:27] INFO root fetch - processPackages [PySide1-Customized-Window]: executing diffoscope
+[2023-06-24 16:45:27] INFO root fetch - processPackages [PySide1-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide1_Customized_Window-1.8-py3-none-any.whl.zip tmp/PySide1_Customized_Window-1.9-py3-none-any.whl.zip --markdown 20230624/P/PySide1-Customized-Window/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-24 16:45:27] INFO root fetch - processPackages [ast-comments]: executing diffoscope
+[2023-06-24 16:45:27] INFO root fetch - processPackages [ast-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_comments-1.0.1.tar.gz tmp/ast_comments-1.1.0.tar.gz --markdown 20230624/a/ast-comments/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 16:45:27] INFO root fetch - processPackages [PySide2-Customized-Window]: executing diffoscope
+[2023-06-24 16:45:27] INFO root fetch - processPackages [PySide2-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2_Customized_Window-1.8-py3-none-any.whl.zip tmp/PySide2_Customized_Window-1.9-py3-none-any.whl.zip --markdown 20230624/P/PySide2-Customized-Window/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-24 16:45:27] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-06-24 16:45:27] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Hermes-0.2.1.tar.gz tmp/Finance-Hermes-0.2.3.tar.gz --markdown 20230624/F/Finance-Hermes/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-06-24 16:45:28] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.2.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - processPackages [proJSON]: Remove: archive file [/home/abi/fetcher/tmp/proJSON-1.2.3.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - main [MainThread]: End processing [proJSON]: success
+[2023-06-24 16:45:28] INFO root fetch - processPackages [pytrf]: Remove: archive file [/home/abi/fetcher/tmp/pytrf-1.0.0.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - processPackages [pytrf]: Remove: archive file [/home/abi/fetcher/tmp/pytrf-1.0.1.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - main [MainThread]: End processing [pytrf]: success
+[2023-06-24 16:45:28] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-2.1.1.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - processPackages [colored]: Remove: archive file [/home/abi/fetcher/tmp/colored-2.2.0.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - main [MainThread]: End processing [colored]: success
+[2023-06-24 16:45:28] INFO root fetch - processPackages [PySide2-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2_Customized_Window-1.8-py3-none-any.whl.zip]
+[2023-06-24 16:45:28] INFO root fetch - processPackages [PySide2-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide2_Customized_Window-1.9-py3-none-any.whl.zip]
+[2023-06-24 16:45:28] INFO root fetch - main [MainThread]: End processing [PySide2-Customized-Window]: success
+[2023-06-24 16:45:28] INFO root fetch - processPackages [PySide1-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide1_Customized_Window-1.8-py3-none-any.whl.zip]
+[2023-06-24 16:45:28] INFO root fetch - processPackages [PySide1-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide1_Customized_Window-1.9-py3-none-any.whl.zip]
+[2023-06-24 16:45:28] INFO root fetch - main [MainThread]: End processing [PySide1-Customized-Window]: success
+[2023-06-24 16:45:28] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/5d/70/264aa342dff7f1c5fa6c1870cf2fb08b1e89462261dfd880f3107cfb8788/pymatgen-4.7.7.tar.gz
+[2023-06-24 16:45:28] INFO root fetch - processPackages [ast-comments]: Remove: archive file [/home/abi/fetcher/tmp/ast_comments-1.0.1.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - processPackages [ast-comments]: Remove: archive file [/home/abi/fetcher/tmp/ast_comments-1.1.0.tar.gz]
+[2023-06-24 16:45:28] INFO root fetch - main [MainThread]: End processing [ast-comments]: success
+[2023-06-24 16:45:29] INFO root fetch - processPackages [pymatgen]: executing diffoscope
+[2023-06-24 16:45:29] INFO root fetch - processPackages [pymatgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-4.7.6.tar.gz tmp/pymatgen-4.7.7.tar.gz --markdown 20230624/p/pymatgen/4.7.6-4.7.7/diff.md --exclude *.pyd
+[2023-06-24 16:45:29] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.1.tar.gz]
+[2023-06-24 16:45:29] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.3.tar.gz]
+[2023-06-24 16:45:29] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-06-24 16:45:34] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.6.tar.gz]
+[2023-06-24 16:45:34] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.7.tar.gz]
+[2023-06-24 16:45:34] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
+[2023-06-24 16:45:34] INFO root fetch - main [MainThread]: Store serial: [18630006]
