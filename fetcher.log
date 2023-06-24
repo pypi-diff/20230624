@@ -6975,3 +6975,60 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:17:47] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-fallback_unknown-1.0.0.tar.gz]
 [2023-06-24 04:17:47] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-unknown]: success
 [2023-06-24 04:17:47] INFO root fetch - main [MainThread]: Store serial: [18626311]
+[2023-06-24 04:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626311]
+[2023-06-24 04:22:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 04:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: n2y
+[2023-06-24 04:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: presslink
+[2023-06-24 04:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airunner
+[2023-06-24 04:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yter
+[2023-06-24 04:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shakenfist-agent
+[2023-06-24 04:22:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: even-dist
+[2023-06-24 04:22:56] INFO root fetch - processPackages [n2y]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-24 04:22:56] INFO root fetch - processPackages [yter]: New version: [3.0.0] Old Version: [2.0.1]
+[2023-06-24 04:22:56] INFO root fetch - processPackages [airunner]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-24 04:22:56] INFO root fetch - processPackages [shakenfist-agent]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-24 04:22:56] INFO root fetch - processPackages [even-dist]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-24 04:22:56] INFO root fetch - processPackages [presslink]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 04:22:56] INFO root fetch - processPackages [n2y]: Downloading https://files.pythonhosted.org/packages/a9/fe/afb50e088453148b61df778defdc7798c56d65e8c6e810b6e9cf29a0ab80/n2y-0.8.0.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/c7/17/4fd03a6620fcd3ca406edb019a8ca501d8d47055f9a29354d4035447e7d1/airunner-1.9.4.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/40/19/8adbaa55d6c505102e9e905d049670c373961145ba6f98e03cf415182687/even-dist-0.2.7.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [presslink]: Downloading https://files.pythonhosted.org/packages/19/5a/5e65fd5685a650746cf53984dbd355068cc828d56782f300d9b622a91347/presslink-0.0.1.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/60/cd/d466790071a923540ac289e13a314b39c47ceaefc303cbe0046ca6e65710/airunner-1.9.5.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/1b/9d/8e86760dedc977eaad2d9a2b5c4b27400c70f0c4ec38ab513b7cf312f996/shakenfist-agent-0.3.8.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/a6/8c/2fa11fbf504269ad703e0256b0f2d731361c1313b26a79670eab6b6dfaf1/yter-2.0.1.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [n2y]: Downloading https://files.pythonhosted.org/packages/50/27/5ca85a2bce2e70c40f801892afe44c1522bbd3589f1f978e58721dd335df/n2y-0.8.1.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-06-24 04:22:56] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.4.tar.gz tmp/airunner-1.9.5.tar.gz --markdown 20230624/a/airunner/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-06-24 04:22:56] INFO root fetch - processPackages [n2y]: executing diffoscope
+[2023-06-24 04:22:56] INFO root fetch - processPackages [n2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n2y-0.8.0.tar.gz tmp/n2y-0.8.1.tar.gz --markdown 20230624/n/n2y/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-24 04:22:56] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/36/57/93f336fa6d85387d3c528acce73b09563cc416e5822d92bafd27f85edc85/even-dist-0.2.8.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [yter]: Downloading https://files.pythonhosted.org/packages/08/34/9cdded3678a7f8fb6224d50842b113247def47e600a6b2fbb05494120b3f/yter-3.0.0.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [presslink]: Downloading https://files.pythonhosted.org/packages/7e/f9/9b4ef5d529e6690943c0f2bc611bc5ace771b39771b480ca07d74aa43fc8/presslink-0.0.2.tar.gz
+[2023-06-24 04:22:56] INFO root fetch - processPackages [shakenfist-agent]: Downloading https://files.pythonhosted.org/packages/8d/79/f656d2ef8da79e62fd60458bb773a4d9d04d1881176e7901f83dd4119e6c/shakenfist-agent-0.3.9.tar.gz
+[2023-06-24 04:22:57] INFO root fetch - processPackages [yter]: executing diffoscope
+[2023-06-24 04:22:57] INFO root fetch - processPackages [yter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yter-2.0.1.tar.gz tmp/yter-3.0.0.tar.gz --markdown 20230624/y/yter/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2023-06-24 04:22:57] INFO root fetch - processPackages [presslink]: executing diffoscope
+[2023-06-24 04:22:57] INFO root fetch - processPackages [presslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/presslink-0.0.1.tar.gz tmp/presslink-0.0.2.tar.gz --markdown 20230624/p/presslink/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 04:22:57] INFO root fetch - processPackages [shakenfist-agent]: executing diffoscope
+[2023-06-24 04:22:57] INFO root fetch - processPackages [shakenfist-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakenfist-agent-0.3.8.tar.gz tmp/shakenfist-agent-0.3.9.tar.gz --markdown 20230624/s/shakenfist-agent/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-24 04:22:57] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 04:22:57] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.2.7.tar.gz tmp/even-dist-0.2.8.tar.gz --markdown 20230624/e/even-dist/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-24 04:22:58] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.4.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-1.9.5.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-06-24 04:22:58] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-2.0.1.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - processPackages [yter]: Remove: archive file [/home/abi/fetcher/tmp/yter-3.0.0.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [yter]: success
+[2023-06-24 04:22:58] INFO root fetch - processPackages [presslink]: Remove: archive file [/home/abi/fetcher/tmp/presslink-0.0.1.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - processPackages [presslink]: Remove: archive file [/home/abi/fetcher/tmp/presslink-0.0.2.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [presslink]: success
+[2023-06-24 04:22:58] INFO root fetch - processPackages [n2y]: Remove: archive file [/home/abi/fetcher/tmp/n2y-0.8.0.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - processPackages [n2y]: Remove: archive file [/home/abi/fetcher/tmp/n2y-0.8.1.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [n2y]: success
+[2023-06-24 04:22:58] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.7.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.8.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 04:22:58] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.8.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
+[2023-06-24 04:22:58] INFO root fetch - main [MainThread]: Store serial: [18626331]
