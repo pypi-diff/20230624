@@ -16090,3 +16090,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:11:35] INFO root fetch - main [MainThread]: End processing [autooc]: success
 [2023-06-24 17:11:35] INFO root fetch - main [MainThread]: End processing [autooc]: success
 [2023-06-24 17:11:35] INFO root fetch - main [MainThread]: Store serial: [18630184]
+[2023-06-24 17:16:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630184]
+[2023-06-24 17:16:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nligraphspacy
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alx-utils
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minidevice
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-watcher
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rime-sdk
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-text-nightly
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ldimbenchmark
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydatawork
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cyberdrop-dl
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: timxfriend
+[2023-06-24 17:16:44] INFO root fetch - processPackages [minidevice]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-24 17:16:44] WARNING root fetch - processPackages [alx-utils]: Skipping, unable to determine old version
+[2023-06-24 17:16:44] INFO root fetch - processPackages [alx-utils]: Start processing: autooc
+[2023-06-24 17:16:44] INFO root fetch - main [MainThread]: End processing [alx-utils] error
+[2023-06-24 17:16:44] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pytest-watcher]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [timxfriend]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.14.0.dev20230623] Old Version: [2.14.0.dev20230622]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc0] Old Version: [2.1.0rc7]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/14/c3/d80a7f19016813f05a074604b79e5558eb65f9c8309c30bb1b3997352d70/minidevice-2.1.3.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [autooc]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 17:16:44] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/bb/0e/40c7226715d76ba12f29562dfaf69849d3b3fe6606ade5548db7dd69dd8e/nligraphspacy-1.1.5.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/e6/81/82cceb5e4a9d90ce9a14d3eca1cff68a886e9327eff0ad43d4bee0493c26/autooc-0.0.7.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pytest-watcher]: Downloading https://files.pythonhosted.org/packages/57/c9/f4c8531c552de1a1a4a1b4a79ebb4bc8656e186b253d6326a485e6d67831/pytest_watcher-0.3.3.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [timxfriend]: Downloading https://files.pythonhosted.org/packages/ea/d8/7b9b48d56a150cfeef6d6d5f6b7e86938e042cf81121b7a5fb9a819ee251/timxfriend-0.7.8.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/a1/83/e531daedcc69f2e6e34b07b3c51259bfa0e65df0ec70761cf4949d71c8de/rime_sdk-2.1.0rc7.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/a1/00/e10974de10619152998f0b412772325887252e26e1d7301168266d4e1d4a/tensorflow_text_nightly-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 17:16:44] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/41/b3/c035abcd6334385f01e8723ee9d3ef7c2687df78749b69d92f679e78f53f/nligraphspacy-1.1.6.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/3c/8e/53a86cadca5ff42d7d6ea795c3783d8da62e02bda403c958b0219503f1f4/minidevice-2.1.4.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 17:16:44] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-24 17:16:44] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-1.1.5.tar.gz tmp/nligraphspacy-1.1.6.tar.gz --markdown 20230624/n/nligraphspacy/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-24 17:16:44] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/84/72/978632efc65fc5f44490052faafa49601aa67f0eed435522a1638b2c1224/autooc-0.0.8.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-24 17:16:44] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230624/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 17:16:44] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-24 17:16:44] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230624/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-24 17:16:44] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d0/ff/90f672abf82ab98ec061a87b3397a46e00f723b3ba96708bc7c3faeb163a/rime_sdk-2.2.0rc0.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [pytest-watcher]: Downloading https://files.pythonhosted.org/packages/fb/4d/344146674973fd35e75f1e48160df6ec47e1f98b922fcfdc101b39ff1757/pytest_watcher-0.3.4.tar.gz
+[2023-06-24 17:16:44] INFO root fetch - processPackages [timxfriend]: Downloading https://files.pythonhosted.org/packages/3f/e3/fcbd13c5880348645d4aac66cc30cbf3f3fd63ef6fb6c2b50c3f7e3f6ac1/timxfriend-0.7.9.tar.gz
+[2023-06-24 17:16:45] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-24 17:16:45] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/c5/60/930a2fcaabb82d0f036fa8d6143e5427d0934ad3ec85d24afe154d73cc14/tensorflow_text_nightly-2.14.0.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 17:16:45] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.3.tar.gz tmp/minidevice-2.1.4.tar.gz --markdown 20230624/m/minidevice/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-24 17:16:45] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:16:45] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.7.tar.gz tmp/autooc-0.0.8.tar.gz --markdown 20230624/a/autooc/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 17:16:45] INFO root fetch - processPackages [pytest-watcher]: executing diffoscope
+[2023-06-24 17:16:45] INFO root fetch - processPackages [pytest-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_watcher-0.3.3.tar.gz tmp/pytest_watcher-0.3.4.tar.gz --markdown 20230624/p/pytest-watcher/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-24 17:16:45] INFO root fetch - processPackages [timxfriend]: executing diffoscope
+[2023-06-24 17:16:45] INFO root fetch - processPackages [timxfriend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timxfriend-0.7.8.tar.gz tmp/timxfriend-0.7.9.tar.gz --markdown 20230624/t/timxfriend/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-24 17:16:45] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-06-24 17:16:45] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc7.tar.gz tmp/rime_sdk-2.2.0rc0.tar.gz --markdown 20230624/r/rime-sdk/2.1.0rc7-2.2.0rc0/diff.md --exclude *.pyd
+[2023-06-24 17:16:45] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-06-24 17:16:45] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.14.0.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230624/t/tensorflow-text-nightly/2.14.0.dev20230622-2.14.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 17:16:46] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 17:16:46] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 17:16:46] INFO root fetch - processPackages [pydatawork]: Start processing: transformers-supporter
+[2023-06-24 17:16:46] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 17:16:46] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 17:16:46] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.5.tar.gz]
+[2023-06-24 17:16:46] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.6.tar.gz]
+[2023-06-24 17:16:46] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-24 17:16:46] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-24 17:16:46] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-24 17:16:46] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-24 17:16:46] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-24 17:16:46] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-24 17:16:47] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-24 17:16:47] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230624/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 17:16:47] INFO root fetch - processPackages [timxfriend]: Remove: archive file [/home/abi/fetcher/tmp/timxfriend-0.7.8.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - processPackages [timxfriend]: Remove: archive file [/home/abi/fetcher/tmp/timxfriend-0.7.9.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - main [MainThread]: End processing [timxfriend]: success
+[2023-06-24 17:16:47] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.3.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.4.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-24 17:16:47] INFO root fetch - processPackages [pytest-watcher]: Remove: archive file [/home/abi/fetcher/tmp/pytest_watcher-0.3.3.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - processPackages [pytest-watcher]: Remove: archive file [/home/abi/fetcher/tmp/pytest_watcher-0.3.4.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - main [MainThread]: End processing [pytest-watcher]: success
+[2023-06-24 17:16:47] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.7.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.8.tar.gz]
+[2023-06-24 17:16:47] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:16:48] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-24 17:16:48] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-24 17:16:48] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-24 17:16:48] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-24 17:16:48] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.14.0.dev20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-24 17:16:48] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-06-24 17:16:48] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-24 17:16:48] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-24 17:16:48] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-24 17:16:50] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.0rc7.tar.gz]
+[2023-06-24 17:16:50] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
+[2023-06-24 17:16:50] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-06-24 17:16:50] INFO root fetch - main [MainThread]: Store serial: [18630247]
