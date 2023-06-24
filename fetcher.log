@@ -16554,3 +16554,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:58:27] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-1.0.0.tar.gz]
 [2023-06-24 17:58:27] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
 [2023-06-24 17:58:27] INFO root fetch - main [MainThread]: Store serial: [18630395]
+[2023-06-24 18:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630395]
+[2023-06-24 18:03:35] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysql-to-sqlite3
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unitauto
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nb-log
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pygus
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irregular-chars
+[2023-06-24 18:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SolidWrap
+[2023-06-24 18:03:35] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-24 18:03:35] WARNING root fetch - processPackages [irregular-chars]: Skipping, unable to determine old version
+[2023-06-24 18:03:35] INFO root fetch - main [MainThread]: End processing [irregular-chars] error
+[2023-06-24 18:03:35] INFO root fetch - processPackages [mysql-to-sqlite3]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kfish]: New version: [99.0.202306241601] Old Version: [99.0.202306240006]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [pygus]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [unitauto]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [nb-log]: New version: [8.8] Old Version: [8.6]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kcli]: New version: [99.0.202306241558] Old Version: [99.0.202306240003]
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e8/2f/7caab70d3e4f1a7eaf2ffa03c8d8e2b07de526725498e85c6a138675bae6/kfish-99.0.202306240006-py3-none-any.whl
+[2023-06-24 18:03:36] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b8/6f/314f6483f7b16a0b6f0d22d4cc1cf0e97c4fe9031d3ce6c0747f84981c15/kcli-99.0.202306240003-py3-none-any.whl
+[2023-06-24 18:03:36] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/76/93/32ff5714789ce3c2cae9eaca0e4cb3137d681720f9a43d0cc4b3b3b82296/mysql_to_sqlite3-2.0.2.tar.gz
+[2023-06-24 18:03:36] WARNING root fetch - processPackages [SolidWrap]: Skipping, unable to determine old version
+[2023-06-24 18:03:36] INFO root fetch - main [MainThread]: End processing [SolidWrap] error
+[2023-06-24 18:03:36] INFO root fetch - processPackages [pygus]: Downloading https://files.pythonhosted.org/packages/3a/e2/c6ec99f6bebe64b42ce64b14ef52d8067d370da4468e1c90151d0650ef8b/pygus-2.0.5.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/a6/02/541ab1253721944f293d814eeda4df2498848463c2b955d1190257ee5655/nb_log-8.6.tar.gz
+[2023-06-24 18:03:36] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-24 18:03:36] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/9d/d9/aa4b873cbe3054f6d42fedd54eae7128a7f3c055293b1c4cc23a65bef469/kfish-99.0.202306241601-py3-none-any.whl
+[2023-06-24 18:03:36] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/fb/f6/f9af44c2de593897bd6d3cb57a750af629ff61beff89205b7092ed039ede/unitauto-0.8.2.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f8/8c/db5ffa73e48c689cc1b3bfd563d78304b0935b2ec9b212a7e49d85202267/kcli-99.0.202306241558-py3-none-any.whl
+[2023-06-24 18:03:36] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306240006-py3-none-any.whl.zip tmp/kfish-99.0.202306241601-py3-none-any.whl.zip --markdown 20230624/k/kfish/99.0.202306240006-99.0.202306241601/diff.md --exclude *.pyd
+[2023-06-24 18:03:36] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/c8/2c/4ea73f5cb4354a442d54128b54f6897760558216c8930798566122f70929/mysql_to_sqlite3-2.0.3.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [mysql-to-sqlite3]: executing diffoscope
+[2023-06-24 18:03:36] INFO root fetch - processPackages [mysql-to-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_to_sqlite3-2.0.2.tar.gz tmp/mysql_to_sqlite3-2.0.3.tar.gz --markdown 20230624/m/mysql-to-sqlite3/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-24 18:03:36] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-24 18:03:36] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230624/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-24 18:03:36] INFO root fetch - processPackages [nb-log]: Downloading https://files.pythonhosted.org/packages/36/7a/d9e052101e0e17d825ca21bc60530f55b794f49cebd0a0962046303af6ec/nb_log-8.8.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [pygus]: Downloading https://files.pythonhosted.org/packages/37/86/2185766020deaa3b22dce2b40107d6663f9abcdef3a6ae4d082a0e48cf00/pygus-2.0.6.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/0f/a1/94f2115c896656c85d659d7bab968770a963f13b10b94057cf632a419313/unitauto-0.9.0.tar.gz
+[2023-06-24 18:03:36] INFO root fetch - processPackages [nb-log]: executing diffoscope
+[2023-06-24 18:03:36] INFO root fetch - processPackages [nb-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_log-8.6.tar.gz tmp/nb_log-8.8.tar.gz --markdown 20230624/n/nb-log/8.6-8.8/diff.md --exclude *.pyd
+[2023-06-24 18:03:36] INFO root fetch - processPackages [unitauto]: executing diffoscope
+[2023-06-24 18:03:36] INFO root fetch - processPackages [unitauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitauto-0.8.2.tar.gz tmp/unitauto-0.9.0.tar.gz --markdown 20230624/u/unitauto/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-24 18:03:36] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306240003-py3-none-any.whl.zip tmp/kcli-99.0.202306241558-py3-none-any.whl.zip --markdown 20230624/k/kcli/99.0.202306240003-99.0.202306241558/diff.md --exclude *.pyd
+[2023-06-24 18:03:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306240006-py3-none-any.whl.zip]
+[2023-06-24 18:03:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306241601-py3-none-any.whl.zip]
+[2023-06-24 18:03:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-24 18:03:37] INFO root fetch - processPackages [pygus]: executing diffoscope
+[2023-06-24 18:03:37] INFO root fetch - processPackages [pygus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygus-2.0.5.tar.gz tmp/pygus-2.0.6.tar.gz --markdown 20230624/p/pygus/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-24 18:03:38] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.8.2.tar.gz]
+[2023-06-24 18:03:38] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.9.0.tar.gz]
+[2023-06-24 18:03:38] INFO root fetch - main [MainThread]: End processing [unitauto]: success
+[2023-06-24 18:03:38] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-8.6.tar.gz]
+[2023-06-24 18:03:38] INFO root fetch - processPackages [nb-log]: Remove: archive file [/home/abi/fetcher/tmp/nb_log-8.8.tar.gz]
+[2023-06-24 18:03:38] INFO root fetch - main [MainThread]: End processing [nb-log]: success
+[2023-06-24 18:03:38] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.2.tar.gz]
+[2023-06-24 18:03:38] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.3.tar.gz]
+[2023-06-24 18:03:38] INFO root fetch - main [MainThread]: End processing [mysql-to-sqlite3]: success
+[2023-06-24 18:03:39] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-24 18:03:39] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-24 18:03:39] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-24 18:03:40] INFO root fetch - processPackages [pygus]: Remove: archive file [/home/abi/fetcher/tmp/pygus-2.0.5.tar.gz]
+[2023-06-24 18:03:40] INFO root fetch - processPackages [pygus]: Remove: archive file [/home/abi/fetcher/tmp/pygus-2.0.6.tar.gz]
+[2023-06-24 18:03:40] INFO root fetch - main [MainThread]: End processing [pygus]: success
+[2023-06-24 18:03:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306240003-py3-none-any.whl.zip]
+[2023-06-24 18:03:45] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306241558-py3-none-any.whl.zip]
+[2023-06-24 18:03:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-24 18:03:45] INFO root fetch - main [MainThread]: Store serial: [18630421]
