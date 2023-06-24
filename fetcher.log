@@ -11456,3 +11456,37 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:15:05] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.6.tar.gz]
 [2023-06-24 10:15:05] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
 [2023-06-24 10:15:05] INFO root fetch - main [MainThread]: Store serial: [18628008]
+[2023-06-24 10:20:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628008]
+[2023-06-24 10:20:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-ivid-hks
+[2023-06-24 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cny
+[2023-06-24 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cny
+[2023-06-24 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Scrapset
+[2023-06-24 10:20:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-ivid-hks
+[2023-06-24 10:20:14] WARNING root fetch - processPackages [cny]: Skipping, unable to determine old version
+[2023-06-24 10:20:14] INFO root fetch - main [MainThread]: End processing [cny] error
+[2023-06-24 10:20:14] INFO root fetch - processPackages [Scrapset]: New version: [3.1.0] Old Version: [2.4.0]
+[2023-06-24 10:20:14] INFO root fetch - processPackages [flet-ivid-hks]: New version: [1.4] Old Version: [1.3]
+[2023-06-24 10:20:14] WARNING root fetch - processPackages [cny]: Skipping, unable to determine old version
+[2023-06-24 10:20:14] INFO root fetch - main [MainThread]: End processing [cny] error
+[2023-06-24 10:20:14] INFO root fetch - processPackages [flet-ivid-hks]: New version: [1.4] Old Version: [1.3]
+[2023-06-24 10:20:14] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/b5/dc/22588c5b1fc2814f36f850df98b1d63bab313b741a4f852865606d6807ea/flet_ivid_hks-1.3.tar.gz
+[2023-06-24 10:20:14] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/a9/ab/adb9cc7fd4bebb2ce4eed510df68c1690fb7323d99900cb48971f4e0ee47/Scrapset-2.4.0.tar.gz
+[2023-06-24 10:20:14] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/b5/dc/22588c5b1fc2814f36f850df98b1d63bab313b741a4f852865606d6807ea/flet_ivid_hks-1.3.tar.gz
+[2023-06-24 10:20:14] INFO root fetch - processPackages [Scrapset]: Downloading https://files.pythonhosted.org/packages/5e/3b/90339c5136615b6413c777bb3ee58be3539d1e0240985679ee7df754803f/Scrapset-3.1.0.tar.gz
+[2023-06-24 10:20:14] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/af/65/a7d00a095041d632c2b03650d7feb6a6121f00b89eb4788bbf3e0231668f/flet_ivid_hks-1.4.tar.gz
+[2023-06-24 10:20:14] INFO root fetch - processPackages [flet-ivid-hks]: Downloading https://files.pythonhosted.org/packages/af/65/a7d00a095041d632c2b03650d7feb6a6121f00b89eb4788bbf3e0231668f/flet_ivid_hks-1.4.tar.gz
+[2023-06-24 10:20:15] INFO root fetch - processPackages [Scrapset]: executing diffoscope
+[2023-06-24 10:20:15] INFO root fetch - processPackages [Scrapset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapset-2.4.0.tar.gz tmp/Scrapset-3.1.0.tar.gz --markdown 20230624/S/Scrapset/2.4.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-24 10:20:15] INFO root fetch - processPackages [flet-ivid-hks]: executing diffoscope
+[2023-06-24 10:20:15] INFO root fetch - processPackages [flet-ivid-hks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_ivid_hks-1.3.tar.gz tmp/flet_ivid_hks-1.4.tar.gz --markdown 20230624/f/flet-ivid-hks/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-24 10:20:15] INFO root fetch - processPackages [flet-ivid-hks]: executing diffoscope
+[2023-06-24 10:20:15] INFO root fetch - processPackages [flet-ivid-hks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_ivid_hks-1.3.tar.gz tmp/flet_ivid_hks-1.4.tar.gz --markdown 20230624/f/flet-ivid-hks/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-24 10:20:16] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-2.4.0.tar.gz]
+[2023-06-24 10:20:16] INFO root fetch - processPackages [Scrapset]: Remove: archive file [/home/abi/fetcher/tmp/Scrapset-3.1.0.tar.gz]
+[2023-06-24 10:20:16] INFO root fetch - main [MainThread]: End processing [Scrapset]: success
+[2023-06-24 10:20:16] INFO root fetch - processPackages [flet-ivid-hks]: Remove: archive file [/home/abi/fetcher/tmp/flet_ivid_hks-1.3.tar.gz]
+[2023-06-24 10:20:16] INFO root fetch - processPackages [flet-ivid-hks]: Remove: archive file [/home/abi/fetcher/tmp/flet_ivid_hks-1.4.tar.gz]
+[2023-06-24 10:20:16] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks]: success
+[2023-06-24 10:20:16] INFO root fetch - main [MainThread]: End processing [flet-ivid-hks]: success
+[2023-06-24 10:20:16] INFO root fetch - main [MainThread]: Store serial: [18628021]
