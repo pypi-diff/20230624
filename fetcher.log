@@ -13625,3 +13625,57 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:50:04] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
 [2023-06-24 13:50:04] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
 [2023-06-24 13:50:04] INFO root fetch - main [MainThread]: Store serial: [18629107]
+[2023-06-24 13:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629107]
+[2023-06-24 13:55:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypha
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyAesCrypt
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selis
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vulmonsahil
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labelprinterkit
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kerasfuse
+[2023-06-24 13:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: asiakirjasuodatin
+[2023-06-24 13:55:13] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-06-24 13:55:13] INFO root fetch - processPackages [kerasfuse]: New version: [0.1a0] Old Version: [0.0.1]
+[2023-06-24 13:55:13] WARNING root fetch - processPackages [vulmonsahil]: Skipping, unable to determine old version
+[2023-06-24 13:55:13] INFO root fetch - main [MainThread]: End processing [vulmonsahil] error
+[2023-06-24 13:55:13] INFO root fetch - processPackages [pyAesCrypt]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-06-24 13:55:13] INFO root fetch - processPackages [selis]: New version: [3.4.5] Old Version: [3.4.4]
+[2023-06-24 13:55:13] INFO root fetch - processPackages [labelprinterkit]: New version: [0.5.1] Old Version: [0.4.2]
+[2023-06-24 13:55:13] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-06-24 13:55:13] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/3f/20/98e3e83c3aeaa8fe7da10aab288f3cba8bd8e0a5b943731e77d4cef2960a/selis-3.4.4.tar.gz
+[2023-06-24 13:55:13] WARNING root fetch - processPackages [asiakirjasuodatin]: Skipping, unable to determine old version
+[2023-06-24 13:55:13] INFO root fetch - main [MainThread]: End processing [asiakirjasuodatin] error
+[2023-06-24 13:55:13] INFO root fetch - processPackages [kerasfuse]: Downloading https://files.pythonhosted.org/packages/eb/79/7b10ec36fb61d4b619693b06a419a36f074b4c84929050c7b2159902ede9/kerasfuse-0.0.1.tar.gz
+[2023-06-24 13:55:13] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/33/4c/bb16edcc92ec3bd4c4c32d3a5c826333425653c50e092baae73746a0ac8b/labelprinterkit-0.4.2.tar.gz
+[2023-06-24 13:55:13] INFO root fetch - processPackages [pyAesCrypt]: Downloading https://files.pythonhosted.org/packages/57/b5/0d7969ac70713ad000181eafa77d9fd60af456511d880df94fe738a5e9f9/pyAesCrypt-6.0.0.tar.gz
+[2023-06-24 13:55:13] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-06-24 13:55:13] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/a0/ea/3145495f03109f3608b043b65f1b696938df709f27335536bc42f63bcf41/selis-3.4.5.tar.gz
+[2023-06-24 13:55:14] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-24 13:55:14] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.4.4.tar.gz tmp/selis-3.4.5.tar.gz --markdown 20230624/s/selis/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2023-06-24 13:55:14] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/14/2d/a303cb7ffca3e2e9d7eae779c0eb497ead59916372989862e5470b23ba5d/labelprinterkit-0.5.1.tar.gz
+[2023-06-24 13:55:14] INFO root fetch - processPackages [kerasfuse]: Downloading https://files.pythonhosted.org/packages/ba/14/75e1e0f3178a5f58866c272095793ee1d1d69f186d1151bdcb96968542ad/kerasfuse-0.1a0.tar.gz
+[2023-06-24 13:55:14] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-06-24 13:55:14] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230624/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-06-24 13:55:14] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 13:55:14] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.4.2.tar.gz tmp/labelprinterkit-0.5.1.tar.gz --markdown 20230624/l/labelprinterkit/0.4.2-0.5.1/diff.md --exclude *.pyd
+[2023-06-24 13:55:14] INFO root fetch - processPackages [pyAesCrypt]: Downloading https://files.pythonhosted.org/packages/28/77/f221cb2c7d3e06f4d739bda774f87067a6fb297e0da86d6b38d4e90b68b1/pyAesCrypt-6.1.0.tar.gz
+[2023-06-24 13:55:14] INFO root fetch - processPackages [kerasfuse]: executing diffoscope
+[2023-06-24 13:55:14] INFO root fetch - processPackages [kerasfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kerasfuse-0.0.1.tar.gz tmp/kerasfuse-0.1a0.tar.gz --markdown 20230624/k/kerasfuse/0.0.1-0.1a0/diff.md --exclude *.pyd
+[2023-06-24 13:55:14] INFO root fetch - processPackages [pyAesCrypt]: executing diffoscope
+[2023-06-24 13:55:14] INFO root fetch - processPackages [pyAesCrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAesCrypt-6.0.0.tar.gz tmp/pyAesCrypt-6.1.0.tar.gz --markdown 20230624/p/pyAesCrypt/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-06-24 13:55:15] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.4.4.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.4.5.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-24 13:55:15] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.2.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.5.1.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 13:55:15] INFO root fetch - processPackages [kerasfuse]: Remove: archive file [/home/abi/fetcher/tmp/kerasfuse-0.0.1.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - processPackages [kerasfuse]: Remove: archive file [/home/abi/fetcher/tmp/kerasfuse-0.1a0.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - main [MainThread]: End processing [kerasfuse]: success
+[2023-06-24 13:55:15] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-06-24 13:55:15] INFO root fetch - processPackages [pyAesCrypt]: Remove: archive file [/home/abi/fetcher/tmp/pyAesCrypt-6.0.0.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - processPackages [pyAesCrypt]: Remove: archive file [/home/abi/fetcher/tmp/pyAesCrypt-6.1.0.tar.gz]
+[2023-06-24 13:55:15] INFO root fetch - main [MainThread]: End processing [pyAesCrypt]: success
+[2023-06-24 13:55:15] INFO root fetch - main [MainThread]: Store serial: [18629131]
