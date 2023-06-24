@@ -12055,3 +12055,27 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 11:12:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2023-06-24 11:12:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303-oss]: success
 [2023-06-24 11:12:39] INFO root fetch - main [MainThread]: Store serial: [18628289]
+[2023-06-24 11:17:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628289]
+[2023-06-24 11:17:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 11:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: investor8-sdk
+[2023-06-24 11:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cny
+[2023-06-24 11:17:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2023-06-24 11:17:48] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-24 11:17:48] WARNING root fetch - processPackages [cny]: Skipping, unable to determine old version
+[2023-06-24 11:17:48] INFO root fetch - main [MainThread]: End processing [cny] error
+[2023-06-24 11:17:48] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-24 11:17:48] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.95] Old Version: [1.1.94]
+[2023-06-24 11:17:48] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/02/b7/f33c61479d9da295ed996cedc3434a67e71e2e83d420131f1b8b83b97cc4/investor8-sdk-1.1.94.tar.gz
+[2023-06-24 11:17:48] INFO root fetch - processPackages [investor8-sdk]: Downloading https://files.pythonhosted.org/packages/d1/72/00403910ea6a76906e17f39a71d609d4f20aad6dc7c2704905ebadc85fd8/investor8-sdk-1.1.95.tar.gz
+[2023-06-24 11:17:49] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-06-24 11:17:49] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.94.tar.gz tmp/investor8-sdk-1.1.95.tar.gz --markdown 20230624/i/investor8-sdk/1.1.94-1.1.95/diff.md --exclude *.pyd
+[2023-06-24 11:17:49] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-24 11:17:50] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-24 11:17:50] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230624/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-24 11:17:52] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.94.tar.gz]
+[2023-06-24 11:17:52] INFO root fetch - processPackages [investor8-sdk]: Remove: archive file [/home/abi/fetcher/tmp/investor8-sdk-1.1.95.tar.gz]
+[2023-06-24 11:17:52] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-06-24 11:17:53] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-24 11:17:53] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-24 11:17:53] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-24 11:17:53] INFO root fetch - main [MainThread]: Store serial: [18628315]
