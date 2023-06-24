@@ -13558,3 +13558,70 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:44:52] INFO root fetch - processPackages [scrapy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_db-0.0.2.tar.gz]
 [2023-06-24 13:44:52] INFO root fetch - main [MainThread]: End processing [scrapy-db]: success
 [2023-06-24 13:44:52] INFO root fetch - main [MainThread]: Store serial: [18629084]
+[2023-06-24 13:49:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629084]
+[2023-06-24 13:50:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark3
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca-spark3
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark3
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos-spark3
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark3
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selis
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crawler-commons
+[2023-06-24 13:50:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dartrig
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-24 13:50:01] INFO root fetch - processPackages [selis]: New version: [3.4.4] Old Version: [3.4.3]
+[2023-06-24 13:50:01] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/5a/0f/0196130e65e1daf5e200afad2f83989706a862c9eae2af65b56b3374d161/bigdl-dllib-spark3-2.4.0b20230623.tar.gz
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/f4/41/569aeb443c56751b2411d882cbb618431859a9886f2e9bf5cd9bc0e804dd/bigdl_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/8c/84/8443dbac42eef971ed3d4382b0aa3e40c5cd81857e4ec21f62a0f3013b5d/bigdl_orca_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/aa/45/8cd3ce12ea43c31f7275cd057cec53d81b274d4e38caabbe6e5b0b918b53/bigdl_friesian_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:01] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328833>=10485760
+[2023-06-24 13:50:01] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-24 13:50:01] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/8e/8e/da7eb7d072b22fbd5a9e404710fe1798185eb8b775ce8ab30975f1275b34/bigdl_chronos_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:02] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-24 13:50:02] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-24 13:50:02] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/10/97/821737fbd17b16df9d2497f62df94c8c6846f956a18a24ff8ea65e3806d2/selis-3.4.3.tar.gz
+[2023-06-24 13:50:02] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207820>=10485760
+[2023-06-24 13:50:02] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-24 13:50:02] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-24 13:50:02] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230624/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 13:50:02] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-24 13:50:02] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230624/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/ae/6a/9e828e5d7b2d4df5556587635312a188a957fbb3dd9888be95d6ed0bd6e8/bigdl_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/0b/43/3f92cc0f4f274c0c7a99ca9a9e7db3a9d18dcc001a06712b4ceea261b14e/bigdl_friesian_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/f0/8a/c91d5fc0a4cb305d37f1ca5d84e0f089083175150682237d5284a0861671/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-friesian-spark3/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 13:50:02] INFO root fetch - processPackages [selis]: Downloading https://files.pythonhosted.org/packages/3f/20/98e3e83c3aeaa8fe7da10aab288f3cba8bd8e0a5b943731e77d4cef2960a/selis-3.4.4.tar.gz
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-spark3/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-24 13:50:02] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-chronos-spark3/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 13:50:02] INFO root fetch - processPackages [selis]: executing diffoscope
+[2023-06-24 13:50:02] INFO root fetch - processPackages [selis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selis-3.4.3.tar.gz tmp/selis-3.4.4.tar.gz --markdown 20230624/s/selis/3.4.3-3.4.4/diff.md --exclude *.pyd
+[2023-06-24 13:50:03] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-24 13:50:03] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-24 13:50:03] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-24 13:50:03] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-24 13:50:03] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-24 13:50:03] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-24 13:50:03] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 13:50:03] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 13:50:03] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-24 13:50:03] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.4.3.tar.gz]
+[2023-06-24 13:50:03] INFO root fetch - processPackages [selis]: Remove: archive file [/home/abi/fetcher/tmp/selis-3.4.4.tar.gz]
+[2023-06-24 13:50:03] INFO root fetch - main [MainThread]: End processing [selis]: success
+[2023-06-24 13:50:04] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 13:50:04] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 13:50:04] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-24 13:50:04] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 13:50:04] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 13:50:04] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-24 13:50:04] INFO root fetch - main [MainThread]: Store serial: [18629107]
