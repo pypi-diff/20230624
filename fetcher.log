@@ -19300,3 +19300,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:56:21] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
 [2023-06-24 21:56:21] INFO root fetch - main [MainThread]: End processing [typedpy]: success
 [2023-06-24 21:56:21] INFO root fetch - main [MainThread]: Store serial: [18631673]
+[2023-06-24 22:01:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631673]
+[2023-06-24 22:01:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhon
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbase
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: selenium-base
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-sbase
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-seleniumbase
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msgram-core
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pillar1
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcicutils
+[2023-06-24 22:01:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: apisinda
+[2023-06-24 22:01:30] INFO root fetch - processPackages [zhon]: New version: [2.0.0] Old Version: [1.1.5]
+[2023-06-24 22:01:30] WARNING root fetch - processPackages [apisinda]: Skipping, unable to determine old version
+[2023-06-24 22:01:30] INFO root fetch - main [MainThread]: End processing [apisinda] error
+[2023-06-24 22:01:30] INFO root fetch - processPackages [msgram-core]: New version: [1.3.1] Old Version: [1.2.1]
+[2023-06-24 22:01:30] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.9] Old Version: [0.1.7.8]
+[2023-06-24 22:01:30] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-24 22:01:30] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-24 22:01:31] INFO root fetch - processPackages [dcicutils]: New version: [7.5.1.2b2] Old Version: [7.5.1.2b1]
+[2023-06-24 22:01:31] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/1b/51/e46fd75d1d79528e6b7698a3678cf28413fcd52a97141046feebc9124636/pillar1-0.1.7.8.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [zhon]: Downloading https://files.pythonhosted.org/packages/9f/b0/c56c6079ad47c35a2341440818b6620de8c46a265ed690a51b1a4e5591bc/zhon-1.1.5.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [msgram-core]: Downloading https://files.pythonhosted.org/packages/6c/ba/265d6f37406e8a82b585b511b020cff1b0fe3e5b7d4eac0b78b848ffa5d5/msgram_core-1.2.1.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/54/df/f37c0351e5a78f12f1a2e74f4341081a13cd7e17550248d485e2a2d5fcd6/pillar1-0.1.7.9.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/44/5a/ed307c17ffc2123ac3ae930a38bde3eab8a27b3b1ee50615a64951abc7e8/dcicutils-7.5.1.2b1.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.8.tar.gz tmp/pillar1-0.1.7.9.tar.gz --markdown 20230624/p/pillar1/0.1.7.8-0.1.7.9/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [zhon]: Downloading https://files.pythonhosted.org/packages/49/5d/7f62f5bceb27b0e7e864aa8b990b0b3c451120052e6910af5937d3b0b1ee/zhon-2.0.0.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20230624/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [zhon]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [zhon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhon-1.1.5.tar.gz tmp/zhon-2.0.0.tar.gz --markdown 20230624/z/zhon/1.1.5-2.0.0/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [msgram-core]: Downloading https://files.pythonhosted.org/packages/c9/f2/1a1aaae1d8729972794150dc8662218a89b943250e2bbd61842b07709914/msgram_core-1.3.1.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [msgram-core]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [msgram-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgram_core-1.2.1.tar.gz tmp/msgram_core-1.3.1.tar.gz --markdown 20230624/m/msgram-core/1.2.1-1.3.1/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/a8/ac/b2786ec40269edb5342997034b72a3ad047347058cf78f3871577a456af6/dcicutils-7.5.1.2b2.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2023-06-24 22:01:31] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230624/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230624/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-7.5.1.2b1.tar.gz tmp/dcicutils-7.5.1.2b2.tar.gz --markdown 20230624/d/dcicutils/7.5.1.2b1-7.5.1.2b2/diff.md --exclude *.pyd
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2023-06-24 22:01:31] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20230624/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-24 22:01:32] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.8.tar.gz]
+[2023-06-24 22:01:32] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.9.tar.gz]
+[2023-06-24 22:01:32] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-24 22:01:33] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-06-24 22:01:33] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-06-24 22:01:33] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2023-06-24 22:01:33] INFO root fetch - processPackages [zhon]: Remove: archive file [/home/abi/fetcher/tmp/zhon-1.1.5.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - processPackages [zhon]: Remove: archive file [/home/abi/fetcher/tmp/zhon-2.0.0.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - main [MainThread]: End processing [zhon]: success
+[2023-06-24 22:01:33] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.5.1.2b1.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-7.5.1.2b2.tar.gz]
+[2023-06-24 22:01:33] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2023-06-24 22:01:34] INFO root fetch - processPackages [msgram-core]: Remove: archive file [/home/abi/fetcher/tmp/msgram_core-1.2.1.tar.gz]
+[2023-06-24 22:01:34] INFO root fetch - processPackages [msgram-core]: Remove: archive file [/home/abi/fetcher/tmp/msgram_core-1.3.1.tar.gz]
+[2023-06-24 22:01:34] INFO root fetch - main [MainThread]: End processing [msgram-core]: success
+[2023-06-24 22:02:27] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2023-06-24 22:02:27] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2023-06-24 22:02:27] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2023-06-24 22:02:27] INFO root fetch - main [MainThread]: Store serial: [18631703]
