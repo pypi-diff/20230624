@@ -16999,3 +16999,15 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:40:06] INFO root fetch - processPackages [diot]: Remove: archive file [/home/abi/fetcher/tmp/diot-0.2.1.tar.gz]
 [2023-06-24 18:40:06] INFO root fetch - main [MainThread]: End processing [diot]: success
 [2023-06-24 18:40:06] INFO root fetch - main [MainThread]: Store serial: [18630577]
+[2023-06-24 18:45:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630577]
+[2023-06-24 18:45:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-24 18:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyInstl
+[2023-06-24 18:45:15] INFO root fetch - processPackages [PyInstl]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-24 18:45:15] INFO root fetch - processPackages [PyInstl]: Downloading https://files.pythonhosted.org/packages/f3/d0/2d4cd4771651fef65cadf8ab2e9e8b8431178c5b13fe9e79087a0821c696/PyInstl-1.0.2.tar.gz
+[2023-06-24 18:45:16] INFO root fetch - processPackages [PyInstl]: Downloading https://files.pythonhosted.org/packages/61/d3/c1177018cc1fdf4b981cca53f7298bcbe545f29ae24e4f027036a443855d/PyInstl-1.0.3.tar.gz
+[2023-06-24 18:45:16] INFO root fetch - processPackages [PyInstl]: executing diffoscope
+[2023-06-24 18:45:16] INFO root fetch - processPackages [PyInstl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyInstl-1.0.2.tar.gz tmp/PyInstl-1.0.3.tar.gz --markdown 20230624/P/PyInstl/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-24 18:45:17] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.2.tar.gz]
+[2023-06-24 18:45:17] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.3.tar.gz]
+[2023-06-24 18:45:17] INFO root fetch - main [MainThread]: End processing [PyInstl]: success
+[2023-06-24 18:45:17] INFO root fetch - main [MainThread]: Store serial: [18630580]
