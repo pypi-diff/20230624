@@ -16336,3 +16336,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:27:17] INFO root fetch - processPackages [gadapt]: Remove: archive file [/home/abi/fetcher/tmp/gadapt-0.2.20.tar.gz]
 [2023-06-24 17:27:17] INFO root fetch - main [MainThread]: End processing [gadapt]: success
 [2023-06-24 17:27:17] INFO root fetch - main [MainThread]: Store serial: [18630288]
+[2023-06-24 17:32:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630288]
+[2023-06-24 17:32:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanolsap
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-postman
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dslclib
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raster-basics
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cns
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: librairy
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fdlogger
+[2023-06-24 17:32:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xsdata
+[2023-06-24 17:32:26] INFO root fetch - processPackages [fdlogger]: New version: [23.6.9] Old Version: [23.6.4]
+[2023-06-24 17:32:26] INFO root fetch - processPackages [nanolsap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 17:32:26] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-24 17:32:26] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-24 17:32:26] WARNING root fetch - processPackages [python-postman]: Skipping, unable to determine old version
+[2023-06-24 17:32:26] INFO root fetch - main [MainThread]: End processing [python-postman] error
+[2023-06-24 17:32:26] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-24 17:32:26] WARNING root fetch - processPackages [dslclib]: Skipping, unable to determine old version
+[2023-06-24 17:32:26] INFO root fetch - main [MainThread]: End processing [dslclib] error
+[2023-06-24 17:32:26] WARNING root fetch - processPackages [librairy]: Skipping, unable to determine old version
+[2023-06-24 17:32:26] INFO root fetch - main [MainThread]: End processing [librairy] error
+[2023-06-24 17:32:26] INFO root fetch - processPackages [xsdata]: New version: [23.6] Old Version: [23.5]
+[2023-06-24 17:32:26] INFO root fetch - processPackages [raster-basics]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-24 17:32:26] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-24 17:32:26] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [nanolsap]: Downloading https://files.pythonhosted.org/packages/80/d0/8cc2457221b6425a2efa4b3e4c62d0be8aca4ae429ffeb10b69fe81007a3/nanolsap-0.1.0.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/23/5d/36990542663e11f1d62f11923ffd1c6b1b0f3a7207e4f277d4deb1acc852/fdlogger-23.6.9.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [xsdata]: Downloading https://files.pythonhosted.org/packages/8c/48/9188afd6b8114019c18f87c074ac2870797832f7e42b3390aca0b193e4ee/xsdata-23.5.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [raster-basics]: Downloading https://files.pythonhosted.org/packages/97/56/12dc2e2e7ebb706050227c31fc61fddb5e251caf9290fe4080f4d832baef/raster_basics-1.3.4.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-24 17:32:27] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.6.4.tar.gz tmp/fdlogger-23.6.9.tar.gz --markdown 20230624/f/fdlogger/23.6.4-23.6.9/diff.md --exclude *.pyd
+[2023-06-24 17:32:27] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-24 17:32:27] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230624/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-24 17:32:27] INFO root fetch - processPackages [nanolsap]: Downloading https://files.pythonhosted.org/packages/6c/69/a43065ad9dce9a7eb3fdc160a322f20f8dc6f936703516d474cc0b7bf9b0/nanolsap-0.1.1.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [nanolsap]: executing diffoscope
+[2023-06-24 17:32:27] INFO root fetch - processPackages [nanolsap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanolsap-0.1.0.tar.gz tmp/nanolsap-0.1.1.tar.gz --markdown 20230624/n/nanolsap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 17:32:27] INFO root fetch - processPackages [xsdata]: Downloading https://files.pythonhosted.org/packages/e8/a1/08b839e22e7daa6744d23b0b6128c8233916ad76726be3692618c9fb4c8e/xsdata-23.6.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [raster-basics]: Downloading https://files.pythonhosted.org/packages/ba/ce/abf60ec5765cab2d45d88703379c0db994eccc476c76666c3c82087d28b0/raster_basics-1.3.5.tar.gz
+[2023-06-24 17:32:27] INFO root fetch - processPackages [raster-basics]: executing diffoscope
+[2023-06-24 17:32:27] INFO root fetch - processPackages [raster-basics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raster_basics-1.3.4.tar.gz tmp/raster_basics-1.3.5.tar.gz --markdown 20230624/r/raster-basics/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-24 17:32:27] INFO root fetch - processPackages [xsdata]: executing diffoscope
+[2023-06-24 17:32:27] INFO root fetch - processPackages [xsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsdata-23.5.tar.gz tmp/xsdata-23.6.tar.gz --markdown 20230624/x/xsdata/23.5-23.6/diff.md --exclude *.pyd
+[2023-06-24 17:32:28] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-24 17:32:28] INFO root fetch - processPackages [nanolsap]: Remove: archive file [/home/abi/fetcher/tmp/nanolsap-0.1.0.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - processPackages [nanolsap]: Remove: archive file [/home/abi/fetcher/tmp/nanolsap-0.1.1.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - main [MainThread]: End processing [nanolsap]: success
+[2023-06-24 17:32:28] INFO root fetch - processPackages [raster-basics]: Remove: archive file [/home/abi/fetcher/tmp/raster_basics-1.3.4.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - processPackages [raster-basics]: Remove: archive file [/home/abi/fetcher/tmp/raster_basics-1.3.5.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - main [MainThread]: End processing [raster-basics]: success
+[2023-06-24 17:32:28] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.4.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
+[2023-06-24 17:32:28] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-24 17:32:32] INFO root fetch - processPackages [xsdata]: Remove: archive file [/home/abi/fetcher/tmp/xsdata-23.5.tar.gz]
+[2023-06-24 17:32:32] INFO root fetch - processPackages [xsdata]: Remove: archive file [/home/abi/fetcher/tmp/xsdata-23.6.tar.gz]
+[2023-06-24 17:32:32] INFO root fetch - main [MainThread]: End processing [xsdata]: success
+[2023-06-24 17:32:32] INFO root fetch - main [MainThread]: Store serial: [18630322]
