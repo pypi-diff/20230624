@@ -13270,3 +13270,74 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:21:01] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
 [2023-06-24 13:21:01] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
 [2023-06-24 13:21:01] INFO root fetch - main [MainThread]: Store serial: [18628946]
+[2023-06-24 13:26:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628946]
+[2023-06-24 13:26:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arts
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: marshmallow-recipe
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codecontest
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amplify
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchtnt-nightly
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pycompile
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bhv
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tb-nightly
+[2023-06-24 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpjax
+[2023-06-24 13:26:10] WARNING root fetch - processPackages [codecontest]: Skipping, unable to determine old version
+[2023-06-24 13:26:10] INFO root fetch - main [MainThread]: End processing [codecontest] error
+[2023-06-24 13:26:10] INFO root fetch - processPackages [marshmallow-recipe]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 13:26:10] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-24 13:26:10] INFO root fetch - processPackages [pycompile]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-24 13:26:10] WARNING root fetch - processPackages [arts]: Skipping, unable to determine old version
+[2023-06-24 13:26:10] INFO root fetch - main [MainThread]: End processing [arts] error
+[2023-06-24 13:26:10] INFO root fetch - processPackages [bhv]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-24 13:26:10] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-24 13:26:10] INFO root fetch - processPackages [amplify]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-24 13:26:10] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [marshmallow-recipe]: Downloading https://files.pythonhosted.org/packages/3f/b3/2fd5bda096684bd22fd9934ecf7576f821d30e0f7d3d0a8b6539b8c56f95/marshmallow-recipe-0.0.8.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [pycompile]: Downloading https://files.pythonhosted.org/packages/4a/c4/0b920c71581c7291f181eee1d4e280a2f03e54c06d733bfcb29b498770a0/pycompile-0.1.3.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [gpjax]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-24 13:26:10] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/92/e9/f5fb997cbd0126cd51dff4d8f927b18f165c2b14b50113be134f9cae9e36/bhv-0.6.1.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-24 13:26:10] INFO root fetch - processPackages [marshmallow-recipe]: Downloading https://files.pythonhosted.org/packages/02/69/8b7bba1c82742b39afe116d18d305bc96a3c20f7dd8e38772ca92cbbbfe2/marshmallow-recipe-0.0.9.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [marshmallow-recipe]: executing diffoscope
+[2023-06-24 13:26:10] INFO root fetch - processPackages [marshmallow-recipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marshmallow-recipe-0.0.8.tar.gz tmp/marshmallow-recipe-0.0.9.tar.gz --markdown 20230624/m/marshmallow-recipe/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 13:26:10] INFO root fetch - processPackages [amplify]: Downloading https://files.pythonhosted.org/packages/a0/df/6dcab0da7ecce5acccb63638c58cbd0414f51c41f06bb2e4305711e50a75/amplify-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 13:26:10] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-24 13:26:10] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230624/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-24 13:26:10] INFO root fetch - processPackages [pycompile]: Downloading https://files.pythonhosted.org/packages/ef/54/6416bd94933c473caa531d3949b196e2dc50c0be3eaea4b0b09713668046/pycompile-0.1.4.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [gpjax]: Downloading https://files.pythonhosted.org/packages/9e/a5/8de7e4e1016bf3b2ecd714c9b9d4e3e71bc0791fe0bf0d7748aade9e85ab/gpjax-0.6.5.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/f2/7b/2875c06e4d61efa38429a9676c67b6b688460d61825c5f7871ed02d016d2/bhv-0.6.2.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [pycompile]: executing diffoscope
+[2023-06-24 13:26:10] INFO root fetch - processPackages [pycompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompile-0.1.3.tar.gz tmp/pycompile-0.1.4.tar.gz --markdown 20230624/p/pycompile/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-24 13:26:10] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-24 13:26:10] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.6.1.tar.gz tmp/bhv-0.6.2.tar.gz --markdown 20230624/b/bhv/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-24 13:26:10] INFO root fetch - processPackages [gpjax]: Downloading https://files.pythonhosted.org/packages/b3/5d/7b1fafea4c6df83c59877d0898a38e7327761631d11ee354d5677535156c/gpjax-0.6.6.tar.gz
+[2023-06-24 13:26:10] INFO root fetch - processPackages [gpjax]: executing diffoscope
+[2023-06-24 13:26:10] INFO root fetch - processPackages [gpjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpjax-0.6.5.tar.gz tmp/gpjax-0.6.6.tar.gz --markdown 20230624/g/gpjax/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-24 13:26:11] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-24 13:26:11] INFO root fetch - processPackages [marshmallow-recipe]: Remove: archive file [/home/abi/fetcher/tmp/marshmallow-recipe-0.0.8.tar.gz]
+[2023-06-24 13:26:11] INFO root fetch - processPackages [marshmallow-recipe]: Remove: archive file [/home/abi/fetcher/tmp/marshmallow-recipe-0.0.9.tar.gz]
+[2023-06-24 13:26:11] INFO root fetch - main [MainThread]: End processing [marshmallow-recipe]: success
+[2023-06-24 13:26:11] INFO root fetch - processPackages [pycompile]: Remove: archive file [/home/abi/fetcher/tmp/pycompile-0.1.3.tar.gz]
+[2023-06-24 13:26:11] INFO root fetch - processPackages [pycompile]: Remove: archive file [/home/abi/fetcher/tmp/pycompile-0.1.4.tar.gz]
+[2023-06-24 13:26:11] INFO root fetch - main [MainThread]: End processing [pycompile]: success
+[2023-06-24 13:26:11] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.1.tar.gz]
+[2023-06-24 13:26:11] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.2.tar.gz]
+[2023-06-24 13:26:11] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-24 13:26:12] INFO root fetch - processPackages [gpjax]: Remove: archive file [/home/abi/fetcher/tmp/gpjax-0.6.5.tar.gz]
+[2023-06-24 13:26:12] INFO root fetch - processPackages [gpjax]: Remove: archive file [/home/abi/fetcher/tmp/gpjax-0.6.6.tar.gz]
+[2023-06-24 13:26:12] INFO root fetch - main [MainThread]: End processing [gpjax]: success
+[2023-06-24 13:26:12] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-24 13:26:12] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-24 13:26:12] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-24 13:26:12] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-24 13:26:12] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230624/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-24 13:26:13] INFO root fetch - processPackages [amplify]: Downloading https://files.pythonhosted.org/packages/b5/77/ec43d552310fe8e70efe29311bc43c02b4350302cd72641aa3444dde3c22/amplify-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 13:26:16] INFO root fetch - processPackages [amplify]: executing diffoscope
+[2023-06-24 13:26:16] INFO root fetch - processPackages [amplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amplify-0.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/amplify-0.9.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230624/a/amplify/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-24 13:26:17] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-24 13:26:17] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-24 13:26:17] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-24 13:29:16] ERROR root fetch - processPackages [amplify]: Timeout during execution of pkgdiff
+[2023-06-24 13:29:16] INFO root fetch - main [MainThread]: End processing [amplify] error
+[2023-06-24 13:29:16] INFO root fetch - main [MainThread]: Store serial: [18628986]
