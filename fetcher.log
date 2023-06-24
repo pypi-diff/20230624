@@ -9565,3 +9565,43 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 06:47:33] INFO root fetch - processPackages [impedance]: Remove: archive file [/home/abi/fetcher/tmp/impedance-1.6.0.tar.gz]
 [2023-06-24 06:47:33] INFO root fetch - main [MainThread]: End processing [impedance]: success
 [2023-06-24 06:47:33] INFO root fetch - main [MainThread]: Store serial: [18627209]
+[2023-06-24 06:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627209]
+[2023-06-24 06:52:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multion
+[2023-06-24 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstutils
+[2023-06-24 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FinderZ
+[2023-06-24 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hi-cli-jash
+[2023-06-24 06:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multion
+[2023-06-24 06:52:42] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 06:52:43] INFO root fetch - processPackages [FinderZ]: New version: [2.0.0] Old Version: [1.2.4]
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 06:52:43] INFO root fetch - processPackages [vstutils]: New version: [5.5.6] Old Version: [5.5.5]
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-06-24 06:52:43] WARNING root fetch - processPackages [hi-cli-jash]: Skipping, unable to determine old version
+[2023-06-24 06:52:43] INFO root fetch - main [MainThread]: End processing [hi-cli-jash] error
+[2023-06-24 06:52:43] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/27/9b/3afd9e46276507006d54238419cdd833daf17e30c3fbb575073a37397e8f/vstutils-5.5.5.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/35/23/7def6a865140cb8220135526747863beec54cda26b69ae05490c586e00c1/finderz-1.2.4.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230624/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-24 06:52:43] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230624/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 06:52:43] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/6b/4d/ac52dd007917cbdbc019869b35c3414d59850257ec6ca406c3633f239163/vstutils-5.5.6.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/db/f7/1a2f32a8fdde463dc3192308d2983d03d0e36a4496d84455cec248ef82c3/finderz-2.0.0.tar.gz
+[2023-06-24 06:52:43] INFO root fetch - processPackages [FinderZ]: executing diffoscope
+[2023-06-24 06:52:43] INFO root fetch - processPackages [FinderZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finderz-1.2.4.tar.gz tmp/finderz-2.0.0.tar.gz --markdown 20230624/F/FinderZ/1.2.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-24 06:52:43] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-24 06:52:43] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.5.tar.gz tmp/vstutils-5.5.6.tar.gz --markdown 20230624/v/vstutils/5.5.5-5.5.6/diff.md --exclude *.pyd
+[2023-06-24 06:52:44] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-06-24 06:52:44] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-06-24 06:52:44] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-06-24 06:52:44] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-06-24 06:52:45] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-1.2.4.tar.gz]
+[2023-06-24 06:52:45] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.0.tar.gz]
+[2023-06-24 06:52:45] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
+[2023-06-24 06:52:46] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.5.tar.gz]
+[2023-06-24 06:52:46] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.6.tar.gz]
+[2023-06-24 06:52:46] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-24 06:52:46] INFO root fetch - main [MainThread]: Store serial: [18627227]
