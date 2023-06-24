@@ -10824,3 +10824,51 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:55:13] INFO root fetch - processPackages [llama-hub]: Remove: archive file [/home/abi/fetcher/tmp/llama_hub-0.0.4.tar.gz]
 [2023-06-24 08:55:13] INFO root fetch - main [MainThread]: End processing [llama-hub]: success
 [2023-06-24 08:55:13] INFO root fetch - main [MainThread]: Store serial: [18627720]
+[2023-06-24 09:00:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627720]
+[2023-06-24 09:00:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 09:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funboost
+[2023-06-24 09:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipen-runinfo
+[2023-06-24 09:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dnd5epy
+[2023-06-24 09:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Droplet-Detector
+[2023-06-24 09:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kbrainsecurity
+[2023-06-24 09:00:22] INFO root fetch - processPackages [funboost]: New version: [23.5] Old Version: [23.4]
+[2023-06-24 09:00:22] INFO root fetch - processPackages [Droplet-Detector]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-24 09:00:22] INFO root fetch - processPackages [dnd5epy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-24 09:00:22] INFO root fetch - processPackages [pipen-runinfo]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 09:00:22] INFO root fetch - processPackages [kbrainsecurity]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 09:00:22] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/15/aa/739e21c8e179a3137eaa08c8ed355ecfda6c38289bc1e82e81b6b3d25032/funboost-23.4-py3-none-any.whl
+[2023-06-24 09:00:22] INFO root fetch - processPackages [Droplet-Detector]: Downloading https://files.pythonhosted.org/packages/fd/af/869e38ffea4804d8dfa68edb32f181466bbe7445453f5a8d2b73c9d99a7f/Droplet_Detector-0.1.2.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [dnd5epy]: Downloading https://files.pythonhosted.org/packages/e2/b5/e6cf42e687826529a17a53ff0cc5a5a8f268323b712e9abc5d5825200d20/dnd5epy-1.0.4.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [pipen-runinfo]: Downloading https://files.pythonhosted.org/packages/4f/39/594f6219fecfd0aaeceef76ed64811e96ee91018bc94985a0695076dc216/pipen_runinfo-0.2.0.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/cb/0c/5ed262a14f9d33a422a4cb68adf2f452b8ab7a8b8ff97504a9f7fcc78c1a/kbrainsecurity-0.0.7.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/12/c4/cf6b2e651fa4a377332ca5f7f8b7e9213d393c3ba66a4ebe542f1865f79e/funboost-23.5-py3-none-any.whl
+[2023-06-24 09:00:22] INFO root fetch - processPackages [Droplet-Detector]: Downloading https://files.pythonhosted.org/packages/b2/43/2bf186d22813e87b38fa3f5e6c198c71301437179d4581e42b1e4c16d673/Droplet_Detector-0.1.3.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [dnd5epy]: Downloading https://files.pythonhosted.org/packages/68/b3/201dfda416f86456354fe5868d130f337d722f79b7b50d00cb17bb22390e/dnd5epy-1.0.5.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-06-24 09:00:22] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.4-py3-none-any.whl.zip tmp/funboost-23.5-py3-none-any.whl.zip --markdown 20230624/f/funboost/23.4-23.5/diff.md --exclude *.pyd
+[2023-06-24 09:00:22] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/54/5d/682e45abca011b60406483bff37edb6fa3f69c0aa877e3511b6992f0581c/kbrainsecurity-0.0.8.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [pipen-runinfo]: Downloading https://files.pythonhosted.org/packages/86/da/e17881253bef7b68906152a01bef6a59f98296d34c38a7a4890f305ede07/pipen_runinfo-0.2.1.tar.gz
+[2023-06-24 09:00:22] INFO root fetch - processPackages [Droplet-Detector]: executing diffoscope
+[2023-06-24 09:00:22] INFO root fetch - processPackages [Droplet-Detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Droplet_Detector-0.1.2.tar.gz tmp/Droplet_Detector-0.1.3.tar.gz --markdown 20230624/D/Droplet-Detector/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-24 09:00:22] INFO root fetch - processPackages [dnd5epy]: executing diffoscope
+[2023-06-24 09:00:22] INFO root fetch - processPackages [dnd5epy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnd5epy-1.0.4.tar.gz tmp/dnd5epy-1.0.5.tar.gz --markdown 20230624/d/dnd5epy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 09:00:22] INFO root fetch - processPackages [kbrainsecurity]: executing diffoscope
+[2023-06-24 09:00:22] INFO root fetch - processPackages [kbrainsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbrainsecurity-0.0.7.tar.gz tmp/kbrainsecurity-0.0.8.tar.gz --markdown 20230624/k/kbrainsecurity/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 09:00:22] INFO root fetch - processPackages [pipen-runinfo]: executing diffoscope
+[2023-06-24 09:00:22] INFO root fetch - processPackages [pipen-runinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_runinfo-0.2.0.tar.gz tmp/pipen_runinfo-0.2.1.tar.gz --markdown 20230624/p/pipen-runinfo/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 09:00:24] INFO root fetch - processPackages [Droplet-Detector]: Remove: archive file [/home/abi/fetcher/tmp/Droplet_Detector-0.1.2.tar.gz]
+[2023-06-24 09:00:24] INFO root fetch - processPackages [Droplet-Detector]: Remove: archive file [/home/abi/fetcher/tmp/Droplet_Detector-0.1.3.tar.gz]
+[2023-06-24 09:00:24] INFO root fetch - main [MainThread]: End processing [Droplet-Detector]: success
+[2023-06-24 09:00:24] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.7.tar.gz]
+[2023-06-24 09:00:24] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.8.tar.gz]
+[2023-06-24 09:00:24] INFO root fetch - main [MainThread]: End processing [kbrainsecurity]: success
+[2023-06-24 09:00:24] INFO root fetch - processPackages [pipen-runinfo]: Remove: archive file [/home/abi/fetcher/tmp/pipen_runinfo-0.2.0.tar.gz]
+[2023-06-24 09:00:24] INFO root fetch - processPackages [pipen-runinfo]: Remove: archive file [/home/abi/fetcher/tmp/pipen_runinfo-0.2.1.tar.gz]
+[2023-06-24 09:00:24] INFO root fetch - main [MainThread]: End processing [pipen-runinfo]: success
+[2023-06-24 09:00:25] INFO root fetch - processPackages [dnd5epy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5epy-1.0.4.tar.gz]
+[2023-06-24 09:00:25] INFO root fetch - processPackages [dnd5epy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5epy-1.0.5.tar.gz]
+[2023-06-24 09:00:25] INFO root fetch - main [MainThread]: End processing [dnd5epy]: success
+[2023-06-24 09:00:25] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.4-py3-none-any.whl.zip]
+[2023-06-24 09:00:25] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.5-py3-none-any.whl.zip]
+[2023-06-24 09:00:25] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-06-24 09:00:25] INFO root fetch - main [MainThread]: Store serial: [18627733]
