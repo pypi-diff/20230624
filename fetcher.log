@@ -17052,3 +17052,62 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:50:28] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
 [2023-06-24 18:50:28] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
 [2023-06-24 18:50:28] INFO root fetch - main [MainThread]: Store serial: [18630603]
+[2023-06-24 18:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630603]
+[2023-06-24 18:55:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UPAFuzzySystems
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elogin
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: solc-parser
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-simpleconf
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: applyx
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CodeDict
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alx-utils
+[2023-06-24 18:55:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: solidwrap
+[2023-06-24 18:55:37] WARNING root fetch - processPackages [solc-parser]: Skipping, unable to determine old version
+[2023-06-24 18:55:37] INFO root fetch - main [MainThread]: End processing [solc-parser] error
+[2023-06-24 18:55:37] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-24 18:55:37] INFO root fetch - processPackages [CodeDict]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 18:55:37] INFO root fetch - processPackages [UPAFuzzySystems]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-24 18:55:37] INFO root fetch - processPackages [solidwrap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 18:55:37] INFO root fetch - processPackages [elogin]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 18:55:37] WARNING root fetch - processPackages [alx-utils]: Skipping, unable to determine old version
+[2023-06-24 18:55:37] INFO root fetch - main [MainThread]: End processing [alx-utils] error
+[2023-06-24 18:55:37] INFO root fetch - processPackages [python-simpleconf]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 18:55:37] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/10/2b/d016557bcb557d5d6e7abcb5e062a371016dfcf37b741adc7ea5af1cec7a/solidwrap-0.0.2.tar.gz
+[2023-06-24 18:55:37] INFO root fetch - processPackages [CodeDict]: Downloading https://files.pythonhosted.org/packages/1d/b3/353017185b39866c59f9be22055180338a064c49cdf0285b0ee955b9626d/CodeDict-0.0.1.tar.gz
+[2023-06-24 18:55:38] INFO root fetch - processPackages [python-simpleconf]: Downloading https://files.pythonhosted.org/packages/54/91/1cc794682e0734c9005b9ed48d64df25768632a1dd9f784994f07cddc79d/python_simpleconf-0.5.8.tar.gz
+[2023-06-24 18:55:38] INFO root fetch - processPackages [elogin]: Downloading https://files.pythonhosted.org/packages/db/76/f9bbfa2f08ae37ab0633a362908148b24e9a03a6823ac9400f812b4953db/elogin-1.0.0-py3-none-any.whl
+[2023-06-24 18:55:38] INFO root fetch - processPackages [UPAFuzzySystems]: Downloading https://files.pythonhosted.org/packages/d0/02/ee64c0d9b7a61bad4231d87727ebff425cd9a6e72d9b784c549afd4af96e/UPAFuzzySystems-0.2.2.tar.gz
+[2023-06-24 18:55:38] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/30/96/bf00ea1d25d2d488fbefc1ff443a118a6c42de1422b84c2c517bf582d16c/applyx-0.2.7-py3-none-any.whl
+[2023-06-24 18:55:38] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/ae/15/8d76b017d3cb28f9766fd7d6ddf19ee7b176e36aa63a1a7aa10801968c7c/solidwrap-0.0.3.tar.gz
+[2023-06-24 18:55:38] WARNING root fetch - processPackages [CodeDict]: Skipping package: exceeds size limit 25611198>=10485760
+[2023-06-24 18:55:38] INFO root fetch - main [MainThread]: End processing [CodeDict] error
+[2023-06-24 18:55:38] INFO root fetch - processPackages [solidwrap]: executing diffoscope
+[2023-06-24 18:55:38] INFO root fetch - processPackages [solidwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidwrap-0.0.2.tar.gz tmp/solidwrap-0.0.3.tar.gz --markdown 20230624/s/solidwrap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 18:55:38] INFO root fetch - processPackages [python-simpleconf]: Downloading https://files.pythonhosted.org/packages/5d/40/2974527076ceea6054ac5ded430d835d08c0d3ed27b1b67cd844fc536c42/python_simpleconf-0.5.9.tar.gz
+[2023-06-24 18:55:38] INFO root fetch - processPackages [elogin]: Downloading https://files.pythonhosted.org/packages/9f/76/e7441d0488a0218bdded30073840be8420b67a326c84d4c0e41125ee9a9d/elogin-1.0.1-py3-none-any.whl
+[2023-06-24 18:55:38] INFO root fetch - processPackages [UPAFuzzySystems]: Downloading https://files.pythonhosted.org/packages/d3/03/a75e1ae3c4e1a78f058a53fffd7e6f5e7c8c5783b90a2cf5db2cd077aa52/UPAFuzzySystems-0.2.3.tar.gz
+[2023-06-24 18:55:38] INFO root fetch - processPackages [python-simpleconf]: executing diffoscope
+[2023-06-24 18:55:38] INFO root fetch - processPackages [python-simpleconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_simpleconf-0.5.8.tar.gz tmp/python_simpleconf-0.5.9.tar.gz --markdown 20230624/p/python-simpleconf/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 18:55:38] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/55/82/e3be3f202f0a3163a1550c0b5b78be1aea8301a9ac6459c4ad6c5d2f7499/applyx-0.2.9-py3-none-any.whl
+[2023-06-24 18:55:38] INFO root fetch - processPackages [elogin]: executing diffoscope
+[2023-06-24 18:55:38] INFO root fetch - processPackages [elogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elogin-1.0.0-py3-none-any.whl.zip tmp/elogin-1.0.1-py3-none-any.whl.zip --markdown 20230624/e/elogin/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 18:55:38] INFO root fetch - processPackages [UPAFuzzySystems]: executing diffoscope
+[2023-06-24 18:55:38] INFO root fetch - processPackages [UPAFuzzySystems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UPAFuzzySystems-0.2.2.tar.gz tmp/UPAFuzzySystems-0.2.3.tar.gz --markdown 20230624/U/UPAFuzzySystems/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-24 18:55:38] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-24 18:55:38] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230624/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 18:55:39] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-0.0.2.tar.gz]
+[2023-06-24 18:55:39] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-0.0.3.tar.gz]
+[2023-06-24 18:55:39] INFO root fetch - main [MainThread]: End processing [solidwrap]: success
+[2023-06-24 18:55:39] INFO root fetch - processPackages [elogin]: Remove: archive file [/home/abi/fetcher/tmp/elogin-1.0.0-py3-none-any.whl.zip]
+[2023-06-24 18:55:39] INFO root fetch - processPackages [elogin]: Remove: archive file [/home/abi/fetcher/tmp/elogin-1.0.1-py3-none-any.whl.zip]
+[2023-06-24 18:55:39] INFO root fetch - main [MainThread]: End processing [elogin]: success
+[2023-06-24 18:55:39] INFO root fetch - processPackages [UPAFuzzySystems]: Remove: archive file [/home/abi/fetcher/tmp/UPAFuzzySystems-0.2.2.tar.gz]
+[2023-06-24 18:55:39] INFO root fetch - processPackages [UPAFuzzySystems]: Remove: archive file [/home/abi/fetcher/tmp/UPAFuzzySystems-0.2.3.tar.gz]
+[2023-06-24 18:55:39] INFO root fetch - main [MainThread]: End processing [UPAFuzzySystems]: success
+[2023-06-24 18:55:39] INFO root fetch - processPackages [python-simpleconf]: Remove: archive file [/home/abi/fetcher/tmp/python_simpleconf-0.5.8.tar.gz]
+[2023-06-24 18:55:39] INFO root fetch - processPackages [python-simpleconf]: Remove: archive file [/home/abi/fetcher/tmp/python_simpleconf-0.5.9.tar.gz]
+[2023-06-24 18:55:39] INFO root fetch - main [MainThread]: End processing [python-simpleconf]: success
+[2023-06-24 18:55:40] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.7-py3-none-any.whl.zip]
+[2023-06-24 18:55:40] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
+[2023-06-24 18:55:40] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-24 18:55:40] INFO root fetch - main [MainThread]: Store serial: [18630630]
