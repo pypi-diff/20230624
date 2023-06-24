@@ -19060,3 +19060,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:35:27] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b2.tar.gz]
 [2023-06-24 21:35:27] INFO root fetch - main [MainThread]: End processing [litestar]: success
 [2023-06-24 21:35:27] INFO root fetch - main [MainThread]: Store serial: [18631564]
+[2023-06-24 21:40:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631564]
+[2023-06-24 21:40:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keepercommander
+[2023-06-24 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c4m-flexcell
+[2023-06-24 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jsonl2json
+[2023-06-24 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsutils-ms
+[2023-06-24 21:40:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musketeer
+[2023-06-24 21:40:36] INFO root fetch - processPackages [dsutils-ms]: New version: [1.7] Old Version: [1.6]
+[2023-06-24 21:40:36] INFO root fetch - processPackages [musketeer]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-06-24 21:40:36] WARNING root fetch - processPackages [jsonl2json]: Skipping, unable to determine old version
+[2023-06-24 21:40:36] INFO root fetch - main [MainThread]: End processing [jsonl2json] error
+[2023-06-24 21:40:36] INFO root fetch - processPackages [keepercommander]: New version: [4.9] Old Version: [4.88]
+[2023-06-24 21:40:36] INFO root fetch - processPackages [c4m-flexcell]: New version: [0.4.0.dev3] Old Version: [0.3.2]
+[2023-06-24 21:40:36] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/b4/09/076e8ad6dbfcc0b244325f39d053ad9bb75def627dedc1fc74c2354408b8/c4m_flexcell-0.3.2.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/a8/77/9c292e514bb09ea393dcfc18818632df1ec8d610ccf5b854363b5fe74966/dsutils_ms-1.6.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/16/91/5a24b372408888daef4a70bb214157f171e35ef268f1a3904fd190336343/keepercommander-4.88.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [musketeer]: Downloading https://files.pythonhosted.org/packages/36/77/6d13a14686a4df351f42ed3b1af7c5b3a627f1882b1b6c5b8c40cfc6c8af/musketeer-1.2.2.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/1e/41/fc1af20984e56f718774a197f644cb2adbef6f9b0f22b13ae4a3c6bebd1d/c4m_flexcell-0.4.0.dev3.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/63/71/5d60e0f60257938ca62b74d48008f789ad6b766ae919cc51fadd36c47888/dsutils_ms-1.7.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 21:40:37] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.6.tar.gz tmp/dsutils_ms-1.7.tar.gz --markdown 20230624/d/dsutils-ms/1.6-1.7/diff.md --exclude *.pyd
+[2023-06-24 21:40:37] INFO root fetch - processPackages [musketeer]: Downloading https://files.pythonhosted.org/packages/43/ff/dd02dc6f89b6186fd84e5e5f769b5d122587b9f44bcdccacf3f313c87120/musketeer-1.3.0.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/81/36/49b1c4234938830448040dbce4a33041541130d80e9ff959c80a7863be75/keepercommander-4.9.tar.gz
+[2023-06-24 21:40:37] INFO root fetch - processPackages [c4m-flexcell]: executing diffoscope
+[2023-06-24 21:40:37] INFO root fetch - processPackages [c4m-flexcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexcell-0.3.2.tar.gz tmp/c4m_flexcell-0.4.0.dev3.tar.gz --markdown 20230624/c/c4m-flexcell/0.3.2-0.4.0.dev3/diff.md --exclude *.pyd
+[2023-06-24 21:40:37] INFO root fetch - processPackages [musketeer]: executing diffoscope
+[2023-06-24 21:40:37] INFO root fetch - processPackages [musketeer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musketeer-1.2.2.tar.gz tmp/musketeer-1.3.0.tar.gz --markdown 20230624/m/musketeer/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-06-24 21:40:37] INFO root fetch - processPackages [keepercommander]: executing diffoscope
+[2023-06-24 21:40:37] INFO root fetch - processPackages [keepercommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepercommander-4.88.tar.gz tmp/keepercommander-4.9.tar.gz --markdown 20230624/k/keepercommander/4.88-4.9/diff.md --exclude *.pyd
+[2023-06-24 21:40:38] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.6.tar.gz]
+[2023-06-24 21:40:38] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.7.tar.gz]
+[2023-06-24 21:40:38] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 21:40:39] INFO root fetch - processPackages [musketeer]: Remove: archive file [/home/abi/fetcher/tmp/musketeer-1.2.2.tar.gz]
+[2023-06-24 21:40:39] INFO root fetch - processPackages [musketeer]: Remove: archive file [/home/abi/fetcher/tmp/musketeer-1.3.0.tar.gz]
+[2023-06-24 21:40:39] INFO root fetch - main [MainThread]: End processing [musketeer]: success
+[2023-06-24 21:40:39] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.88.tar.gz]
+[2023-06-24 21:40:39] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.9.tar.gz]
+[2023-06-24 21:40:39] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
+[2023-06-24 21:40:41] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.2.tar.gz]
+[2023-06-24 21:40:41] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.4.0.dev3.tar.gz]
+[2023-06-24 21:40:41] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
+[2023-06-24 21:40:41] INFO root fetch - main [MainThread]: Store serial: [18631581]
