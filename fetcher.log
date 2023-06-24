@@ -11307,3 +11307,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:53:11] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
 [2023-06-24 09:53:11] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
 [2023-06-24 09:53:11] INFO root fetch - main [MainThread]: Store serial: [18627937]
+[2023-06-24 09:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627937]
+[2023-06-24 09:58:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 09:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo
+[2023-06-24 09:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frida-tools
+[2023-06-24 09:58:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: khoj-assistant
+[2023-06-24 09:58:20] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev92] Old Version: [0.6.3.dev90]
+[2023-06-24 09:58:20] INFO root fetch - processPackages [frida-tools]: New version: [9.2.5] Old Version: [9.2.4]
+[2023-06-24 09:58:20] INFO root fetch - processPackages [oarepo]: New version: [9.0.9] Old Version: [9.0.8]
+[2023-06-24 09:58:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/30/40/07fa1441054a85247393422af0a58e083ef344aeac70d1c308bc9d7bdd78/khoj_assistant-0.6.3.dev90.tar.gz
+[2023-06-24 09:58:20] INFO root fetch - processPackages [frida-tools]: Downloading https://files.pythonhosted.org/packages/23/a5/de53e1703514a1b4e21489c6b9ecf7804bcc024254a2520ff855187789e1/frida-tools-9.2.4.tar.gz
+[2023-06-24 09:58:21] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/38/4c/f399359852cbe9b678586f09c718e6d26467563b540067619f17a7416616/oarepo-9.0.8.tar.gz
+[2023-06-24 09:58:21] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f2/ae/6b0980b9369e872279d3099baae1a0b22f2e1daaa22e04100f79fdf37473/khoj_assistant-0.6.3.dev92.tar.gz
+[2023-06-24 09:58:21] INFO root fetch - processPackages [frida-tools]: Downloading https://files.pythonhosted.org/packages/d8/c0/4d00f9e85b499bed8857971040e9a5b9e6f1a995fb3569d25984eaf5294c/frida-tools-9.2.5.tar.gz
+[2023-06-24 09:58:21] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-24 09:58:21] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev90.tar.gz tmp/khoj_assistant-0.6.3.dev92.tar.gz --markdown 20230624/k/khoj-assistant/0.6.3.dev90-0.6.3.dev92/diff.md --exclude *.pyd
+[2023-06-24 09:58:21] INFO root fetch - processPackages [frida-tools]: executing diffoscope
+[2023-06-24 09:58:21] INFO root fetch - processPackages [frida-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frida-tools-9.2.4.tar.gz tmp/frida-tools-9.2.5.tar.gz --markdown 20230624/f/frida-tools/9.2.4-9.2.5/diff.md --exclude *.pyd
+[2023-06-24 09:58:21] INFO root fetch - processPackages [oarepo]: Downloading https://files.pythonhosted.org/packages/47/d6/1ba1ba3d67b43bf65622b8597a86dda0a099313f4c7a307060535f4309b4/oarepo-9.0.9.tar.gz
+[2023-06-24 09:58:21] INFO root fetch - processPackages [oarepo]: executing diffoscope
+[2023-06-24 09:58:21] INFO root fetch - processPackages [oarepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-9.0.8.tar.gz tmp/oarepo-9.0.9.tar.gz --markdown 20230624/o/oarepo/9.0.8-9.0.9/diff.md --exclude *.pyd
+[2023-06-24 09:58:22] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.8.tar.gz]
+[2023-06-24 09:58:22] INFO root fetch - processPackages [oarepo]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-9.0.9.tar.gz]
+[2023-06-24 09:58:22] INFO root fetch - main [MainThread]: End processing [oarepo]: success
+[2023-06-24 09:58:22] INFO root fetch - processPackages [frida-tools]: Remove: archive file [/home/abi/fetcher/tmp/frida-tools-9.2.4.tar.gz]
+[2023-06-24 09:58:22] INFO root fetch - processPackages [frida-tools]: Remove: archive file [/home/abi/fetcher/tmp/frida-tools-9.2.5.tar.gz]
+[2023-06-24 09:58:22] INFO root fetch - main [MainThread]: End processing [frida-tools]: success
+[2023-06-24 09:58:23] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev90.tar.gz]
+[2023-06-24 09:58:23] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev92.tar.gz]
+[2023-06-24 09:58:23] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-24 09:58:23] INFO root fetch - main [MainThread]: Store serial: [18627951]
