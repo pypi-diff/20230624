@@ -18008,3 +18008,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:15:35] INFO root fetch - processPackages [napf]: Remove: archive file [/home/abi/fetcher/tmp/napf-0.0.5.tar.gz]
 [2023-06-24 20:15:35] INFO root fetch - main [MainThread]: End processing [napf]: success
 [2023-06-24 20:15:35] INFO root fetch - main [MainThread]: Store serial: [18631070]
+[2023-06-24 20:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631070]
+[2023-06-24 20:20:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-time
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: argrelay
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maadstml
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irregular-chars
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazylines
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: applyx
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-time
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: researchgpt
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ezelf
+[2023-06-24 20:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openai-function-calling
+[2023-06-24 20:20:47] INFO root fetch - processPackages [argrelay]: New version: [0.0.0.dev9] Old Version: [0.0.0.dev8]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [irregular-chars]: New version: [1.0.0] Old Version: [0.1.2]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [maadstml]: New version: [3.39] Old Version: [3.38]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [argrelay]: fallback to get urls: [0.0.0.dev8]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [lazylines]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [argrelay]: None
+[2023-06-24 20:20:47] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/e1/a3/0b73b6c2d56d75c207dba93832c45bf4e70e1f928cd30bc044675e6e62e3/irregular-chars-0.1.2.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/30/96/bf00ea1d25d2d488fbefc1ff443a118a6c42de1422b84c2c517bf582d16c/applyx-0.2.7-py3-none-any.whl
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [argrelay]: None
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [openai-function-calling]: Skipping, unable to determine old version
+[2023-06-24 20:20:47] INFO root fetch - processPackages [openai-function-calling]: Start processing: mizue
+[2023-06-24 20:20:47] INFO root fetch - main [MainThread]: End processing [openai-function-calling] error
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [ezelf]: Skipping, unable to determine old version
+[2023-06-24 20:20:47] INFO root fetch - main [MainThread]: End processing [ezelf] error
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [argrelay]: unable to get url for both version [0.0.0.dev8]
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [researchgpt]: Skipping, unable to determine old version
+[2023-06-24 20:20:47] INFO root fetch - main [MainThread]: End processing [researchgpt] error
+[2023-06-24 20:20:47] WARNING root fetch - processPackages [argrelay]: None
+[2023-06-24 20:20:47] INFO root fetch - main [MainThread]: End processing [argrelay] error
+[2023-06-24 20:20:47] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/07/7e/cd7241a2bec1033329013922d2b110a35020c3bbf47dabe378d6a9ac9dba/maadstml-3.38.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: Downloading https://files.pythonhosted.org/packages/03/57/f6d4b3d02f46fc5efebb5e3481767951fd5cb06db15f2646923f2dc2ce36/pytest_time-0.2.0.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: Downloading https://files.pythonhosted.org/packages/03/57/f6d4b3d02f46fc5efebb5e3481767951fd5cb06db15f2646923f2dc2ce36/pytest_time-0.2.0.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [lazylines]: Downloading https://files.pythonhosted.org/packages/13/7d/221564840bdc1620535aee76aef2c05390970ed6001059d5c2b92dde31af/lazylines-0.0.2.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [mizue]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-24 20:20:47] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/55/82/e3be3f202f0a3163a1550c0b5b78be1aea8301a9ac6459c4ad6c5d2f7499/applyx-0.2.9-py3-none-any.whl
+[2023-06-24 20:20:47] INFO root fetch - processPackages [irregular-chars]: Downloading https://files.pythonhosted.org/packages/98/74/4564c962b3131b2ace332a9f12cddfe3ffc2deca2a2269fc190787ae690a/irregular-chars-1.0.0.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-24 20:20:47] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230624/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 20:20:47] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/70/dd/4918d64d55cb84193b439238640706b7ba7ef863560c4457bcdfb350233d/mizue-0.3.4.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: Downloading https://files.pythonhosted.org/packages/20/df/6c088562b2bbca7fd7fbbe69f93a659fd3f101bac989847aa3039ccca9fe/pytest_time-0.3.0.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/8a/9b/3f92b0ae58845e9ceb8821f990cd9714ee53a590f4866cec4de3df31792e/maadstml-3.39.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [irregular-chars]: executing diffoscope
+[2023-06-24 20:20:47] INFO root fetch - processPackages [irregular-chars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irregular-chars-0.1.2.tar.gz tmp/irregular-chars-1.0.0.tar.gz --markdown 20230624/i/irregular-chars/0.1.2-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: Downloading https://files.pythonhosted.org/packages/20/df/6c088562b2bbca7fd7fbbe69f93a659fd3f101bac989847aa3039ccca9fe/pytest_time-0.3.0.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: executing diffoscope
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_time-0.2.0.tar.gz tmp/pytest_time-0.3.0.tar.gz --markdown 20230624/p/pytest-time/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: executing diffoscope
+[2023-06-24 20:20:47] INFO root fetch - processPackages [pytest-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_time-0.2.0.tar.gz tmp/pytest_time-0.3.0.tar.gz --markdown 20230624/p/pytest-time/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 20:20:47] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-24 20:20:47] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.38.tar.gz tmp/maadstml-3.39.tar.gz --markdown 20230624/m/maadstml/3.38-3.39/diff.md --exclude *.pyd
+[2023-06-24 20:20:47] INFO root fetch - processPackages [lazylines]: Downloading https://files.pythonhosted.org/packages/32/b3/83b81c8d3023a937daaf670740fdf906bd2742fcdc1fec92070bdeae63cd/lazylines-0.0.3.tar.gz
+[2023-06-24 20:20:47] INFO root fetch - processPackages [mizue]: Downloading https://files.pythonhosted.org/packages/f3/d1/9bd146e673900d84d9607155f0789f07c2a99f728478c540353f3f9c3701/mizue-0.4.0.tar.gz
+[2023-06-24 20:20:48] INFO root fetch - processPackages [lazylines]: executing diffoscope
+[2023-06-24 20:20:48] INFO root fetch - processPackages [lazylines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylines-0.0.2.tar.gz tmp/lazylines-0.0.3.tar.gz --markdown 20230624/l/lazylines/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 20:20:48] INFO root fetch - processPackages [mizue]: executing diffoscope
+[2023-06-24 20:20:48] INFO root fetch - processPackages [mizue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mizue-0.3.4.tar.gz tmp/mizue-0.4.0.tar.gz --markdown 20230624/m/mizue/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 20:20:49] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-0.1.2.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.0.0.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
+[2023-06-24 20:20:49] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.7-py3-none-any.whl.zip]
+[2023-06-24 20:20:49] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-24 20:20:49] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.38.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.39.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-24 20:20:49] INFO root fetch - processPackages [lazylines]: Remove: archive file [/home/abi/fetcher/tmp/lazylines-0.0.2.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - processPackages [lazylines]: Remove: archive file [/home/abi/fetcher/tmp/lazylines-0.0.3.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [lazylines]: success
+[2023-06-24 20:20:49] INFO root fetch - processPackages [pytest-time]: Remove: archive file [/home/abi/fetcher/tmp/pytest_time-0.2.0.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - processPackages [pytest-time]: Remove: archive file [/home/abi/fetcher/tmp/pytest_time-0.3.0.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [pytest-time]: success
+[2023-06-24 20:20:49] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.3.4.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - processPackages [mizue]: Remove: archive file [/home/abi/fetcher/tmp/mizue-0.4.0.tar.gz]
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [mizue]: success
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [pytest-time]: success
+[2023-06-24 20:20:49] INFO root fetch - main [MainThread]: Store serial: [18631111]
