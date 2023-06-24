@@ -18507,3 +18507,172 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:57:15] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.7-py3-none-any.whl.zip]
 [2023-06-24 20:57:15] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
 [2023-06-24 20:57:15] INFO root fetch - main [MainThread]: Store serial: [18631321]
+[2023-06-24 21:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631321]
+[2023-06-24 21:02:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rain-orm
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-chad
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mycotools
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mycotools
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-function-calling
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alx-utils
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ldimbenchmark
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omnata-plugin-runtime
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drizzutojr-vader
+[2023-06-24 21:02:24] WARNING root fetch - processPackages [google-chad]: Skipping, unable to determine old version
+[2023-06-24 21:02:24] INFO root fetch - processPackages [google-chad]: Start processing: ddocs
+[2023-06-24 21:02:24] INFO root fetch - main [MainThread]: End processing [google-chad] error
+[2023-06-24 21:02:24] INFO root fetch - processPackages [rain-orm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 21:02:24] WARNING root fetch - processPackages [alx-utils]: Skipping, unable to determine old version
+[2023-06-24 21:02:24] INFO root fetch - main [MainThread]: End processing [alx-utils] error
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-24 21:02:24] INFO root fetch - processPackages [openai-function-calling]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-24 21:02:24] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 21:02:24] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 21:02:24] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-24 21:02:24] WARNING root fetch - processPackages [ddocs]: Skipping, unable to determine old version
+[2023-06-24 21:02:24] INFO root fetch - main [MainThread]: End processing [ddocs] error
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/cc/8e/56efc7a0d34e193472da22cb28ae1100250a20fb941e5f0d7e2acad36310/openai_function_calling-0.4.0.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/07/81/96bfbb2665e7dd4692406778e1c6e5255048e7d37aedec5c1fb60554a11c/rain_orm-1.0.8.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-24 21:02:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/93/4f/105d0e3f59d62f6b8a0dff1c9145b73e84de8975808c41f33738c93e5d33/openai_function_calling-0.5.0.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230624/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-24 21:02:24] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230624/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-24 21:02:24] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230624/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 21:02:24] INFO root fetch - processPackages [openai-function-calling]: executing diffoscope
+[2023-06-24 21:02:24] INFO root fetch - processPackages [openai-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_calling-0.4.0.tar.gz tmp/openai_function_calling-0.5.0.tar.gz --markdown 20230624/o/openai-function-calling/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 21:02:24] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-24 21:02:24] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/3b/fc/c59a9827390a3f03a26515716898d6064f2bd6b27267e2b1c1b7181be421/rain_orm-1.0.9.tar.gz
+[2023-06-24 21:02:24] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-24 21:02:24] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:02:25] INFO root fetch - processPackages [rain-orm]: executing diffoscope
+[2023-06-24 21:02:25] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-24 21:02:25] INFO root fetch - processPackages [rain-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rain_orm-1.0.8.tar.gz tmp/rain_orm-1.0.9.tar.gz --markdown 20230624/r/rain-orm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:02:25] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-24 21:02:25] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-24 21:02:25] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230624/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-24 21:02:25] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-24 21:02:25] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230624/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 21:02:26] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.4.0.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.5.0.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - main [MainThread]: End processing [openai-function-calling]: success
+[2023-06-24 21:02:26] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-06-24 21:02:26] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-24 21:02:26] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-24 21:02:26] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 21:02:26] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-24 21:02:26] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.8.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.9.tar.gz]
+[2023-06-24 21:02:26] INFO root fetch - main [MainThread]: End processing [rain-orm]: success
+[2023-06-24 21:02:27] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-24 21:02:27] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-24 21:02:27] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-24 21:02:28] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-24 21:02:28] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-24 21:02:28] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-24 21:03:20] ERROR root fetch - processPackages [mycotools]: Diffoscope failed: gzip: tmp/mycotools-0.9b9.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/mycotools-0.9b9.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-24 21:03:20] INFO root fetch - main [MainThread]: End processing [mycotools] error
+[2023-06-24 21:03:20] INFO root fetch - main [MainThread]: Store serial: [18631364]
