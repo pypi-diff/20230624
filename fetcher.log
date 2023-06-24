@@ -19549,3 +19549,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 22:24:44] INFO root fetch - processPackages [irregular-chars]: Remove: archive file [/home/abi/fetcher/tmp/irregular-chars-1.2.0.tar.gz]
 [2023-06-24 22:24:44] INFO root fetch - main [MainThread]: End processing [irregular-chars]: success
 [2023-06-24 22:24:44] INFO root fetch - main [MainThread]: Store serial: [18631821]
+[2023-06-24 22:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631821]
+[2023-06-24 22:29:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 22:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyphetools
+[2023-06-24 22:29:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bismarkplot
+[2023-06-24 22:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SkyScribe
+[2023-06-24 22:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: free-pygpt
+[2023-06-24 22:29:53] WARNING root fetch - processPackages [SkyScribe]: Skipping, unable to determine old version
+[2023-06-24 22:29:53] INFO root fetch - main [MainThread]: End processing [SkyScribe] error
+[2023-06-24 22:29:53] INFO root fetch - processPackages [bismarkplot]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-24 22:29:53] INFO root fetch - processPackages [free-pygpt]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-24 22:29:53] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-24 22:29:53] INFO root fetch - processPackages [free-pygpt]: Downloading https://files.pythonhosted.org/packages/c6/98/d86ccbe96a38789a0364c4aa45eeef3d5bc9318a13b809751277aec2f760/free_pygpt-1.3.0.tar.gz
+[2023-06-24 22:29:53] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/2f/3e/df3eb7e5c259a4839e4410adaf9d3ab35029f958296bf4d375fc5dbad9af/pyphetools-0.2.7.tar.gz
+[2023-06-24 22:29:53] INFO root fetch - processPackages [bismarkplot]: Downloading https://files.pythonhosted.org/packages/30/73/2193067ecd7f946c57dbb214f7d8d480535771f6ee8f1bbe839bc014f4f5/bismarkplot-1.0.tar.gz
+[2023-06-24 22:29:53] INFO root fetch - processPackages [free-pygpt]: Downloading https://files.pythonhosted.org/packages/b5/b7/49da19cee3ff948c17fedbcdcf2648cd55e6c3081229de11ced78da6e56f/free_pygpt-1.3.1.tar.gz
+[2023-06-24 22:29:53] INFO root fetch - processPackages [free-pygpt]: executing diffoscope
+[2023-06-24 22:29:53] INFO root fetch - processPackages [free-pygpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/free_pygpt-1.3.0.tar.gz tmp/free_pygpt-1.3.1.tar.gz --markdown 20230624/f/free-pygpt/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-24 22:29:53] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/a0/09/c043bb89e8451345bc5af62e161c70bf3f9b43e8e2887f9b5a02998acc48/pyphetools-0.2.9.tar.gz
+[2023-06-24 22:29:53] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-24 22:29:53] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230624/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 22:29:53] INFO root fetch - processPackages [bismarkplot]: Downloading https://files.pythonhosted.org/packages/30/65/f10ee3a85f2df85ad9e5fded32246eb45b6109fde4afd4be9b99949caa23/bismarkplot-1.0.1.tar.gz
+[2023-06-24 22:29:53] INFO root fetch - processPackages [bismarkplot]: executing diffoscope
+[2023-06-24 22:29:53] INFO root fetch - processPackages [bismarkplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bismarkplot-1.0.tar.gz tmp/bismarkplot-1.0.1.tar.gz --markdown 20230624/b/bismarkplot/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 22:29:54] INFO root fetch - processPackages [free-pygpt]: Remove: archive file [/home/abi/fetcher/tmp/free_pygpt-1.3.0.tar.gz]
+[2023-06-24 22:29:54] INFO root fetch - processPackages [free-pygpt]: Remove: archive file [/home/abi/fetcher/tmp/free_pygpt-1.3.1.tar.gz]
+[2023-06-24 22:29:54] INFO root fetch - main [MainThread]: End processing [free-pygpt]: success
+[2023-06-24 22:29:54] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.7.tar.gz]
+[2023-06-24 22:29:54] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.9.tar.gz]
+[2023-06-24 22:29:54] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-24 22:29:54] INFO root fetch - processPackages [bismarkplot]: Remove: archive file [/home/abi/fetcher/tmp/bismarkplot-1.0.tar.gz]
+[2023-06-24 22:29:54] INFO root fetch - processPackages [bismarkplot]: Remove: archive file [/home/abi/fetcher/tmp/bismarkplot-1.0.1.tar.gz]
+[2023-06-24 22:29:54] INFO root fetch - main [MainThread]: End processing [bismarkplot]: success
+[2023-06-24 22:29:54] INFO root fetch - main [MainThread]: Store serial: [18631838]
