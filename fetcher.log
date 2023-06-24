@@ -3336,3 +3336,46 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 03:26:17] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20230624.tar.gz]
 [2023-06-24 03:26:17] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
 [2023-06-24 03:26:17] INFO root fetch - main [MainThread]: Store serial: [18625060]
+[2023-06-24 03:31:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18625060]
+[2023-06-24 03:31:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 03:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckdb
+[2023-06-24 03:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2023-06-24 03:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuclearcraft-designer
+[2023-06-24 03:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fmriprep
+[2023-06-24 03:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fmriprep-docker
+[2023-06-24 03:31:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyagrum-nightly
+[2023-06-24 03:31:29] WARNING root fetch - processPackages [nuclearcraft-designer]: Skipping, unable to determine old version
+[2023-06-24 03:31:29] INFO root fetch - main [MainThread]: End processing [nuclearcraft-designer] error
+[2023-06-24 03:31:29] INFO root fetch - processPackages [fmriprep]: New version: [23.1.3] Old Version: [23.1.2]
+[2023-06-24 03:31:29] INFO root fetch - processPackages [openllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 03:31:29] INFO root fetch - processPackages [fmriprep-docker]: New version: [23.1.3] Old Version: [23.1.2]
+[2023-06-24 03:31:30] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/69/cc/09d77e25ca5797059a9243afde624499915528af92e6833e1f1d095be2d5/openllm-0.1.8.tar.gz
+[2023-06-24 03:31:30] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev87] Old Version: [0.8.2.dev77]
+[2023-06-24 03:31:30] INFO root fetch - processPackages [pyagrum-nightly]: New version: [1.8.3.dev202306121686326557] Old Version: [1.8.3.dev202306111686326557]
+[2023-06-24 03:31:30] INFO root fetch - processPackages [fmriprep]: Downloading https://files.pythonhosted.org/packages/34/5e/f45e8e2300b44cd6c2b10c555f36765f9398a6cc578f83b9f5dfafee0a08/fmriprep-23.1.2.tar.gz
+[2023-06-24 03:31:30] INFO root fetch - processPackages [fmriprep-docker]: Downloading https://files.pythonhosted.org/packages/b9/56/87b85c6e02214c97fe5f32edcddc4701286110896e3bb437b0c5359c7b47/fmriprep_docker-23.1.2.tar.gz
+[2023-06-24 03:31:30] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/db/3b/efb7610d61277d41463a8511542a34c03caefe5cd471e50dd27baedd6343/duckdb-0.8.2.dev77-cp39-cp39-macosx_11_0_arm64.whl
+[2023-06-24 03:31:30] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 12632526>=10485760
+[2023-06-24 03:31:30] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-24 03:31:30] WARNING root fetch - processPackages [fmriprep]: Skipping package: exceeds size limit 24920093>=10485760
+[2023-06-24 03:31:30] INFO root fetch - main [MainThread]: End processing [fmriprep] error
+[2023-06-24 03:31:30] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/07/46/270b8b245feb59d5f249e10ced72a02b0db3ac8b574dbdc1c90e197d19b0/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl
+[2023-06-24 03:31:30] INFO root fetch - processPackages [fmriprep-docker]: Downloading https://files.pythonhosted.org/packages/1f/8a/378e77927731b7d2f7117b117cce2a4d1b5e52660459cb2ce96300f6a862/fmriprep_docker-23.1.3.tar.gz
+[2023-06-24 03:31:30] INFO root fetch - processPackages [fmriprep-docker]: executing diffoscope
+[2023-06-24 03:31:30] INFO root fetch - processPackages [fmriprep-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmriprep_docker-23.1.2.tar.gz tmp/fmriprep_docker-23.1.3.tar.gz --markdown 20230624/f/fmriprep-docker/23.1.2-23.1.3/diff.md --exclude *.pyd
+[2023-06-24 03:31:31] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/28/3e/a9330f38c746d3d17186006e87b6db6cd783f6aae338b8e382351a3ce53e/openllm-0.1.9.tar.gz
+[2023-06-24 03:31:31] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2023-06-24 03:31:31] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.1.8.tar.gz tmp/openllm-0.1.9.tar.gz --markdown 20230624/o/openllm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 03:31:31] INFO root fetch - processPackages [pyagrum-nightly]: Downloading https://files.pythonhosted.org/packages/c0/d4/20a48d2f9b4e252fe76b5a7e22de84caa21e8f08934645676fb47376de73/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl
+[2023-06-24 03:31:31] INFO root fetch - processPackages [fmriprep-docker]: Remove: archive file [/home/abi/fetcher/tmp/fmriprep_docker-23.1.2.tar.gz]
+[2023-06-24 03:31:31] INFO root fetch - processPackages [fmriprep-docker]: Remove: archive file [/home/abi/fetcher/tmp/fmriprep_docker-23.1.3.tar.gz]
+[2023-06-24 03:31:31] INFO root fetch - main [MainThread]: End processing [fmriprep-docker]: success
+[2023-06-24 03:31:32] INFO root fetch - processPackages [pyagrum-nightly]: executing diffoscope
+[2023-06-24 03:31:32] INFO root fetch - processPackages [pyagrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip --markdown 20230624/p/pyagrum-nightly/1.8.3.dev202306111686326557-1.8.3.dev202306121686326557/diff.md --exclude *.pyd
+[2023-06-24 03:31:33] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306111686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 03:31:33] INFO root fetch - processPackages [pyagrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.8.3.dev202306121686326557-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 03:31:33] INFO root fetch - main [MainThread]: End processing [pyagrum-nightly]: success
+[2023-06-24 03:31:34] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.8.tar.gz]
+[2023-06-24 03:31:34] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.1.9.tar.gz]
+[2023-06-24 03:31:34] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2023-06-24 03:31:34] INFO root fetch - main [MainThread]: Store serial: [18625083]
