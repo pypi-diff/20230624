@@ -15135,3 +15135,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:03:45] INFO root fetch - processPackages [OpenAIAuth]: Remove: archive file [/home/abi/fetcher/tmp/OpenAIAuth-2.0.0.tar.gz]
 [2023-06-24 16:03:45] INFO root fetch - main [MainThread]: End processing [OpenAIAuth]: success
 [2023-06-24 16:03:45] INFO root fetch - main [MainThread]: Store serial: [18629697]
+[2023-06-24 16:08:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629697]
+[2023-06-24 16:08:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modernmetric
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: transllm
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kivalu
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyphisher
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxboxcontroller
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proxifier-cli
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deeppipe-api
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: revChatGPT
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ufn
+[2023-06-24 16:08:54] INFO root fetch - processPackages [kivalu]: New version: [0.22.0] Old Version: [0.21.0]
+[2023-06-24 16:08:54] WARNING root fetch - processPackages [modernmetric]: Skipping, unable to determine old version
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ufn]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 16:08:54] INFO root fetch - main [MainThread]: End processing [modernmetric] error
+[2023-06-24 16:08:54] INFO root fetch - processPackages [transllm]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyphisher]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-24 16:08:54] WARNING root fetch - processPackages [proxifier-cli]: Skipping, unable to determine old version
+[2023-06-24 16:08:54] INFO root fetch - main [MainThread]: End processing [proxifier-cli] error
+[2023-06-24 16:08:54] INFO root fetch - processPackages [deeppipe-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyxboxcontroller]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-24 16:08:54] INFO root fetch - processPackages [revChatGPT]: New version: [6.4.2] Old Version: [6.4.1]
+[2023-06-24 16:08:54] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/6d/07/eafcb40ef7b0df49b8a370dcfa111aa74189af8251f3698bb407999f9ffb/deeppipe_api-0.0.8.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ufn]: Downloading https://files.pythonhosted.org/packages/2b/d2/cd556be11c8f5b4cb8f7ede19658fd1a0c581dbf49970735b6fa3daa4c9a/ufn-1.0.0.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/53/28/98e0891fdfaf0eb86a9956ed34f23dcfb53bd307625add29a7e094b628f8/revChatGPT-6.4.1.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [kivalu]: Downloading https://files.pythonhosted.org/packages/d6/8f/9bf16af0dfed12807c416cd2ae76c7445741c7126eae76fcb8c7ecc32359/kivalu-0.21.0.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/ee/41/26de2e583f35a1ee09ea35ce94370883409d4cd54f128fc22f259c8ef2f9/deeppipe_api-0.0.9.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyxboxcontroller]: Downloading https://files.pythonhosted.org/packages/33/d1/563ad25a17b03be2f16282d9982e47a86af8318f66a092ee6f594500bb3d/pyxboxcontroller-0.7.1.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyphisher]: Downloading https://files.pythonhosted.org/packages/41/37/5225516e32e3e1da00c7df86aa7cfbfb23477b885480f96d812f7d2210e7/PyPhisher-2.1.2-py3-none-any.whl
+[2023-06-24 16:08:54] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/97/29/79021dad9cdf0443668e78072eb66058ac74a9d147403640e86c93e49f84/transllm-0.1.5.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/55/40/65a40574999f9cff56f6596abcafbb0f1cafad1c70b58d540801f5d77178/revChatGPT-6.4.2.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [deeppipe-api]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [deeppipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppipe_api-0.0.8.tar.gz tmp/deeppipe_api-0.0.9.tar.gz --markdown 20230624/d/deeppipe-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ufn]: Downloading https://files.pythonhosted.org/packages/c9/12/95edbb8902d4bfe5902625b96ba5e733f3635e8fa06d87391ccbef2eee29/ufn-1.0.1.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.4.1.tar.gz tmp/revChatGPT-6.4.2.tar.gz --markdown 20230624/r/revChatGPT/6.4.1-6.4.2/diff.md --exclude *.pyd
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ufn]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [ufn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufn-1.0.0.tar.gz tmp/ufn-1.0.1.tar.gz --markdown 20230624/u/ufn/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 16:08:54] INFO root fetch - processPackages [transllm]: Downloading https://files.pythonhosted.org/packages/58/4f/7da459a30306e15909cad5f4abf817e31d03528f5b3c55b2ccf09aafd9c9/transllm-0.1.6.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [kivalu]: Downloading https://files.pythonhosted.org/packages/a2/35/f5d89d7e7b342696eb5433268a7ed675e345ca0401c68e4e624e2efe602a/kivalu-0.22.0.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [transllm]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [transllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transllm-0.1.5.tar.gz tmp/transllm-0.1.6.tar.gz --markdown 20230624/t/transllm/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyxboxcontroller]: Downloading https://files.pythonhosted.org/packages/dd/a8/159ca4bfdfe349daeb9401d63b9a027944f77120c4d35172a9c2a2d3ef1f/pyxboxcontroller-0.7.3.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyphisher]: Downloading https://files.pythonhosted.org/packages/4f/6e/4cbe18534f17370357bd6aafa6d7c1305f5d042fa6ed0b947c67385d32ed/pyphisher-2.1.3.tar.gz
+[2023-06-24 16:08:54] INFO root fetch - processPackages [kivalu]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [kivalu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kivalu-0.21.0.tar.gz tmp/kivalu-0.22.0.tar.gz --markdown 20230624/k/kivalu/0.21.0-0.22.0/diff.md --exclude *.pyd
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyphisher]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyphisher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPhisher-2.1.2-py3-none-any.whl.zip tmp/pyphisher-2.1.3.tar.gz --markdown 20230624/p/pyphisher/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyxboxcontroller]: executing diffoscope
+[2023-06-24 16:08:54] INFO root fetch - processPackages [pyxboxcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxboxcontroller-0.7.1.tar.gz tmp/pyxboxcontroller-0.7.3.tar.gz --markdown 20230624/p/pyxboxcontroller/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-24 16:08:55] INFO root fetch - processPackages [ufn]: Remove: archive file [/home/abi/fetcher/tmp/ufn-1.0.0.tar.gz]
+[2023-06-24 16:08:55] INFO root fetch - processPackages [ufn]: Remove: archive file [/home/abi/fetcher/tmp/ufn-1.0.1.tar.gz]
+[2023-06-24 16:08:55] INFO root fetch - main [MainThread]: End processing [ufn]: success
+[2023-06-24 16:08:55] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.1.tar.gz]
+[2023-06-24 16:08:55] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.2.tar.gz]
+[2023-06-24 16:08:55] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-24 16:08:55] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.8.tar.gz]
+[2023-06-24 16:08:55] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.9.tar.gz]
+[2023-06-24 16:08:55] INFO root fetch - main [MainThread]: End processing [deeppipe-api]: success
+[2023-06-24 16:08:56] INFO root fetch - processPackages [pyphisher]: Remove: archive file [/home/abi/fetcher/tmp/PyPhisher-2.1.2-py3-none-any.whl.zip]
+[2023-06-24 16:08:56] INFO root fetch - processPackages [pyphisher]: Remove: archive file [/home/abi/fetcher/tmp/pyphisher-2.1.3.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - main [MainThread]: End processing [pyphisher]: success
+[2023-06-24 16:08:56] INFO root fetch - processPackages [kivalu]: Remove: archive file [/home/abi/fetcher/tmp/kivalu-0.21.0.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - processPackages [kivalu]: Remove: archive file [/home/abi/fetcher/tmp/kivalu-0.22.0.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - main [MainThread]: End processing [kivalu]: success
+[2023-06-24 16:08:56] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.5.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - processPackages [transllm]: Remove: archive file [/home/abi/fetcher/tmp/transllm-0.1.6.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - main [MainThread]: End processing [transllm]: success
+[2023-06-24 16:08:56] INFO root fetch - processPackages [pyxboxcontroller]: Remove: archive file [/home/abi/fetcher/tmp/pyxboxcontroller-0.7.1.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - processPackages [pyxboxcontroller]: Remove: archive file [/home/abi/fetcher/tmp/pyxboxcontroller-0.7.3.tar.gz]
+[2023-06-24 16:08:56] INFO root fetch - main [MainThread]: End processing [pyxboxcontroller]: success
+[2023-06-24 16:08:56] INFO root fetch - main [MainThread]: Store serial: [18629727]
