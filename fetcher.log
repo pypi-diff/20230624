@@ -10588,3 +10588,42 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:34:13] INFO root fetch - processPackages [mcrs]: Remove: archive file [/home/abi/fetcher/tmp/mcrs-0.2.0.tar.gz]
 [2023-06-24 08:34:13] INFO root fetch - main [MainThread]: End processing [mcrs]: success
 [2023-06-24 08:34:13] INFO root fetch - main [MainThread]: Store serial: [18627624]
+[2023-06-24 08:39:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627624]
+[2023-06-24 08:39:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dj3base
+[2023-06-24 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sixsigmaspc
+[2023-06-24 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-gcp
+[2023-06-24 08:39:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kbrainsecurity
+[2023-06-24 08:39:21] INFO root fetch - processPackages [dj3base]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 08:39:21] INFO root fetch - processPackages [kbrainsecurity]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 08:39:21] INFO root fetch - processPackages [sixsigmaspc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 08:39:21] INFO root fetch - processPackages [pulumi-gcp]: New version: [6.9.0a1643146354] Old Version: [6.9.0]
+[2023-06-24 08:39:21] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/9c/19/64a91295f2c0e2512848dc60d5b873192e141de9e831a671d6ac6f6aaa1f/kbrainsecurity-0.0.5.tar.gz
+[2023-06-24 08:39:21] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/03/9b/bb0c0f52cb17eac01abbac01348d951f12bac85014ab1d671932c5579a5b/pulumi_gcp-6.9.0.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [dj3base]: Downloading https://files.pythonhosted.org/packages/39/2a/1f791915025228244b965041341666ea79f6be4afdd9ec988678e95b10e3/dj3base-0.1.0.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [sixsigmaspc]: Downloading https://files.pythonhosted.org/packages/0f/a9/ce4b6ee6fced50d4725ed86bfcdd18bbbdca2e4f9909ad8b9aa79adc3e90/sixsigmaspc-1.0.0.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/f8/e9/dea86966f9f449748c4ad6e690f133ff217b222be4f403961f8574c5eb79/kbrainsecurity-0.0.6.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [kbrainsecurity]: executing diffoscope
+[2023-06-24 08:39:22] INFO root fetch - processPackages [kbrainsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbrainsecurity-0.0.5.tar.gz tmp/kbrainsecurity-0.0.6.tar.gz --markdown 20230624/k/kbrainsecurity/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 08:39:22] INFO root fetch - processPackages [sixsigmaspc]: Downloading https://files.pythonhosted.org/packages/58/ff/676f79c4dc70d518c25a4ec6e19fc7bf0589a356756195dff8fb47246d89/sixsigmaspc-1.0.1.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [pulumi-gcp]: Downloading https://files.pythonhosted.org/packages/39/74/41d1cc3685622f458efd5675d5dac2a2be81a4c87627192c0fd616107756/pulumi_gcp-6.9.0a1643146354.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [dj3base]: Downloading https://files.pythonhosted.org/packages/dc/c2/c221ca1626c0dc3ee5cad80bf6d50d5a8976e9c73b21ca1fb1f5151d0698/dj3base-0.1.1.tar.gz
+[2023-06-24 08:39:22] INFO root fetch - processPackages [sixsigmaspc]: executing diffoscope
+[2023-06-24 08:39:22] INFO root fetch - processPackages [sixsigmaspc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixsigmaspc-1.0.0.tar.gz tmp/sixsigmaspc-1.0.1.tar.gz --markdown 20230624/s/sixsigmaspc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 08:39:22] INFO root fetch - processPackages [pulumi-gcp]: executing diffoscope
+[2023-06-24 08:39:22] INFO root fetch - processPackages [pulumi-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gcp-6.9.0.tar.gz tmp/pulumi_gcp-6.9.0a1643146354.tar.gz --markdown 20230624/p/pulumi-gcp/6.9.0-6.9.0a1643146354/diff.md --exclude *.pyd
+[2023-06-24 08:39:22] INFO root fetch - processPackages [dj3base]: executing diffoscope
+[2023-06-24 08:39:22] INFO root fetch - processPackages [dj3base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dj3base-0.1.0.tar.gz tmp/dj3base-0.1.1.tar.gz --markdown 20230624/d/dj3base/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 08:39:23] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.5.tar.gz]
+[2023-06-24 08:39:23] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.6.tar.gz]
+[2023-06-24 08:39:23] INFO root fetch - main [MainThread]: End processing [kbrainsecurity]: success
+[2023-06-24 08:39:24] INFO root fetch - processPackages [dj3base]: Remove: archive file [/home/abi/fetcher/tmp/dj3base-0.1.0.tar.gz]
+[2023-06-24 08:39:24] INFO root fetch - processPackages [dj3base]: Remove: archive file [/home/abi/fetcher/tmp/dj3base-0.1.1.tar.gz]
+[2023-06-24 08:39:24] INFO root fetch - main [MainThread]: End processing [dj3base]: success
+[2023-06-24 08:39:24] INFO root fetch - processPackages [sixsigmaspc]: Remove: archive file [/home/abi/fetcher/tmp/sixsigmaspc-1.0.0.tar.gz]
+[2023-06-24 08:39:24] INFO root fetch - processPackages [sixsigmaspc]: Remove: archive file [/home/abi/fetcher/tmp/sixsigmaspc-1.0.1.tar.gz]
+[2023-06-24 08:39:24] INFO root fetch - main [MainThread]: End processing [sixsigmaspc]: success
+[2023-06-24 08:39:33] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0.tar.gz]
+[2023-06-24 08:39:33] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
+[2023-06-24 08:39:33] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
+[2023-06-24 08:39:33] INFO root fetch - main [MainThread]: Store serial: [18627635]
