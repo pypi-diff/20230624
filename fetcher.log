@@ -7392,3 +7392,76 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:49:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-24 04:49:04] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-24 04:49:04] INFO root fetch - main [MainThread]: Store serial: [18626442]
+[2023-06-24 04:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626442]
+[2023-06-24 04:54:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkadw
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-chad
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-agreement
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-agreement
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdfvr
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-account-banking-sepa-direct-debit
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seoul256-jupyterlab-theme
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-payment-mode
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-account-statement-import-camt54
+[2023-06-24 04:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-account-statement-import-txt-xlsx
+[2023-06-24 04:54:18] WARNING root fetch - processPackages [rdfvr]: Skipping, unable to determine old version
+[2023-06-24 04:54:18] INFO root fetch - main [MainThread]: End processing [rdfvr] error
+[2023-06-24 04:54:18] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: New version: [15.0.2.0.1.3] Old Version: [15.0.2.0.1.1]
+[2023-06-24 04:54:18] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: New version: [14.0.1.1.1.dev5] Old Version: [14.0.1.1.1.dev4]
+[2023-06-24 04:54:18] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-06-24 04:54:18] INFO root fetch - processPackages [tkadw]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 04:54:18] WARNING root fetch - processPackages [seoul256-jupyterlab-theme]: Skipping, unable to determine old version
+[2023-06-24 04:54:18] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-06-24 04:54:18] INFO root fetch - main [MainThread]: End processing [seoul256-jupyterlab-theme] error
+[2023-06-24 04:54:18] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: New version: [12.0.1.3.0.99.dev9] Old Version: [12.0.1.3.0.99.dev8]
+[2023-06-24 04:54:18] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: New version: [16.0.1.1.1.1] Old Version: [16.0.1.1.1]
+[2023-06-24 04:54:18] WARNING root fetch - processPackages [google-chad]: Skipping, unable to determine old version
+[2023-06-24 04:54:18] INFO root fetch - main [MainThread]: End processing [google-chad] error
+[2023-06-24 04:54:18] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/5a/78/8decf6b078a39cb7cccb6c7469f0b55bdf67e59cac2aed172b02dc73e163/tkadw-0.2.0.tar.gz
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/88/44/377d3c34aa8c83a8e79c1e902e586f78c71f3228bb620cd0fb800da63c5a/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/88/44/377d3c34aa8c83a8e79c1e902e586f78c71f3228bb620cd0fb800da63c5a/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: Downloading https://files.pythonhosted.org/packages/1e/a2/086fd7815b10cb7abd88bd744f248b461e0d2f46a5f04f85be2f184ca6ab/odoo14_addon_account_statement_import_camt54-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/22/b7/a16e9c506a048b6038b4c4a40bf681d86b8ca2730cb7431773c73df461b0/odoo12_addon_account_banking_sepa_direct_debit-12.0.1.3.0.99.dev8-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: Downloading https://files.pythonhosted.org/packages/51/35/bf9df602cb81fc778e9f7040a04786572342a9fb9c35d34adbf76325e3da/odoo_addon_account_statement_import_txt_xlsx-15.0.2.0.1.1-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/1f/fe/edefac8427267cb077f21735c7eb55c291d43ce66a06b24e01dc665b03df/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [tkadw]: Downloading https://files.pythonhosted.org/packages/e7/2e/0335e106f91d091993d0b74332dd5982d6e9abb398acbd88672e41873ccd/tkadw-0.2.1.tar.gz
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/e2/70/58ed0e6fd2d57997457605948de290282d1dfa3ed761518f7ceeba345e72/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/e2/70/58ed0e6fd2d57997457605948de290282d1dfa3ed761518f7ceeba345e72/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: Downloading https://files.pythonhosted.org/packages/ea/1e/ff074b4363a0cbacd632dea793c2055bb401dae5b1d426559ed18bb5a519/odoo14_addon_account_statement_import_camt54-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/fa/95/49195193a8d499ef02dab22dc3c3791238085f9e16ead0d6e81c25c6abf2/odoo12_addon_account_banking_sepa_direct_debit-12.0.1.3.0.99.dev9-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-agreement/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-agreement/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: Downloading https://files.pythonhosted.org/packages/a6/07/24fbae0d73cf3c4d58f4df2d5a13994d9799e969ca50bf6d33353d1779aa/odoo_addon_account_statement_import_txt_xlsx-15.0.2.0.1.3-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Downloading https://files.pythonhosted.org/packages/cf/9b/b7448bf3032f23cefb815c6f425b76d28c85a041c9808d2fcf9cf6fa6951/odoo_addon_account_payment_mode-16.0.1.1.1.1-py3-none-any.whl
+[2023-06-24 04:54:19] INFO root fetch - processPackages [tkadw]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [tkadw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkadw-0.2.0.tar.gz tmp/tkadw-0.2.1.tar.gz --markdown 20230624/t/tkadw/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_statement_import_camt54-14.0.1.1.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_account_statement_import_camt54-14.0.1.1.1.dev5-py3-none-any.whl.zip --markdown 20230624/o/odoo14-addon-account-statement-import-camt54/14.0.1.1.1.dev4-14.0.1.1.1.dev5/diff.md --exclude *.pyd
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_txt_xlsx-15.0.2.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_txt_xlsx-15.0.2.0.1.3-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-account-statement-import-txt-xlsx/15.0.2.0.1.1-15.0.2.0.1.3/diff.md --exclude *.pyd
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_banking_sepa_direct_debit-12.0.1.3.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_banking_sepa_direct_debit-12.0.1.3.0.99.dev9-py3-none-any.whl.zip --markdown 20230624/o/odoo12-addon-account-banking-sepa-direct-debit/12.0.1.3.0.99.dev8-12.0.1.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: executing diffoscope
+[2023-06-24 04:54:19] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_mode-16.0.1.1.1.1-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-account-payment-mode/16.0.1.1.1-16.0.1.1.1.1/diff.md --exclude *.pyd
+[2023-06-24 04:54:20] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-24 04:54:20] INFO root fetch - processPackages [odoo-addon-agreement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_agreement-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-24 04:54:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_statement_import_camt54-14.0.1.1.1.dev4-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo14-addon-account-statement-import-camt54]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_statement_import_camt54-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-statement-import-camt54]: success
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-06-24 04:54:21] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.0.tar.gz]
+[2023-06-24 04:54:21] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.1.tar.gz]
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [tkadw]: success
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_txt_xlsx-15.0.2.0.1.1-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo-addon-account-statement-import-txt-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_txt_xlsx-15.0.2.0.1.3-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-txt-xlsx]: success
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_banking_sepa_direct_debit-12.0.1.3.0.99.dev8-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo12-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_account_banking_sepa_direct_debit-12.0.1.3.0.99.dev9-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-banking-sepa-direct-debit]: success
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.1.1-py3-none-any.whl.zip]
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
+[2023-06-24 04:54:21] INFO root fetch - main [MainThread]: Store serial: [18626472]
