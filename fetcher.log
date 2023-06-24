@@ -15207,3 +15207,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:08:56] INFO root fetch - processPackages [pyxboxcontroller]: Remove: archive file [/home/abi/fetcher/tmp/pyxboxcontroller-0.7.3.tar.gz]
 [2023-06-24 16:08:56] INFO root fetch - main [MainThread]: End processing [pyxboxcontroller]: success
 [2023-06-24 16:08:56] INFO root fetch - main [MainThread]: Store serial: [18629727]
+[2023-06-24 16:14:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629727]
+[2023-06-24 16:14:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saa
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovos-backend-client
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpjax
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Config-OC
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: illumigator
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FluidCubeGame
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cocoserver
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reloci
+[2023-06-24 16:14:05] INFO root fetch - processPackages [saa]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 16:14:05] INFO root fetch - processPackages [gpjax]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ovos-backend-client]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-06-24 16:14:05] INFO root fetch - processPackages [illumigator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 16:14:05] INFO root fetch - processPackages [FluidCubeGame]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 16:14:05] WARNING root fetch - processPackages [Config-OC]: Skipping, unable to determine old version
+[2023-06-24 16:14:05] INFO root fetch - main [MainThread]: End processing [Config-OC] error
+[2023-06-24 16:14:05] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/5b/eb/ff1d060256d279267846d27f51a6bd9c7764b0ef801d8afe3fcaee8d2dea/FluidCubeGame-1.0.8.tar.gz
+[2023-06-24 16:14:05] WARNING root fetch - processPackages [cocoserver]: Skipping, unable to determine old version
+[2023-06-24 16:14:05] INFO root fetch - main [MainThread]: End processing [cocoserver] error
+[2023-06-24 16:14:05] INFO root fetch - processPackages [reloci]: New version: [5.0] Old Version: [4]
+[2023-06-24 16:14:05] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/62/86/5675c00b574dc06c22a9432e540f533b44d553b3e2e61c1a9e74921277f6/illumigator-0.0.2.tar.gz
+[2023-06-24 16:14:05] INFO root fetch - processPackages [saa]: Downloading https://files.pythonhosted.org/packages/44/d1/5a1c23f2d37dc6add481b9033a500f9d7e61a67a8961c6606bcf78e85cd9/saa-0.0.3.tar.gz
+[2023-06-24 16:14:05] INFO root fetch - processPackages [gpjax]: Downloading https://files.pythonhosted.org/packages/b3/5d/7b1fafea4c6df83c59877d0898a38e7327761631d11ee354d5677535156c/gpjax-0.6.6.tar.gz
+[2023-06-24 16:14:05] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/45/21/53d3b7ff14efbe7d04a751a24642d2cbef0ba19a7e2f8f58537eced48a1e/ovos-backend-client-0.1.0a5.tar.gz
+[2023-06-24 16:14:06] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/29/70/066173fbd866a924671b3b15dbccbfb27cfe128de9fd38db32391d8f296a/FluidCubeGame-1.0.9.tar.gz
+[2023-06-24 16:14:06] INFO root fetch - processPackages [reloci]: Downloading https://files.pythonhosted.org/packages/22/e5/ef84411a269831cd05538d0be6ac0890f5edc5ef3ae22613cfc75d980c8b/reloci-4.tar.gz
+[2023-06-24 16:14:06] INFO root fetch - processPackages [FluidCubeGame]: executing diffoscope
+[2023-06-24 16:14:06] INFO root fetch - processPackages [FluidCubeGame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidCubeGame-1.0.8.tar.gz tmp/FluidCubeGame-1.0.9.tar.gz --markdown 20230624/F/FluidCubeGame/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:14:06] INFO root fetch - processPackages [gpjax]: Downloading https://files.pythonhosted.org/packages/b9/b6/d02a7044e971d4ea9656a2ae2bcdd2f17a54bc556f2e6f9f932186820cb0/gpjax-0.6.7.tar.gz
+[2023-06-24 16:14:06] INFO root fetch - processPackages [saa]: Downloading https://files.pythonhosted.org/packages/9a/b3/384a863e3582b65355565b421c15f5c1b913f2ff6895c464636570a193bc/saa-0.0.4.tar.gz
+[2023-06-24 16:14:06] INFO root fetch - processPackages [illumigator]: Downloading https://files.pythonhosted.org/packages/56/20/a5b74aea45d4559b486376997a805ece73b9aa52cae1033feecd70c7cb23/illumigator-0.0.3.tar.gz
+[2023-06-24 16:14:06] WARNING root fetch - processPackages [illumigator]: Skipping package: exceeds size limit 61061256>=10485760
+[2023-06-24 16:14:06] INFO root fetch - main [MainThread]: End processing [illumigator] error
+[2023-06-24 16:14:06] INFO root fetch - processPackages [ovos-backend-client]: Downloading https://files.pythonhosted.org/packages/0b/42/86576d9937bcca8d3f299983003e33e0e6fec6cd446a00d3f24a5eeb1a07/ovos-backend-client-0.1.0a6.tar.gz
+[2023-06-24 16:14:06] INFO root fetch - processPackages [saa]: executing diffoscope
+[2023-06-24 16:14:06] INFO root fetch - processPackages [saa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saa-0.0.3.tar.gz tmp/saa-0.0.4.tar.gz --markdown 20230624/s/saa/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 16:14:06] INFO root fetch - processPackages [gpjax]: executing diffoscope
+[2023-06-24 16:14:06] INFO root fetch - processPackages [gpjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpjax-0.6.6.tar.gz tmp/gpjax-0.6.7.tar.gz --markdown 20230624/g/gpjax/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-24 16:14:06] INFO root fetch - processPackages [ovos-backend-client]: executing diffoscope
+[2023-06-24 16:14:06] INFO root fetch - processPackages [ovos-backend-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-backend-client-0.1.0a5.tar.gz tmp/ovos-backend-client-0.1.0a6.tar.gz --markdown 20230624/o/ovos-backend-client/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-06-24 16:14:06] INFO root fetch - processPackages [reloci]: Downloading https://files.pythonhosted.org/packages/77/0c/6698fa6a1177e6aaa46d2d1df9617f1fea0ac9657656b9b918528dd22a5c/reloci-5.0-py3-none-any.whl
+[2023-06-24 16:14:06] INFO root fetch - processPackages [reloci]: executing diffoscope
+[2023-06-24 16:14:06] INFO root fetch - processPackages [reloci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reloci-4.tar.gz tmp/reloci-5.0-py3-none-any.whl.zip --markdown 20230624/r/reloci/4-5.0/diff.md --exclude *.pyd
+[2023-06-24 16:14:07] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.8.tar.gz]
+[2023-06-24 16:14:07] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.9.tar.gz]
+[2023-06-24 16:14:07] INFO root fetch - main [MainThread]: End processing [FluidCubeGame]: success
+[2023-06-24 16:14:07] INFO root fetch - processPackages [saa]: Remove: archive file [/home/abi/fetcher/tmp/saa-0.0.3.tar.gz]
+[2023-06-24 16:14:07] INFO root fetch - processPackages [saa]: Remove: archive file [/home/abi/fetcher/tmp/saa-0.0.4.tar.gz]
+[2023-06-24 16:14:07] INFO root fetch - main [MainThread]: End processing [saa]: success
+[2023-06-24 16:14:08] INFO root fetch - processPackages [gpjax]: Remove: archive file [/home/abi/fetcher/tmp/gpjax-0.6.6.tar.gz]
+[2023-06-24 16:14:08] INFO root fetch - processPackages [gpjax]: Remove: archive file [/home/abi/fetcher/tmp/gpjax-0.6.7.tar.gz]
+[2023-06-24 16:14:08] INFO root fetch - main [MainThread]: End processing [gpjax]: success
+[2023-06-24 16:14:08] INFO root fetch - processPackages [ovos-backend-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-backend-client-0.1.0a5.tar.gz]
+[2023-06-24 16:14:08] INFO root fetch - processPackages [ovos-backend-client]: Remove: archive file [/home/abi/fetcher/tmp/ovos-backend-client-0.1.0a6.tar.gz]
+[2023-06-24 16:14:08] INFO root fetch - main [MainThread]: End processing [ovos-backend-client]: success
+[2023-06-24 16:14:08] INFO root fetch - processPackages [reloci]: Remove: archive file [/home/abi/fetcher/tmp/reloci-4.tar.gz]
+[2023-06-24 16:14:08] INFO root fetch - processPackages [reloci]: Remove: archive file [/home/abi/fetcher/tmp/reloci-5.0-py3-none-any.whl.zip]
+[2023-06-24 16:14:08] INFO root fetch - main [MainThread]: End processing [reloci]: success
+[2023-06-24 16:14:08] INFO root fetch - main [MainThread]: Store serial: [18629751]
