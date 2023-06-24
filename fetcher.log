@@ -17111,3 +17111,75 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:55:40] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
 [2023-06-24 18:55:40] INFO root fetch - main [MainThread]: End processing [applyx]: success
 [2023-06-24 18:55:40] INFO root fetch - main [MainThread]: Store serial: [18630630]
+[2023-06-24 19:00:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630630]
+[2023-06-24 19:00:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autooc
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluecast
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fhir-analyzer
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SimpleSQLite
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openram
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plemmy
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leverage
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-user-role
+[2023-06-24 19:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymetastore
+[2023-06-24 19:00:49] WARNING root fetch - processPackages [fhir-analyzer]: Skipping, unable to determine old version
+[2023-06-24 19:00:49] INFO root fetch - main [MainThread]: End processing [fhir-analyzer] error
+[2023-06-24 19:00:49] INFO root fetch - processPackages [autooc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 19:00:49] INFO root fetch - processPackages [plemmy]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-24 19:00:49] INFO root fetch - processPackages [bluecast]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-06-24 19:00:49] WARNING root fetch - processPackages [pymetastore]: Skipping, unable to determine old version
+[2023-06-24 19:00:49] INFO root fetch - main [MainThread]: End processing [pymetastore] error
+[2023-06-24 19:00:49] INFO root fetch - processPackages [SimpleSQLite]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-06-24 19:00:49] INFO root fetch - processPackages [openram]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-24 19:00:49] INFO root fetch - processPackages [odoo-addon-base-user-role]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.1.3]
+[2023-06-24 19:00:49] INFO root fetch - processPackages [leverage]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-24 19:00:49] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/84/72/978632efc65fc5f44490052faafa49601aa67f0eed435522a1638b2c1224/autooc-0.0.8.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/9a/17/148811534cd3a4b8b8ca151ba24107ea1e729ffe5a4ef0845a19b3a8f5e2/plemmy-0.2.3.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [SimpleSQLite]: Downloading https://files.pythonhosted.org/packages/89/ad/9120d2e6f8e620d04120b80a01b251bc74eb4e2bb910d808a8899ff38bb5/SimpleSQLite-1.3.1.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/e3/80/9bb18dc5c9011e11d889c36781e4e764f4cbd0adeaf9e11f0b10bb7f6698/bluecast-0.3.1.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [leverage]: Downloading https://files.pythonhosted.org/packages/c2/6b/15d9f3b2bd622edc7ccc250048c2f2ace4f2220f618b164d6d10a51545e7/leverage-1.9.1.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/4e/4c/5401fbef04e2462a0715b8cdc90582cf1741d71519e1946158655e183804/odoo_addon_base_user_role-16.0.1.1.1.3-py3-none-any.whl
+[2023-06-24 19:00:49] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/27/48/21468acb36ed2e912fd0769d395fb00fad8b7d567aa56def3004eec03501/autooc-0.0.9.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/cd/81/d4f41efe943d85919e448d6c65c4be619651aadd21d63f69137165780373/openram-1.2.8.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/37/a3/ca389992671772a9f4c6b6de637e63852d70d8f14984e1c08fe48db5a642/plemmy-0.2.4.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-06-24 19:00:49] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.2.3.tar.gz tmp/plemmy-0.2.4.tar.gz --markdown 20230624/p/plemmy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-24 19:00:49] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 19:00:49] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.8.tar.gz tmp/autooc-0.0.9.tar.gz --markdown 20230624/a/autooc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 19:00:49] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/34/02/d077a63d1e4dfeee76cc204bc03d48e931fcceee86328076ed07ec95011d/bluecast-0.4.1.tar.gz
+[2023-06-24 19:00:49] INFO root fetch - processPackages [odoo-addon-base-user-role]: Downloading https://files.pythonhosted.org/packages/a0/1f/ada7b4ce531e9d71252e156223eb12b6d614a0c5d5f487d2610584f176ba/odoo_addon_base_user_role-16.0.1.2.0-py3-none-any.whl
+[2023-06-24 19:00:49] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-06-24 19:00:49] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.3.1.tar.gz tmp/bluecast-0.4.1.tar.gz --markdown 20230624/b/bluecast/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-06-24 19:00:49] INFO root fetch - processPackages [SimpleSQLite]: Downloading https://files.pythonhosted.org/packages/21/2a/494fce15a43924becdbd06c760bc9d44841de463cc285e2c10deb37b318c/SimpleSQLite-1.3.2.tar.gz
+[2023-06-24 19:00:50] INFO root fetch - processPackages [odoo-addon-base-user-role]: executing diffoscope
+[2023-06-24 19:00:50] INFO root fetch - processPackages [odoo-addon-base-user-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role-16.0.1.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_base_user_role-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-base-user-role/16.0.1.1.1.3-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-24 19:00:50] INFO root fetch - processPackages [SimpleSQLite]: executing diffoscope
+[2023-06-24 19:00:50] INFO root fetch - processPackages [SimpleSQLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleSQLite-1.3.1.tar.gz tmp/SimpleSQLite-1.3.2.tar.gz --markdown 20230624/S/SimpleSQLite/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-06-24 19:00:50] INFO root fetch - processPackages [leverage]: Downloading https://files.pythonhosted.org/packages/c1/87/075e21a4533796abc8cb665c87d944e170b340169ec745ad65a3aa6d8cf6/leverage-1.9.2.tar.gz
+[2023-06-24 19:00:50] INFO root fetch - processPackages [leverage]: executing diffoscope
+[2023-06-24 19:00:50] INFO root fetch - processPackages [leverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leverage-1.9.1.tar.gz tmp/leverage-1.9.2.tar.gz --markdown 20230624/l/leverage/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-24 19:00:50] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/db/55/baee5dcc46fb63835c99917282700e98ba6d6177d267d541ceb50f1352d8/openram-1.2.9.tar.gz
+[2023-06-24 19:00:50] INFO root fetch - processPackages [openram]: executing diffoscope
+[2023-06-24 19:00:50] INFO root fetch - processPackages [openram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openram-1.2.8.tar.gz tmp/openram-1.2.9.tar.gz --markdown 20230624/o/openram/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-24 19:00:51] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.3.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.4.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-06-24 19:00:51] INFO root fetch - processPackages [leverage]: Remove: archive file [/home/abi/fetcher/tmp/leverage-1.9.1.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - processPackages [leverage]: Remove: archive file [/home/abi/fetcher/tmp/leverage-1.9.2.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - main [MainThread]: End processing [leverage]: success
+[2023-06-24 19:00:51] INFO root fetch - processPackages [SimpleSQLite]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSQLite-1.3.1.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - processPackages [SimpleSQLite]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSQLite-1.3.2.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - main [MainThread]: End processing [SimpleSQLite]: success
+[2023-06-24 19:00:51] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.8.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.9.tar.gz]
+[2023-06-24 19:00:51] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 19:00:52] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.1.1.3-py3-none-any.whl.zip]
+[2023-06-24 19:00:52] INFO root fetch - processPackages [odoo-addon-base-user-role]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-24 19:00:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
+[2023-06-24 19:00:52] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.3.1.tar.gz]
+[2023-06-24 19:00:52] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.4.1.tar.gz]
+[2023-06-24 19:00:52] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-06-24 19:01:02] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.8.tar.gz]
+[2023-06-24 19:01:02] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
+[2023-06-24 19:01:02] INFO root fetch - main [MainThread]: End processing [openram]: success
+[2023-06-24 19:01:02] INFO root fetch - main [MainThread]: Store serial: [18630663]
