@@ -17590,3 +17590,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:43:31] INFO root fetch - main [MainThread]: End processing [ream2]: success
 [2023-06-24 19:43:31] INFO root fetch - main [MainThread]: End processing [SimpleVectors]: success
 [2023-06-24 19:43:31] INFO root fetch - main [MainThread]: Store serial: [18630864]
+[2023-06-24 19:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630864]
+[2023-06-24 19:48:40] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: user-discord
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dsutils-ms
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: images-upload-cli
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yamet
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: porringer
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyMPDATA-examples
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyMPDATA
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: user-discord
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepblu-tools
+[2023-06-24 19:48:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SimpleVectors
+[2023-06-24 19:48:40] INFO root fetch - processPackages [images-upload-cli]: New version: [2.0.0a1] Old Version: [2.0.0a0]
+[2023-06-24 19:48:40] INFO root fetch - processPackages [PyMPDATA-examples]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-06-24 19:48:40] WARNING root fetch - processPackages [yamet]: Skipping, unable to determine old version
+[2023-06-24 19:48:40] INFO root fetch - processPackages [yamet]: Start processing: underpin
+[2023-06-24 19:48:40] INFO root fetch - main [MainThread]: End processing [yamet] error
+[2023-06-24 19:48:40] WARNING root fetch - processPackages [porringer]: Skipping, unable to determine old version
+[2023-06-24 19:48:40] INFO root fetch - processPackages [dsutils-ms]: New version: [1.2] Old Version: [1.1]
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: New version: [1.2.5] Old Version: [1.2.0]
+[2023-06-24 19:48:40] INFO root fetch - main [MainThread]: End processing [porringer] error
+[2023-06-24 19:48:40] INFO root fetch - processPackages [SimpleVectors]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 19:48:40] INFO root fetch - processPackages [deepblu-tools]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-24 19:48:40] INFO root fetch - processPackages [PyMPDATA]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: New version: [1.2.5] Old Version: [1.2.0]
+[2023-06-24 19:48:40] WARNING root fetch - processPackages [underpin]: Skipping, unable to determine old version
+[2023-06-24 19:48:40] INFO root fetch - main [MainThread]: End processing [underpin] error
+[2023-06-24 19:48:40] INFO root fetch - processPackages [deepblu-tools]: Downloading https://files.pythonhosted.org/packages/23/05/cef2b920b8a02e14c09266e2c015d362ff38bf789c5c4553319eb565ed10/deepblu-tools-2.1.3.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/44/90/769c85b199060b3c64a3db7fc5ea657c945b127c04569c2bb065a1ab6879/images_upload_cli-2.0.0a0.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/e7/9b/97cb5dca21bb0056b1ac5b43cd9b0a817275a0987a46561aadbbb22e5662/user_discord-1.2.0.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/e7/9b/97cb5dca21bb0056b1ac5b43cd9b0a817275a0987a46561aadbbb22e5662/user_discord-1.2.0.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [PyMPDATA-examples]: Downloading https://files.pythonhosted.org/packages/d8/00/7df1d960ce256c234f2c20100ba3bddbed79d2e5a1c5622f1a18885ce4a6/PyMPDATA-examples-1.0.7.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [PyMPDATA]: Downloading https://files.pythonhosted.org/packages/c6/05/fe558bcc71c4365fd00abf5b855a265f2a2aea999989a36b54c8ab9bc552/PyMPDATA-1.0.8.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [SimpleVectors]: Downloading https://files.pythonhosted.org/packages/ec/3b/76a489b9bfcba3fdf5804b6b5845336806cb9dbfc58c617034ed98f6b452/SimpleVectors-0.0.3.tar.gz
+[2023-06-24 19:48:40] WARNING root fetch - processPackages [PyMPDATA-examples]: Skipping package: exceeds size limit 10490921>=10485760
+[2023-06-24 19:48:40] INFO root fetch - main [MainThread]: End processing [PyMPDATA-examples] error
+[2023-06-24 19:48:40] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/c2/95/320355feb757956af0dd8fdfeca60c1c327b7702b81e499670349623aefb/dsutils_ms-1.1.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [deepblu-tools]: Downloading https://files.pythonhosted.org/packages/ed/66/75246396fb84b8e7ea78519346c4d30dc8b8d9ba88c92021f5332fa6a9f7/deepblu-tools-2.1.4.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/3a/3b/516030404703ffe855c0944dc2e4f89beb4e589f46298e8c216f153bd21f/images_upload_cli-2.0.0a1.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/aa/7b/9f13fb2c0a9b243b1903bae30147951a229a3298499bc648ff77f40d49a4/user_discord-1.2.5.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/aa/7b/9f13fb2c0a9b243b1903bae30147951a229a3298499bc648ff77f40d49a4/user_discord-1.2.5.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [SimpleVectors]: Downloading https://files.pythonhosted.org/packages/a3/b0/b016fe87b040ac91e698b5374abb2888893dac395ff4e82eb19ff7dfc7f0/SimpleVectors-0.0.4.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [images-upload-cli]: executing diffoscope
+[2023-06-24 19:48:40] INFO root fetch - processPackages [images-upload-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/images_upload_cli-2.0.0a0.tar.gz tmp/images_upload_cli-2.0.0a1.tar.gz --markdown 20230624/i/images-upload-cli/2.0.0a0-2.0.0a1/diff.md --exclude *.pyd
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.2.0.tar.gz tmp/user_discord-1.2.5.tar.gz --markdown 20230624/u/user-discord/1.2.0-1.2.5/diff.md --exclude *.pyd
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-24 19:48:40] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.2.0.tar.gz tmp/user_discord-1.2.5.tar.gz --markdown 20230624/u/user-discord/1.2.0-1.2.5/diff.md --exclude *.pyd
+[2023-06-24 19:48:40] INFO root fetch - processPackages [PyMPDATA]: Downloading https://files.pythonhosted.org/packages/59/2e/6c8b80a66889957020c14d5ab06b07f04944b752322385e8a199adb3496f/PyMPDATA-1.0.9.tar.gz
+[2023-06-24 19:48:40] INFO root fetch - processPackages [deepblu-tools]: executing diffoscope
+[2023-06-24 19:48:40] INFO root fetch - processPackages [deepblu-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepblu-tools-2.1.3.tar.gz tmp/deepblu-tools-2.1.4.tar.gz --markdown 20230624/d/deepblu-tools/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-24 19:48:41] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/56/ee/01f7dfe6ab705012176bbc034337e97496fca80e25c67c585f6424345c95/dsutils_ms-1.2.tar.gz
+[2023-06-24 19:48:41] INFO root fetch - processPackages [SimpleVectors]: executing diffoscope
+[2023-06-24 19:48:41] INFO root fetch - processPackages [SimpleVectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleVectors-0.0.3.tar.gz tmp/SimpleVectors-0.0.4.tar.gz --markdown 20230624/S/SimpleVectors/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 19:48:41] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 19:48:41] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.1.tar.gz tmp/dsutils_ms-1.2.tar.gz --markdown 20230624/d/dsutils-ms/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-24 19:48:41] INFO root fetch - processPackages [PyMPDATA]: executing diffoscope
+[2023-06-24 19:48:41] INFO root fetch - processPackages [PyMPDATA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMPDATA-1.0.8.tar.gz tmp/PyMPDATA-1.0.9.tar.gz --markdown 20230624/P/PyMPDATA/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 19:48:42] INFO root fetch - processPackages [images-upload-cli]: Remove: archive file [/home/abi/fetcher/tmp/images_upload_cli-2.0.0a0.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - processPackages [images-upload-cli]: Remove: archive file [/home/abi/fetcher/tmp/images_upload_cli-2.0.0a1.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - main [MainThread]: End processing [images-upload-cli]: success
+[2023-06-24 19:48:42] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.0.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.5.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-24 19:48:42] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-24 19:48:42] INFO root fetch - processPackages [SimpleVectors]: Remove: archive file [/home/abi/fetcher/tmp/SimpleVectors-0.0.3.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - processPackages [SimpleVectors]: Remove: archive file [/home/abi/fetcher/tmp/SimpleVectors-0.0.4.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - main [MainThread]: End processing [SimpleVectors]: success
+[2023-06-24 19:48:42] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.1.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.2.tar.gz]
+[2023-06-24 19:48:42] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 19:48:43] INFO root fetch - processPackages [PyMPDATA]: Remove: archive file [/home/abi/fetcher/tmp/PyMPDATA-1.0.8.tar.gz]
+[2023-06-24 19:48:43] INFO root fetch - processPackages [PyMPDATA]: Remove: archive file [/home/abi/fetcher/tmp/PyMPDATA-1.0.9.tar.gz]
+[2023-06-24 19:48:43] INFO root fetch - main [MainThread]: End processing [PyMPDATA]: success
+[2023-06-24 19:48:43] INFO root fetch - processPackages [deepblu-tools]: Remove: archive file [/home/abi/fetcher/tmp/deepblu-tools-2.1.3.tar.gz]
+[2023-06-24 19:48:43] INFO root fetch - processPackages [deepblu-tools]: Remove: archive file [/home/abi/fetcher/tmp/deepblu-tools-2.1.4.tar.gz]
+[2023-06-24 19:48:43] INFO root fetch - main [MainThread]: End processing [deepblu-tools]: success
+[2023-06-24 19:48:43] INFO root fetch - main [MainThread]: Store serial: [18630900]
