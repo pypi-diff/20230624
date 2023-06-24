@@ -9317,3 +9317,36 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 06:23:38] INFO root fetch - processPackages [vision6D]: Remove: archive file [/home/abi/fetcher/tmp/vision6D-0.2.6.tar.gz]
 [2023-06-24 06:23:38] INFO root fetch - main [MainThread]: End processing [vision6D]: success
 [2023-06-24 06:23:38] INFO root fetch - main [MainThread]: Store serial: [18627090]
+[2023-06-24 06:28:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627090]
+[2023-06-24 06:28:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-06-24 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playlist2podcast
+[2023-06-24 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambdamoo-db
+[2023-06-24 06:28:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pelican-markdown-include
+[2023-06-24 06:28:47] INFO root fetch - processPackages [playlist2podcast]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-24 06:28:47] INFO root fetch - processPackages [lambdamoo-db]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 06:28:47] WARNING root fetch - processPackages [pelican-markdown-include]: Skipping, unable to determine old version
+[2023-06-24 06:28:47] INFO root fetch - main [MainThread]: End processing [pelican-markdown-include] error
+[2023-06-24 06:28:47] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-06-24 06:28:47] INFO root fetch - processPackages [lambdamoo-db]: Downloading https://files.pythonhosted.org/packages/49/34/564d453003358494ef824044ae7a20d7ea7f145bfcd6ce5ffa27872c2cb5/lambdamoo_db-0.1.8.tar.gz
+[2023-06-24 06:28:47] INFO root fetch - processPackages [playlist2podcast]: Downloading https://files.pythonhosted.org/packages/98/17/da025386742ffdd944edb44219777c23ed85e91b51b099a587d50bee960a/playlist2podcast-0.6.5.tar.gz
+[2023-06-24 06:28:47] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-06-24 06:28:48] INFO root fetch - processPackages [playlist2podcast]: Downloading https://files.pythonhosted.org/packages/19/a7/3cc4683b1b87310aff594621917533f9387b3955fffcd806d127a6280bb3/playlist2podcast-0.6.6.tar.gz
+[2023-06-24 06:28:48] INFO root fetch - processPackages [lambdamoo-db]: Downloading https://files.pythonhosted.org/packages/49/b2/8217f441963defb105c9a502892cebbc6c8d199d9721479f8f165662472d/lambdamoo_db-0.1.9.tar.gz
+[2023-06-24 06:28:48] INFO root fetch - processPackages [playlist2podcast]: executing diffoscope
+[2023-06-24 06:28:48] INFO root fetch - processPackages [playlist2podcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playlist2podcast-0.6.5.tar.gz tmp/playlist2podcast-0.6.6.tar.gz --markdown 20230624/p/playlist2podcast/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-24 06:28:48] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-06-24 06:28:48] INFO root fetch - processPackages [lambdamoo-db]: executing diffoscope
+[2023-06-24 06:28:48] INFO root fetch - processPackages [lambdamoo-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambdamoo_db-0.1.8.tar.gz tmp/lambdamoo_db-0.1.9.tar.gz --markdown 20230624/l/lambdamoo-db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 06:28:48] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-24 06:28:48] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230624/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-06-24 06:28:49] INFO root fetch - processPackages [playlist2podcast]: Remove: archive file [/home/abi/fetcher/tmp/playlist2podcast-0.6.5.tar.gz]
+[2023-06-24 06:28:49] INFO root fetch - processPackages [playlist2podcast]: Remove: archive file [/home/abi/fetcher/tmp/playlist2podcast-0.6.6.tar.gz]
+[2023-06-24 06:28:49] INFO root fetch - main [MainThread]: End processing [playlist2podcast]: success
+[2023-06-24 06:28:49] INFO root fetch - processPackages [lambdamoo-db]: Remove: archive file [/home/abi/fetcher/tmp/lambdamoo_db-0.1.8.tar.gz]
+[2023-06-24 06:28:49] INFO root fetch - processPackages [lambdamoo-db]: Remove: archive file [/home/abi/fetcher/tmp/lambdamoo_db-0.1.9.tar.gz]
+[2023-06-24 06:28:49] INFO root fetch - main [MainThread]: End processing [lambdamoo-db]: success
+[2023-06-24 06:28:58] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2023-06-24 06:28:58] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2023-06-24 06:28:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-06-24 06:28:58] INFO root fetch - main [MainThread]: Store serial: [18627103]
