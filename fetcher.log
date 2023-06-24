@@ -7465,3 +7465,24 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:54:21] INFO root fetch - processPackages [odoo-addon-account-payment-mode]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_mode-16.0.1.1.1.1-py3-none-any.whl.zip]
 [2023-06-24 04:54:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-mode]: success
 [2023-06-24 04:54:21] INFO root fetch - main [MainThread]: Store serial: [18626472]
+[2023-06-24 04:59:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626472]
+[2023-06-24 04:59:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-06-24 04:59:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-test-component
+[2023-06-24 04:59:30] INFO root fetch - processPackages [odoo-addon-test-component]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-24 04:59:30] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230624] Old Version: [1.2.20230623]
+[2023-06-24 04:59:30] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/55/b1/f585fce454a2a73b9b57e2a49dfc5495e2d152b827393fcc51dd461efa4e/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-24 04:59:31] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/fd/99/b889a5d89865d2ee608eaf495872d882d49ba9288d8b39a4d83dda3866ee/iam_actions-1.2.20230623.tar.gz
+[2023-06-24 04:59:31] INFO root fetch - processPackages [odoo-addon-test-component]: Downloading https://files.pythonhosted.org/packages/a9/04/be3bc5d9c16a47420f9078c0932989744f7f017b6e1fe4ed79d61abba676/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-24 04:59:31] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/2d/ff/c5478cee2b18c9c2f2ac3f55edfa388881cef43e3472a8deb683bb27e7cf/iam_actions-1.2.20230624.tar.gz
+[2023-06-24 04:59:31] INFO root fetch - processPackages [odoo-addon-test-component]: executing diffoscope
+[2023-06-24 04:59:31] INFO root fetch - processPackages [odoo-addon-test-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-test-component/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-24 04:59:31] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-24 04:59:31] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230623.tar.gz tmp/iam_actions-1.2.20230624.tar.gz --markdown 20230624/i/iam-actions/1.2.20230623-1.2.20230624/diff.md --exclude *.pyd
+[2023-06-24 04:59:32] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-24 04:59:32] INFO root fetch - processPackages [odoo-addon-test-component]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_test_component-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-24 04:59:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-test-component]: success
+[2023-06-24 04:59:36] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230623.tar.gz]
+[2023-06-24 04:59:36] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230624.tar.gz]
+[2023-06-24 04:59:36] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-24 04:59:36] INFO root fetch - main [MainThread]: Store serial: [18626478]
