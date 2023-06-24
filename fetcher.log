@@ -19887,3 +19887,68 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 22:53:46] INFO root fetch - main [MainThread]: End processing [genopyc]: success
 [2023-06-24 22:53:47] INFO root fetch - main [MainThread]: End processing [genopyc]: success
 [2023-06-24 22:53:47] INFO root fetch - main [MainThread]: Store serial: [18631964]
+[2023-06-24 22:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631964]
+[2023-06-24 22:58:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-wifi-communication
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdqrcode
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redco
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-porringer
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spacetraders
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deeponto
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cliffy
+[2023-06-24 22:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: weewx
+[2023-06-24 22:58:56] INFO root fetch - processPackages [micropython-wifi-communication]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 22:58:56] INFO root fetch - processPackages [redco]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-24 22:58:56] INFO root fetch - processPackages [deeponto]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-24 22:58:56] INFO root fetch - processPackages [sdqrcode]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-24 22:58:56] WARNING root fetch - processPackages [pytest-porringer]: Skipping, unable to determine old version
+[2023-06-24 22:58:56] INFO root fetch - processPackages [spacetraders]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-24 22:58:56] INFO root fetch - main [MainThread]: End processing [pytest-porringer] error
+[2023-06-24 22:58:56] INFO root fetch - processPackages [cliffy]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 22:58:56] INFO root fetch - processPackages [weewx]: New version: [5.0.0b4] Old Version: [5.0.0b3]
+[2023-06-24 22:58:56] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/db/c2/c7927246da47d9418f18455cf8bfa6920e72cc722c9d4d6285de237672da/sdqrcode-0.2.7.tar.gz
+[2023-06-24 22:58:56] INFO root fetch - processPackages [micropython-wifi-communication]: Downloading https://files.pythonhosted.org/packages/04/e3/99fef0c9ba24c9638a39545c0738d2d2e8aadc8c2ec82510cf4fc9d37f16/micropython_wifi_communication-0.0.8.tar.gz
+[2023-06-24 22:58:56] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/5a/d9/d919601ad1abb4a60d2b637701d45eb99d9a2b686e034b9af6f30d3b0d9c/redco-0.4.4.tar.gz
+[2023-06-24 22:58:56] INFO root fetch - processPackages [deeponto]: Downloading https://files.pythonhosted.org/packages/c8/a8/e70b06f01e491f3507446ca496caabaad6662d3c0a0f3b8accb723feed52/deeponto-0.7.0.tar.gz
+[2023-06-24 22:58:56] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/1c/91/40e21707175d8304038a8cc6ff63c78173eed0857ea9b1f4740872342fc6/spacetraders-0.6.0.tar.gz
+[2023-06-24 22:58:56] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/40/2c/ef6c2734285ad62da43244bbc1ff17501b32ab50e1da216572b76277ccd8/cliffy-0.3.1.tar.gz
+[2023-06-24 22:58:56] INFO root fetch - processPackages [weewx]: Downloading https://files.pythonhosted.org/packages/d7/4f/379f6b0ee76551988aab6207e719925c90b50a0de1c4a12f14790d5e5cd3/weewx-5.0.0b3.tar.gz
+[2023-06-24 22:58:57] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/fb/cc/ace3663910cb1fec52bc24ff3c593637da7d5f811bd3ebc7f0f458b4752a/sdqrcode-0.2.8.tar.gz
+[2023-06-24 22:58:57] WARNING root fetch - processPackages [deeponto]: Skipping package: exceeds size limit 30358264>=10485760
+[2023-06-24 22:58:57] INFO root fetch - main [MainThread]: End processing [deeponto] error
+[2023-06-24 22:58:57] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-06-24 22:58:57] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.2.7.tar.gz tmp/sdqrcode-0.2.8.tar.gz --markdown 20230624/s/sdqrcode/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-24 22:58:57] INFO root fetch - processPackages [micropython-wifi-communication]: Downloading https://files.pythonhosted.org/packages/03/d1/5dcacfcdea601166f17f309851f1b6ee4367a4d8731eb81ba9f6e95ac15d/micropython_wifi_communication-0.0.9.tar.gz
+[2023-06-24 22:58:57] INFO root fetch - processPackages [redco]: Downloading https://files.pythonhosted.org/packages/db/e4/bf8fbdd223bd9bc1d6387a5848b5c47f4717119960315872ca7f9bb5d0b7/redco-0.4.5.tar.gz
+[2023-06-24 22:58:57] INFO root fetch - processPackages [cliffy]: Downloading https://files.pythonhosted.org/packages/93/22/72319532e5dda45930697ac25d27a06ef5c2a7761ecd9ee3b7a47a803314/cliffy-0.3.2.tar.gz
+[2023-06-24 22:58:57] INFO root fetch - processPackages [micropython-wifi-communication]: executing diffoscope
+[2023-06-24 22:58:57] INFO root fetch - processPackages [micropython-wifi-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_wifi_communication-0.0.8.tar.gz tmp/micropython_wifi_communication-0.0.9.tar.gz --markdown 20230624/m/micropython-wifi-communication/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 22:58:57] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/7d/2a/68d1ebb83aab4ff05c18cb5b9ebe1cd63a680b10ef0e2cf8e61d915c5d11/spacetraders-0.7.0.tar.gz
+[2023-06-24 22:58:57] INFO root fetch - processPackages [redco]: executing diffoscope
+[2023-06-24 22:58:57] INFO root fetch - processPackages [redco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redco-0.4.4.tar.gz tmp/redco-0.4.5.tar.gz --markdown 20230624/r/redco/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-24 22:58:57] INFO root fetch - processPackages [cliffy]: executing diffoscope
+[2023-06-24 22:58:57] INFO root fetch - processPackages [cliffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliffy-0.3.1.tar.gz tmp/cliffy-0.3.2.tar.gz --markdown 20230624/c/cliffy/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 22:58:57] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-06-24 22:58:57] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.6.0.tar.gz tmp/spacetraders-0.7.0.tar.gz --markdown 20230624/s/spacetraders/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-24 22:58:58] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.7.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.8.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-06-24 22:58:58] INFO root fetch - processPackages [weewx]: Downloading https://files.pythonhosted.org/packages/fb/bd/d98aa9df3699efd70cc83f9a65b8996b1c668c56f638dcbd1654e8c28999/weewx-5.0.0b4.tar.gz
+[2023-06-24 22:58:58] INFO root fetch - processPackages [micropython-wifi-communication]: Remove: archive file [/home/abi/fetcher/tmp/micropython_wifi_communication-0.0.8.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - processPackages [micropython-wifi-communication]: Remove: archive file [/home/abi/fetcher/tmp/micropython_wifi_communication-0.0.9.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - main [MainThread]: End processing [micropython-wifi-communication]: success
+[2023-06-24 22:58:58] INFO root fetch - processPackages [redco]: Remove: archive file [/home/abi/fetcher/tmp/redco-0.4.4.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - processPackages [redco]: Remove: archive file [/home/abi/fetcher/tmp/redco-0.4.5.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - main [MainThread]: End processing [redco]: success
+[2023-06-24 22:58:58] INFO root fetch - processPackages [cliffy]: Remove: archive file [/home/abi/fetcher/tmp/cliffy-0.3.1.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - processPackages [cliffy]: Remove: archive file [/home/abi/fetcher/tmp/cliffy-0.3.2.tar.gz]
+[2023-06-24 22:58:58] INFO root fetch - main [MainThread]: End processing [cliffy]: success
+[2023-06-24 22:58:59] INFO root fetch - processPackages [weewx]: executing diffoscope
+[2023-06-24 22:58:59] INFO root fetch - processPackages [weewx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weewx-5.0.0b3.tar.gz tmp/weewx-5.0.0b4.tar.gz --markdown 20230624/w/weewx/5.0.0b3-5.0.0b4/diff.md --exclude *.pyd
+[2023-06-24 22:59:00] INFO root fetch - processPackages [spacetraders]: Remove: archive file [/home/abi/fetcher/tmp/spacetraders-0.6.0.tar.gz]
+[2023-06-24 22:59:00] INFO root fetch - processPackages [spacetraders]: Remove: archive file [/home/abi/fetcher/tmp/spacetraders-0.7.0.tar.gz]
+[2023-06-24 22:59:00] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-06-24 22:59:26] INFO root fetch - processPackages [weewx]: Remove: archive file [/home/abi/fetcher/tmp/weewx-5.0.0b3.tar.gz]
+[2023-06-24 22:59:26] INFO root fetch - processPackages [weewx]: Remove: archive file [/home/abi/fetcher/tmp/weewx-5.0.0b4.tar.gz]
+[2023-06-24 22:59:26] INFO root fetch - main [MainThread]: End processing [weewx]: success
+[2023-06-24 22:59:26] INFO root fetch - main [MainThread]: Store serial: [18631989]
