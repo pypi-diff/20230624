@@ -13040,3 +13040,60 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:54:59] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-2.0.0.tar.gz]
 [2023-06-24 12:54:59] INFO root fetch - main [MainThread]: End processing [mflag]: success
 [2023-06-24 12:54:59] INFO root fetch - main [MainThread]: Store serial: [18628872]
+[2023-06-24 13:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628872]
+[2023-06-24 13:00:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 13:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-ecosystem-dependencies
+[2023-06-24 13:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpi4jax
+[2023-06-24 13:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyncm
+[2023-06-24 13:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wcferry
+[2023-06-24 13:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mflag
+[2023-06-24 13:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: labelprinterkit
+[2023-06-24 13:00:08] INFO root fetch - processPackages [wcferry]: New version: [37.1.25.4] Old Version: [37.1.25.3]
+[2023-06-24 13:00:08] INFO root fetch - processPackages [labelprinterkit]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mflag]: New version: [2.0.0] Old Version: [1.6.4]
+[2023-06-24 13:00:08] INFO root fetch - processPackages [pyncm]: New version: [1.6.9.0.2] Old Version: [1.6.9.0.1]
+[2023-06-24 13:00:08] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.24] Old Version: [202306.0.23]
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mpi4jax]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-24 13:00:08] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/b2/81/cbd652a79f860968e82708543771fa7a920ef2d513f6b3fd2661dc92702c/labelprinterkit-0.4.0.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/e6/b1/1a9648caeb9f5112bbd948028ad68111c6b75e8ea8a0703e6b9198d7d162/mflag-1.6.4.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/c1/9d/a99977ffc0045f57c1bff8de13698929d8ea62ef4e61b93ec487c387a7b6/wcferry-37.1.25.3.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [pyncm]: Downloading https://files.pythonhosted.org/packages/9d/16/3f11c381cbbb68457d3afd5db3a0dd4f07c26cdc7f415a5cb4f143025cfa/pyncm-1.6.9.0.1.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/93/d1/7ce8a816aa2dc287706e75c97463f64603f59455f94403194a0e4052a544/data_ecosystem_dependencies-202306.0.23.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mpi4jax]: Downloading https://files.pythonhosted.org/packages/8e/60/70e1084c3e242b9468ee5e243d314e2f69f5181ee415d34a54c80cf75c61/mpi4jax-0.3.8.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/e0/20/577b5c0079d41edeff2767355c9fe3c21dfdfb0f96a115eefdc0b8e26535/mflag-2.0.0.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/25/b7/107c02ce9fc7a7f39649f1683f7dcec831eab246f23be3aaec7aa6f30010/labelprinterkit-0.4.1.tar.gz
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mflag]: executing diffoscope
+[2023-06-24 13:00:08] INFO root fetch - processPackages [mflag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflag-1.6.4.tar.gz tmp/mflag-2.0.0.tar.gz --markdown 20230624/m/mflag/1.6.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-24 13:00:09] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 13:00:09] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.4.0.tar.gz tmp/labelprinterkit-0.4.1.tar.gz --markdown 20230624/l/labelprinterkit/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-24 13:00:09] INFO root fetch - processPackages [pyncm]: Downloading https://files.pythonhosted.org/packages/1d/4a/844c124a50b90d89aa7a4d6c0beb069be013b54757fba47992d37b6e34d8/pyncm-1.6.9.0.2.tar.gz
+[2023-06-24 13:00:09] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/7c/19/216e5b547f81456f1127a7d11c1cb90ffc0d74b1454e3e0ea7f168aef8b8/data_ecosystem_dependencies-202306.0.24.tar.gz
+[2023-06-24 13:00:09] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/b4/9d/bbdcdc2296369d5251db801548d76f5afc546440569653d49163a4197c3b/wcferry-37.1.25.4.tar.gz
+[2023-06-24 13:00:09] INFO root fetch - processPackages [mpi4jax]: Downloading https://files.pythonhosted.org/packages/7b/91/18ac073e7b9edbddefb52ea72a918f8f47e2700b953600e7edc5506d0980/mpi4jax-0.3.9.tar.gz
+[2023-06-24 13:00:09] INFO root fetch - processPackages [pyncm]: executing diffoscope
+[2023-06-24 13:00:09] INFO root fetch - processPackages [pyncm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyncm-1.6.9.0.1.tar.gz tmp/pyncm-1.6.9.0.2.tar.gz --markdown 20230624/p/pyncm/1.6.9.0.1-1.6.9.0.2/diff.md --exclude *.pyd
+[2023-06-24 13:00:09] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-24 13:00:09] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.23.tar.gz tmp/data_ecosystem_dependencies-202306.0.24.tar.gz --markdown 20230624/d/data-ecosystem-dependencies/202306.0.23-202306.0.24/diff.md --exclude *.pyd
+[2023-06-24 13:00:09] INFO root fetch - processPackages [mpi4jax]: executing diffoscope
+[2023-06-24 13:00:09] INFO root fetch - processPackages [mpi4jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpi4jax-0.3.8.tar.gz tmp/mpi4jax-0.3.9.tar.gz --markdown 20230624/m/mpi4jax/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-24 13:00:09] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-06-24 13:00:09] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-37.1.25.3.tar.gz tmp/wcferry-37.1.25.4.tar.gz --markdown 20230624/w/wcferry/37.1.25.3-37.1.25.4/diff.md --exclude *.pyd
+[2023-06-24 13:00:10] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.4.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-2.0.0.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - main [MainThread]: End processing [mflag]: success
+[2023-06-24 13:00:10] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.0.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.1.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 13:00:10] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.23.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.24.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-24 13:00:10] INFO root fetch - processPackages [pyncm]: Remove: archive file [/home/abi/fetcher/tmp/pyncm-1.6.9.0.1.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - processPackages [pyncm]: Remove: archive file [/home/abi/fetcher/tmp/pyncm-1.6.9.0.2.tar.gz]
+[2023-06-24 13:00:10] INFO root fetch - main [MainThread]: End processing [pyncm]: success
+[2023-06-24 13:00:11] INFO root fetch - processPackages [mpi4jax]: Remove: archive file [/home/abi/fetcher/tmp/mpi4jax-0.3.8.tar.gz]
+[2023-06-24 13:00:11] INFO root fetch - processPackages [mpi4jax]: Remove: archive file [/home/abi/fetcher/tmp/mpi4jax-0.3.9.tar.gz]
+[2023-06-24 13:00:11] INFO root fetch - main [MainThread]: End processing [mpi4jax]: success
+[2023-06-24 13:00:11] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-37.1.25.3.tar.gz]
+[2023-06-24 13:00:11] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-37.1.25.4.tar.gz]
+[2023-06-24 13:00:11] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-06-24 13:00:11] INFO root fetch - main [MainThread]: Store serial: [18628885]
