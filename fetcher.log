@@ -15528,3 +15528,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:35:03] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
 [2023-06-24 16:35:03] INFO root fetch - main [MainThread]: End processing [antgo]: success
 [2023-06-24 16:35:03] INFO root fetch - main [MainThread]: Store serial: [18629870]
+[2023-06-24 16:40:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629870]
+[2023-06-24 16:40:12] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coursebox
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maisaedu-utilities-prefect
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocp-vscode
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maisaedu-poormans-dms
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amniotic
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arylibrary
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: citrusdb
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nligraphspacy
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-maimai
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macro-kit
+[2023-06-24 16:40:12] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [amniotic]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [citrusdb]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [nonebot-plugin-maimai]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-24 16:40:12] WARNING root fetch - processPackages [arylibrary]: Skipping, unable to determine old version
+[2023-06-24 16:40:12] INFO root fetch - processPackages [arylibrary]: Start processing: lanablas
+[2023-06-24 16:40:12] INFO root fetch - main [MainThread]: End processing [arylibrary] error
+[2023-06-24 16:40:12] INFO root fetch - processPackages [ocp-vscode]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [macro-kit]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-06-24 16:40:12] INFO root fetch - processPackages [lanablas]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 16:40:12] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-06-24 16:40:12] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/90/a9/d731e971a9d043d9d55a48243999a0b78e10c4f10c71b22a570355655fd5/nonebot_plugin_maimai-0.2.2.tar.gz
+[2023-06-24 16:40:12] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/98/0f/864b5990e72dc7132c11f0016afce4ba18d52852fc039b73a32a926cab48/nligraphspacy-1.1.3.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/94/1b/173852564850c0dc7388c742d2d1cadd72d64d485059062be86c128e846e/amniotic-0.5.7.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/af/ad/9e0b5cd0149c9a81a89530068750465b9dda6ce53285c9e7e82f0068be94/citrusdb-0.4.0.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/cf/dd/2303a404cf2df50327b33b025021618b21ef31aedf8fb2a6990cb5adbc5e/ocp_vscode-1.1.2.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230624/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/03/09/db4d37481799d3be51e55b2081335fcad3f908ec7af1c089a49c88256674/lanablas-0.0.4.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/3d/8f/cc5e466b7e1f9780813463bb96d0c4d48430e1752d6eacb56bcfa4603e11/macro_kit-0.4.4.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230624/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [nonebot-plugin-maimai]: Downloading https://files.pythonhosted.org/packages/89/f4/50e521e2efc2a9487510330d60d1e3c9959868185b65efcb16e7c202fc38/nonebot_plugin_maimai-0.2.3.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/52/a3/c454d5f7c583a36bbba1ca6264672749944ec35fd7a63de03160b8e62864/nligraphspacy-1.1.4.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/3b/ed/97346f4ef9fbc10fd8538bcb13a8c7b81afe7ce1e73eb46853845b83bc86/citrusdb-0.5.0.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [ocp-vscode]: Downloading https://files.pythonhosted.org/packages/0f/ac/e4477ec5cdf3ae3ab4a0d066c89ca7eefd842c5035e514ed08ac4af0171f/ocp_vscode-1.1.3.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [nonebot-plugin-maimai]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [nonebot-plugin-maimai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_maimai-0.2.2.tar.gz tmp/nonebot_plugin_maimai-0.2.3.tar.gz --markdown 20230624/n/nonebot-plugin-maimai/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-1.1.3.tar.gz tmp/nligraphspacy-1.1.4.tar.gz --markdown 20230624/n/nligraphspacy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/bb/7f/497e44f4092aee2e631cebbcd9ee0e3efb80fa45ddbc7c137e828dbbead8/macro_kit-0.4.5.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/0b/44/fa869e30d07b36589d6971db4f6eb2af1a8813d342d55770e9489943e6b9/lanablas-0.0.5.tar.gz
+[2023-06-24 16:40:13] INFO root fetch - processPackages [ocp-vscode]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [ocp-vscode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocp_vscode-1.1.2.tar.gz tmp/ocp_vscode-1.1.3.tar.gz --markdown 20230624/o/ocp-vscode/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230624/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.7.tar.gz tmp/amniotic-0.5.8.tar.gz --markdown 20230624/a/amniotic/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [macro-kit]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [macro-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macro_kit-0.4.4.tar.gz tmp/macro_kit-0.4.5.tar.gz --markdown 20230624/m/macro-kit/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [lanablas]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [lanablas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanablas-0.0.4.tar.gz tmp/lanablas-0.0.5.tar.gz --markdown 20230624/l/lanablas/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 16:40:13] INFO root fetch - processPackages [citrusdb]: executing diffoscope
+[2023-06-24 16:40:13] INFO root fetch - processPackages [citrusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrusdb-0.4.0.tar.gz tmp/citrusdb-0.5.0.tar.gz --markdown 20230624/c/citrusdb/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 16:40:14] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-06-24 16:40:14] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-06-24 16:40:14] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: saa
+[2023-06-24 16:40:14] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-06-24 16:40:14] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-06-24 16:40:14] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-06-24 16:40:14] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: ldimbenchmark
+[2023-06-24 16:40:14] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-06-24 16:40:14] INFO root fetch - processPackages [saa]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 16:40:14] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 16:40:14] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-24 16:40:14] INFO root fetch - processPackages [saa]: Downloading https://files.pythonhosted.org/packages/9a/b3/384a863e3582b65355565b421c15f5c1b913f2ff6895c464636570a193bc/saa-0.0.4.tar.gz
+[2023-06-24 16:40:14] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-24 16:40:15] INFO root fetch - processPackages [saa]: Downloading https://files.pythonhosted.org/packages/ba/71/6c98c8e5dba860b99617f53b7acec8925ee40fe6d2d8dad86e81432a359c/saa-0.0.5.tar.gz
+[2023-06-24 16:40:15] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-24 16:40:15] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230624/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 16:40:15] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.2.2.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [nonebot-plugin-maimai]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_maimai-0.2.3.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [nonebot-plugin-maimai]: Start processing: PySide6-Customized-Window
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-maimai]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [saa]: executing diffoscope
+[2023-06-24 16:40:15] INFO root fetch - processPackages [saa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saa-0.0.4.tar.gz tmp/saa-0.0.5.tar.gz --markdown 20230624/s/saa/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 16:40:15] INFO root fetch - processPackages [PySide6-Customized-Window]: New version: [1.9] Old Version: [1.8]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/3d/67/3179e08d7869ba40a0f37b0554bb02eaeb211f33015fa80a5650c10390fd/PySide6_Customized_Window-1.8-py3-none-any.whl
+[2023-06-24 16:40:15] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.3.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.4.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [PySide6-Customized-Window]: Downloading https://files.pythonhosted.org/packages/d3/0e/bbda0a82404582ed90b8237cb08ec92968baef2773899ad398c29eb118a3/PySide6_Customized_Window-1.9-py3-none-any.whl
+[2023-06-24 16:40:15] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.4.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.5.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [macro-kit]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.4.0.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.5.0.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [ocp-vscode]: Remove: archive file [/home/abi/fetcher/tmp/ocp_vscode-1.1.2.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [PySide6-Customized-Window]: executing diffoscope
+[2023-06-24 16:40:15] INFO root fetch - processPackages [ocp-vscode]: Remove: archive file [/home/abi/fetcher/tmp/ocp_vscode-1.1.3.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [PySide6-Customized-Window]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6_Customized_Window-1.8-py3-none-any.whl.zip tmp/PySide6_Customized_Window-1.9-py3-none-any.whl.zip --markdown 20230624/P/PySide6-Customized-Window/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [ocp-vscode]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.4.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.5.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [lanablas]: success
+[2023-06-24 16:40:15] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.7.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-06-24 16:40:15] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-06-24 16:40:16] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-24 16:40:16] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-24 16:40:16] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-24 16:40:16] INFO root fetch - processPackages [saa]: Remove: archive file [/home/abi/fetcher/tmp/saa-0.0.4.tar.gz]
+[2023-06-24 16:40:16] INFO root fetch - processPackages [saa]: Remove: archive file [/home/abi/fetcher/tmp/saa-0.0.5.tar.gz]
+[2023-06-24 16:40:16] INFO root fetch - main [MainThread]: End processing [saa]: success
+[2023-06-24 16:40:17] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.8-py3-none-any.whl.zip]
+[2023-06-24 16:40:17] INFO root fetch - processPackages [PySide6-Customized-Window]: Remove: archive file [/home/abi/fetcher/tmp/PySide6_Customized_Window-1.9-py3-none-any.whl.zip]
+[2023-06-24 16:40:17] INFO root fetch - main [MainThread]: End processing [PySide6-Customized-Window]: success
+[2023-06-24 16:40:17] INFO root fetch - main [MainThread]: Store serial: [18629911]
