@@ -17351,3 +17351,98 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:21:48] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.1.tar.gz]
 [2023-06-24 19:21:48] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
 [2023-06-24 19:21:48] INFO root fetch - main [MainThread]: Store serial: [18630748]
+[2023-06-24 19:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630748]
+[2023-06-24 19:26:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyxy3d
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ostateczneDpp
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: user-discord
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cytotransform
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ArmaQDL
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: user-discord
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: estinnnn
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitauto
+[2023-06-24 19:26:57] INFO root fetch - processPackages [user-discord]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 19:26:57] WARNING root fetch - processPackages [ostateczneDpp]: Skipping, unable to determine old version
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ostateczneDpp]: Start processing: pybox-toolkit
+[2023-06-24 19:26:57] INFO root fetch - main [MainThread]: End processing [ostateczneDpp] error
+[2023-06-24 19:26:57] INFO root fetch - processPackages [user-discord]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 19:26:57] INFO root fetch - processPackages [cytotransform]: New version: [0.1.11] Old Version: [0.1.0]
+[2023-06-24 19:26:57] INFO root fetch - processPackages [unitauto]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ArmaQDL]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-24 19:26:57] INFO root fetch - processPackages [pyxy3d]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-24 19:26:57] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/15/9a/830af58a8e30ae73ce2775023bcbec073a2baaaae592cb6430d2e91ea67a/pyxy3d-0.1.4.tar.gz
+[2023-06-24 19:26:57] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 19:26:57] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/fb/f6/f9af44c2de593897bd6d3cb57a750af629ff61beff89205b7092ed039ede/unitauto-0.8.2.tar.gz
+[2023-06-24 19:26:57] INFO root fetch - processPackages [pybox-toolkit]: New version: [0.1.9.dev92] Old Version: [0.1.9.dev83]
+[2023-06-24 19:26:57] WARNING root fetch - processPackages [estinnnn]: Skipping, unable to determine old version
+[2023-06-24 19:26:57] INFO root fetch - processPackages [estinnnn]: Start processing: drizzutojr-vader
+[2023-06-24 19:26:57] INFO root fetch - main [MainThread]: End processing [estinnnn] error
+[2023-06-24 19:26:57] INFO root fetch - processPackages [ArmaQDL]: Downloading https://files.pythonhosted.org/packages/7c/93/13f18473e8f1f34d2ddf0ccbec0bc3f150e1bf2815abdcfaaecc94861d5d/armaqdl-0.9.0.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 19:26:58] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 19:26:58] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/ad/d5/4d75a368b8a389034326403075e70ce3eba7ce290219df0a74b25fbe09d2/cytotransform-0.1.0.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/82/43/182fb54dc9e21d04e9854f3afa9c9f4dce8c116ff28e41885902761164ff/user-discord-1.0.0.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/82/43/182fb54dc9e21d04e9854f3afa9c9f4dce8c116ff28e41885902761164ff/user-discord-1.0.0.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/db/0e/e504dd0533dfd52e51e4d62367aab02fc61d659431d945e85f543bf53bbc/pybox-toolkit-0.1.9.dev83.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-24 19:26:58] INFO root fetch - processPackages [unitauto]: Downloading https://files.pythonhosted.org/packages/0f/a1/94f2115c896656c85d659d7bab968770a963f13b10b94057cf632a419313/unitauto-0.9.0.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [ArmaQDL]: Downloading https://files.pythonhosted.org/packages/5b/82/748bc4a1e126d6f11715d59692368e63fbd83c5b53811bb5087da1718eed/armaqdl-0.9.1.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [unitauto]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [unitauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitauto-0.8.2.tar.gz tmp/unitauto-0.9.0.tar.gz --markdown 20230624/u/unitauto/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/66/e6/a350af46bb63faac7da61fde1d2dc475f9e9848f1cdefb00524be18d548f/user_discord-1.0.1.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/66/e6/a350af46bb63faac7da61fde1d2dc475f9e9848f1cdefb00524be18d548f/user_discord-1.0.1.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [cytotransform]: Downloading https://files.pythonhosted.org/packages/ad/fb/ec4218febc9912f16f4bf018832ab8c7be4abe1f621f95378c3d04bcaf4f/cytotransform-0.1.11.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pybox-toolkit]: Downloading https://files.pythonhosted.org/packages/7c/e2/c885fda89e9445571c1d3b2e5314f157feffbbae695a4bf61ec15541ad9c/pybox-toolkit-0.1.9.dev92.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pyxy3d]: Downloading https://files.pythonhosted.org/packages/3c/aa/868bec2d0b6708c6d6058d12f93e1762546c52ba9968164826599ad39f46/pyxy3d-0.1.5.tar.gz
+[2023-06-24 19:26:58] INFO root fetch - processPackages [ArmaQDL]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [ArmaQDL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armaqdl-0.9.0.tar.gz tmp/armaqdl-0.9.1.tar.gz --markdown 20230624/A/ArmaQDL/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [cytotransform]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [cytotransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytotransform-0.1.0.tar.gz tmp/cytotransform-0.1.11.tar.gz --markdown 20230624/c/cytotransform/0.1.0-0.1.11/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-discord-1.0.0.tar.gz tmp/user_discord-1.0.1.tar.gz --markdown 20230624/u/user-discord/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-discord-1.0.0.tar.gz tmp/user_discord-1.0.1.tar.gz --markdown 20230624/u/user-discord/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pybox-toolkit]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pybox-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybox-toolkit-0.1.9.dev83.tar.gz tmp/pybox-toolkit-0.1.9.dev92.tar.gz --markdown 20230624/p/pybox-toolkit/0.1.9.dev83-0.1.9.dev92/diff.md --exclude *.pyd
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pyxy3d]: executing diffoscope
+[2023-06-24 19:26:58] INFO root fetch - processPackages [pyxy3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxy3d-0.1.4.tar.gz tmp/pyxy3d-0.1.5.tar.gz --markdown 20230624/p/pyxy3d/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-24 19:26:59] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.8.2.tar.gz]
+[2023-06-24 19:26:59] INFO root fetch - processPackages [unitauto]: Remove: archive file [/home/abi/fetcher/tmp/unitauto-0.9.0.tar.gz]
+[2023-06-24 19:26:59] INFO root fetch - main [MainThread]: End processing [unitauto]: success
+[2023-06-24 19:27:00] INFO root fetch - processPackages [ArmaQDL]: Remove: archive file [/home/abi/fetcher/tmp/armaqdl-0.9.0.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - processPackages [ArmaQDL]: Remove: archive file [/home/abi/fetcher/tmp/armaqdl-0.9.1.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [ArmaQDL]: success
+[2023-06-24 19:27:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 19:27:00] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user-discord-1.0.0.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.0.1.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 19:27:00] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-24 19:27:00] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-24 19:27:00] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.1.0.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - processPackages [cytotransform]: Remove: archive file [/home/abi/fetcher/tmp/cytotransform-0.1.11.tar.gz]
+[2023-06-24 19:27:00] INFO root fetch - main [MainThread]: End processing [cytotransform]: success
+[2023-06-24 19:27:01] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev83.tar.gz]
+[2023-06-24 19:27:01] INFO root fetch - processPackages [pybox-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/pybox-toolkit-0.1.9.dev92.tar.gz]
+[2023-06-24 19:27:01] INFO root fetch - main [MainThread]: End processing [pybox-toolkit]: success
+[2023-06-24 19:27:02] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.4.tar.gz]
+[2023-06-24 19:27:02] INFO root fetch - processPackages [pyxy3d]: Remove: archive file [/home/abi/fetcher/tmp/pyxy3d-0.1.5.tar.gz]
+[2023-06-24 19:27:02] INFO root fetch - main [MainThread]: End processing [pyxy3d]: success
+[2023-06-24 19:27:02] INFO root fetch - main [MainThread]: Store serial: [18630802]
