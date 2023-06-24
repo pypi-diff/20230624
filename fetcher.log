@@ -17902,3 +17902,109 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:10:17] INFO root fetch - processPackages [zuspec-arl-dm]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_arl_dm-0.0.1.5365555614-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-24 20:10:17] INFO root fetch - main [MainThread]: End processing [zuspec-arl-dm]: success
 [2023-06-24 20:10:17] INFO root fetch - main [MainThread]: Store serial: [18630981]
+[2023-06-24 20:15:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630981]
+[2023-06-24 20:15:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aioabcpapi
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casino-dice
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyhdf
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jam-ai
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsonmathpy
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CodeDict
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DKCloudCommand
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: drizzutojr-vader
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: multion
+[2023-06-24 20:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wpdetect
+[2023-06-24 20:15:31] INFO root fetch - processPackages [aioabcpapi]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [casino-dice]: Skipping, unable to determine old version
+[2023-06-24 20:15:31] INFO root fetch - processPackages [casino-dice]: Start processing: napf
+[2023-06-24 20:15:31] INFO root fetch - main [MainThread]: End processing [casino-dice] error
+[2023-06-24 20:15:31] INFO root fetch - processPackages [pyhdf]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [CodeDict]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jam-ai]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [multion]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [wpdetect]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jsonmathpy]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.277rc1] Old Version: [1.1.276rc1]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [aioabcpapi]: Downloading https://files.pythonhosted.org/packages/cf/4e/73f01b98db2e168eb839313519ba54d60f759304bb88fb34a7739c5ea7d0/aioabcpapi-2.0.2.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/d6/43/02bc870af4fa102cebd16359306dcad5fa14e8e9c01dc9fb58766ba6d578/multion-0.1.8.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/03/6e/f602b71dc639f4c55a8e137e10736fcb5d63de7d60c65e499a74b7107758/jam_ai-0.1.6.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-24 20:15:31] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/3d/47/4fbe655caeeb0f5552aec0baf0d92bccf53bb46223d6fe7b1e6ed560f8a2/wpdetect-1.3.7.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [napf]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [CodeDict]: Downloading https://files.pythonhosted.org/packages/31/fa/014a9320a988f4531cb78e6f96e5f7e49cfb39b92711a7918fdbc2aa1535/CodeDict-0.0.2.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/3a/16/2ff41fb4b88fb969b5ac0d055e9ea952ddff48527e3934b274ed5cd1228f/DKCloudCommand-1.1.276rc1-py2.py3-none-any.whl
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [CodeDict]: Skipping package: exceeds size limit 47990545>=10485760
+[2023-06-24 20:15:31] INFO root fetch - processPackages [CodeDict]: Start processing: lycoris-lora
+[2023-06-24 20:15:31] INFO root fetch - main [MainThread]: End processing [CodeDict] error
+[2023-06-24 20:15:31] INFO root fetch - processPackages [pyhdf]: Downloading https://files.pythonhosted.org/packages/c1/aa/f6588fe5771d531008ffa7b16673c3baa6b8ff96634d61d524c55166da1c/pyhdf-0.8.2-py2.5-win32.egg
+[2023-06-24 20:15:31] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jsonmathpy]: Downloading https://files.pythonhosted.org/packages/ca/87/8dc8ccfe89d595a7fcaa4c4e72a793510d8251c06f620de78b03c600e4bb/jsonmathpy-2.0.6.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/e5/2f/980afa9d6c01bdbb0bd9ff59f522a5ef520b0ad1456d6633ec11136cfc6c/multion-0.1.9.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [napf]: Downloading https://files.pythonhosted.org/packages/9b/bb/63b65b75a4e36d8f990550c510d299864b656aab1db95dacd079bdb0ec1d/napf-0.0.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 20:15:31] INFO root fetch - processPackages [lycoris-lora]: New version: [0.1.7.dev5] Old Version: [0.1.7.dev4]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [wpdetect]: Downloading https://files.pythonhosted.org/packages/bd/e5/732b0d628f861c81c3906c3576c43fc87de63fa6054cf4ea14885759da1f/wpdetect-1.3.8.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] INFO root fetch - processPackages [aioabcpapi]: Downloading https://files.pythonhosted.org/packages/85/87/8f99de6aeb76959e4b96af6ab6585a5a270d8717a931910d3f014b6955fd/aioabcpapi-2.0.3.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [multion]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.1.8.tar.gz tmp/multion-0.1.9.tar.gz --markdown 20230624/m/multion/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/ec/dd/c41ac7e1af5508312f91754bb5ff5737c7b8b1ebf3ecb1d87c7127b986a7/jam_ai-0.1.7.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [aioabcpapi]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [aioabcpapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioabcpapi-2.0.2.tar.gz tmp/aioabcpapi-2.0.3.tar.gz --markdown 20230624/a/aioabcpapi/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jsonmathpy]: Downloading https://files.pythonhosted.org/packages/4b/9a/05b7e9e39dac195fce7734fa55596010e196ed4be9ce13b3c556f1efb7f1/jsonmathpy-2.0.7.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [DKCloudCommand]: Downloading https://files.pythonhosted.org/packages/f7/a5/6bccfec00f61b42df53edd93a7af9851bd0559e10997d439f85f296046e3/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl
+[2023-06-24 20:15:31] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/74/07/b0b1b8e6362d7d5d414deac7408d0bf856d7a63e6b04b1f3d0548ef0ceaa/lycoris_lora-0.1.7.dev4.tar.gz
+[2023-06-24 20:15:31] INFO root fetch - processPackages [wpdetect]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [wpdetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wpdetect-1.3.7.tar.gz tmp/wpdetect-1.3.8.tar.gz --markdown 20230624/w/wpdetect/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.6.tar.gz tmp/jam_ai-0.1.7.tar.gz --markdown 20230624/j/jam-ai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jsonmathpy]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [jsonmathpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonmathpy-2.0.6.tar.gz tmp/jsonmathpy-2.0.7.tar.gz --markdown 20230624/j/jsonmathpy/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-06-24 20:15:31] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.276rc1-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl.zip --markdown 20230624/D/DKCloudCommand/1.1.276rc1-1.1.277rc1/diff.md --exclude *.pyd
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [pyhdf]: fallback to get urls: [0.8.3]
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [pyhdf]: None
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [pyhdf]: None
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [pyhdf]: unable to get url for both version [0.8.3]
+[2023-06-24 20:15:31] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/9a/e6/7aabb9f126695d5ef6b74dc07750221187818c60b485cc2ee9400eee56bc/lycoris_lora-0.1.7.dev5.tar.gz
+[2023-06-24 20:15:31] WARNING root fetch - processPackages [pyhdf]: None
+[2023-06-24 20:15:31] INFO root fetch - processPackages [pyhdf]: Start processing: DKCloudCommand
+[2023-06-24 20:15:31] INFO root fetch - main [MainThread]: End processing [pyhdf] error
+[2023-06-24 20:15:31] INFO root fetch - processPackages [DKCloudCommand]: New version: [1.1.277rc1] Old Version: [1.1.276rc1]
+[2023-06-24 20:15:32] INFO root fetch - processPackages [napf]: Downloading https://files.pythonhosted.org/packages/b6/76/b45ace586f4d7f1a0f1372381f1b9b2a1e8c335d28ea7807cad43c10c59d/napf-0.0.5.tar.gz
+[2023-06-24 20:15:32] INFO root fetch - processPackages [DKCloudCommand]: executing diffoscope
+[2023-06-24 20:15:32] INFO root fetch - processPackages [DKCloudCommand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DKCloudCommand-1.1.276rc1-py2.py3-none-any.whl.zip tmp/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl.zip --markdown 20230624/D/DKCloudCommand/1.1.276rc1-1.1.277rc1/diff.md --exclude *.pyd
+[2023-06-24 20:15:32] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-06-24 20:15:32] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-0.1.7.dev4.tar.gz tmp/lycoris_lora-0.1.7.dev5.tar.gz --markdown 20230624/l/lycoris-lora/0.1.7.dev4-0.1.7.dev5/diff.md --exclude *.pyd
+[2023-06-24 20:15:32] INFO root fetch - processPackages [napf]: executing diffoscope
+[2023-06-24 20:15:32] INFO root fetch - processPackages [napf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napf-0.0.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/napf-0.0.5.tar.gz --markdown 20230624/n/napf/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 20:15:32] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-24 20:15:32] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 20:15:32] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-24 20:15:33] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.8.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.1.9.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2023-06-24 20:15:33] INFO root fetch - processPackages [aioabcpapi]: Remove: archive file [/home/abi/fetcher/tmp/aioabcpapi-2.0.2.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - processPackages [aioabcpapi]: Remove: archive file [/home/abi/fetcher/tmp/aioabcpapi-2.0.3.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - main [MainThread]: End processing [aioabcpapi]: success
+[2023-06-24 20:15:33] INFO root fetch - processPackages [jsonmathpy]: Remove: archive file [/home/abi/fetcher/tmp/jsonmathpy-2.0.6.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - processPackages [jsonmathpy]: Remove: archive file [/home/abi/fetcher/tmp/jsonmathpy-2.0.7.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - main [MainThread]: End processing [jsonmathpy]: success
+[2023-06-24 20:15:33] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.3.7.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - processPackages [wpdetect]: Remove: archive file [/home/abi/fetcher/tmp/wpdetect-1.3.8.tar.gz]
+[2023-06-24 20:15:33] INFO root fetch - main [MainThread]: End processing [wpdetect]: success
+[2023-06-24 20:15:33] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.276rc1-py2.py3-none-any.whl.zip]
+[2023-06-24 20:15:33] INFO root fetch - processPackages [DKCloudCommand]: Remove: archive file [/home/abi/fetcher/tmp/DKCloudCommand-1.1.277rc1-py2.py3-none-any.whl.zip]
+[2023-06-24 20:15:33] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-06-24 20:15:34] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev4.tar.gz]
+[2023-06-24 20:15:34] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-0.1.7.dev5.tar.gz]
+[2023-06-24 20:15:34] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-06-24 20:15:34] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.6.tar.gz]
+[2023-06-24 20:15:34] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.7.tar.gz]
+[2023-06-24 20:15:34] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-06-24 20:15:34] INFO root fetch - main [MainThread]: End processing [DKCloudCommand]: success
+[2023-06-24 20:15:35] INFO root fetch - processPackages [napf]: Remove: archive file [/home/abi/fetcher/tmp/napf-0.0.4-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-24 20:15:35] INFO root fetch - processPackages [napf]: Remove: archive file [/home/abi/fetcher/tmp/napf-0.0.5.tar.gz]
+[2023-06-24 20:15:35] INFO root fetch - main [MainThread]: End processing [napf]: success
+[2023-06-24 20:15:35] INFO root fetch - main [MainThread]: Store serial: [18631070]
