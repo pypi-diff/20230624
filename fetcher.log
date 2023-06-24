@@ -20220,3 +20220,82 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:21:12] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.0.tar.gz]
 [2023-06-24 23:21:12] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
 [2023-06-24 23:21:12] INFO root fetch - main [MainThread]: Store serial: [18632083]
+[2023-06-24 23:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632083]
+[2023-06-24 23:26:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zcmds
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FuncsForSPO
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-starter
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strcolored
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drizzutojr-vader
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vollseg
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdqrcode
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydatawork
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deeponto
+[2023-06-24 23:26:22] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 23:26:22] WARNING root fetch - processPackages [strcolored]: Skipping, unable to determine old version
+[2023-06-24 23:26:22] INFO root fetch - main [MainThread]: End processing [strcolored] error
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ml-starter]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [FuncsForSPO]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [deeponto]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [sdqrcode]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 23:26:22] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/e3/3c/426375b4c51927686f57d11c4918e4d6b96844229d8e0af24839664656bb/ml-starter-0.1.0.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/90/51/5c8d08be4590038f3721d851529482a9efdd7e11ef4e667a4bd87332c3be/FuncsForSPO-6.1.0.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/fb/cc/ace3663910cb1fec52bc24ff3c593637da7d5f811bd3ebc7f0f458b4752a/sdqrcode-0.2.8.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-24 23:26:22] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-24 23:26:22] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 23:26:22] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/62/64/29e2f839cc95ee18358172324a6ef82111bcd8c4e8f89f7ed3bf66ea9282/sdqrcode-0.2.9.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [deeponto]: Downloading https://files.pythonhosted.org/packages/32/bc/23bd91820fbcadf3120633767ccd6d77fc19e4e86ee88a6cc19fe1f9bbe9/deeponto-0.6.1.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-06-24 23:26:22] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.2.8.tar.gz tmp/sdqrcode-0.2.9.tar.gz --markdown 20230624/s/sdqrcode/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 23:26:22] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 23:26:22] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 23:26:22] INFO root fetch - processPackages [FuncsForSPO]: Downloading https://files.pythonhosted.org/packages/cb/e6/85064e2588ad7bd50b4142d3513ef1d8f331eb40864a38a0356577bb8932/FuncsForSPO-6.1.1.tar.gz
+[2023-06-24 23:26:22] WARNING root fetch - processPackages [deeponto]: Skipping package: exceeds size limit 30349533>=10485760
+[2023-06-24 23:26:22] INFO root fetch - main [MainThread]: End processing [deeponto] error
+[2023-06-24 23:26:22] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/a3/4e/ab465324dc88392982e7a5fcd00f4f6e8c7515c352461ee1fa7669c2d6e2/ml-starter-0.1.1.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-24 23:26:22] INFO root fetch - processPackages [FuncsForSPO]: executing diffoscope
+[2023-06-24 23:26:22] INFO root fetch - processPackages [FuncsForSPO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FuncsForSPO-6.1.0.tar.gz tmp/FuncsForSPO-6.1.1.tar.gz --markdown 20230624/F/FuncsForSPO/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-06-24 23:26:22] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-24 23:26:22] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230624/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-24 23:26:23] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2023-06-24 23:26:23] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-24 23:26:23] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.1.0.tar.gz tmp/ml-starter-0.1.1.tar.gz --markdown 20230624/m/ml-starter/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 23:26:23] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-24 23:26:23] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-24 23:26:23] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-06-24 23:26:23] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230624/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-24 23:26:23] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-24 23:26:23] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 23:26:23] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-24 23:26:24] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.8.tar.gz]
+[2023-06-24 23:26:24] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.9.tar.gz]
+[2023-06-24 23:26:24] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-06-24 23:26:24] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 23:26:24] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 23:26:24] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 23:26:25] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2023-06-24 23:26:25] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2023-06-24 23:26:25] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-06-24 23:26:25] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-24 23:26:25] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-24 23:26:25] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-24 23:26:26] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.0.tar.gz]
+[2023-06-24 23:26:26] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.1.tar.gz]
+[2023-06-24 23:26:26] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-24 23:27:17] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.0.tar.gz]
+[2023-06-24 23:27:17] INFO root fetch - processPackages [FuncsForSPO]: Remove: archive file [/home/abi/fetcher/tmp/FuncsForSPO-6.1.1.tar.gz]
+[2023-06-24 23:27:17] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
+[2023-06-24 23:27:17] INFO root fetch - main [MainThread]: Store serial: [18632113]
