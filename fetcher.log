@@ -11604,3 +11604,102 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:35:50] INFO root fetch - processPackages [ranx]: Remove: archive file [/home/abi/fetcher/tmp/ranx-0.3.9.tar.gz]
 [2023-06-24 10:35:50] INFO root fetch - main [MainThread]: End processing [ranx]: success
 [2023-06-24 10:35:50] INFO root fetch - main [MainThread]: Store serial: [18628063]
+[2023-06-24 10:40:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628063]
+[2023-06-24 10:40:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dnd5apy
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boombig
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plutous-trade-crypto
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dronecan-gui-tool
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: traceml
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polyaxon-sdk
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polyaxon
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hypertune
+[2023-06-24 10:40:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libredr
+[2023-06-24 10:40:59] WARNING root fetch - processPackages [boombig]: Skipping, unable to determine old version
+[2023-06-24 10:40:59] INFO root fetch - processPackages [boombig]: Start processing: haupt
+[2023-06-24 10:40:59] INFO root fetch - main [MainThread]: End processing [boombig] error
+[2023-06-24 10:40:59] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [dronecan-gui-tool]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-06-24 10:40:59] WARNING root fetch - processPackages [dnd5apy]: Skipping, unable to determine old version
+[2023-06-24 10:40:59] INFO root fetch - processPackages [dnd5apy]: Start processing: spacecutter-lightning
+[2023-06-24 10:40:59] INFO root fetch - main [MainThread]: End processing [dnd5apy] error
+[2023-06-24 10:40:59] INFO root fetch - processPackages [polyaxon-sdk]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-24 10:40:59] WARNING root fetch - processPackages [libredr]: Skipping, unable to determine old version
+[2023-06-24 10:40:59] INFO root fetch - processPackages [libredr]: Start processing: pygame
+[2023-06-24 10:40:59] INFO root fetch - main [MainThread]: End processing [libredr] error
+[2023-06-24 10:40:59] INFO root fetch - processPackages [haupt]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [hypertune]: New version: [1.1.0rc9] Old Version: [1.1.0rc8]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [polyaxon]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [traceml]: New version: [1.1.0rc9] Old Version: [1.1.0rc8]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [spacecutter-lightning]: New version: [1.0.1] Old Version: [0.3.2]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [pygame]: New version: [2.5.0.dev2] Old Version: [2.5.0]
+[2023-06-24 10:40:59] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-24 10:40:59] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/39/bd/be845733ee143d721d902392777220c11c4d776f137eaa6bbe9f99f51d1d/dronecan_gui_tool-1.2.7.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/18/01/7d66c9b0fd27fc2f3355ceef2ff4d505cffd9f62b891de4b0f127dddddc7/traceml-1.1.0rc8.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/24/5c/3c2116c4c091572ea71837a0a5b587480c70fe9bc9b9314faab1283a51ef/haupt-2.0.0rc8.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/d4/c5/c802a77a0ad631c6a7323593733e48fbf5995736cdeeadd349718bd773de/polyaxon-sdk-2.0.0rc8.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [hypertune]: Downloading https://files.pythonhosted.org/packages/57/6b/7b039df434fb0f9d90a3b931d4370292d6fd8af4586c89a47936b6386b03/hypertune-1.1.0rc8.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [spacecutter-lightning]: Downloading https://files.pythonhosted.org/packages/64/d0/d4ac992ec2ac409a369fd4ed105be7c7cd5156e64dc383de4328aaa427c4/spacecutter_lightning-0.3.2.tar.gz
+[2023-06-24 10:40:59] INFO root fetch - processPackages [pygame]: Downloading https://files.pythonhosted.org/packages/ae/26/3d06638712daa486de332534858daf31ce973914942b19b2456f93b3c92e/pygame-2.5.0-cp312-cp312-win32.whl
+[2023-06-24 10:40:59] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/e9/bb/9995ae95c9e723f5a5d3093e6609b130cafabc79ab39a4bff3544139b80b/polyaxon-2.0.0rc8.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-24 10:41:00] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [dronecan-gui-tool]: Downloading https://files.pythonhosted.org/packages/76/95/575838ff4802232d228ab222765c6d97e957610b9b451616d619d2b461d3/dronecan_gui_tool-1.2.8.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230624/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230624/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [spacecutter-lightning]: Downloading https://files.pythonhosted.org/packages/0e/ce/ddadd5ddc2aabe3c6bf89187612a4768ed2b3c007da3a7969d34d6d1df3b/spacecutter_lightning-1.0.1.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [hypertune]: Downloading https://files.pythonhosted.org/packages/9d/aa/3b2ab32fe7ee90260db599b1d556b75a28655afd428a1eacfea0e53c9888/hypertune-1.1.0rc9.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [traceml]: Downloading https://files.pythonhosted.org/packages/5e/23/ce9ea5dacf3bac42ca00c81b2e5cb904c4cb73d93bb86421473aebb8bacc/traceml-1.1.0rc9.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/39/f2/020ec35aa3274b97325faef6c6c40e653d77f15a7267d26a28182c1b6b1d/polyaxon-sdk-2.0.0rc9.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/76/ca/1ced661d2c482fabf6f565d771a2be403aa7d4cef1e56e3543502b1d2d3d/polyaxon-2.0.0rc9.tar.gz
+[2023-06-24 10:41:00] INFO root fetch - processPackages [dronecan-gui-tool]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [dronecan-gui-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronecan_gui_tool-1.2.7.tar.gz tmp/dronecan_gui_tool-1.2.8.tar.gz --markdown 20230624/d/dronecan-gui-tool/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [hypertune]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [hypertune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypertune-1.1.0rc8.tar.gz tmp/hypertune-1.1.0rc9.tar.gz --markdown 20230624/h/hypertune/1.1.0rc8-1.1.0rc9/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [traceml]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [traceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceml-1.1.0rc8.tar.gz tmp/traceml-1.1.0rc9.tar.gz --markdown 20230624/t/traceml/1.1.0rc8-1.1.0rc9/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [polyaxon-sdk]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [polyaxon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-sdk-2.0.0rc8.tar.gz tmp/polyaxon-sdk-2.0.0rc9.tar.gz --markdown 20230624/p/polyaxon-sdk/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [spacecutter-lightning]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [spacecutter-lightning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacecutter_lightning-0.3.2.tar.gz tmp/spacecutter_lightning-1.0.1.tar.gz --markdown 20230624/s/spacecutter-lightning/0.3.2-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 10:41:00] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2023-06-24 10:41:00] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.0.0rc8.tar.gz tmp/polyaxon-2.0.0rc9.tar.gz --markdown 20230624/p/polyaxon/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-24 10:41:01] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/c0/38/1aa064950319f9e0d15c797b9d80e038849e3f19f2c743dfef1a99add52d/haupt-2.0.0rc9.tar.gz
+[2023-06-24 10:41:01] INFO root fetch - processPackages [pygame]: Downloading https://files.pythonhosted.org/packages/65/84/a319c11130a71b37a5d659d7abab2e7df7a2dd8ab8e7010002043cce16ed/pygame-2.5.0.dev2.tar.gz
+[2023-06-24 10:41:01] WARNING root fetch - processPackages [pygame]: Skipping package: exceeds size limit 12819127>=10485760
+[2023-06-24 10:41:01] INFO root fetch - main [MainThread]: End processing [pygame] error
+[2023-06-24 10:41:01] INFO root fetch - processPackages [haupt]: executing diffoscope
+[2023-06-24 10:41:01] INFO root fetch - processPackages [haupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haupt-2.0.0rc8.tar.gz tmp/haupt-2.0.0rc9.tar.gz --markdown 20230624/h/haupt/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-06-24 10:41:01] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-24 10:41:01] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-24 10:41:01] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-24 10:41:02] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.7.tar.gz]
+[2023-06-24 10:41:02] INFO root fetch - processPackages [dronecan-gui-tool]: Remove: archive file [/home/abi/fetcher/tmp/dronecan_gui_tool-1.2.8.tar.gz]
+[2023-06-24 10:41:02] INFO root fetch - main [MainThread]: End processing [dronecan-gui-tool]: success
+[2023-06-24 10:41:02] INFO root fetch - processPackages [hypertune]: Remove: archive file [/home/abi/fetcher/tmp/hypertune-1.1.0rc8.tar.gz]
+[2023-06-24 10:41:02] INFO root fetch - processPackages [hypertune]: Remove: archive file [/home/abi/fetcher/tmp/hypertune-1.1.0rc9.tar.gz]
+[2023-06-24 10:41:02] INFO root fetch - main [MainThread]: End processing [hypertune]: success
+[2023-06-24 10:41:03] INFO root fetch - processPackages [spacecutter-lightning]: Remove: archive file [/home/abi/fetcher/tmp/spacecutter_lightning-0.3.2.tar.gz]
+[2023-06-24 10:41:03] INFO root fetch - processPackages [spacecutter-lightning]: Remove: archive file [/home/abi/fetcher/tmp/spacecutter_lightning-1.0.1.tar.gz]
+[2023-06-24 10:41:03] INFO root fetch - main [MainThread]: End processing [spacecutter-lightning]: success
+[2023-06-24 10:41:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-24 10:41:03] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-24 10:41:03] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-24 10:41:03] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-1.1.0rc8.tar.gz]
+[2023-06-24 10:41:03] INFO root fetch - processPackages [traceml]: Remove: archive file [/home/abi/fetcher/tmp/traceml-1.1.0rc9.tar.gz]
+[2023-06-24 10:41:03] INFO root fetch - main [MainThread]: End processing [traceml]: success
+[2023-06-24 10:41:06] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc8.tar.gz]
+[2023-06-24 10:41:06] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.0.0rc9.tar.gz]
+[2023-06-24 10:41:06] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
+[2023-06-24 10:41:06] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc8.tar.gz]
+[2023-06-24 10:41:06] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.0.0rc9.tar.gz]
+[2023-06-24 10:41:06] INFO root fetch - main [MainThread]: End processing [haupt]: success
+[2023-06-24 10:41:07] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc8.tar.gz]
+[2023-06-24 10:41:07] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc9.tar.gz]
+[2023-06-24 10:41:07] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2023-06-24 10:41:07] INFO root fetch - main [MainThread]: Store serial: [18628115]
