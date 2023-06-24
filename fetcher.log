@@ -14325,3 +14325,97 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
 [2023-06-24 15:10:16] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
 [2023-06-24 15:10:16] INFO root fetch - main [MainThread]: Store serial: [18629381]
+[2023-06-24 15:15:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629381]
+[2023-06-24 15:15:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ConversationAgent
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arts
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pandas
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrusvideodeduplicator
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pytorch
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ConversationAgent
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: byzerllm
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyweb-database
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ConversationAgent]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 15:15:31] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-24 15:15:31] INFO root fetch - processPackages [arts]: New version: [1.1] Old Version: [1.0]
+[2023-06-24 15:15:31] INFO root fetch - processPackages [ConversationAgent]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 15:15:32] INFO root fetch - processPackages [byzerllm]: New version: [0.0.6] Old Version: [0.0.4]
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 15:15:32] WARNING root fetch - processPackages [pyweb-database]: Skipping, unable to determine old version
+[2023-06-24 15:15:32] INFO root fetch - processPackages [pyweb-database]: Start processing: actuarialmath
+[2023-06-24 15:15:32] INFO root fetch - main [MainThread]: End processing [pyweb-database] error
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 15:15:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/cf/43/93438348d4bb986e3c5e720ed420a4891375a9832537fe7758c0e058a3a9/hydrusvideodeduplicator-0.1.2.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 15:15:32] INFO root fetch - processPackages [actuarialmath]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/f3/2e/38bd100596e5641055dfd746d8345159d6d3ac4d58205a9294c2e49772b6/arts-1.0.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/a9/be/9c51c3aa48cce36c15f570ce15bb00f1b9df44c52cf4b9568272fefeb7d8/ConversationAgent-0.5.8-py3-none-any.whl
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/a9/be/9c51c3aa48cce36c15f570ce15bb00f1b9df44c52cf4b9568272fefeb7d8/ConversationAgent-0.5.8-py3-none-any.whl
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/26/1d/69bc7a5557d36a180edf7c25b44263d71a06711354f9e744f7bdde13c0d6/byzerllm-0.0.4.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/53/a7/36f4047a75aa34b0b1e6a1f3b2d2d42b27aea58160ceaf9cc8bfb746c2b2/actuarialmath-0.0.8.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/03/d1/e8b3f506277809e48fa4217767b13180a6aba8678167285e942484e3f0e1/hydrusvideodeduplicator-0.1.3.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230624/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230624/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230624/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-24 15:15:32] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230624/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 15:15:32] INFO root fetch - processPackages [actuarialmath]: Downloading https://files.pythonhosted.org/packages/ca/fd/c80557f05d04d7de901ba58e67180085758d1bb5a0201df6f0ba957d8555/actuarialmath-0.0.9.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/ca/ff/e3451c2370a8e7d30d220a377b66574386940b2ae69eca9b2864f608e81c/byzerllm-0.0.6.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/98/62/2c2a40b72a08fe6acfa1af09b77215e9e2a478dcbf548029bc5167f5c096/arts-1.1.tar.gz
+[2023-06-24 15:15:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-06-24 15:15:32] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.2.tar.gz tmp/hydrusvideodeduplicator-0.1.3.tar.gz --markdown 20230624/h/hydrusvideodeduplicator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-24 15:15:32] INFO root fetch - processPackages [actuarialmath]: executing diffoscope
+[2023-06-24 15:15:32] INFO root fetch - processPackages [actuarialmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actuarialmath-0.0.8.tar.gz tmp/actuarialmath-0.0.9.tar.gz --markdown 20230624/a/actuarialmath/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 15:15:33] INFO root fetch - processPackages [arts]: executing diffoscope
+[2023-06-24 15:15:33] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-1.0.tar.gz tmp/arts-1.1.tar.gz --markdown 20230624/a/arts/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-24 15:15:33] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2023-06-24 15:15:33] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.0.4.tar.gz tmp/byzerllm-0.0.6.tar.gz --markdown 20230624/b/byzerllm/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 15:15:33] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/f1/00/fc556edc232f496715059af7c1b62bd3ac7f568563bae1818e0e5621c0af/ConversationAgent-0.5.9.tar.gz
+[2023-06-24 15:15:33] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/f1/00/fc556edc232f496715059af7c1b62bd3ac7f568563bae1818e0e5621c0af/ConversationAgent-0.5.9.tar.gz
+[2023-06-24 15:15:33] INFO root fetch - processPackages [ConversationAgent]: executing diffoscope
+[2023-06-24 15:15:33] INFO root fetch - processPackages [ConversationAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConversationAgent-0.5.8-py3-none-any.whl.zip tmp/ConversationAgent-0.5.9.tar.gz --markdown 20230624/C/ConversationAgent/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 15:15:33] INFO root fetch - processPackages [ConversationAgent]: executing diffoscope
+[2023-06-24 15:15:33] INFO root fetch - processPackages [ConversationAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConversationAgent-0.5.8-py3-none-any.whl.zip tmp/ConversationAgent-0.5.9.tar.gz --markdown 20230624/C/ConversationAgent/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 15:15:34] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-06-24 15:15:34] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-24 15:15:34] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.2.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.3.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-06-24 15:15:34] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-1.0.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-1.1.tar.gz]
+[2023-06-24 15:15:34] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2023-06-24 15:15:35] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-24 15:15:35] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-24 15:15:35] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-24 15:15:35] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.8.tar.gz]
+[2023-06-24 15:15:35] INFO root fetch - processPackages [actuarialmath]: Remove: archive file [/home/abi/fetcher/tmp/actuarialmath-0.0.9.tar.gz]
+[2023-06-24 15:15:35] INFO root fetch - main [MainThread]: End processing [actuarialmath]: success
+[2023-06-24 15:15:35] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-06-24 15:15:35] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-06-24 15:15:35] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-06-24 15:15:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.0.4.tar.gz]
+[2023-06-24 15:15:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.0.6.tar.gz]
+[2023-06-24 15:15:36] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2023-06-24 15:15:41] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.5.8-py3-none-any.whl.zip]
+[2023-06-24 15:15:41] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.5.9.tar.gz]
+[2023-06-24 15:15:41] INFO root fetch - main [MainThread]: End processing [ConversationAgent]: success
+[2023-06-24 15:15:41] INFO root fetch - main [MainThread]: End processing [ConversationAgent]: success
+[2023-06-24 15:15:41] INFO root fetch - main [MainThread]: Store serial: [18629420]
