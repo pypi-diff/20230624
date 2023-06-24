@@ -17011,3 +17011,44 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:45:17] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.3.tar.gz]
 [2023-06-24 18:45:17] INFO root fetch - main [MainThread]: End processing [PyInstl]: success
 [2023-06-24 18:45:17] INFO root fetch - main [MainThread]: Store serial: [18630580]
+[2023-06-24 18:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630580]
+[2023-06-24 18:50:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databend
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycognaize
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fhir-analyzer-trostalski
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cytotransform
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyInstl
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ovos-workshop
+[2023-06-24 18:50:26] INFO root fetch - processPackages [databend]: New version: [1.1.71] Old Version: [1.1.70]
+[2023-06-24 18:50:26] INFO root fetch - processPackages [PyInstl]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-24 18:50:26] WARNING root fetch - processPackages [fhir-analyzer-trostalski]: Skipping, unable to determine old version
+[2023-06-24 18:50:26] WARNING root fetch - processPackages [cytotransform]: Skipping, unable to determine old version
+[2023-06-24 18:50:26] INFO root fetch - main [MainThread]: End processing [fhir-analyzer-trostalski] error
+[2023-06-24 18:50:26] INFO root fetch - main [MainThread]: End processing [cytotransform] error
+[2023-06-24 18:50:26] INFO root fetch - processPackages [pycognaize]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-24 18:50:26] INFO root fetch - processPackages [PyInstl]: Downloading https://files.pythonhosted.org/packages/61/d3/c1177018cc1fdf4b981cca53f7298bcbe545f29ae24e4f027036a443855d/PyInstl-1.0.3.tar.gz
+[2023-06-24 18:50:26] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/03/48/af70e2dc1a3b35046d2c8ae394ac3c9458877b0f5921da3eb98e6c6310cf/databend-1.1.70-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 18:50:26] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/af/f7/37dfb2576d7200e5a89d8d887e075c55fcac9abd934383b01e589891d15b/pycognaize-1.4.7-py3-none-any.whl
+[2023-06-24 18:50:26] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 29492858>=10485760
+[2023-06-24 18:50:26] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-06-24 18:50:26] INFO root fetch - processPackages [PyInstl]: Downloading https://files.pythonhosted.org/packages/6b/d6/0a87ef47f17455280aca40b051e0a38594bd7b5badd6283e6115951ae761/PyInstl-1.0.4.tar.gz
+[2023-06-24 18:50:26] INFO root fetch - processPackages [PyInstl]: executing diffoscope
+[2023-06-24 18:50:26] INFO root fetch - processPackages [PyInstl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyInstl-1.0.3.tar.gz tmp/PyInstl-1.0.4.tar.gz --markdown 20230624/P/PyInstl/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-24 18:50:26] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2023-06-24 18:50:26] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-06-24 18:50:26] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-06-24 18:50:26] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.7-py3-none-any.whl.zip tmp/pycognaize-1.4.8.tar.gz --markdown 20230624/p/pycognaize/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-24 18:50:27] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-06-24 18:50:27] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-06-24 18:50:27] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230624/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-06-24 18:50:27] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.3.tar.gz]
+[2023-06-24 18:50:27] INFO root fetch - processPackages [PyInstl]: Remove: archive file [/home/abi/fetcher/tmp/PyInstl-1.0.4.tar.gz]
+[2023-06-24 18:50:27] INFO root fetch - main [MainThread]: End processing [PyInstl]: success
+[2023-06-24 18:50:28] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.7-py3-none-any.whl.zip]
+[2023-06-24 18:50:28] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2023-06-24 18:50:28] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-06-24 18:50:28] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 18:50:28] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-06-24 18:50:28] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-06-24 18:50:28] INFO root fetch - main [MainThread]: Store serial: [18630603]
