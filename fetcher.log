@@ -18925,3 +18925,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:24:56] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
 [2023-06-24 21:24:56] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
 [2023-06-24 21:24:56] INFO root fetch - main [MainThread]: Store serial: [18631515]
+[2023-06-24 21:30:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631515]
+[2023-06-24 21:30:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-flexcell
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atro-pyrsync
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aurora-asi-lib
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scProject
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxip
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: honeybee-ph
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-starter
+[2023-06-24 21:30:05] INFO root fetch - processPackages [jaxip]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [c4m-flexcell]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [honeybee-ph]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [scProject]: New version: [1.1.2] Old Version: [1.0.9.8997]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [aurora-asi-lib]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ml-starter]: New version: [0.1.0] Old Version: [0.0.59]
+[2023-06-24 21:30:05] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/94/7e/1e2084b80816e98f9fbf75c4468fc196aa2d9fa6f486d02fb1d8606e4301/c4m_flexcell-0.3.1.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/3f/98/99b9968bbc5a9cde4a7f3ebad5c6a52726d77916bd58bdb9a2db174960da/atro-pyrsync-0.0.3.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [jaxip]: Downloading https://files.pythonhosted.org/packages/f4/55/fa8431912d03b94ae9cf0269552855cf44f2c7b7d4543cfc1c3e494ff725/jaxip-0.6.0.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/df/b8/fda4cf01d94f48d6d3083d5708571ff82cc12c33ab31021c75eae52fddf7/honeybee-ph-1.9.0.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [scProject]: Downloading https://files.pythonhosted.org/packages/b4/29/0ebc6dc86d2206887e691c29e6434d03a7029ea9cfa786c8f1a1fb5f320d/scProject-1.0.9.8997.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/88/3c/bd3d13acbbd7e9c6da9de78f85092f569ff4c88950c9f5cb8a5b0b32557b/ml-starter-0.0.59.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/50/32/eaeef4189b1bcae22ea93fa52172a68c954ff7b81af1b3c5bbfa6aa2df30/aurora-asi-lib-0.9.4.tar.gz
+[2023-06-24 21:30:05] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/d2/e6/a01441ab6b1442bfb4c8e90aaa6ce9d1d98d8beda00067c8333b7ba681f2/c4m_flexcell-0.3.2-py3-none-any.whl
+[2023-06-24 21:30:05] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/14/d2/3e1512158cf9c48b2ac03ed7571bcb12e6c7e0a9e8216a86f04b790f0d07/atro-pyrsync-0.0.4.tar.gz
+[2023-06-24 21:30:06] INFO root fetch - processPackages [jaxip]: Downloading https://files.pythonhosted.org/packages/f8/af/31dce66cfd6e04e1f88fad28626db8f16cb6b7b0b55a60fb78123dae4ad9/jaxip-0.6.1.tar.gz
+[2023-06-24 21:30:06] INFO root fetch - processPackages [c4m-flexcell]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [c4m-flexcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexcell-0.3.1.tar.gz tmp/c4m_flexcell-0.3.2-py3-none-any.whl.zip --markdown 20230624/c/c4m-flexcell/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 21:30:06] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.3.tar.gz tmp/atro-pyrsync-0.0.4.tar.gz --markdown 20230624/a/atro-pyrsync/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 21:30:06] INFO root fetch - processPackages [scProject]: Downloading https://files.pythonhosted.org/packages/cf/12/2e4f780b0d1a61896447773ff4b40207517275f7a8f8e3a5637cc65bd8e4/scProject-1.1.2.tar.gz
+[2023-06-24 21:30:06] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/e3/3c/426375b4c51927686f57d11c4918e4d6b96844229d8e0af24839664656bb/ml-starter-0.1.0.tar.gz
+[2023-06-24 21:30:06] INFO root fetch - processPackages [jaxip]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [jaxip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxip-0.6.0.tar.gz tmp/jaxip-0.6.1.tar.gz --markdown 20230624/j/jaxip/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-24 21:30:06] INFO root fetch - processPackages [honeybee-ph]: Downloading https://files.pythonhosted.org/packages/ac/3b/94670944c4a0e9844a88bedad8d71fd687fa1d4179f07d807acb90be0100/honeybee-ph-1.9.1.tar.gz
+[2023-06-24 21:30:06] INFO root fetch - processPackages [scProject]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [scProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scProject-1.0.9.8997.tar.gz tmp/scProject-1.1.2.tar.gz --markdown 20230624/s/scProject/1.0.9.8997-1.1.2/diff.md --exclude *.pyd
+[2023-06-24 21:30:06] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.59.tar.gz tmp/ml-starter-0.1.0.tar.gz --markdown 20230624/m/ml-starter/0.0.59-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 21:30:06] INFO root fetch - processPackages [aurora-asi-lib]: Downloading https://files.pythonhosted.org/packages/84/0c/8c7e5b70ee5634837d944d978f39d8a697185c2b5ff320762f7a71817094/aurora-asi-lib-0.9.5.tar.gz
+[2023-06-24 21:30:06] INFO root fetch - processPackages [honeybee-ph]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [honeybee-ph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-ph-1.9.0.tar.gz tmp/honeybee-ph-1.9.1.tar.gz --markdown 20230624/h/honeybee-ph/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-24 21:30:06] INFO root fetch - processPackages [aurora-asi-lib]: executing diffoscope
+[2023-06-24 21:30:06] INFO root fetch - processPackages [aurora-asi-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurora-asi-lib-0.9.4.tar.gz tmp/aurora-asi-lib-0.9.5.tar.gz --markdown 20230624/a/aurora-asi-lib/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-24 21:30:07] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.1.tar.gz]
+[2023-06-24 21:30:07] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.2-py3-none-any.whl.zip]
+[2023-06-24 21:30:07] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
+[2023-06-24 21:30:07] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.3.tar.gz]
+[2023-06-24 21:30:07] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.4.tar.gz]
+[2023-06-24 21:30:07] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-06-24 21:30:07] INFO root fetch - processPackages [scProject]: Remove: archive file [/home/abi/fetcher/tmp/scProject-1.0.9.8997.tar.gz]
+[2023-06-24 21:30:07] INFO root fetch - processPackages [scProject]: Remove: archive file [/home/abi/fetcher/tmp/scProject-1.1.2.tar.gz]
+[2023-06-24 21:30:07] INFO root fetch - main [MainThread]: End processing [scProject]: success
+[2023-06-24 21:30:08] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.0.tar.gz]
+[2023-06-24 21:30:08] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.1.tar.gz]
+[2023-06-24 21:30:08] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
+[2023-06-24 21:30:08] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.4.tar.gz]
+[2023-06-24 21:30:08] INFO root fetch - processPackages [aurora-asi-lib]: Remove: archive file [/home/abi/fetcher/tmp/aurora-asi-lib-0.9.5.tar.gz]
+[2023-06-24 21:30:08] INFO root fetch - main [MainThread]: End processing [aurora-asi-lib]: success
+[2023-06-24 21:30:09] INFO root fetch - processPackages [jaxip]: Remove: archive file [/home/abi/fetcher/tmp/jaxip-0.6.0.tar.gz]
+[2023-06-24 21:30:09] INFO root fetch - processPackages [jaxip]: Remove: archive file [/home/abi/fetcher/tmp/jaxip-0.6.1.tar.gz]
+[2023-06-24 21:30:09] INFO root fetch - main [MainThread]: End processing [jaxip]: success
+[2023-06-24 21:30:09] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.0.59.tar.gz]
+[2023-06-24 21:30:09] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.0.tar.gz]
+[2023-06-24 21:30:09] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-06-24 21:30:09] INFO root fetch - main [MainThread]: Store serial: [18631538]
