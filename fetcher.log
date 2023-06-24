@@ -11703,3 +11703,83 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:41:07] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.0.0rc9.tar.gz]
 [2023-06-24 10:41:07] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
 [2023-06-24 10:41:07] INFO root fetch - main [MainThread]: Store serial: [18628115]
+[2023-06-24 10:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628115]
+[2023-06-24 10:46:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dnd5apy
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CryptoLyzer
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvidia-dali-nightly-cuda120
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-spark-gpt
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfp-nightly
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-kr-number
+[2023-06-24 10:46:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spatialdata
+[2023-06-24 10:46:16] INFO root fetch - processPackages [dnd5apy]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [CryptoLyzer]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/b2/b7/1828c5b1ace7c870ce1d056526cff482dabb3424d46807f02d05f496a3ce/nonebot_plugin_spark_gpt-0.3.9.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-24 10:46:16] INFO root fetch - processPackages [py-kr-number]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.28.0.dev20230623] Old Version: [1.28.0.dev20230621]
+[2023-06-24 10:46:16] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11187700>=10485760
+[2023-06-24 10:46:16] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230624] Old Version: [0.0.1.dev20230623]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.28.0.dev20230623] Old Version: [1.28.0.dev20230621]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [spatialdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 10:46:16] INFO root fetch - processPackages [CryptoLyzer]: Downloading https://files.pythonhosted.org/packages/5d/87/fd43a7a0c9ce446dda1c01266a4cf2f62026c1a37decf9f245b77f1ea2df/CryptoLyzer-0.9.0.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [dnd5apy]: Downloading https://files.pythonhosted.org/packages/80/e3/a91b29a5f2e0befa30726e30fd1189cfc98abd2b767d33927122875ac85f/dnd5apy-1.0.4.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [py-kr-number]: Downloading https://files.pythonhosted.org/packages/88/94/153e1c48340b6709728b0568aef3aa9e2fe58fc0161d2f5eb1e6528aa03a/py_kr_number-0.0.1-py3-none-any.whl
+[2023-06-24 10:46:16] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/b5/29/1dc48448586dc415e0599bee1709835e9990269a3a9019b9b02bd464455d/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230621.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/ff/22/302157c7724df47eee6dfc33f13f1d518e964f4455425c6d1bbb0d3330d7/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl
+[2023-06-24 10:46:16] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/9a/e9/a32174840b1320884952b4d7aa22cc94ba1d177cd34b016fc196dc6da07f/nvidia-dali-nightly-cuda120-1.28.0.dev20230621.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/6d/b4/bf769254ba7e0a962a9e496fc43c771403b164c790ed22f7c50f9cc0d6d1/spatialdata-0.0.8.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-24 10:46:16] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230624/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-24 10:46:16] INFO root fetch - processPackages [dnd5apy]: Downloading https://files.pythonhosted.org/packages/ee/a9/0e2785ba679c246e46f92120bf5e5c92a41ed7a5cca8e748c702f6c7fa9a/dnd5apy-1.0.5.tar.gz
+[2023-06-24 10:46:16] INFO root fetch - processPackages [py-kr-number]: Downloading https://files.pythonhosted.org/packages/2a/e7/4b2e23e1b480aa49b823ad61f721ddb9bfb8ae1b24a1e2c241bb0e72948e/py_kr_number-0.0.2-py3-none-any.whl
+[2023-06-24 10:46:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/1f/62/59b7a4f20c4556c7d5a0b7c6d1e4727f2c169543783955d4ef47e79e9818/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230623.tar.gz
+[2023-06-24 10:46:17] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/43/bd/0b4ae508cd1e115b4af4110f5e859f9b0ae92be0d480cbd93ccf81d7955b/nvidia-dali-nightly-cuda120-1.28.0.dev20230623.tar.gz
+[2023-06-24 10:46:17] INFO root fetch - processPackages [CryptoLyzer]: Downloading https://files.pythonhosted.org/packages/82/f6/dd4fd3151e4c1cb48102dbb19f5625b8be8d72dfbcc78d2f60b2db49ec7c/CryptoLyzer-0.9.1.tar.gz
+[2023-06-24 10:46:17] INFO root fetch - processPackages [dnd5apy]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [dnd5apy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnd5apy-1.0.4.tar.gz tmp/dnd5apy-1.0.5.tar.gz --markdown 20230624/d/dnd5apy/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 10:46:17] INFO root fetch - processPackages [py-kr-number]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [py-kr-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kr_number-0.0.1-py3-none-any.whl.zip tmp/py_kr_number-0.0.2-py3-none-any.whl.zip --markdown 20230624/p/py-kr-number/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 10:46:17] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c3/fa/583b3d1e6c2a2951c72470559efdf4e7bb6cc0ec4fe8c1977fb3a44fc3f0/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl
+[2023-06-24 10:46:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230621.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230623.tar.gz --markdown 20230624/n/nvidia-dali-tf-plugin-nightly-cuda120/1.28.0.dev20230621-1.28.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 10:46:17] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230621.tar.gz tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230623.tar.gz --markdown 20230624/n/nvidia-dali-nightly-cuda120/1.28.0.dev20230621-1.28.0.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 10:46:17] INFO root fetch - processPackages [CryptoLyzer]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [CryptoLyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CryptoLyzer-0.9.0.tar.gz tmp/CryptoLyzer-0.9.1.tar.gz --markdown 20230624/C/CryptoLyzer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-24 10:46:17] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/f6/91/79759fb7bbacba8d4508c3f5beed37718ac3ece8bd5edf33c7d915bc7e3d/spatialdata-0.0.9.tar.gz
+[2023-06-24 10:46:17] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.8.tar.gz tmp/spatialdata-0.0.9.tar.gz --markdown 20230624/s/spatialdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 10:46:17] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-24 10:46:17] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl.zip --markdown 20230624/t/tff-nightly/0.0.1.dev20230623-0.0.1.dev20230624/diff.md --exclude *.pyd
+[2023-06-24 10:46:18] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230621.tar.gz]
+[2023-06-24 10:46:18] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda120-1.28.0.dev20230623.tar.gz]
+[2023-06-24 10:46:18] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2023-06-24 10:46:18] INFO root fetch - processPackages [py-kr-number]: Remove: archive file [/home/abi/fetcher/tmp/py_kr_number-0.0.1-py3-none-any.whl.zip]
+[2023-06-24 10:46:18] INFO root fetch - processPackages [py-kr-number]: Remove: archive file [/home/abi/fetcher/tmp/py_kr_number-0.0.2-py3-none-any.whl.zip]
+[2023-06-24 10:46:18] INFO root fetch - main [MainThread]: End processing [py-kr-number]: success
+[2023-06-24 10:46:19] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230621.tar.gz]
+[2023-06-24 10:46:19] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-nightly-cuda120-1.28.0.dev20230623.tar.gz]
+[2023-06-24 10:46:19] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2023-06-24 10:46:19] INFO root fetch - processPackages [spatialdata]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata-0.0.8.tar.gz]
+[2023-06-24 10:46:19] INFO root fetch - processPackages [spatialdata]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata-0.0.9.tar.gz]
+[2023-06-24 10:46:19] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-06-24 10:46:20] INFO root fetch - processPackages [dnd5apy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5apy-1.0.4.tar.gz]
+[2023-06-24 10:46:20] INFO root fetch - processPackages [dnd5apy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5apy-1.0.5.tar.gz]
+[2023-06-24 10:46:20] INFO root fetch - main [MainThread]: End processing [dnd5apy]: success
+[2023-06-24 10:46:20] INFO root fetch - processPackages [CryptoLyzer]: Remove: archive file [/home/abi/fetcher/tmp/CryptoLyzer-0.9.0.tar.gz]
+[2023-06-24 10:46:20] INFO root fetch - processPackages [CryptoLyzer]: Remove: archive file [/home/abi/fetcher/tmp/CryptoLyzer-0.9.1.tar.gz]
+[2023-06-24 10:46:20] INFO root fetch - main [MainThread]: End processing [CryptoLyzer]: success
+[2023-06-24 10:46:21] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230623-py2.py3-none-any.whl.zip]
+[2023-06-24 10:46:21] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230624-py2.py3-none-any.whl.zip]
+[2023-06-24 10:46:21] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-24 10:46:33] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-24 10:46:33] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-24 10:46:33] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-24 10:46:33] INFO root fetch - main [MainThread]: Store serial: [18628140]
