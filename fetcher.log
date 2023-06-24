@@ -12213,3 +12213,114 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 11:28:18] INFO root fetch - processPackages [deprl]: Remove: archive file [/home/abi/fetcher/tmp/deprl-0.1.2.tar.gz]
 [2023-06-24 11:28:18] INFO root fetch - main [MainThread]: End processing [deprl]: success
 [2023-06-24 11:28:18] INFO root fetch - main [MainThread]: Store serial: [18628368]
+[2023-06-24 11:33:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628368]
+[2023-06-24 11:33:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngpa
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yerbamate
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antgo
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eagerx
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ngpa
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-Ayra
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viterbi
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: frontengine-dev
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xw-utils
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysiml
+[2023-06-24 11:33:27] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [py-Ayra]: New version: [1.8.7] Old Version: [1.8.6]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/ec/5d/3623490f037f3307113b9c803b0877c947f1d17015e1740a27607efdef7a/py-Ayra-1.8.6.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [eagerx]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [pysiml]: New version: [0.2.9.dev202306240932] Old Version: [0.2.9.dev202306221046]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ngpa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ngpa]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [yerbamate]: New version: [0.9.24] Old Version: [0.9.239]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [viterbi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [frontengine-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ngpa]: Downloading https://files.pythonhosted.org/packages/44/62/084095258adb06fabde96d670d0c7b77f589a32898b20a8e3cf4a5b54ef6/ngpa-0.0.1.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [ngpa]: Downloading https://files.pythonhosted.org/packages/44/62/084095258adb06fabde96d670d0c7b77f589a32898b20a8e3cf4a5b54ef6/ngpa-0.0.1.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [py-Ayra]: Downloading https://files.pythonhosted.org/packages/40/c3/4fefa0b4c3b7b32f1e34fe77ca4976db2b12b4b246f4d8b0d4da39470a80/py-Ayra-1.8.7.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [eagerx]: Downloading https://files.pythonhosted.org/packages/f6/2d/da679a65eca09874d2e3a2e991c8900c5605cd3856e392d831fef2a41d56/eagerx-0.1.8.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [yerbamate]: Downloading https://files.pythonhosted.org/packages/15/8d/f67fb7ee898e0ac26be2cbaa4bceb74b5501146e833335b55cc828dd16d4/yerbamate-0.9.239.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/c3/57/945420e3d2d5a1f8c2b5a429d49ad20a091f9229e39db293e9f00c66a453/pysiml-0.2.9.dev202306221046-py3-none-any.whl
+[2023-06-24 11:33:27] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-24 11:33:27] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/23/e2/01e0fe02ca6b73e163f3f0d080231bc0c783a63e766e5524eb246350518d/frontengine_dev-0.0.8.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [viterbi]: Downloading https://files.pythonhosted.org/packages/47/7f/35a84a5f7bf94df9ea5f1b23e4390532375b588f90a52d74c87e0f5cce84/viterbi-0.0.2.tar.gz
+[2023-06-24 11:33:27] INFO root fetch - processPackages [py-Ayra]: executing diffoscope
+[2023-06-24 11:33:27] INFO root fetch - processPackages [py-Ayra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-Ayra-1.8.6.tar.gz tmp/py-Ayra-1.8.7.tar.gz --markdown 20230624/p/py-Ayra/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230624/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [ngpa]: Downloading https://files.pythonhosted.org/packages/3b/17/5653cf58c2593cb1fb958941e79031de540621230ef316fe52ff58de6267/ngpa-0.0.2.tar.gz
+[2023-06-24 11:33:28] INFO root fetch - processPackages [ngpa]: Downloading https://files.pythonhosted.org/packages/3b/17/5653cf58c2593cb1fb958941e79031de540621230ef316fe52ff58de6267/ngpa-0.0.2.tar.gz
+[2023-06-24 11:33:28] INFO root fetch - processPackages [yerbamate]: Downloading https://files.pythonhosted.org/packages/85/28/88053c9e062395876f8817f5c2b7b23d0cf30ceebe560ab46cc0090f0491/yerbamate-0.9.24.tar.gz
+[2023-06-24 11:33:28] INFO root fetch - processPackages [pysiml]: Downloading https://files.pythonhosted.org/packages/19/dc/e945f32d5b83861b1a1e53bd2a4c232c3b3ef44700e99baeb73bb5a4d873/pysiml-0.2.9.dev202306240932-py3-none-any.whl
+[2023-06-24 11:33:28] INFO root fetch - processPackages [eagerx]: Downloading https://files.pythonhosted.org/packages/9a/ea/fe478d363bf8b7633fe189e84dd235d5f626fab647004e47865df0326e4f/eagerx-0.1.9.tar.gz
+[2023-06-24 11:33:28] INFO root fetch - processPackages [ngpa]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [ngpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngpa-0.0.1.tar.gz tmp/ngpa-0.0.2.tar.gz --markdown 20230624/n/ngpa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [ngpa]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [ngpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngpa-0.0.1.tar.gz tmp/ngpa-0.0.2.tar.gz --markdown 20230624/n/ngpa/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [frontengine-dev]: Downloading https://files.pythonhosted.org/packages/bd/40/ac58f5e1633b3b2ea3574839a03ddc6a124459f3e721986a4208fbe06488/frontengine_dev-0.0.9.tar.gz
+[2023-06-24 11:33:28] INFO root fetch - processPackages [viterbi]: Downloading https://files.pythonhosted.org/packages/48/ef/e5cfe99a61dcfcbd9558407d828202a2c0dbf6013e758e7fe63d1a4104fe/viterbi-0.0.3.tar.gz
+[2023-06-24 11:33:28] INFO root fetch - processPackages [yerbamate]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [yerbamate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yerbamate-0.9.239.tar.gz tmp/yerbamate-0.9.24.tar.gz --markdown 20230624/y/yerbamate/0.9.239-0.9.24/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [eagerx]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [eagerx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eagerx-0.1.8.tar.gz tmp/eagerx-0.1.9.tar.gz --markdown 20230624/e/eagerx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [pysiml]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [pysiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysiml-0.2.9.dev202306221046-py3-none-any.whl.zip tmp/pysiml-0.2.9.dev202306240932-py3-none-any.whl.zip --markdown 20230624/p/pysiml/0.2.9.dev202306221046-0.2.9.dev202306240932/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [frontengine-dev]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [frontengine-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontengine_dev-0.0.8.tar.gz tmp/frontengine_dev-0.0.9.tar.gz --markdown 20230624/f/frontengine-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-24 11:33:28] INFO root fetch - processPackages [viterbi]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [viterbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viterbi-0.0.2.tar.gz tmp/viterbi-0.0.3.tar.gz --markdown 20230624/v/viterbi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 11:33:28] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-24 11:33:28] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230624/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 11:33:29] INFO root fetch - processPackages [ngpa]: Remove: archive file [/home/abi/fetcher/tmp/ngpa-0.0.1.tar.gz]
+[2023-06-24 11:33:29] INFO root fetch - processPackages [ngpa]: Remove: archive file [/home/abi/fetcher/tmp/ngpa-0.0.2.tar.gz]
+[2023-06-24 11:33:29] INFO root fetch - main [MainThread]: End processing [ngpa]: success
+[2023-06-24 11:33:30] ERROR root fetch - processPackages [ngpa]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
+
+[2023-06-24 11:33:30] INFO root fetch - main [MainThread]: End processing [ngpa] error
+[2023-06-24 11:33:30] INFO root fetch - processPackages [py-Ayra]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayra-1.8.6.tar.gz]
+[2023-06-24 11:33:30] INFO root fetch - processPackages [py-Ayra]: Remove: archive file [/home/abi/fetcher/tmp/py-Ayra-1.8.7.tar.gz]
+[2023-06-24 11:33:30] INFO root fetch - main [MainThread]: End processing [py-Ayra]: success
+[2023-06-24 11:33:30] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 11:33:30] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 11:33:30] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-24 11:33:30] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.8.tar.gz]
+[2023-06-24 11:33:30] INFO root fetch - processPackages [frontengine-dev]: Remove: archive file [/home/abi/fetcher/tmp/frontengine_dev-0.0.9.tar.gz]
+[2023-06-24 11:33:30] INFO root fetch - main [MainThread]: End processing [frontengine-dev]: success
+[2023-06-24 11:33:31] INFO root fetch - processPackages [viterbi]: Remove: archive file [/home/abi/fetcher/tmp/viterbi-0.0.2.tar.gz]
+[2023-06-24 11:33:31] INFO root fetch - processPackages [viterbi]: Remove: archive file [/home/abi/fetcher/tmp/viterbi-0.0.3.tar.gz]
+[2023-06-24 11:33:31] INFO root fetch - main [MainThread]: End processing [viterbi]: success
+[2023-06-24 11:33:31] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306221046-py3-none-any.whl.zip]
+[2023-06-24 11:33:31] INFO root fetch - processPackages [pysiml]: Remove: archive file [/home/abi/fetcher/tmp/pysiml-0.2.9.dev202306240932-py3-none-any.whl.zip]
+[2023-06-24 11:33:31] INFO root fetch - main [MainThread]: End processing [pysiml]: success
+[2023-06-24 11:33:31] INFO root fetch - processPackages [eagerx]: Remove: archive file [/home/abi/fetcher/tmp/eagerx-0.1.8.tar.gz]
+[2023-06-24 11:33:31] INFO root fetch - processPackages [eagerx]: Remove: archive file [/home/abi/fetcher/tmp/eagerx-0.1.9.tar.gz]
+[2023-06-24 11:33:31] INFO root fetch - main [MainThread]: End processing [eagerx]: success
+[2023-06-24 11:33:32] INFO root fetch - processPackages [yerbamate]: Remove: archive file [/home/abi/fetcher/tmp/yerbamate-0.9.239.tar.gz]
+[2023-06-24 11:33:32] INFO root fetch - processPackages [yerbamate]: Remove: archive file [/home/abi/fetcher/tmp/yerbamate-0.9.24.tar.gz]
+[2023-06-24 11:33:32] INFO root fetch - main [MainThread]: End processing [yerbamate]: success
+[2023-06-24 11:33:37] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-24 11:33:37] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-24 11:33:37] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-24 11:33:37] INFO root fetch - main [MainThread]: Store serial: [18628440]
