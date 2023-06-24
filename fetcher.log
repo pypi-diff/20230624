@@ -14214,3 +14214,114 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 15:04:13] INFO root fetch - processPackages [ocp-tessellate]: Remove: archive file [/home/abi/fetcher/tmp/ocp_tessellate-1.1.1.tar.gz]
 [2023-06-24 15:04:13] INFO root fetch - main [MainThread]: End processing [ocp-tessellate]: success
 [2023-06-24 15:04:13] INFO root fetch - main [MainThread]: Store serial: [18629342]
+[2023-06-24 15:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629342]
+[2023-06-24 15:09:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyndjs
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sleepeeg
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: NEMO-billing
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Optimo-API-Testing
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NEMO-CE
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyjava
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: time-lapse
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lib-not-dr
+[2023-06-24 15:09:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: twiss
+[2023-06-24 15:09:22] INFO root fetch - processPackages [Optimo-API-Testing]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [pyndjs]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [NEMO-CE]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [lib-not-dr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [NEMO-billing]: New version: [2.5.5] Old Version: [2.5.4]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [pyjava]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [sleepeeg]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [time-lapse]: New version: [4.0] Old Version: [3]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [lib-not-dr]: Downloading https://files.pythonhosted.org/packages/aa/a6/7294e13f1f8cde719929987752f3a019d6a5c6456e21e1c4126d1cabd43a/lib-not-dr-0.0.1.tar.gz
+[2023-06-24 15:09:22] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/41/12/8903a96b4c43b3c69224cebee9c824fa47575ad1e1fb3fe0283cc4974b0f/pyjava-0.6.2.tar.gz
+[2023-06-24 15:09:22] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.6.24] Old Version: [2023.6.23]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [twiss]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-24 15:09:22] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c2/e8/051bcc752bd7ba125fed8852fe0ec5cf29d4561c9ec1ed7dd66be5ad4ace/fbgemm_gpu_nightly_cpu-2023.6.23-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-24 15:09:22] INFO root fetch - processPackages [pyndjs]: Downloading https://files.pythonhosted.org/packages/63/dd/27853b63ed8656e2482803695a3f51fcfcb6c3752bce075f4f0fda146a4e/pyndjs-0.0.6.tar.gz
+[2023-06-24 15:09:22] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/43/7d/8ac45273ef76373fd1aa80d7718ec581ea068f8814b270a3754fa19990ee/sleepeeg-0.2.3.tar.gz
+[2023-06-24 15:09:22] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/16/1a/345afc71260f25230a8d4d467c1ed039e3456850706e86088daca2048f64/NEMO_billing-2.5.4-py3-none-any.whl
+[2023-06-24 15:09:22] INFO root fetch - processPackages [time-lapse]: Downloading https://files.pythonhosted.org/packages/48/40/ed0a070af91b673da13c03faae8f93eb2ae0b0e369167b27a727903e6fe9/time-lapse-3.tar.gz
+[2023-06-24 15:09:22] INFO root fetch - processPackages [lib-not-dr]: Downloading https://files.pythonhosted.org/packages/8c/3b/bd2f0416ea7dad96632a6c985c3ffb4a277b0b7782f9dd81e25d6a9bb628/lib-not-dr-0.0.2.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [Optimo-API-Testing]: Downloading https://files.pythonhosted.org/packages/f0/17/2bfa87ac4dd8ebab79c15ddcebf91561e3b333cf9d2f222adf14a8c08885/Optimo%20API%20Testing-1.0.0.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [twiss]: Downloading https://files.pythonhosted.org/packages/4c/1b/775a6af6c34518b6b84629616966dc45091a35118b3513b78a4d43085914/twiss-0.1.1.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [pyjava]: Downloading https://files.pythonhosted.org/packages/56/81/18550bcc5db7694ab46ab0cea54aa401b4194530542349dbd5cef5ac6f9b/pyjava-0.6.3.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [lib-not-dr]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [lib-not-dr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-not-dr-0.0.1.tar.gz tmp/lib-not-dr-0.0.2.tar.gz --markdown 20230624/l/lib-not-dr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/73/1c/757a0e1224b088c2da1c9eb71b1d5f24d35ae78bba0c8b0761782612b46a/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/e5/b0/b893afdddc5df695685a2136a335fb99978745591981401289800d843ff0/NEMO_CE-1.5.1-py3-none-any.whl
+[2023-06-24 15:09:23] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/47/67/1db49496fdbf244e2aefef49be8b56c29f98e3b77526103bbe6a254248b6/sleepeeg-0.3.0.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [pyndjs]: Downloading https://files.pythonhosted.org/packages/aa/45/4b8aa3b66c3ffdc5ea9767c250e0bec0af7cc08ffdc800085f6726bbe9a7/pyndjs-0.0.7.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-billing]: Downloading https://files.pythonhosted.org/packages/16/4a/08549f1284dce66afa51c1dcc12753185c8b859e7d872cb98bef2b5e6fbe/NEMO_billing-2.5.5-py3-none-any.whl
+[2023-06-24 15:09:23] INFO root fetch - processPackages [pyjava]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [pyjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjava-0.6.2.tar.gz tmp/pyjava-0.6.3.tar.gz --markdown 20230624/p/pyjava/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [pyndjs]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [pyndjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyndjs-0.0.6.tar.gz tmp/pyndjs-0.0.7.tar.gz --markdown 20230624/p/pyndjs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [Optimo-API-Testing]: Downloading https://files.pythonhosted.org/packages/40/0a/0ac09c0b2f469cd4ca71ac190d59f728b49a1668fa5bcec3b3d041d2244c/Optimo%20API%20Testing-1.0.1.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [sleepeeg]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [sleepeeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepeeg-0.2.3.tar.gz tmp/sleepeeg-0.3.0.tar.gz --markdown 20230624/s/sleepeeg/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [time-lapse]: Downloading https://files.pythonhosted.org/packages/a3/48/b102124b69b9a9b8feb2e47ef83d3437b9aaab7487110a42b9f501c2753a/time_lapse-4.0.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [twiss]: Downloading https://files.pythonhosted.org/packages/8e/bd/d41447ae5323bc4f0afc8dfb779b4d58998915369e51d0002d4f1a658959/twiss-0.2.0.tar.gz
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-billing]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_billing-2.5.4-py3-none-any.whl.zip tmp/NEMO_billing-2.5.5-py3-none-any.whl.zip --markdown 20230624/N/NEMO-billing/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [Optimo-API-Testing]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [Optimo-API-Testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Optimo API Testing-1.0.0.tar.gz tmp/Optimo API Testing-1.0.1.tar.gz --markdown 20230624/O/Optimo-API-Testing/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/af/4d/99a63798513f8f308b3e371b1852ed49947125cb74abcf4847e9168a251a/NEMO_CE-1.5.2-py3-none-any.whl
+[2023-06-24 15:09:23] INFO root fetch - processPackages [twiss]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [twiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twiss-0.1.1.tar.gz tmp/twiss-0.2.0.tar.gz --markdown 20230624/t/twiss/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-1.5.1-py3-none-any.whl.zip tmp/NEMO_CE-1.5.2-py3-none-any.whl.zip --markdown 20230624/N/NEMO-CE/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [time-lapse]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [time-lapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time-lapse-3.tar.gz tmp/time_lapse-4.0.tar.gz --markdown 20230624/t/time-lapse/3-4.0/diff.md --exclude *.pyd
+[2023-06-24 15:09:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-06-24 15:09:23] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.6.23-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230624/f/fbgemm-gpu-nightly-cpu/2023.6.23-2023.6.24/diff.md --exclude *.pyd
+[2023-06-24 15:09:24] INFO root fetch - processPackages [lib-not-dr]: Remove: archive file [/home/abi/fetcher/tmp/lib-not-dr-0.0.1.tar.gz]
+[2023-06-24 15:09:24] INFO root fetch - processPackages [lib-not-dr]: Remove: archive file [/home/abi/fetcher/tmp/lib-not-dr-0.0.2.tar.gz]
+[2023-06-24 15:09:24] INFO root fetch - processPackages [lib-not-dr]: Start processing: sixsigmaspc
+[2023-06-24 15:09:24] INFO root fetch - main [MainThread]: End processing [lib-not-dr]: success
+[2023-06-24 15:09:24] INFO root fetch - processPackages [sixsigmaspc]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 15:09:24] INFO root fetch - processPackages [sixsigmaspc]: Downloading https://files.pythonhosted.org/packages/0f/a9/ce4b6ee6fced50d4725ed86bfcdd18bbbdca2e4f9909ad8b9aa79adc3e90/sixsigmaspc-1.0.0.tar.gz
+[2023-06-24 15:09:24] INFO root fetch - processPackages [sixsigmaspc]: Downloading https://files.pythonhosted.org/packages/58/ff/676f79c4dc70d518c25a4ec6e19fc7bf0589a356756195dff8fb47246d89/sixsigmaspc-1.0.1.tar.gz
+[2023-06-24 15:09:24] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.2.tar.gz]
+[2023-06-24 15:09:24] INFO root fetch - processPackages [pyjava]: Remove: archive file [/home/abi/fetcher/tmp/pyjava-0.6.3.tar.gz]
+[2023-06-24 15:09:24] INFO root fetch - processPackages [pyjava]: Start processing: nbdev-stdlib
+[2023-06-24 15:09:24] INFO root fetch - main [MainThread]: End processing [pyjava]: success
+[2023-06-24 15:09:24] INFO root fetch - processPackages [sixsigmaspc]: executing diffoscope
+[2023-06-24 15:09:24] INFO root fetch - processPackages [sixsigmaspc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sixsigmaspc-1.0.0.tar.gz tmp/sixsigmaspc-1.0.1.tar.gz --markdown 20230624/s/sixsigmaspc/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 15:09:25] INFO root fetch - processPackages [pyndjs]: Remove: archive file [/home/abi/fetcher/tmp/pyndjs-0.0.6.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - processPackages [pyndjs]: Remove: archive file [/home/abi/fetcher/tmp/pyndjs-0.0.7.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - main [MainThread]: End processing [pyndjs]: success
+[2023-06-24 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-24 15:09:25] INFO root fetch - processPackages [Optimo-API-Testing]: Remove: archive file [/home/abi/fetcher/tmp/Optimo API Testing-1.0.0.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - processPackages [Optimo-API-Testing]: Remove: archive file [/home/abi/fetcher/tmp/Optimo API Testing-1.0.1.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - main [MainThread]: End processing [Optimo-API-Testing]: success
+[2023-06-24 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-24 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-24 15:09:25] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230624/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 15:09:25] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.2.3.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.3.0.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - main [MainThread]: End processing [sleepeeg]: success
+[2023-06-24 15:09:25] INFO root fetch - processPackages [time-lapse]: Remove: archive file [/home/abi/fetcher/tmp/time-lapse-3.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - processPackages [time-lapse]: Remove: archive file [/home/abi/fetcher/tmp/time_lapse-4.0.tar.gz]
+[2023-06-24 15:09:25] INFO root fetch - main [MainThread]: End processing [time-lapse]: success
+[2023-06-24 15:09:26] INFO root fetch - processPackages [NEMO-billing]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_billing-2.5.4-py3-none-any.whl.zip]
+[2023-06-24 15:09:26] INFO root fetch - processPackages [NEMO-billing]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_billing-2.5.5-py3-none-any.whl.zip]
+[2023-06-24 15:09:26] INFO root fetch - main [MainThread]: End processing [NEMO-billing]: success
+[2023-06-24 15:09:26] INFO root fetch - processPackages [twiss]: Remove: archive file [/home/abi/fetcher/tmp/twiss-0.1.1.tar.gz]
+[2023-06-24 15:09:26] INFO root fetch - processPackages [twiss]: Remove: archive file [/home/abi/fetcher/tmp/twiss-0.2.0.tar.gz]
+[2023-06-24 15:09:26] INFO root fetch - main [MainThread]: End processing [twiss]: success
+[2023-06-24 15:09:26] INFO root fetch - processPackages [sixsigmaspc]: Remove: archive file [/home/abi/fetcher/tmp/sixsigmaspc-1.0.0.tar.gz]
+[2023-06-24 15:09:26] INFO root fetch - processPackages [sixsigmaspc]: Remove: archive file [/home/abi/fetcher/tmp/sixsigmaspc-1.0.1.tar.gz]
+[2023-06-24 15:09:26] INFO root fetch - main [MainThread]: End processing [sixsigmaspc]: success
+[2023-06-24 15:09:30] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.1-py3-none-any.whl.zip]
+[2023-06-24 15:09:30] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.2-py3-none-any.whl.zip]
+[2023-06-24 15:09:30] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2023-06-24 15:10:13] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.23-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-24 15:10:13] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.6.24-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-24 15:10:13] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-06-24 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-24 15:10:16] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-24 15:10:16] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-24 15:10:16] INFO root fetch - main [MainThread]: Store serial: [18629381]
