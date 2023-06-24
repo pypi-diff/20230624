@@ -10986,3 +10986,59 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:16:00] WARNING root fetch - processPackages [python3-nbctl]: Skipping, unable to determine old version
 [2023-06-24 09:16:00] INFO root fetch - main [MainThread]: End processing [python3-nbctl] error
 [2023-06-24 09:16:00] INFO root fetch - main [MainThread]: Store serial: [18627774]
+[2023-06-24 09:21:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627774]
+[2023-06-24 09:21:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smunger
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dnd5epy
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulsars
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bilibili-api-python
+[2023-06-24 09:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FluidCubeGame
+[2023-06-24 09:21:09] INFO root fetch - processPackages [smunger]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 09:21:09] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230623] Old Version: [0.7.3.dev20230622]
+[2023-06-24 09:21:09] INFO root fetch - processPackages [pulsars]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 09:21:09] INFO root fetch - processPackages [FluidCubeGame]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 09:21:09] INFO root fetch - processPackages [bilibili-api-python]: New version: [9.3.1] Old Version: [9.3.0]
+[2023-06-24 09:21:09] WARNING root fetch - processPackages [dnd5epy]: Skipping, unable to determine old version
+[2023-06-24 09:21:09] INFO root fetch - main [MainThread]: End processing [dnd5epy] error
+[2023-06-24 09:21:09] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-24 09:21:09] INFO root fetch - processPackages [pulsars]: Downloading https://files.pythonhosted.org/packages/72/7f/90f78df59dd4829df3712dbdbedc03d7c869788f6ca78ec3bb65f3a17a60/pulsars-0.0.5.tar.gz
+[2023-06-24 09:21:09] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/5b/eb/ff1d060256d279267846d27f51a6bd9c7764b0ef801d8afe3fcaee8d2dea/FluidCubeGame-1.0.8.tar.gz
+[2023-06-24 09:21:09] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/ce/74/ceed655d05f2cc5ac534e7991c1a831bb82be47d1fed902495daa6bd7822/tfq_nightly-0.7.3.dev20230622-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 09:21:10] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/b6/12/a2c776b363b25c381661338e760379765024fbeadc2acfd161ca1d05203b/smunger-0.1.0.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/9b/6f/75134e680907dfeb54d18a424acea23668915105b48d0818cd2ea3a871c4/bilibili-api-python-9.3.0.tar.gz
+[2023-06-24 09:21:10] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822716>=10485760
+[2023-06-24 09:21:10] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-24 09:21:10] INFO root fetch - processPackages [pulsars]: Downloading https://files.pythonhosted.org/packages/fa/ce/26574b54aa4243bed50c5ea265e950120c23efe59e989d54a187cc0910be/pulsars-0.0.6.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/29/70/066173fbd866a924671b3b15dbccbfb27cfe128de9fd38db32391d8f296a/FluidCubeGame-1.0.9.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [bilibili-api-python]: Downloading https://files.pythonhosted.org/packages/f7/75/9cefa953040943e97416ee886cdcf25f91aaf4cd46c2beb8648b84e60415/bilibili-api-python-9.3.1.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [pulsars]: executing diffoscope
+[2023-06-24 09:21:10] INFO root fetch - processPackages [pulsars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulsars-0.0.5.tar.gz tmp/pulsars-0.0.6.tar.gz --markdown 20230624/p/pulsars/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 09:21:10] INFO root fetch - processPackages [FluidCubeGame]: executing diffoscope
+[2023-06-24 09:21:10] INFO root fetch - processPackages [FluidCubeGame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidCubeGame-1.0.8.tar.gz tmp/FluidCubeGame-1.0.9.tar.gz --markdown 20230624/F/FluidCubeGame/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 09:21:10] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/bb/50/25cc6a408f8cc15f1d8618aead39d60e625114d1ea130c880fe0634290c7/smunger-0.1.1.tar.gz
+[2023-06-24 09:21:10] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-24 09:21:10] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230624/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-24 09:21:10] INFO root fetch - processPackages [bilibili-api-python]: executing diffoscope
+[2023-06-24 09:21:10] INFO root fetch - processPackages [bilibili-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bilibili-api-python-9.3.0.tar.gz tmp/bilibili-api-python-9.3.1.tar.gz --markdown 20230624/b/bilibili-api-python/9.3.0-9.3.1/diff.md --exclude *.pyd
+[2023-06-24 09:21:10] INFO root fetch - processPackages [smunger]: executing diffoscope
+[2023-06-24 09:21:10] INFO root fetch - processPackages [smunger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smunger-0.1.0.tar.gz tmp/smunger-0.1.1.tar.gz --markdown 20230624/s/smunger/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 09:21:11] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.8.tar.gz]
+[2023-06-24 09:21:11] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.9.tar.gz]
+[2023-06-24 09:21:11] INFO root fetch - main [MainThread]: End processing [FluidCubeGame]: success
+[2023-06-24 09:21:12] INFO root fetch - processPackages [pulsars]: Remove: archive file [/home/abi/fetcher/tmp/pulsars-0.0.5.tar.gz]
+[2023-06-24 09:21:12] INFO root fetch - processPackages [pulsars]: Remove: archive file [/home/abi/fetcher/tmp/pulsars-0.0.6.tar.gz]
+[2023-06-24 09:21:12] INFO root fetch - main [MainThread]: End processing [pulsars]: success
+[2023-06-24 09:21:12] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.0.tar.gz]
+[2023-06-24 09:21:12] INFO root fetch - processPackages [bilibili-api-python]: Remove: archive file [/home/abi/fetcher/tmp/bilibili-api-python-9.3.1.tar.gz]
+[2023-06-24 09:21:12] INFO root fetch - main [MainThread]: End processing [bilibili-api-python]: success
+[2023-06-24 09:21:13] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.1.0.tar.gz]
+[2023-06-24 09:21:13] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.1.1.tar.gz]
+[2023-06-24 09:21:13] INFO root fetch - main [MainThread]: End processing [smunger]: success
+[2023-06-24 09:21:20] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-24 09:21:20] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-24 09:21:20] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-24 09:21:20] INFO root fetch - main [MainThread]: Store serial: [18627797]
