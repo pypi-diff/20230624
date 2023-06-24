@@ -14151,3 +14151,24 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:53:51] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.3.tar.gz]
 [2023-06-24 14:53:51] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-06-24 14:53:51] INFO root fetch - main [MainThread]: Store serial: [18629321]
+[2023-06-24 14:58:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629321]
+[2023-06-24 14:59:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: entityshape
+[2023-06-24 14:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litenv
+[2023-06-24 14:59:00] INFO root fetch - processPackages [litenv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 14:59:00] INFO root fetch - processPackages [entityshape]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 14:59:00] INFO root fetch - processPackages [entityshape]: Downloading https://files.pythonhosted.org/packages/d2/92/56059e1ca2ac7dd129df56050bc867f681a1a79ba55a79da4adc7b68634c/entityshape-0.0.1.tar.gz
+[2023-06-24 14:59:00] INFO root fetch - processPackages [litenv]: Downloading https://files.pythonhosted.org/packages/d8/0b/ce143ec2f3c10aa1fd8ddb4f0869d535a4a529b3af60e366f3f5c471cce7/litenv-0.0.8.tar.gz
+[2023-06-24 14:59:01] INFO root fetch - processPackages [entityshape]: Downloading https://files.pythonhosted.org/packages/02/ed/861de5be026fb3744679f484f6e9952c4cfaa350126f694026b7d0b159ab/entityshape-0.0.2.tar.gz
+[2023-06-24 14:59:01] INFO root fetch - processPackages [entityshape]: executing diffoscope
+[2023-06-24 14:59:01] INFO root fetch - processPackages [entityshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entityshape-0.0.1.tar.gz tmp/entityshape-0.0.2.tar.gz --markdown 20230624/e/entityshape/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 14:59:01] INFO root fetch - processPackages [litenv]: Downloading https://files.pythonhosted.org/packages/91/9d/5b2037c5477aaf0d57a96e466d78500c36ff28f3a8c98480858ce156ac2b/litenv-0.0.9.tar.gz
+[2023-06-24 14:59:01] INFO root fetch - processPackages [litenv]: executing diffoscope
+[2023-06-24 14:59:01] INFO root fetch - processPackages [litenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenv-0.0.8.tar.gz tmp/litenv-0.0.9.tar.gz --markdown 20230624/l/litenv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 14:59:02] INFO root fetch - processPackages [entityshape]: Remove: archive file [/home/abi/fetcher/tmp/entityshape-0.0.1.tar.gz]
+[2023-06-24 14:59:02] INFO root fetch - processPackages [entityshape]: Remove: archive file [/home/abi/fetcher/tmp/entityshape-0.0.2.tar.gz]
+[2023-06-24 14:59:02] INFO root fetch - main [MainThread]: End processing [entityshape]: success
+[2023-06-24 14:59:02] INFO root fetch - processPackages [litenv]: Remove: archive file [/home/abi/fetcher/tmp/litenv-0.0.8.tar.gz]
+[2023-06-24 14:59:02] INFO root fetch - processPackages [litenv]: Remove: archive file [/home/abi/fetcher/tmp/litenv-0.0.9.tar.gz]
+[2023-06-24 14:59:02] INFO root fetch - main [MainThread]: End processing [litenv]: success
+[2023-06-24 14:59:02] INFO root fetch - main [MainThread]: Store serial: [18629327]
