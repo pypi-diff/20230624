@@ -16510,3 +16510,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:53:16] INFO root fetch - processPackages [udsoncan]: Remove: archive file [/home/abi/fetcher/tmp/udsoncan-1.9.tar.gz]
 [2023-06-24 17:53:16] INFO root fetch - main [MainThread]: End processing [udsoncan]: success
 [2023-06-24 17:53:16] INFO root fetch - main [MainThread]: Store serial: [18630383]
+[2023-06-24 17:58:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630383]
+[2023-06-24 17:58:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 17:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-spark-gpt
+[2023-06-24 17:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miuc
+[2023-06-24 17:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gogogate2-api
+[2023-06-24 17:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drukarnia-api
+[2023-06-24 17:58:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysql-to-sqlite3
+[2023-06-24 17:58:25] INFO root fetch - processPackages [gogogate2-api]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-24 17:58:25] INFO root fetch - processPackages [miuc]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-24 17:58:25] INFO root fetch - processPackages [mysql-to-sqlite3]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-24 17:58:25] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-24 17:58:25] INFO root fetch - processPackages [drukarnia-api]: New version: [1.0.0] Old Version: [0.1.913]
+[2023-06-24 17:58:25] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/6a/b1/80658dda7e9d35ebdd8b7890a6e481caba7fbcebf8534ba93622ab445a21/mysql_to_sqlite3-2.0.1.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/a0/9f/760a0090255dbdb4f169384f4ccda29b54092cfcda6beedf9f5e8e028da4/miuc-0.1.5.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [gogogate2-api]: Downloading https://files.pythonhosted.org/packages/93/e0/958e46ca64f3a4a1c249da6acc96d5d5d558106ab62aba00633107e7e428/gogogate2_api-3.0.0.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/cc/94/0d3c6c7ae7af619d4106ea2995ada68c8050027876f2bcefab207efc3453/nonebot_plugin_spark_gpt-0.4.0.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/c5/2d/3ab14faf449b0f1ae4b89556329c4f1cc11d8b8fc03a8f4014ba26d4eb77/drukarnia-api-0.1.913.tar.gz
+[2023-06-24 17:58:25] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11187785>=10485760
+[2023-06-24 17:58:25] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/76/93/32ff5714789ce3c2cae9eaca0e4cb3137d681720f9a43d0cc4b3b3b82296/mysql_to_sqlite3-2.0.2.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-06-24 17:58:25] INFO root fetch - processPackages [mysql-to-sqlite3]: executing diffoscope
+[2023-06-24 17:58:25] INFO root fetch - processPackages [mysql-to-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_to_sqlite3-2.0.1.tar.gz tmp/mysql_to_sqlite3-2.0.2.tar.gz --markdown 20230624/m/mysql-to-sqlite3/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-24 17:58:25] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/29/9c/587a49d1b6fe7435b040aacbc53bbd628af08070cae6024ad80637f979ed/miuc-0.1.6.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2023-06-24 17:58:25] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.1.5.tar.gz tmp/miuc-0.1.6.tar.gz --markdown 20230624/m/miuc/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-24 17:58:25] INFO root fetch - processPackages [drukarnia-api]: Downloading https://files.pythonhosted.org/packages/9f/5c/9b5a9777d0c8db250be13e449f003b7c981cb7e8b82e0ef8328d791fecf4/drukarnia-api-1.0.0.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [gogogate2-api]: Downloading https://files.pythonhosted.org/packages/d7/78/be3d9db7ce5ff0de6e1f3db8a0a1e7ffc48873436a86cffa435f959252a9/gogogate2_api-3.0.1.tar.gz
+[2023-06-24 17:58:25] INFO root fetch - processPackages [drukarnia-api]: executing diffoscope
+[2023-06-24 17:58:25] INFO root fetch - processPackages [drukarnia-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drukarnia-api-0.1.913.tar.gz tmp/drukarnia-api-1.0.0.tar.gz --markdown 20230624/d/drukarnia-api/0.1.913-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 17:58:25] INFO root fetch - processPackages [gogogate2-api]: executing diffoscope
+[2023-06-24 17:58:25] INFO root fetch - processPackages [gogogate2-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gogogate2_api-3.0.0.tar.gz tmp/gogogate2_api-3.0.1.tar.gz --markdown 20230624/g/gogogate2-api/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-24 17:58:26] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.5.tar.gz]
+[2023-06-24 17:58:26] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.1.6.tar.gz]
+[2023-06-24 17:58:26] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2023-06-24 17:58:26] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.1.tar.gz]
+[2023-06-24 17:58:26] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.2.tar.gz]
+[2023-06-24 17:58:26] INFO root fetch - main [MainThread]: End processing [mysql-to-sqlite3]: success
+[2023-06-24 17:58:27] INFO root fetch - processPackages [gogogate2-api]: Remove: archive file [/home/abi/fetcher/tmp/gogogate2_api-3.0.0.tar.gz]
+[2023-06-24 17:58:27] INFO root fetch - processPackages [gogogate2-api]: Remove: archive file [/home/abi/fetcher/tmp/gogogate2_api-3.0.1.tar.gz]
+[2023-06-24 17:58:27] INFO root fetch - main [MainThread]: End processing [gogogate2-api]: success
+[2023-06-24 17:58:27] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-0.1.913.tar.gz]
+[2023-06-24 17:58:27] INFO root fetch - processPackages [drukarnia-api]: Remove: archive file [/home/abi/fetcher/tmp/drukarnia-api-1.0.0.tar.gz]
+[2023-06-24 17:58:27] INFO root fetch - main [MainThread]: End processing [drukarnia-api]: success
+[2023-06-24 17:58:27] INFO root fetch - main [MainThread]: Store serial: [18630395]
