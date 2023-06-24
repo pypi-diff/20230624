@@ -11267,3 +11267,43 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:47:59] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-06-24 09:47:59] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-06-24 09:47:59] INFO root fetch - main [MainThread]: Store serial: [18627900]
+[2023-06-24 09:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627900]
+[2023-06-24 09:53:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 09:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CharmCord
+[2023-06-24 09:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iqrfpy
+[2023-06-24 09:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgpt
+[2023-06-24 09:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu
+[2023-06-24 09:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cnx
+[2023-06-24 09:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: translang
+[2023-06-24 09:53:09] WARNING root fetch - processPackages [pgpt]: Skipping, unable to determine old version
+[2023-06-24 09:53:09] INFO root fetch - main [MainThread]: End processing [pgpt] error
+[2023-06-24 09:53:09] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 09:53:09] INFO root fetch - processPackages [CharmCord]: New version: [0.18.7] Old Version: [0.18.6]
+[2023-06-24 09:53:09] INFO root fetch - processPackages [cnx]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 09:53:09] WARNING root fetch - processPackages [translang]: Skipping, unable to determine old version
+[2023-06-24 09:53:09] INFO root fetch - main [MainThread]: End processing [translang] error
+[2023-06-24 09:53:09] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/4f/78/b7fc2c64c0fa74de3bdc2bd2d1f0a3477d19314d5d0c9bdea587f87b5889/CharmCord-0.18.6-py3-none-any.whl
+[2023-06-24 09:53:09] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.14.0.dev20230624] Old Version: [2.14.0.dev20230623]
+[2023-06-24 09:53:09] ERROR root fetch - processPackages [cnx]: Unable to fetch info: No such project/version 'cnx' 1.0.0
+[2023-06-24 09:53:09] INFO root fetch - main [MainThread]: End processing [cnx] error
+[2023-06-24 09:53:09] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-06-24 09:53:09] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/23/72/59e66ebe07f872c1eaf0afc1a71a0f293fbc3b6c01762a9ab92a37f045c2/tf_nightly_cpu-2.14.0.dev20230623-cp39-cp39-win_amd64.whl
+[2023-06-24 09:53:09] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/f9/3b/9fc6a665b26d27e0b9086d188fbab8ccbce562c7c7019f625e39c543905e/CharmCord-0.18.7-py3-none-any.whl
+[2023-06-24 09:53:09] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-06-24 09:53:09] INFO root fetch - processPackages [CharmCord]: executing diffoscope
+[2023-06-24 09:53:09] INFO root fetch - processPackages [CharmCord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CharmCord-0.18.6-py3-none-any.whl.zip tmp/CharmCord-0.18.7-py3-none-any.whl.zip --markdown 20230624/C/CharmCord/0.18.6-0.18.7/diff.md --exclude *.pyd
+[2023-06-24 09:53:09] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/c1/98/52a7bed76cff62f3d6dec92b6abc5d76691d438b90769f355a74f70042a5/tf_nightly_cpu-2.14.0.dev20230624-cp39-cp39-win_amd64.whl
+[2023-06-24 09:53:09] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-06-24 09:53:09] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230624/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 09:53:10] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2023-06-24 09:53:10] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.14.0.dev20230623-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.14.0.dev20230624-cp39-cp39-win_amd64.whl.zip --markdown 20230624/t/tf-nightly-cpu/2.14.0.dev20230623-2.14.0.dev20230624/diff.md --exclude *.pyd
+[2023-06-24 09:53:11] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230623-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 09:53:11] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.14.0.dev20230624-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 09:53:11] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2023-06-24 09:53:11] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.18.6-py3-none-any.whl.zip]
+[2023-06-24 09:53:11] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.18.7-py3-none-any.whl.zip]
+[2023-06-24 09:53:11] INFO root fetch - main [MainThread]: End processing [CharmCord]: success
+[2023-06-24 09:53:11] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-06-24 09:53:11] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-06-24 09:53:11] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-06-24 09:53:11] INFO root fetch - main [MainThread]: Store serial: [18627937]
