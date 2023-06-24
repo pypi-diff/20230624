@@ -12079,3 +12079,58 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 11:17:53] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-06-24 11:17:53] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-06-24 11:17:53] INFO root fetch - main [MainThread]: Store serial: [18628315]
+[2023-06-24 11:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628315]
+[2023-06-24 11:23:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 11:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zut
+[2023-06-24 11:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cns
+[2023-06-24 11:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: i8-terminal
+[2023-06-24 11:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-06-24 11:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2023-06-24 11:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sdypy-EMA
+[2023-06-24 11:23:02] INFO root fetch - processPackages [zut]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-24 11:23:02] INFO root fetch - processPackages [cns]: New version: [1.0.26] Old Version: [1.0.23]
+[2023-06-24 11:23:02] INFO root fetch - processPackages [i8-terminal]: New version: [0.2.9] Old Version: [0.2.85]
+[2023-06-24 11:23:02] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/06/78/5829a2dade0dcf14e3a6c1ce4539fa56520d04458226cff251d54c92f981/zut-0.6.6-py3-none-any.whl
+[2023-06-24 11:23:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 11:23:02] INFO root fetch - processPackages [sdypy-EMA]: New version: [0.27.1] Old Version: [0.27]
+[2023-06-24 11:23:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-24 11:23:02] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/b7/9e/58aefaa9d8e0a4db7f627999937c5c7e927406f3541770456862b990840c/cns-1.0.23-py3-none-any.whl
+[2023-06-24 11:23:03] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/7c/64/221c09889e6c9d0f6ca138353b70e548beed3da987faba3605abaf9a836e/i8-terminal-0.2.85.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [sdypy-EMA]: Downloading https://files.pythonhosted.org/packages/f1/5f/2f5b74dc5decdf61344182af9119a70b5b8e1a1bfcf24e4b9eb827e378d9/sdypy-EMA-0.27.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/9b/f7/bb074ca6a93001e2b9aa88bd4930d9f7bc3b39bbadca6545abe8f7c16fc4/zut-0.6.7-py3-none-any.whl
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [zut]: executing diffoscope
+[2023-06-24 11:23:03] INFO root fetch - processPackages [zut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zut-0.6.6-py3-none-any.whl.zip tmp/zut-0.6.7-py3-none-any.whl.zip --markdown 20230624/z/zut/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-24 11:23:03] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/72/50/72faa1e00e95319ec034975d6106dfc95d5e41577a8c7c31e0f4861adc2d/cns-1.0.26-py3-none-any.whl
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 11:23:03] INFO root fetch - processPackages [i8-terminal]: Downloading https://files.pythonhosted.org/packages/3a/4e/059b0e0994331c6b3c544b088856473010361bbdd6bcf135283c19003870/i8-terminal-0.2.9.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-24 11:23:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230624/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-24 11:23:03] INFO root fetch - processPackages [sdypy-EMA]: Downloading https://files.pythonhosted.org/packages/c2/bb/322fb824b1b9a126a27e6b25a322d40ccfb1ea631af217a078d170200e4c/sdypy-EMA-0.27.1.tar.gz
+[2023-06-24 11:23:03] INFO root fetch - processPackages [cns]: executing diffoscope
+[2023-06-24 11:23:03] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.0.23-py3-none-any.whl.zip tmp/cns-1.0.26-py3-none-any.whl.zip --markdown 20230624/c/cns/1.0.23-1.0.26/diff.md --exclude *.pyd
+[2023-06-24 11:23:03] INFO root fetch - processPackages [sdypy-EMA]: executing diffoscope
+[2023-06-24 11:23:03] INFO root fetch - processPackages [sdypy-EMA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdypy-EMA-0.27.tar.gz tmp/sdypy-EMA-0.27.1.tar.gz --markdown 20230624/s/sdypy-EMA/0.27-0.27.1/diff.md --exclude *.pyd
+[2023-06-24 11:23:04] INFO root fetch - processPackages [i8-terminal]: executing diffoscope
+[2023-06-24 11:23:04] INFO root fetch - processPackages [i8-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i8-terminal-0.2.85.tar.gz tmp/i8-terminal-0.2.9.tar.gz --markdown 20230624/i/i8-terminal/0.2.85-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 11:23:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-24 11:23:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-24 11:23:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 11:23:05] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.6-py3-none-any.whl.zip]
+[2023-06-24 11:23:05] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.7-py3-none-any.whl.zip]
+[2023-06-24 11:23:05] INFO root fetch - main [MainThread]: End processing [zut]: success
+[2023-06-24 11:23:05] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.23-py3-none-any.whl.zip]
+[2023-06-24 11:23:05] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.0.26-py3-none-any.whl.zip]
+[2023-06-24 11:23:05] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2023-06-24 11:23:05] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-24 11:23:05] INFO root fetch - processPackages [sdypy-EMA]: Remove: archive file [/home/abi/fetcher/tmp/sdypy-EMA-0.27.tar.gz]
+[2023-06-24 11:23:05] INFO root fetch - processPackages [sdypy-EMA]: Remove: archive file [/home/abi/fetcher/tmp/sdypy-EMA-0.27.1.tar.gz]
+[2023-06-24 11:23:05] INFO root fetch - main [MainThread]: End processing [sdypy-EMA]: success
+[2023-06-24 11:23:06] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.85.tar.gz]
+[2023-06-24 11:23:06] INFO root fetch - processPackages [i8-terminal]: Remove: archive file [/home/abi/fetcher/tmp/i8-terminal-0.2.9.tar.gz]
+[2023-06-24 11:23:06] INFO root fetch - main [MainThread]: End processing [i8-terminal]: success
+[2023-06-24 11:23:06] INFO root fetch - main [MainThread]: Store serial: [18628335]
