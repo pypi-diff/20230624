@@ -10463,3 +10463,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:13:25] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.3.tar.gz]
 [2023-06-24 08:13:25] INFO root fetch - main [MainThread]: End processing [pqp]: success
 [2023-06-24 08:13:25] INFO root fetch - main [MainThread]: Store serial: [18627586]
+[2023-06-24 08:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627586]
+[2023-06-24 08:18:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: w3bstream-client-python
+[2023-06-24 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mech-client
+[2023-06-24 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xqute
+[2023-06-24 08:18:34] INFO root fetch - processPackages [w3bstream-client-python]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-24 08:18:34] INFO root fetch - processPackages [mech-client]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-24 08:18:34] INFO root fetch - processPackages [xqute]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-24 08:18:34] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/22/14/7a429896d47785fc202a80b6a661f128217e8f2e71590f02821714753873/w3bstream-client-python-0.1.0.tar.gz
+[2023-06-24 08:18:34] INFO root fetch - processPackages [xqute]: Downloading https://files.pythonhosted.org/packages/e4/83/2d45f91dccaa8d245aadd5b92cc3973199c305e9d253984bd3d30cc8716d/xqute-0.2.2.tar.gz
+[2023-06-24 08:18:34] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/96/bf/2a8d3a648bababcd3e8b272fba5713f8b6381b160a7d3571ccabb427f336/mech_client-0.1.7.tar.gz
+[2023-06-24 08:18:34] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/9e/a4/208847e155072af6a99a644e5a6e10812011a79c364d874aa462b56c4406/w3bstream_client_python-0.2.0.tar.gz
+[2023-06-24 08:18:34] INFO root fetch - processPackages [xqute]: Downloading https://files.pythonhosted.org/packages/08/b5/70e63d43b8ac632438f6e08e069c2db5faefa58637b393959b433ea57362/xqute-0.2.3.tar.gz
+[2023-06-24 08:18:35] INFO root fetch - processPackages [mech-client]: Downloading https://files.pythonhosted.org/packages/18/4a/1042c7b4a79cf0b0a81db1cf2025fb9539379892e6ed00c874956f96a199/mech_client-0.2.0.tar.gz
+[2023-06-24 08:18:35] INFO root fetch - processPackages [w3bstream-client-python]: executing diffoscope
+[2023-06-24 08:18:35] INFO root fetch - processPackages [w3bstream-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3bstream-client-python-0.1.0.tar.gz tmp/w3bstream_client_python-0.2.0.tar.gz --markdown 20230624/w/w3bstream-client-python/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 08:18:35] INFO root fetch - processPackages [xqute]: executing diffoscope
+[2023-06-24 08:18:35] INFO root fetch - processPackages [xqute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xqute-0.2.2.tar.gz tmp/xqute-0.2.3.tar.gz --markdown 20230624/x/xqute/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-24 08:18:35] INFO root fetch - processPackages [mech-client]: executing diffoscope
+[2023-06-24 08:18:35] INFO root fetch - processPackages [mech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mech_client-0.1.7.tar.gz tmp/mech_client-0.2.0.tar.gz --markdown 20230624/m/mech-client/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 08:18:36] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream-client-python-0.1.0.tar.gz]
+[2023-06-24 08:18:36] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.2.0.tar.gz]
+[2023-06-24 08:18:36] INFO root fetch - main [MainThread]: End processing [w3bstream-client-python]: success
+[2023-06-24 08:18:36] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.1.7.tar.gz]
+[2023-06-24 08:18:36] INFO root fetch - processPackages [mech-client]: Remove: archive file [/home/abi/fetcher/tmp/mech_client-0.2.0.tar.gz]
+[2023-06-24 08:18:36] INFO root fetch - main [MainThread]: End processing [mech-client]: success
+[2023-06-24 08:18:36] INFO root fetch - processPackages [xqute]: Remove: archive file [/home/abi/fetcher/tmp/xqute-0.2.2.tar.gz]
+[2023-06-24 08:18:36] INFO root fetch - processPackages [xqute]: Remove: archive file [/home/abi/fetcher/tmp/xqute-0.2.3.tar.gz]
+[2023-06-24 08:18:36] INFO root fetch - main [MainThread]: End processing [xqute]: success
+[2023-06-24 08:18:36] INFO root fetch - main [MainThread]: Store serial: [18627594]
