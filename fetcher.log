@@ -6913,3 +6913,65 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:12:36] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/json-stream-rs-tokenizer-0.4.9.tar.gz]
 [2023-06-24 04:12:36] INFO root fetch - main [MainThread]: End processing [json-stream-rs-tokenizer]: success
 [2023-06-24 04:12:36] INFO root fetch - main [MainThread]: Store serial: [18626288]
+[2023-06-24 04:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626288]
+[2023-06-24 04:17:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anchor-gpt
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-fallback-unknown
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qinglu0330-hello
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: even-dist
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nft-market
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aihandler
+[2023-06-24 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: homeassistant
+[2023-06-24 04:17:45] INFO root fetch - processPackages [anchor-gpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [qinglu0330-hello]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [even-dist]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [neon-skill-fallback-unknown]: New version: [1.0.0] Old Version: [0.2.3a1]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.3] Old Version: [2023.6.2]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [anchor-gpt]: Downloading https://files.pythonhosted.org/packages/d8/7f/1fb064a17f36b576e29f3a7ddf7e9182cbd700b36f769f9f9a60d70ea9ce/anchor-gpt-0.0.1.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [nft-market]: New version: [1.9] Old Version: [1.8]
+[2023-06-24 04:17:45] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/3c/f0/e09eae3d492f7f23a6a9205f19633be64b7ea5672be8c16c2314bbfec443/even-dist-0.2.6.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [qinglu0330-hello]: Downloading https://files.pythonhosted.org/packages/d6/45/76056ec2c585afb9f895b85c015acfce868f61e399fe9a3716b2d5438f8c/qinglu0330_hello-0.0.1.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/84/be/9aa9164b296f5caa36fe96303c3e93a30d8825f1de2361c8c32d6312dc24/neon-skill-fallback_unknown-0.2.3a1.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/40/19/8adbaa55d6c505102e9e905d049670c373961145ba6f98e03cf415182687/even-dist-0.2.7.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/ee/b9/4c5f8ce152a07dbc591f99e9da8bdf5d5fd183bc14e1d1427eb7a046c80e/homeassistant-2023.6.2.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [nft-market]: Downloading https://files.pythonhosted.org/packages/e6/21/4bb1fe9978e8d80da115fef25cb965d81bb92a1c72ee7f8226abc665cfe8/nft_market-1.8.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-06-24 04:17:45] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230624/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-24 04:17:45] INFO root fetch - processPackages [anchor-gpt]: Downloading https://files.pythonhosted.org/packages/87/7e/8058d65279d94a0dc15a835e7bafd5c4007708b7628a5686782d2bd71068/anchor-gpt-0.0.2.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 04:17:45] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.2.6.tar.gz tmp/even-dist-0.2.7.tar.gz --markdown 20230624/e/even-dist/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-24 04:17:45] INFO root fetch - processPackages [anchor-gpt]: executing diffoscope
+[2023-06-24 04:17:45] INFO root fetch - processPackages [anchor-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchor-gpt-0.0.1.tar.gz tmp/anchor-gpt-0.0.2.tar.gz --markdown 20230624/a/anchor-gpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 04:17:45] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14253180>=10485760
+[2023-06-24 04:17:45] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-24 04:17:45] INFO root fetch - processPackages [qinglu0330-hello]: Downloading https://files.pythonhosted.org/packages/9e/e7/75257622cec37c8c46e45dbfde610d4c21ab17e41fa893ec0998b79a0911/qinglu0330_hello-0.0.2.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [qinglu0330-hello]: executing diffoscope
+[2023-06-24 04:17:45] INFO root fetch - processPackages [qinglu0330-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qinglu0330_hello-0.0.1.tar.gz tmp/qinglu0330_hello-0.0.2.tar.gz --markdown 20230624/q/qinglu0330-hello/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 04:17:45] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/78/64/fd4d4f50dd8c8c4132c6f5461b019822febfa38c1f3bf85f0fee9bfb7bc6/neon-skill-fallback_unknown-1.0.0.tar.gz
+[2023-06-24 04:17:45] INFO root fetch - processPackages [neon-skill-fallback-unknown]: executing diffoscope
+[2023-06-24 04:17:45] INFO root fetch - processPackages [neon-skill-fallback-unknown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-fallback_unknown-0.2.3a1.tar.gz tmp/neon-skill-fallback_unknown-1.0.0.tar.gz --markdown 20230624/n/neon-skill-fallback-unknown/0.2.3a1-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 04:17:46] INFO root fetch - processPackages [nft-market]: Downloading https://files.pythonhosted.org/packages/cb/88/6f189d0fbfdcb06afa1ac885bc16f2f88a3dc1c63626d0001a9ca9b4acb5/nft_market-1.9.tar.gz
+[2023-06-24 04:17:46] INFO root fetch - processPackages [nft-market]: executing diffoscope
+[2023-06-24 04:17:46] INFO root fetch - processPackages [nft-market]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nft_market-1.8.tar.gz tmp/nft_market-1.9.tar.gz --markdown 20230624/n/nft-market/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-24 04:17:46] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.6.tar.gz]
+[2023-06-24 04:17:46] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.7.tar.gz]
+[2023-06-24 04:17:46] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 04:17:47] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-06-24 04:17:47] INFO root fetch - processPackages [anchor-gpt]: Remove: archive file [/home/abi/fetcher/tmp/anchor-gpt-0.0.1.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - processPackages [anchor-gpt]: Remove: archive file [/home/abi/fetcher/tmp/anchor-gpt-0.0.2.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - main [MainThread]: End processing [anchor-gpt]: success
+[2023-06-24 04:17:47] INFO root fetch - processPackages [qinglu0330-hello]: Remove: archive file [/home/abi/fetcher/tmp/qinglu0330_hello-0.0.1.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - processPackages [qinglu0330-hello]: Remove: archive file [/home/abi/fetcher/tmp/qinglu0330_hello-0.0.2.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - main [MainThread]: End processing [qinglu0330-hello]: success
+[2023-06-24 04:17:47] INFO root fetch - processPackages [nft-market]: Remove: archive file [/home/abi/fetcher/tmp/nft_market-1.8.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - processPackages [nft-market]: Remove: archive file [/home/abi/fetcher/tmp/nft_market-1.9.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - main [MainThread]: End processing [nft-market]: success
+[2023-06-24 04:17:47] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-fallback_unknown-0.2.3a1.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-fallback_unknown-1.0.0.tar.gz]
+[2023-06-24 04:17:47] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-unknown]: success
+[2023-06-24 04:17:47] INFO root fetch - main [MainThread]: Store serial: [18626311]
