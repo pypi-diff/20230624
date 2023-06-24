@@ -11381,3 +11381,42 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:03:47] INFO root fetch - processPackages [spider-st]: Remove: archive file [/home/abi/fetcher/tmp/spider-st-0.1.9.tar.gz]
 [2023-06-24 10:03:47] INFO root fetch - main [MainThread]: End processing [spider-st]: success
 [2023-06-24 10:03:47] INFO root fetch - main [MainThread]: Store serial: [18627972]
+[2023-06-24 10:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627972]
+[2023-06-24 10:08:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boombing
+[2023-06-24 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-06-24 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nligraphspacy
+[2023-06-24 10:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypinyin-g2pw
+[2023-06-24 10:08:57] INFO root fetch - processPackages [boombing]: New version: [0.2] Old Version: [0.1]
+[2023-06-24 10:08:57] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-24 10:08:57] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230624] Old Version: [0.3.1.dev20230623]
+[2023-06-24 10:08:57] INFO root fetch - processPackages [pypinyin-g2pw]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-24 10:08:57] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/fa/f9/38b37878ca6564f0435ffcaad79b7af72d4cd108292451c5c8f8795c6f78/pyglove-0.3.1.dev20230623.tar.gz
+[2023-06-24 10:08:57] INFO root fetch - processPackages [boombing]: Downloading https://files.pythonhosted.org/packages/a6/5f/e55e72bfcd65fcb2ea58aaee1fc7848b361d1c986348bc8753229097931b/boombing-0.1.tar.gz
+[2023-06-24 10:08:57] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/4e/f5/f33138b0db44f05e1ff9eaa06b4dc74c96494715eae8b138e608cecadd05/nligraphspacy-1.1.2.tar.gz
+[2023-06-24 10:08:57] INFO root fetch - processPackages [pypinyin-g2pw]: Downloading https://files.pythonhosted.org/packages/65/0a/78cad5eb4967ad2052bb9159f7781953a2e8f62f67ee33beba9af6a5240d/pypinyin-g2pw-0.3.0.tar.gz
+[2023-06-24 10:08:57] INFO root fetch - processPackages [boombing]: Downloading https://files.pythonhosted.org/packages/77/39/9bb52514747f6617ada9fcc3caf57d4b5753324f7a98b1e753c0b20ca330/boombing-0.2.tar.gz
+[2023-06-24 10:08:57] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/15/0e/d8b7337427db9ed6517ae0ccf702e51ae26cebbea791e229d28a9b495ead/pyglove-0.3.1.dev20230624.tar.gz
+[2023-06-24 10:08:58] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/98/0f/864b5990e72dc7132c11f0016afce4ba18d52852fc039b73a32a926cab48/nligraphspacy-1.1.3.tar.gz
+[2023-06-24 10:08:58] INFO root fetch - processPackages [boombing]: executing diffoscope
+[2023-06-24 10:08:58] INFO root fetch - processPackages [boombing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boombing-0.1.tar.gz tmp/boombing-0.2.tar.gz --markdown 20230624/b/boombing/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-24 10:08:58] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-24 10:08:58] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-1.1.2.tar.gz tmp/nligraphspacy-1.1.3.tar.gz --markdown 20230624/n/nligraphspacy/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-24 10:08:58] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-24 10:08:58] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230623.tar.gz tmp/pyglove-0.3.1.dev20230624.tar.gz --markdown 20230624/p/pyglove/0.3.1.dev20230623-0.3.1.dev20230624/diff.md --exclude *.pyd
+[2023-06-24 10:08:58] INFO root fetch - processPackages [pypinyin-g2pw]: Downloading https://files.pythonhosted.org/packages/d8/67/35dca3acbe790143520f839260e8bc56d2c99b094a1c730ff62f24ba4443/pypinyin-g2pw-0.4.0.tar.gz
+[2023-06-24 10:08:58] INFO root fetch - processPackages [pypinyin-g2pw]: executing diffoscope
+[2023-06-24 10:08:58] INFO root fetch - processPackages [pypinyin-g2pw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypinyin-g2pw-0.3.0.tar.gz tmp/pypinyin-g2pw-0.4.0.tar.gz --markdown 20230624/p/pypinyin-g2pw/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 10:08:59] INFO root fetch - processPackages [boombing]: Remove: archive file [/home/abi/fetcher/tmp/boombing-0.1.tar.gz]
+[2023-06-24 10:08:59] INFO root fetch - processPackages [boombing]: Remove: archive file [/home/abi/fetcher/tmp/boombing-0.2.tar.gz]
+[2023-06-24 10:08:59] INFO root fetch - main [MainThread]: End processing [boombing]: success
+[2023-06-24 10:08:59] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.2.tar.gz]
+[2023-06-24 10:08:59] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.3.tar.gz]
+[2023-06-24 10:08:59] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-24 10:09:00] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230623.tar.gz]
+[2023-06-24 10:09:00] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230624.tar.gz]
+[2023-06-24 10:09:00] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-24 10:09:53] INFO root fetch - processPackages [pypinyin-g2pw]: Remove: archive file [/home/abi/fetcher/tmp/pypinyin-g2pw-0.3.0.tar.gz]
+[2023-06-24 10:09:53] INFO root fetch - processPackages [pypinyin-g2pw]: Remove: archive file [/home/abi/fetcher/tmp/pypinyin-g2pw-0.4.0.tar.gz]
+[2023-06-24 10:09:53] INFO root fetch - main [MainThread]: End processing [pypinyin-g2pw]: success
+[2023-06-24 10:09:53] INFO root fetch - main [MainThread]: Store serial: [18627989]
