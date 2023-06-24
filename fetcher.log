@@ -16913,3 +16913,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:29:44] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.2.0.tar.gz]
 [2023-06-24 18:29:44] INFO root fetch - main [MainThread]: End processing [bullmq]: success
 [2023-06-24 18:29:44] INFO root fetch - main [MainThread]: Store serial: [18630533]
+[2023-06-24 18:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630533]
+[2023-06-24 18:34:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 18:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pillar1
+[2023-06-24 18:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synecdoche
+[2023-06-24 18:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefab-cloud-python
+[2023-06-24 18:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-06-24 18:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solidwrap
+[2023-06-24 18:34:53] INFO root fetch - processPackages [prefab-cloud-python]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-24 18:34:54] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.9] Old Version: [0.1.7.8]
+[2023-06-24 18:34:54] INFO root fetch - processPackages [synecdoche]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 18:34:54] INFO root fetch - processPackages [solidwrap]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 18:34:54] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 18:34:54] INFO root fetch - processPackages [prefab-cloud-python]: Downloading https://files.pythonhosted.org/packages/d5/c2/f4834d800425209b2418b8ade16d3cfbe2ca81ab58129083b0e81a43a42c/prefab_cloud_python-0.4.0.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/10/2b/d016557bcb557d5d6e7abcb5e062a371016dfcf37b741adc7ea5af1cec7a/solidwrap-0.0.2.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/1b/51/e46fd75d1d79528e6b7698a3678cf28413fcd52a97141046feebc9124636/pillar1-0.1.7.8.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [synecdoche]: Downloading https://files.pythonhosted.org/packages/4f/0e/7e94845a4cba802cbf7a5db9ed68da50dfa38f09697c5238097d4f9b5e1e/synecdoche-0.0.3.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/ae/15/8d76b017d3cb28f9766fd7d6ddf19ee7b176e36aa63a1a7aa10801968c7c/solidwrap-0.0.3.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [prefab-cloud-python]: Downloading https://files.pythonhosted.org/packages/d8/77/36e8eacab4ecb1c0377fa9f4547c30259b27ad9f78cac03ebd5a58e52c5b/prefab_cloud_python-0.5.0.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/54/df/f37c0351e5a78f12f1a2e74f4341081a13cd7e17550248d485e2a2d5fcd6/pillar1-0.1.7.9.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-24 18:34:54] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230624/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 18:34:54] INFO root fetch - processPackages [prefab-cloud-python]: executing diffoscope
+[2023-06-24 18:34:54] INFO root fetch - processPackages [prefab-cloud-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefab_cloud_python-0.4.0.tar.gz tmp/prefab_cloud_python-0.5.0.tar.gz --markdown 20230624/p/prefab-cloud-python/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 18:34:54] INFO root fetch - processPackages [solidwrap]: executing diffoscope
+[2023-06-24 18:34:54] INFO root fetch - processPackages [solidwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidwrap-0.0.2.tar.gz tmp/solidwrap-0.0.3.tar.gz --markdown 20230624/s/solidwrap/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 18:34:54] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-24 18:34:54] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.8.tar.gz tmp/pillar1-0.1.7.9.tar.gz --markdown 20230624/p/pillar1/0.1.7.8-0.1.7.9/diff.md --exclude *.pyd
+[2023-06-24 18:34:54] INFO root fetch - processPackages [synecdoche]: Downloading https://files.pythonhosted.org/packages/70/05/4e473bb3ef7ee6d64d718c1fff7de354833b6dc87431312ff049a2abd7c2/synecdoche-0.0.4.tar.gz
+[2023-06-24 18:34:54] INFO root fetch - processPackages [synecdoche]: executing diffoscope
+[2023-06-24 18:34:54] INFO root fetch - processPackages [synecdoche]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synecdoche-0.0.3.tar.gz tmp/synecdoche-0.0.4.tar.gz --markdown 20230624/s/synecdoche/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 18:34:55] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-0.0.2.tar.gz]
+[2023-06-24 18:34:55] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-0.0.3.tar.gz]
+[2023-06-24 18:34:55] INFO root fetch - main [MainThread]: End processing [solidwrap]: success
+[2023-06-24 18:34:55] INFO root fetch - processPackages [prefab-cloud-python]: Remove: archive file [/home/abi/fetcher/tmp/prefab_cloud_python-0.4.0.tar.gz]
+[2023-06-24 18:34:55] INFO root fetch - processPackages [prefab-cloud-python]: Remove: archive file [/home/abi/fetcher/tmp/prefab_cloud_python-0.5.0.tar.gz]
+[2023-06-24 18:34:55] INFO root fetch - main [MainThread]: End processing [prefab-cloud-python]: success
+[2023-06-24 18:34:56] INFO root fetch - processPackages [synecdoche]: Remove: archive file [/home/abi/fetcher/tmp/synecdoche-0.0.3.tar.gz]
+[2023-06-24 18:34:56] INFO root fetch - processPackages [synecdoche]: Remove: archive file [/home/abi/fetcher/tmp/synecdoche-0.0.4.tar.gz]
+[2023-06-24 18:34:56] INFO root fetch - main [MainThread]: End processing [synecdoche]: success
+[2023-06-24 18:34:56] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-24 18:34:56] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-24 18:34:56] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-24 18:34:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.8.tar.gz]
+[2023-06-24 18:34:56] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.9.tar.gz]
+[2023-06-24 18:34:56] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-24 18:34:56] INFO root fetch - main [MainThread]: Store serial: [18630552]
