@@ -1887,3 +1887,81 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 02:00:32] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306232354-py3-none-any.whl.zip]
 [2023-06-24 02:00:32] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-24 02:00:32] INFO root fetch - main [MainThread]: Store serial: [18624487]
+[2023-06-24 02:05:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624487]
+[2023-06-24 02:05:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d20-securityLayer
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphstorm
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdxbasics
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mct-nightly
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxkern-nightly
+[2023-06-24 02:05:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spgci
+[2023-06-24 02:05:41] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-24 02:05:41] WARNING root fetch - processPackages [graphstorm]: Skipping, unable to determine old version
+[2023-06-24 02:05:41] INFO root fetch - main [MainThread]: End processing [graphstorm] error
+[2023-06-24 02:05:41] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [spgci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230623.post423] Old Version: [1.9.0.20230622.post403]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [kcli]: New version: [99.0.202306240003] Old Version: [99.0.202306232354]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687478633] Old Version: [1687392205]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [cdxbasics]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a1/8f/a7668f53f400446c9e03f185853efcad8411515a5fb74133c3f183ff3231/kcli-99.0.202306232354-py3-none-any.whl
+[2023-06-24 02:05:41] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/98/f9/e7f346ec99bb43c28ff5966de291c387736e8044087a361a172f731dda79/mct-nightly-1.9.0.20230622.post403.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/f4/6c/6d5dafde97867afe5f0f9b6fdba1cba19cb0f17d248bceca138deadf3b45/torchdatasets-nightly-1687392205.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [spgci]: Downloading https://files.pythonhosted.org/packages/94/45/63c272c3047fc87580751c2c1a49b2da6ca31f87cc36d2bc52d285a37e6e/spgci-0.0.8.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/44/bf/adf4351223f4cd638d1bb79229170666b0915f3adf1e0e9189ee6769224f/cdxbasics-0.2.8.tar.gz
+[2023-06-24 02:05:41] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-06-24 02:05:41] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230624/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-24 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-24 02:05:41] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230624/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-24 02:05:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b8/6f/314f6483f7b16a0b6f0d22d4cc1cf0e97c4fe9031d3ce6c0747f84981c15/kcli-99.0.202306240003-py3-none-any.whl
+[2023-06-24 02:05:42] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/e5/28/d43f2a9a0b17a1cb3cb7226e7142c5b4fd46aec3b162b89e2fa27c8cc61b/torchdatasets-nightly-1687478633.tar.gz
+[2023-06-24 02:05:42] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/61/0f/76f6467b1652f5966b1e93052e51dc1f960025fea25a0f9a7a4331e44384/mct-nightly-1.9.0.20230623.post423.tar.gz
+[2023-06-24 02:05:42] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-24 02:05:42] INFO root fetch - processPackages [spgci]: Downloading https://files.pythonhosted.org/packages/23/ee/39b2ba24bbc6531d21d8a2b5f11bb25fc3a49c25079a5859d7b25ba914d0/spgci-0.0.9.tar.gz
+[2023-06-24 02:05:42] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-24 02:05:42] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306232354-py3-none-any.whl.zip tmp/kcli-99.0.202306240003-py3-none-any.whl.zip --markdown 20230624/k/kcli/99.0.202306232354-99.0.202306240003/diff.md --exclude *.pyd
+[2023-06-24 02:05:42] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-24 02:05:42] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-24 02:05:42] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687392205.tar.gz tmp/torchdatasets-nightly-1687478633.tar.gz --markdown 20230624/t/torchdatasets-nightly/1687392205-1687478633/diff.md --exclude *.pyd
+[2023-06-24 02:05:42] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230624/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-24 02:05:42] INFO root fetch - processPackages [spgci]: executing diffoscope
+[2023-06-24 02:05:42] INFO root fetch - processPackages [spgci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spgci-0.0.8.tar.gz tmp/spgci-0.0.9.tar.gz --markdown 20230624/s/spgci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 02:05:42] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-24 02:05:42] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230622.post403.tar.gz tmp/mct-nightly-1.9.0.20230623.post423.tar.gz --markdown 20230624/m/mct-nightly/1.9.0.20230622.post403-1.9.0.20230623.post423/diff.md --exclude *.pyd
+[2023-06-24 02:05:42] INFO root fetch - processPackages [cdxbasics]: Downloading https://files.pythonhosted.org/packages/70/b4/020ddadf0e041dbe964c3ee126f0ced6d699d6a5c6d0e256f1e532782902/cdxbasics-0.2.9.tar.gz
+[2023-06-24 02:05:42] INFO root fetch - processPackages [cdxbasics]: executing diffoscope
+[2023-06-24 02:05:42] INFO root fetch - processPackages [cdxbasics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdxbasics-0.2.8.tar.gz tmp/cdxbasics-0.2.9.tar.gz --markdown 20230624/c/cdxbasics/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 02:05:43] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-24 02:05:43] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-24 02:05:43] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-24 02:05:43] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687392205.tar.gz]
+[2023-06-24 02:05:43] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687478633.tar.gz]
+[2023-06-24 02:05:43] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-24 02:05:44] INFO root fetch - processPackages [spgci]: Remove: archive file [/home/abi/fetcher/tmp/spgci-0.0.8.tar.gz]
+[2023-06-24 02:05:44] INFO root fetch - processPackages [spgci]: Remove: archive file [/home/abi/fetcher/tmp/spgci-0.0.9.tar.gz]
+[2023-06-24 02:05:44] INFO root fetch - main [MainThread]: End processing [spgci]: success
+[2023-06-24 02:05:44] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-24 02:05:44] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-24 02:05:44] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-24 02:05:44] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.8.tar.gz]
+[2023-06-24 02:05:44] INFO root fetch - processPackages [cdxbasics]: Remove: archive file [/home/abi/fetcher/tmp/cdxbasics-0.2.9.tar.gz]
+[2023-06-24 02:05:44] INFO root fetch - main [MainThread]: End processing [cdxbasics]: success
+[2023-06-24 02:05:45] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-06-24 02:05:45] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-06-24 02:05:45] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-06-24 02:05:46] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230622.post403.tar.gz]
+[2023-06-24 02:05:46] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230623.post423.tar.gz]
+[2023-06-24 02:05:46] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-24 02:05:51] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306232354-py3-none-any.whl.zip]
+[2023-06-24 02:05:51] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306240003-py3-none-any.whl.zip]
+[2023-06-24 02:05:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-24 02:05:51] INFO root fetch - main [MainThread]: Store serial: [18624512]
