@@ -8103,3 +8103,41 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 05:46:39] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-24 05:46:39] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-24 05:46:39] INFO root fetch - main [MainThread]: Store serial: [18626774]
+[2023-06-24 05:51:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626774]
+[2023-06-24 05:51:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 05:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimal-complete-portfolio
+[2023-06-24 05:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo10-addon-l10n-it-central-journal
+[2023-06-24 05:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo11-addon-l10n-it-central-journal
+[2023-06-24 05:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opencv-python-rolling
+[2023-06-24 05:51:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instagram-to-discord
+[2023-06-24 05:51:48] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: New version: [11.0.1.1.1.99.dev4] Old Version: [11.0.1.1.1.99.dev3]
+[2023-06-24 05:51:48] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: New version: [10.0.1.0.3.99.dev3] Old Version: [10.0.1.0.3.99.dev2]
+[2023-06-24 05:51:48] WARNING root fetch - processPackages [optimal-complete-portfolio]: Skipping, unable to determine old version
+[2023-06-24 05:51:48] INFO root fetch - main [MainThread]: End processing [optimal-complete-portfolio] error
+[2023-06-24 05:51:48] INFO root fetch - processPackages [instagram-to-discord]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 05:51:48] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-06-24 05:51:48] INFO root fetch - processPackages [instagram-to-discord]: Downloading https://files.pythonhosted.org/packages/53/ab/e3ef9c60841e09c673b3962b272a7faee689843ad4ea48146d4e088fe9df/instagram-to-discord-0.1.1.tar.gz
+[2023-06-24 05:51:48] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/f4/9c/ac4d823ea8b90c2f90c811b120a69e326637158c0d5cc9e51babe5194c50/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev3-py2.py3-none-any.whl
+[2023-06-24 05:51:48] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/30/41/6892e70067056701055e867a8b1764c776d4287daa55a3893baf481d1f61/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev2-py2-none-any.whl
+[2023-06-24 05:51:48] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-06-24 05:51:48] INFO root fetch - processPackages [instagram-to-discord]: Downloading https://files.pythonhosted.org/packages/25/71/1e7edd72a311bf0cc15d37ea1de50846327ececc087a42e6968dc7a99b84/instagram-to-discord-0.1.2.tar.gz
+[2023-06-24 05:51:48] INFO root fetch - processPackages [instagram-to-discord]: executing diffoscope
+[2023-06-24 05:51:48] INFO root fetch - processPackages [instagram-to-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagram-to-discord-0.1.1.tar.gz tmp/instagram-to-discord-0.1.2.tar.gz --markdown 20230624/i/instagram-to-discord/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 05:51:48] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/ee/1e/4a2e7460359d234bf18514fca6f0482f4025aebd49e4e1ef8ac3a9a9684c/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev4-py2.py3-none-any.whl
+[2023-06-24 05:51:48] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/d0/ba/1bae618248d840096d46007fcc736d9069b9e77e212ecef2d50f44b21e8b/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev3-py2-none-any.whl
+[2023-06-24 05:51:49] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: executing diffoscope
+[2023-06-24 05:51:49] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev2-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev3-py2-none-any.whl.zip --markdown 20230624/o/odoo10-addon-l10n-it-central-journal/10.0.1.0.3.99.dev2-10.0.1.0.3.99.dev3/diff.md --exclude *.pyd
+[2023-06-24 05:51:49] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: executing diffoscope
+[2023-06-24 05:51:49] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev3-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev4-py2.py3-none-any.whl.zip --markdown 20230624/o/odoo11-addon-l10n-it-central-journal/11.0.1.1.1.99.dev3-11.0.1.1.1.99.dev4/diff.md --exclude *.pyd
+[2023-06-24 05:51:49] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-06-24 05:51:49] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-06-24 05:51:50] INFO root fetch - processPackages [instagram-to-discord]: Remove: archive file [/home/abi/fetcher/tmp/instagram-to-discord-0.1.1.tar.gz]
+[2023-06-24 05:51:50] INFO root fetch - processPackages [instagram-to-discord]: Remove: archive file [/home/abi/fetcher/tmp/instagram-to-discord-0.1.2.tar.gz]
+[2023-06-24 05:51:50] INFO root fetch - main [MainThread]: End processing [instagram-to-discord]: success
+[2023-06-24 05:51:50] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev2-py2-none-any.whl.zip]
+[2023-06-24 05:51:50] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev3-py2-none-any.whl.zip]
+[2023-06-24 05:51:50] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-central-journal]: success
+[2023-06-24 05:51:50] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev3-py2.py3-none-any.whl.zip]
+[2023-06-24 05:51:50] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev4-py2.py3-none-any.whl.zip]
+[2023-06-24 05:51:50] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-central-journal]: success
+[2023-06-24 05:51:50] INFO root fetch - main [MainThread]: Store serial: [18626790]
