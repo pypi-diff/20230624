@@ -13732,3 +13732,124 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:00:30] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.9.0.tar.gz]
 [2023-06-24 14:00:30] INFO root fetch - main [MainThread]: End processing [solara]: success
 [2023-06-24 14:00:30] INFO root fetch - main [MainThread]: Store serial: [18629151]
+[2023-06-24 14:05:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629151]
+[2023-06-24 14:05:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: functime
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pwl_writer
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: labelprinterkit
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-indexing
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-dllib
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib-spark2
+[2023-06-24 14:05:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca-spark2
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pwl_writer]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pandas-indexing]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [labelprinterkit]: New version: [0.5.2] Old Version: [0.4.2]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [functime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/07/0c/a47676a439ef5d0228896f2d28de67e599807baa80186d8c8e693eb17c3b/pwl_writer-1.0.0.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/33/4c/bb16edcc92ec3bd4c4c32d3a5c826333425653c50e092baae73746a0ac8b/labelprinterkit-0.4.2.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/ea/4f/b6c62e048fa3326afb5e56cc83d0720acb5907d721bc8535bc7c2a345701/bigdl-dllib-2.4.0b20230623.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/b2/e4/a76ee21ff7326117f6ff5f108c9e6e3dafc2a9aed3622f8184913d8754c7/bigdl_orca-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/8c/5f/7e078a1d339103106f0b327447e6f57813b531c5de3c75b4b8b03ea6c5a3/functime-0.1.8-py3-none-any.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/4d/49/0e76327617c33f1955276578b0411d9dbc63fee3f4f6087ec7fc1850adc4/pandas-indexing-0.2.7.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/36/79/5d3f14a8ac84aecdfe3de867d679acb06757acdebbe1329565a3fb8e9101/bigdl_friesian-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/ca/76/f3332d79c3071d8373060e4a4f1a4df577674617f10eb18dc86ead08739d/bigdl_orca_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/79/54/0a17516f3bd3915fca4267d255f7af1aff869e205d9d98ffdcf8edea6b8c/bigdl-dllib-spark2-2.4.0b20230623.tar.gz
+[2023-06-24 14:05:39] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637868>=10485760
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl-friesian-spark2
+[2023-06-24 14:05:39] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369513>=10485760
+[2023-06-24 14:05:39] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-chronos-spark2
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/b1/82/2447b648bfc9c4c59e34b718173297a41b51732af67d2a40da10a5bafeb3/bigdl-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-24 14:05:39] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369593>=10485760
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-spark2
+[2023-06-24 14:05:39] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-24 14:05:39] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53637913>=10485760
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: fedml
+[2023-06-24 14:05:39] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230624] Old Version: [2.4.0b20230623]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [fedml]: New version: [0.8.5a1] Old Version: [0.8.4a9]
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/28/7f/a8cf3b7d380da07449aaf78cdf42681eba429ad7f46e9da12ad259f89d59/pwl_writer-1.1.0.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/23/a5/dc5a2950ee8e652741facb3e381bdc1cb7e86124d2ff8dccfe5eb779645e/bigdl_friesian-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/1a/b2/0cc4a6200d2e41b5b9ab5d82a8b1b59f81d995a697fb2732db8130cc10ee/pandas-indexing-0.2.8.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/bf/4a/fa10b3812016f535e85f65b329cfd07b43c910a032f33a29ca40dfb77c8c/labelprinterkit-0.5.2.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/3e/68/2fe54c57fe3600ef477244e83dda0142b30712fed74d42fc6b6f0d477a02/bigdl-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/3d/60/99db17e786935ed75d904b305dbfeca9d76a34db451dd148d7a3a3c8d371/bigdl_chronos_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/46/6d/0af7f87ac0d772688f30598335713e51e32c28a4ce746073ab36c6a8fe70/bigdl_friesian_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/d0/c2/14d356c69386d74a9d7a6874a22951d567fd49ff06cdbff45ca83296ab17/bigdl_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [functime]: Downloading https://files.pythonhosted.org/packages/08/bb/2895374c1d5a1be21e6b6efc5c64fefd626d21d92e85f52631e66b5045a6/functime-0.1.9-py3-none-any.whl
+[2023-06-24 14:05:39] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/33/9b/be9e98195d0e435792d20db883ee2ae3f9b661f8bc6a8d98bb9c8a460195/fedml-0.8.4a9.tar.gz
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pwl_writer]: executing diffoscope
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pwl_writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl_writer-1.0.0.tar.gz tmp/pwl_writer-1.1.0.tar.gz --markdown 20230624/p/pwl_writer/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 14:05:39] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 14:05:39] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.4.2.tar.gz tmp/labelprinterkit-0.5.2.tar.gz --markdown 20230624/l/labelprinterkit/0.4.2-0.5.2/diff.md --exclude *.pyd
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-24 14:05:39] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 14:05:39] INFO root fetch - processPackages [functime]: executing diffoscope
+[2023-06-24 14:05:39] INFO root fetch - processPackages [functime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime-0.1.8-py3-none-any.whl.zip tmp/functime-0.1.9-py3-none-any.whl.zip --markdown 20230624/f/functime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2023-06-24 14:05:39] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.2.7.tar.gz tmp/pandas-indexing-0.2.8.tar.gz --markdown 20230624/p/pandas-indexing/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-friesian/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/e5/65/870dd2cf79fbe0112b7f607b74b2d6b91bb94d8ae9d84ba5428cde059758/bigdl_chronos_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/8e/66/d3cb008408892900029168dc89720d7ad915e177d7d3386d8fbfa25298d0/bigdl_friesian_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/1e/97/991edc116da64b9ad2412907f5a5118440c53777e35e265a56a63b0d1b8e/bigdl_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-chronos-spark2/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-spark2/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 14:05:40] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/34/f9/4036955eb5399335bd3f878928cbbf66114d637dfaf44dd892dac219060e/fedml-0.8.5a1.tar.gz
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-24 14:05:40] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip --markdown 20230624/b/bigdl-friesian-spark2/2.4.0b20230623-2.4.0b20230624/diff.md --exclude *.pyd
+[2023-06-24 14:05:40] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-06-24 14:05:40] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.4a9.tar.gz tmp/fedml-0.8.5a1.tar.gz --markdown 20230624/f/fedml/0.8.4a9-0.8.5a1/diff.md --exclude *.pyd
+[2023-06-24 14:05:41] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.0.0.tar.gz]
+[2023-06-24 14:05:41] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.0.tar.gz]
+[2023-06-24 14:05:41] INFO root fetch - processPackages [pwl_writer]: Start processing: labelprinterkit
+[2023-06-24 14:05:41] INFO root fetch - main [MainThread]: End processing [pwl_writer]: success
+[2023-06-24 14:05:41] INFO root fetch - processPackages [labelprinterkit]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-24 14:05:41] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.2.tar.gz]
+[2023-06-24 14:05:41] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.5.2.tar.gz]
+[2023-06-24 14:05:41] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 14:05:41] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/37/e3/e2c08d2cc8c4a5c297941a188bb45b18e312562ce8573d3acbc68c97d2ae/labelprinterkit-0.5.3.tar.gz
+[2023-06-24 14:05:41] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:41] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:41] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-24 14:05:41] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.1.8-py3-none-any.whl.zip]
+[2023-06-24 14:05:41] INFO root fetch - processPackages [functime]: Remove: archive file [/home/abi/fetcher/tmp/functime-0.1.9-py3-none-any.whl.zip]
+[2023-06-24 14:05:41] INFO root fetch - main [MainThread]: End processing [functime]: success
+[2023-06-24 14:05:41] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 14:05:41] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.5.2.tar.gz tmp/labelprinterkit-0.5.3.tar.gz --markdown 20230624/l/labelprinterkit/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-24 14:05:42] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:42] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:42] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-24 14:05:42] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:42] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:42] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-24 14:05:42] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:42] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:42] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-24 14:05:42] ERROR root fetch - processPackages [labelprinterkit]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/labelprinterkit-0.5.2.tar.gz: No such file or directory
+
+[2023-06-24 14:05:42] INFO root fetch - main [MainThread]: End processing [labelprinterkit] error
+[2023-06-24 14:05:43] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230623-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:43] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230624-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-24 14:05:43] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-24 14:05:51] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.4a9.tar.gz]
+[2023-06-24 14:05:51] INFO root fetch - processPackages [fedml]: Remove: archive file [/home/abi/fetcher/tmp/fedml-0.8.5a1.tar.gz]
+[2023-06-24 14:05:51] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-06-24 14:06:07] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.7.tar.gz]
+[2023-06-24 14:06:07] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.8.tar.gz]
+[2023-06-24 14:06:07] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2023-06-24 14:06:07] INFO root fetch - main [MainThread]: Store serial: [18629191]
