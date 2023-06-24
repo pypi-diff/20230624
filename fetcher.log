@@ -10427,3 +10427,39 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:08:13] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230623.tar.gz]
 [2023-06-24 08:08:13] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2023-06-24 08:08:13] INFO root fetch - main [MainThread]: Store serial: [18627567]
+[2023-06-24 08:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627567]
+[2023-06-24 08:13:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 08:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pqp
+[2023-06-24 08:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: micropython-mmc5603
+[2023-06-24 08:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commonX
+[2023-06-24 08:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iterum
+[2023-06-24 08:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YoHtml
+[2023-06-24 08:13:22] WARNING root fetch - processPackages [micropython-mmc5603]: Skipping, unable to determine old version
+[2023-06-24 08:13:22] INFO root fetch - main [MainThread]: End processing [micropython-mmc5603] error
+[2023-06-24 08:13:22] INFO root fetch - processPackages [commonX]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-24 08:13:22] WARNING root fetch - processPackages [YoHtml]: Skipping, unable to determine old version
+[2023-06-24 08:13:22] INFO root fetch - main [MainThread]: End processing [YoHtml] error
+[2023-06-24 08:13:22] INFO root fetch - processPackages [iterum]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-06-24 08:13:22] INFO root fetch - processPackages [pqp]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-24 08:13:22] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/dc/67/7f45503ea2d1beedfd1cda316f77e23d831b6f39f1bd299fe32683c915d5/pqp-0.3.2.tar.gz
+[2023-06-24 08:13:23] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/3d/6a/9dd8e3f69e255e710e794e79398efcb712c32824f08d738f19b1b516f47e/commonX-0.4.8.tar.gz
+[2023-06-24 08:13:23] INFO root fetch - processPackages [iterum]: Downloading https://files.pythonhosted.org/packages/04/dd/13b7173cc65cf076f9b865da040a3e134515091759599853c1e6bdd1d389/iterum-0.0.0-py3-none-any.whl
+[2023-06-24 08:13:23] INFO root fetch - processPackages [iterum]: Downloading https://files.pythonhosted.org/packages/cc/9a/7bee5827588e0a062d83c34c944051edee704f0f5170accac48492347b23/iterum-0.1.0-py3-none-any.whl
+[2023-06-24 08:13:23] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/9a/3e/25fac80f306855672b07980d6943411c81c462270986dc2efca3fba31d6e/pqp-0.3.3.tar.gz
+[2023-06-24 08:13:23] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/75/96/8d4d8565fd0cadb9dcc08897d35660f1863ee7c42a5413cd96ed763415c6/commonX-0.4.9.tar.gz
+[2023-06-24 08:13:23] INFO root fetch - processPackages [iterum]: executing diffoscope
+[2023-06-24 08:13:23] INFO root fetch - processPackages [iterum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iterum-0.0.0-py3-none-any.whl.zip tmp/iterum-0.1.0-py3-none-any.whl.zip --markdown 20230624/i/iterum/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 08:13:23] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-06-24 08:13:23] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.8.tar.gz tmp/commonX-0.4.9.tar.gz --markdown 20230624/c/commonX/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-24 08:13:23] INFO root fetch - processPackages [pqp]: executing diffoscope
+[2023-06-24 08:13:23] INFO root fetch - processPackages [pqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqp-0.3.2.tar.gz tmp/pqp-0.3.3.tar.gz --markdown 20230624/p/pqp/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-24 08:13:24] INFO root fetch - processPackages [iterum]: Remove: archive file [/home/abi/fetcher/tmp/iterum-0.0.0-py3-none-any.whl.zip]
+[2023-06-24 08:13:24] INFO root fetch - processPackages [iterum]: Remove: archive file [/home/abi/fetcher/tmp/iterum-0.1.0-py3-none-any.whl.zip]
+[2023-06-24 08:13:24] INFO root fetch - main [MainThread]: End processing [iterum]: success
+[2023-06-24 08:13:24] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.8.tar.gz]
+[2023-06-24 08:13:24] INFO root fetch - processPackages [commonX]: Remove: archive file [/home/abi/fetcher/tmp/commonX-0.4.9.tar.gz]
+[2023-06-24 08:13:24] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-06-24 08:13:25] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.2.tar.gz]
+[2023-06-24 08:13:25] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.3.tar.gz]
+[2023-06-24 08:13:25] INFO root fetch - main [MainThread]: End processing [pqp]: success
+[2023-06-24 08:13:25] INFO root fetch - main [MainThread]: Store serial: [18627586]
