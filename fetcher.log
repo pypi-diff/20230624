@@ -11869,3 +11869,24 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:57:01] INFO root fetch - processPackages [tl2]: Remove: archive file [/home/abi/fetcher/tmp/tl2-0.1.1.tar.gz]
 [2023-06-24 10:57:01] INFO root fetch - main [MainThread]: End processing [tl2]: success
 [2023-06-24 10:57:01] INFO root fetch - main [MainThread]: Store serial: [18628191]
+[2023-06-24 11:02:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628191]
+[2023-06-24 11:02:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 11:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vedro-gitlab-reporter
+[2023-06-24 11:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EncroX
+[2023-06-24 11:02:10] INFO root fetch - processPackages [EncroX]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-24 11:02:10] INFO root fetch - processPackages [vedro-gitlab-reporter]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-24 11:02:10] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/a3/43/ebb6d31f1d6e9ca924aab70a9a86281ca576873f8e39bd5d3619d130a836/EncroX-1.0.4.tar.gz
+[2023-06-24 11:02:10] INFO root fetch - processPackages [vedro-gitlab-reporter]: Downloading https://files.pythonhosted.org/packages/13/66/e0ebc3c39f537ae54733be9b9ca240559e3a95ea80138a47378ea2753e13/vedro-gitlab-reporter-2.0.0.tar.gz
+[2023-06-24 11:02:10] INFO root fetch - processPackages [EncroX]: Downloading https://files.pythonhosted.org/packages/11/7b/4bf3af92e9ad10b9fc0a67558fd4c9ce7c268705d94ae1cc508445992f58/EncroX-1.0.5.tar.gz
+[2023-06-24 11:02:10] INFO root fetch - processPackages [vedro-gitlab-reporter]: Downloading https://files.pythonhosted.org/packages/99/ea/b8764b40f97dfc0005f7e1d874fee5759d04307f2c96e2aa7cf5a474ada4/vedro-gitlab-reporter-2.1.0.tar.gz
+[2023-06-24 11:02:11] INFO root fetch - processPackages [vedro-gitlab-reporter]: executing diffoscope
+[2023-06-24 11:02:11] INFO root fetch - processPackages [vedro-gitlab-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vedro-gitlab-reporter-2.0.0.tar.gz tmp/vedro-gitlab-reporter-2.1.0.tar.gz --markdown 20230624/v/vedro-gitlab-reporter/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-24 11:02:11] INFO root fetch - processPackages [EncroX]: executing diffoscope
+[2023-06-24 11:02:11] INFO root fetch - processPackages [EncroX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EncroX-1.0.4.tar.gz tmp/EncroX-1.0.5.tar.gz --markdown 20230624/E/EncroX/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 11:02:12] INFO root fetch - processPackages [vedro-gitlab-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vedro-gitlab-reporter-2.0.0.tar.gz]
+[2023-06-24 11:02:12] INFO root fetch - processPackages [vedro-gitlab-reporter]: Remove: archive file [/home/abi/fetcher/tmp/vedro-gitlab-reporter-2.1.0.tar.gz]
+[2023-06-24 11:02:12] INFO root fetch - main [MainThread]: End processing [vedro-gitlab-reporter]: success
+[2023-06-24 11:02:12] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.4.tar.gz]
+[2023-06-24 11:02:12] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.5.tar.gz]
+[2023-06-24 11:02:12] INFO root fetch - main [MainThread]: End processing [EncroX]: success
+[2023-06-24 11:02:12] INFO root fetch - main [MainThread]: Store serial: [18628219]
