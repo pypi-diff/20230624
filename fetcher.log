@@ -18790,3 +18790,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:13:45] INFO root fetch - processPackages [WIDscript]: Remove: archive file [/home/abi/fetcher/tmp/WIDscript-1.1.0.tar.gz]
 [2023-06-24 21:13:45] INFO root fetch - main [MainThread]: End processing [WIDscript]: success
 [2023-06-24 21:13:45] INFO root fetch - main [MainThread]: Store serial: [18631456]
+[2023-06-24 21:18:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631456]
+[2023-06-24 21:18:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-flexcell
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drizzutojr-vader
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: latch
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atro-pyrsync
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-portfolio-index
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfaust
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfaust-openblaso
+[2023-06-24 21:18:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyfaust-torch
+[2023-06-24 21:18:54] INFO root fetch - processPackages [c4m-flexcell]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 21:18:54] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [drizzutojr-vader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [pyfaust-torch]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [pyfaust-openblaso]: New version: [3.38.9] Old Version: [3.38.8]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [pyfaust]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/7b/ef/b6a5db0df8b02e98986647efbf5c0c96e243e46e7dddfed29fde9bc1e751/atro-pyrsync-0.0.1.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/94/7e/1e2084b80816e98f9fbf75c4468fc196aa2d9fa6f486d02fb1d8606e4301/c4m_flexcell-0.3.1.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/db/5e/84370ebef063935cd1a933a1c270c5352724276bdec170a82b242a7e1eb1/drizzutojr_vader-0.0.8-py3-none-any.whl
+[2023-06-24 21:18:55] INFO root fetch - processPackages [pyfaust-openblaso]: Downloading https://files.pythonhosted.org/packages/59/0f/a671bb18f0866e38b3711c876d95dfa037f0ffd6e093480ae6ce5db7d8a6/pyfaust_openblaso-3.38.8-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-24 21:18:55] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/18/b5/0740195b9ccd0e43e427280344d5fb3706996ff6f66655fe6f79cd230aaa/pyfaust-3.9.0-cp39-cp39-win_amd64.whl
+[2023-06-24 21:18:55] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/26/77/6d6f6c74db3fb6eea549a03a2bd2fa5effb4fadb83aa038856b0abfce6e7/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-06-24 21:18:55] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/13/ab/07f722f7db653535a5b504ad6e80e1cd9a954736401dcb3e9ef450f09fbd/py-portfolio-index-0.0.5.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-06-24 21:18:55] WARNING root fetch - processPackages [pyfaust-openblaso]: Skipping package: exceeds size limit 22956958>=10485760
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230624/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-24 21:18:55] INFO root fetch - main [MainThread]: End processing [pyfaust-openblaso] error
+[2023-06-24 21:18:55] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/fa/2e/2511897693e2152cfffb67f6eba930275ab44542a3b10c1b2452a9c525fb/atro-pyrsync-0.0.2.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-06-24 21:18:55] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230624/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-24 21:18:55] INFO root fetch - processPackages [c4m-flexcell]: Downloading https://files.pythonhosted.org/packages/d2/e6/a01441ab6b1442bfb4c8e90aaa6ce9d1d98d8beda00067c8333b7ba681f2/c4m_flexcell-0.3.2-py3-none-any.whl
+[2023-06-24 21:18:55] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-06-24 21:18:55] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.1.tar.gz tmp/atro-pyrsync-0.0.2.tar.gz --markdown 20230624/a/atro-pyrsync/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 21:18:55] INFO root fetch - processPackages [drizzutojr-vader]: Downloading https://files.pythonhosted.org/packages/be/92/131ee5e1e15914cc4f2e26d19a7a24cd4d888ec0fce1f6e18ce711f886de/drizzutojr_vader-0.0.9-py3-none-any.whl
+[2023-06-24 21:18:55] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2023-06-24 21:18:55] INFO root fetch - processPackages [c4m-flexcell]: executing diffoscope
+[2023-06-24 21:18:55] INFO root fetch - processPackages [c4m-flexcell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_flexcell-0.3.1.tar.gz tmp/c4m_flexcell-0.3.2-py3-none-any.whl.zip --markdown 20230624/c/c4m-flexcell/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 21:18:55] INFO root fetch - processPackages [drizzutojr-vader]: executing diffoscope
+[2023-06-24 21:18:55] INFO root fetch - processPackages [drizzutojr-vader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:18:55] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2023-06-24 21:18:55] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.5.tar.gz tmp/py-portfolio-index-0.0.8.tar.gz --markdown 20230624/p/py-portfolio-index/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 21:18:56] INFO root fetch - processPackages [pyfaust-torch]: Downloading https://files.pythonhosted.org/packages/6b/7a/69cf6ad676c709b11407df6a8f180ea20bb9f143ecca990b23dda5f76ca2/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-06-24 21:18:56] INFO root fetch - processPackages [pyfaust-torch]: executing diffoscope
+[2023-06-24 21:18:56] INFO root fetch - processPackages [pyfaust-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230624/p/pyfaust-torch/3.38.8-3.38.9/diff.md --exclude *.pyd
+[2023-06-24 21:18:57] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.1.tar.gz]
+[2023-06-24 21:18:57] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.2.tar.gz]
+[2023-06-24 21:18:57] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-06-24 21:18:57] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.1.tar.gz]
+[2023-06-24 21:18:57] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.3.2-py3-none-any.whl.zip]
+[2023-06-24 21:18:57] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
+[2023-06-24 21:18:57] INFO root fetch - processPackages [pyfaust]: Downloading https://files.pythonhosted.org/packages/34/28/ab7cd91f9611bbe2d9ff5bfc6934eb6af283249b75ac68c9d0b6befcd0b5/pyfaust-3.9.1-cp39-cp39-win_amd64.whl
+[2023-06-24 21:18:57] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-06-24 21:18:57] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-06-24 21:18:57] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-24 21:18:57] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.8-py3-none-any.whl.zip]
+[2023-06-24 21:18:57] INFO root fetch - processPackages [drizzutojr-vader]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vader-0.0.9-py3-none-any.whl.zip]
+[2023-06-24 21:18:57] INFO root fetch - main [MainThread]: End processing [drizzutojr-vader]: success
+[2023-06-24 21:18:57] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-06-24 21:18:58] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.5.tar.gz]
+[2023-06-24 21:18:58] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2023-06-24 21:18:58] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2023-06-24 21:18:59] INFO root fetch - processPackages [pyfaust]: executing diffoscope
+[2023-06-24 21:18:59] INFO root fetch - processPackages [pyfaust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230624/p/pyfaust/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-24 21:19:35] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 21:19:35] INFO root fetch - processPackages [pyfaust]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust-3.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 21:19:35] INFO root fetch - main [MainThread]: End processing [pyfaust]: success
+[2023-06-24 21:19:36] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.8-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-06-24 21:19:36] INFO root fetch - processPackages [pyfaust-torch]: Remove: archive file [/home/abi/fetcher/tmp/pyfaust_torch-3.38.9-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2023-06-24 21:19:36] INFO root fetch - main [MainThread]: End processing [pyfaust-torch]: success
+[2023-06-24 21:19:36] INFO root fetch - main [MainThread]: Store serial: [18631485]
