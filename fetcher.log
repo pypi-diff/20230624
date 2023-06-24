@@ -13964,3 +13964,27 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:21:47] INFO root fetch - processPackages [tumfl]: Remove: archive file [/home/abi/fetcher/tmp/tumfl-0.1.9.tar.gz]
 [2023-06-24 14:21:47] INFO root fetch - main [MainThread]: End processing [tumfl]: success
 [2023-06-24 14:21:47] INFO root fetch - main [MainThread]: Store serial: [18629239]
+[2023-06-24 14:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629239]
+[2023-06-24 14:26:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 14:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-not-dr
+[2023-06-24 14:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyspimosim
+[2023-06-24 14:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atro-pylog
+[2023-06-24 14:26:56] WARNING root fetch - processPackages [lib-not-dr]: Skipping, unable to determine old version
+[2023-06-24 14:26:56] INFO root fetch - main [MainThread]: End processing [lib-not-dr] error
+[2023-06-24 14:26:56] INFO root fetch - processPackages [atro-pylog]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 14:26:56] INFO root fetch - processPackages [pyspimosim]: New version: [1.2.15] Old Version: [0.2.14.2]
+[2023-06-24 14:26:56] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/21/75/a2d0b81da1f08e0c36acf06a7e7e7600e6fd51c49b573e7d04e0486ab5b2/atro-pylog-0.0.4.tar.gz
+[2023-06-24 14:26:57] INFO root fetch - processPackages [pyspimosim]: Downloading https://files.pythonhosted.org/packages/af/68/058440f45fe47679a65f638cdab43f5b714772262c24347effaac4f103a6/pyspimosim-0.2.14.2-py3-none-any.whl
+[2023-06-24 14:26:57] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/8a/3c/7478274bef2377f760799fa54742fa2c0760ae475b56b2aa7c444730223f/atro-pylog-0.0.5.tar.gz
+[2023-06-24 14:26:57] INFO root fetch - processPackages [atro-pylog]: executing diffoscope
+[2023-06-24 14:26:57] INFO root fetch - processPackages [atro-pylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pylog-0.0.4.tar.gz tmp/atro-pylog-0.0.5.tar.gz --markdown 20230624/a/atro-pylog/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 14:26:57] INFO root fetch - processPackages [pyspimosim]: Downloading https://files.pythonhosted.org/packages/1b/47/7b8f4556df7b047e7a524200b877f85f295ee17531248d7874222fc76004/pyspimosim-1.2.15-py3-none-any.whl
+[2023-06-24 14:26:57] INFO root fetch - processPackages [pyspimosim]: executing diffoscope
+[2023-06-24 14:26:57] INFO root fetch - processPackages [pyspimosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspimosim-0.2.14.2-py3-none-any.whl.zip tmp/pyspimosim-1.2.15-py3-none-any.whl.zip --markdown 20230624/p/pyspimosim/0.2.14.2-1.2.15/diff.md --exclude *.pyd
+[2023-06-24 14:26:58] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.4.tar.gz]
+[2023-06-24 14:26:58] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.5.tar.gz]
+[2023-06-24 14:26:58] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
+[2023-06-24 14:27:02] INFO root fetch - processPackages [pyspimosim]: Remove: archive file [/home/abi/fetcher/tmp/pyspimosim-0.2.14.2-py3-none-any.whl.zip]
+[2023-06-24 14:27:02] INFO root fetch - processPackages [pyspimosim]: Remove: archive file [/home/abi/fetcher/tmp/pyspimosim-1.2.15-py3-none-any.whl.zip]
+[2023-06-24 14:27:02] INFO root fetch - main [MainThread]: End processing [pyspimosim]: success
+[2023-06-24 14:27:02] INFO root fetch - main [MainThread]: Store serial: [18629250]
