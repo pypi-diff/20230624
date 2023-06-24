@@ -10245,3 +10245,44 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 07:47:26] INFO root fetch - processPackages [odoo8-addon-website-slides]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_website_slides-8.0.2.0.1.99.dev9-py2-none-any.whl.zip]
 [2023-06-24 07:47:26] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-slides]: success
 [2023-06-24 07:47:26] INFO root fetch - main [MainThread]: Store serial: [18627479]
+[2023-06-24 07:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627479]
+[2023-06-24 07:52:35] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-24 07:57:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627481]
+[2023-06-24 07:57:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pcloud
+[2023-06-24 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pqp
+[2023-06-24 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pxutil
+[2023-06-24 07:57:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-email-log-backend
+[2023-06-24 07:57:41] INFO root fetch - processPackages [pqp]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 07:57:41] INFO root fetch - processPackages [django-email-log-backend]: New version: [0.3rc4] Old Version: [0.3.4]
+[2023-06-24 07:57:41] INFO root fetch - processPackages [pcloud]: New version: [1.2] Old Version: [1.1]
+[2023-06-24 07:57:41] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 07:57:41] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2023-06-24 07:57:41] INFO root fetch - processPackages [django-email-log-backend]: Downloading https://files.pythonhosted.org/packages/19/a8/465958e8f66fe286e75ecbd2f0221638a24d8835e66ad69b20ee27da352e/django-email-log-backend-0.3.4.tar.gz
+[2023-06-24 07:57:41] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/7d/e9/b151c20c6168949d7d61ac1fb31bdbb72a0b7021aa8b30e97bce0070e849/pqp-0.3.0.tar.gz
+[2023-06-24 07:57:41] INFO root fetch - processPackages [pcloud]: Downloading https://files.pythonhosted.org/packages/52/88/fc6e906befa0207ca75ddceb3d1b43b5502cd06d3919a06cb8d6219397df/pcloud-1.1.tar.gz
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20230624/p/pxutil/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 07:57:42] INFO root fetch - processPackages [django-email-log-backend]: Downloading https://files.pythonhosted.org/packages/7d/16/7d3fc6e5f34d1b0fd52d1e3a2aa29d37e005ba23e22ea5277f6b6b235159/django-email-log-backend-0.3rc4.tar.gz
+[2023-06-24 07:57:42] INFO root fetch - processPackages [django-email-log-backend]: executing diffoscope
+[2023-06-24 07:57:42] INFO root fetch - processPackages [django-email-log-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-email-log-backend-0.3.4.tar.gz tmp/django-email-log-backend-0.3rc4.tar.gz --markdown 20230624/d/django-email-log-backend/0.3.4-0.3rc4/diff.md --exclude *.pyd
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pcloud]: Downloading https://files.pythonhosted.org/packages/38/2f/786f929133ac9574683e92fd8ff261eed18c1bb86380ea5dcc5d9ec440e6/pcloud-1.2.tar.gz
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pqp]: Downloading https://files.pythonhosted.org/packages/dc/a2/2bb71399480daf3543aa56e4af421651eeded9cdf10c9c3024d67e7ef294/pqp-0.3.1.tar.gz
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pcloud]: executing diffoscope
+[2023-06-24 07:57:42] INFO root fetch - processPackages [pcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcloud-1.1.tar.gz tmp/pcloud-1.2.tar.gz --markdown 20230624/p/pcloud/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-24 07:57:43] INFO root fetch - processPackages [pqp]: executing diffoscope
+[2023-06-24 07:57:43] INFO root fetch - processPackages [pqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqp-0.3.0.tar.gz tmp/pqp-0.3.1.tar.gz --markdown 20230624/p/pqp/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 07:57:43] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2023-06-24 07:57:43] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2023-06-24 07:57:43] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2023-06-24 07:57:43] INFO root fetch - processPackages [django-email-log-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-email-log-backend-0.3.4.tar.gz]
+[2023-06-24 07:57:43] INFO root fetch - processPackages [django-email-log-backend]: Remove: archive file [/home/abi/fetcher/tmp/django-email-log-backend-0.3rc4.tar.gz]
+[2023-06-24 07:57:43] INFO root fetch - main [MainThread]: End processing [django-email-log-backend]: success
+[2023-06-24 07:57:43] INFO root fetch - processPackages [pcloud]: Remove: archive file [/home/abi/fetcher/tmp/pcloud-1.1.tar.gz]
+[2023-06-24 07:57:43] INFO root fetch - processPackages [pcloud]: Remove: archive file [/home/abi/fetcher/tmp/pcloud-1.2.tar.gz]
+[2023-06-24 07:57:43] INFO root fetch - main [MainThread]: End processing [pcloud]: success
+[2023-06-24 07:57:46] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.0.tar.gz]
+[2023-06-24 07:57:46] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.1.tar.gz]
+[2023-06-24 07:57:46] INFO root fetch - main [MainThread]: End processing [pqp]: success
+[2023-06-24 07:57:46] INFO root fetch - main [MainThread]: Store serial: [18627512]
