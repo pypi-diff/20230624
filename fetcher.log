@@ -20462,3 +20462,59 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:37:46] INFO root fetch - processPackages [mantium-spec]: Remove: archive file [/home/abi/fetcher/tmp/mantium_spec-1.0.406.tar.gz]
 [2023-06-24 23:37:46] INFO root fetch - main [MainThread]: End processing [mantium-spec]: success
 [2023-06-24 23:37:46] INFO root fetch - main [MainThread]: Store serial: [18632181]
+[2023-06-24 23:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632181]
+[2023-06-24 23:42:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twitter-api-client
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aicodebot
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-uaioweb
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glimy
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coursebox
+[2023-06-24 23:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-06-24 23:42:55] INFO root fetch - processPackages [aicodebot]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-24 23:42:55] WARNING root fetch - processPackages [micropython-uaioweb]: Skipping, unable to determine old version
+[2023-06-24 23:42:55] INFO root fetch - main [MainThread]: End processing [micropython-uaioweb] error
+[2023-06-24 23:42:55] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-24 23:42:55] INFO root fetch - processPackages [glimy]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-06-24 23:42:55] INFO root fetch - processPackages [twitter-api-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 23:42:55] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 23:42:55] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-24 23:42:55] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-24 23:42:55] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-06-24 23:42:55] INFO root fetch - processPackages [glimy]: Downloading https://files.pythonhosted.org/packages/c6/7b/8c11dc81397825255931c4a143faa3d43ae9d7a6f347602077ef56f3dc3c/glimy-5.0.0.tar.gz
+[2023-06-24 23:42:55] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-24 23:42:55] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-24 23:42:55] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-24 23:42:55] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/95/1b/7278f88d3c5ffb9d5bbf154ed1f9c5a671b164cb6b2047b37443b0227705/aicodebot-0.4.0.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/6d/c9/1d547e8da64fdc6c40cf41bfcd04bab1dc66b8b77d10c444ff66c5a904dc/twitter-api-client-0.9.8.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [aicodebot]: Downloading https://files.pythonhosted.org/packages/02/4e/afc5d634b695026e57c0b2face49244a2d05d928889a4d063dba210c39a8/aicodebot-0.4.1.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [aicodebot]: executing diffoscope
+[2023-06-24 23:42:56] INFO root fetch - processPackages [aicodebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicodebot-0.4.0.tar.gz tmp/aicodebot-0.4.1.tar.gz --markdown 20230624/a/aicodebot/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-24 23:42:56] INFO root fetch - processPackages [twitter-api-client]: Downloading https://files.pythonhosted.org/packages/01/72/7a27249d90e3f2e1c268ed5863305cd0c3a1970bb7a1b645b17053605afe/twitter-api-client-0.9.9.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [glimy]: Downloading https://files.pythonhosted.org/packages/a6/a4/90cf6df58d894e3fa50721321c22789c919213e29e234cb11b586c950eb0/glimy-5.0.1.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-06-24 23:42:56] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230624/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 23:42:56] INFO root fetch - processPackages [glimy]: executing diffoscope
+[2023-06-24 23:42:56] INFO root fetch - processPackages [glimy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glimy-5.0.0.tar.gz tmp/glimy-5.0.1.tar.gz --markdown 20230624/g/glimy/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-06-24 23:42:56] INFO root fetch - processPackages [twitter-api-client]: executing diffoscope
+[2023-06-24 23:42:56] INFO root fetch - processPackages [twitter-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter-api-client-0.9.8.tar.gz tmp/twitter-api-client-0.9.9.tar.gz --markdown 20230624/t/twitter-api-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 23:42:56] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-24 23:42:56] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-24 23:42:56] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230624/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-24 23:42:57] INFO root fetch - processPackages [glimy]: Remove: archive file [/home/abi/fetcher/tmp/glimy-5.0.0.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - processPackages [glimy]: Remove: archive file [/home/abi/fetcher/tmp/glimy-5.0.1.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - main [MainThread]: End processing [glimy]: success
+[2023-06-24 23:42:57] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.4.0.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - processPackages [aicodebot]: Remove: archive file [/home/abi/fetcher/tmp/aicodebot-0.4.1.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - main [MainThread]: End processing [aicodebot]: success
+[2023-06-24 23:42:57] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-06-24 23:42:57] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.8.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - processPackages [twitter-api-client]: Remove: archive file [/home/abi/fetcher/tmp/twitter-api-client-0.9.9.tar.gz]
+[2023-06-24 23:42:57] INFO root fetch - main [MainThread]: End processing [twitter-api-client]: success
+[2023-06-24 23:43:30] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-24 23:43:30] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-24 23:43:30] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-24 23:43:30] INFO root fetch - main [MainThread]: Store serial: [18632204]
