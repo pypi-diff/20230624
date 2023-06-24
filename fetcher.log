@@ -7622,3 +7622,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 05:15:14] INFO root fetch - processPackages [odoo8-addon-base-delivery-carrier-label]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_delivery_carrier_label-8.0.1.2.0.99.dev52-py2-none-any.whl.zip]
 [2023-06-24 05:15:14] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-delivery-carrier-label]: success
 [2023-06-24 05:15:14] INFO root fetch - main [MainThread]: Store serial: [18626513]
+[2023-06-24 05:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626513]
+[2023-06-24 05:20:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 05:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-module-register
+[2023-06-24 05:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyzstd
+[2023-06-24 05:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfsim-nightly
+[2023-06-24 05:20:23] INFO root fetch - processPackages [fastapi-module-register]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 05:20:23] INFO root fetch - processPackages [fastapi-module-register]: Downloading https://files.pythonhosted.org/packages/c9/99/2230a80dd2d3ae9b8ef59a4b049f7246e41ebf951a7ae2f7c87e345d8520/fastapi_module_register-0.0.2.tar.gz
+[2023-06-24 05:20:23] INFO root fetch - processPackages [tfsim-nightly]: New version: [0.18.0.dev6] Old Version: [0.18.0.dev5]
+[2023-06-24 05:20:23] INFO root fetch - processPackages [pyzstd]: New version: [0.15.9] Old Version: [0.15.7]
+[2023-06-24 05:20:23] INFO root fetch - processPackages [fastapi-module-register]: Downloading https://files.pythonhosted.org/packages/2f/56/ce2c8b64618199cbadb976297722471ec58e0334d5f2949c484d6262811f/fastapi_module_register-0.0.3.tar.gz
+[2023-06-24 05:20:23] INFO root fetch - processPackages [tfsim-nightly]: Downloading https://files.pythonhosted.org/packages/49/02/95168d043807237d6965e83b33e14c4981bb21996db5404f50ef0b6e0ae2/tfsim-nightly-0.18.0.dev5.tar.gz
+[2023-06-24 05:20:23] INFO root fetch - processPackages [fastapi-module-register]: executing diffoscope
+[2023-06-24 05:20:23] INFO root fetch - processPackages [fastapi-module-register]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_module_register-0.0.2.tar.gz tmp/fastapi_module_register-0.0.3.tar.gz --markdown 20230624/f/fastapi-module-register/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 05:20:23] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/58/4c/00869826c27857250d2360ce7f5bed1906ed38ced67b783a1998df71eeaf/pyzstd-0.15.7.tar.gz
+[2023-06-24 05:20:23] INFO root fetch - processPackages [tfsim-nightly]: Downloading https://files.pythonhosted.org/packages/44/82/c67d62fdd0e18fe709e60d2bbd325957d86631d275981cfee32291515683/tfsim-nightly-0.18.0.dev6.tar.gz
+[2023-06-24 05:20:23] INFO root fetch - processPackages [pyzstd]: Downloading https://files.pythonhosted.org/packages/cb/5d/9dc31f470258fd5d16ad13d958fa0ae5d361023716abfd7b22411be201f4/pyzstd-0.15.9-cp37-cp37m-musllinux_1_1_i686.whl
+[2023-06-24 05:20:24] INFO root fetch - processPackages [tfsim-nightly]: executing diffoscope
+[2023-06-24 05:20:24] INFO root fetch - processPackages [tfsim-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfsim-nightly-0.18.0.dev5.tar.gz tmp/tfsim-nightly-0.18.0.dev6.tar.gz --markdown 20230624/t/tfsim-nightly/0.18.0.dev5-0.18.0.dev6/diff.md --exclude *.pyd
+[2023-06-24 05:20:24] INFO root fetch - processPackages [fastapi-module-register]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_register-0.0.2.tar.gz]
+[2023-06-24 05:20:24] INFO root fetch - processPackages [fastapi-module-register]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_register-0.0.3.tar.gz]
+[2023-06-24 05:20:24] INFO root fetch - main [MainThread]: End processing [fastapi-module-register]: success
+[2023-06-24 05:20:24] INFO root fetch - processPackages [pyzstd]: executing diffoscope
+[2023-06-24 05:20:24] INFO root fetch - processPackages [pyzstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzstd-0.15.7.tar.gz tmp/pyzstd-0.15.9-cp37-cp37m-musllinux_1_1_i686.whl.zip --markdown 20230624/p/pyzstd/0.15.7-0.15.9/diff.md --exclude *.pyd
+[2023-06-24 05:20:26] INFO root fetch - processPackages [tfsim-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfsim-nightly-0.18.0.dev5.tar.gz]
+[2023-06-24 05:20:26] INFO root fetch - processPackages [tfsim-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfsim-nightly-0.18.0.dev6.tar.gz]
+[2023-06-24 05:20:26] INFO root fetch - main [MainThread]: End processing [tfsim-nightly]: success
+[2023-06-24 05:20:26] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.7.tar.gz]
+[2023-06-24 05:20:26] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.9-cp37-cp37m-musllinux_1_1_i686.whl.zip]
+[2023-06-24 05:20:26] INFO root fetch - main [MainThread]: End processing [pyzstd]: success
+[2023-06-24 05:20:26] INFO root fetch - main [MainThread]: Store serial: [18626580]
