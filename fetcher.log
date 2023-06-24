@@ -17668,3 +17668,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:48:43] INFO root fetch - processPackages [deepblu-tools]: Remove: archive file [/home/abi/fetcher/tmp/deepblu-tools-2.1.4.tar.gz]
 [2023-06-24 19:48:43] INFO root fetch - main [MainThread]: End processing [deepblu-tools]: success
 [2023-06-24 19:48:43] INFO root fetch - main [MainThread]: Store serial: [18630900]
+[2023-06-24 19:53:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630900]
+[2023-06-24 19:53:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcsolver
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nagooglesearch
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fdlogger
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite3-to-mysql
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlexTraktSync
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smithed-libraries
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsutils-ms
+[2023-06-24 19:53:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-middleware-python
+[2023-06-24 19:53:53] INFO root fetch - processPackages [mcsolver]: New version: [3.0.4] Old Version: [3.0.2]
+[2023-06-24 19:53:53] INFO root fetch - processPackages [fdlogger]: New version: [23.6.9] Old Version: [23.6.4]
+[2023-06-24 19:53:53] INFO root fetch - processPackages [PlexTraktSync]: New version: [0.26.6] Old Version: [0.26.5]
+[2023-06-24 19:53:53] WARNING root fetch - processPackages [nagooglesearch]: Skipping, unable to determine old version
+[2023-06-24 19:53:53] INFO root fetch - main [MainThread]: End processing [nagooglesearch] error
+[2023-06-24 19:53:53] INFO root fetch - processPackages [smithed-libraries]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-24 19:53:53] INFO root fetch - processPackages [dsutils-ms]: New version: [1.3] Old Version: [1.2]
+[2023-06-24 19:53:53] INFO root fetch - processPackages [sqlite3-to-mysql]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-24 19:53:53] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-24 19:53:53] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/56/ee/01f7dfe6ab705012176bbc034337e97496fca80e25c67c585f6424345c95/dsutils_ms-1.2.tar.gz
+[2023-06-24 19:53:53] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-24 19:53:53] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/7a/a9/70ef1dd24ea9d4109dced815141942da193b865bce593409d4188f2c7c29/fdlogger-23.6.4.tar.gz
+[2023-06-24 19:53:53] INFO root fetch - processPackages [mcsolver]: Downloading https://files.pythonhosted.org/packages/d3/b5/7ae8570a93051f9c0ac05adc41c14ec8bcd7e04c4d64d2af6c1eb39f5518/mcsolver-3.0.2.tar.gz
+[2023-06-24 19:53:53] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/4c/e0/c264e2818fffd2497d8b0d9b1c958c4e3f194c7e434334cfd69fcecd1b7f/sqlite3_to_mysql-2.0.1.tar.gz
+[2023-06-24 19:53:53] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/74/b8/42b0ce17a33e43c9dc83feb0d6bba9d9e651294f57abf467ad25a5e008e9/smithed_libraries-0.7.0.tar.gz
+[2023-06-24 19:53:53] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/a8/f8/7c837fbc22c57856a700628dc663fe26d1d1a220c4434fad7c922ad1d472/PlexTraktSync-0.26.5.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [fdlogger]: Downloading https://files.pythonhosted.org/packages/23/5d/36990542663e11f1d62f11923ffd1c6b1b0f3a7207e4f277d4deb1acc852/fdlogger-23.6.9.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/e5/0e/1e5ed6f9df6edd3fdc08411c7d3c86f95004edb0dc386ca490839fd13974/dsutils_ms-1.3.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230624/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-24 19:53:54] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.2.tar.gz tmp/dsutils_ms-1.3.tar.gz --markdown 20230624/d/dsutils-ms/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-24 19:53:54] INFO root fetch - processPackages [sqlite3-to-mysql]: Downloading https://files.pythonhosted.org/packages/8f/54/9b601742e49910c1faf80f1f6a7a190185f43718ed948cb5079e193c85c8/sqlite3_to_mysql-2.0.2.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [fdlogger]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [fdlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdlogger-23.6.4.tar.gz tmp/fdlogger-23.6.9.tar.gz --markdown 20230624/f/fdlogger/23.6.4-23.6.9/diff.md --exclude *.pyd
+[2023-06-24 19:53:54] INFO root fetch - processPackages [sqlite3-to-mysql]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [sqlite3-to-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite3_to_mysql-2.0.1.tar.gz tmp/sqlite3_to_mysql-2.0.2.tar.gz --markdown 20230624/s/sqlite3-to-mysql/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-24 19:53:54] INFO root fetch - processPackages [smithed-libraries]: Downloading https://files.pythonhosted.org/packages/e9/da/b1e2f0e0a78fb25e3f026ce7994f3dfb54259ac6cd8df47f367c4e8bc07e/smithed_libraries-0.7.1.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [mcsolver]: Downloading https://files.pythonhosted.org/packages/41/87/51e763ca52b05ccaa80b19fd0d1288b907c1bdba12ea9a8e7312662ee1ae/mcsolver-3.0.4.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [PlexTraktSync]: Downloading https://files.pythonhosted.org/packages/f0/77/7b727f0c3134ac47b8c79218d6a9ceb49c4de16e65e64d5f375ff94acb77/PlexTraktSync-0.26.6.tar.gz
+[2023-06-24 19:53:54] INFO root fetch - processPackages [smithed-libraries]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [smithed-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smithed_libraries-0.7.0.tar.gz tmp/smithed_libraries-0.7.1.tar.gz --markdown 20230624/s/smithed-libraries/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-24 19:53:54] INFO root fetch - processPackages [mcsolver]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [mcsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcsolver-3.0.2.tar.gz tmp/mcsolver-3.0.4.tar.gz --markdown 20230624/m/mcsolver/3.0.2-3.0.4/diff.md --exclude *.pyd
+[2023-06-24 19:53:54] INFO root fetch - processPackages [PlexTraktSync]: executing diffoscope
+[2023-06-24 19:53:54] INFO root fetch - processPackages [PlexTraktSync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlexTraktSync-0.26.5.tar.gz tmp/PlexTraktSync-0.26.6.tar.gz --markdown 20230624/P/PlexTraktSync/0.26.5-0.26.6/diff.md --exclude *.pyd
+[2023-06-24 19:53:55] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.2.tar.gz]
+[2023-06-24 19:53:55] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.3.tar.gz]
+[2023-06-24 19:53:55] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 19:53:55] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-24 19:53:55] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-24 19:53:55] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-24 19:53:55] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.0.1.tar.gz]
+[2023-06-24 19:53:55] INFO root fetch - processPackages [sqlite3-to-mysql]: Remove: archive file [/home/abi/fetcher/tmp/sqlite3_to_mysql-2.0.2.tar.gz]
+[2023-06-24 19:53:55] INFO root fetch - main [MainThread]: End processing [sqlite3-to-mysql]: success
+[2023-06-24 19:53:56] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.4.tar.gz]
+[2023-06-24 19:53:56] INFO root fetch - processPackages [fdlogger]: Remove: archive file [/home/abi/fetcher/tmp/fdlogger-23.6.9.tar.gz]
+[2023-06-24 19:53:56] INFO root fetch - main [MainThread]: End processing [fdlogger]: success
+[2023-06-24 19:53:56] INFO root fetch - processPackages [mcsolver]: Remove: archive file [/home/abi/fetcher/tmp/mcsolver-3.0.2.tar.gz]
+[2023-06-24 19:53:56] INFO root fetch - processPackages [mcsolver]: Remove: archive file [/home/abi/fetcher/tmp/mcsolver-3.0.4.tar.gz]
+[2023-06-24 19:53:56] INFO root fetch - main [MainThread]: End processing [mcsolver]: success
+[2023-06-24 19:53:56] INFO root fetch - processPackages [PlexTraktSync]: Remove: archive file [/home/abi/fetcher/tmp/PlexTraktSync-0.26.5.tar.gz]
+[2023-06-24 19:53:56] INFO root fetch - processPackages [PlexTraktSync]: Remove: archive file [/home/abi/fetcher/tmp/PlexTraktSync-0.26.6.tar.gz]
+[2023-06-24 19:53:56] INFO root fetch - main [MainThread]: End processing [PlexTraktSync]: success
+[2023-06-24 19:54:07] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.7.0.tar.gz]
+[2023-06-24 19:54:07] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.7.1.tar.gz]
+[2023-06-24 19:54:07] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
+[2023-06-24 19:54:07] INFO root fetch - main [MainThread]: Store serial: [18630923]
