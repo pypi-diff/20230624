@@ -17306,3 +17306,48 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:16:37] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.4.2.tar.gz]
 [2023-06-24 19:16:37] INFO root fetch - main [MainThread]: End processing [bluecast]: success
 [2023-06-24 19:16:37] INFO root fetch - main [MainThread]: Store serial: [18630722]
+[2023-06-24 19:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630722]
+[2023-06-24 19:21:46] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-ww-plugin-openwakeword
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: loanpy
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hello-poetry
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TDhelper
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nebulae
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dppapi
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: New version: [0.2.1a1] Old Version: [0.2.0a1]
+[2023-06-24 19:21:46] WARNING root fetch - processPackages [dppapi]: Skipping, unable to determine old version
+[2023-06-24 19:21:46] INFO root fetch - main [MainThread]: End processing [dppapi] error
+[2023-06-24 19:21:46] INFO root fetch - processPackages [TDhelper]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-24 19:21:46] INFO root fetch - processPackages [loanpy]: New version: [3.0.3] Old Version: [3.0.2]
+[2023-06-24 19:21:46] INFO root fetch - processPackages [nebulae]: New version: [0.6.9] Old Version: [0.6.7]
+[2023-06-24 19:21:46] WARNING root fetch - processPackages [hello-poetry]: Skipping, unable to determine old version
+[2023-06-24 19:21:46] INFO root fetch - main [MainThread]: End processing [hello-poetry] error
+[2023-06-24 19:21:46] INFO root fetch - processPackages [loanpy]: Downloading https://files.pythonhosted.org/packages/b8/0a/9baa0221cb116bc0f35ec3c37c6d2e82fc99189cf6d929108b4ee6e0633a/loanpy-3.0.2.tar.gz
+[2023-06-24 19:21:46] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Downloading https://files.pythonhosted.org/packages/15/b9/2e00bbf868ffc472d960a92771e9ab109d0b4c843346133d4e35b6fee243/ovos_ww_plugin_openwakeword-0.2.0a1-py3-none-any.whl
+[2023-06-24 19:21:46] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/42/da/5fc68a16a4b35100eb99f6dbbf210371ccbdd00fc9c55ba78082d4e21481/TDhelper-2.6.0.tar.gz
+[2023-06-24 19:21:46] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/31/ec/d0ad768c60e8a9e72e49b076af162124b61d4058729dc38043250f17847d/nebulae-0.6.7.tar.gz
+[2023-06-24 19:21:46] INFO root fetch - processPackages [loanpy]: Downloading https://files.pythonhosted.org/packages/e6/5d/c115a17dbbea3a6e6cf6576f7065770de5f8e650932a34dcdf4d4c1bdfac/loanpy-3.0.3.tar.gz
+[2023-06-24 19:21:46] INFO root fetch - processPackages [loanpy]: executing diffoscope
+[2023-06-24 19:21:46] INFO root fetch - processPackages [loanpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loanpy-3.0.2.tar.gz tmp/loanpy-3.0.3.tar.gz --markdown 20230624/l/loanpy/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2023-06-24 19:21:46] INFO root fetch - processPackages [TDhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/a38a7d3e331a9cdb4503488c25880c88e93f31fe12d032d8a1e84f062dd9/TDhelper-2.6.1.tar.gz
+[2023-06-24 19:21:47] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Downloading https://files.pythonhosted.org/packages/0e/39/f9cbf3aa0c39ce4fac6f5a07dedb4751aaa3e0cdecc5eb443acdba6142f8/ovos_ww_plugin_openwakeword-0.2.1a1-py3-none-any.whl
+[2023-06-24 19:21:47] INFO root fetch - processPackages [TDhelper]: executing diffoscope
+[2023-06-24 19:21:47] INFO root fetch - processPackages [TDhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDhelper-2.6.0.tar.gz tmp/TDhelper-2.6.1.tar.gz --markdown 20230624/T/TDhelper/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-24 19:21:47] INFO root fetch - processPackages [nebulae]: Downloading https://files.pythonhosted.org/packages/a4/9d/62c04d68afc7b0e5d049f5579c4703bf49fef4cd096ef1f34b9e3272573b/nebulae-0.6.9.tar.gz
+[2023-06-24 19:21:47] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: executing diffoscope
+[2023-06-24 19:21:47] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_ww_plugin_openwakeword-0.2.0a1-py3-none-any.whl.zip tmp/ovos_ww_plugin_openwakeword-0.2.1a1-py3-none-any.whl.zip --markdown 20230624/o/ovos-ww-plugin-openwakeword/0.2.0a1-0.2.1a1/diff.md --exclude *.pyd
+[2023-06-24 19:21:47] INFO root fetch - processPackages [nebulae]: executing diffoscope
+[2023-06-24 19:21:47] INFO root fetch - processPackages [nebulae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nebulae-0.6.7.tar.gz tmp/nebulae-0.6.9.tar.gz --markdown 20230624/n/nebulae/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2023-06-24 19:21:48] INFO root fetch - processPackages [loanpy]: Remove: archive file [/home/abi/fetcher/tmp/loanpy-3.0.2.tar.gz]
+[2023-06-24 19:21:48] INFO root fetch - processPackages [loanpy]: Remove: archive file [/home/abi/fetcher/tmp/loanpy-3.0.3.tar.gz]
+[2023-06-24 19:21:48] INFO root fetch - main [MainThread]: End processing [loanpy]: success
+[2023-06-24 19:21:48] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Remove: archive file [/home/abi/fetcher/tmp/ovos_ww_plugin_openwakeword-0.2.0a1-py3-none-any.whl.zip]
+[2023-06-24 19:21:48] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Remove: archive file [/home/abi/fetcher/tmp/ovos_ww_plugin_openwakeword-0.2.1a1-py3-none-any.whl.zip]
+[2023-06-24 19:21:48] INFO root fetch - main [MainThread]: End processing [ovos-ww-plugin-openwakeword]: success
+[2023-06-24 19:21:48] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.7.tar.gz]
+[2023-06-24 19:21:48] INFO root fetch - processPackages [nebulae]: Remove: archive file [/home/abi/fetcher/tmp/nebulae-0.6.9.tar.gz]
+[2023-06-24 19:21:48] INFO root fetch - main [MainThread]: End processing [nebulae]: success
+[2023-06-24 19:21:48] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.0.tar.gz]
+[2023-06-24 19:21:48] INFO root fetch - processPackages [TDhelper]: Remove: archive file [/home/abi/fetcher/tmp/TDhelper-2.6.1.tar.gz]
+[2023-06-24 19:21:48] INFO root fetch - main [MainThread]: End processing [TDhelper]: success
+[2023-06-24 19:21:48] INFO root fetch - main [MainThread]: Store serial: [18630748]
