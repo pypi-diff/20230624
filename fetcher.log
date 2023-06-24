@@ -20018,3 +20018,42 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:04:43] INFO root fetch - processPackages [aa-fleetpings]: Remove: archive file [/home/abi/fetcher/tmp/aa-fleetpings-2.9.0.tar.gz]
 [2023-06-24 23:04:43] INFO root fetch - main [MainThread]: End processing [aa-fleetpings]: success
 [2023-06-24 23:04:43] INFO root fetch - main [MainThread]: Store serial: [18632009]
+[2023-06-24 23:09:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632009]
+[2023-06-24 23:09:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 23:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver
+[2023-06-24 23:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drizzutojr-vapi
+[2023-06-24 23:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydatawork
+[2023-06-24 23:09:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipumspy
+[2023-06-24 23:09:52] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-24 23:09:52] INFO root fetch - processPackages [ipumspy]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-24 23:09:52] INFO root fetch - processPackages [drizzutojr-vapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 23:09:52] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 23:09:52] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 23:09:52] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-24 23:09:53] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/4c/7b/404e1ccbc10ee48533e002515734a36d59e802f099aa04319fba30498ddb/drizzutojr_vapi-0.0.5-py3-none-any.whl
+[2023-06-24 23:09:53] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 23:09:53] INFO root fetch - processPackages [ipumspy]: Downloading https://files.pythonhosted.org/packages/36/d2/6207b8645d1e1d0c8fceecd27e35f8e96511e65c9c00a672a38a92504293/ipumspy-0.3.0.tar.gz
+[2023-06-24 23:09:53] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 23:09:53] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 23:09:53] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-24 23:09:53] INFO root fetch - processPackages [drizzutojr-vapi]: Downloading https://files.pythonhosted.org/packages/c3/6f/fc2b7dbe883da85cc8af0053dafd72b1a18a03cb3c2b96d933b1a1ec601c/drizzutojr_vapi-0.0.6-py3-none-any.whl
+[2023-06-24 23:09:53] INFO root fetch - processPackages [ipumspy]: Downloading https://files.pythonhosted.org/packages/34/ad/21ed3ae7129008b0bb7fea748b27702d2354346d41b7a8776582844a72e5/ipumspy-0.4.0.tar.gz
+[2023-06-24 23:09:53] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-24 23:09:53] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230624/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-24 23:09:53] INFO root fetch - processPackages [drizzutojr-vapi]: executing diffoscope
+[2023-06-24 23:09:53] INFO root fetch - processPackages [drizzutojr-vapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drizzutojr_vapi-0.0.5-py3-none-any.whl.zip tmp/drizzutojr_vapi-0.0.6-py3-none-any.whl.zip --markdown 20230624/d/drizzutojr-vapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 23:09:53] INFO root fetch - processPackages [ipumspy]: executing diffoscope
+[2023-06-24 23:09:53] INFO root fetch - processPackages [ipumspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipumspy-0.3.0.tar.gz tmp/ipumspy-0.4.0.tar.gz --markdown 20230624/i/ipumspy/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 23:09:54] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 23:09:54] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 23:09:54] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 23:09:54] INFO root fetch - processPackages [ipumspy]: Remove: archive file [/home/abi/fetcher/tmp/ipumspy-0.3.0.tar.gz]
+[2023-06-24 23:09:54] INFO root fetch - processPackages [ipumspy]: Remove: archive file [/home/abi/fetcher/tmp/ipumspy-0.4.0.tar.gz]
+[2023-06-24 23:09:54] INFO root fetch - main [MainThread]: End processing [ipumspy]: success
+[2023-06-24 23:09:55] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-24 23:09:55] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-24 23:09:55] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-24 23:10:48] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.5-py3-none-any.whl.zip]
+[2023-06-24 23:10:48] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.6-py3-none-any.whl.zip]
+[2023-06-24 23:10:48] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
+[2023-06-24 23:10:48] INFO root fetch - main [MainThread]: Store serial: [18632020]
