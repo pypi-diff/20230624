@@ -12593,3 +12593,54 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:00:39] INFO root fetch - processPackages [garpixcms]: Remove: archive file [/home/abi/fetcher/tmp/garpixcms-4.4.0.tar.gz]
 [2023-06-24 12:00:39] INFO root fetch - main [MainThread]: End processing [garpixcms]: success
 [2023-06-24 12:00:39] INFO root fetch - main [MainThread]: Store serial: [18628570]
+[2023-06-24 12:05:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628570]
+[2023-06-24 12:05:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nicovideo.py
+[2023-06-24 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jam-ai
+[2023-06-24 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bhv
+[2023-06-24 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dronefly-discord
+[2023-06-24 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyepggrab
+[2023-06-24 12:05:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssh-remote-control
+[2023-06-24 12:05:48] WARNING root fetch - processPackages [nicovideo.py]: Skipping, unable to determine old version
+[2023-06-24 12:05:48] INFO root fetch - main [MainThread]: End processing [nicovideo.py] error
+[2023-06-24 12:05:48] INFO root fetch - processPackages [bhv]: New version: [0.6.0a0] Old Version: [0.5.8]
+[2023-06-24 12:05:48] INFO root fetch - processPackages [jam-ai]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-24 12:05:48] INFO root fetch - processPackages [dronefly-discord]: New version: [0.1.1.dev3] Old Version: [0.1.1.dev2]
+[2023-06-24 12:05:48] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/51/05/2b00cafe3193e930dea536fc67db9df985718c23dc8444acd330973e73c8/jam_ai-0.1.5.tar.gz
+[2023-06-24 12:05:48] INFO root fetch - processPackages [pyepggrab]: New version: [0.1.dev1] Old Version: [0.1.2]
+[2023-06-24 12:05:49] INFO root fetch - processPackages [ssh-remote-control]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-24 12:05:49] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/ac/bb/fd4e06b29277f0e4f9b38d1bbebce8984a941ac89a740d377d5fe32a809c/bhv-0.5.8.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/9d/de/a458458b29eedd8c089d83a6823f7c1872fb8a5a7548b0aa92090e0c3df6/dronefly_discord-0.1.1.dev2.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [pyepggrab]: Downloading https://files.pythonhosted.org/packages/81/21/85c7052b04355876ac9972361e4bdc14159886b2e9af8f733af9d4f25441/pyepggrab-0.1.2.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [jam-ai]: Downloading https://files.pythonhosted.org/packages/03/6e/f602b71dc639f4c55a8e137e10736fcb5d63de7d60c65e499a74b7107758/jam_ai-0.1.6.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/4d/f1/3d254017c48c89eb3d4322889c62a2c8a02bed0430d344e8aafb94a061f5/ssh_remote_control-0.1.4.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [jam-ai]: executing diffoscope
+[2023-06-24 12:05:49] INFO root fetch - processPackages [jam-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jam_ai-0.1.5.tar.gz tmp/jam_ai-0.1.6.tar.gz --markdown 20230624/j/jam-ai/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-24 12:05:49] INFO root fetch - processPackages [dronefly-discord]: Downloading https://files.pythonhosted.org/packages/3e/6e/5780665d0a545c5670e79bc126b07b75634dc038bd8bb0612d11b7ff9249/dronefly_discord-0.1.1.dev3.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/91/0e/cda7fb45ff314707db02d6848ea4debb78ef0b25aae3ff84b05f97482c53/bhv-0.6.0a0.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [pyepggrab]: Downloading https://files.pythonhosted.org/packages/1f/7d/b26f3fe036217e024ca4f313dfd41cde5b051940918e62f252e11858ddfe/pyepggrab-0.1.dev1.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [ssh-remote-control]: Downloading https://files.pythonhosted.org/packages/1a/82/71083fdea74d81102eb890ed19d820de270dbd9625f4371ed43d0449700e/ssh_remote_control-0.1.5.tar.gz
+[2023-06-24 12:05:49] INFO root fetch - processPackages [pyepggrab]: executing diffoscope
+[2023-06-24 12:05:49] INFO root fetch - processPackages [pyepggrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepggrab-0.1.2.tar.gz tmp/pyepggrab-0.1.dev1.tar.gz --markdown 20230624/p/pyepggrab/0.1.2-0.1.dev1/diff.md --exclude *.pyd
+[2023-06-24 12:05:49] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-24 12:05:49] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.5.8.tar.gz tmp/bhv-0.6.0a0.tar.gz --markdown 20230624/b/bhv/0.5.8-0.6.0a0/diff.md --exclude *.pyd
+[2023-06-24 12:05:49] INFO root fetch - processPackages [dronefly-discord]: executing diffoscope
+[2023-06-24 12:05:49] INFO root fetch - processPackages [dronefly-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dronefly_discord-0.1.1.dev2.tar.gz tmp/dronefly_discord-0.1.1.dev3.tar.gz --markdown 20230624/d/dronefly-discord/0.1.1.dev2-0.1.1.dev3/diff.md --exclude *.pyd
+[2023-06-24 12:05:49] INFO root fetch - processPackages [ssh-remote-control]: executing diffoscope
+[2023-06-24 12:05:49] INFO root fetch - processPackages [ssh-remote-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssh_remote_control-0.1.4.tar.gz tmp/ssh_remote_control-0.1.5.tar.gz --markdown 20230624/s/ssh-remote-control/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-24 12:05:50] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.5.tar.gz]
+[2023-06-24 12:05:50] INFO root fetch - processPackages [jam-ai]: Remove: archive file [/home/abi/fetcher/tmp/jam_ai-0.1.6.tar.gz]
+[2023-06-24 12:05:50] INFO root fetch - main [MainThread]: End processing [jam-ai]: success
+[2023-06-24 12:05:51] INFO root fetch - processPackages [dronefly-discord]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_discord-0.1.1.dev2.tar.gz]
+[2023-06-24 12:05:51] INFO root fetch - processPackages [dronefly-discord]: Remove: archive file [/home/abi/fetcher/tmp/dronefly_discord-0.1.1.dev3.tar.gz]
+[2023-06-24 12:05:51] INFO root fetch - main [MainThread]: End processing [dronefly-discord]: success
+[2023-06-24 12:05:51] INFO root fetch - processPackages [pyepggrab]: Remove: archive file [/home/abi/fetcher/tmp/pyepggrab-0.1.2.tar.gz]
+[2023-06-24 12:05:51] INFO root fetch - processPackages [pyepggrab]: Remove: archive file [/home/abi/fetcher/tmp/pyepggrab-0.1.dev1.tar.gz]
+[2023-06-24 12:05:51] INFO root fetch - main [MainThread]: End processing [pyepggrab]: success
+[2023-06-24 12:05:51] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.4.tar.gz]
+[2023-06-24 12:05:51] INFO root fetch - processPackages [ssh-remote-control]: Remove: archive file [/home/abi/fetcher/tmp/ssh_remote_control-0.1.5.tar.gz]
+[2023-06-24 12:05:51] INFO root fetch - main [MainThread]: End processing [ssh-remote-control]: success
+[2023-06-24 12:06:44] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.5.8.tar.gz]
+[2023-06-24 12:06:44] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0a0.tar.gz]
+[2023-06-24 12:06:44] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-24 12:06:44] INFO root fetch - main [MainThread]: Store serial: [18628590]
