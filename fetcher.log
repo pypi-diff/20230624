@@ -10732,3 +10732,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:44:49] INFO root fetch - processPackages [mc-game]: Remove: archive file [/home/abi/fetcher/tmp/mc_game-1.0.2-py3-none-any.whl.zip]
 [2023-06-24 08:44:49] INFO root fetch - main [MainThread]: End processing [mc-game]: success
 [2023-06-24 08:44:49] INFO root fetch - main [MainThread]: Store serial: [18627673]
+[2023-06-24 08:49:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627673]
+[2023-06-24 08:49:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 08:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adp-py
+[2023-06-24 08:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rewrite-for-file
+[2023-06-24 08:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pgpt
+[2023-06-24 08:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Droplet-Detector
+[2023-06-24 08:49:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kbrainsecurity
+[2023-06-24 08:49:58] INFO root fetch - processPackages [kbrainsecurity]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 08:49:58] WARNING root fetch - processPackages [adp-py]: Skipping, unable to determine old version
+[2023-06-24 08:49:58] INFO root fetch - main [MainThread]: End processing [adp-py] error
+[2023-06-24 08:49:58] WARNING root fetch - processPackages [rewrite-for-file]: Skipping, unable to determine old version
+[2023-06-24 08:49:58] INFO root fetch - main [MainThread]: End processing [rewrite-for-file] error
+[2023-06-24 08:49:58] INFO root fetch - processPackages [pgpt]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-24 08:49:58] WARNING root fetch - processPackages [Droplet-Detector]: Skipping, unable to determine old version
+[2023-06-24 08:49:58] INFO root fetch - main [MainThread]: End processing [Droplet-Detector] error
+[2023-06-24 08:49:58] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/9c/19/64a91295f2c0e2512848dc60d5b873192e141de9e831a671d6ac6f6aaa1f/kbrainsecurity-0.0.5.tar.gz
+[2023-06-24 08:49:58] INFO root fetch - processPackages [pgpt]: Downloading https://files.pythonhosted.org/packages/ae/9b/99026d3814d8728ec0f83909a712e749463ad442058c10cfc75927fbd0cd/pgpt-0.0.1.tar.gz
+[2023-06-24 08:49:58] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/f8/e9/dea86966f9f449748c4ad6e690f133ff217b222be4f403961f8574c5eb79/kbrainsecurity-0.0.6.tar.gz
+[2023-06-24 08:49:58] INFO root fetch - processPackages [kbrainsecurity]: executing diffoscope
+[2023-06-24 08:49:58] INFO root fetch - processPackages [kbrainsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbrainsecurity-0.0.5.tar.gz tmp/kbrainsecurity-0.0.6.tar.gz --markdown 20230624/k/kbrainsecurity/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 08:49:58] INFO root fetch - processPackages [pgpt]: Downloading https://files.pythonhosted.org/packages/fb/7c/56eef253b9843d8e880708070f639293051f104b8972d89f78316fb0a6a4/pgpt-0.0.3.tar.gz
+[2023-06-24 08:49:58] INFO root fetch - processPackages [pgpt]: executing diffoscope
+[2023-06-24 08:49:58] INFO root fetch - processPackages [pgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgpt-0.0.1.tar.gz tmp/pgpt-0.0.3.tar.gz --markdown 20230624/p/pgpt/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 08:49:59] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.5.tar.gz]
+[2023-06-24 08:49:59] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.6.tar.gz]
+[2023-06-24 08:49:59] INFO root fetch - main [MainThread]: End processing [kbrainsecurity]: success
+[2023-06-24 08:50:00] INFO root fetch - processPackages [pgpt]: Remove: archive file [/home/abi/fetcher/tmp/pgpt-0.0.1.tar.gz]
+[2023-06-24 08:50:00] INFO root fetch - processPackages [pgpt]: Remove: archive file [/home/abi/fetcher/tmp/pgpt-0.0.3.tar.gz]
+[2023-06-24 08:50:00] INFO root fetch - main [MainThread]: End processing [pgpt]: success
+[2023-06-24 08:50:00] INFO root fetch - main [MainThread]: Store serial: [18627692]
