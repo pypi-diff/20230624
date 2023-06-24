@@ -10980,3 +10980,9 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:10:52] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
 [2023-06-24 09:10:52] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
 [2023-06-24 09:10:52] INFO root fetch - main [MainThread]: Store serial: [18627768]
+[2023-06-24 09:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627768]
+[2023-06-24 09:16:00] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-06-24 09:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python3-nbctl
+[2023-06-24 09:16:00] WARNING root fetch - processPackages [python3-nbctl]: Skipping, unable to determine old version
+[2023-06-24 09:16:00] INFO root fetch - main [MainThread]: End processing [python3-nbctl] error
+[2023-06-24 09:16:00] INFO root fetch - main [MainThread]: Store serial: [18627774]
