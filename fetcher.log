@@ -9659,3 +9659,60 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 07:03:10] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
 [2023-06-24 07:03:10] INFO root fetch - main [MainThread]: End processing [geemap]: success
 [2023-06-24 07:03:10] INFO root fetch - main [MainThread]: Store serial: [18627245]
+[2023-06-24 07:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627245]
+[2023-06-24 07:08:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hi-cli-jash
+[2023-06-24 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-extensions
+[2023-06-24 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pelidoc
+[2023-06-24 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-06-24 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dask-cuda
+[2023-06-24 07:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-model-maker-nightly
+[2023-06-24 07:08:20] INFO root fetch - processPackages [hi-cli-jash]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 07:08:20] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.83] Old Version: [0.0.82]
+[2023-06-24 07:08:20] INFO root fetch - processPackages [pelidoc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 07:08:20] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230624] Old Version: [0.1.1.dev20230623]
+[2023-06-24 07:08:20] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306230508] Old Version: [0.4.3.dev202306220509]
+[2023-06-24 07:08:20] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230623] Old Version: [23.8.0a230622]
+[2023-06-24 07:08:20] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/95/d5/8d2f99d51636b9336ad1591af4ebe71b50a252c12d69a190364f9cee42e8/rapid_pe-0.1.1.dev20230623.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/c5/bf/b455f58369ed1f71308a1e6b6d875d23ab6bfabff00f1a6e95b6ebea6515/cdk-extensions-0.0.82.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/1f/1d/efffff9f36e61567bdd3097152e9e3cc53b52c52b7864c052a80afda172b/tflite-model-maker-nightly-0.4.3.dev202306220509.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [hi-cli-jash]: Downloading https://files.pythonhosted.org/packages/54/0a/52ac7d8421d24d89876daa10696531239f13163570af90d4a8c5034474c1/hi-cli-jash-0.1.0.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [pelidoc]: Downloading https://files.pythonhosted.org/packages/a2/fa/88d70e6f5ac879f5f564233e541219ed18876fa56323088ef291a49cc435/pelidoc-0.0.2.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/ad/c5/5d3d115c34ae4aef5433eb403171c019f42784c0c73206ac629f917fccb2/dask-cuda-23.8.0a230622.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/16/8c/78ace2cf6782b0b9ad9c7641a103d5af7585152269b8dd4feca183376623/dask-cuda-23.8.0a230623.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/f0/b7/37e2eef66bb64f54f5ec0bb9f38ee701b974295f26feabd0d12d8840e716/tflite-model-maker-nightly-0.4.3.dev202306230508.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [hi-cli-jash]: Downloading https://files.pythonhosted.org/packages/cc/31/c8b0e9345a0d714787217649ccbe2cc3fff72d600662f7ca6303757a4963/hi-cli-jash-0.1.1.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/28/6f/e9f7ca2eb25693e0694ff0b7ec2ab1f6377725e64ddd5c7f7f1d5c16af03/rapid_pe-0.1.1.dev20230624.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/de/cc/aa0308dac75716f97cf4215a6869066d9f33d8ffbe7a4d5e445bdef34114/cdk-extensions-0.0.83.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-24 07:08:20] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230622.tar.gz tmp/dask-cuda-23.8.0a230623.tar.gz --markdown 20230624/d/dask-cuda/23.8.0a230622-23.8.0a230623/diff.md --exclude *.pyd
+[2023-06-24 07:08:20] INFO root fetch - processPackages [pelidoc]: Downloading https://files.pythonhosted.org/packages/75/cb/fe643c88b593d138699ce668be94adaa75370d69dd2cf757d15887d6e7ad/pelidoc-0.0.3.tar.gz
+[2023-06-24 07:08:20] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-24 07:08:20] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306220509.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306230508.tar.gz --markdown 20230624/t/tflite-model-maker-nightly/0.4.3.dev202306220509-0.4.3.dev202306230508/diff.md --exclude *.pyd
+[2023-06-24 07:08:20] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-24 07:08:20] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230623.tar.gz tmp/rapid_pe-0.1.1.dev20230624.tar.gz --markdown 20230624/r/rapid-pe/0.1.1.dev20230623-0.1.1.dev20230624/diff.md --exclude *.pyd
+[2023-06-24 07:08:20] INFO root fetch - processPackages [hi-cli-jash]: executing diffoscope
+[2023-06-24 07:08:20] INFO root fetch - processPackages [hi-cli-jash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hi-cli-jash-0.1.0.tar.gz tmp/hi-cli-jash-0.1.1.tar.gz --markdown 20230624/h/hi-cli-jash/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 07:08:20] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-24 07:08:20] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.82.tar.gz tmp/cdk-extensions-0.0.83.tar.gz --markdown 20230624/c/cdk-extensions/0.0.82-0.0.83/diff.md --exclude *.pyd
+[2023-06-24 07:08:20] INFO root fetch - processPackages [pelidoc]: executing diffoscope
+[2023-06-24 07:08:20] INFO root fetch - processPackages [pelidoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelidoc-0.0.2.tar.gz tmp/pelidoc-0.0.3.tar.gz --markdown 20230624/p/pelidoc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 07:08:22] INFO root fetch - processPackages [hi-cli-jash]: Remove: archive file [/home/abi/fetcher/tmp/hi-cli-jash-0.1.0.tar.gz]
+[2023-06-24 07:08:22] INFO root fetch - processPackages [hi-cli-jash]: Remove: archive file [/home/abi/fetcher/tmp/hi-cli-jash-0.1.1.tar.gz]
+[2023-06-24 07:08:22] INFO root fetch - main [MainThread]: End processing [hi-cli-jash]: success
+[2023-06-24 07:08:22] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230623.tar.gz]
+[2023-06-24 07:08:22] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230624.tar.gz]
+[2023-06-24 07:08:22] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-24 07:08:22] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.82.tar.gz]
+[2023-06-24 07:08:22] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.83.tar.gz]
+[2023-06-24 07:08:22] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-24 07:08:23] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230622.tar.gz]
+[2023-06-24 07:08:23] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230623.tar.gz]
+[2023-06-24 07:08:23] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-24 07:08:24] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306220509.tar.gz]
+[2023-06-24 07:08:24] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306230508.tar.gz]
+[2023-06-24 07:08:24] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-24 07:08:24] INFO root fetch - processPackages [pelidoc]: Remove: archive file [/home/abi/fetcher/tmp/pelidoc-0.0.2.tar.gz]
+[2023-06-24 07:08:24] INFO root fetch - processPackages [pelidoc]: Remove: archive file [/home/abi/fetcher/tmp/pelidoc-0.0.3.tar.gz]
+[2023-06-24 07:08:24] INFO root fetch - main [MainThread]: End processing [pelidoc]: success
+[2023-06-24 07:08:24] INFO root fetch - main [MainThread]: Store serial: [18627264]
