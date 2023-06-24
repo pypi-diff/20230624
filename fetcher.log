@@ -9350,3 +9350,80 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 06:28:58] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-06-24 06:28:58] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-06-24 06:28:58] INFO root fetch - main [MainThread]: Store serial: [18627103]
+[2023-06-24 06:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627103]
+[2023-06-24 06:34:07] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pmdsky-debug-py
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyautd3
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-partner-firstname
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: almavik
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-payroll
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-partner-firstname
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-payroll
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CEmu
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo11-addon-pos-payment-entries-globalization
+[2023-06-24 06:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: litenai
+[2023-06-24 06:34:07] INFO root fetch - processPackages [odoo13-addon-payroll]: New version: [13.0.1.0.3.dev9] Old Version: [13.0.1.0.3.dev8]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [5.1.9] Old Version: [5.1.8]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [odoo-addon-partner-firstname]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [odoo14-addon-payroll]: New version: [14.0.6.2.4.dev2] Old Version: [14.0.6.2.3.dev3]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [odoo-addon-partner-firstname]: New version: [16.0.1.0.1.8] Old Version: [16.0.1.0.1.7]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: New version: [11.0.1.0.1] Old Version: [11.0.1.0.0.99.dev7]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [almavik]: New version: [362] Old Version: [361]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/a1/9f/4ebd43d37afd6d1cd3e56bf3b345ed7751f7c12b146aaa8c615bd68c4c14/pmdsky_debug_py-5.1.8-py3-none-any.whl
+[2023-06-24 06:34:07] WARNING root fetch - processPackages [litenai]: Skipping, unable to determine old version
+[2023-06-24 06:34:07] INFO root fetch - main [MainThread]: End processing [litenai] error
+[2023-06-24 06:34:07] INFO root fetch - processPackages [CEmu]: New version: [0.7] Old Version: [0.6]
+[2023-06-24 06:34:07] INFO root fetch - processPackages [almavik]: Downloading https://files.pythonhosted.org/packages/04/70/83bebb13a8764fda18ab82474d293821c3cd5a90a5158a6160e0531c44f9/almavik-361.tar.gz
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/0f/74/65968c669b1154c331b9bd5370ae7e00d46f1bf28c73caf3804e6e4aecbf/odoo_addon_partner_firstname-16.0.1.0.1.7-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo14-addon-payroll]: Downloading https://files.pythonhosted.org/packages/8f/18/b46cb7b76e504dbfffae23bf9e242b549d265618980a5de4af337eaed91d/odoo14_addon_payroll-14.0.6.2.3.dev3-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/0f/74/65968c669b1154c331b9bd5370ae7e00d46f1bf28c73caf3804e6e4aecbf/odoo_addon_partner_firstname-16.0.1.0.1.7-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: Downloading https://files.pythonhosted.org/packages/0e/7e/4bea7c3a9663c736b4ca78a75d069871b8858a13f3ebe3f299e538c52c11/odoo11_addon_pos_payment_entries_globalization-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo13-addon-payroll]: Downloading https://files.pythonhosted.org/packages/14/e4/3e615711ee2ac2adc2c1d3500b71eba51816365f20f02de6f3546ddbe6e8/odoo13_addon_payroll-13.0.1.0.3.dev8-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2023-06-24 06:34:08] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/cd/d0/996c9b5291bf25dba8c6f2d7fc1fa4fdc00a7a4cd70b642aeed357578680/pmdsky_debug_py-5.1.9-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [CEmu]: Downloading https://files.pythonhosted.org/packages/13/62/41ae970d9a79c562870cd9d1d1e2147f5a1895f4d1cb3da75719f65585f6/cemu-0.6-py3-none-any.whl
+[2023-06-24 06:34:08] WARNING root fetch - processPackages [almavik]: Skipping package: exceeds size limit 85082342>=10485760
+[2023-06-24 06:34:08] INFO root fetch - main [MainThread]: End processing [almavik] error
+[2023-06-24 06:34:08] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2023-06-24 06:34:08] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2023-06-24 06:34:08] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip --markdown 20230624/p/pmdsky-debug-py/5.1.8-5.1.9/diff.md --exclude *.pyd
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/39/34/100169252bc4d6ed9a5ece376531ab747e9b63f52074cb56646ad3eb63af/odoo_addon_partner_firstname-16.0.1.0.1.8-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/39/34/100169252bc4d6ed9a5ece376531ab747e9b63f52074cb56646ad3eb63af/odoo_addon_partner_firstname-16.0.1.0.1.8-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo14-addon-payroll]: Downloading https://files.pythonhosted.org/packages/43/f1/e28d54e7f08a3346d4115c4c3c852849608775646fb76e875c2edaacaca1/odoo14_addon_payroll-14.0.6.2.4.dev2-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_firstname-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_partner_firstname-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-partner-firstname/16.0.1.0.1.7-16.0.1.0.1.8/diff.md --exclude *.pyd
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo13-addon-payroll]: Downloading https://files.pythonhosted.org/packages/79/66/9e277bd4be382347349287bb4804021cb342ca0e538fe72e35f5a2b1f5b6/odoo13_addon_payroll-13.0.1.0.3.dev9-py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo-addon-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_firstname-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_partner_firstname-16.0.1.0.1.8-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-partner-firstname/16.0.1.0.1.7-16.0.1.0.1.8/diff.md --exclude *.pyd
+[2023-06-24 06:34:08] INFO root fetch - processPackages [CEmu]: Downloading https://files.pythonhosted.org/packages/fb/31/996367199d8743a3fce1e623d04efbff6367f09d76a6239695012e405afe/CEmu-0.7.tar.gz
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: Downloading https://files.pythonhosted.org/packages/30/5f/49480e985edc53c1f415f3cd987a029ef76627a5353cc5a9e39c6380ab0f/odoo11_addon_pos_payment_entries_globalization-11.0.1.0.1-py2.py3-none-any.whl
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo14-addon-payroll]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo14-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_payroll-14.0.6.2.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_payroll-14.0.6.2.4.dev2-py3-none-any.whl.zip --markdown 20230624/o/odoo14-addon-payroll/14.0.6.2.3.dev3-14.0.6.2.4.dev2/diff.md --exclude *.pyd
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo13-addon-payroll]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo13-addon-payroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_payroll-13.0.1.0.3.dev8-py3-none-any.whl.zip tmp/odoo13_addon_payroll-13.0.1.0.3.dev9-py3-none-any.whl.zip --markdown 20230624/o/odoo13-addon-payroll/13.0.1.0.3.dev8-13.0.1.0.3.dev9/diff.md --exclude *.pyd
+[2023-06-24 06:34:08] INFO root fetch - processPackages [CEmu]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [CEmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cemu-0.6-py3-none-any.whl.zip tmp/CEmu-0.7.tar.gz --markdown 20230624/C/CEmu/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: executing diffoscope
+[2023-06-24 06:34:08] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_pos_payment_entries_globalization-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip tmp/odoo11_addon_pos_payment_entries_globalization-11.0.1.0.1-py2.py3-none-any.whl.zip --markdown 20230624/o/odoo11-addon-pos-payment-entries-globalization/11.0.1.0.0.99.dev7-11.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-24 06:34:10] INFO root fetch - processPackages [odoo-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_firstname-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2023-06-24 06:34:10] INFO root fetch - processPackages [odoo-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_partner_firstname-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2023-06-24 06:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-firstname]: success
+[2023-06-24 06:34:10] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_pos_payment_entries_globalization-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-24 06:34:10] INFO root fetch - processPackages [odoo11-addon-pos-payment-entries-globalization]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_pos_payment_entries_globalization-11.0.1.0.1-py2.py3-none-any.whl.zip]
+[2023-06-24 06:34:10] INFO root fetch - main [MainThread]: End processing [odoo11-addon-pos-payment-entries-globalization]: success
+[2023-06-24 06:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-firstname]: success
+[2023-06-24 06:34:10] INFO root fetch - processPackages [CEmu]: Remove: archive file [/home/abi/fetcher/tmp/cemu-0.6-py3-none-any.whl.zip]
+[2023-06-24 06:34:10] INFO root fetch - processPackages [CEmu]: Remove: archive file [/home/abi/fetcher/tmp/CEmu-0.7.tar.gz]
+[2023-06-24 06:34:10] INFO root fetch - main [MainThread]: End processing [CEmu]: success
+[2023-06-24 06:34:11] INFO root fetch - processPackages [odoo13-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_payroll-13.0.1.0.3.dev8-py3-none-any.whl.zip]
+[2023-06-24 06:34:11] INFO root fetch - processPackages [odoo13-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_payroll-13.0.1.0.3.dev9-py3-none-any.whl.zip]
+[2023-06-24 06:34:11] INFO root fetch - main [MainThread]: End processing [odoo13-addon-payroll]: success
+[2023-06-24 06:34:11] INFO root fetch - processPackages [odoo14-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_payroll-14.0.6.2.3.dev3-py3-none-any.whl.zip]
+[2023-06-24 06:34:11] INFO root fetch - processPackages [odoo14-addon-payroll]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_payroll-14.0.6.2.4.dev2-py3-none-any.whl.zip]
+[2023-06-24 06:34:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-payroll]: success
+[2023-06-24 06:34:11] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-5.1.8-py3-none-any.whl.zip]
+[2023-06-24 06:34:11] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-5.1.9-py3-none-any.whl.zip]
+[2023-06-24 06:34:11] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-06-24 06:34:11] INFO root fetch - main [MainThread]: Store serial: [18627128]
