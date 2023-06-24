@@ -20057,3 +20057,74 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:10:48] INFO root fetch - processPackages [drizzutojr-vapi]: Remove: archive file [/home/abi/fetcher/tmp/drizzutojr_vapi-0.0.6-py3-none-any.whl.zip]
 [2023-06-24 23:10:48] INFO root fetch - main [MainThread]: End processing [drizzutojr-vapi]: success
 [2023-06-24 23:10:48] INFO root fetch - main [MainThread]: Store serial: [18632020]
+[2023-06-24 23:15:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632020]
+[2023-06-24 23:15:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaserver-accounts
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphscope
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphscope-client
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jdtt
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cryptoowl
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpbroker
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-apps
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gs-coordinator
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gs-engine
+[2023-06-24 23:15:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gs-include
+[2023-06-24 23:15:57] WARNING root fetch - processPackages [jdtt]: Skipping, unable to determine old version
+[2023-06-24 23:15:57] INFO root fetch - main [MainThread]: End processing [jdtt] error
+[2023-06-24 23:15:57] INFO root fetch - processPackages [heaserver-accounts]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [graphscope]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [graphscope-client]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-engine]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-apps]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/c8/28/ad072bea46726d0ec5b4ecf6bad03b4a3ddffdfb1297f572c45b05278f4f/cryptoowl-0.0.2.tar.gz
+[2023-06-24 23:15:57] INFO root fetch - processPackages [mpbroker]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-coordinator]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-include]: New version: [0.23.0a20230624] Old Version: [0.23.0a20230623]
+[2023-06-24 23:15:57] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/0d/4c/912fc03e28cac898b9e810956984c9e9caeedf4aa64dae28faf520c2c177/heaserver-accounts-1.0.0a8.tar.gz
+[2023-06-24 23:15:57] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/c1/2d/4a090274380d07506225372393105fa5a467066d4f1884cc70a9953758cc/graphscope-0.23.0a20230623-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 23:15:57] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/35/b6/cec5a7627de48eacecb2e88abea9982e7451b70b4aa6b11817d7b4439328/graphscope_client-0.23.0a20230623-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 23:15:57] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211396075>=10485760
+[2023-06-24 23:15:57] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-06-24 23:15:57] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64485523>=10485760
+[2023-06-24 23:15:57] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-06-24 23:15:57] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/91/33/e69108d819200d3e6217030a06c9e8c9502b5013e0c6b3e9f4d192172191/cryptoowl-0.0.3.tar.gz
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/34/f5/a0524f3afddced29d775b4c99d512e021986791e3a3cc6506486602f2379/gs_apps-0.23.0a20230623-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/38/18/7db62212df2ebe4ead227d034f3323acf46f47bc77d98f670843395b376c/gs_engine-0.23.0a20230623-py2.py3-none-any.whl
+[2023-06-24 23:15:57] INFO root fetch - processPackages [mpbroker]: Downloading https://files.pythonhosted.org/packages/71/63/aa62f060201d4a2885517f62287596d00cfa518221caf7cba8085204849e/mpbroker-0.8.1.tar.gz
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/66/df/905109b117f26144e1832192285e99d24b60ac8ae959445d1369eff61358/gs_include-0.23.0a20230623-py2.py3-none-any.whl
+[2023-06-24 23:15:57] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/76/79/9a7dcc01a1af9cac5fad235cbdee44c7436e2a28dbf01e11435c9fe8cffe/gs_coordinator-0.23.0a20230623-py2.py3-none-any.whl
+[2023-06-24 23:15:57] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47084960>=10485760
+[2023-06-24 23:15:57] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-06-24 23:15:57] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 27683708>=10485760
+[2023-06-24 23:15:57] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-06-24 23:15:57] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2023-06-24 23:15:57] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.2.tar.gz tmp/cryptoowl-0.0.3.tar.gz --markdown 20230624/c/cryptoowl/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 23:15:58] INFO root fetch - processPackages [heaserver-accounts]: Downloading https://files.pythonhosted.org/packages/ef/3b/00bd06051828f159ca100404dfc84f0723be88cb8936a493139d61fa95be/heaserver-accounts-1.0.0a9.tar.gz
+[2023-06-24 23:15:58] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/19/c1/87203683dc01076c837ccb2ac0e696d1d928f765bcb3ee34760d0e3b1671/gs_engine-0.23.0a20230624-py2.py3-none-any.whl
+[2023-06-24 23:15:58] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/5f/54/1f1515ef22d02afe681a7a9b890459f5f066e250a9ffe2fd1e1cffaca366/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl
+[2023-06-24 23:15:58] INFO root fetch - processPackages [mpbroker]: Downloading https://files.pythonhosted.org/packages/f7/1e/5a556b514f33d3917e8237e3bbac7dd0e53a1a8b715f1c5f11680ad91efd/mpbroker-0.9.0.tar.gz
+[2023-06-24 23:15:58] INFO root fetch - processPackages [heaserver-accounts]: executing diffoscope
+[2023-06-24 23:15:58] INFO root fetch - processPackages [heaserver-accounts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-accounts-1.0.0a8.tar.gz tmp/heaserver-accounts-1.0.0a9.tar.gz --markdown 20230624/h/heaserver-accounts/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-06-24 23:15:58] INFO root fetch - processPackages [mpbroker]: executing diffoscope
+[2023-06-24 23:15:58] INFO root fetch - processPackages [mpbroker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpbroker-0.8.1.tar.gz tmp/mpbroker-0.9.0.tar.gz --markdown 20230624/m/mpbroker/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 23:15:58] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-06-24 23:15:58] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.23.0a20230623-py2.py3-none-any.whl.zip tmp/gs_engine-0.23.0a20230624-py2.py3-none-any.whl.zip --markdown 20230624/g/gs-engine/0.23.0a20230623-0.23.0a20230624/diff.md --exclude *.pyd
+[2023-06-24 23:15:58] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-06-24 23:15:58] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.23.0a20230623-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl.zip --markdown 20230624/g/gs-coordinator/0.23.0a20230623-0.23.0a20230624/diff.md --exclude *.pyd
+[2023-06-24 23:15:59] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.2.tar.gz]
+[2023-06-24 23:15:59] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.3.tar.gz]
+[2023-06-24 23:15:59] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2023-06-24 23:15:59] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230623-py2.py3-none-any.whl.zip]
+[2023-06-24 23:15:59] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.23.0a20230624-py2.py3-none-any.whl.zip]
+[2023-06-24 23:15:59] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-06-24 23:15:59] INFO root fetch - processPackages [mpbroker]: Remove: archive file [/home/abi/fetcher/tmp/mpbroker-0.8.1.tar.gz]
+[2023-06-24 23:15:59] INFO root fetch - processPackages [mpbroker]: Remove: archive file [/home/abi/fetcher/tmp/mpbroker-0.9.0.tar.gz]
+[2023-06-24 23:15:59] INFO root fetch - main [MainThread]: End processing [mpbroker]: success
+[2023-06-24 23:15:59] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a8.tar.gz]
+[2023-06-24 23:15:59] INFO root fetch - processPackages [heaserver-accounts]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-accounts-1.0.0a9.tar.gz]
+[2023-06-24 23:15:59] INFO root fetch - main [MainThread]: End processing [heaserver-accounts]: success
+[2023-06-24 23:15:59] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230623-py2.py3-none-any.whl.zip]
+[2023-06-24 23:15:59] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.23.0a20230624-py2.py3-none-any.whl.zip]
+[2023-06-24 23:15:59] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2023-06-24 23:15:59] INFO root fetch - main [MainThread]: Store serial: [18632049]
