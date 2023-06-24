@@ -9638,3 +9638,24 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 06:57:58] INFO root fetch - processPackages [scikit-build-core]: Remove: archive file [/home/abi/fetcher/tmp/scikit_build_core-0.4.7.tar.gz]
 [2023-06-24 06:57:58] INFO root fetch - main [MainThread]: End processing [scikit-build-core]: success
 [2023-06-24 06:57:58] INFO root fetch - main [MainThread]: Store serial: [18627239]
+[2023-06-24 07:03:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627239]
+[2023-06-24 07:03:07] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 07:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geemap
+[2023-06-24 07:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FinderZ
+[2023-06-24 07:03:07] INFO root fetch - processPackages [FinderZ]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-24 07:03:07] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-24 07:03:07] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/db/f7/1a2f32a8fdde463dc3192308d2983d03d0e36a4496d84455cec248ef82c3/finderz-2.0.0.tar.gz
+[2023-06-24 07:03:07] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2023-06-24 07:03:07] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/4a/e1/1764ba184949c620786ed22563fb561fb8f39390c5271424bf8fca7e69f2/finderz-2.0.1.tar.gz
+[2023-06-24 07:03:07] INFO root fetch - processPackages [FinderZ]: executing diffoscope
+[2023-06-24 07:03:07] INFO root fetch - processPackages [FinderZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finderz-2.0.0.tar.gz tmp/finderz-2.0.1.tar.gz --markdown 20230624/F/FinderZ/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-24 07:03:07] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2023-06-24 07:03:08] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-06-24 07:03:08] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230624/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-24 07:03:09] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.0.tar.gz]
+[2023-06-24 07:03:09] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.1.tar.gz]
+[2023-06-24 07:03:09] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
+[2023-06-24 07:03:10] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2023-06-24 07:03:10] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2023-06-24 07:03:10] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-06-24 07:03:10] INFO root fetch - main [MainThread]: Store serial: [18627245]
