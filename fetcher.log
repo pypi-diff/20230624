@@ -12028,3 +12028,30 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 11:07:27] INFO root fetch - processPackages [dnd5apy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5apy-1.0.6.tar.gz]
 [2023-06-24 11:07:27] INFO root fetch - main [MainThread]: End processing [dnd5apy]: success
 [2023-06-24 11:07:27] INFO root fetch - main [MainThread]: Store serial: [18628277]
+[2023-06-24 11:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628277]
+[2023-06-24 11:12:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycones
+[2023-06-24 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat-mod303-oss
+[2023-06-24 11:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly
+[2023-06-24 11:12:37] INFO root fetch - processPackages [pycones]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 11:12:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0]
+[2023-06-24 11:12:37] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230624] Old Version: [2.14.0.dev20230623]
+[2023-06-24 11:12:37] INFO root fetch - processPackages [pycones]: Downloading https://files.pythonhosted.org/packages/29/04/abf0c477436a5f935ff2b7b8367932745b167c5a704207dab16d1773e9b1/pycones-0.1.1.tar.gz
+[2023-06-24 11:12:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Downloading https://files.pythonhosted.org/packages/a2/8e/e8c07e3e1cde68bd0202d181272ad6948a044e0d905842bf22f4b2323358/odoo_addon_l10n_es_aeat_mod303_oss-15.0.1.1.0-py3-none-any.whl
+[2023-06-24 11:12:37] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/19/f0/547d9fe2d2cf39f0079389f2050b012cbdc94e8042f64da175ba0561beb7/tf_nightly-2.14.0.dev20230623-cp39-cp39-win_amd64.whl
+[2023-06-24 11:12:37] INFO root fetch - processPackages [pycones]: Downloading https://files.pythonhosted.org/packages/d3/8e/65df166cdb9a1d67e90c81f47c89bb1b0b5d3022b76b4ecbaa1883b7fed3/pycones-0.1.2.tar.gz
+[2023-06-24 11:12:37] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/21/55/d57eb95698ca67ee04bb1fac92e5fcae574dd942ac9dbe79b647794bff36/tf_nightly-2.14.0.dev20230624-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 11:12:37] INFO root fetch - processPackages [pycones]: executing diffoscope
+[2023-06-24 11:12:37] INFO root fetch - processPackages [pycones]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycones-0.1.1.tar.gz tmp/pycones-0.1.2.tar.gz --markdown 20230624/p/pycones/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 11:12:37] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Downloading https://files.pythonhosted.org/packages/03/07/40040f168764a60b6382018b4e9ba5b8e949c213aaf5c5c3f745f6047d59/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-24 11:12:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: executing diffoscope
+[2023-06-24 11:12:38] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod303_oss-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-l10n-es-aeat-mod303-oss/15.0.1.1.0-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-24 11:12:38] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 491715331>=10485760
+[2023-06-24 11:12:38] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-24 11:12:39] INFO root fetch - processPackages [pycones]: Remove: archive file [/home/abi/fetcher/tmp/pycones-0.1.1.tar.gz]
+[2023-06-24 11:12:39] INFO root fetch - processPackages [pycones]: Remove: archive file [/home/abi/fetcher/tmp/pycones-0.1.2.tar.gz]
+[2023-06-24 11:12:39] INFO root fetch - main [MainThread]: End processing [pycones]: success
+[2023-06-24 11:12:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303_oss-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-24 11:12:39] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod303-oss]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod303_oss-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-24 11:12:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod303-oss]: success
+[2023-06-24 11:12:39] INFO root fetch - main [MainThread]: Store serial: [18628289]
