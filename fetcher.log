@@ -18991,3 +18991,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:30:09] INFO root fetch - processPackages [ml-starter]: Remove: archive file [/home/abi/fetcher/tmp/ml-starter-0.1.0.tar.gz]
 [2023-06-24 21:30:09] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
 [2023-06-24 21:30:09] INFO root fetch - main [MainThread]: Store serial: [18631538]
+[2023-06-24 21:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631538]
+[2023-06-24 21:35:19] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evadb
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maadstmlmedia
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snok
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Strings-OC
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litestar
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sessypy
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simsity
+[2023-06-24 21:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythorhead
+[2023-06-24 21:35:19] INFO root fetch - processPackages [litestar]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2023-06-24 21:35:19] INFO root fetch - processPackages [snok]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 21:35:19] INFO root fetch - processPackages [maadstmlmedia]: New version: [1.2] Old Version: [1.1]
+[2023-06-24 21:35:19] WARNING root fetch - processPackages [Strings-OC]: Skipping, unable to determine old version
+[2023-06-24 21:35:19] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 21:35:19] INFO root fetch - main [MainThread]: End processing [Strings-OC] error
+[2023-06-24 21:35:19] INFO root fetch - processPackages [sessypy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 21:35:19] INFO root fetch - processPackages [simsity]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-24 21:35:19] INFO root fetch - processPackages [pythorhead]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-24 21:35:19] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/46/cb/e1c31c19adbe30d4a95975c02287d83b3b7423ff310aa68be06efbba862b/pythorhead-0.8.3.tar.gz
+[2023-06-24 21:35:19] INFO root fetch - processPackages [maadstmlmedia]: Downloading https://files.pythonhosted.org/packages/5a/d6/f9842e84379aaf63e50b050dc20de2fd37df60ea90ae1be6162585099309/maadstmlmedia-1.1.tar.gz
+[2023-06-24 21:35:19] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/3e/45/9a9b373d3ccbefe96aed31aa9487a684ae40f17cda7119f7f6542536bbb6/snok-0.0.7.tar.gz
+[2023-06-24 21:35:19] INFO root fetch - processPackages [sessypy]: Downloading https://files.pythonhosted.org/packages/bf/fe/0d425402ce1945b399ea5808fac0674f031a8613ad1c399a73f14e47ce11/sessypy-0.0.8.tar.gz
+[2023-06-24 21:35:19] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-24 21:35:19] INFO root fetch - processPackages [simsity]: Downloading https://files.pythonhosted.org/packages/45/76/4dc26c3be2dea2e6bf0dc73af328ab738c52ce5c65b56966084a5f8377c1/simsity-0.5.4.tar.gz
+[2023-06-24 21:35:19] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/90/0a/aab0636a1120e87cc24507e206a5ff4d473e1fef0b790aaff52299dc6835/litestar-2.0.0b1.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/99/1a/60c76ee175c5a5f1d98bfbc1d3045e0b0f63cb8b2cdfff8aed5a36f31dc8/pythorhead-0.9.0.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [maadstmlmedia]: Downloading https://files.pythonhosted.org/packages/8e/08/8ff06104255f0ad46f44411b67e47078e6b197b56477e82c424fdb3301a1/maadstmlmedia-1.2.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/77/84/f4da540098a63a20561a4eabc3a085403f873b6759547533829959f50dec/snok-0.0.8.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [simsity]: Downloading https://files.pythonhosted.org/packages/4c/60/29a43f12aea9ee330e59c5987094e2fc20f512f24560ee4f7969ebdd09de/simsity-0.5.5.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [sessypy]: Downloading https://files.pythonhosted.org/packages/9d/f2/d711549bdab6c000dc46642ac8dacd0a592c2ea08cf181395a04d0d771b4/sessypy-0.0.9.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.7.tar.gz tmp/snok-0.0.8.tar.gz --markdown 20230624/s/snok/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 21:35:20] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/d0/d7/f6baf96a62229f7e18b2ecfac937a16fe01a321136ab01c1965b36dc389e/litestar-2.0.0b2.tar.gz
+[2023-06-24 21:35:20] INFO root fetch - processPackages [maadstmlmedia]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [maadstmlmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstmlmedia-1.1.tar.gz tmp/maadstmlmedia-1.2.tar.gz --markdown 20230624/m/maadstmlmedia/1.1-1.2/diff.md --exclude *.pyd
+[2023-06-24 21:35:20] INFO root fetch - processPackages [sessypy]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [sessypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sessypy-0.0.8.tar.gz tmp/sessypy-0.0.9.tar.gz --markdown 20230624/s/sessypy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:35:20] INFO root fetch - processPackages [simsity]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [simsity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simsity-0.5.4.tar.gz tmp/simsity-0.5.5.tar.gz --markdown 20230624/s/simsity/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-06-24 21:35:20] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.8.3.tar.gz tmp/pythorhead-0.9.0.tar.gz --markdown 20230624/p/pythorhead/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 21:35:20] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230624/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 21:35:20] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2023-06-24 21:35:20] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.0.0b1.tar.gz tmp/litestar-2.0.0b2.tar.gz --markdown 20230624/l/litestar/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2023-06-24 21:35:21] INFO root fetch - processPackages [maadstmlmedia]: Remove: archive file [/home/abi/fetcher/tmp/maadstmlmedia-1.1.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - processPackages [maadstmlmedia]: Remove: archive file [/home/abi/fetcher/tmp/maadstmlmedia-1.2.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - main [MainThread]: End processing [maadstmlmedia]: success
+[2023-06-24 21:35:21] INFO root fetch - processPackages [sessypy]: Remove: archive file [/home/abi/fetcher/tmp/sessypy-0.0.8.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - processPackages [sessypy]: Remove: archive file [/home/abi/fetcher/tmp/sessypy-0.0.9.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - main [MainThread]: End processing [sessypy]: success
+[2023-06-24 21:35:21] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.7.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.8.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-24 21:35:21] INFO root fetch - processPackages [simsity]: Remove: archive file [/home/abi/fetcher/tmp/simsity-0.5.4.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - processPackages [simsity]: Remove: archive file [/home/abi/fetcher/tmp/simsity-0.5.5.tar.gz]
+[2023-06-24 21:35:21] INFO root fetch - main [MainThread]: End processing [simsity]: success
+[2023-06-24 21:35:22] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.3.tar.gz]
+[2023-06-24 21:35:22] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.9.0.tar.gz]
+[2023-06-24 21:35:22] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-24 21:35:24] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-24 21:35:24] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-24 21:35:24] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-24 21:35:27] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b1.tar.gz]
+[2023-06-24 21:35:27] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b2.tar.gz]
+[2023-06-24 21:35:27] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2023-06-24 21:35:27] INFO root fetch - main [MainThread]: Store serial: [18631564]
