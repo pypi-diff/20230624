@@ -13462,3 +13462,60 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:34:30] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.0.tar.gz]
 [2023-06-24 13:34:30] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
 [2023-06-24 13:34:30] INFO root fetch - main [MainThread]: Store serial: [18629051]
+[2023-06-24 13:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629051]
+[2023-06-24 13:39:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: screeny
+[2023-06-24 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crawler-commons
+[2023-06-24 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: morel
+[2023-06-24 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dartrig
+[2023-06-24 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hydrusvideodeduplicator
+[2023-06-24 13:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythorhead
+[2023-06-24 13:39:39] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 13:39:39] INFO root fetch - processPackages [morel]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-24 13:39:39] INFO root fetch - processPackages [screeny]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-24 13:39:39] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 13:39:39] INFO root fetch - processPackages [pythorhead]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-24 13:39:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 13:39:39] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/f7/b5/36a1e14e3b1dc6cf7ac741a6dbcc1bf129c31e3ea660df3a7e0082a97b38/morel-1.6.3.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/11/ab/4c0c21ce0aa3cd21180398eed5f1c02e06ea5e19b4565752580792613ecc/screeny-0.4.0.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/49/19/aab47e2ee7b9758276c8243d7a1fc27c4a86be973cc8c766cd3792a3d5c5/hydrusvideodeduplicator-0.1.1.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/a0/57/05f6efc234fb3cb098cd39015c2f86835ffe6805c4df88071235b3b84173/pythorhead-0.8.1.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/90/ad/e1611487f703305b6f9bb32d7e337c266e2be6108536ad505202f5a065a4/morel-1.6.4.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/b5/22/981fb73c23b0c4a5d195d4245e8294c03a89ee6dfaa7e61e5b8779dbf5d0/screeny-0.4.1.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/cf/43/93438348d4bb986e3c5e720ed420a4891375a9832537fe7758c0e058a3a9/hydrusvideodeduplicator-0.1.2.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/36/6b/45cfccf8aa4e9c54d4a6b30919ac9918deaa62c81194944849e3172e6968/pythorhead-0.8.2.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-24 13:39:39] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-24 13:39:39] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230624/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 13:39:39] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-24 13:39:39] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.6.3.tar.gz tmp/morel-1.6.4.tar.gz --markdown 20230624/m/morel/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-24 13:39:39] INFO root fetch - processPackages [screeny]: executing diffoscope
+[2023-06-24 13:39:39] INFO root fetch - processPackages [screeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screeny-0.4.0.tar.gz tmp/screeny-0.4.1.tar.gz --markdown 20230624/s/screeny/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-24 13:39:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-06-24 13:39:39] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.1.1.tar.gz tmp/hydrusvideodeduplicator-0.1.2.tar.gz --markdown 20230624/h/hydrusvideodeduplicator/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 13:39:40] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-24 13:39:40] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230624/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 13:39:40] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-24 13:39:40] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.8.1.tar.gz tmp/pythorhead-0.8.2.tar.gz --markdown 20230624/p/pythorhead/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-24 13:39:41] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-24 13:39:41] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.3.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.4.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-24 13:39:41] INFO root fetch - processPackages [screeny]: Remove: archive file [/home/abi/fetcher/tmp/screeny-0.4.0.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - processPackages [screeny]: Remove: archive file [/home/abi/fetcher/tmp/screeny-0.4.1.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [screeny]: success
+[2023-06-24 13:39:41] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-24 13:39:41] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.1.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.1.2.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-06-24 13:39:41] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.1.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.2.tar.gz]
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-24 13:39:41] INFO root fetch - main [MainThread]: Store serial: [18629071]
