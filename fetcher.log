@@ -17488,3 +17488,27 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:32:14] INFO root fetch - processPackages [marcel]: Remove: archive file [/home/abi/fetcher/tmp/marcel-0.9.9-py3-none-any.whl.zip]
 [2023-06-24 19:32:14] INFO root fetch - main [MainThread]: End processing [marcel]: success
 [2023-06-24 19:32:14] INFO root fetch - main [MainThread]: Store serial: [18630818]
+[2023-06-24 19:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630818]
+[2023-06-24 19:37:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ovos-ww-plugin-openwakeword
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous-trade-crypto
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: porringer-core
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: New version: [0.2.1a1] Old Version: [0.2.1]
+[2023-06-24 19:37:23] WARNING root fetch - processPackages [porringer-core]: Skipping, unable to determine old version
+[2023-06-24 19:37:23] INFO root fetch - main [MainThread]: End processing [porringer-core] error
+[2023-06-24 19:37:23] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 19:37:23] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Downloading https://files.pythonhosted.org/packages/d5/21/1cb41ee408ec2a413d2921c371f88ed18e7b0f630cdc66c8ab2efd900c4a/ovos_ww_plugin_openwakeword-0.2.1-py3-none-any.whl
+[2023-06-24 19:37:23] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-24 19:37:23] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-24 19:37:23] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230624/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Downloading https://files.pythonhosted.org/packages/0e/39/f9cbf3aa0c39ce4fac6f5a07dedb4751aaa3e0cdecc5eb443acdba6142f8/ovos_ww_plugin_openwakeword-0.2.1a1-py3-none-any.whl
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: executing diffoscope
+[2023-06-24 19:37:23] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_ww_plugin_openwakeword-0.2.1-py3-none-any.whl.zip tmp/ovos_ww_plugin_openwakeword-0.2.1a1-py3-none-any.whl.zip --markdown 20230624/o/ovos-ww-plugin-openwakeword/0.2.1-0.2.1a1/diff.md --exclude *.pyd
+[2023-06-24 19:37:25] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-24 19:37:25] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-24 19:37:25] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-24 19:38:19] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Remove: archive file [/home/abi/fetcher/tmp/ovos_ww_plugin_openwakeword-0.2.1-py3-none-any.whl.zip]
+[2023-06-24 19:38:19] INFO root fetch - processPackages [ovos-ww-plugin-openwakeword]: Remove: archive file [/home/abi/fetcher/tmp/ovos_ww_plugin_openwakeword-0.2.1a1-py3-none-any.whl.zip]
+[2023-06-24 19:38:19] INFO root fetch - main [MainThread]: End processing [ovos-ww-plugin-openwakeword]: success
+[2023-06-24 19:38:19] INFO root fetch - main [MainThread]: Store serial: [18630831]
