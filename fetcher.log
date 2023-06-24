@@ -18089,3 +18089,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [mizue]: success
 [2023-06-24 20:20:49] INFO root fetch - main [MainThread]: End processing [pytest-time]: success
 [2023-06-24 20:20:49] INFO root fetch - main [MainThread]: Store serial: [18631111]
+[2023-06-24 20:25:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631111]
+[2023-06-24 20:25:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doxapy
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lib-not-dr
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-cookie-decode
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: researchgpt
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: user-discord
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pfsense-git-config
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sbxpy
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modularbayes
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: drtodo
+[2023-06-24 20:25:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lazylines
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lib-not-dr]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [doxapy]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [drtodo]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [flask-cookie-decode]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [user-discord]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-06-24 20:25:59] WARNING root fetch - processPackages [pfsense-git-config]: Skipping, unable to determine old version
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lazylines]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 20:25:59] INFO root fetch - main [MainThread]: End processing [pfsense-git-config] error
+[2023-06-24 20:25:59] INFO root fetch - processPackages [modularbayes]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [sbxpy]: New version: [0.3.8.1] Old Version: [0.3.7.3]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [researchgpt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lazylines]: Downloading https://files.pythonhosted.org/packages/13/7d/221564840bdc1620535aee76aef2c05390970ed6001059d5c2b92dde31af/lazylines-0.0.2.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/aa/7b/9f13fb2c0a9b243b1903bae30147951a229a3298499bc648ff77f40d49a4/user_discord-1.2.5.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/ce/78/0ffcdf0c672f41d3e9c992488d6c98b1cf414c53fc9b86bbe05ad9a84281/drtodo-0.6.7.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [sbxpy]: Downloading https://files.pythonhosted.org/packages/40/31/131eda72f8257bc66d7bc302ba36b07b05ed951eb82aa3ed4a5a8d9b1704/sbxpy-0.3.7.3.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [doxapy]: Downloading https://files.pythonhosted.org/packages/8b/86/4c5dbc27fa60a519a14ae4c7a9b64e29b6f590eeeba00c95f2e838e4ef33/doxapy-0.9.1.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lib-not-dr]: Downloading https://files.pythonhosted.org/packages/82/75/3df137ed7effcc06af96662ac17401c218c0a66f53401199dba0a4568f24/lib-not-dr-0.0.3.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [modularbayes]: Downloading https://files.pythonhosted.org/packages/d0/42/7a43881a0b82d37a9ba9d9467888af84964de0550ea6e62abaa50c861b74/modularbayes-0.1.3.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [researchgpt]: Downloading https://files.pythonhosted.org/packages/ad/59/01b3f3656e2b9b1cb52fc5b3a8d95f85998cb97fd0cffe07789681d0df72/researchgpt-0.0.1.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [flask-cookie-decode]: Downloading https://files.pythonhosted.org/packages/38/3d/16324b9370d126fd4389b8b86349ebd58d04f817a809138d28ceb5a7d7f1/flask_cookie_decode-0.3.2.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lazylines]: Downloading https://files.pythonhosted.org/packages/32/b3/83b81c8d3023a937daaf670740fdf906bd2742fcdc1fec92070bdeae63cd/lazylines-0.0.3.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/b1/41/ae95e6ce8ac68a298ff8179e9ca4ab012f3b3724d2f10a6d2d0b0c20ea5a/user_discord-1.2.6.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lazylines]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lazylines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylines-0.0.2.tar.gz tmp/lazylines-0.0.3.tar.gz --markdown 20230624/l/lazylines/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [drtodo]: Downloading https://files.pythonhosted.org/packages/3c/af/5053d006d76f2884f9236336ef60641353f7ef726ea604f1377485b1c141/drtodo-0.6.8.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lib-not-dr]: Downloading https://files.pythonhosted.org/packages/a3/e7/f461d8778e2da7d1ec10514d64437c332bb34b1227d3ef91b73b6dbc1007/lib-not-dr-0.0.4.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [doxapy]: Downloading https://files.pythonhosted.org/packages/39/db/48e5f487f73e034a71eb119a60c01fa0fd45568059cd918f7d8adec791b8/doxapy-0.9.2.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [researchgpt]: Downloading https://files.pythonhosted.org/packages/d0/f7/8f75bb14e8de40afaaf2e73c036f17351ca96efc9d144932856a7e56e54e/researchgpt-0.0.2.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [modularbayes]: Downloading https://files.pythonhosted.org/packages/69/71/b26d86c0c7a9822f8cab845c1c30f51e3e9b57e4080af62fbcb9385613b4/modularbayes-0.1.4.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.2.5.tar.gz tmp/user_discord-1.2.6.tar.gz --markdown 20230624/u/user-discord/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [sbxpy]: Downloading https://files.pythonhosted.org/packages/cd/7a/3b36a8e2f2255f0897f9260a6781727927dbea9ac59903d5ea6b9d415829/sbxpy-0.3.8.1.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lib-not-dr]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [lib-not-dr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib-not-dr-0.0.3.tar.gz tmp/lib-not-dr-0.0.4.tar.gz --markdown 20230624/l/lib-not-dr/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [doxapy]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [doxapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doxapy-0.9.1.tar.gz tmp/doxapy-0.9.2.tar.gz --markdown 20230624/d/doxapy/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [flask-cookie-decode]: Downloading https://files.pythonhosted.org/packages/27/3e/098ce5fdf0bbc5e72e2355e307082c89402f9157f3ec162785c951d2e3d6/flask_cookie_decode-0.4.0.tar.gz
+[2023-06-24 20:25:59] INFO root fetch - processPackages [drtodo]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [drtodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drtodo-0.6.7.tar.gz tmp/drtodo-0.6.8.tar.gz --markdown 20230624/d/drtodo/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [modularbayes]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [modularbayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modularbayes-0.1.3.tar.gz tmp/modularbayes-0.1.4.tar.gz --markdown 20230624/m/modularbayes/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [sbxpy]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [sbxpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbxpy-0.3.7.3.tar.gz tmp/sbxpy-0.3.8.1.tar.gz --markdown 20230624/s/sbxpy/0.3.7.3-0.3.8.1/diff.md --exclude *.pyd
+[2023-06-24 20:25:59] INFO root fetch - processPackages [researchgpt]: executing diffoscope
+[2023-06-24 20:25:59] INFO root fetch - processPackages [researchgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/researchgpt-0.0.1.tar.gz tmp/researchgpt-0.0.2.tar.gz --markdown 20230624/r/researchgpt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 20:26:00] INFO root fetch - processPackages [flask-cookie-decode]: executing diffoscope
+[2023-06-24 20:26:00] INFO root fetch - processPackages [flask-cookie-decode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_cookie_decode-0.3.2.tar.gz tmp/flask_cookie_decode-0.4.0.tar.gz --markdown 20230624/f/flask-cookie-decode/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 20:26:01] INFO root fetch - processPackages [lazylines]: Remove: archive file [/home/abi/fetcher/tmp/lazylines-0.0.2.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - processPackages [lazylines]: Remove: archive file [/home/abi/fetcher/tmp/lazylines-0.0.3.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - main [MainThread]: End processing [lazylines]: success
+[2023-06-24 20:26:01] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.5.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.6.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-24 20:26:01] INFO root fetch - processPackages [lib-not-dr]: Remove: archive file [/home/abi/fetcher/tmp/lib-not-dr-0.0.3.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - processPackages [lib-not-dr]: Remove: archive file [/home/abi/fetcher/tmp/lib-not-dr-0.0.4.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - main [MainThread]: End processing [lib-not-dr]: success
+[2023-06-24 20:26:01] INFO root fetch - processPackages [sbxpy]: Remove: archive file [/home/abi/fetcher/tmp/sbxpy-0.3.7.3.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - processPackages [sbxpy]: Remove: archive file [/home/abi/fetcher/tmp/sbxpy-0.3.8.1.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - main [MainThread]: End processing [sbxpy]: success
+[2023-06-24 20:26:01] INFO root fetch - processPackages [drtodo]: Remove: archive file [/home/abi/fetcher/tmp/drtodo-0.6.7.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - processPackages [drtodo]: Remove: archive file [/home/abi/fetcher/tmp/drtodo-0.6.8.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - main [MainThread]: End processing [drtodo]: success
+[2023-06-24 20:26:01] INFO root fetch - processPackages [doxapy]: Remove: archive file [/home/abi/fetcher/tmp/doxapy-0.9.1.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - processPackages [doxapy]: Remove: archive file [/home/abi/fetcher/tmp/doxapy-0.9.2.tar.gz]
+[2023-06-24 20:26:01] INFO root fetch - main [MainThread]: End processing [doxapy]: success
+[2023-06-24 20:26:02] INFO root fetch - processPackages [researchgpt]: Remove: archive file [/home/abi/fetcher/tmp/researchgpt-0.0.1.tar.gz]
+[2023-06-24 20:26:02] INFO root fetch - processPackages [researchgpt]: Remove: archive file [/home/abi/fetcher/tmp/researchgpt-0.0.2.tar.gz]
+[2023-06-24 20:26:02] INFO root fetch - main [MainThread]: End processing [researchgpt]: success
+[2023-06-24 20:26:02] INFO root fetch - processPackages [modularbayes]: Remove: archive file [/home/abi/fetcher/tmp/modularbayes-0.1.3.tar.gz]
+[2023-06-24 20:26:02] INFO root fetch - processPackages [modularbayes]: Remove: archive file [/home/abi/fetcher/tmp/modularbayes-0.1.4.tar.gz]
+[2023-06-24 20:26:02] INFO root fetch - main [MainThread]: End processing [modularbayes]: success
+[2023-06-24 20:26:03] INFO root fetch - processPackages [flask-cookie-decode]: Remove: archive file [/home/abi/fetcher/tmp/flask_cookie_decode-0.3.2.tar.gz]
+[2023-06-24 20:26:03] INFO root fetch - processPackages [flask-cookie-decode]: Remove: archive file [/home/abi/fetcher/tmp/flask_cookie_decode-0.4.0.tar.gz]
+[2023-06-24 20:26:03] INFO root fetch - main [MainThread]: End processing [flask-cookie-decode]: success
+[2023-06-24 20:26:03] INFO root fetch - main [MainThread]: Store serial: [18631186]
