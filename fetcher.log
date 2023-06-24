@@ -15911,3 +15911,124 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:01:09] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.1.tar.gz]
 [2023-06-24 17:01:09] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
 [2023-06-24 17:01:09] INFO root fetch - main [MainThread]: Store serial: [18630091]
+[2023-06-24 17:06:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630091]
+[2023-06-24 17:06:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-bind-manager
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nselib
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apricopt
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cny
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxrk
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autooc
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: runpod
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: IPFS-Toolkit
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autooc
+[2023-06-24 17:06:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FinderZ
+[2023-06-24 17:06:18] INFO root fetch - processPackages [cny]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [sqlalchemy-bind-manager]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [apricopt]: New version: [0.0.2a3.dev9] Old Version: [0.0.2a3.dev8]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [autooc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [nselib]: New version: [0.5] Old Version: [0.4]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [FinderZ]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [runpod]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 17:06:18] WARNING root fetch - processPackages [pyxrk]: Skipping, unable to determine old version
+[2023-06-24 17:06:18] INFO root fetch - processPackages [pyxrk]: Start processing: smart-dummy
+[2023-06-24 17:06:18] INFO root fetch - main [MainThread]: End processing [pyxrk] error
+[2023-06-24 17:06:18] INFO root fetch - processPackages [autooc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [IPFS-Toolkit]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [smart-dummy]: New version: [0.2] Old Version: [0.1.4]
+[2023-06-24 17:06:18] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/4a/e1/1764ba184949c620786ed22563fb561fb8f39390c5271424bf8fca7e69f2/finderz-2.0.1.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [cny]: Downloading https://files.pythonhosted.org/packages/a8/d5/f667b0967f37af0042514e3dacc8b7b5c9b9f9ff33f3d0c18cce662b660e/cny-1.0.3-py3-none-any.whl
+[2023-06-24 17:06:18] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/49/22/5d65fca0d9868d55f4c96bb48f22eb2f76c6b592eaee50614732b792c238/sqlalchemy_bind_manager-0.3.0.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/e6/ef/bca3853478e4af9c18d56b0977ffc16545f42b16583703bf9e6b2db28ce5/autooc-0.0.4.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/65/94/c63ba4e61ac4b062265e923eb0749224ce28e234ea9d1c91dc14ed782b37/runpod-0.9.8.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [IPFS-Toolkit]: Downloading https://files.pythonhosted.org/packages/cd/e2/4760f29a8f55bc6dfd69fc50b7991c620ef4e6a41640650e2d74ebc42bf0/IPFS-Toolkit-0.5.8.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/e6/ef/bca3853478e4af9c18d56b0977ffc16545f42b16583703bf9e6b2db28ce5/autooc-0.0.4.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/81/d4/3747f161275aa1f9d0acbcd017e3031459132da4f2af9c5af4963b4226e4/nselib-0.4.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [smart-dummy]: Downloading https://files.pythonhosted.org/packages/40/bf/2587eba734f9d1afadbd886894823e4a2bed81658562aa7b55d18c79bff8/smart_dummy-0.1.4.tar.gz
+[2023-06-24 17:06:18] INFO root fetch - processPackages [apricopt]: Downloading https://files.pythonhosted.org/packages/45/6b/c53cb550b9a13ded6dc3886707803b636ef9c1ce74c3c567be6643369461/apricopt-0.0.2a3.dev8.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [FinderZ]: Downloading https://files.pythonhosted.org/packages/23/9a/b10d580c2727441be8fd61eba1cae0710023a1584ad35372582731741e91/finderz-2.0.2.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [cny]: Downloading https://files.pythonhosted.org/packages/95/60/138f12d0ed5c04cea8cc37af25a5e7bbc6686a42e216bbcc0c3b02c651a7/cny-1.0.5-py3-none-any.whl
+[2023-06-24 17:06:19] INFO root fetch - processPackages [nselib]: Downloading https://files.pythonhosted.org/packages/fa/5d/9199994abeeb93c476a69d780b52ce0fe9883d562615c42bbda8e7cd2351/nselib-0.5.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [smart-dummy]: Downloading https://files.pythonhosted.org/packages/fc/89/9c703447d2df4059f66d1650d477c33a0f51692ec9f6096fb9e955d55737/smart_dummy-0.2.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Downloading https://files.pythonhosted.org/packages/39/de/6f3d6dcf0b7d8536bdcadee76a4e0e127ef51b5b53c18edef7f848e2c92c/sqlalchemy_bind_manager-0.3.1.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [apricopt]: Downloading https://files.pythonhosted.org/packages/b5/aa/6b6d5593d6c6ef9f57c64d0256830d2c1e2e550b6d5a22eab2ef8a745994/apricopt-0.0.2a3.dev9.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [FinderZ]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [FinderZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finderz-2.0.1.tar.gz tmp/finderz-2.0.2.tar.gz --markdown 20230624/F/FinderZ/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [sqlalchemy-bind-manager]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [sqlalchemy-bind-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_bind_manager-0.3.0.tar.gz tmp/sqlalchemy_bind_manager-0.3.1.tar.gz --markdown 20230624/s/sqlalchemy-bind-manager/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [nselib]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [IPFS-Toolkit]: Downloading https://files.pythonhosted.org/packages/b1/f9/4eb14828d48781ff746727ef1fd9fc3dd837698a4d01a5521712c4feb6ee/IPFS-Toolkit-0.5.9.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [nselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nselib-0.4.tar.gz tmp/nselib-0.5.tar.gz --markdown 20230624/n/nselib/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [cny]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [cny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cny-1.0.3-py3-none-any.whl.zip tmp/cny-1.0.5-py3-none-any.whl.zip --markdown 20230624/c/cny/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [apricopt]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [apricopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apricopt-0.0.2a3.dev8.tar.gz tmp/apricopt-0.0.2a3.dev9.tar.gz --markdown 20230624/a/apricopt/0.0.2a3.dev8-0.0.2a3.dev9/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [runpod]: Downloading https://files.pythonhosted.org/packages/e9/f2/4a673681aa4a4b97f410e58578db97b7ed000f6f75c54ea823143f095587/runpod-0.9.9.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/ee/14/9487b23be77303309ec8a099aea7d998d12ed710ac979be2ae1d426ff0d1/autooc-0.0.5.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [smart-dummy]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [smart-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_dummy-0.1.4.tar.gz tmp/smart_dummy-0.2.tar.gz --markdown 20230624/s/smart-dummy/0.1.4-0.2/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [autooc]: Downloading https://files.pythonhosted.org/packages/ee/14/9487b23be77303309ec8a099aea7d998d12ed710ac979be2ae1d426ff0d1/autooc-0.0.5.tar.gz
+[2023-06-24 17:06:19] INFO root fetch - processPackages [IPFS-Toolkit]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [IPFS-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IPFS-Toolkit-0.5.8.tar.gz tmp/IPFS-Toolkit-0.5.9.tar.gz --markdown 20230624/I/IPFS-Toolkit/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [runpod]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runpod-0.9.8.tar.gz tmp/runpod-0.9.9.tar.gz --markdown 20230624/r/runpod/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.4.tar.gz tmp/autooc-0.0.5.tar.gz --markdown 20230624/a/autooc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 17:06:19] INFO root fetch - processPackages [autooc]: executing diffoscope
+[2023-06-24 17:06:19] INFO root fetch - processPackages [autooc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autooc-0.0.4.tar.gz tmp/autooc-0.0.5.tar.gz --markdown 20230624/a/autooc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: Remove: archive file [/home/abi/fetcher/tmp/cny-1.0.3-py3-none-any.whl.zip]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: Remove: archive file [/home/abi/fetcher/tmp/cny-1.0.5-py3-none-any.whl.zip]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: Start processing: lcwc
+[2023-06-24 17:06:21] INFO root fetch - main [MainThread]: End processing [cny]: success
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lcwc]: New version: [0.5] Old Version: [0.4]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.0.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_bind_manager-0.3.1.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [sqlalchemy-bind-manager]: Start processing: cny
+[2023-06-24 17:06:21] INFO root fetch - main [MainThread]: End processing [sqlalchemy-bind-manager]: success
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: Downloading https://files.pythonhosted.org/packages/a8/d5/f667b0967f37af0042514e3dacc8b7b5c9b9f9ff33f3d0c18cce662b660e/cny-1.0.3-py3-none-any.whl
+[2023-06-24 17:06:21] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.1.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [FinderZ]: Remove: archive file [/home/abi/fetcher/tmp/finderz-2.0.2.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [FinderZ]: Start processing: lanablas
+[2023-06-24 17:06:21] INFO root fetch - main [MainThread]: End processing [FinderZ]: success
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lanablas]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/0b/44/fa869e30d07b36589d6971db4f6eb2af1a8813d342d55770e9489943e6b9/lanablas-0.0.5.tar.gz
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lcwc]: Downloading https://files.pythonhosted.org/packages/49/89/fe25f0b2907be04219e7768d6de9bdc083c8623efd1cb6f79196c52376a2/lcwc-0.4.tar.gz
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: Downloading https://files.pythonhosted.org/packages/95/60/138f12d0ed5c04cea8cc37af25a5e7bbc6686a42e216bbcc0c3b02c651a7/cny-1.0.5-py3-none-any.whl
+[2023-06-24 17:06:21] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.4.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [nselib]: Remove: archive file [/home/abi/fetcher/tmp/nselib-0.5.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - main [MainThread]: End processing [nselib]: success
+[2023-06-24 17:06:21] INFO root fetch - processPackages [smart-dummy]: Remove: archive file [/home/abi/fetcher/tmp/smart_dummy-0.1.4.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [smart-dummy]: Remove: archive file [/home/abi/fetcher/tmp/smart_dummy-0.2.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - main [MainThread]: End processing [smart-dummy]: success
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: executing diffoscope
+[2023-06-24 17:06:21] INFO root fetch - processPackages [cny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cny-1.0.3-py3-none-any.whl.zip tmp/cny-1.0.5-py3-none-any.whl.zip --markdown 20230624/c/cny/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lanablas]: Downloading https://files.pythonhosted.org/packages/3d/5d/829af49e8de3b890338e7ca3d363c9673c66a14ee1fc1662b17f5bfdc8fb/lanablas-0.0.6.tar.gz
+[2023-06-24 17:06:21] INFO root fetch - processPackages [IPFS-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/IPFS-Toolkit-0.5.8.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - processPackages [IPFS-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/IPFS-Toolkit-0.5.9.tar.gz]
+[2023-06-24 17:06:21] INFO root fetch - main [MainThread]: End processing [IPFS-Toolkit]: success
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lanablas]: executing diffoscope
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lanablas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanablas-0.0.5.tar.gz tmp/lanablas-0.0.6.tar.gz --markdown 20230624/l/lanablas/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lcwc]: Downloading https://files.pythonhosted.org/packages/59/d9/4dd0718fa17c3e626076d403bf9f655b3896fab9c1cdbfb95fe6eb85f615/lcwc-0.5.tar.gz
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lcwc]: executing diffoscope
+[2023-06-24 17:06:21] INFO root fetch - processPackages [lcwc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcwc-0.4.tar.gz tmp/lcwc-0.5.tar.gz --markdown 20230624/l/lcwc/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-24 17:06:22] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-0.9.8.tar.gz]
+[2023-06-24 17:06:22] INFO root fetch - processPackages [runpod]: Remove: archive file [/home/abi/fetcher/tmp/runpod-0.9.9.tar.gz]
+[2023-06-24 17:06:22] INFO root fetch - main [MainThread]: End processing [runpod]: success
+[2023-06-24 17:06:22] INFO root fetch - processPackages [cny]: Remove: archive file [/home/abi/fetcher/tmp/cny-1.0.3-py3-none-any.whl.zip]
+[2023-06-24 17:06:22] INFO root fetch - processPackages [cny]: Remove: archive file [/home/abi/fetcher/tmp/cny-1.0.5-py3-none-any.whl.zip]
+[2023-06-24 17:06:22] INFO root fetch - main [MainThread]: End processing [cny]: success
+[2023-06-24 17:06:22] INFO root fetch - processPackages [apricopt]: Remove: archive file [/home/abi/fetcher/tmp/apricopt-0.0.2a3.dev8.tar.gz]
+[2023-06-24 17:06:22] INFO root fetch - processPackages [apricopt]: Remove: archive file [/home/abi/fetcher/tmp/apricopt-0.0.2a3.dev9.tar.gz]
+[2023-06-24 17:06:22] INFO root fetch - main [MainThread]: End processing [apricopt]: success
+[2023-06-24 17:06:22] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.5.tar.gz]
+[2023-06-24 17:06:22] INFO root fetch - processPackages [lanablas]: Remove: archive file [/home/abi/fetcher/tmp/lanablas-0.0.6.tar.gz]
+[2023-06-24 17:06:22] INFO root fetch - main [MainThread]: End processing [lanablas]: success
+[2023-06-24 17:06:23] INFO root fetch - processPackages [lcwc]: Remove: archive file [/home/abi/fetcher/tmp/lcwc-0.4.tar.gz]
+[2023-06-24 17:06:23] INFO root fetch - processPackages [lcwc]: Remove: archive file [/home/abi/fetcher/tmp/lcwc-0.5.tar.gz]
+[2023-06-24 17:06:23] INFO root fetch - main [MainThread]: End processing [lcwc]: success
+[2023-06-24 17:06:23] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.4.tar.gz]
+[2023-06-24 17:06:23] INFO root fetch - processPackages [autooc]: Remove: archive file [/home/abi/fetcher/tmp/autooc-0.0.5.tar.gz]
+[2023-06-24 17:06:23] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:06:23] INFO root fetch - main [MainThread]: End processing [autooc]: success
+[2023-06-24 17:06:23] INFO root fetch - main [MainThread]: Store serial: [18630150]
