@@ -15782,3 +15782,80 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:50:45] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.8.0.tar.gz]
 [2023-06-24 16:50:45] INFO root fetch - main [MainThread]: End processing [tarn]: success
 [2023-06-24 16:50:45] INFO root fetch - main [MainThread]: Store serial: [18630021]
+[2023-06-24 16:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630021]
+[2023-06-24 16:55:54] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ntp-shm
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wave-viewer
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnx
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simplePythonModule
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djaodjin-survey
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: revChatGPT
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ldimbenchmark
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qiskit-trebugger
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nligraphspacy
+[2023-06-24 16:55:54] WARNING root fetch - processPackages [cnx]: Skipping, unable to determine old version
+[2023-06-24 16:55:54] INFO root fetch - main [MainThread]: End processing [cnx] error
+[2023-06-24 16:55:54] WARNING root fetch - processPackages [simplePythonModule]: Skipping, unable to determine old version
+[2023-06-24 16:55:54] INFO root fetch - main [MainThread]: End processing [simplePythonModule] error
+[2023-06-24 16:55:54] INFO root fetch - processPackages [wave-viewer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ntp-shm]: New version: [2.0.0] Old Version: [1.6.0]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [nligraphspacy]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [qiskit-trebugger]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [djaodjin-survey]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 16:55:54] INFO root fetch - processPackages [revChatGPT]: New version: [6.4.4] Old Version: [6.4.3]
+[2023-06-24 16:55:55] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/52/a3/c454d5f7c583a36bbba1ca6264672749944ec35fd7a63de03160b8e62864/nligraphspacy-1.1.4.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [wave-viewer]: Downloading https://files.pythonhosted.org/packages/ae/e0/1076e80280ab0accf83620a03b59b898ee387e8cf1f37c5b0ec562cf6312/wave_viewer-0.2.1.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ntp-shm]: Downloading https://files.pythonhosted.org/packages/69/f4/52b1eaff10a5c452dd0d5af92d374d35c00906761148d3299aee139057b5/ntp-shm-1.6.0.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/74/c0/6d7c304505d4d005e6e4c000ea7973514d2f0c7b9879def464aef29a4840/djaodjin-survey-0.9.8.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/ee/84/d1d2d7abde55be9aea7e38dba9413f48298ace330f7cb8a3c64f9bf4541f/revChatGPT-6.4.3.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [nligraphspacy]: Downloading https://files.pythonhosted.org/packages/bb/0e/40c7226715d76ba12f29562dfaf69849d3b3fe6606ade5548db7dd69dd8e/nligraphspacy-1.1.5.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230624/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 16:55:55] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 16:55:55] INFO root fetch - processPackages [nligraphspacy]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [nligraphspacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nligraphspacy-1.1.4.tar.gz tmp/nligraphspacy-1.1.5.tar.gz --markdown 20230624/n/nligraphspacy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-24 16:55:55] INFO root fetch - processPackages [qiskit-trebugger]: Downloading https://files.pythonhosted.org/packages/54/ce/7544f738dd884919fca0256ddd0ad931bc05fa6f3e625c2e20ec7a707947/qiskit_trebugger-1.1.0.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/45/1f/9744b17b6be89f433b0bc8e17164f123411468ec8aa6760a0f445ecb47cb/revChatGPT-6.4.4.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [wave-viewer]: Downloading https://files.pythonhosted.org/packages/46/86/accbc8963545acaa8e7c1e21bd2825f88d61a7cd564d0ce5fb3788b94340/wave_viewer-0.2.2.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ntp-shm]: Downloading https://files.pythonhosted.org/packages/31/ad/ad27134fb44762811a928c0c0a9e0625362914300ef8548130d93865b403/ntp-shm-2.0.0.tar.gz
+[2023-06-24 16:55:55] WARNING root fetch - processPackages [qiskit-trebugger]: Skipping package: exceeds size limit 17766558>=10485760
+[2023-06-24 16:55:55] INFO root fetch - main [MainThread]: End processing [qiskit-trebugger] error
+[2023-06-24 16:55:55] INFO root fetch - processPackages [djaodjin-survey]: Downloading https://files.pythonhosted.org/packages/35/04/3d9343f815684c4ad06a31f3efccc997ad2743b6ca18fafae4c6c4a1b338/djaodjin-survey-0.9.9.tar.gz
+[2023-06-24 16:55:55] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.4.3.tar.gz tmp/revChatGPT-6.4.4.tar.gz --markdown 20230624/r/revChatGPT/6.4.3-6.4.4/diff.md --exclude *.pyd
+[2023-06-24 16:55:55] INFO root fetch - processPackages [wave-viewer]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [wave-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wave_viewer-0.2.1.tar.gz tmp/wave_viewer-0.2.2.tar.gz --markdown 20230624/w/wave-viewer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ntp-shm]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [ntp-shm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntp-shm-1.6.0.tar.gz tmp/ntp-shm-2.0.0.tar.gz --markdown 20230624/n/ntp-shm/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2023-06-24 16:55:55] INFO root fetch - processPackages [djaodjin-survey]: executing diffoscope
+[2023-06-24 16:55:55] INFO root fetch - processPackages [djaodjin-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djaodjin-survey-0.9.8.tar.gz tmp/djaodjin-survey-0.9.9.tar.gz --markdown 20230624/d/djaodjin-survey/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 16:55:56] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.4.tar.gz]
+[2023-06-24 16:55:56] INFO root fetch - processPackages [nligraphspacy]: Remove: archive file [/home/abi/fetcher/tmp/nligraphspacy-1.1.5.tar.gz]
+[2023-06-24 16:55:56] INFO root fetch - main [MainThread]: End processing [nligraphspacy]: success
+[2023-06-24 16:55:56] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 16:55:56] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 16:55:56] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 16:55:56] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-24 16:55:56] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-24 16:55:56] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-24 16:55:57] INFO root fetch - processPackages [wave-viewer]: Remove: archive file [/home/abi/fetcher/tmp/wave_viewer-0.2.1.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - processPackages [wave-viewer]: Remove: archive file [/home/abi/fetcher/tmp/wave_viewer-0.2.2.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - main [MainThread]: End processing [wave-viewer]: success
+[2023-06-24 16:55:57] INFO root fetch - processPackages [ntp-shm]: Remove: archive file [/home/abi/fetcher/tmp/ntp-shm-1.6.0.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - processPackages [ntp-shm]: Remove: archive file [/home/abi/fetcher/tmp/ntp-shm-2.0.0.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - main [MainThread]: End processing [ntp-shm]: success
+[2023-06-24 16:55:57] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.3.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.4.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-24 16:55:57] INFO root fetch - processPackages [djaodjin-survey]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-survey-0.9.8.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - processPackages [djaodjin-survey]: Remove: archive file [/home/abi/fetcher/tmp/djaodjin-survey-0.9.9.tar.gz]
+[2023-06-24 16:55:57] INFO root fetch - main [MainThread]: End processing [djaodjin-survey]: success
+[2023-06-24 16:55:57] INFO root fetch - main [MainThread]: Store serial: [18630062]
