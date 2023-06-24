@@ -6883,3 +6883,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:07:25] INFO root fetch - processPackages [tkadw]: Remove: archive file [/home/abi/fetcher/tmp/tkadw-0.2.0.tar.gz]
 [2023-06-24 04:07:25] INFO root fetch - main [MainThread]: End processing [tkadw]: success
 [2023-06-24 04:07:25] INFO root fetch - main [MainThread]: Store serial: [18626268]
+[2023-06-24 04:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626268]
+[2023-06-24 04:12:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diffgram
+[2023-06-24 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mellon
+[2023-06-24 04:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-stream-rs-tokenizer
+[2023-06-24 04:12:34] INFO root fetch - processPackages [mellon]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-24 04:12:34] INFO root fetch - processPackages [diffgram]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-24 04:12:34] INFO root fetch - processPackages [json-stream-rs-tokenizer]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-06-24 04:12:34] INFO root fetch - processPackages [diffgram]: Downloading https://files.pythonhosted.org/packages/df/9c/131e15499aba0b4425914505fbb65ee9ff8b923a55211a4d1275bc26a85c/diffgram-0.9.6.tar.gz
+[2023-06-24 04:12:34] INFO root fetch - processPackages [mellon]: Downloading https://files.pythonhosted.org/packages/78/53/6beeb032b14d6aa0ab6d21e02a46d7750ffb203a7608721b69eda645e285/mellon-1.3.0.tar.gz
+[2023-06-24 04:12:34] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Downloading https://files.pythonhosted.org/packages/24/02/80bea671538eff79f7b425c6e3d0f6f0dbc010939a8becc0299acc67443e/json-stream-rs-tokenizer-0.4.8.tar.gz
+[2023-06-24 04:12:34] INFO root fetch - processPackages [mellon]: Downloading https://files.pythonhosted.org/packages/75/45/40e4f6e4b03a4c33252d6eba0e3ffefb4d958f2827eb459c14b6bece8f75/mellon-1.3.1.tar.gz
+[2023-06-24 04:12:34] INFO root fetch - processPackages [diffgram]: Downloading https://files.pythonhosted.org/packages/30/82/7d0c7953075c236ee57975d2aadc104a121bce5b988f47261daf8c273c8d/diffgram-0.9.7.tar.gz
+[2023-06-24 04:12:34] INFO root fetch - processPackages [mellon]: executing diffoscope
+[2023-06-24 04:12:34] INFO root fetch - processPackages [mellon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mellon-1.3.0.tar.gz tmp/mellon-1.3.1.tar.gz --markdown 20230624/m/mellon/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-24 04:12:35] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Downloading https://files.pythonhosted.org/packages/6c/3d/5661bfd35da970d0dd7755a6f98062334da1e825bbd023c9a47a84006316/json-stream-rs-tokenizer-0.4.9.tar.gz
+[2023-06-24 04:12:35] INFO root fetch - processPackages [diffgram]: executing diffoscope
+[2023-06-24 04:12:35] INFO root fetch - processPackages [diffgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffgram-0.9.6.tar.gz tmp/diffgram-0.9.7.tar.gz --markdown 20230624/d/diffgram/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-24 04:12:35] INFO root fetch - processPackages [json-stream-rs-tokenizer]: executing diffoscope
+[2023-06-24 04:12:35] INFO root fetch - processPackages [json-stream-rs-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-stream-rs-tokenizer-0.4.8.tar.gz tmp/json-stream-rs-tokenizer-0.4.9.tar.gz --markdown 20230624/j/json-stream-rs-tokenizer/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-06-24 04:12:36] INFO root fetch - processPackages [mellon]: Remove: archive file [/home/abi/fetcher/tmp/mellon-1.3.0.tar.gz]
+[2023-06-24 04:12:36] INFO root fetch - processPackages [mellon]: Remove: archive file [/home/abi/fetcher/tmp/mellon-1.3.1.tar.gz]
+[2023-06-24 04:12:36] INFO root fetch - main [MainThread]: End processing [mellon]: success
+[2023-06-24 04:12:36] INFO root fetch - processPackages [diffgram]: Remove: archive file [/home/abi/fetcher/tmp/diffgram-0.9.6.tar.gz]
+[2023-06-24 04:12:36] INFO root fetch - processPackages [diffgram]: Remove: archive file [/home/abi/fetcher/tmp/diffgram-0.9.7.tar.gz]
+[2023-06-24 04:12:36] INFO root fetch - main [MainThread]: End processing [diffgram]: success
+[2023-06-24 04:12:36] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/json-stream-rs-tokenizer-0.4.8.tar.gz]
+[2023-06-24 04:12:36] INFO root fetch - processPackages [json-stream-rs-tokenizer]: Remove: archive file [/home/abi/fetcher/tmp/json-stream-rs-tokenizer-0.4.9.tar.gz]
+[2023-06-24 04:12:36] INFO root fetch - main [MainThread]: End processing [json-stream-rs-tokenizer]: success
+[2023-06-24 04:12:36] INFO root fetch - main [MainThread]: Store serial: [18626288]
