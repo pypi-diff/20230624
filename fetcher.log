@@ -12372,3 +12372,41 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 11:38:49] INFO root fetch - processPackages [translang]: Remove: archive file [/home/abi/fetcher/tmp/translang-0.1.1.tar.gz]
 [2023-06-24 11:38:49] INFO root fetch - main [MainThread]: End processing [translang]: success
 [2023-06-24 11:38:49] INFO root fetch - main [MainThread]: Store serial: [18628491]
+[2023-06-24 11:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628491]
+[2023-06-24 11:43:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 11:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EDA-recordk
+[2023-06-24 11:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-06-24 11:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-06-24 11:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openai-agent
+[2023-06-24 11:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-06-24 11:43:57] WARNING root fetch - processPackages [openai-agent]: Skipping, unable to determine old version
+[2023-06-24 11:43:57] INFO root fetch - main [MainThread]: End processing [openai-agent] error
+[2023-06-24 11:43:57] INFO root fetch - processPackages [EDA-recordk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-24 11:43:57] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/13/3d/badeeea566bfb386479b4d9bd685449b507eedcb16f06f790a45c2e4458d/EDA_recordk-1.0.4-py3-none-any.whl
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-24 11:43:57] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-24 11:43:58] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/da/b9/b071987a3d53f4f280bb7db76735aec49108a1d95daa66d6770a6e677c6e/EDA_recordk-1.0.5-py3-none-any.whl
+[2023-06-24 11:43:58] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-24 11:43:58] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230624/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 11:43:58] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-24 11:43:58] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230624/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 11:43:58] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-24 11:43:58] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230624/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 11:43:58] INFO root fetch - processPackages [EDA-recordk]: executing diffoscope
+[2023-06-24 11:43:58] INFO root fetch - processPackages [EDA-recordk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDA_recordk-1.0.4-py3-none-any.whl.zip tmp/EDA_recordk-1.0.5-py3-none-any.whl.zip --markdown 20230624/E/EDA-recordk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 11:43:59] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-24 11:43:59] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-24 11:43:59] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-24 11:43:59] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-24 11:43:59] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-24 11:44:52] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.4-py3-none-any.whl.zip]
+[2023-06-24 11:44:52] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.5-py3-none-any.whl.zip]
+[2023-06-24 11:44:52] INFO root fetch - main [MainThread]: End processing [EDA-recordk]: success
+[2023-06-24 11:44:52] INFO root fetch - main [MainThread]: Store serial: [18628507]
