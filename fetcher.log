@@ -1965,3 +1965,147 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 02:05:51] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306240003-py3-none-any.whl.zip]
 [2023-06-24 02:05:51] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-06-24 02:05:51] INFO root fetch - main [MainThread]: Store serial: [18624512]
+[2023-06-24 02:10:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624512]
+[2023-06-24 02:11:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forust
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d20-securityLayer
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypiprandomdata
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nepalitokenizers
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ablator-ken-test
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-compiler-opt
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kbrainsecurity
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchlayers-nightly
+[2023-06-24 02:11:00] INFO root fetch - processPackages [nepalitokenizers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 02:11:00] WARNING root fetch - processPackages [ablator-ken-test]: Skipping, unable to determine old version
+[2023-06-24 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230623] Old Version: [0.0.8.dev20230622]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ablator-ken-test]: Start processing: cyberdrop-dl
+[2023-06-24 02:11:00] INFO root fetch - main [MainThread]: End processing [ablator-ken-test] error
+[2023-06-24 02:11:00] INFO root fetch - processPackages [mypiprandomdata]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-24 02:11:00] WARNING root fetch - processPackages [kbrainsecurity]: Skipping, unable to determine old version
+[2023-06-24 02:11:00] INFO root fetch - processPackages [kbrainsecurity]: Start processing: cdk-common
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202306240007] Old Version: [0.0.1.dev202306230008]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-24 02:11:00] INFO root fetch - main [MainThread]: End processing [kbrainsecurity] error
+[2023-06-24 02:11:00] INFO root fetch - processPackages [forust]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [kfish]: New version: [99.0.202306240006] Old Version: [99.0.202306232357]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/ef/f8/d0dba4f3305d9cee88fa2651e0af12a19081a7829a00f06d6fed17f12200/jaxutils-nightly-0.0.8.dev20230622.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687478935] Old Version: [1687392478]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-24 02:11:00] INFO root fetch - processPackages [mypiprandomdata]: Downloading https://files.pythonhosted.org/packages/3f/90/1614b8a12eb18fe68fafdeec589ac4c5fd27b4d257b5039096423bbc9aaf/mypiprandomdata-0.2.0.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/77/9a/6656ff511b133674523b1f4158b2fada4adcc4f219d4dd42196a4a5f1a89/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl
+[2023-06-24 02:11:00] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/f7/25/af22db821052ab206b713f7f3f99746f86a340b179f446e5ca0bb9cc639e/kfish-99.0.202306232357-py3-none-any.whl
+[2023-06-24 02:11:00] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/e3/96/ffe97c8f1955d7a1b32ae5f326f40d21961b80e0d429c3073ab30f4e1b83/torchlayers-nightly-1687392478.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [nepalitokenizers]: Downloading https://files.pythonhosted.org/packages/41/bb/e05f85fa8bea83f714b054c5b050c59a812bba69c6ec07c922abaf889a40/nepalitokenizers-0.0.1.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/9b/78/40cd42350f61b2b5018fe38e16c91fc4a59305abfe98b7dd4c19c7278662/forust-0.2.8.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [mypiprandomdata]: Downloading https://files.pythonhosted.org/packages/ac/ac/16db7d13c220f31e2a697352f618315eeaaab336d6485e10221a6476726d/mypiprandomdata-0.3.0.tar.gz
+[2023-06-24 02:11:00] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-24 02:11:00] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230624/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-24 02:11:00] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e8/2f/7caab70d3e4f1a7eaf2ffa03c8d8e2b07de526725498e85c6a138675bae6/kfish-99.0.202306240006-py3-none-any.whl
+[2023-06-24 02:11:01] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/58/18/941fb5a3984d3849942389504483dc46b2b49ded6011f9796e0128cfda7f/torchlayers-nightly-1687478935.tar.gz
+[2023-06-24 02:11:01] INFO root fetch - processPackages [nepalitokenizers]: Downloading https://files.pythonhosted.org/packages/a6/f7/014444f1468b7db7ae63a54934e96c8747a07935a81bef0d70282b37876e/nepalitokenizers-0.0.2.tar.gz
+[2023-06-24 02:11:01] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/ff/86/b34af3bfe6d2572b0cc4b526758a3a74fbdabce05902486c062536fc8f9b/ml-compiler-opt-0.0.1.dev202306240007.tar.gz
+[2023-06-24 02:11:01] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306232357-py3-none-any.whl.zip tmp/kfish-99.0.202306240006-py3-none-any.whl.zip --markdown 20230624/k/kfish/99.0.202306232357-99.0.202306240006/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/6c/b9/a23ea5956df46ebc704f3fb083693a4150925ef0c84475dae48646b80b51/jaxutils-nightly-0.0.8.dev20230623.tar.gz
+[2023-06-24 02:11:01] INFO root fetch - processPackages [mypiprandomdata]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [mypiprandomdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypiprandomdata-0.2.0.tar.gz tmp/mypiprandomdata-0.3.0.tar.gz --markdown 20230624/m/mypiprandomdata/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687392478.tar.gz tmp/torchlayers-nightly-1687478935.tar.gz --markdown 20230624/t/torchlayers-nightly/1687392478-1687478935/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [nepalitokenizers]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [nepalitokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepalitokenizers-0.0.1.tar.gz tmp/nepalitokenizers-0.0.2.tar.gz --markdown 20230624/n/nepalitokenizers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl.zip tmp/ml-compiler-opt-0.0.1.dev202306240007.tar.gz --markdown 20230624/m/ml-compiler-opt/0.0.1.dev202306230008-0.0.1.dev202306240007/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230622.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230623.tar.gz --markdown 20230624/j/jaxutils-nightly/0.0.8.dev20230622-0.0.8.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-06-24 02:11:01] INFO root fetch - processPackages [forust]: Downloading https://files.pythonhosted.org/packages/8c/19/a1d59df19298f32ff9c7996889527a3160a1f5711ab39c68ebae00a4a4c3/forust-0.2.9.tar.gz
+[2023-06-24 02:11:01] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230624/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [forust]: executing diffoscope
+[2023-06-24 02:11:01] INFO root fetch - processPackages [forust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forust-0.2.8.tar.gz tmp/forust-0.2.9.tar.gz --markdown 20230624/f/forust/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 02:11:01] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2023-06-24 02:11:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306232357-py3-none-any.whl.zip]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306240006-py3-none-any.whl.zip]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [kfish]: Start processing: d20-securityLayer
+[2023-06-24 02:11:02] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2023-06-24 02:11:02] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20230624/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: Start processing: cdk-aws-discord-notifiers
+[2023-06-24 02:11:02] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/b5/7f/086f837981170217116052b05373bbf9ede287aa375d582b42e31e612cf5/d20-securityLayer-2.0.0a8.tar.gz
+[2023-06-24 02:11:02] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/56/53/6723a7c49bca58765247618ffc3edcd771eea50c77deafc133a9513dfcde/cdk-aws-discord-notifiers-0.0.98.tar.gz
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: Downloading https://files.pythonhosted.org/packages/56/46/f3ba1d8980a81e7e0579b812ea29d2c68be9c442ea0e7168a51afcd8c79e/d20-securityLayer-2.0.0a9.tar.gz
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: executing diffoscope
+[2023-06-24 02:11:02] INFO root fetch - processPackages [d20-securityLayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d20-securityLayer-2.0.0a8.tar.gz tmp/d20-securityLayer-2.0.0a9.tar.gz --markdown 20230624/d/d20-securityLayer/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-24 02:11:02] INFO root fetch - processPackages [mypiprandomdata]: Remove: archive file [/home/abi/fetcher/tmp/mypiprandomdata-0.2.0.tar.gz]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [mypiprandomdata]: Remove: archive file [/home/abi/fetcher/tmp/mypiprandomdata-0.3.0.tar.gz]
+[2023-06-24 02:11:02] INFO root fetch - processPackages [mypiprandomdata]: Start processing: cdk8s
+[2023-06-24 02:11:02] INFO root fetch - main [MainThread]: End processing [mypiprandomdata]: success
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.82]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/18/fd/6b8173058456fe9c8d9f62edd19b5935bfc1d54fbba6eb8f5b007f38044e/cdk8s-2.7.82.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Downloading https://files.pythonhosted.org/packages/e9/77/7aafe1cb83c9a08a337fb161ed76fbd8ea0e22d81058ab1a2974adb0a1f9/cdk-aws-discord-notifiers-0.0.99.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687392478.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687478935.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: pepperize.cdk-github
+[2023-06-24 02:11:03] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [nepalitokenizers]: Remove: archive file [/home/abi/fetcher/tmp/nepalitokenizers-0.0.1.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [nepalitokenizers]: Remove: archive file [/home/abi/fetcher/tmp/nepalitokenizers-0.0.2.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [nepalitokenizers]: Start processing: cdk8s-jenkins
+[2023-06-24 02:11:03] INFO root fetch - main [MainThread]: End processing [nepalitokenizers]: success
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.82.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230624/c/cdk8s/2.7.82-2.7.9/diff.md --exclude *.pyd
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-24 02:11:03] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230624/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-06-24 02:11:03] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202306230008-py3-none-any.whl.zip]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202306240007.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-06-24 02:11:03] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230622.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230623.tar.gz]
+[2023-06-24 02:11:03] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230624/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: executing diffoscope
+[2023-06-24 02:11:03] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz --markdown 20230624/c/cdk-aws-discord-notifiers/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 02:11:04] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-06-24 02:11:04] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-06-24 02:11:04] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-06-24 02:11:04] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a8.tar.gz]
+[2023-06-24 02:11:04] INFO root fetch - processPackages [d20-securityLayer]: Remove: archive file [/home/abi/fetcher/tmp/d20-securityLayer-2.0.0a9.tar.gz]
+[2023-06-24 02:11:04] INFO root fetch - main [MainThread]: End processing [d20-securityLayer]: success
+[2023-06-24 02:11:05] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.82.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-24 02:11:05] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-24 02:11:05] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-06-24 02:11:05] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.98.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - processPackages [cdk-aws-discord-notifiers]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aws-discord-notifiers-0.0.99.tar.gz]
+[2023-06-24 02:11:05] INFO root fetch - main [MainThread]: End processing [cdk-aws-discord-notifiers]: success
+[2023-06-24 02:11:06] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2023-06-24 02:11:06] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2023-06-24 02:11:06] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2023-06-24 02:11:07] INFO root fetch - processPackages [forust]: Remove: archive file [/home/abi/fetcher/tmp/forust-0.2.8.tar.gz]
+[2023-06-24 02:11:07] INFO root fetch - processPackages [forust]: Remove: archive file [/home/abi/fetcher/tmp/forust-0.2.9.tar.gz]
+[2023-06-24 02:11:07] INFO root fetch - main [MainThread]: End processing [forust]: success
+[2023-06-24 02:11:07] INFO root fetch - main [MainThread]: Store serial: [18624572]
