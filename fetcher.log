@@ -13934,3 +13934,33 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:16:36] INFO root fetch - processPackages [alertlogic-sdk-definitions]: Remove: archive file [/home/abi/fetcher/tmp/alertlogic-sdk-definitions-0.1.99.tar.gz]
 [2023-06-24 14:16:36] INFO root fetch - main [MainThread]: End processing [alertlogic-sdk-definitions]: success
 [2023-06-24 14:16:36] INFO root fetch - main [MainThread]: Store serial: [18629220]
+[2023-06-24 14:21:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629220]
+[2023-06-24 14:21:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 14:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kuut
+[2023-06-24 14:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tumfl
+[2023-06-24 14:21:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqos
+[2023-06-24 14:21:45] INFO root fetch - processPackages [pyqos]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-06-24 14:21:45] INFO root fetch - processPackages [kuut]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 14:21:45] INFO root fetch - processPackages [tumfl]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 14:21:45] INFO root fetch - processPackages [pyqos]: Downloading https://files.pythonhosted.org/packages/c9/9c/cba09bffc3fdc41f07a424833b2b104efd41fc4ac605d7da1650d0af7d02/pyqos-0.2.2.tar.gz
+[2023-06-24 14:21:45] INFO root fetch - processPackages [kuut]: Downloading https://files.pythonhosted.org/packages/42/4f/cf81fbd48431744eb21890e0e78c9b0e192694313315282524cdd3b8aff6/kuut-0.0.1.tar.gz
+[2023-06-24 14:21:45] INFO root fetch - processPackages [tumfl]: Downloading https://files.pythonhosted.org/packages/9a/b8/0a68eb703236ad4b98d9f83cbb57d0525903c882be8217548d3edd09c9e3/tumfl-0.1.8.tar.gz
+[2023-06-24 14:21:46] INFO root fetch - processPackages [kuut]: Downloading https://files.pythonhosted.org/packages/a9/bc/65f0b3fb6293a71936df04d22a2b856dc3c224c8ef7dcf72d5a703dbb903/kuut-0.0.2.tar.gz
+[2023-06-24 14:21:46] INFO root fetch - processPackages [pyqos]: Downloading https://files.pythonhosted.org/packages/8e/e5/59d55c1ee85b320dddfe7f4a8aa3148fa2c17228c2dc48092dde37433d15/pyqos-0.3.0.tar.gz
+[2023-06-24 14:21:46] INFO root fetch - processPackages [tumfl]: Downloading https://files.pythonhosted.org/packages/c2/71/132b9fb340135198d483ae6dc963250da09c660775a5f8569c6779395b8f/tumfl-0.1.9.tar.gz
+[2023-06-24 14:21:46] INFO root fetch - processPackages [kuut]: executing diffoscope
+[2023-06-24 14:21:46] INFO root fetch - processPackages [kuut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuut-0.0.1.tar.gz tmp/kuut-0.0.2.tar.gz --markdown 20230624/k/kuut/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 14:21:46] INFO root fetch - processPackages [tumfl]: executing diffoscope
+[2023-06-24 14:21:46] INFO root fetch - processPackages [tumfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tumfl-0.1.8.tar.gz tmp/tumfl-0.1.9.tar.gz --markdown 20230624/t/tumfl/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 14:21:46] INFO root fetch - processPackages [pyqos]: executing diffoscope
+[2023-06-24 14:21:46] INFO root fetch - processPackages [pyqos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqos-0.2.2.tar.gz tmp/pyqos-0.3.0.tar.gz --markdown 20230624/p/pyqos/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 14:21:47] INFO root fetch - processPackages [kuut]: Remove: archive file [/home/abi/fetcher/tmp/kuut-0.0.1.tar.gz]
+[2023-06-24 14:21:47] INFO root fetch - processPackages [kuut]: Remove: archive file [/home/abi/fetcher/tmp/kuut-0.0.2.tar.gz]
+[2023-06-24 14:21:47] INFO root fetch - main [MainThread]: End processing [kuut]: success
+[2023-06-24 14:21:47] INFO root fetch - processPackages [pyqos]: Remove: archive file [/home/abi/fetcher/tmp/pyqos-0.2.2.tar.gz]
+[2023-06-24 14:21:47] INFO root fetch - processPackages [pyqos]: Remove: archive file [/home/abi/fetcher/tmp/pyqos-0.3.0.tar.gz]
+[2023-06-24 14:21:47] INFO root fetch - main [MainThread]: End processing [pyqos]: success
+[2023-06-24 14:21:47] INFO root fetch - processPackages [tumfl]: Remove: archive file [/home/abi/fetcher/tmp/tumfl-0.1.8.tar.gz]
+[2023-06-24 14:21:47] INFO root fetch - processPackages [tumfl]: Remove: archive file [/home/abi/fetcher/tmp/tumfl-0.1.9.tar.gz]
+[2023-06-24 14:21:47] INFO root fetch - main [MainThread]: End processing [tumfl]: success
+[2023-06-24 14:21:47] INFO root fetch - main [MainThread]: Store serial: [18629239]
