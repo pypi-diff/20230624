@@ -20585,3 +20585,90 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:48:46] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-24 23:49:34] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
 [2023-06-24 23:49:34] INFO root fetch - main [MainThread]: Store serial: [18632229]
+[2023-06-24 23:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632229]
+[2023-06-24 23:54:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contem-distributions
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omnata-plugin-runtime
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maisaedu-utilities-prefect
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maisaedu-poormans-dms
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: msticpy
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mindflow
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyphetools
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oloren
+[2023-06-24 23:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: text2text
+[2023-06-24 23:54:44] WARNING root fetch - processPackages [contem-distributions]: Skipping, unable to determine old version
+[2023-06-24 23:54:44] INFO root fetch - main [MainThread]: End processing [contem-distributions] error
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [msticpy]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [mindflow]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/2f/3e/df3eb7e5c259a4839e4410adaf9d3ab35029f958296bf4d375fc5dbad9af/pyphetools-0.2.7.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [text2text]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-24 23:54:44] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/3f/17/cc861a1e6b5a28efca1ecaa49a0783003db8c4370ead17df27326d1a6a41/mindflow-0.5.2.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [msticpy]: Downloading https://files.pythonhosted.org/packages/c1/84/f1c3d7a8eb75f65723e885f694f86881475cba8af67d31b082405519ee84/msticpy-2.5.2.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230624/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 23:54:44] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/ae/85/853411ccaa27e79008de5dfa5956973425c9f87044e96c5ee76b6dd534d5/text2text-1.1.0.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-06-24 23:54:44] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230624/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 23:54:44] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/a0/09/c043bb89e8451345bc5af62e161c70bf3f9b43e8e2887f9b5a02998acc48/pyphetools-0.2.9.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/dd/dd/f5e51e76c285d7cf289c545173334935318494562d5f5b12deb5d9e0fcc0/mindflow-0.5.3.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-24 23:54:44] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-06-24 23:54:44] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230624/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 23:54:44] INFO root fetch - processPackages [msticpy]: Downloading https://files.pythonhosted.org/packages/dd/b2/a1518d9184db6e870adacb999dd63d17853b086bc5186177bdd4c5145859/msticpy-2.5.3.tar.gz
+[2023-06-24 23:54:45] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-24 23:54:45] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230624/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 23:54:45] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-24 23:54:45] INFO root fetch - processPackages [text2text]: Downloading https://files.pythonhosted.org/packages/00/dc/f1bcd150068501b013c03ee75a38b5e0d39e8909ffdb3282de92a0bc4539/text2text-1.1.1.tar.gz
+[2023-06-24 23:54:45] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230624/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 23:54:45] INFO root fetch - processPackages [mindflow]: executing diffoscope
+[2023-06-24 23:54:45] INFO root fetch - processPackages [mindflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindflow-0.5.2.tar.gz tmp/mindflow-0.5.3.tar.gz --markdown 20230624/m/mindflow/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-24 23:54:45] INFO root fetch - processPackages [msticpy]: executing diffoscope
+[2023-06-24 23:54:45] INFO root fetch - processPackages [msticpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msticpy-2.5.2.tar.gz tmp/msticpy-2.5.3.tar.gz --markdown 20230624/m/msticpy/2.5.2-2.5.3/diff.md --exclude *.pyd
+[2023-06-24 23:54:45] INFO root fetch - processPackages [text2text]: executing diffoscope
+[2023-06-24 23:54:45] INFO root fetch - processPackages [text2text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2text-1.1.0.tar.gz tmp/text2text-1.1.1.tar.gz --markdown 20230624/t/text2text/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-24 23:54:45] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-24 23:54:45] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230624/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-24 23:54:46] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-06-24 23:54:46] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-06-24 23:54:46] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.7.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.2.9.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-06-24 23:54:46] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-24 23:54:46] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-24 23:54:47] INFO root fetch - processPackages [mindflow]: Remove: archive file [/home/abi/fetcher/tmp/mindflow-0.5.2.tar.gz]
+[2023-06-24 23:54:47] INFO root fetch - processPackages [mindflow]: Remove: archive file [/home/abi/fetcher/tmp/mindflow-0.5.3.tar.gz]
+[2023-06-24 23:54:47] INFO root fetch - main [MainThread]: End processing [mindflow]: success
+[2023-06-24 23:54:47] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.0.tar.gz]
+[2023-06-24 23:54:47] INFO root fetch - processPackages [text2text]: Remove: archive file [/home/abi/fetcher/tmp/text2text-1.1.1.tar.gz]
+[2023-06-24 23:54:47] INFO root fetch - main [MainThread]: End processing [text2text]: success
+[2023-06-24 23:54:49] INFO root fetch - processPackages [msticpy]: Remove: archive file [/home/abi/fetcher/tmp/msticpy-2.5.2.tar.gz]
+[2023-06-24 23:54:49] INFO root fetch - processPackages [msticpy]: Remove: archive file [/home/abi/fetcher/tmp/msticpy-2.5.3.tar.gz]
+[2023-06-24 23:54:49] INFO root fetch - main [MainThread]: End processing [msticpy]: success
+[2023-06-24 23:54:50] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-24 23:54:50] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-24 23:54:50] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-24 23:55:17] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-24 23:55:17] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-24 23:55:17] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-24 23:55:17] INFO root fetch - main [MainThread]: Store serial: [18632257]
