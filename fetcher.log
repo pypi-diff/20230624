@@ -3448,3 +3448,69 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 03:36:46] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
 [2023-06-24 03:36:46] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-06-24 03:36:46] INFO root fetch - main [MainThread]: Store serial: [18625109]
+[2023-06-24 03:41:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18625109]
+[2023-06-24 03:41:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-skill-demo
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-scipy
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-sphinx
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-openpyxl
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ChurchToolsApi
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-django
+[2023-06-24 03:41:55] INFO root fetch - processPackages [neon-skill-demo]: New version: [1.0.0] Old Version: [0.3.1a4]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ChurchToolsApi]: New version: [0.0.2rc65.post1] Old Version: [0.0.2rc63.post1]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [bioregistry]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 03:41:55] INFO root fetch - processPackages [neon-skill-demo]: Downloading https://files.pythonhosted.org/packages/1c/e9/ce1f0d3f18f79bf68c0c206366ed7f1648d9de35650050d0b9b702d2313a/neon-skill-demo-0.3.1a4.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ChurchToolsApi]: Downloading https://files.pythonhosted.org/packages/d7/c7/e9b8a81fc2cdd9525b4a88d0b3a61a4cd3426d02e4f7f2fec4d2a27c1033/churchtoolsapi-0.0.2rc63.post1.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4e/f6/973ccd4316a05888c3eb85264c9bad233e8f486e3bd1d3ed06d5c5e3504c/bioregistry-0.9.8.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [neon-skill-demo]: Downloading https://files.pythonhosted.org/packages/99/5b/3ddcd7e96e01f7bc3f236a3cb9120d3058da58c3ac568978414966144a86/neon-skill-demo-1.0.0.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230624/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230624/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:41:55] INFO root fetch - processPackages [neon-skill-demo]: executing diffoscope
+[2023-06-24 03:41:55] INFO root fetch - processPackages [neon-skill-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-demo-0.3.1a4.tar.gz tmp/neon-skill-demo-1.0.0.tar.gz --markdown 20230624/n/neon-skill-demo/0.3.1a4-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 03:41:55] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-24 03:41:55] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230624/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 03:41:55] INFO root fetch - processPackages [ChurchToolsApi]: Downloading https://files.pythonhosted.org/packages/f2/81/e7fbe9e597d0d6ccead8afba396b4e5d33de02ca1ac574fdf25cd0d3803c/churchtoolsapi-0.0.2rc65.post1.tar.gz
+[2023-06-24 03:41:55] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-06-24 03:41:55] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20230624/t/types-openpyxl/3.1.0.8-3.1.0.9/diff.md --exclude *.pyd
+[2023-06-24 03:41:56] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/5b/a2/66d69f3acb3d998356aaa7ccffe5395fb3221c2f99dd12100c6abf1826b4/bioregistry-0.9.9.tar.gz
+[2023-06-24 03:41:56] INFO root fetch - processPackages [ChurchToolsApi]: executing diffoscope
+[2023-06-24 03:41:56] INFO root fetch - processPackages [ChurchToolsApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/churchtoolsapi-0.0.2rc63.post1.tar.gz tmp/churchtoolsapi-0.0.2rc65.post1.tar.gz --markdown 20230624/C/ChurchToolsApi/0.0.2rc63.post1-0.0.2rc65.post1/diff.md --exclude *.pyd
+[2023-06-24 03:41:56] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-06-24 03:41:56] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.8.tar.gz tmp/bioregistry-0.9.9.tar.gz --markdown 20230624/b/bioregistry/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 03:41:57] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-24 03:41:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-24 03:41:57] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-24 03:41:57] INFO root fetch - processPackages [neon-skill-demo]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-demo-0.3.1a4.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - processPackages [neon-skill-demo]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-demo-1.0.0.tar.gz]
+[2023-06-24 03:41:57] INFO root fetch - main [MainThread]: End processing [neon-skill-demo]: success
+[2023-06-24 03:41:58] INFO root fetch - processPackages [ChurchToolsApi]: Remove: archive file [/home/abi/fetcher/tmp/churchtoolsapi-0.0.2rc63.post1.tar.gz]
+[2023-06-24 03:41:58] INFO root fetch - processPackages [ChurchToolsApi]: Remove: archive file [/home/abi/fetcher/tmp/churchtoolsapi-0.0.2rc65.post1.tar.gz]
+[2023-06-24 03:41:58] INFO root fetch - main [MainThread]: End processing [ChurchToolsApi]: success
+[2023-06-24 03:41:58] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2023-06-24 03:41:58] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2023-06-24 03:41:58] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-06-24 03:43:55] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.8.tar.gz]
+[2023-06-24 03:43:55] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
+[2023-06-24 03:43:55] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-06-24 03:43:55] INFO root fetch - main [MainThread]: Store serial: [18625133]
