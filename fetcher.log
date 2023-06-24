@@ -14003,3 +14003,18 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:32:12] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.7.tar.gz]
 [2023-06-24 14:32:12] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
 [2023-06-24 14:32:12] INFO root fetch - main [MainThread]: Store serial: [18629266]
+[2023-06-24 14:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629266]
+[2023-06-24 14:37:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 14:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atro-pylog
+[2023-06-24 14:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selis
+[2023-06-24 14:37:21] INFO root fetch - processPackages [atro-pylog]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 14:37:21] WARNING root fetch - processPackages [selis]: Skipping, unable to determine old version
+[2023-06-24 14:37:21] INFO root fetch - main [MainThread]: End processing [selis] error
+[2023-06-24 14:37:21] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/7b/88/5c72a4f6382d93c1581d08d2fa6c74d5cb4e9210f2ef997cf9891a34ebc9/atro-pylog-0.0.7.tar.gz
+[2023-06-24 14:37:22] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/25/0a/3e67daa71c57a245c794846761a1712f6db9118b91d78a7decea3d3fa9ad/atro-pylog-0.0.8.tar.gz
+[2023-06-24 14:37:22] INFO root fetch - processPackages [atro-pylog]: executing diffoscope
+[2023-06-24 14:37:22] INFO root fetch - processPackages [atro-pylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pylog-0.0.7.tar.gz tmp/atro-pylog-0.0.8.tar.gz --markdown 20230624/a/atro-pylog/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 14:37:23] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.7.tar.gz]
+[2023-06-24 14:37:23] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.8.tar.gz]
+[2023-06-24 14:37:23] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
+[2023-06-24 14:37:23] INFO root fetch - main [MainThread]: Store serial: [18629274]
