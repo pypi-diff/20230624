@@ -9972,3 +9972,51 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 07:25:42] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip]
 [2023-06-24 07:25:42] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
 [2023-06-24 07:25:42] INFO root fetch - main [MainThread]: Store serial: [18627372]
+[2023-06-24 07:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627372]
+[2023-06-24 07:30:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-product-route-profile
+[2023-06-24 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fictional-names
+[2023-06-24 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azuma
+[2023-06-24 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rain-orm
+[2023-06-24 07:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pwl-chat-python
+[2023-06-24 07:30:51] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.2]
+[2023-06-24 07:30:51] INFO root fetch - processPackages [fictional-names]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-24 07:30:51] INFO root fetch - processPackages [rain-orm]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-24 07:30:51] INFO root fetch - processPackages [azuma]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-24 07:30:51] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-06-24 07:30:51] INFO root fetch - processPackages [fictional-names]: Downloading https://files.pythonhosted.org/packages/aa/79/cb1b234684d2e39b762861a72af87430cd02e744babd1c600cbe325afc65/fictional_names-0.0.3.tar.gz
+[2023-06-24 07:30:51] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: Downloading https://files.pythonhosted.org/packages/f2/1e/ae5de966739624bee526371e0a76de2695b19e31396fbf72b5da3bae7dd8/odoo14_addon_product_route_profile-14.0.1.0.2-py3-none-any.whl
+[2023-06-24 07:30:51] INFO root fetch - processPackages [azuma]: Downloading https://files.pythonhosted.org/packages/2d/74/04d67c90dece7a30f97a1ba9edefa119c83f105a72a4370b3eed82c3bddb/azuma-0.1.1.tar.gz
+[2023-06-24 07:30:51] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/0f/0f/1db0922a1ff3210ab9812446662469385b1484d4a6ee33777eca3b56e60d/rain_orm-1.0.6.tar.gz
+[2023-06-24 07:30:51] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/8f/43/effb525f9dca0b9deb11da140b8aa78b86f8f718ca96df6f09589fa87a4a/pwl-chat-python-1.4.9.tar.gz
+[2023-06-24 07:30:52] INFO root fetch - processPackages [fictional-names]: Downloading https://files.pythonhosted.org/packages/79/95/a981b26bd8f83beebc639d10ca717ed67bd7c643558509d632f0f18e4744/fictional_names-0.0.4.tar.gz
+[2023-06-24 07:30:52] INFO root fetch - processPackages [rain-orm]: Downloading https://files.pythonhosted.org/packages/d1/6c/a732371959f3d797aef84c1dfd557cba11ba28b88755f1392af6d0d928df/rain_orm-1.0.7.tar.gz
+[2023-06-24 07:30:52] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/c2/eb/f98897b6e8bccd267854c142cdccb49090c358afe582b139e8e54b2e4a34/pwl-chat-python-1.5.0.tar.gz
+[2023-06-24 07:30:52] INFO root fetch - processPackages [azuma]: Downloading https://files.pythonhosted.org/packages/9b/50/11d4f9093276a934809fa97e4cd4219b58b3780870305c0a0aa835178a84/azuma-0.2.0.tar.gz
+[2023-06-24 07:30:52] INFO root fetch - processPackages [fictional-names]: executing diffoscope
+[2023-06-24 07:30:52] INFO root fetch - processPackages [fictional-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fictional_names-0.0.3.tar.gz tmp/fictional_names-0.0.4.tar.gz --markdown 20230624/f/fictional-names/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-24 07:30:52] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: Downloading https://files.pythonhosted.org/packages/0f/dd/19988b05fa3d78688fc3056c6a08d35bb40eae80e18a3fbecb91107792a3/odoo14_addon_product_route_profile-14.0.1.0.3.dev2-py3-none-any.whl
+[2023-06-24 07:30:52] INFO root fetch - processPackages [azuma]: executing diffoscope
+[2023-06-24 07:30:52] INFO root fetch - processPackages [azuma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azuma-0.1.1.tar.gz tmp/azuma-0.2.0.tar.gz --markdown 20230624/a/azuma/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 07:30:52] INFO root fetch - processPackages [rain-orm]: executing diffoscope
+[2023-06-24 07:30:52] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-06-24 07:30:52] INFO root fetch - processPackages [rain-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rain_orm-1.0.6.tar.gz tmp/rain_orm-1.0.7.tar.gz --markdown 20230624/r/rain-orm/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-24 07:30:52] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.4.9.tar.gz tmp/pwl-chat-python-1.5.0.tar.gz --markdown 20230624/p/pwl-chat-python/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-06-24 07:30:52] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: executing diffoscope
+[2023-06-24 07:30:52] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_route_profile-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_product_route_profile-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20230624/o/odoo14-addon-product-route-profile/14.0.1.0.2-14.0.1.0.3.dev2/diff.md --exclude *.pyd
+[2023-06-24 07:30:52] ERROR root fetch - processPackages [azuma]: Diffoscope failed: Error: error creating container storage: the container name "thirsty_hofstadter" is already in use by "1940baae4d3c35367bb06889a699ec07a7c42c7688a215fbefe189dada2b8d0a". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-24 07:30:52] INFO root fetch - main [MainThread]: End processing [azuma] error
+[2023-06-24 07:30:53] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.6.tar.gz]
+[2023-06-24 07:30:53] INFO root fetch - processPackages [rain-orm]: Remove: archive file [/home/abi/fetcher/tmp/rain_orm-1.0.7.tar.gz]
+[2023-06-24 07:30:53] INFO root fetch - main [MainThread]: End processing [rain-orm]: success
+[2023-06-24 07:30:53] INFO root fetch - processPackages [fictional-names]: Remove: archive file [/home/abi/fetcher/tmp/fictional_names-0.0.3.tar.gz]
+[2023-06-24 07:30:53] INFO root fetch - processPackages [fictional-names]: Remove: archive file [/home/abi/fetcher/tmp/fictional_names-0.0.4.tar.gz]
+[2023-06-24 07:30:53] INFO root fetch - main [MainThread]: End processing [fictional-names]: success
+[2023-06-24 07:30:53] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.9.tar.gz]
+[2023-06-24 07:30:53] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.5.0.tar.gz]
+[2023-06-24 07:30:53] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-06-24 07:31:47] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_route_profile-14.0.1.0.2-py3-none-any.whl.zip]
+[2023-06-24 07:31:47] INFO root fetch - processPackages [odoo14-addon-product-route-profile]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_route_profile-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2023-06-24 07:31:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-route-profile]: success
+[2023-06-24 07:31:47] INFO root fetch - main [MainThread]: Store serial: [18627391]
