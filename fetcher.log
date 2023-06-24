@@ -13246,3 +13246,27 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:15:49] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.8.2.tar.gz]
 [2023-06-24 13:15:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
 [2023-06-24 13:15:49] INFO root fetch - main [MainThread]: Store serial: [18628932]
+[2023-06-24 13:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628932]
+[2023-06-24 13:20:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maisaedu-utilities-prefect
+[2023-06-24 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maisaedu-poormans-dms
+[2023-06-24 13:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: markdown-escaped
+[2023-06-24 13:20:59] WARNING root fetch - processPackages [markdown-escaped]: Skipping, unable to determine old version
+[2023-06-24 13:20:59] INFO root fetch - main [MainThread]: End processing [markdown-escaped] error
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230624/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-06-24 13:20:59] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230624/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 13:21:00] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-06-24 13:21:00] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-06-24 13:21:00] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-06-24 13:21:01] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-06-24 13:21:01] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-06-24 13:21:01] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-06-24 13:21:01] INFO root fetch - main [MainThread]: Store serial: [18628946]
