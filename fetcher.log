@@ -11042,3 +11042,54 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:21:20] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-24 09:21:20] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-24 09:21:20] INFO root fetch - main [MainThread]: Store serial: [18627797]
+[2023-06-24 09:26:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627797]
+[2023-06-24 09:26:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 09:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xiaowupkg
+[2023-06-24 09:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadcode
+[2023-06-24 09:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: w3bstream-client-python
+[2023-06-24 09:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transformers-supporter
+[2023-06-24 09:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commitizen
+[2023-06-24 09:26:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiwii
+[2023-06-24 09:26:30] INFO root fetch - processPackages [w3bstream-client-python]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-24 09:26:30] INFO root fetch - processPackages [xiaowupkg]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-24 09:26:30] WARNING root fetch - processPackages [kiwii]: Skipping, unable to determine old version
+[2023-06-24 09:26:30] INFO root fetch - main [MainThread]: End processing [kiwii] error
+[2023-06-24 09:26:30] INFO root fetch - processPackages [deadcode]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-24 09:26:30] INFO root fetch - processPackages [transformers-supporter]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 09:26:30] INFO root fetch - processPackages [commitizen]: New version: [3.5.1] Old Version: [3.5.0]
+[2023-06-24 09:26:30] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/3a/a5/55506277d1b16d32a71d10ddf7dcab90de586a297246da46e31eb7871f0f/w3bstream_client_python-0.2.1.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/2d/b3/0a5ba4230b93d8b0af855a0cb099f7cd12620f36b5763aae64e4280f49ac/transformers-supporter-0.0.8.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/09/cd/d764d42fac8326655f5a60f9aee2e3dcd6ea08a8523ba6cf87a8331245e9/commitizen-3.5.0.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/49/6c/a0554116bd586b98b03d083f83f9ea5e7aefef725d9315e628981e5fc281/deadcode-0.0.2.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [xiaowupkg]: Downloading https://files.pythonhosted.org/packages/60/49/4b61a2490665efae86ea646f0c6e3fec5cbf46f8991f652f48918ec68ead/xiaowupkg-1.0.4.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [transformers-supporter]: Downloading https://files.pythonhosted.org/packages/e3/57/5ebc8b77d3f7674a08c327be80e75ae6250845796c3e5eada5d7936121dc/transformers-supporter-0.0.9.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/3d/f4/db7834b5afbae2953a5b403c8b2398b04ff286d8a5615e7f42d58aec2408/w3bstream_client_python-0.3.0.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [transformers-supporter]: executing diffoscope
+[2023-06-24 09:26:30] INFO root fetch - processPackages [transformers-supporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-supporter-0.0.8.tar.gz tmp/transformers-supporter-0.0.9.tar.gz --markdown 20230624/t/transformers-supporter/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 09:26:30] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/df/ac/94e7225439057b73307a8482b73afff5e0eb0c2b6b332fecf0bf3ca5e2ab/commitizen-3.5.1.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [deadcode]: Downloading https://files.pythonhosted.org/packages/97/82/8c158542d2458976f8bf150661cfc889801a316ddb70f15b56a07dbe4377/deadcode-0.1.0.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [xiaowupkg]: Downloading https://files.pythonhosted.org/packages/93/1f/ff18e53df3445486cb631f3c9d2940f1861dc202ea6375e68b98fbd86597/xiaowupkg-1.0.5.tar.gz
+[2023-06-24 09:26:30] INFO root fetch - processPackages [w3bstream-client-python]: executing diffoscope
+[2023-06-24 09:26:30] INFO root fetch - processPackages [w3bstream-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3bstream_client_python-0.2.1.tar.gz tmp/w3bstream_client_python-0.3.0.tar.gz --markdown 20230624/w/w3bstream-client-python/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 09:26:30] INFO root fetch - processPackages [xiaowupkg]: executing diffoscope
+[2023-06-24 09:26:30] INFO root fetch - processPackages [xiaowupkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaowupkg-1.0.4.tar.gz tmp/xiaowupkg-1.0.5.tar.gz --markdown 20230624/x/xiaowupkg/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-24 09:26:30] INFO root fetch - processPackages [deadcode]: executing diffoscope
+[2023-06-24 09:26:30] INFO root fetch - processPackages [deadcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadcode-0.0.2.tar.gz tmp/deadcode-0.1.0.tar.gz --markdown 20230624/d/deadcode/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 09:26:30] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2023-06-24 09:26:30] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.5.0.tar.gz tmp/commitizen-3.5.1.tar.gz --markdown 20230624/c/commitizen/3.5.0-3.5.1/diff.md --exclude *.pyd
+[2023-06-24 09:26:31] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.2.1.tar.gz]
+[2023-06-24 09:26:31] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.3.0.tar.gz]
+[2023-06-24 09:26:31] INFO root fetch - main [MainThread]: End processing [w3bstream-client-python]: success
+[2023-06-24 09:26:32] INFO root fetch - processPackages [xiaowupkg]: Remove: archive file [/home/abi/fetcher/tmp/xiaowupkg-1.0.4.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - processPackages [xiaowupkg]: Remove: archive file [/home/abi/fetcher/tmp/xiaowupkg-1.0.5.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - main [MainThread]: End processing [xiaowupkg]: success
+[2023-06-24 09:26:32] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-0.0.2.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - processPackages [deadcode]: Remove: archive file [/home/abi/fetcher/tmp/deadcode-0.1.0.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - main [MainThread]: End processing [deadcode]: success
+[2023-06-24 09:26:32] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.8.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - processPackages [transformers-supporter]: Remove: archive file [/home/abi/fetcher/tmp/transformers-supporter-0.0.9.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - main [MainThread]: End processing [transformers-supporter]: success
+[2023-06-24 09:26:32] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.0.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.5.1.tar.gz]
+[2023-06-24 09:26:32] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2023-06-24 09:26:32] INFO root fetch - main [MainThread]: Store serial: [18627821]
