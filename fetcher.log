@@ -19267,3 +19267,36 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:51:10] INFO root fetch - processPackages [convocations]: Remove: archive file [/home/abi/fetcher/tmp/convocations-0.9.tar.gz]
 [2023-06-24 21:51:10] INFO root fetch - main [MainThread]: End processing [convocations]: success
 [2023-06-24 21:51:10] INFO root fetch - main [MainThread]: Store serial: [18631659]
+[2023-06-24 21:56:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631659]
+[2023-06-24 21:56:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 21:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cognitopy
+[2023-06-24 21:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hydrogpower
+[2023-06-24 21:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atro-pyrsync
+[2023-06-24 21:56:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typedpy
+[2023-06-24 21:56:19] WARNING root fetch - processPackages [hydrogpower]: Skipping, unable to determine old version
+[2023-06-24 21:56:19] INFO root fetch - main [MainThread]: End processing [hydrogpower] error
+[2023-06-24 21:56:19] INFO root fetch - processPackages [cognitopy]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-24 21:56:19] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 21:56:19] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/14/d2/3e1512158cf9c48b2ac03ed7571bcb12e6c7e0a9e8216a86f04b790f0d07/atro-pyrsync-0.0.4.tar.gz
+[2023-06-24 21:56:19] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-06-24 21:56:19] INFO root fetch - processPackages [cognitopy]: Downloading https://files.pythonhosted.org/packages/ed/a9/31066e61164201f5304784f2b55988884ee4f4404ff82a0cc87466b008b4/cognitopy-1.0.0.tar.gz
+[2023-06-24 21:56:19] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-06-24 21:56:19] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/12/f8/bba56ab8e79dcb3eb41aeefa9b5c1633d91f11a98534215856d60596ba85/atro-pyrsync-0.0.5.tar.gz
+[2023-06-24 21:56:19] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-06-24 21:56:19] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.4.tar.gz tmp/atro-pyrsync-0.0.5.tar.gz --markdown 20230624/a/atro-pyrsync/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 21:56:19] INFO root fetch - processPackages [cognitopy]: Downloading https://files.pythonhosted.org/packages/a3/0f/343f1f8547dc1f60b3717d981bea4658c311ceced6545287db3673dac753/cognitopy-1.1.0.tar.gz
+[2023-06-24 21:56:20] INFO root fetch - processPackages [cognitopy]: executing diffoscope
+[2023-06-24 21:56:20] INFO root fetch - processPackages [cognitopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognitopy-1.0.0.tar.gz tmp/cognitopy-1.1.0.tar.gz --markdown 20230624/c/cognitopy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 21:56:20] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-06-24 21:56:20] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-06-24 21:56:20] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230624/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-06-24 21:56:21] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.4.tar.gz]
+[2023-06-24 21:56:21] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.5.tar.gz]
+[2023-06-24 21:56:21] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-06-24 21:56:21] INFO root fetch - processPackages [cognitopy]: Remove: archive file [/home/abi/fetcher/tmp/cognitopy-1.0.0.tar.gz]
+[2023-06-24 21:56:21] INFO root fetch - processPackages [cognitopy]: Remove: archive file [/home/abi/fetcher/tmp/cognitopy-1.1.0.tar.gz]
+[2023-06-24 21:56:21] INFO root fetch - main [MainThread]: End processing [cognitopy]: success
+[2023-06-24 21:56:21] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-06-24 21:56:21] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-06-24 21:56:21] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-06-24 21:56:21] INFO root fetch - main [MainThread]: Store serial: [18631673]
