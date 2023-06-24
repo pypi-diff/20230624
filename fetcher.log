@@ -10493,3 +10493,60 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:18:36] INFO root fetch - processPackages [xqute]: Remove: archive file [/home/abi/fetcher/tmp/xqute-0.2.3.tar.gz]
 [2023-06-24 08:18:36] INFO root fetch - main [MainThread]: End processing [xqute]: success
 [2023-06-24 08:18:36] INFO root fetch - main [MainThread]: Store serial: [18627594]
+[2023-06-24 08:23:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627594]
+[2023-06-24 08:23:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: YoHtml
+[2023-06-24 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FluidCubeGame
+[2023-06-24 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-extensions
+[2023-06-24 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-06-24 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: w3bstream-client-python
+[2023-06-24 08:23:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: braincog
+[2023-06-24 08:23:45] INFO root fetch - processPackages [YoHtml]: New version: [0.3] Old Version: [0.2]
+[2023-06-24 08:23:45] INFO root fetch - processPackages [FluidCubeGame]: New version: [1.0.3] Old Version: [1.0.0]
+[2023-06-24 08:23:45] INFO root fetch - processPackages [cdk-extensions]: New version: [0.0.85] Old Version: [0.0.84]
+[2023-06-24 08:23:45] INFO root fetch - processPackages [braincog]: New version: [0.2.7.9] Old Version: [0.2.7.8]
+[2023-06-24 08:23:45] INFO root fetch - processPackages [w3bstream-client-python]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 08:23:45] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230624] Old Version: [1.6.1.dev20230623]
+[2023-06-24 08:23:45] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/5d/01/7a4472c77493af77e02adc5c4dd79adc4d29269749d91bc4639194b21f27/cdk-extensions-0.0.84.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/9e/a4/208847e155072af6a99a644e5a6e10812011a79c364d874aa462b56c4406/w3bstream_client_python-0.2.0.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [YoHtml]: Downloading https://files.pythonhosted.org/packages/47/71/c1e3a9b3913ba7d4e0342fdaad13e321383542de0b64ac95546f0c64e6eb/YoHtml-0.2.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/2d/d9/85c6eab857bfd6f6029945f2c443804aabdcb876d06640c144b1ad50efe1/FluidCubeGame-1.0.0.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/cb/97/5d70361b10a7c583599ccdcf1e638efe63651d1b9701403f0b5fe5b297f3/pretext-1.6.1.dev20230623.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [braincog]: Downloading https://files.pythonhosted.org/packages/72/44/c5526e6f8b6f3dca8dbaaeb7ccc5d2a5610cf3e319b09958f891ec7b8791/braincog-0.2.7.8-py3-none-any.whl
+[2023-06-24 08:23:45] INFO root fetch - processPackages [w3bstream-client-python]: Downloading https://files.pythonhosted.org/packages/3a/a5/55506277d1b16d32a71d10ddf7dcab90de586a297246da46e31eb7871f0f/w3bstream_client_python-0.2.1.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [cdk-extensions]: Downloading https://files.pythonhosted.org/packages/34/55/41f38c313e6cfd66b822397ed26b4a1c22f4885e2c121cb751ce693015e6/cdk-extensions-0.0.85.tar.gz
+[2023-06-24 08:23:45] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/70/bc/cc26b3c5314464003cd151f14f18ddaf74fc6f074d78952c43d439773279/FluidCubeGame-1.0.3.tar.gz
+[2023-06-24 08:23:46] INFO root fetch - processPackages [YoHtml]: Downloading https://files.pythonhosted.org/packages/b9/a0/b0682d9b35f913ef4a5a7da64bb07186feffbbe35ef52f0d5d5569d7d737/YoHtml-0.3.tar.gz
+[2023-06-24 08:23:46] INFO root fetch - processPackages [FluidCubeGame]: executing diffoscope
+[2023-06-24 08:23:46] INFO root fetch - processPackages [FluidCubeGame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidCubeGame-1.0.0.tar.gz tmp/FluidCubeGame-1.0.3.tar.gz --markdown 20230624/F/FluidCubeGame/1.0.0-1.0.3/diff.md --exclude *.pyd
+[2023-06-24 08:23:46] INFO root fetch - processPackages [w3bstream-client-python]: executing diffoscope
+[2023-06-24 08:23:46] INFO root fetch - processPackages [w3bstream-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w3bstream_client_python-0.2.0.tar.gz tmp/w3bstream_client_python-0.2.1.tar.gz --markdown 20230624/w/w3bstream-client-python/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 08:23:46] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/16/84/c0c7f92db32de155a2d511c79ef417d6faf301b19e66db910e8d0eabab25/pretext-1.6.1.dev20230624.tar.gz
+[2023-06-24 08:23:46] INFO root fetch - processPackages [cdk-extensions]: executing diffoscope
+[2023-06-24 08:23:46] INFO root fetch - processPackages [cdk-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-extensions-0.0.84.tar.gz tmp/cdk-extensions-0.0.85.tar.gz --markdown 20230624/c/cdk-extensions/0.0.84-0.0.85/diff.md --exclude *.pyd
+[2023-06-24 08:23:46] INFO root fetch - processPackages [YoHtml]: executing diffoscope
+[2023-06-24 08:23:46] INFO root fetch - processPackages [YoHtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YoHtml-0.2.tar.gz tmp/YoHtml-0.3.tar.gz --markdown 20230624/Y/YoHtml/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-24 08:23:46] INFO root fetch - processPackages [braincog]: Downloading https://files.pythonhosted.org/packages/c2/59/6cd4fed68e33e40e038b70f62eb22c4070d7342b74c5a278db666861e6d0/braincog-0.2.7.9-py3-none-any.whl
+[2023-06-24 08:23:46] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-24 08:23:46] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230623.tar.gz tmp/pretext-1.6.1.dev20230624.tar.gz --markdown 20230624/p/pretext/1.6.1.dev20230623-1.6.1.dev20230624/diff.md --exclude *.pyd
+[2023-06-24 08:23:46] INFO root fetch - processPackages [braincog]: executing diffoscope
+[2023-06-24 08:23:46] INFO root fetch - processPackages [braincog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincog-0.2.7.8-py3-none-any.whl.zip tmp/braincog-0.2.7.9-py3-none-any.whl.zip --markdown 20230624/b/braincog/0.2.7.8-0.2.7.9/diff.md --exclude *.pyd
+[2023-06-24 08:23:47] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.0.tar.gz]
+[2023-06-24 08:23:47] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.3.tar.gz]
+[2023-06-24 08:23:47] INFO root fetch - main [MainThread]: End processing [FluidCubeGame]: success
+[2023-06-24 08:23:47] INFO root fetch - processPackages [YoHtml]: Remove: archive file [/home/abi/fetcher/tmp/YoHtml-0.2.tar.gz]
+[2023-06-24 08:23:47] INFO root fetch - processPackages [YoHtml]: Remove: archive file [/home/abi/fetcher/tmp/YoHtml-0.3.tar.gz]
+[2023-06-24 08:23:47] INFO root fetch - main [MainThread]: End processing [YoHtml]: success
+[2023-06-24 08:23:47] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.2.0.tar.gz]
+[2023-06-24 08:23:47] INFO root fetch - processPackages [w3bstream-client-python]: Remove: archive file [/home/abi/fetcher/tmp/w3bstream_client_python-0.2.1.tar.gz]
+[2023-06-24 08:23:47] INFO root fetch - main [MainThread]: End processing [w3bstream-client-python]: success
+[2023-06-24 08:23:48] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.84.tar.gz]
+[2023-06-24 08:23:48] INFO root fetch - processPackages [cdk-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-extensions-0.0.85.tar.gz]
+[2023-06-24 08:23:48] INFO root fetch - main [MainThread]: End processing [cdk-extensions]: success
+[2023-06-24 08:23:48] INFO root fetch - processPackages [braincog]: Remove: archive file [/home/abi/fetcher/tmp/braincog-0.2.7.8-py3-none-any.whl.zip]
+[2023-06-24 08:23:48] INFO root fetch - processPackages [braincog]: Remove: archive file [/home/abi/fetcher/tmp/braincog-0.2.7.9-py3-none-any.whl.zip]
+[2023-06-24 08:23:48] INFO root fetch - main [MainThread]: End processing [braincog]: success
+[2023-06-24 08:23:51] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230623.tar.gz]
+[2023-06-24 08:23:51] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230624.tar.gz]
+[2023-06-24 08:23:51] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-24 08:23:51] INFO root fetch - main [MainThread]: Store serial: [18627610]
