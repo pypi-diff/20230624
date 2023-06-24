@@ -14585,3 +14585,93 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 15:31:36] INFO root fetch - processPackages [nonebot-plugin-blive-danmaku]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_blive_danmaku-0.3.0.tar.gz]
 [2023-06-24 15:31:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-blive-danmaku]: success
 [2023-06-24 15:31:36] INFO root fetch - main [MainThread]: Store serial: [18629497]
+[2023-06-24 15:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629497]
+[2023-06-24 15:36:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: notion-kit-flexible
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paradigm
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: constrainedlr
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crawler-commons
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dartrig
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitgrade-devel
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deeppipe-api
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: erikunicamp-myutils
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: krutils
+[2023-06-24 15:36:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ufn
+[2023-06-24 15:36:46] INFO root fetch - processPackages [unitgrade-devel]: New version: [0.1.9] Old Version: [0.1.7a0]
+[2023-06-24 15:36:46] WARNING root fetch - processPackages [notion-kit-flexible]: Skipping, unable to determine old version
+[2023-06-24 15:36:46] INFO root fetch - processPackages [notion-kit-flexible]: Start processing: flask-jeroboam
+[2023-06-24 15:36:46] INFO root fetch - main [MainThread]: End processing [notion-kit-flexible] error
+[2023-06-24 15:36:46] INFO root fetch - processPackages [crawler-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [paradigm]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [constrainedlr]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [deeppipe-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 15:36:46] WARNING root fetch - processPackages [ufn]: Skipping, unable to determine old version
+[2023-06-24 15:36:46] INFO root fetch - main [MainThread]: End processing [ufn] error
+[2023-06-24 15:36:46] INFO root fetch - processPackages [dartrig]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [krutils]: New version: [0.20230624.2235] Old Version: [0.20230624.2226]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [erikunicamp-myutils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/aa/f0/b28edaeb1873c934223ce2d651528f616a5cf78f08ad76ce7173e6821d06/deeppipe_api-0.0.5.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/45/c8/884c1f6fb558b69fb8d62f2054c92941cb0f116e91e914287f12530f35e5/krutils-0.20230624.2226.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/c3/a1/ecb0fc49702e70d469ceb63bbffe292a25022b72614b9921fb303fad5986/dartrig-0.1.8.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/2d/53/7939e5ae570216f0e01d8177aeb1bdac12c7dfa6ac9c215299c04c86a0b3/crawler_commons-0.0.8.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [flask-jeroboam]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-06-24 15:36:46] INFO root fetch - processPackages [paradigm]: Downloading https://files.pythonhosted.org/packages/ed/3f/e2f914ac3ac95e03b6799014ddd667a8d2482fe66cdee43f5548483dae7b/paradigm-4.1.1.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [unitgrade-devel]: Downloading https://files.pythonhosted.org/packages/ad/4d/9e235f005560e9bc39eb3e4654805d1da0876a5b16cdeb13e921264217be/unitgrade-devel-0.1.7a0.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [dartrig]: Downloading https://files.pythonhosted.org/packages/95/93/0003c3e63e809e98d18242999380721f577baec8ccf697071faca8e8b6ec/dartrig-0.1.9.tar.gz
+[2023-06-24 15:36:46] INFO root fetch - processPackages [erikunicamp-myutils]: Downloading https://files.pythonhosted.org/packages/48/55/9973237eae275cec7e9da610098d3054e62485e0799e90b7038e964ccdfb/erikunicamp-myutils-0.0.8.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [constrainedlr]: Downloading https://files.pythonhosted.org/packages/38/fe/09955214e846ed82424b3c79097e68b1f7481e36a06f25a48006ee241ee2/constrainedlr-0.1.0.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [crawler-commons]: Downloading https://files.pythonhosted.org/packages/17/64/0de4dc4cd35a5e4bad7d4eb298d80b0a4c024c3ce105050b75c06d9668d1/crawler_commons-0.0.9.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/bd/f6/fce38dceeed6c7f30f6d5f28140826b089956a138c67da0eec79a9c1ed76/deeppipe_api-0.0.6.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [dartrig]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [dartrig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dartrig-0.1.8.tar.gz tmp/dartrig-0.1.9.tar.gz --markdown 20230624/d/dartrig/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [krutils]: Downloading https://files.pythonhosted.org/packages/33/01/7741f19327beee735a0bd8b5ac6acdf18daa18e167b28470c1e2c263de97/krutils-0.20230624.2235.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [deeppipe-api]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [deeppipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppipe_api-0.0.5.tar.gz tmp/deeppipe_api-0.0.6.tar.gz --markdown 20230624/d/deeppipe-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [unitgrade-devel]: Downloading https://files.pythonhosted.org/packages/8e/51/b73b3be691b9860b252c7ae440f19334b0c132b61249a634e2d38db27f2e/unitgrade-devel-0.1.9.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [paradigm]: Downloading https://files.pythonhosted.org/packages/c1/e6/078fe0e92195ae4bedbf4e9275b50fad64fbc7e692e7203ae0e326988f22/paradigm-4.2.0.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [flask-jeroboam]: Downloading https://files.pythonhosted.org/packages/7c/54/7bb13bbe855943b6fcb80f5fe11c23ebb4e9f35f5ad80764f74bc6debb33/flask_jeroboam-0.1.0b2.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [krutils]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [krutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krutils-0.20230624.2226.tar.gz tmp/krutils-0.20230624.2235.tar.gz --markdown 20230624/k/krutils/0.20230624.2226-0.20230624.2235/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [unitgrade-devel]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [unitgrade-devel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitgrade-devel-0.1.7a0.tar.gz tmp/unitgrade-devel-0.1.9.tar.gz --markdown 20230624/u/unitgrade-devel/0.1.7a0-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [constrainedlr]: Downloading https://files.pythonhosted.org/packages/c6/b3/13dfc3e27978ddb80c18c2c8daa22f4aa9f2c09d40e608037e334523f0bb/constrainedlr-0.1.1.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [erikunicamp-myutils]: Downloading https://files.pythonhosted.org/packages/b8/56/97bbf066a2d338145bbca608e1063fe418a297937307839d7f197b902d0b/erikunicamp-myutils-0.0.9.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [crawler-commons]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [crawler-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crawler_commons-0.0.8.tar.gz tmp/crawler_commons-0.0.9.tar.gz --markdown 20230624/c/crawler-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [paradigm]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [paradigm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm-4.1.1.tar.gz tmp/paradigm-4.2.0.tar.gz --markdown 20230624/p/paradigm/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [constrainedlr]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [constrainedlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constrainedlr-0.1.0.tar.gz tmp/constrainedlr-0.1.1.tar.gz --markdown 20230624/c/constrainedlr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [erikunicamp-myutils]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [erikunicamp-myutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erikunicamp-myutils-0.0.8.tar.gz tmp/erikunicamp-myutils-0.0.9.tar.gz --markdown 20230624/e/erikunicamp-myutils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 15:36:47] INFO root fetch - processPackages [flask-jeroboam]: Downloading https://files.pythonhosted.org/packages/ed/36/c41d3d6e98f2cc876f9f4f756062d3b6cf88a596a7443f71d72b72ea474d/flask_jeroboam-0.1.0b3.tar.gz
+[2023-06-24 15:36:47] INFO root fetch - processPackages [flask-jeroboam]: executing diffoscope
+[2023-06-24 15:36:47] INFO root fetch - processPackages [flask-jeroboam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_jeroboam-0.1.0b2.tar.gz tmp/flask_jeroboam-0.1.0b3.tar.gz --markdown 20230624/f/flask-jeroboam/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-06-24 15:36:48] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.8.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - processPackages [dartrig]: Remove: archive file [/home/abi/fetcher/tmp/dartrig-0.1.9.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - main [MainThread]: End processing [dartrig]: success
+[2023-06-24 15:36:48] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.5.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.6.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - main [MainThread]: End processing [deeppipe-api]: success
+[2023-06-24 15:36:48] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.8.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - processPackages [crawler-commons]: Remove: archive file [/home/abi/fetcher/tmp/crawler_commons-0.0.9.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - main [MainThread]: End processing [crawler-commons]: success
+[2023-06-24 15:36:48] INFO root fetch - processPackages [krutils]: Remove: archive file [/home/abi/fetcher/tmp/krutils-0.20230624.2226.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - processPackages [krutils]: Remove: archive file [/home/abi/fetcher/tmp/krutils-0.20230624.2235.tar.gz]
+[2023-06-24 15:36:48] INFO root fetch - main [MainThread]: End processing [krutils]: success
+[2023-06-24 15:36:49] INFO root fetch - processPackages [paradigm]: Remove: archive file [/home/abi/fetcher/tmp/paradigm-4.1.1.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - processPackages [paradigm]: Remove: archive file [/home/abi/fetcher/tmp/paradigm-4.2.0.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - main [MainThread]: End processing [paradigm]: success
+[2023-06-24 15:36:49] INFO root fetch - processPackages [erikunicamp-myutils]: Remove: archive file [/home/abi/fetcher/tmp/erikunicamp-myutils-0.0.8.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - processPackages [erikunicamp-myutils]: Remove: archive file [/home/abi/fetcher/tmp/erikunicamp-myutils-0.0.9.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - main [MainThread]: End processing [erikunicamp-myutils]: success
+[2023-06-24 15:36:49] INFO root fetch - processPackages [constrainedlr]: Remove: archive file [/home/abi/fetcher/tmp/constrainedlr-0.1.0.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - processPackages [constrainedlr]: Remove: archive file [/home/abi/fetcher/tmp/constrainedlr-0.1.1.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - main [MainThread]: End processing [constrainedlr]: success
+[2023-06-24 15:36:49] INFO root fetch - processPackages [unitgrade-devel]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-devel-0.1.7a0.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - processPackages [unitgrade-devel]: Remove: archive file [/home/abi/fetcher/tmp/unitgrade-devel-0.1.9.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - main [MainThread]: End processing [unitgrade-devel]: success
+[2023-06-24 15:36:49] INFO root fetch - processPackages [flask-jeroboam]: Remove: archive file [/home/abi/fetcher/tmp/flask_jeroboam-0.1.0b2.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - processPackages [flask-jeroboam]: Remove: archive file [/home/abi/fetcher/tmp/flask_jeroboam-0.1.0b3.tar.gz]
+[2023-06-24 15:36:49] INFO root fetch - main [MainThread]: End processing [flask-jeroboam]: success
+[2023-06-24 15:36:49] INFO root fetch - main [MainThread]: Store serial: [18629536]
