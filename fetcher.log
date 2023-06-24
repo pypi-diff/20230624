@@ -19427,3 +19427,39 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 22:09:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.339.1.tar.gz]
 [2023-06-24 22:09:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-06-24 22:09:02] INFO root fetch - main [MainThread]: Store serial: [18631722]
+[2023-06-24 22:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631722]
+[2023-06-24 22:14:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 22:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptoowl
+[2023-06-24 22:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atro-pyrsync
+[2023-06-24 22:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hydrogpower
+[2023-06-24 22:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdqrcode
+[2023-06-24 22:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplug
+[2023-06-24 22:14:12] WARNING root fetch - processPackages [hydrogpower]: Skipping, unable to determine old version
+[2023-06-24 22:14:12] INFO root fetch - main [MainThread]: End processing [hydrogpower] error
+[2023-06-24 22:14:12] INFO root fetch - processPackages [sdqrcode]: New version: [0.2.5] Old Version: [0.1.0]
+[2023-06-24 22:14:12] WARNING root fetch - processPackages [cryptoowl]: Skipping, unable to determine old version
+[2023-06-24 22:14:12] INFO root fetch - main [MainThread]: End processing [cryptoowl] error
+[2023-06-24 22:14:12] INFO root fetch - processPackages [simplug]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 22:14:12] INFO root fetch - processPackages [atro-pyrsync]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 22:14:12] INFO root fetch - processPackages [simplug]: Downloading https://files.pythonhosted.org/packages/cc/a7/6b3a19e34a381c55dcb4391e20e19ace36824e6029f05f96b39a2ec09c35/simplug-0.3.1.tar.gz
+[2023-06-24 22:14:12] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/12/f8/bba56ab8e79dcb3eb41aeefa9b5c1633d91f11a98534215856d60596ba85/atro-pyrsync-0.0.5.tar.gz
+[2023-06-24 22:14:12] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/96/4a/541b1a0f42b6c99b9809e6fe479de36ff57e43fe948cb47e16457dcf706b/sdqrcode-0.1.0.tar.gz
+[2023-06-24 22:14:13] INFO root fetch - processPackages [simplug]: Downloading https://files.pythonhosted.org/packages/17/46/9952efbe726c6e0bb802dec24f92284ffb55d2e642ddabc63ab6c63c515a/simplug-0.3.2.tar.gz
+[2023-06-24 22:14:13] INFO root fetch - processPackages [atro-pyrsync]: Downloading https://files.pythonhosted.org/packages/2e/5e/15c750904d1769d53392b430f508d7cce449d2d099f6e007e9300d2d991e/atro-pyrsync-0.0.6.tar.gz
+[2023-06-24 22:14:13] INFO root fetch - processPackages [simplug]: executing diffoscope
+[2023-06-24 22:14:13] INFO root fetch - processPackages [simplug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplug-0.3.1.tar.gz tmp/simplug-0.3.2.tar.gz --markdown 20230624/s/simplug/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 22:14:13] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/45/e3/7fcfc3293c060763633aca81fd9ad484fc82265989b370536017a976c644/sdqrcode-0.2.5.tar.gz
+[2023-06-24 22:14:13] INFO root fetch - processPackages [atro-pyrsync]: executing diffoscope
+[2023-06-24 22:14:13] INFO root fetch - processPackages [atro-pyrsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pyrsync-0.0.5.tar.gz tmp/atro-pyrsync-0.0.6.tar.gz --markdown 20230624/a/atro-pyrsync/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 22:14:13] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-06-24 22:14:13] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.1.0.tar.gz tmp/sdqrcode-0.2.5.tar.gz --markdown 20230624/s/sdqrcode/0.1.0-0.2.5/diff.md --exclude *.pyd
+[2023-06-24 22:14:14] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.5.tar.gz]
+[2023-06-24 22:14:14] INFO root fetch - processPackages [atro-pyrsync]: Remove: archive file [/home/abi/fetcher/tmp/atro-pyrsync-0.0.6.tar.gz]
+[2023-06-24 22:14:14] INFO root fetch - main [MainThread]: End processing [atro-pyrsync]: success
+[2023-06-24 22:14:14] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.1.0.tar.gz]
+[2023-06-24 22:14:14] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.5.tar.gz]
+[2023-06-24 22:14:14] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-06-24 22:14:14] INFO root fetch - processPackages [simplug]: Remove: archive file [/home/abi/fetcher/tmp/simplug-0.3.1.tar.gz]
+[2023-06-24 22:14:14] INFO root fetch - processPackages [simplug]: Remove: archive file [/home/abi/fetcher/tmp/simplug-0.3.2.tar.gz]
+[2023-06-24 22:14:14] INFO root fetch - main [MainThread]: End processing [simplug]: success
+[2023-06-24 22:14:14] INFO root fetch - main [MainThread]: Store serial: [18631741]
