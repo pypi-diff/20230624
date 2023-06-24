@@ -16776,3 +16776,58 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:19:21] INFO root fetch - processPackages [lab-partner-utils]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-utils-0.7.57.tar.gz]
 [2023-06-24 18:19:21] INFO root fetch - main [MainThread]: End processing [lab-partner-utils]: success
 [2023-06-24 18:19:21] INFO root fetch - main [MainThread]: Store serial: [18630480]
+[2023-06-24 18:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630480]
+[2023-06-24 18:24:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlightRadarAPI
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rofunc
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rots-py
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psyqlepg
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CodeDict
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: presslink
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sktime
+[2023-06-24 18:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pillar1
+[2023-06-24 18:24:30] INFO root fetch - processPackages [FlightRadarAPI]: New version: [1.3.0] Old Version: [1.2.8]
+[2023-06-24 18:24:30] INFO root fetch - processPackages [presslink]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-24 18:24:30] WARNING root fetch - processPackages [CodeDict]: Skipping, unable to determine old version
+[2023-06-24 18:24:30] INFO root fetch - main [MainThread]: End processing [CodeDict] error
+[2023-06-24 18:24:30] INFO root fetch - processPackages [rofunc]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-06-24 18:24:30] WARNING root fetch - processPackages [psyqlepg]: Skipping, unable to determine old version
+[2023-06-24 18:24:30] INFO root fetch - main [MainThread]: End processing [psyqlepg] error
+[2023-06-24 18:24:30] INFO root fetch - processPackages [rots-py]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-24 18:24:30] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.9] Old Version: [0.1.7.8]
+[2023-06-24 18:24:30] INFO root fetch - processPackages [sktime]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-24 18:24:30] INFO root fetch - processPackages [presslink]: Downloading https://files.pythonhosted.org/packages/7e/f9/9b4ef5d529e6690943c0f2bc611bc5ace771b39771b480ca07d74aa43fc8/presslink-0.0.2.tar.gz
+[2023-06-24 18:24:30] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/d6/74/5b30e45a4e2ecfd2917d7d91666ead77e789968a6faa3f4131d1c7f3dc35/FlightRadarAPI-1.2.8.tar.gz
+[2023-06-24 18:24:30] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/1b/51/e46fd75d1d79528e6b7698a3678cf28413fcd52a97141046feebc9124636/pillar1-0.1.7.8.tar.gz
+[2023-06-24 18:24:30] INFO root fetch - processPackages [rots-py]: Downloading https://files.pythonhosted.org/packages/37/30/4ab4f4b9dd0a84750f4e61ec62fc9fd636a0845c30c5c7cff6c9091efb43/rots-py-1.1.0.tar.gz
+[2023-06-24 18:24:30] INFO root fetch - processPackages [sktime]: Downloading https://files.pythonhosted.org/packages/14/3c/02b40dd3133f7607421dcc3c5b44747f5bc0f6af14cc7a14e83b686f1ed1/sktime-0.8.1.tar.gz
+[2023-06-24 18:24:30] INFO root fetch - processPackages [rofunc]: Downloading https://files.pythonhosted.org/packages/f7/5d/ef90dadc6c26458f8bd4c42bf8ed79450aad9a95f0d111ed15ffd0a7c5b3/rofunc-0.0.2.2.tar.gz
+[2023-06-24 18:24:30] WARNING root fetch - processPackages [sktime]: Skipping package: exceeds size limit 11076866>=10485760
+[2023-06-24 18:24:30] INFO root fetch - main [MainThread]: End processing [sktime] error
+[2023-06-24 18:24:30] WARNING root fetch - processPackages [rofunc]: Skipping package: exceeds size limit 96386417>=10485760
+[2023-06-24 18:24:30] INFO root fetch - main [MainThread]: End processing [rofunc] error
+[2023-06-24 18:24:31] INFO root fetch - processPackages [presslink]: Downloading https://files.pythonhosted.org/packages/f3/2f/13350a1af60424c79c2a097497f13ffd2de9e74bd323d753041b48f59832/presslink-0.0.3.tar.gz
+[2023-06-24 18:24:31] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/54/df/f37c0351e5a78f12f1a2e74f4341081a13cd7e17550248d485e2a2d5fcd6/pillar1-0.1.7.9.tar.gz
+[2023-06-24 18:24:31] INFO root fetch - processPackages [FlightRadarAPI]: Downloading https://files.pythonhosted.org/packages/92/c0/7989c6d599192f3fe8111103fc4e654e80bf0eef97aef7f09eb6af5dbe08/FlightRadarAPI-1.3.0.tar.gz
+[2023-06-24 18:24:31] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-24 18:24:31] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.8.tar.gz tmp/pillar1-0.1.7.9.tar.gz --markdown 20230624/p/pillar1/0.1.7.8-0.1.7.9/diff.md --exclude *.pyd
+[2023-06-24 18:24:31] INFO root fetch - processPackages [rots-py]: Downloading https://files.pythonhosted.org/packages/12/a8/8a486e239baca5c3bc1bfcc31100f9501219923c2494eccbcf7356a097f6/rots-py-1.2.0.tar.gz
+[2023-06-24 18:24:31] INFO root fetch - processPackages [presslink]: executing diffoscope
+[2023-06-24 18:24:31] INFO root fetch - processPackages [presslink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/presslink-0.0.2.tar.gz tmp/presslink-0.0.3.tar.gz --markdown 20230624/p/presslink/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-24 18:24:31] INFO root fetch - processPackages [FlightRadarAPI]: executing diffoscope
+[2023-06-24 18:24:31] INFO root fetch - processPackages [FlightRadarAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlightRadarAPI-1.2.8.tar.gz tmp/FlightRadarAPI-1.3.0.tar.gz --markdown 20230624/F/FlightRadarAPI/1.2.8-1.3.0/diff.md --exclude *.pyd
+[2023-06-24 18:24:31] INFO root fetch - processPackages [rots-py]: executing diffoscope
+[2023-06-24 18:24:31] INFO root fetch - processPackages [rots-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rots-py-1.1.0.tar.gz tmp/rots-py-1.2.0.tar.gz --markdown 20230624/r/rots-py/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-24 18:24:32] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.8.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.9.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-24 18:24:32] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.2.8.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - processPackages [FlightRadarAPI]: Remove: archive file [/home/abi/fetcher/tmp/FlightRadarAPI-1.3.0.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - main [MainThread]: End processing [FlightRadarAPI]: success
+[2023-06-24 18:24:32] INFO root fetch - processPackages [rots-py]: Remove: archive file [/home/abi/fetcher/tmp/rots-py-1.1.0.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - processPackages [rots-py]: Remove: archive file [/home/abi/fetcher/tmp/rots-py-1.2.0.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - main [MainThread]: End processing [rots-py]: success
+[2023-06-24 18:24:32] INFO root fetch - processPackages [presslink]: Remove: archive file [/home/abi/fetcher/tmp/presslink-0.0.2.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - processPackages [presslink]: Remove: archive file [/home/abi/fetcher/tmp/presslink-0.0.3.tar.gz]
+[2023-06-24 18:24:32] INFO root fetch - main [MainThread]: End processing [presslink]: success
+[2023-06-24 18:24:32] INFO root fetch - main [MainThread]: Store serial: [18630507]
