@@ -16831,3 +16831,85 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 18:24:32] INFO root fetch - processPackages [presslink]: Remove: archive file [/home/abi/fetcher/tmp/presslink-0.0.3.tar.gz]
 [2023-06-24 18:24:32] INFO root fetch - main [MainThread]: End processing [presslink]: success
 [2023-06-24 18:24:32] INFO root fetch - main [MainThread]: Store serial: [18630507]
+[2023-06-24 18:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630507]
+[2023-06-24 18:29:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: always-updates
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prefab-cloud-python
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bullmq
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spyx
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinyda
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pythorhead
+[2023-06-24 18:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lab-partner
+[2023-06-24 18:29:41] INFO root fetch - processPackages [spyx]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [lab-partner]: New version: [0.7.57] Old Version: [0.7.56]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [bullmq]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [tinyda]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [prefab-cloud-python]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pillar1]: New version: [0.1.7.9] Old Version: [0.1.7.8]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pythorhead]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-24 18:29:41] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/d5/61/9d4cfb6974f9e1e644cfce57e3e086f1c2b06715c392c63eb2d9e727504d/bullmq-1.1.0.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/1b/51/e46fd75d1d79528e6b7698a3678cf28413fcd52a97141046feebc9124636/pillar1-0.1.7.8.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/36/6b/45cfccf8aa4e9c54d4a6b30919ac9918deaa62c81194944849e3172e6968/pythorhead-0.8.2.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/9a/7a/60367d2be7360b086d3f26ddeedbe637b2aa0a0754fd4d00e28c097d5d18/lab-partner-0.7.56.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/c3/9c/24bda5a8497893ef9c2ac9936d6c6e837f8b3407126ef0d00e65eb64e29e/spyx-0.0.7.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [prefab-cloud-python]: Downloading https://files.pythonhosted.org/packages/04/e2/99fc1c47645c258cd601ac2aed078b424cb2afebc20af2e54aa680fee7bb/prefab_cloud_python-0.3.3.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/54/df/f37c0351e5a78f12f1a2e74f4341081a13cd7e17550248d485e2a2d5fcd6/pillar1-0.1.7.9.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [tinyda]: Downloading https://files.pythonhosted.org/packages/90/9f/45e2d54adb098bc766f8afdb1ca6e0f24abe7d85e5545d565d1886701c1b/tinyda-0.9.8.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.7.8.tar.gz tmp/pillar1-0.1.7.9.tar.gz --markdown 20230624/p/pillar1/0.1.7.8-0.1.7.9/diff.md --exclude *.pyd
+[2023-06-24 18:29:41] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/28/10/f16eb9577b22cef3c905489424426ff62c2119f2318e17f6ddbb711b8851/bullmq-1.2.0.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230624/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-24 18:29:41] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230624/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-24 18:29:41] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/46/cb/e1c31c19adbe30d4a95975c02287d83b3b7423ff310aa68be06efbba862b/pythorhead-0.8.3.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [lab-partner]: Downloading https://files.pythonhosted.org/packages/21/63/872a1875dbcc7aec69266a6fe0007245aefe387c771e0770c918b58a1d67/lab-partner-0.7.57.tar.gz
+[2023-06-24 18:29:41] INFO root fetch - processPackages [spyx]: Downloading https://files.pythonhosted.org/packages/ad/3c/0923fad22a4814ff108e27da31aad55c408b1e2127c55c0e0beb6ccc3d40/spyx-0.0.8.tar.gz
+[2023-06-24 18:29:42] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-24 18:29:42] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.8.2.tar.gz tmp/pythorhead-0.8.3.tar.gz --markdown 20230624/p/pythorhead/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-24 18:29:42] INFO root fetch - processPackages [prefab-cloud-python]: Downloading https://files.pythonhosted.org/packages/d5/c2/f4834d800425209b2418b8ade16d3cfbe2ca81ab58129083b0e81a43a42c/prefab_cloud_python-0.4.0.tar.gz
+[2023-06-24 18:29:42] INFO root fetch - processPackages [lab-partner]: executing diffoscope
+[2023-06-24 18:29:42] INFO root fetch - processPackages [lab-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lab-partner-0.7.56.tar.gz tmp/lab-partner-0.7.57.tar.gz --markdown 20230624/l/lab-partner/0.7.56-0.7.57/diff.md --exclude *.pyd
+[2023-06-24 18:29:42] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-06-24 18:29:42] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-1.1.0.tar.gz tmp/bullmq-1.2.0.tar.gz --markdown 20230624/b/bullmq/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-24 18:29:42] INFO root fetch - processPackages [tinyda]: Downloading https://files.pythonhosted.org/packages/30/85/66199e74ad31297463e8b3e343fed6cfb0a8b19efabc190dd09fc1f27852/tinyda-0.9.9.tar.gz
+[2023-06-24 18:29:42] INFO root fetch - processPackages [spyx]: executing diffoscope
+[2023-06-24 18:29:42] INFO root fetch - processPackages [spyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyx-0.0.7.tar.gz tmp/spyx-0.0.8.tar.gz --markdown 20230624/s/spyx/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 18:29:42] INFO root fetch - processPackages [tinyda]: executing diffoscope
+[2023-06-24 18:29:42] INFO root fetch - processPackages [tinyda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyda-0.9.8.tar.gz tmp/tinyda-0.9.9.tar.gz --markdown 20230624/t/tinyda/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-24 18:29:42] INFO root fetch - processPackages [prefab-cloud-python]: executing diffoscope
+[2023-06-24 18:29:42] INFO root fetch - processPackages [prefab-cloud-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefab_cloud_python-0.3.3.tar.gz tmp/prefab_cloud_python-0.4.0.tar.gz --markdown 20230624/p/prefab-cloud-python/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 18:29:43] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-24 18:29:43] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.8.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.7.9.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-24 18:29:43] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-24 18:29:43] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.7.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - processPackages [spyx]: Remove: archive file [/home/abi/fetcher/tmp/spyx-0.0.8.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - main [MainThread]: End processing [spyx]: success
+[2023-06-24 18:29:43] INFO root fetch - processPackages [tinyda]: Remove: archive file [/home/abi/fetcher/tmp/tinyda-0.9.8.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - processPackages [tinyda]: Remove: archive file [/home/abi/fetcher/tmp/tinyda-0.9.9.tar.gz]
+[2023-06-24 18:29:43] INFO root fetch - main [MainThread]: End processing [tinyda]: success
+[2023-06-24 18:29:44] INFO root fetch - processPackages [prefab-cloud-python]: Remove: archive file [/home/abi/fetcher/tmp/prefab_cloud_python-0.3.3.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - processPackages [prefab-cloud-python]: Remove: archive file [/home/abi/fetcher/tmp/prefab_cloud_python-0.4.0.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - main [MainThread]: End processing [prefab-cloud-python]: success
+[2023-06-24 18:29:44] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.56.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - processPackages [lab-partner]: Remove: archive file [/home/abi/fetcher/tmp/lab-partner-0.7.57.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - main [MainThread]: End processing [lab-partner]: success
+[2023-06-24 18:29:44] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.2.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.3.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-24 18:29:44] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.1.0.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - processPackages [bullmq]: Remove: archive file [/home/abi/fetcher/tmp/bullmq-1.2.0.tar.gz]
+[2023-06-24 18:29:44] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-06-24 18:29:44] INFO root fetch - main [MainThread]: Store serial: [18630533]
