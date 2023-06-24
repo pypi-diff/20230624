@@ -12989,3 +12989,54 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:49:48] INFO root fetch - processPackages [beet]: Remove: archive file [/home/abi/fetcher/tmp/beet-0.9.4.tar.gz]
 [2023-06-24 12:49:48] INFO root fetch - main [MainThread]: End processing [beet]: success
 [2023-06-24 12:49:48] INFO root fetch - main [MainThread]: Store serial: [18628854]
+[2023-06-24 12:54:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628854]
+[2023-06-24 12:54:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bhv
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-services
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mflag
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ffmpeg-gpt
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapy-db
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revChatGPT
+[2023-06-24 12:54:57] INFO root fetch - processPackages [mflag]: New version: [2.0.0] Old Version: [1.6.4]
+[2023-06-24 12:54:57] INFO root fetch - processPackages [bhv]: New version: [0.6.0rc0] Old Version: [0.6.0b0]
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ffmpeg-gpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 12:54:57] WARNING root fetch - processPackages [scrapy-db]: Skipping, unable to determine old version
+[2023-06-24 12:54:57] INFO root fetch - main [MainThread]: End processing [scrapy-db] error
+[2023-06-24 12:54:57] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-24 12:54:57] INFO root fetch - processPackages [revChatGPT]: New version: [6.4.2] Old Version: [6.4.1]
+[2023-06-24 12:54:57] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/e5/db/ba691641ab36b64dca7cf8f972b2f311c2e3264419c6c5c7b9c03538abc6/bhv-0.6.0b0.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ffmpeg-gpt]: Downloading https://files.pythonhosted.org/packages/b2/a1/62638c91039f6a0465ed32c8f8c8141d3bf125a559ed37b85b1eb07438a1/ffmpeg-gpt-0.1.0.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/e6/b1/1a9648caeb9f5112bbd948028ad68111c6b75e8ea8a0703e6b9198d7d162/mflag-1.6.4.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/53/28/98e0891fdfaf0eb86a9956ed34f23dcfb53bd307625add29a7e094b628f8/revChatGPT-6.4.1.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-24 12:54:57] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230624/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-24 12:54:57] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/56/c7/4baae4d9c573b8d8342bb1bda2ac1eb47e5bf4d2635c0a269552bf1b4475/bhv-0.6.0rc0.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/55/40/65a40574999f9cff56f6596abcafbb0f1cafad1c70b58d540801f5d77178/revChatGPT-6.4.2.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ffmpeg-gpt]: Downloading https://files.pythonhosted.org/packages/e2/24/0e5e074b0c3c20fd0e39b20fc0cb45ab1ed8685ce23d2b3f9d104d44a49a/ffmpeg-gpt-0.1.1.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [mflag]: Downloading https://files.pythonhosted.org/packages/e0/20/577b5c0079d41edeff2767355c9fe3c21dfdfb0f96a115eefdc0b8e26535/mflag-2.0.0.tar.gz
+[2023-06-24 12:54:57] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-24 12:54:57] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.6.0b0.tar.gz tmp/bhv-0.6.0rc0.tar.gz --markdown 20230624/b/bhv/0.6.0b0-0.6.0rc0/diff.md --exclude *.pyd
+[2023-06-24 12:54:57] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-24 12:54:57] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.4.1.tar.gz tmp/revChatGPT-6.4.2.tar.gz --markdown 20230624/r/revChatGPT/6.4.1-6.4.2/diff.md --exclude *.pyd
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ffmpeg-gpt]: executing diffoscope
+[2023-06-24 12:54:57] INFO root fetch - processPackages [ffmpeg-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpeg-gpt-0.1.0.tar.gz tmp/ffmpeg-gpt-0.1.1.tar.gz --markdown 20230624/f/ffmpeg-gpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 12:54:57] INFO root fetch - processPackages [mflag]: executing diffoscope
+[2023-06-24 12:54:57] INFO root fetch - processPackages [mflag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mflag-1.6.4.tar.gz tmp/mflag-2.0.0.tar.gz --markdown 20230624/m/mflag/1.6.4-2.0.0/diff.md --exclude *.pyd
+[2023-06-24 12:54:58] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-24 12:54:58] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-24 12:54:58] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-24 12:54:59] INFO root fetch - processPackages [ffmpeg-gpt]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-gpt-0.1.0.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - processPackages [ffmpeg-gpt]: Remove: archive file [/home/abi/fetcher/tmp/ffmpeg-gpt-0.1.1.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - main [MainThread]: End processing [ffmpeg-gpt]: success
+[2023-06-24 12:54:59] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0b0.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0rc0.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-24 12:54:59] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.1.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.4.2.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-24 12:54:59] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-1.6.4.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - processPackages [mflag]: Remove: archive file [/home/abi/fetcher/tmp/mflag-2.0.0.tar.gz]
+[2023-06-24 12:54:59] INFO root fetch - main [MainThread]: End processing [mflag]: success
+[2023-06-24 12:54:59] INFO root fetch - main [MainThread]: Store serial: [18628872]
