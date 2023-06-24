@@ -14501,3 +14501,27 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 15:21:08] INFO root fetch - processPackages [psalpsdtools]: Remove: archive file [/home/abi/fetcher/tmp/psalpsdtools-0.2.tar.gz]
 [2023-06-24 15:21:08] INFO root fetch - main [MainThread]: End processing [psalpsdtools]: success
 [2023-06-24 15:21:08] INFO root fetch - main [MainThread]: Store serial: [18629458]
+[2023-06-24 15:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629458]
+[2023-06-24 15:26:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 15:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchlie
+[2023-06-24 15:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arts
+[2023-06-24 15:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deeppipe-api
+[2023-06-24 15:26:17] WARNING root fetch - processPackages [deeppipe-api]: Skipping, unable to determine old version
+[2023-06-24 15:26:17] INFO root fetch - main [MainThread]: End processing [deeppipe-api] error
+[2023-06-24 15:26:17] INFO root fetch - processPackages [torchlie]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-06-24 15:26:17] INFO root fetch - processPackages [arts]: New version: [1.3] Old Version: [1.2]
+[2023-06-24 15:26:17] INFO root fetch - processPackages [torchlie]: Downloading https://files.pythonhosted.org/packages/c0/59/1fb98714ee10f9ab190f93b91b8796eeffdd6373c8e6a5272e87eb6d316c/torchlie-0.0.1rc1.tar.gz
+[2023-06-24 15:26:18] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/0f/8f/780f52217edab38708cb5c8740cd31f0a00638d5153e45d643e43e66b26d/arts-1.2.tar.gz
+[2023-06-24 15:26:18] INFO root fetch - processPackages [torchlie]: Downloading https://files.pythonhosted.org/packages/7a/55/ba719be9b9a06af92106e46cbf68362a87aa48ac8745f722d72274a5e718/torchlie-0.0.1rc2.tar.gz
+[2023-06-24 15:26:18] INFO root fetch - processPackages [torchlie]: executing diffoscope
+[2023-06-24 15:26:18] INFO root fetch - processPackages [torchlie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlie-0.0.1rc1.tar.gz tmp/torchlie-0.0.1rc2.tar.gz --markdown 20230624/t/torchlie/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-06-24 15:26:18] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/aa/4d/73e20f0807652a0e0eca70076dc650e0bbed697d08e9cb18008d7084c827/arts-1.3.tar.gz
+[2023-06-24 15:26:18] INFO root fetch - processPackages [arts]: executing diffoscope
+[2023-06-24 15:26:18] INFO root fetch - processPackages [arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arts-1.2.tar.gz tmp/arts-1.3.tar.gz --markdown 20230624/a/arts/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-24 15:26:19] INFO root fetch - processPackages [torchlie]: Remove: archive file [/home/abi/fetcher/tmp/torchlie-0.0.1rc1.tar.gz]
+[2023-06-24 15:26:19] INFO root fetch - processPackages [torchlie]: Remove: archive file [/home/abi/fetcher/tmp/torchlie-0.0.1rc2.tar.gz]
+[2023-06-24 15:26:19] INFO root fetch - main [MainThread]: End processing [torchlie]: success
+[2023-06-24 15:26:19] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-1.2.tar.gz]
+[2023-06-24 15:26:19] INFO root fetch - processPackages [arts]: Remove: archive file [/home/abi/fetcher/tmp/arts-1.3.tar.gz]
+[2023-06-24 15:26:19] INFO root fetch - main [MainThread]: End processing [arts]: success
+[2023-06-24 15:26:19] INFO root fetch - main [MainThread]: Store serial: [18629473]
