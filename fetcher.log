@@ -19695,3 +19695,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 22:40:21] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
 [2023-06-24 22:40:21] INFO root fetch - main [MainThread]: End processing [evadb]: success
 [2023-06-24 22:40:21] INFO root fetch - main [MainThread]: Store serial: [18631886]
+[2023-06-24 22:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631886]
+[2023-06-24 22:45:30] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visualLLM
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sdqrcode
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyote
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: free-pygpt
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwcelery
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ream2
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genopyc
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xqute
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: heaserver
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aa-srp
+[2023-06-24 22:45:30] WARNING root fetch - processPackages [visualLLM]: Skipping, unable to determine old version
+[2023-06-24 22:45:30] INFO root fetch - processPackages [visualLLM]: Start processing: airflow-provider-vineyard
+[2023-06-24 22:45:30] INFO root fetch - main [MainThread]: End processing [visualLLM] error
+[2023-06-24 22:45:30] INFO root fetch - processPackages [free-pygpt]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [genopyc]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ream2]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [xqute]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [sdqrcode]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [gwcelery]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [aa-srp]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [heaserver]: New version: [1.0.0a99] Old Version: [1.0.0a98]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [airflow-provider-vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [pyote]: New version: [5.2.7] Old Version: [5.2.6]
+[2023-06-24 22:45:30] INFO root fetch - processPackages [xqute]: Downloading https://files.pythonhosted.org/packages/08/b5/70e63d43b8ac632438f6e08e069c2db5faefa58637b393959b433ea57362/xqute-0.2.3.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/6e/6c/05313434d935aed783c8cc24935ae0dab1279a85447d43b31c7ed05dfd4a/genopyc-1.1.0-py3-none-any.whl
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/5c/ef/d5da9f4ae7fddd7c14d6cda1a9fc688917c17024c42f890d0b7de28ed4c8/ream2-2.9.0.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/ca/5e/7b1d377054ffc1f5e4f403b08eef5f3902eb6c7302e9b245769f36679397/sdqrcode-0.2.6.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [free-pygpt]: Downloading https://files.pythonhosted.org/packages/9b/b1/a7d121e94578c5d413d15573014c20d85b69b1018deb9edc2f5100662087/free_pygpt-1.3.2.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [aa-srp]: Downloading https://files.pythonhosted.org/packages/26/f0/0609c383bef2d4abf3f8e76317c18d74237a0f05ebb96acdaf2a29974a8c/aa-srp-1.8.0.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [gwcelery]: Downloading https://files.pythonhosted.org/packages/33/ee/935d4c3882c24ad1090fc43c2d4f7d207c08115fcd2cb9e69e014fa8f0f1/gwcelery-2.1.2.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/23/5c/e8b5b2171b84de0317a19800ea1e6e1c13fd3fc36ae7789702ed1007a678/heaserver-1.0.0a98.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [airflow-provider-vineyard]: Downloading https://files.pythonhosted.org/packages/bc/6a/10db0cbd85bc88811f2a93264857d60383c7d194263678c9e95b9fc27875/airflow_provider_vineyard-0.8.6-py3-none-any.whl
+[2023-06-24 22:45:30] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/d7/2a/c6d5140ccf5b8a2dc66c5bf65583066f2657b3df29546dfc14156062838c/pyote-5.2.6.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/87/f4/ae92473c49108a0f9e62764c20ea1b65c84f8b6305313fd7d35c57a4d9f4/ream2-2.9.1.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [xqute]: Downloading https://files.pythonhosted.org/packages/0a/ac/c2fafd63401a46c6613ad14831d43b320024cfbd39ff0e4011acd0ea71bb/xqute-0.2.4.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [free-pygpt]: Downloading https://files.pythonhosted.org/packages/08/85/3f78a97c8afe64da25640095d036b8769d1e6ccfb45634ce3d05844218da/free_pygpt-1.3.3.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/69/ea/d12cad70a4075fd6b277e481d78dd5aba1fd0d998bd7577cdb63b4cce98f/genopyc-1.1.1-py3-none-any.whl
+[2023-06-24 22:45:30] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/24/ac/07794906521a70363db00bf9e1720b5c8addbaa7a84831912dfb3035fbfd/heaserver-1.0.0a99.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [sdqrcode]: Downloading https://files.pythonhosted.org/packages/db/c2/c7927246da47d9418f18455cf8bfa6920e72cc722c9d4d6285de237672da/sdqrcode-0.2.7.tar.gz
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-06-24 22:45:30] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.9.0.tar.gz tmp/ream2-2.9.1.tar.gz --markdown 20230624/r/ream2/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-24 22:45:30] INFO root fetch - processPackages [aa-srp]: Downloading https://files.pythonhosted.org/packages/46/9e/ca72e888c462adcdf1fb647897f72bafe6fc0db59f73188759399b223772/aa-srp-1.9.0.tar.gz
+[2023-06-24 22:45:31] INFO root fetch - processPackages [sdqrcode]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [sdqrcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdqrcode-0.2.6.tar.gz tmp/sdqrcode-0.2.7.tar.gz --markdown 20230624/s/sdqrcode/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [xqute]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [xqute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xqute-0.2.3.tar.gz tmp/xqute-0.2.4.tar.gz --markdown 20230624/x/xqute/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.0.0a98.tar.gz tmp/heaserver-1.0.0a99.tar.gz --markdown 20230624/h/heaserver/1.0.0a98-1.0.0a99/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [free-pygpt]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [free-pygpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/free_pygpt-1.3.2.tar.gz tmp/free_pygpt-1.3.3.tar.gz --markdown 20230624/f/free-pygpt/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [airflow-provider-vineyard]: Downloading https://files.pythonhosted.org/packages/7a/c0/0e1b084b3a68c67f78edaeda3a93a1c473a048fb76636c59de1eff6ebe46/airflow_provider_vineyard-0.9.0-py3-none-any.whl
+[2023-06-24 22:45:31] INFO root fetch - processPackages [gwcelery]: Downloading https://files.pythonhosted.org/packages/c8/62/2126f9eff9359e23a8fd1a03db6173a83138f39783f0cac7ad9e6bb27500/gwcelery-2.1.3.tar.gz
+[2023-06-24 22:45:31] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-1.1.0-py3-none-any.whl.zip tmp/genopyc-1.1.1-py3-none-any.whl.zip --markdown 20230624/g/genopyc/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [airflow-provider-vineyard]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [airflow-provider-vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip --markdown 20230624/a/airflow-provider-vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [pyote]: Downloading https://files.pythonhosted.org/packages/45/f4/f80b73cc5faf92de782a9070f82b2f22a4edb608b5315e7df8f1e2395659/pyote-5.2.7.tar.gz
+[2023-06-24 22:45:31] INFO root fetch - processPackages [pyote]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [pyote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyote-5.2.6.tar.gz tmp/pyote-5.2.7.tar.gz --markdown 20230624/p/pyote/5.2.6-5.2.7/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [aa-srp]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [aa-srp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-srp-1.8.0.tar.gz tmp/aa-srp-1.9.0.tar.gz --markdown 20230624/a/aa-srp/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-24 22:45:31] INFO root fetch - processPackages [gwcelery]: executing diffoscope
+[2023-06-24 22:45:31] INFO root fetch - processPackages [gwcelery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwcelery-2.1.2.tar.gz tmp/gwcelery-2.1.3.tar.gz --markdown 20230624/g/gwcelery/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-24 22:45:32] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.0.tar.gz]
+[2023-06-24 22:45:32] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.1.tar.gz]
+[2023-06-24 22:45:32] INFO root fetch - processPackages [ream2]: Start processing: vineyard
+[2023-06-24 22:45:32] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-06-24 22:45:32] INFO root fetch - processPackages [vineyard]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-06-24 22:45:32] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/9d/2a/a253c807a750e951378e7a3ab1d51d2fef6447b872b6cbd417df779a782b/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-24 22:45:32] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.6.tar.gz]
+[2023-06-24 22:45:32] INFO root fetch - processPackages [sdqrcode]: Remove: archive file [/home/abi/fetcher/tmp/sdqrcode-0.2.7.tar.gz]
+[2023-06-24 22:45:32] INFO root fetch - main [MainThread]: End processing [sdqrcode]: success
+[2023-06-24 22:45:33] INFO root fetch - processPackages [free-pygpt]: Remove: archive file [/home/abi/fetcher/tmp/free_pygpt-1.3.2.tar.gz]
+[2023-06-24 22:45:33] INFO root fetch - processPackages [free-pygpt]: Remove: archive file [/home/abi/fetcher/tmp/free_pygpt-1.3.3.tar.gz]
+[2023-06-24 22:45:33] INFO root fetch - main [MainThread]: End processing [free-pygpt]: success
+[2023-06-24 22:45:33] INFO root fetch - processPackages [xqute]: Remove: archive file [/home/abi/fetcher/tmp/xqute-0.2.3.tar.gz]
+[2023-06-24 22:45:33] INFO root fetch - processPackages [xqute]: Remove: archive file [/home/abi/fetcher/tmp/xqute-0.2.4.tar.gz]
+[2023-06-24 22:45:33] INFO root fetch - main [MainThread]: End processing [xqute]: success
+[2023-06-24 22:45:33] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.1.0-py3-none-any.whl.zip]
+[2023-06-24 22:45:33] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.1.1-py3-none-any.whl.zip]
+[2023-06-24 22:45:33] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-24 22:45:33] INFO root fetch - processPackages [airflow-provider-vineyard]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_vineyard-0.8.6-py3-none-any.whl.zip]
+[2023-06-24 22:45:33] INFO root fetch - processPackages [airflow-provider-vineyard]: Remove: archive file [/home/abi/fetcher/tmp/airflow_provider_vineyard-0.9.0-py3-none-any.whl.zip]
+[2023-06-24 22:45:33] INFO root fetch - main [MainThread]: End processing [airflow-provider-vineyard]: success
+[2023-06-24 22:45:33] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a98.tar.gz]
+[2023-06-24 22:45:33] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.0.0a99.tar.gz]
+[2023-06-24 22:45:33] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2023-06-24 22:45:35] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.2.6.tar.gz]
+[2023-06-24 22:45:35] INFO root fetch - processPackages [pyote]: Remove: archive file [/home/abi/fetcher/tmp/pyote-5.2.7.tar.gz]
+[2023-06-24 22:45:35] INFO root fetch - main [MainThread]: End processing [pyote]: success
+[2023-06-24 22:45:35] INFO root fetch - processPackages [aa-srp]: Remove: archive file [/home/abi/fetcher/tmp/aa-srp-1.8.0.tar.gz]
+[2023-06-24 22:45:35] INFO root fetch - processPackages [aa-srp]: Remove: archive file [/home/abi/fetcher/tmp/aa-srp-1.9.0.tar.gz]
+[2023-06-24 22:45:35] INFO root fetch - main [MainThread]: End processing [aa-srp]: success
+[2023-06-24 22:45:35] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.1.2.tar.gz]
+[2023-06-24 22:45:35] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.1.3.tar.gz]
+[2023-06-24 22:45:35] INFO root fetch - main [MainThread]: End processing [gwcelery]: success
+[2023-06-24 22:45:35] INFO root fetch - processPackages [vineyard]: Downloading https://files.pythonhosted.org/packages/09/c1/99b0791e766e16902b883540228d4762bd12a44f2b331b33b5b7766e7164/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-24 22:45:38] INFO root fetch - processPackages [vineyard]: executing diffoscope
+[2023-06-24 22:45:38] INFO root fetch - processPackages [vineyard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip --markdown 20230624/v/vineyard/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 22:48:32] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.8.6-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-24 22:48:32] INFO root fetch - processPackages [vineyard]: Remove: archive file [/home/abi/fetcher/tmp/vineyard-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.zip]
+[2023-06-24 22:48:32] INFO root fetch - main [MainThread]: End processing [vineyard]: success
+[2023-06-24 22:48:32] INFO root fetch - main [MainThread]: Store serial: [18631932]
