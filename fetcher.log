@@ -18293,3 +18293,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:36:26] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.5.tar.gz]
 [2023-06-24 20:36:26] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
 [2023-06-24 20:36:26] INFO root fetch - main [MainThread]: Store serial: [18631233]
+[2023-06-24 20:41:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631233]
+[2023-06-24 20:41:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 20:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diambra-engine
+[2023-06-24 20:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diambra-arena
+[2023-06-24 20:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shenko
+[2023-06-24 20:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: user-discord
+[2023-06-24 20:41:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsutils-ms
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-engine]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-06-24 20:41:35] INFO root fetch - processPackages [user-discord]: New version: [1.2.9] Old Version: [1.2.7]
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-arena]: New version: [2.1.0rc9] Old Version: [2.1.0rc8]
+[2023-06-24 20:41:35] INFO root fetch - processPackages [shenko]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-06-24 20:41:35] INFO root fetch - processPackages [dsutils-ms]: New version: [1.5] Old Version: [1.4]
+[2023-06-24 20:41:35] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/6f/fd/7f26f109ef60c4119682a5bb9aef13a794b7a2c787eb36da2636e60369d4/user_discord-1.2.7.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/36/be/d2c1fdfcc0ada2982dd1414051b7dfd198c6410fd2783d172ac0a6cdf19b/diambra-arena-2.1.0rc8.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/82/02/57bba472305f611d6b4e6047c5177f014b569cce0f99ca6bd63883f132cc/dsutils_ms-1.4.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [shenko]: Downloading https://files.pythonhosted.org/packages/37/be/e0ff1b880ed1ba82a213e66cfbc792fea8438a37b7f339807b7fa7613410/shenko-0.1.81-py2.py3-none-any.whl
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/bb/ba/b5ae2a99b8d1db307aec499c56c95eb4cfa5f76a7340cdbd49ed655d5fb2/diambra-engine-2.1.0rc8.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/49/ad/e9ec45b84d9df762b665e966bd8e0836bff6addb940c5308d3fe712d3fa3/dsutils_ms-1.5.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-arena]: Downloading https://files.pythonhosted.org/packages/6c/f7/5a35481a367b79b44cb842b15a2c47b07f5f622cb7bd647ea48e8fe508e0/diambra-arena-2.1.0rc9.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [user-discord]: Downloading https://files.pythonhosted.org/packages/59/f4/bea1d660cb984d7df8cd1834cc50520ebeccb8f95ce207bcf289f2eab6ad/user_discord-1.2.9.tar.gz
+[2023-06-24 20:41:35] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 20:41:35] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.4.tar.gz tmp/dsutils_ms-1.5.tar.gz --markdown 20230624/d/dsutils-ms/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-24 20:41:35] INFO root fetch - processPackages [shenko]: Downloading https://files.pythonhosted.org/packages/d3/bc/5b16d59b82ef56825f0990b7b22791f058c2e76157df108ab78dbe446f57/shenko-0.1.82-py2.py3-none-any.whl
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-arena]: executing diffoscope
+[2023-06-24 20:41:35] INFO root fetch - processPackages [diambra-arena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-arena-2.1.0rc8.tar.gz tmp/diambra-arena-2.1.0rc9.tar.gz --markdown 20230624/d/diambra-arena/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-06-24 20:41:35] INFO root fetch - processPackages [user-discord]: executing diffoscope
+[2023-06-24 20:41:35] INFO root fetch - processPackages [user-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user_discord-1.2.7.tar.gz tmp/user_discord-1.2.9.tar.gz --markdown 20230624/u/user-discord/1.2.7-1.2.9/diff.md --exclude *.pyd
+[2023-06-24 20:41:36] INFO root fetch - processPackages [diambra-engine]: Downloading https://files.pythonhosted.org/packages/4b/33/1da34d2f2a44dd6ec8d777d9129a3744af4ae787eb69b9a118a82a7e3aea/diambra-engine-2.1.0rc9.tar.gz
+[2023-06-24 20:41:36] INFO root fetch - processPackages [shenko]: executing diffoscope
+[2023-06-24 20:41:36] INFO root fetch - processPackages [shenko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shenko-0.1.81-py2.py3-none-any.whl.zip tmp/shenko-0.1.82-py2.py3-none-any.whl.zip --markdown 20230624/s/shenko/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-06-24 20:41:36] INFO root fetch - processPackages [diambra-engine]: executing diffoscope
+[2023-06-24 20:41:36] INFO root fetch - processPackages [diambra-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-engine-2.1.0rc8.tar.gz tmp/diambra-engine-2.1.0rc9.tar.gz --markdown 20230624/d/diambra-engine/2.1.0rc8-2.1.0rc9/diff.md --exclude *.pyd
+[2023-06-24 20:41:37] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.4.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.5.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 20:41:37] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.7.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - processPackages [user-discord]: Remove: archive file [/home/abi/fetcher/tmp/user_discord-1.2.9.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - main [MainThread]: End processing [user-discord]: success
+[2023-06-24 20:41:37] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc8.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - processPackages [diambra-arena]: Remove: archive file [/home/abi/fetcher/tmp/diambra-arena-2.1.0rc9.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - main [MainThread]: End processing [diambra-arena]: success
+[2023-06-24 20:41:37] INFO root fetch - processPackages [diambra-engine]: Remove: archive file [/home/abi/fetcher/tmp/diambra-engine-2.1.0rc8.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - processPackages [diambra-engine]: Remove: archive file [/home/abi/fetcher/tmp/diambra-engine-2.1.0rc9.tar.gz]
+[2023-06-24 20:41:37] INFO root fetch - main [MainThread]: End processing [diambra-engine]: success
+[2023-06-24 20:41:37] INFO root fetch - processPackages [shenko]: Remove: archive file [/home/abi/fetcher/tmp/shenko-0.1.81-py2.py3-none-any.whl.zip]
+[2023-06-24 20:41:37] INFO root fetch - processPackages [shenko]: Remove: archive file [/home/abi/fetcher/tmp/shenko-0.1.82-py2.py3-none-any.whl.zip]
+[2023-06-24 20:41:37] INFO root fetch - main [MainThread]: End processing [shenko]: success
+[2023-06-24 20:41:37] INFO root fetch - main [MainThread]: Store serial: [18631245]
