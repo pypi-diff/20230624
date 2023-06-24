@@ -11890,3 +11890,141 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 11:02:12] INFO root fetch - processPackages [EncroX]: Remove: archive file [/home/abi/fetcher/tmp/EncroX-1.0.5.tar.gz]
 [2023-06-24 11:02:12] INFO root fetch - main [MainThread]: End processing [EncroX]: success
 [2023-06-24 11:02:12] INFO root fetch - main [MainThread]: Store serial: [18628219]
+[2023-06-24 11:07:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628219]
+[2023-06-24 11:07:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zut
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: superpoint-superglue-deployment
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.common
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.features
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.tabular
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.multimodal
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.timeseries
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon
+[2023-06-24 11:07:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.eda
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.eda]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.common]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.features]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.core]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [zut]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-24 11:07:21] WARNING root fetch - processPackages [superpoint-superglue-deployment]: Skipping, unable to determine old version
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/b4/04/3f707dcc600d0b2c30d497698bad195dd14714d6ec9c9261b54ba62081bb/autogluon.timeseries-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [superpoint-superglue-deployment]: Start processing: autogluon.cloud
+[2023-06-24 11:07:21] INFO root fetch - main [MainThread]: End processing [superpoint-superglue-deployment] error
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/d4/2b/d71c69076a0c0dda0d92824ac2870bcd7ad4732941b851e31f80dafc3d28/autogluon.tabular-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/fc/00/56bebace9c64e1b2cd10d1c2bdc39ca1e8ae0637d4bf48e605f6a798ded3/autogluon.eda-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon]: New version: [0.8.1b20230623] Old Version: [0.8.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/4a/c2/900d05ab91adec01e6831e46d083734a5ae20142b66ae21d5ee5d3a69536/autogluon.multimodal-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/0a/31/f9cfd6ca39e9ff83c87fa54a6b27400971839ec3c295d8cabbbcc8039dc7/autogluon.features-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230623] Old Version: [0.2.1b20230622]
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/72/69/8944bd65314faf7e05f7b259600d7f571ed6a3350800964d3b1b49ca159a/autogluon.common-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/68/c7/2de366b1543d48e76e1ae648d1973821858fbb38d0b6748874b7464a97e7/autogluon.core-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/ef/f3/bf2c63eed111c8d494a82e9cfe82b910055e078a685c598e37b324521cb5/autogluon.cloud-0.2.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/2c/49/b3b2b66193edfd80bc68177ed06cd262ac585fce19bffc11d3c220e0ffb5/zut-0.6.5-py3-none-any.whl
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/31/cd/0f1c3205ad43a45e6e927bf863c77bf2cadb6e5f0cb41bee33609121acf7/autogluon.tabular-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/ef/f0/70f4cc1b5f0243e08f54f096893976ac1b04651a5dc691a2d3a393762e05/autogluon.eda-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/04/e3/9b7687c11be7b1efa6bd11f4feb56eacaeb7f5ad9462afd770272d7f7c18/autogluon.timeseries-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/bb/0a/7359e20150fa813cb62e4b0e0ae92e2421615c13bfffc9086163dc2ee3ff/autogluon-0.8.1b20230622.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/6d/eb/55a8cf6f19539889cff910a98de8837d3d146d70db7e2116893a765e9f90/autogluon.features-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/a6/5e/f7e3b39fa36061837cce355528b0c16d089e1119a6b8785aec55507e7d6b/autogluon.common-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/5d/8b/b6b0bbac413404e760ee67e1f2819d59103b7d91289e1cc241efe428f2e7/autogluon.multimodal-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/8b/bb/54c92e56ed2f5725626da005c405edc30d6f20dcf5770a71234703c150cb/autogluon.core-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/03/10/c60af1fd1a5daa4183cc2c1a3d2be0e9ee52b70eb6073ac1cc91d2d298a1/autogluon.cloud-0.2.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.8.1b20230622.tar.gz tmp/autogluon.eda-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.eda/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.8.1b20230622.tar.gz tmp/autogluon.tabular-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.tabular/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.8.1b20230622.tar.gz tmp/autogluon.timeseries-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.timeseries/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.8.1b20230622.tar.gz tmp/autogluon.features-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.features/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.8.1b20230622.tar.gz tmp/autogluon.common-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.common/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.8.1b20230622.tar.gz tmp/autogluon.multimodal-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.multimodal/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/5a/88/53e32abf3f1136803ef9f9cba84cbf038472661f69114114ba4a64e9f189/autogluon-0.8.1b20230623.tar.gz
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.8.1b20230622.tar.gz tmp/autogluon.core-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon.core/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230622.tar.gz tmp/autogluon.cloud-0.2.1b20230623.tar.gz --markdown 20230624/a/autogluon.cloud/0.2.1b20230622-0.2.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:21] INFO root fetch - processPackages [zut]: Downloading https://files.pythonhosted.org/packages/06/78/5829a2dade0dcf14e3a6c1ce4539fa56520d04458226cff251d54c92f981/zut-0.6.6-py3-none-any.whl
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-06-24 11:07:21] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.8.1b20230622.tar.gz tmp/autogluon-0.8.1b20230623.tar.gz --markdown 20230624/a/autogluon/0.8.1b20230622-0.8.1b20230623/diff.md --exclude *.pyd
+[2023-06-24 11:07:22] INFO root fetch - processPackages [zut]: executing diffoscope
+[2023-06-24 11:07:22] INFO root fetch - processPackages [zut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zut-0.6.5-py3-none-any.whl.zip tmp/zut-0.6.6-py3-none-any.whl.zip --markdown 20230624/z/zut/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-24 11:07:23] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:23] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:23] INFO root fetch - processPackages [autogluon.common]: Start processing: minidevice
+[2023-06-24 11:07:23] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-24 11:07:23] INFO root fetch - processPackages [minidevice]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-24 11:07:23] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:23] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:23] INFO root fetch - processPackages [autogluon.eda]: Start processing: elasticai-creator
+[2023-06-24 11:07:23] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-06-24 11:07:23] INFO root fetch - processPackages [elasticai-creator]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-06-24 11:07:23] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/4a/bd/95b8b8b860ed8dc000a2d6da544daf993717eb788b3e0693a6901fd11d1d/minidevice-2.0.8.tar.gz
+[2023-06-24 11:07:23] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/f4/f4/3c8441508e7e4c9f560d0bb8bfbfc64a417b96a55a09af93424946816450/elasticai.creator-0.7.0.tar.gz
+[2023-06-24 11:07:24] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/29/5b/b86f14528ffb3f9794f794cc148d8362c266397dc0a30cbb55f5f2f506bf/minidevice-2.0.9.tar.gz
+[2023-06-24 11:07:24] INFO root fetch - processPackages [elasticai-creator]: Downloading https://files.pythonhosted.org/packages/41/00/ecf6fd2903be8cf829d89408464d3338913631ab10066e0541a95b004b45/elasticai.creator-0.9.0.tar.gz
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: nonebot-plugin-code
+[2023-06-24 11:07:24] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-06-24 11:07:24] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-24 11:07:24] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.8.tar.gz tmp/minidevice-2.0.9.tar.gz --markdown 20230624/m/minidevice/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-24 11:07:24] INFO root fetch - processPackages [elasticai-creator]: executing diffoscope
+[2023-06-24 11:07:24] INFO root fetch - processPackages [elasticai-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticai.creator-0.7.0.tar.gz tmp/elasticai.creator-0.9.0.tar.gz --markdown 20230624/e/elasticai-creator/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-24 11:07:24] INFO root fetch - processPackages [nonebot-plugin-code]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon]: Start processing: cns
+[2023-06-24 11:07:24] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-06-24 11:07:24] WARNING root fetch - processPackages [cns]: Skipping, unable to determine old version
+[2023-06-24 11:07:24] INFO root fetch - processPackages [cns]: Start processing: libfhe
+[2023-06-24 11:07:24] INFO root fetch - main [MainThread]: End processing [cns] error
+[2023-06-24 11:07:24] INFO root fetch - processPackages [nonebot-plugin-code]: Downloading https://files.pythonhosted.org/packages/78/ef/e6382026bf8adc663161de5f75946ce3919fe0f8c33b18cf1e393cb991f7/nonebot_plugin_code-0.0.5.tar.gz
+[2023-06-24 11:07:24] WARNING root fetch - processPackages [libfhe]: Skipping, unable to determine old version
+[2023-06-24 11:07:24] INFO root fetch - processPackages [libfhe]: Start processing: dnd5apy
+[2023-06-24 11:07:24] INFO root fetch - main [MainThread]: End processing [libfhe] error
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:24] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-24 11:07:24] INFO root fetch - processPackages [dnd5apy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-24 11:07:24] INFO root fetch - processPackages [nonebot-plugin-code]: Downloading https://files.pythonhosted.org/packages/32/ca/df1ff5e178c462076f1d3d0ba1420c177c89d1111849fabf60c3b2280466/nonebot_plugin_code-0.0.6.tar.gz
+[2023-06-24 11:07:24] INFO root fetch - processPackages [nonebot-plugin-code]: executing diffoscope
+[2023-06-24 11:07:24] INFO root fetch - processPackages [nonebot-plugin-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_code-0.0.5.tar.gz tmp/nonebot_plugin_code-0.0.6.tar.gz --markdown 20230624/n/nonebot-plugin-code/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-24 11:07:24] INFO root fetch - processPackages [dnd5apy]: Downloading https://files.pythonhosted.org/packages/ee/a9/0e2785ba679c246e46f92120bf5e5c92a41ed7a5cca8e748c702f6c7fa9a/dnd5apy-1.0.5.tar.gz
+[2023-06-24 11:07:25] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230622.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230623.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-06-24 11:07:25] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-24 11:07:25] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-06-24 11:07:25] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.5-py3-none-any.whl.zip]
+[2023-06-24 11:07:25] INFO root fetch - processPackages [zut]: Remove: archive file [/home/abi/fetcher/tmp/zut-0.6.6-py3-none-any.whl.zip]
+[2023-06-24 11:07:25] INFO root fetch - main [MainThread]: End processing [zut]: success
+[2023-06-24 11:07:25] INFO root fetch - processPackages [dnd5apy]: Downloading https://files.pythonhosted.org/packages/2c/a3/34cd76b3d33fe5decd78dff35f857999e2c745edec10e301a712d116b8af/dnd5apy-1.0.6.tar.gz
+[2023-06-24 11:07:25] INFO root fetch - processPackages [dnd5apy]: executing diffoscope
+[2023-06-24 11:07:25] INFO root fetch - processPackages [dnd5apy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnd5apy-1.0.5.tar.gz tmp/dnd5apy-1.0.6.tar.gz --markdown 20230624/d/dnd5apy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-24 11:07:25] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.8.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.9.tar.gz]
+[2023-06-24 11:07:25] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-24 11:07:26] INFO root fetch - processPackages [nonebot-plugin-code]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_code-0.0.5.tar.gz]
+[2023-06-24 11:07:26] INFO root fetch - processPackages [nonebot-plugin-code]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_code-0.0.6.tar.gz]
+[2023-06-24 11:07:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-code]: success
+[2023-06-24 11:07:26] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.7.0.tar.gz]
+[2023-06-24 11:07:26] INFO root fetch - processPackages [elasticai-creator]: Remove: archive file [/home/abi/fetcher/tmp/elasticai.creator-0.9.0.tar.gz]
+[2023-06-24 11:07:26] INFO root fetch - main [MainThread]: End processing [elasticai-creator]: success
+[2023-06-24 11:07:27] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.1b20230622.tar.gz]
+[2023-06-24 11:07:27] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.8.1b20230623.tar.gz]
+[2023-06-24 11:07:27] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-24 11:07:27] INFO root fetch - processPackages [dnd5apy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5apy-1.0.5.tar.gz]
+[2023-06-24 11:07:27] INFO root fetch - processPackages [dnd5apy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5apy-1.0.6.tar.gz]
+[2023-06-24 11:07:27] INFO root fetch - main [MainThread]: End processing [dnd5apy]: success
+[2023-06-24 11:07:27] INFO root fetch - main [MainThread]: Store serial: [18628277]
