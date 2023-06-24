@@ -13145,3 +13145,104 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 13:10:36] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-37.1.25.4.tar.gz]
 [2023-06-24 13:10:36] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-06-24 13:10:36] INFO root fetch - main [MainThread]: Store serial: [18628901]
+[2023-06-24 13:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628901]
+[2023-06-24 13:15:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-bilichat
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mysql-to-sqlite3
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findmyfile
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepblu-tools
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: i3-sway-switch-window
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bhv
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ecghelper
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arts
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: findmyfile
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: morel
+[2023-06-24 13:15:45] INFO root fetch - processPackages [findmyfile]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [arts]: New version: [0.3] Old Version: [0.2]
+[2023-06-24 13:15:45] WARNING root fetch - processPackages [i3-sway-switch-window]: Skipping, unable to determine old version
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ecghelper]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 13:15:45] INFO root fetch - main [MainThread]: End processing [i3-sway-switch-window] error
+[2023-06-24 13:15:45] INFO root fetch - processPackages [mysql-to-sqlite3]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [findmyfile]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [deepblu-tools]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [bhv]: New version: [0.6.1] Old Version: [0.6.0rc0]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [morel]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-24 13:15:45] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/56/c7/4baae4d9c573b8d8342bb1bda2ac1eb47e5bf4d2635c0a269552bf1b4475/bhv-0.6.0rc0.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/21/6f/20b2fdd346af66e5b404b7c2c4d820cc336c8eca5d0d943fc61ba8d6621b/ecghelper-0.3.0.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [arts]: Downloading https://files.pythonhosted.org/packages/0a/ea/7fd850ffa2cd3c84f776e844190c34c0bee7acb5042cbb89c7f448be3c92/arts-0.2.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/9f/0f/f5d05ffb53f9b5b3d5019386ec80dfe7ebe764e6b0d591968418bdc6b9d4/morel-1.6.2.tar.gz
+[2023-06-24 13:15:45] WARNING root fetch - processPackages [arts]: Skipping package: exceeds size limit 42674161>=10485760
+[2023-06-24 13:15:45] INFO root fetch - main [MainThread]: End processing [arts] error
+[2023-06-24 13:15:45] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/39/4e/09fb30b73ec958fe608a8b5b7a3abe61dbe0a36d30a07e9b225f467d3d4e/findmyfile-0.2.5.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/39/4e/09fb30b73ec958fe608a8b5b7a3abe61dbe0a36d30a07e9b225f467d3d4e/findmyfile-0.2.5.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/6a/b1/80658dda7e9d35ebdd8b7890a6e481caba7fbcebf8534ba93622ab445a21/mysql_to_sqlite3-2.0.1.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/de/a6/042e09dbd8083cabb501ad34ab256b8f75bed242b9d738a5224345880b08/nonebot_plugin_bilichat-2.8.1.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [deepblu-tools]: Downloading https://files.pythonhosted.org/packages/f0/bc/55b007cde06723bc563f11ff4ad7674cc0443f725095fafcd304fd0f5f94/deepblu_tools-2.1.2-py2.py3-none-any.whl
+[2023-06-24 13:15:45] INFO root fetch - processPackages [morel]: Downloading https://files.pythonhosted.org/packages/f7/b5/36a1e14e3b1dc6cf7ac741a6dbcc1bf129c31e3ea660df3a7e0082a97b38/morel-1.6.3.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [ecghelper]: Downloading https://files.pythonhosted.org/packages/5c/cb/ab158eb919f43df21808b7da919747f317fd35ecc0757f084557678eeefa/ecghelper-0.3.1.tar.gz
+[2023-06-24 13:15:45] INFO root fetch - processPackages [morel]: executing diffoscope
+[2023-06-24 13:15:45] INFO root fetch - processPackages [morel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morel-1.6.2.tar.gz tmp/morel-1.6.3.tar.gz --markdown 20230624/m/morel/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-24 13:15:45] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/92/e9/f5fb997cbd0126cd51dff4d8f927b18f165c2b14b50113be134f9cae9e36/bhv-0.6.1.tar.gz
+[2023-06-24 13:15:46] INFO root fetch - processPackages [mysql-to-sqlite3]: Downloading https://files.pythonhosted.org/packages/76/93/32ff5714789ce3c2cae9eaca0e4cb3137d681720f9a43d0cc4b3b3b82296/mysql_to_sqlite3-2.0.2.tar.gz
+[2023-06-24 13:15:46] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/eb/08/2a07453a529bd8cdde51060ab900c2daf1aec99295b9999faa3fa5ffe95d/findmyfile-0.2.6.tar.gz
+[2023-06-24 13:15:46] INFO root fetch - processPackages [findmyfile]: Downloading https://files.pythonhosted.org/packages/eb/08/2a07453a529bd8cdde51060ab900c2daf1aec99295b9999faa3fa5ffe95d/findmyfile-0.2.6.tar.gz
+[2023-06-24 13:15:46] INFO root fetch - processPackages [deepblu-tools]: Downloading https://files.pythonhosted.org/packages/23/05/cef2b920b8a02e14c09266e2c015d362ff38bf789c5c4553319eb565ed10/deepblu-tools-2.1.3.tar.gz
+[2023-06-24 13:15:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/fa/4c/e194b3d41431d2518e3ef616ad389e60a01e82adba4b7b8c6c979065a81d/nonebot_plugin_bilichat-2.8.2.tar.gz
+[2023-06-24 13:15:46] INFO root fetch - processPackages [mysql-to-sqlite3]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [mysql-to-sqlite3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_to_sqlite3-2.0.1.tar.gz tmp/mysql_to_sqlite3-2.0.2.tar.gz --markdown 20230624/m/mysql-to-sqlite3/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-24 13:15:46] INFO root fetch - processPackages [findmyfile]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [findmyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyfile-0.2.5.tar.gz tmp/findmyfile-0.2.6.tar.gz --markdown 20230624/f/findmyfile/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-24 13:15:46] INFO root fetch - processPackages [findmyfile]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [findmyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyfile-0.2.5.tar.gz tmp/findmyfile-0.2.6.tar.gz --markdown 20230624/f/findmyfile/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-24 13:15:46] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.6.0rc0.tar.gz tmp/bhv-0.6.1.tar.gz --markdown 20230624/b/bhv/0.6.0rc0-0.6.1/diff.md --exclude *.pyd
+[2023-06-24 13:15:46] INFO root fetch - processPackages [ecghelper]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [ecghelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecghelper-0.3.0.tar.gz tmp/ecghelper-0.3.1.tar.gz --markdown 20230624/e/ecghelper/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 13:15:46] INFO root fetch - processPackages [deepblu-tools]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [deepblu-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepblu_tools-2.1.2-py2.py3-none-any.whl.zip tmp/deepblu-tools-2.1.3.tar.gz --markdown 20230624/d/deepblu-tools/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-24 13:15:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-24 13:15:46] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.8.1.tar.gz tmp/nonebot_plugin_bilichat-2.8.2.tar.gz --markdown 20230624/n/nonebot-plugin-bilichat/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-06-24 13:15:47] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.5.tar.gz]
+[2023-06-24 13:15:47] INFO root fetch - processPackages [findmyfile]: Remove: archive file [/home/abi/fetcher/tmp/findmyfile-0.2.6.tar.gz]
+[2023-06-24 13:15:47] INFO root fetch - main [MainThread]: End processing [findmyfile]: success
+[2023-06-24 13:15:47] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.2.tar.gz]
+[2023-06-24 13:15:47] INFO root fetch - processPackages [morel]: Remove: archive file [/home/abi/fetcher/tmp/morel-1.6.3.tar.gz]
+[2023-06-24 13:15:47] INFO root fetch - main [MainThread]: End processing [morel]: success
+[2023-06-24 13:15:48] ERROR root fetch - processPackages [findmyfile]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
+
+[2023-06-24 13:15:48] INFO root fetch - main [MainThread]: End processing [findmyfile] error
+[2023-06-24 13:15:48] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.1.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - processPackages [mysql-to-sqlite3]: Remove: archive file [/home/abi/fetcher/tmp/mysql_to_sqlite3-2.0.2.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - main [MainThread]: End processing [mysql-to-sqlite3]: success
+[2023-06-24 13:15:48] INFO root fetch - processPackages [deepblu-tools]: Remove: archive file [/home/abi/fetcher/tmp/deepblu_tools-2.1.2-py2.py3-none-any.whl.zip]
+[2023-06-24 13:15:48] INFO root fetch - processPackages [deepblu-tools]: Remove: archive file [/home/abi/fetcher/tmp/deepblu-tools-2.1.3.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - main [MainThread]: End processing [deepblu-tools]: success
+[2023-06-24 13:15:48] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.3.0.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - processPackages [ecghelper]: Remove: archive file [/home/abi/fetcher/tmp/ecghelper-0.3.1.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - main [MainThread]: End processing [ecghelper]: success
+[2023-06-24 13:15:48] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.0rc0.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.1.tar.gz]
+[2023-06-24 13:15:48] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-06-24 13:15:49] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.8.1.tar.gz]
+[2023-06-24 13:15:49] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.8.2.tar.gz]
+[2023-06-24 13:15:49] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-24 13:15:49] INFO root fetch - main [MainThread]: Store serial: [18628932]
