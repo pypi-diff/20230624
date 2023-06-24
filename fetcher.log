@@ -11195,3 +11195,75 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:42:33] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-24 09:42:33] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-06-24 09:42:33] INFO root fetch - main [MainThread]: Store serial: [18627858]
+[2023-06-24 09:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627858]
+[2023-06-24 09:47:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maida
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fasttextsearch
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-kr-number
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CharmCord
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mc-game1
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cnx
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Haleh-python-calculator
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydrus-video-deduplicator
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: keras-nightly
+[2023-06-24 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nuclearcraft-designer
+[2023-06-24 09:47:48] INFO root fetch - processPackages [fasttextsearch]: New version: [0.5] Old Version: [0.4]
+[2023-06-24 09:47:48] INFO root fetch - processPackages [CharmCord]: New version: [0.18.6] Old Version: [0.18.4]
+[2023-06-24 09:47:48] WARNING root fetch - processPackages [cnx]: Skipping, unable to determine old version
+[2023-06-24 09:47:48] INFO root fetch - processPackages [cnx]: Start processing: aioairzone-cloud
+[2023-06-24 09:47:48] INFO root fetch - main [MainThread]: End processing [cnx] error
+[2023-06-24 09:47:48] WARNING root fetch - processPackages [py-kr-number]: Skipping, unable to determine old version
+[2023-06-24 09:47:48] WARNING root fetch - processPackages [hydrus-video-deduplicator]: Skipping, unable to determine old version
+[2023-06-24 09:47:48] INFO root fetch - main [MainThread]: End processing [py-kr-number] error
+[2023-06-24 09:47:48] WARNING root fetch - processPackages [mc-game1]: Skipping, unable to determine old version
+[2023-06-24 09:47:48] INFO root fetch - main [MainThread]: End processing [hydrus-video-deduplicator] error
+[2023-06-24 09:47:48] INFO root fetch - processPackages [maida]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-24 09:47:48] INFO root fetch - processPackages [nuclearcraft-designer]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-24 09:47:48] WARNING root fetch - processPackages [Haleh-python-calculator]: Skipping, unable to determine old version
+[2023-06-24 09:47:48] INFO root fetch - main [MainThread]: End processing [mc-game1] error
+[2023-06-24 09:47:48] INFO root fetch - main [MainThread]: End processing [Haleh-python-calculator] error
+[2023-06-24 09:47:48] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-06-24 09:47:48] INFO root fetch - processPackages [aioairzone-cloud]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-24 09:47:48] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/df626672be5af4204ef9c477f1110050afecb7a0f086fef8a6a2e3469a56/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl
+[2023-06-24 09:47:48] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/89/74/27c826fcdcdebde78a1283bf9a40795f77489a517637159b48913675d785/fasttextsearch-0.4.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [nuclearcraft-designer]: Downloading https://files.pythonhosted.org/packages/34/75/ef39debe973338195068a435e823e543cad54d5a6d3965dd2e78b13865f0/nuclearcraft_designer-0.3.0.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/e0/bf/d9dd5e604a76167554aa6388bcf138d129f33da07f6037d05807b491f6a6/CharmCord-0.18.4-py3-none-any.whl
+[2023-06-24 09:47:48] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/d5/38/0346caf3fb3b7f57bccd49e726c18891744c754b2153b63f81017ba066e6/aioairzone-cloud-0.1.7.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [maida]: Downloading https://files.pythonhosted.org/packages/9f/e6/039f06e4562177908780b5cff6fb3aaf75ff7e1c662349c3f65cc06f9779/maida-0.2.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/64/5c/effcf86e94e42de7429f684d499233617aaa054e929986d65d4d72fb5c19/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl
+[2023-06-24 09:47:48] INFO root fetch - processPackages [CharmCord]: Downloading https://files.pythonhosted.org/packages/4f/78/b7fc2c64c0fa74de3bdc2bd2d1f0a3477d19314d5d0c9bdea587f87b5889/CharmCord-0.18.6-py3-none-any.whl
+[2023-06-24 09:47:48] INFO root fetch - processPackages [nuclearcraft-designer]: Downloading https://files.pythonhosted.org/packages/ff/0e/2dd97b4bd976134b94da131a8589e231b7744b01057269a7de3b8e610f77/nuclearcraft_designer-0.4.0.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [fasttextsearch]: Downloading https://files.pythonhosted.org/packages/db/2c/daa26dbcf6f2d0e293f287edbc757007851e82dbccb606b1d755533af8d7/fasttextsearch-0.5.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [maida]: Downloading https://files.pythonhosted.org/packages/d8/6a/a9dda7e5e6013bdb32bf7b18e30e2d96514b31d88f9ac25bd9aa1d4d593c/maida-0.2.1.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [aioairzone-cloud]: Downloading https://files.pythonhosted.org/packages/56/b8/3606b792ab179eb2b2922541215c89611817b832788e3cad8d76c81c78a4/aioairzone-cloud-0.1.8.tar.gz
+[2023-06-24 09:47:48] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-06-24 09:47:48] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230624/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-06-24 09:47:48] INFO root fetch - processPackages [CharmCord]: executing diffoscope
+[2023-06-24 09:47:48] INFO root fetch - processPackages [CharmCord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CharmCord-0.18.4-py3-none-any.whl.zip tmp/CharmCord-0.18.6-py3-none-any.whl.zip --markdown 20230624/C/CharmCord/0.18.4-0.18.6/diff.md --exclude *.pyd
+[2023-06-24 09:47:48] INFO root fetch - processPackages [maida]: executing diffoscope
+[2023-06-24 09:47:48] INFO root fetch - processPackages [maida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maida-0.2.tar.gz tmp/maida-0.2.1.tar.gz --markdown 20230624/m/maida/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 09:47:48] INFO root fetch - processPackages [fasttextsearch]: executing diffoscope
+[2023-06-24 09:47:48] INFO root fetch - processPackages [fasttextsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttextsearch-0.4.tar.gz tmp/fasttextsearch-0.5.tar.gz --markdown 20230624/f/fasttextsearch/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-24 09:47:48] INFO root fetch - processPackages [nuclearcraft-designer]: executing diffoscope
+[2023-06-24 09:47:48] INFO root fetch - processPackages [nuclearcraft-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuclearcraft_designer-0.3.0.tar.gz tmp/nuclearcraft_designer-0.4.0.tar.gz --markdown 20230624/n/nuclearcraft-designer/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 09:47:49] INFO root fetch - processPackages [aioairzone-cloud]: executing diffoscope
+[2023-06-24 09:47:49] INFO root fetch - processPackages [aioairzone-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-cloud-0.1.7.tar.gz tmp/aioairzone-cloud-0.1.8.tar.gz --markdown 20230624/a/aioairzone-cloud/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-24 09:47:50] INFO root fetch - processPackages [maida]: Remove: archive file [/home/abi/fetcher/tmp/maida-0.2.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - processPackages [maida]: Remove: archive file [/home/abi/fetcher/tmp/maida-0.2.1.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - main [MainThread]: End processing [maida]: success
+[2023-06-24 09:47:50] INFO root fetch - processPackages [nuclearcraft-designer]: Remove: archive file [/home/abi/fetcher/tmp/nuclearcraft_designer-0.3.0.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - processPackages [nuclearcraft-designer]: Remove: archive file [/home/abi/fetcher/tmp/nuclearcraft_designer-0.4.0.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - main [MainThread]: End processing [nuclearcraft-designer]: success
+[2023-06-24 09:47:50] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.4.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - processPackages [fasttextsearch]: Remove: archive file [/home/abi/fetcher/tmp/fasttextsearch-0.5.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - main [MainThread]: End processing [fasttextsearch]: success
+[2023-06-24 09:47:50] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.1.7.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - processPackages [aioairzone-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-cloud-0.1.8.tar.gz]
+[2023-06-24 09:47:50] INFO root fetch - main [MainThread]: End processing [aioairzone-cloud]: success
+[2023-06-24 09:47:51] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.18.4-py3-none-any.whl.zip]
+[2023-06-24 09:47:51] INFO root fetch - processPackages [CharmCord]: Remove: archive file [/home/abi/fetcher/tmp/CharmCord-0.18.6-py3-none-any.whl.zip]
+[2023-06-24 09:47:51] INFO root fetch - main [MainThread]: End processing [CharmCord]: success
+[2023-06-24 09:47:59] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip]
+[2023-06-24 09:47:59] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
+[2023-06-24 09:47:59] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-06-24 09:47:59] INFO root fetch - main [MainThread]: Store serial: [18627900]
