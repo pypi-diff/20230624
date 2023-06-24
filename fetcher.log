@@ -20392,3 +20392,73 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 23:32:34] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-06-24 23:32:34] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-06-24 23:32:34] INFO root fetch - main [MainThread]: Store serial: [18632151]
+[2023-06-24 23:37:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18632151]
+[2023-06-24 23:37:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vollseg
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-files-aws-s3
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mantium-spec
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mlpf
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydatawork
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tomfoolery
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zcmds
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-aiomoto
+[2023-06-24 23:37:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atro-pylog
+[2023-06-24 23:37:43] INFO root fetch - processPackages [pytest-aiomoto]: New version: [0.7.1] Old Version: [0.6.3]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [mlpf]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [atro-pylog]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [pydatawork]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [mantium-spec]: New version: [1.0.406] Old Version: [1.0.405]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-24 23:37:43] WARNING root fetch - processPackages [tomfoolery]: Skipping, unable to determine old version
+[2023-06-24 23:37:43] INFO root fetch - main [MainThread]: End processing [tomfoolery] error
+[2023-06-24 23:37:43] INFO root fetch - processPackages [zcmds]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-24 23:37:43] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/37/d5/7d0e95d71f892e3cd3a0a19c1d5c5d6f74f7bedd67a1ac0959251948b131/pydatawork-0.1.8.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/25/0a/3e67daa71c57a245c794846761a1712f6db9118b91d78a7decea3d3fa9ad/atro-pylog-0.0.8.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/cf/85/6745bf792d3dace88b4a0cfba4bf8c74d34157be8f84838613c74637f6a0/zcmds-1.4.8.tar.gz
+[2023-06-24 23:37:44] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-06-24 23:37:44] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-06-24 23:37:44] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-24 23:37:44] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-24 23:37:44] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-24 23:37:44] INFO root fetch - processPackages [atro-pylog]: Downloading https://files.pythonhosted.org/packages/d4/76/7b6478056129d6d30ce18107b7dd1a4bd4347e955935fe69be310d587f4a/atro-pylog-0.0.9.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/41/d8/88c9d46452cf891ec24604428f13fb332cdac82c341a4833571661987abb/pydatawork-0.1.9.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/8c/ad/91304a78f5899b11650c8ef10ebbc460cc4f645d2404166b8aeb4f5881d6/mlpf-0.0.6.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mantium-spec]: Downloading https://files.pythonhosted.org/packages/23/f1/2583e76b623edf2c367e472c98221368bf3b6fb18ca48c7c9c10cd174782/mantium_spec-1.0.405.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pytest-aiomoto]: Downloading https://files.pythonhosted.org/packages/4c/85/890a45e659608e034dcfccfe5f80cabb4990831b988d6a8bb7bfc4273153/pytest_aiomoto-0.6.3.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [atro-pylog]: executing diffoscope
+[2023-06-24 23:37:44] INFO root fetch - processPackages [atro-pylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atro-pylog-0.0.8.tar.gz tmp/atro-pylog-0.0.9.tar.gz --markdown 20230624/a/atro-pylog/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 23:37:44] INFO root fetch - processPackages [zcmds]: Downloading https://files.pythonhosted.org/packages/ee/c7/785afe3eb6342eebc74522af1d496ca09cf10ab8aab660d94d91cfbef640/zcmds-1.4.9.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.1.8.tar.gz tmp/pydatawork-0.1.9.tar.gz --markdown 20230624/p/pydatawork/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 23:37:44] INFO root fetch - processPackages [zcmds]: executing diffoscope
+[2023-06-24 23:37:44] INFO root fetch - processPackages [zcmds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcmds-1.4.8.tar.gz tmp/zcmds-1.4.9.tar.gz --markdown 20230624/z/zcmds/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mlpf]: Downloading https://files.pythonhosted.org/packages/f8/e9/e6dd9323b1c52308e6acc36cbe9f0c3a68e32fc41b58449e39c07c11d45c/mlpf-0.0.7.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mantium-spec]: Downloading https://files.pythonhosted.org/packages/7c/ff/635f0e0cfe061b6969ef5811120ff6cd2715e3e299798a9a4ac78c509f14/mantium_spec-1.0.406.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mantium-spec]: executing diffoscope
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mantium-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mantium_spec-1.0.405.tar.gz tmp/mantium_spec-1.0.406.tar.gz --markdown 20230624/m/mantium-spec/1.0.405-1.0.406/diff.md --exclude *.pyd
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mlpf]: executing diffoscope
+[2023-06-24 23:37:44] INFO root fetch - processPackages [mlpf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpf-0.0.6.tar.gz tmp/mlpf-0.0.7.tar.gz --markdown 20230624/m/mlpf/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pytest-aiomoto]: Downloading https://files.pythonhosted.org/packages/85/ed/282bf22db2eb68e02aaeb663dc6d8f21838dc0206ed03c96267af86b687b/pytest_aiomoto-0.7.1.tar.gz
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pytest-aiomoto]: executing diffoscope
+[2023-06-24 23:37:44] INFO root fetch - processPackages [pytest-aiomoto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_aiomoto-0.6.3.tar.gz tmp/pytest_aiomoto-0.7.1.tar.gz --markdown 20230624/p/pytest-aiomoto/0.6.3-0.7.1/diff.md --exclude *.pyd
+[2023-06-24 23:37:45] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.8.tar.gz]
+[2023-06-24 23:37:45] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.1.9.tar.gz]
+[2023-06-24 23:37:45] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-06-24 23:37:45] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.8.tar.gz]
+[2023-06-24 23:37:45] INFO root fetch - processPackages [atro-pylog]: Remove: archive file [/home/abi/fetcher/tmp/atro-pylog-0.0.9.tar.gz]
+[2023-06-24 23:37:45] INFO root fetch - main [MainThread]: End processing [atro-pylog]: success
+[2023-06-24 23:37:46] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.6.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - processPackages [mlpf]: Remove: archive file [/home/abi/fetcher/tmp/mlpf-0.0.7.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - main [MainThread]: End processing [mlpf]: success
+[2023-06-24 23:37:46] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.8.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - processPackages [zcmds]: Remove: archive file [/home/abi/fetcher/tmp/zcmds-1.4.9.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - main [MainThread]: End processing [zcmds]: success
+[2023-06-24 23:37:46] INFO root fetch - processPackages [pytest-aiomoto]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aiomoto-0.6.3.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - processPackages [pytest-aiomoto]: Remove: archive file [/home/abi/fetcher/tmp/pytest_aiomoto-0.7.1.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - main [MainThread]: End processing [pytest-aiomoto]: success
+[2023-06-24 23:37:46] INFO root fetch - processPackages [mantium-spec]: Remove: archive file [/home/abi/fetcher/tmp/mantium_spec-1.0.405.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - processPackages [mantium-spec]: Remove: archive file [/home/abi/fetcher/tmp/mantium_spec-1.0.406.tar.gz]
+[2023-06-24 23:37:46] INFO root fetch - main [MainThread]: End processing [mantium-spec]: success
+[2023-06-24 23:37:46] INFO root fetch - main [MainThread]: Store serial: [18632181]
