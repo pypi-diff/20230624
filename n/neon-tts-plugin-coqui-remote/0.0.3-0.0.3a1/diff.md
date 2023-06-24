@@ -1,0 +1,110 @@
+# Comparing `tmp/neon-tts-plugin-coqui-remote-0.0.3.tar.gz` & `tmp/neon-tts-plugin-coqui-remote-0.0.3a1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "neon-tts-plugin-coqui-remote-0.0.3.tar", last modified: Sat Jun 24 00:39:30 2023, max compression
++gzip compressed data, was "neon-tts-plugin-coqui-remote-0.0.3a1.tar", last modified: Fri Jun 23 23:41:14 2023, max compression
+```
+
+## Comparing `neon-tts-plugin-coqui-remote-0.0.3.tar` & `neon-tts-plugin-coqui-remote-0.0.3a1.tar`
+
+### file list
+
+```diff
+@@ -1,17 +1,17 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 00:39:30.340978 neon-tts-plugin-coqui-remote-0.0.3/
+--rw-r--r--   0 runner    (1001) docker     (123)     1634 2023-06-24 00:39:27.000000 neon-tts-plugin-coqui-remote-0.0.3/LICENSE.md
+--rw-r--r--   0 runner    (1001) docker     (123)     1038 2023-06-24 00:39:30.340978 neon-tts-plugin-coqui-remote-0.0.3/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      538 2023-06-24 00:39:27.000000 neon-tts-plugin-coqui-remote-0.0.3/README.md
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 00:39:30.336978 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote/
+--rw-r--r--   0 runner    (1001) docker     (123)     4631 2023-06-24 00:39:27.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)    14191 2023-06-24 00:39:27.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote/configs.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-24 00:39:30.340978 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)     1038 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      471 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)      211 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/entry_points.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       57 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       29 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-24 00:39:30.000000 neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/zip-safe
+--rw-r--r--   0 runner    (1001) docker     (123)       38 2023-06-24 00:39:30.340978 neon-tts-plugin-coqui-remote-0.0.3/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)     3936 2023-06-24 00:39:27.000000 neon-tts-plugin-coqui-remote-0.0.3/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-23 23:41:14.448584 neon-tts-plugin-coqui-remote-0.0.3a1/
++-rw-r--r--   0 runner    (1001) docker     (123)     1634 2023-06-23 23:41:10.000000 neon-tts-plugin-coqui-remote-0.0.3a1/LICENSE.md
++-rw-r--r--   0 runner    (1001) docker     (123)     1040 2023-06-23 23:41:14.448584 neon-tts-plugin-coqui-remote-0.0.3a1/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      538 2023-06-23 23:41:10.000000 neon-tts-plugin-coqui-remote-0.0.3a1/README.md
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-23 23:41:14.448584 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote/
++-rw-r--r--   0 runner    (1001) docker     (123)     4631 2023-06-23 23:41:10.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)    14191 2023-06-23 23:41:10.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote/configs.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-06-23 23:41:14.448584 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)     1040 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      471 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)      211 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/entry_points.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       57 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       29 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-06-23 23:41:14.000000 neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/zip-safe
++-rw-r--r--   0 runner    (1001) docker     (123)       38 2023-06-23 23:41:14.448584 neon-tts-plugin-coqui-remote-0.0.3a1/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)     3936 2023-06-23 23:41:10.000000 neon-tts-plugin-coqui-remote-0.0.3a1/setup.py
+```
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/LICENSE.md` & `neon-tts-plugin-coqui-remote-0.0.3a1/LICENSE.md`
+
+ * *Files identical despite different names*
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/PKG-INFO` & `neon-tts-plugin-coqui-remote-0.0.3a1/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: neon-tts-plugin-coqui-remote
+-Version: 0.0.3
++Version: 0.0.3a1
+ Summary: A Coqui AI Remote TTS plugin for Neon
+ Home-page: https://github.com/NeonGeckoCom/neon-tts-plugin-coqui-remote
+ Author: Neongecko
+ Author-email: developers@neon.ai
+ License: BSD-3.0
+ Keywords: mycroft plugin tts
+ Classifier: Intended Audience :: Developers
+```
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/README.md` & `neon-tts-plugin-coqui-remote-0.0.3a1/README.md`
+
+ * *Files identical despite different names*
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote/__init__.py` & `neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote/__init__.py`
+
+ * *Files identical despite different names*
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote/configs.py` & `neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote/configs.py`
+
+ * *Files identical despite different names*
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/neon_tts_plugin_coqui_remote.egg-info/PKG-INFO` & `neon-tts-plugin-coqui-remote-0.0.3a1/neon_tts_plugin_coqui_remote.egg-info/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: neon-tts-plugin-coqui-remote
+-Version: 0.0.3
++Version: 0.0.3a1
+ Summary: A Coqui AI Remote TTS plugin for Neon
+ Home-page: https://github.com/NeonGeckoCom/neon-tts-plugin-coqui-remote
+ Author: Neongecko
+ Author-email: developers@neon.ai
+ License: BSD-3.0
+ Keywords: mycroft plugin tts
+ Classifier: Intended Audience :: Developers
+```
+
+### Comparing `neon-tts-plugin-coqui-remote-0.0.3/setup.py` & `neon-tts-plugin-coqui-remote-0.0.3a1/setup.py`
+
+ * *Files identical despite different names*
+

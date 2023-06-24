@@ -2924,3 +2924,45 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 02:37:57] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
 [2023-06-24 02:37:57] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
 [2023-06-24 02:37:57] INFO root fetch - main [MainThread]: Store serial: [18624900]
+[2023-06-24 02:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18624900]
+[2023-06-24 02:43:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 02:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-06-24 02:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uranography
+[2023-06-24 02:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aeppl-nightly
+[2023-06-24 02:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-tts-plugin-coqui-remote
+[2023-06-24 02:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-24 02:43:06] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: New version: [0.0.3a1] Old Version: [0.0.3]
+[2023-06-24 02:43:06] WARNING root fetch - processPackages [uranography]: Skipping, unable to determine old version
+[2023-06-24 02:43:06] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230623] Old Version: [0.1.4.dev20230622]
+[2023-06-24 02:43:06] INFO root fetch - main [MainThread]: End processing [uranography] error
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/d3/89/ca2c420aad86135d57c4922c687fb0900a3ba8e85af05311314e0f4a0525/aeppl-nightly-0.1.4.dev20230622.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Downloading https://files.pythonhosted.org/packages/b6/cd/78137daa808a464a289ae9c64c2e8cdafcef2232f8120a858c216a9510e1/neon-tts-plugin-coqui-remote-0.0.3.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/83/0c/a634b78bb337fa1d30b18adafb201e6d56922bcc3632f0ecdbdb34c86f86/aeppl-nightly-0.1.4.dev20230623.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Downloading https://files.pythonhosted.org/packages/ce/ed/6e95838ef3dc31df0212a3331fce91e778fec28f60babbaaaa5bd70c4d9d/neon-tts-plugin-coqui-remote-0.0.3a1.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230624/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-24 02:43:06] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-06-24 02:43:06] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230622.tar.gz tmp/aeppl-nightly-0.1.4.dev20230623.tar.gz --markdown 20230624/a/aeppl-nightly/0.1.4.dev20230622-0.1.4.dev20230623/diff.md --exclude *.pyd
+[2023-06-24 02:43:06] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: executing diffoscope
+[2023-06-24 02:43:06] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-tts-plugin-coqui-remote-0.0.3.tar.gz tmp/neon-tts-plugin-coqui-remote-0.0.3a1.tar.gz --markdown 20230624/n/neon-tts-plugin-coqui-remote/0.0.3-0.0.3a1/diff.md --exclude *.pyd
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-24 02:43:06] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230624/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 02:43:08] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Remove: archive file [/home/abi/fetcher/tmp/neon-tts-plugin-coqui-remote-0.0.3.tar.gz]
+[2023-06-24 02:43:08] INFO root fetch - processPackages [neon-tts-plugin-coqui-remote]: Remove: archive file [/home/abi/fetcher/tmp/neon-tts-plugin-coqui-remote-0.0.3a1.tar.gz]
+[2023-06-24 02:43:08] INFO root fetch - main [MainThread]: End processing [neon-tts-plugin-coqui-remote]: success
+[2023-06-24 02:43:08] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230622.tar.gz]
+[2023-06-24 02:43:08] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.4.dev20230623.tar.gz]
+[2023-06-24 02:43:08] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-06-24 02:43:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-24 02:43:09] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-24 02:43:09] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-24 02:44:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-24 02:44:01] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-24 02:44:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-24 02:44:01] INFO root fetch - main [MainThread]: Store serial: [18624917]
