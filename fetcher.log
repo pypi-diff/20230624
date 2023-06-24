@@ -12827,3 +12827,33 @@ AssertionError: tmp/ngpa-0.0.1.tar.gz does not exist
 [2023-06-24 12:28:50] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-24 12:28:50] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
 [2023-06-24 12:28:50] INFO root fetch - main [MainThread]: Store serial: [18628694]
+[2023-06-24 12:33:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628694]
+[2023-06-24 12:33:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 12:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xw-utils
+[2023-06-24 12:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytrimal
+[2023-06-24 12:33:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: no-vtf
+[2023-06-24 12:33:59] INFO root fetch - processPackages [xw-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 12:33:59] INFO root fetch - processPackages [pytrimal]: New version: [0.6.0] Old Version: [0.5.5]
+[2023-06-24 12:33:59] INFO root fetch - processPackages [no-vtf]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-24 12:33:59] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/dc/1a/2d247adaa50a2a75132b1cd25cb5a1ad15d734a7f0c3861ea12f42bd85d2/xw_utils-1.0.8-cp39-cp39-win_amd64.whl
+[2023-06-24 12:33:59] INFO root fetch - processPackages [pytrimal]: Downloading https://files.pythonhosted.org/packages/18/4a/8e6fb61af4452f30ca706b934e251f7c8655cbdbee7bd85ff140efdcad9e/pytrimal-0.5.5.tar.gz
+[2023-06-24 12:33:59] INFO root fetch - processPackages [no-vtf]: Downloading https://files.pythonhosted.org/packages/ac/bd/abd2666f303d6526cfc826985cb3b7339b35d3528bfb35c94eb3439a44b3/no_vtf-3.0.0.tar.gz
+[2023-06-24 12:34:00] INFO root fetch - processPackages [xw-utils]: Downloading https://files.pythonhosted.org/packages/83/1f/866660569301b9d9d645f2b7de1eb5dfbeb24c1e5a749d7e4b2cd36dcdc6/xw_utils-1.0.9-cp39-cp39-win_amd64.whl
+[2023-06-24 12:34:00] INFO root fetch - processPackages [xw-utils]: executing diffoscope
+[2023-06-24 12:34:00] INFO root fetch - processPackages [xw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230624/x/xw-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 12:34:00] INFO root fetch - processPackages [no-vtf]: Downloading https://files.pythonhosted.org/packages/1c/0b/a758631ed882bd7cedbee35a5a78f67a837b809f00b03f7bb00107f5bc11/no_vtf-3.0.1.tar.gz
+[2023-06-24 12:34:01] INFO root fetch - processPackages [no-vtf]: executing diffoscope
+[2023-06-24 12:34:01] INFO root fetch - processPackages [no-vtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/no_vtf-3.0.0.tar.gz tmp/no_vtf-3.0.1.tar.gz --markdown 20230624/n/no-vtf/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-24 12:34:01] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 12:34:01] INFO root fetch - processPackages [xw-utils]: Remove: archive file [/home/abi/fetcher/tmp/xw_utils-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 12:34:01] INFO root fetch - main [MainThread]: End processing [xw-utils]: success
+[2023-06-24 12:34:02] INFO root fetch - processPackages [pytrimal]: Downloading https://files.pythonhosted.org/packages/85/5e/13b5d17d501ae042f7d47a6a59489dd74b38af6329714a926a1ffbd09d56/pytrimal-0.6.0.tar.gz
+[2023-06-24 12:34:03] INFO root fetch - processPackages [no-vtf]: Remove: archive file [/home/abi/fetcher/tmp/no_vtf-3.0.0.tar.gz]
+[2023-06-24 12:34:03] INFO root fetch - processPackages [no-vtf]: Remove: archive file [/home/abi/fetcher/tmp/no_vtf-3.0.1.tar.gz]
+[2023-06-24 12:34:03] INFO root fetch - main [MainThread]: End processing [no-vtf]: success
+[2023-06-24 12:34:03] INFO root fetch - processPackages [pytrimal]: executing diffoscope
+[2023-06-24 12:34:03] INFO root fetch - processPackages [pytrimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytrimal-0.5.5.tar.gz tmp/pytrimal-0.6.0.tar.gz --markdown 20230624/p/pytrimal/0.5.5-0.6.0/diff.md --exclude *.pyd
+[2023-06-24 12:34:11] INFO root fetch - processPackages [pytrimal]: Remove: archive file [/home/abi/fetcher/tmp/pytrimal-0.5.5.tar.gz]
+[2023-06-24 12:34:11] INFO root fetch - processPackages [pytrimal]: Remove: archive file [/home/abi/fetcher/tmp/pytrimal-0.6.0.tar.gz]
+[2023-06-24 12:34:11] INFO root fetch - main [MainThread]: End processing [pytrimal]: success
+[2023-06-24 12:34:11] INFO root fetch - main [MainThread]: Store serial: [18628793]
