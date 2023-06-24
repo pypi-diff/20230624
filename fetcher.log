@@ -11165,3 +11165,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:36:58] INFO root fetch - processPackages [type-infer]: Remove: archive file [/home/abi/fetcher/tmp/type_infer-0.0.9.tar.gz]
 [2023-06-24 09:36:58] INFO root fetch - main [MainThread]: End processing [type-infer]: success
 [2023-06-24 09:36:58] INFO root fetch - main [MainThread]: Store serial: [18627843]
+[2023-06-24 09:42:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627843]
+[2023-06-24 09:42:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 09:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataprep-ml
+[2023-06-24 09:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Simplex
+[2023-06-24 09:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmcyg
+[2023-06-24 09:42:07] INFO root fetch - processPackages [dataprep-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 09:42:07] INFO root fetch - processPackages [pmcyg]: New version: [3.2.2] Old Version: [3.2.0]
+[2023-06-24 09:42:07] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-06-24 09:42:08] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/71/fe/525adfc16647206017d2898a9f436996bc906ecd86240a5d0bac16555638/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-24 09:42:08] INFO root fetch - processPackages [pmcyg]: Downloading https://files.pythonhosted.org/packages/28/53/3e1ca4557c8dfbb44228848be73d6543e72bfe28d9eaca79f021ee338fe3/pmcyg-3.2.0.tar.gz
+[2023-06-24 09:42:08] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/a2/c0/9e3160e3044b275aefde1635dc0b8240777b2905f18f5b576dfc36f6552d/dataprep_ml-0.0.8.tar.gz
+[2023-06-24 09:42:08] INFO root fetch - processPackages [pmcyg]: Downloading https://files.pythonhosted.org/packages/d8/bf/5f34c94e441856ed842ada68935b2e231283f4e8e5e7abbc7fc28576509c/pmcyg-3.2.2.tar.gz
+[2023-06-24 09:42:08] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2023-06-24 09:42:08] INFO root fetch - processPackages [pmcyg]: executing diffoscope
+[2023-06-24 09:42:08] INFO root fetch - processPackages [pmcyg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmcyg-3.2.0.tar.gz tmp/pmcyg-3.2.2.tar.gz --markdown 20230624/p/pmcyg/3.2.0-3.2.2/diff.md --exclude *.pyd
+[2023-06-24 09:42:08] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2023-06-24 09:42:08] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.8.tar.gz tmp/dataprep_ml-0.0.9.tar.gz --markdown 20230624/d/dataprep-ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 09:42:08] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/8f/99/93562b28a43421a18cd68c1a4e0a811721a99e39d3720642e78a9b79550b/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl
+[2023-06-24 09:42:08] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-06-24 09:42:08] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip --markdown 20230624/G/Geode-Simplex/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-06-24 09:42:09] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.8.tar.gz]
+[2023-06-24 09:42:09] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2023-06-24 09:42:09] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2023-06-24 09:42:10] INFO root fetch - processPackages [pmcyg]: Remove: archive file [/home/abi/fetcher/tmp/pmcyg-3.2.0.tar.gz]
+[2023-06-24 09:42:10] INFO root fetch - processPackages [pmcyg]: Remove: archive file [/home/abi/fetcher/tmp/pmcyg-3.2.2.tar.gz]
+[2023-06-24 09:42:10] INFO root fetch - main [MainThread]: End processing [pmcyg]: success
+[2023-06-24 09:42:33] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 09:42:33] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.0.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 09:42:33] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-06-24 09:42:33] INFO root fetch - main [MainThread]: Store serial: [18627858]
