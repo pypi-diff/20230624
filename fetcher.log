@@ -16195,3 +16195,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:16:50] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
 [2023-06-24 17:16:50] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-06-24 17:16:50] INFO root fetch - main [MainThread]: Store serial: [18630247]
+[2023-06-24 17:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630247]
+[2023-06-24 17:21:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wcfhttp
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sciform
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: querysource
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaaql-middleware-python
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simplePythonModule
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mmodel
+[2023-06-24 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kubesplit
+[2023-06-24 17:21:59] INFO root fetch - processPackages [kubesplit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [simplePythonModule]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [mmodel]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [wcfhttp]: New version: [37.1.25.5] Old Version: [37.1.25.4]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-24 17:21:59] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/5c/29/6cb85a71537e8f30aa90f242c02eea2d3ca361001bc4860bdcac60ef21b3/jaaql-middleware-python-4.9.0.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [simplePythonModule]: Downloading https://files.pythonhosted.org/packages/54/1f/14c7d4f0c3cae9155eea8b90738f1b3bc5169244200193f3e4957a8ecca8/simplePythonModule-0.0.1.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [kubesplit]: Downloading https://files.pythonhosted.org/packages/da/60/f3967ec58afbf56aefe6d534f6ffa72acfffd67848a0cbfc300697ba507d/kubesplit-0.3.1.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [mmodel]: Downloading https://files.pythonhosted.org/packages/72/d5/c1d64fbc703d65d5585fd4acd1b917b512a466a7802185ecb218b7a7c760/mmodel-0.6.1.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/6e/51/51fa659b82850c987037ad221622fe2e4e7c0d2dadcc123ca37a0e1dcda9/wcfhttp-37.1.25.4.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 17:21:59] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [jaaql-middleware-python]: Downloading https://files.pythonhosted.org/packages/1c/9b/c594efdb4d5a8a8eb6e0876f48857da40e24c3018095e5e6276aad18d78d/jaaql-middleware-python-4.9.1.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [simplePythonModule]: Downloading https://files.pythonhosted.org/packages/dd/fd/89a97a733621b4faa76a81e13da2d2d6543e6a11889ce89f0aa6c286cc5a/simplePythonModule-0.0.2.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-06-24 17:21:59] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-06-24 17:21:59] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230624/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-06-24 17:21:59] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230624/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-24 17:21:59] INFO root fetch - processPackages [mmodel]: Downloading https://files.pythonhosted.org/packages/a9/c8/3b190bed679a580a103d930504df94a8644d535d03d3d5e53a447cb7f560/mmodel-0.6.2.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [kubesplit]: Downloading https://files.pythonhosted.org/packages/aa/77/206502c27fb7333ef24c44961bbdf011680540241d2a2c1457db525a4ae0/kubesplit-0.3.2.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/9c/d0/32a9749d08e67482315da346634a145ddb1c2a69281d4f79b6e14a384131/wcfhttp-37.1.25.5.tar.gz
+[2023-06-24 17:21:59] INFO root fetch - processPackages [simplePythonModule]: executing diffoscope
+[2023-06-24 17:21:59] INFO root fetch - processPackages [simplePythonModule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplePythonModule-0.0.1.tar.gz tmp/simplePythonModule-0.0.2.tar.gz --markdown 20230624/s/simplePythonModule/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 17:22:00] INFO root fetch - processPackages [kubesplit]: executing diffoscope
+[2023-06-24 17:22:00] INFO root fetch - processPackages [kubesplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubesplit-0.3.1.tar.gz tmp/kubesplit-0.3.2.tar.gz --markdown 20230624/k/kubesplit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 17:22:00] INFO root fetch - processPackages [mmodel]: executing diffoscope
+[2023-06-24 17:22:00] INFO root fetch - processPackages [mmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmodel-0.6.1.tar.gz tmp/mmodel-0.6.2.tar.gz --markdown 20230624/m/mmodel/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-24 17:22:00] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-24 17:22:00] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-06-24 17:22:00] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-37.1.25.4.tar.gz tmp/wcfhttp-37.1.25.5.tar.gz --markdown 20230624/w/wcfhttp/37.1.25.4-37.1.25.5/diff.md --exclude *.pyd
+[2023-06-24 17:22:00] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 17:22:00] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-24 17:22:00] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230624/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-24 17:22:00] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-06-24 17:22:00] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230624/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-06-24 17:22:01] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-06-24 17:22:01] INFO root fetch - processPackages [simplePythonModule]: Remove: archive file [/home/abi/fetcher/tmp/simplePythonModule-0.0.1.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [simplePythonModule]: Remove: archive file [/home/abi/fetcher/tmp/simplePythonModule-0.0.2.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [simplePythonModule]: success
+[2023-06-24 17:22:01] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.0.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [jaaql-middleware-python]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-middleware-python-4.9.1.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-06-24 17:22:01] INFO root fetch - processPackages [mmodel]: Remove: archive file [/home/abi/fetcher/tmp/mmodel-0.6.1.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [mmodel]: Remove: archive file [/home/abi/fetcher/tmp/mmodel-0.6.2.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [mmodel]: success
+[2023-06-24 17:22:01] INFO root fetch - processPackages [kubesplit]: Remove: archive file [/home/abi/fetcher/tmp/kubesplit-0.3.1.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [kubesplit]: Remove: archive file [/home/abi/fetcher/tmp/kubesplit-0.3.2.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [kubesplit]: success
+[2023-06-24 17:22:01] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-24 17:22:01] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-37.1.25.4.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - processPackages [wcfhttp]: Remove: archive file [/home/abi/fetcher/tmp/wcfhttp-37.1.25.5.tar.gz]
+[2023-06-24 17:22:01] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-06-24 17:22:05] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-24 17:22:05] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-24 17:22:05] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-06-24 17:22:05] INFO root fetch - main [MainThread]: Store serial: [18630272]
