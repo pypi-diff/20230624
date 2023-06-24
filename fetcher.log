@@ -13519,3 +13519,42 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 13:39:41] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.8.2.tar.gz]
 [2023-06-24 13:39:41] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
 [2023-06-24 13:39:41] INFO root fetch - main [MainThread]: Store serial: [18629071]
+[2023-06-24 13:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629071]
+[2023-06-24 13:44:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 13:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labelprinterkit
+[2023-06-24 13:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dl-myo
+[2023-06-24 13:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrapy-db
+[2023-06-24 13:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdp-transform
+[2023-06-24 13:44:50] INFO root fetch - processPackages [labelprinterkit]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-06-24 13:44:50] INFO root fetch - processPackages [dl-myo]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-24 13:44:50] INFO root fetch - processPackages [scrapy-db]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-24 13:44:50] INFO root fetch - processPackages [sdp-transform]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-24 13:44:50] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/33/4c/bb16edcc92ec3bd4c4c32d3a5c826333425653c50e092baae73746a0ac8b/labelprinterkit-0.4.2.tar.gz
+[2023-06-24 13:44:50] INFO root fetch - processPackages [dl-myo]: Downloading https://files.pythonhosted.org/packages/31/c0/4ec5bd3b106d46c73a8c67381fb54939435150419ab7d44330705e960a94/dl_myo-1.0.3.tar.gz
+[2023-06-24 13:44:50] INFO root fetch - processPackages [scrapy-db]: Downloading https://files.pythonhosted.org/packages/5d/da/61286126fcfe8b7efe1e802faf5ca78932d041291bb43595bc8f690ac35c/scrapy_db-0.0.1.tar.gz
+[2023-06-24 13:44:51] INFO root fetch - processPackages [sdp-transform]: Downloading https://files.pythonhosted.org/packages/24/7d/1615103c58baf31c60f0d224b83e6309f57b7aa6eff48ab655f0512cba41/sdp_transform-1.0.5.tar.gz
+[2023-06-24 13:44:51] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/b0/82/b67a7c7c6f743e6cbff880e05c02e31cb3c1fd3e2166ce4f4e5283fd298d/labelprinterkit-0.5.0.tar.gz
+[2023-06-24 13:44:51] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 13:44:51] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.4.2.tar.gz tmp/labelprinterkit-0.5.0.tar.gz --markdown 20230624/l/labelprinterkit/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-06-24 13:44:51] INFO root fetch - processPackages [dl-myo]: Downloading https://files.pythonhosted.org/packages/70/60/bfe59ed884f4afacbda8a0506ba029ba343e8c1f379f7d15f4c0a5c1ab4f/dl_myo-1.0.4.tar.gz
+[2023-06-24 13:44:51] INFO root fetch - processPackages [scrapy-db]: Downloading https://files.pythonhosted.org/packages/9b/81/fa55f4426bd5d6e49f23319e45bc6a8782663ef57315810399a3b2460c2c/scrapy_db-0.0.2.tar.gz
+[2023-06-24 13:44:51] INFO root fetch - processPackages [sdp-transform]: Downloading https://files.pythonhosted.org/packages/cc/fe/ec9fb42ff9d32e4116badd9e602b829174d03b52cb2ffb8a0790b1889902/sdp_transform-1.0.6.tar.gz
+[2023-06-24 13:44:51] INFO root fetch - processPackages [dl-myo]: executing diffoscope
+[2023-06-24 13:44:51] INFO root fetch - processPackages [dl-myo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl_myo-1.0.3.tar.gz tmp/dl_myo-1.0.4.tar.gz --markdown 20230624/d/dl-myo/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-24 13:44:51] INFO root fetch - processPackages [scrapy-db]: executing diffoscope
+[2023-06-24 13:44:51] INFO root fetch - processPackages [scrapy-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy_db-0.0.1.tar.gz tmp/scrapy_db-0.0.2.tar.gz --markdown 20230624/s/scrapy-db/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-24 13:44:51] INFO root fetch - processPackages [sdp-transform]: executing diffoscope
+[2023-06-24 13:44:51] INFO root fetch - processPackages [sdp-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdp_transform-1.0.5.tar.gz tmp/sdp_transform-1.0.6.tar.gz --markdown 20230624/s/sdp-transform/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-24 13:44:52] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.4.2.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.5.0.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 13:44:52] INFO root fetch - processPackages [dl-myo]: Remove: archive file [/home/abi/fetcher/tmp/dl_myo-1.0.3.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - processPackages [dl-myo]: Remove: archive file [/home/abi/fetcher/tmp/dl_myo-1.0.4.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - main [MainThread]: End processing [dl-myo]: success
+[2023-06-24 13:44:52] INFO root fetch - processPackages [sdp-transform]: Remove: archive file [/home/abi/fetcher/tmp/sdp_transform-1.0.5.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - processPackages [sdp-transform]: Remove: archive file [/home/abi/fetcher/tmp/sdp_transform-1.0.6.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - main [MainThread]: End processing [sdp-transform]: success
+[2023-06-24 13:44:52] INFO root fetch - processPackages [scrapy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_db-0.0.1.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - processPackages [scrapy-db]: Remove: archive file [/home/abi/fetcher/tmp/scrapy_db-0.0.2.tar.gz]
+[2023-06-24 13:44:52] INFO root fetch - main [MainThread]: End processing [scrapy-db]: success
+[2023-06-24 13:44:52] INFO root fetch - main [MainThread]: Store serial: [18629084]
