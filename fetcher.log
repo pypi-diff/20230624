@@ -11420,3 +11420,39 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:09:53] INFO root fetch - processPackages [pypinyin-g2pw]: Remove: archive file [/home/abi/fetcher/tmp/pypinyin-g2pw-0.4.0.tar.gz]
 [2023-06-24 10:09:53] INFO root fetch - main [MainThread]: End processing [pypinyin-g2pw]: success
 [2023-06-24 10:09:53] INFO root fetch - main [MainThread]: Store serial: [18627989]
+[2023-06-24 10:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627989]
+[2023-06-24 10:15:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EDA-recordk
+[2023-06-24 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cnx
+[2023-06-24 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Haleh-python-calculator
+[2023-06-24 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: propeller-design-tools
+[2023-06-24 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minidevice
+[2023-06-24 10:15:02] INFO root fetch - processPackages [EDA-recordk]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-24 10:15:02] WARNING root fetch - processPackages [Haleh-python-calculator]: Skipping, unable to determine old version
+[2023-06-24 10:15:02] INFO root fetch - main [MainThread]: End processing [Haleh-python-calculator] error
+[2023-06-24 10:15:02] WARNING root fetch - processPackages [cnx]: Skipping, unable to determine old version
+[2023-06-24 10:15:02] INFO root fetch - main [MainThread]: End processing [cnx] error
+[2023-06-24 10:15:02] INFO root fetch - processPackages [propeller-design-tools]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-24 10:15:02] INFO root fetch - processPackages [minidevice]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-06-24 10:15:02] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/4e/97/58899c40300032b4b665c6f68b2bc66164d00035405551b11df748346d76/EDA_recordk-1.0.2-py3-none-any.whl
+[2023-06-24 10:15:02] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/bc/24/a9c1e07c783067ca6a6622a92c722178069f50167ad31653280dd7babfc4/propeller_design_tools-0.4.5.tar.gz
+[2023-06-24 10:15:02] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/e1/3b/bbf55f723b9763f2e20779e764e0fe9759f6309f951cab54d6a3fc185b58/minidevice-2.0.7.tar.gz
+[2023-06-24 10:15:02] INFO root fetch - processPackages [EDA-recordk]: Downloading https://files.pythonhosted.org/packages/79/97/ac21f9b6f5a34ea187e5ce43fc67347bc5fe076c889b1ff9656f7372a03d/EDA_recordk-1.0.3-py3-none-any.whl
+[2023-06-24 10:15:02] INFO root fetch - processPackages [EDA-recordk]: executing diffoscope
+[2023-06-24 10:15:02] INFO root fetch - processPackages [EDA-recordk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EDA_recordk-1.0.2-py3-none-any.whl.zip tmp/EDA_recordk-1.0.3-py3-none-any.whl.zip --markdown 20230624/E/EDA-recordk/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-24 10:15:02] INFO root fetch - processPackages [propeller-design-tools]: Downloading https://files.pythonhosted.org/packages/8f/6d/c1293942aac4b53f3dcd0d181e41c3b8c1dffaa04ba7678c8dde38b4f22a/propeller_design_tools-0.4.6.tar.gz
+[2023-06-24 10:15:02] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/4a/bd/95b8b8b860ed8dc000a2d6da544daf993717eb788b3e0693a6901fd11d1d/minidevice-2.0.8.tar.gz
+[2023-06-24 10:15:02] INFO root fetch - processPackages [propeller-design-tools]: executing diffoscope
+[2023-06-24 10:15:02] INFO root fetch - processPackages [propeller-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propeller_design_tools-0.4.5.tar.gz tmp/propeller_design_tools-0.4.6.tar.gz --markdown 20230624/p/propeller-design-tools/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-24 10:15:03] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-24 10:15:03] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.0.7.tar.gz tmp/minidevice-2.0.8.tar.gz --markdown 20230624/m/minidevice/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-06-24 10:15:03] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.2-py3-none-any.whl.zip]
+[2023-06-24 10:15:03] INFO root fetch - processPackages [EDA-recordk]: Remove: archive file [/home/abi/fetcher/tmp/EDA_recordk-1.0.3-py3-none-any.whl.zip]
+[2023-06-24 10:15:03] INFO root fetch - main [MainThread]: End processing [EDA-recordk]: success
+[2023-06-24 10:15:04] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.7.tar.gz]
+[2023-06-24 10:15:04] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.0.8.tar.gz]
+[2023-06-24 10:15:04] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-24 10:15:05] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.5.tar.gz]
+[2023-06-24 10:15:05] INFO root fetch - processPackages [propeller-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/propeller_design_tools-0.4.6.tar.gz]
+[2023-06-24 10:15:05] INFO root fetch - main [MainThread]: End processing [propeller-design-tools]: success
+[2023-06-24 10:15:05] INFO root fetch - main [MainThread]: Store serial: [18628008]
