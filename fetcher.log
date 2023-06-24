@@ -10286,3 +10286,48 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 07:57:46] INFO root fetch - processPackages [pqp]: Remove: archive file [/home/abi/fetcher/tmp/pqp-0.3.1.tar.gz]
 [2023-06-24 07:57:46] INFO root fetch - main [MainThread]: End processing [pqp]: success
 [2023-06-24 07:57:46] INFO root fetch - main [MainThread]: Store serial: [18627512]
+[2023-06-24 08:02:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627512]
+[2023-06-24 08:02:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-simpleconf
+[2023-06-24 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sog4onnx
+[2023-06-24 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchlearn
+[2023-06-24 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-sync
+[2023-06-24 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YoHtml
+[2023-06-24 08:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamz-pulsar
+[2023-06-24 08:02:56] INFO root fetch - processPackages [sog4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 08:02:56] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-24 08:02:56] INFO root fetch - processPackages [torchlearn]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 08:02:56] INFO root fetch - processPackages [python-simpleconf]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-24 08:02:56] WARNING root fetch - processPackages [YoHtml]: Skipping, unable to determine old version
+[2023-06-24 08:02:56] INFO root fetch - main [MainThread]: End processing [YoHtml] error
+[2023-06-24 08:02:56] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/cd/d8/b77a231f7aafc083efb7a2fe5a1ba2d0e68fe74b93dbd40c1b8508a90465/mercury-sync-0.3.1.tar.gz
+[2023-06-24 08:02:56] WARNING root fetch - processPackages [streamz-pulsar]: Skipping, unable to determine old version
+[2023-06-24 08:02:56] INFO root fetch - main [MainThread]: End processing [streamz-pulsar] error
+[2023-06-24 08:02:56] INFO root fetch - processPackages [sog4onnx]: Downloading https://files.pythonhosted.org/packages/5f/17/97e76186169c81fc61923e2c7767ec861031746c35d9fa0496d2262b7777/sog4onnx-1.0.8.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [torchlearn]: Downloading https://files.pythonhosted.org/packages/d7/83/4a97902b27df1d5fa73b4819f73133b41331257a346328ca216caf006c69/torchlearn-0.2.0.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [python-simpleconf]: Downloading https://files.pythonhosted.org/packages/b2/e1/bd2221d49ce62d5169f1e113583b8c41ceb09abf75004101fe12cb3dc9bb/python-simpleconf-0.5.7.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/72/9d/d736948db1ede285e31402b65cfa4067d87de73125a5665cf5d42ad80afb/mercury-sync-0.3.2.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-06-24 08:02:56] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.1.tar.gz tmp/mercury-sync-0.3.2.tar.gz --markdown 20230624/m/mercury-sync/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-24 08:02:56] INFO root fetch - processPackages [torchlearn]: Downloading https://files.pythonhosted.org/packages/18/c7/3f79cd4b10206fe9cf33b3f4231c7747ffd59a9743936177c5a43d643ea2/torchlearn-0.2.1.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [sog4onnx]: Downloading https://files.pythonhosted.org/packages/62/25/73c740f9024026dcd46182805d0dffb51b4545baa96d1a1c63f24501d20f/sog4onnx-1.0.9.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [python-simpleconf]: Downloading https://files.pythonhosted.org/packages/54/91/1cc794682e0734c9005b9ed48d64df25768632a1dd9f784994f07cddc79d/python_simpleconf-0.5.8.tar.gz
+[2023-06-24 08:02:56] INFO root fetch - processPackages [torchlearn]: executing diffoscope
+[2023-06-24 08:02:56] INFO root fetch - processPackages [torchlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlearn-0.2.0.tar.gz tmp/torchlearn-0.2.1.tar.gz --markdown 20230624/t/torchlearn/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 08:02:56] INFO root fetch - processPackages [python-simpleconf]: executing diffoscope
+[2023-06-24 08:02:56] INFO root fetch - processPackages [python-simpleconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-simpleconf-0.5.7.tar.gz tmp/python_simpleconf-0.5.8.tar.gz --markdown 20230624/p/python-simpleconf/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-06-24 08:02:56] INFO root fetch - processPackages [sog4onnx]: executing diffoscope
+[2023-06-24 08:02:56] INFO root fetch - processPackages [sog4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sog4onnx-1.0.8.tar.gz tmp/sog4onnx-1.0.9.tar.gz --markdown 20230624/s/sog4onnx/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 08:02:57] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.1.tar.gz]
+[2023-06-24 08:02:57] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.2.tar.gz]
+[2023-06-24 08:02:57] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-06-24 08:02:58] INFO root fetch - processPackages [python-simpleconf]: Remove: archive file [/home/abi/fetcher/tmp/python-simpleconf-0.5.7.tar.gz]
+[2023-06-24 08:02:58] INFO root fetch - processPackages [python-simpleconf]: Remove: archive file [/home/abi/fetcher/tmp/python_simpleconf-0.5.8.tar.gz]
+[2023-06-24 08:02:58] INFO root fetch - main [MainThread]: End processing [python-simpleconf]: success
+[2023-06-24 08:02:58] INFO root fetch - processPackages [torchlearn]: Remove: archive file [/home/abi/fetcher/tmp/torchlearn-0.2.0.tar.gz]
+[2023-06-24 08:02:58] INFO root fetch - processPackages [torchlearn]: Remove: archive file [/home/abi/fetcher/tmp/torchlearn-0.2.1.tar.gz]
+[2023-06-24 08:02:58] INFO root fetch - main [MainThread]: End processing [torchlearn]: success
+[2023-06-24 08:02:58] INFO root fetch - processPackages [sog4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sog4onnx-1.0.8.tar.gz]
+[2023-06-24 08:02:58] INFO root fetch - processPackages [sog4onnx]: Remove: archive file [/home/abi/fetcher/tmp/sog4onnx-1.0.9.tar.gz]
+[2023-06-24 08:02:58] INFO root fetch - main [MainThread]: End processing [sog4onnx]: success
+[2023-06-24 08:02:58] INFO root fetch - main [MainThread]: Store serial: [18627534]
