@@ -7296,3 +7296,99 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:43:48] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-06-24 04:43:48] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-06-24 04:43:48] INFO root fetch - main [MainThread]: Store serial: [18626413]
+[2023-06-24 04:48:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626413]
+[2023-06-24 04:48:57] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-plus-26
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naif-eop-high-prec
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-order-invoicing-grouping-criteria
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-plus-25
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-order-invoicing-grouping-criteria
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NikGapps
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datawise
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-payment-return
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-account-payment
+[2023-06-24 04:48:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: APIxoo
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [NikGapps]: New version: [1.51] Old Version: [1.50]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-account-payment-return]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.5]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/ea/0f/9044bbdb2efd71c50d870fc6fcaa6c3fd51bb323c9c484bdca69334e5a1e/naif_eop_high_prec-2023.6.8.tar.gz
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/78/42/021267b410179051707e9355ef69fc1dd136adc289050c0a9886e19d09c0/odoo_addon_account_payment_return-15.0.1.0.0.5-py3-none-any.whl
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: New version: [16.0.20230623.0] Old Version: [16.0.20230511.0]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/19/05/30d98744c3813d678438d1f164dc4db8972da2ff34d40fc7d3a6492d5cc8/cdk8s-plus-25-2.8.8.tar.gz
+[2023-06-24 04:48:57] INFO root fetch - processPackages [datawise]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [APIxoo]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/e0/01/4fbe1b89ab09fd304ffbdc175d4be06157b3ba042302386377b4de93e55f/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/e0/01/4fbe1b89ab09fd304ffbdc175d4be06157b3ba042302386377b4de93e55f/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-24 04:48:57] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/6b/c4/ca78f2534fcd6fa938f5b5afdce2bc5d4b2e4aca2bd70a7a76993d55cb1a/cdk8s-plus-26-2.4.8.tar.gz
+[2023-06-24 04:48:57] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/0e/3e/83ddf2960b4e55ec381c97a1bff1417221340874b734c0265deae351718b/NikGapps-1.50.tar.gz
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Downloading https://files.pythonhosted.org/packages/fc/22/a803578c09205a9abd2b8a2e4532c84bd371b800d3a22026a5511857c05f/odoo_addon_account_payment_return-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-24 04:48:57] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/5d/42/08bd96b487fe09c67c91a563b3c3a490d09c017512ad2e7d9517c636386c/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl
+[2023-06-24 04:48:57] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564199>=10485760
+[2023-06-24 04:48:57] INFO root fetch - processPackages [NikGapps]: Start processing: BCN
+[2023-06-24 04:48:57] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-24 04:48:58] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/86/df/7e6a8b8768d3fb282891cae7859ab48b4ff949a7ed50e8d31090c561c199/naif_eop_high_prec-2023.6.9.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [APIxoo]: Downloading https://files.pythonhosted.org/packages/3a/71/9df5b4bc23bf981ab0b491792d276742a63347c8c7bd25a65c7f963f614a/APIxoo-0.3.0.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/f5/4d/a5aa673d0c7d9e953a9a021ec4e3b540b2258739c57f1de43349371db8e3/datawise-0.0.19.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/cf/58/ca1f996d4c6e94d08499907dd6c8aad6011a36189109e2db7a2d17f5f24c/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-account-payment-return]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-account-payment-return]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_return-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_payment_return-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-account-payment-return/15.0.1.0.0.5-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Downloading https://files.pythonhosted.org/packages/cf/58/ca1f996d4c6e94d08499907dd6c8aad6011a36189109e2db7a2d17f5f24c/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-24 04:48:58] INFO root fetch - processPackages [BCN]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-24 04:48:58] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.8.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230624/c/cdk8s-plus-25/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [APIxoo]: Downloading https://files.pythonhosted.org/packages/b7/84/6b1b9a50030b5740df95ab72094cda7ef1dc4df80e94b734aa0737bf537e/APIxoo-0.3.1.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-sale-order-invoicing-grouping-criteria/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230624/o/odoo-addon-sale-order-invoicing-grouping-criteria/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/0b/50/b9f49caaaa2dfa4943ad598c034c5151c3a0e339da556fc905e2807208cf/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl
+[2023-06-24 04:48:58] INFO root fetch - processPackages [datawise]: Downloading https://files.pythonhosted.org/packages/23/5c/662552c5f13cd5d2ad01fae38a632625bfb6d70b39d2104834d948a50cbe/datawise-0.0.20.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [BCN]: Downloading https://files.pythonhosted.org/packages/62/5b/0f2e113cd28bbe822aac332aed23c1c2e8ec208a71448bb5d3a49c0f6fb8/BCN-0.5.1.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.8.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230624/c/cdk8s-plus-26/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [APIxoo]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [APIxoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/APIxoo-0.3.0.tar.gz tmp/APIxoo-0.3.1.tar.gz --markdown 20230624/A/APIxoo/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [datawise]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [datawise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datawise-0.0.19.tar.gz tmp/datawise-0.0.20.tar.gz --markdown 20230624/d/datawise/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl.zip --markdown 20230624/o/odoo-addons-oca-account-payment/16.0.20230511.0-16.0.20230623.0/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [BCN]: Downloading https://files.pythonhosted.org/packages/04/cd/ca161ff20e3904374b9e5d57c8c8df43ac9a488f803d468e157da98571a7/BCN-0.5.2.tar.gz
+[2023-06-24 04:48:58] INFO root fetch - processPackages [BCN]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [BCN]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BCN-0.5.1.tar.gz tmp/BCN-0.5.2.tar.gz --markdown 20230624/B/BCN/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-24 04:48:58] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-06-24 04:48:58] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.6.8.tar.gz tmp/naif_eop_high_prec-2023.6.9.tar.gz --markdown 20230624/n/naif-eop-high-prec/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-24 04:49:00] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [odoo-addon-sale-order-invoicing-grouping-criteria]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoicing_grouping_criteria-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-invoicing-grouping-criteria]: success
+[2023-06-24 04:49:00] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.8.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-06-24 04:49:00] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [odoo-addon-account-payment-return]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_return-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-return]: success
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-invoicing-grouping-criteria]: success
+[2023-06-24 04:49:00] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.19.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [datawise]: Remove: archive file [/home/abi/fetcher/tmp/datawise-0.0.20.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [datawise]: success
+[2023-06-24 04:49:00] INFO root fetch - processPackages [APIxoo]: Remove: archive file [/home/abi/fetcher/tmp/APIxoo-0.3.0.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [APIxoo]: Remove: archive file [/home/abi/fetcher/tmp/APIxoo-0.3.1.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [APIxoo]: success
+[2023-06-24 04:49:00] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_payment-16.0.20230511.0-py3-none-any.whl.zip]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [odoo-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_payment-16.0.20230623.0-py3-none-any.whl.zip]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-payment]: success
+[2023-06-24 04:49:00] INFO root fetch - processPackages [BCN]: Remove: archive file [/home/abi/fetcher/tmp/BCN-0.5.1.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - processPackages [BCN]: Remove: archive file [/home/abi/fetcher/tmp/BCN-0.5.2.tar.gz]
+[2023-06-24 04:49:00] INFO root fetch - main [MainThread]: End processing [BCN]: success
+[2023-06-24 04:49:02] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.8.tar.gz]
+[2023-06-24 04:49:02] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-06-24 04:49:02] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-06-24 04:49:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.8.tar.gz]
+[2023-06-24 04:49:04] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
+[2023-06-24 04:49:04] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-06-24 04:49:04] INFO root fetch - main [MainThread]: Store serial: [18626442]
