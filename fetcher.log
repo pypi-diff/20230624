@@ -15417,3 +15417,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 16:29:42] INFO root fetch - processPackages [TheengsDecoder]: Remove: archive file [/home/abi/fetcher/tmp/TheengsDecoder-1.5.5.tar.gz]
 [2023-06-24 16:29:42] INFO root fetch - main [MainThread]: End processing [TheengsDecoder]: success
 [2023-06-24 16:29:42] INFO root fetch - main [MainThread]: Store serial: [18629818]
+[2023-06-24 16:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629818]
+[2023-06-24 16:34:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antgo
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FluidCubeGame
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QT-PyQt-PySide-Custom-Widgets
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-manager
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rime-sdk
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: git-machete
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: images-compare
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tui-rsync
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cocoserver
+[2023-06-24 16:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deeppipe-api
+[2023-06-24 16:34:52] INFO root fetch - processPackages [images-compare]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [tui-rsync]: New version: [0.8.13] Old Version: [0.8.12]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [nonebot-plugin-manager]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [FluidCubeGame]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [cocoserver]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [deeppipe-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [git-machete]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc0] Old Version: [2.1.0rc7]
+[2023-06-24 16:34:52] INFO root fetch - processPackages [tui-rsync]: Downloading https://files.pythonhosted.org/packages/10/ba/90fd730776ac9a05708e05d3d079124f75db34c6e86ad412587a7b657287/tui_rsync-0.8.12.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/6d/07/eafcb40ef7b0df49b8a370dcfa111aa74189af8251f3698bb407999f9ffb/deeppipe_api-0.0.8.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [images-compare]: Downloading https://files.pythonhosted.org/packages/2b/9e/041f9bfdc1c35072467508380b077c2bde862626ae86cc2a3ef62675e836/images-compare-0.5.0.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/3f/42/b10f541ace2a31a570c38b5fe0eb1f7207872de7a905d65e4af54b52e147/cocoserver-1.0.0.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/6a/79/1c32b691b2da9c268d62d87b33e76eebc8d7c539996026e87ec10bd4c4b9/FluidCubeGame-1.1.3.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/74/28/2bc88b6733d15478a9085e0400fb460457dfff64655753e219b6ca2295c7/QT-PyQt-PySide-Custom-Widgets-0.6.5.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [git-machete]: Downloading https://files.pythonhosted.org/packages/00/41/ea9df2709ca5d1f69fef14e74d8c77f7c8575eeb2ba426a3d3ff4691095c/git-machete-3.9.0.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/a1/83/e531daedcc69f2e6e34b07b3c51259bfa0e65df0ec70761cf4949d71c8de/rime_sdk-2.1.0rc7.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [nonebot-plugin-manager]: Downloading https://files.pythonhosted.org/packages/71/2a/5cd327734d7a3f784ee748aeb4d9e53fea6d4ae16bb4ff16894d22c01092/nonebot_plugin_manager-0.5.8.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [deeppipe-api]: Downloading https://files.pythonhosted.org/packages/ee/41/26de2e583f35a1ee09ea35ce94370883409d4cd54f128fc22f259c8ef2f9/deeppipe_api-0.0.9.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [tui-rsync]: Downloading https://files.pythonhosted.org/packages/96/a8/bf0c65a3af81ed31e3fead789b108f9e15a1cc40c449c3b41440733a4688/tui_rsync-0.8.13.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [tui-rsync]: executing diffoscope
+[2023-06-24 16:34:52] INFO root fetch - processPackages [tui-rsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_rsync-0.8.12.tar.gz tmp/tui_rsync-0.8.13.tar.gz --markdown 20230624/t/tui-rsync/0.8.12-0.8.13/diff.md --exclude *.pyd
+[2023-06-24 16:34:52] INFO root fetch - processPackages [deeppipe-api]: executing diffoscope
+[2023-06-24 16:34:52] INFO root fetch - processPackages [deeppipe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppipe_api-0.0.8.tar.gz tmp/deeppipe_api-0.0.9.tar.gz --markdown 20230624/d/deeppipe-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:34:52] INFO root fetch - processPackages [cocoserver]: Downloading https://files.pythonhosted.org/packages/96/0c/47013f68a48b4fb95856b0ca48c81059e049f23c38df2919a7ead2eabd70/cocoserver-1.0.1.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/d6/5a/c36db8de2e4696179ce4ac6ff853120bb9c8143a834236fc4763083e58fc/FluidCubeGame-1.1.4.tar.gz
+[2023-06-24 16:34:52] INFO root fetch - processPackages [images-compare]: Downloading https://files.pythonhosted.org/packages/ce/64/dbc86810c328b40f1178cca72f397fe403264e119385e9d2bbd14d9a83d3/images-compare-0.6.0.tar.gz
+[2023-06-24 16:34:53] INFO root fetch - processPackages [git-machete]: Downloading https://files.pythonhosted.org/packages/c7/58/a2beb1e31a481442ac88f436b83c2277a5a58484492ca445e76b0c229e1f/git-machete-3.9.1.tar.gz
+[2023-06-24 16:34:53] INFO root fetch - processPackages [images-compare]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [images-compare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/images-compare-0.5.0.tar.gz tmp/images-compare-0.6.0.tar.gz --markdown 20230624/i/images-compare/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-24 16:34:53] INFO root fetch - processPackages [cocoserver]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [cocoserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cocoserver-1.0.0.tar.gz tmp/cocoserver-1.0.1.tar.gz --markdown 20230624/c/cocoserver/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 16:34:53] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/d0/ff/90f672abf82ab98ec061a87b3397a46e00f723b3ba96708bc7c3faeb163a/rime_sdk-2.2.0rc0.tar.gz
+[2023-06-24 16:34:53] INFO root fetch - processPackages [FluidCubeGame]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [FluidCubeGame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidCubeGame-1.1.3.tar.gz tmp/FluidCubeGame-1.1.4.tar.gz --markdown 20230624/F/FluidCubeGame/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-24 16:34:53] INFO root fetch - processPackages [nonebot-plugin-manager]: Downloading https://files.pythonhosted.org/packages/3a/63/d16052f8ee287b15480db86308f2743a5b42397b58bede5e79444618a5be/nonebot_plugin_manager-0.5.9.tar.gz
+[2023-06-24 16:34:53] INFO root fetch - processPackages [git-machete]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [git-machete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-machete-3.9.0.tar.gz tmp/git-machete-3.9.1.tar.gz --markdown 20230624/g/git-machete/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-06-24 16:34:53] INFO root fetch - processPackages [nonebot-plugin-manager]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/ac/29/d7ee27afca5e1e577522fa8d910070eed386f64a56edaad1255be6d69090/QT-PyQt-PySide-Custom-Widgets-0.6.6.tar.gz
+[2023-06-24 16:34:53] INFO root fetch - processPackages [nonebot-plugin-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_manager-0.5.8.tar.gz tmp/nonebot_plugin_manager-0.5.9.tar.gz --markdown 20230624/n/nonebot-plugin-manager/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 16:34:53] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-24 16:34:53] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.1.0rc7.tar.gz tmp/rime_sdk-2.2.0rc0.tar.gz --markdown 20230624/r/rime-sdk/2.1.0rc7-2.2.0rc0/diff.md --exclude *.pyd
+[2023-06-24 16:34:53] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: executing diffoscope
+[2023-06-24 16:34:53] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QT-PyQt-PySide-Custom-Widgets-0.6.5.tar.gz tmp/QT-PyQt-PySide-Custom-Widgets-0.6.6.tar.gz --markdown 20230624/Q/QT-PyQt-PySide-Custom-Widgets/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-06-24 16:34:54] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-24 16:34:54] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230624/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-24 16:34:54] INFO root fetch - processPackages [tui-rsync]: Remove: archive file [/home/abi/fetcher/tmp/tui_rsync-0.8.12.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [tui-rsync]: Remove: archive file [/home/abi/fetcher/tmp/tui_rsync-0.8.13.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [tui-rsync]: Start processing: kbrainsecurity
+[2023-06-24 16:34:54] INFO root fetch - main [MainThread]: End processing [tui-rsync]: success
+[2023-06-24 16:34:54] INFO root fetch - processPackages [kbrainsecurity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/54/5d/682e45abca011b60406483bff37edb6fa3f69c0aa877e3511b6992f0581c/kbrainsecurity-0.0.8.tar.gz
+[2023-06-24 16:34:54] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/2c/c8/2aa5404d2175deeee17210232a96328c4c632f6a3892cfbd021cbb9ede1b/kbrainsecurity-0.0.9.tar.gz
+[2023-06-24 16:34:54] INFO root fetch - processPackages [images-compare]: Remove: archive file [/home/abi/fetcher/tmp/images-compare-0.5.0.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [images-compare]: Remove: archive file [/home/abi/fetcher/tmp/images-compare-0.6.0.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [images-compare]: Start processing: theboringlibrary
+[2023-06-24 16:34:54] INFO root fetch - main [MainThread]: End processing [images-compare]: success
+[2023-06-24 16:34:54] INFO root fetch - processPackages [kbrainsecurity]: executing diffoscope
+[2023-06-24 16:34:54] INFO root fetch - processPackages [kbrainsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbrainsecurity-0.0.8.tar.gz tmp/kbrainsecurity-0.0.9.tar.gz --markdown 20230624/k/kbrainsecurity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 16:34:54] INFO root fetch - processPackages [theboringlibrary]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.0.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [cocoserver]: Remove: archive file [/home/abi/fetcher/tmp/cocoserver-1.0.1.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - main [MainThread]: End processing [cocoserver]: success
+[2023-06-24 16:34:54] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.1.3.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.1.4.tar.gz]
+[2023-06-24 16:34:54] INFO root fetch - main [MainThread]: End processing [FluidCubeGame]: success
+[2023-06-24 16:34:54] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/cd/1b/df11a94e8ef8f1f7a2476cf17c4a468f74d7b7ecd02d048d334137a92958/theboringlibrary-0.2.1.tar.gz
+[2023-06-24 16:34:55] INFO root fetch - processPackages [theboringlibrary]: Downloading https://files.pythonhosted.org/packages/5f/77/d12cabbf40fafb3f035d457a7721dd5cd3ba1aeaf1fb71260d003c7b95e9/theboringlibrary-0.3.1.tar.gz
+[2023-06-24 16:34:55] INFO root fetch - processPackages [nonebot-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_manager-0.5.8.tar.gz]
+[2023-06-24 16:34:55] INFO root fetch - processPackages [nonebot-plugin-manager]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_manager-0.5.9.tar.gz]
+[2023-06-24 16:34:55] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-manager]: success
+[2023-06-24 16:34:55] INFO root fetch - processPackages [theboringlibrary]: executing diffoscope
+[2023-06-24 16:34:55] INFO root fetch - processPackages [theboringlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/theboringlibrary-0.2.1.tar.gz tmp/theboringlibrary-0.3.1.tar.gz --markdown 20230624/t/theboringlibrary/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-06-24 16:34:55] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.8.tar.gz]
+[2023-06-24 16:34:55] INFO root fetch - processPackages [deeppipe-api]: Remove: archive file [/home/abi/fetcher/tmp/deeppipe_api-0.0.9.tar.gz]
+[2023-06-24 16:34:55] INFO root fetch - main [MainThread]: End processing [deeppipe-api]: success
+[2023-06-24 16:34:55] INFO root fetch - processPackages [git-machete]: Remove: archive file [/home/abi/fetcher/tmp/git-machete-3.9.0.tar.gz]
+[2023-06-24 16:34:55] INFO root fetch - processPackages [git-machete]: Remove: archive file [/home/abi/fetcher/tmp/git-machete-3.9.1.tar.gz]
+[2023-06-24 16:34:55] INFO root fetch - main [MainThread]: End processing [git-machete]: success
+[2023-06-24 16:34:56] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.8.tar.gz]
+[2023-06-24 16:34:56] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.9.tar.gz]
+[2023-06-24 16:34:56] INFO root fetch - main [MainThread]: End processing [kbrainsecurity]: success
+[2023-06-24 16:34:56] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.2.1.tar.gz]
+[2023-06-24 16:34:56] INFO root fetch - processPackages [theboringlibrary]: Remove: archive file [/home/abi/fetcher/tmp/theboringlibrary-0.3.1.tar.gz]
+[2023-06-24 16:34:56] INFO root fetch - main [MainThread]: End processing [theboringlibrary]: success
+[2023-06-24 16:34:58] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.6.5.tar.gz]
+[2023-06-24 16:34:58] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.6.6.tar.gz]
+[2023-06-24 16:34:58] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
+[2023-06-24 16:35:00] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.1.0rc7.tar.gz]
+[2023-06-24 16:35:00] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc0.tar.gz]
+[2023-06-24 16:35:00] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-06-24 16:35:03] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-24 16:35:03] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-24 16:35:03] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-24 16:35:03] INFO root fetch - main [MainThread]: Store serial: [18629870]
