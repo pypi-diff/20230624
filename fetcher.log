@@ -3213,3 +3213,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 03:15:50] INFO root fetch - processPackages [racplusplus]: Remove: archive file [/home/abi/fetcher/tmp/racplusplus-0.0.3.tar.gz]
 [2023-06-24 03:15:50] INFO root fetch - main [MainThread]: End processing [racplusplus]: success
 [2023-06-24 03:15:50] INFO root fetch - main [MainThread]: Store serial: [18625022]
+[2023-06-24 03:20:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18625022]
+[2023-06-24 03:20:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 03:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: even-dist
+[2023-06-24 03:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fpt-cli
+[2023-06-24 03:20:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-restit
+[2023-06-24 03:20:59] INFO root fetch - processPackages [fpt-cli]: New version: [2023.1] Old Version: [2018.1]
+[2023-06-24 03:20:59] INFO root fetch - processPackages [even-dist]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-24 03:20:59] INFO root fetch - processPackages [django-restit]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-24 03:20:59] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/67/9d/e860848e2ca07efa2359bc2f7740552af08c820ad2e76f8d9a665d2f4986/even-dist-0.2.1.tar.gz
+[2023-06-24 03:20:59] INFO root fetch - processPackages [fpt-cli]: Downloading https://files.pythonhosted.org/packages/06/b5/f7e69af65a4db6748caf7c4e38c5084ffced8b02a17ae18e7308b5bc6383/fpt-cli-2018.1.tar.gz
+[2023-06-24 03:20:59] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/1d/08/b0090c6c655a9566c23c0bd72981100be47d5fdad48b965d5fc11073e735/django_restit-4.0.0.tar.gz
+[2023-06-24 03:20:59] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/2a/12/7d50d1a50fb84b8b19fc396742e6bb05b3861876437b446afb4e055dd3d0/even-dist-0.2.2.tar.gz
+[2023-06-24 03:20:59] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/ef/d6/e4d7cc0082ce6fc0aa99cd2e7b4f8cd14452c1f5f9600d8e4564044cc50e/django_restit-4.0.1.tar.gz
+[2023-06-24 03:20:59] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 03:20:59] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.2.1.tar.gz tmp/even-dist-0.2.2.tar.gz --markdown 20230624/e/even-dist/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-24 03:20:59] INFO root fetch - processPackages [fpt-cli]: Downloading https://files.pythonhosted.org/packages/07/8e/8bda81be83db6ccb74369cc27548fabb9fa4a23ad140f21989ca5fe29267/fpt-cli-2023.1.tar.gz
+[2023-06-24 03:20:59] INFO root fetch - processPackages [fpt-cli]: executing diffoscope
+[2023-06-24 03:20:59] INFO root fetch - processPackages [fpt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpt-cli-2018.1.tar.gz tmp/fpt-cli-2023.1.tar.gz --markdown 20230624/f/fpt-cli/2018.1-2023.1/diff.md --exclude *.pyd
+[2023-06-24 03:21:00] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2023-06-24 03:21:00] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.0.0.tar.gz tmp/django_restit-4.0.1.tar.gz --markdown 20230624/d/django-restit/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-24 03:21:00] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.1.tar.gz]
+[2023-06-24 03:21:00] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.2.tar.gz]
+[2023-06-24 03:21:00] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 03:21:01] INFO root fetch - processPackages [fpt-cli]: Remove: archive file [/home/abi/fetcher/tmp/fpt-cli-2018.1.tar.gz]
+[2023-06-24 03:21:01] INFO root fetch - processPackages [fpt-cli]: Remove: archive file [/home/abi/fetcher/tmp/fpt-cli-2023.1.tar.gz]
+[2023-06-24 03:21:01] INFO root fetch - main [MainThread]: End processing [fpt-cli]: success
+[2023-06-24 03:21:03] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.0.tar.gz]
+[2023-06-24 03:21:03] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.0.1.tar.gz]
+[2023-06-24 03:21:03] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2023-06-24 03:21:03] INFO root fetch - main [MainThread]: Store serial: [18625031]
