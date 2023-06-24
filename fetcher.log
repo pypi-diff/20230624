@@ -17737,3 +17737,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:54:07] INFO root fetch - processPackages [smithed-libraries]: Remove: archive file [/home/abi/fetcher/tmp/smithed_libraries-0.7.1.tar.gz]
 [2023-06-24 19:54:07] INFO root fetch - main [MainThread]: End processing [smithed-libraries]: success
 [2023-06-24 19:54:07] INFO root fetch - main [MainThread]: Store serial: [18630923]
+[2023-06-24 19:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630923]
+[2023-06-24 19:59:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsutils-ms
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osxphotos
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-helltide
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SimpleVectors
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viqi-api
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scProject-stable
+[2023-06-24 19:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coola
+[2023-06-24 19:59:16] INFO root fetch - processPackages [SimpleVectors]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 19:59:16] INFO root fetch - processPackages [dsutils-ms]: New version: [1.4] Old Version: [1.3]
+[2023-06-24 19:59:16] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.8]
+[2023-06-24 19:59:16] WARNING root fetch - processPackages [scProject-stable]: Skipping, unable to determine old version
+[2023-06-24 19:59:16] INFO root fetch - main [MainThread]: End processing [scProject-stable] error
+[2023-06-24 19:59:16] INFO root fetch - processPackages [osxphotos]: New version: [0.60.5] Old Version: [0.60.4]
+[2023-06-24 19:59:16] INFO root fetch - processPackages [nonebot-plugin-helltide]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-24 19:59:16] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/66/0e/f83992b00f99a63e08615e86c74eadb6338a741c69240b2bce9a985d060a/viqi_api-0.6.4.8-py3-none-any.whl
+[2023-06-24 19:59:16] INFO root fetch - processPackages [SimpleVectors]: Downloading https://files.pythonhosted.org/packages/a3/b0/b016fe87b040ac91e698b5374abb2888893dac395ff4e82eb19ff7dfc7f0/SimpleVectors-0.0.4.tar.gz
+[2023-06-24 19:59:16] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/e5/0e/1e5ed6f9df6edd3fdc08411c7d3c86f95004edb0dc386ca490839fd13974/dsutils_ms-1.3.tar.gz
+[2023-06-24 19:59:16] INFO root fetch - processPackages [coola]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 19:59:16] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2023-06-24 19:59:16] INFO root fetch - processPackages [nonebot-plugin-helltide]: Downloading https://files.pythonhosted.org/packages/03/56/53bfcd83f886f15479714026d5075c53b4ef13b3bd4474aca0d0a9e090cf/nonebot_plugin_helltide-0.1.5.tar.gz
+[2023-06-24 19:59:16] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/19/82/edeb42117e9c9a4e93f3e29f3cb153eb9f66ffd67c0d72c93c1b44fa926c/osxphotos-0.60.4.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/ca/0c/e47f7fdc6f34e79ff4ab3b21c0ef7b7f32f62be0255411f914475666fb8c/coola-0.0.8.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [SimpleVectors]: Downloading https://files.pythonhosted.org/packages/ba/c9/e45fb962b9914ab64d2bc13e3fcd6fe58d3b7e18ec6327aa2cd5b94f8c3c/SimpleVectors-0.0.5.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/82/02/57bba472305f611d6b4e6047c5177f014b569cce0f99ca6bd63883f132cc/dsutils_ms-1.4.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2023-06-24 19:59:17] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20230624/v/viqi-api/0.6.4.8-0.6.4.9/diff.md --exclude *.pyd
+[2023-06-24 19:59:17] INFO root fetch - processPackages [SimpleVectors]: executing diffoscope
+[2023-06-24 19:59:17] INFO root fetch - processPackages [SimpleVectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleVectors-0.0.4.tar.gz tmp/SimpleVectors-0.0.5.tar.gz --markdown 20230624/S/SimpleVectors/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 19:59:17] INFO root fetch - processPackages [nonebot-plugin-helltide]: Downloading https://files.pythonhosted.org/packages/d0/78/976c068124ca752cca7a3c22f8e2723465b4976c9a0c636581e6536146ba/nonebot_plugin_helltide-0.1.6.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 19:59:17] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.3.tar.gz tmp/dsutils_ms-1.4.tar.gz --markdown 20230624/d/dsutils-ms/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-24 19:59:17] INFO root fetch - processPackages [osxphotos]: Downloading https://files.pythonhosted.org/packages/47/43/435b0cd219dfc8be1720a55e6f4fc4319ffcdc493c0673cd6aaef426c51c/osxphotos-0.60.5.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [nonebot-plugin-helltide]: executing diffoscope
+[2023-06-24 19:59:17] INFO root fetch - processPackages [nonebot-plugin-helltide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_helltide-0.1.5.tar.gz tmp/nonebot_plugin_helltide-0.1.6.tar.gz --markdown 20230624/n/nonebot-plugin-helltide/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-24 19:59:17] INFO root fetch - processPackages [coola]: Downloading https://files.pythonhosted.org/packages/67/49/16dce5b5e529dd9625489d79e8f5d3f192bb6a514bfb92247ce5198fda1a/coola-0.0.9.tar.gz
+[2023-06-24 19:59:17] INFO root fetch - processPackages [osxphotos]: executing diffoscope
+[2023-06-24 19:59:17] INFO root fetch - processPackages [osxphotos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osxphotos-0.60.4.tar.gz tmp/osxphotos-0.60.5.tar.gz --markdown 20230624/o/osxphotos/0.60.4-0.60.5/diff.md --exclude *.pyd
+[2023-06-24 19:59:17] INFO root fetch - processPackages [coola]: executing diffoscope
+[2023-06-24 19:59:17] INFO root fetch - processPackages [coola]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coola-0.0.8.tar.gz tmp/coola-0.0.9.tar.gz --markdown 20230624/c/coola/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 19:59:18] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.8-py3-none-any.whl.zip]
+[2023-06-24 19:59:18] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2023-06-24 19:59:18] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2023-06-24 19:59:18] INFO root fetch - processPackages [SimpleVectors]: Remove: archive file [/home/abi/fetcher/tmp/SimpleVectors-0.0.4.tar.gz]
+[2023-06-24 19:59:18] INFO root fetch - processPackages [SimpleVectors]: Remove: archive file [/home/abi/fetcher/tmp/SimpleVectors-0.0.5.tar.gz]
+[2023-06-24 19:59:18] INFO root fetch - main [MainThread]: End processing [SimpleVectors]: success
+[2023-06-24 19:59:18] INFO root fetch - processPackages [nonebot-plugin-helltide]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_helltide-0.1.5.tar.gz]
+[2023-06-24 19:59:18] INFO root fetch - processPackages [nonebot-plugin-helltide]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_helltide-0.1.6.tar.gz]
+[2023-06-24 19:59:18] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-helltide]: success
+[2023-06-24 19:59:19] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.8.tar.gz]
+[2023-06-24 19:59:19] INFO root fetch - processPackages [coola]: Remove: archive file [/home/abi/fetcher/tmp/coola-0.0.9.tar.gz]
+[2023-06-24 19:59:19] INFO root fetch - main [MainThread]: End processing [coola]: success
+[2023-06-24 19:59:19] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.3.tar.gz]
+[2023-06-24 19:59:19] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.4.tar.gz]
+[2023-06-24 19:59:19] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 19:59:29] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.4.tar.gz]
+[2023-06-24 19:59:29] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.5.tar.gz]
+[2023-06-24 19:59:29] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
+[2023-06-24 19:59:29] INFO root fetch - main [MainThread]: Store serial: [18630944]
