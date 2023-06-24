@@ -14057,3 +14057,41 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:42:35] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
 [2023-06-24 14:42:35] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2023-06-24 14:42:35] INFO root fetch - main [MainThread]: Store serial: [18629287]
+[2023-06-24 14:47:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629287]
+[2023-06-24 14:47:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-24 14:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blizzardwarcraftapi
+[2023-06-24 14:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labelprinterkit
+[2023-06-24 14:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ConversationAgent
+[2023-06-24 14:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-easy-translate
+[2023-06-24 14:47:44] INFO root fetch - processPackages [labelprinterkit]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-24 14:47:44] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-06-24 14:47:44] INFO root fetch - processPackages [ConversationAgent]: New version: [0.5.8] Old Version: [0.5.4]
+[2023-06-24 14:47:44] INFO root fetch - processPackages [blizzardwarcraftapi]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 14:47:44] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/c5/86/73ccd314da680d308907bee6754ff938803f7d96762f61643498927bdd1d/blizzardwarcraftapi-0.2.0.tar.gz
+[2023-06-24 14:47:44] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: Downloading https://files.pythonhosted.org/packages/2b/ec/741505f33a3a463e251448cf44d869791e387748fafd414bfed37ea71e3c/nonebot_plugin_easy_translate-0.1.5.tar.gz
+[2023-06-24 14:47:44] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/f2/7d/7cc565a3be728386a2ef56543b0288789abdb3912a65944dc9f4d697e36f/ConversationAgent-0.5.4.tar.gz
+[2023-06-24 14:47:44] INFO root fetch - processPackages [labelprinterkit]: Downloading https://files.pythonhosted.org/packages/0b/a0/0ae62c7d769c85dc7efe384b517bc2c5f1268dd5f08f31dd4fc71cf56abd/labelprinterkit-0.5.4.tar.gz
+[2023-06-24 14:47:44] INFO root fetch - processPackages [labelprinterkit]: executing diffoscope
+[2023-06-24 14:47:44] INFO root fetch - processPackages [labelprinterkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelprinterkit-0.5.3.tar.gz tmp/labelprinterkit-0.5.4.tar.gz --markdown 20230624/l/labelprinterkit/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-24 14:47:44] INFO root fetch - processPackages [blizzardwarcraftapi]: Downloading https://files.pythonhosted.org/packages/63/89/7cd41c8c42acfcefc3b36e8753b2b906be22f8ded564998ed642f9ee147f/blizzardwarcraftapi-0.2.1.tar.gz
+[2023-06-24 14:47:44] INFO root fetch - processPackages [blizzardwarcraftapi]: executing diffoscope
+[2023-06-24 14:47:44] INFO root fetch - processPackages [blizzardwarcraftapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blizzardwarcraftapi-0.2.0.tar.gz tmp/blizzardwarcraftapi-0.2.1.tar.gz --markdown 20230624/b/blizzardwarcraftapi/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 14:47:44] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: Downloading https://files.pythonhosted.org/packages/76/6b/79a2049e187b73c7a453926071fb9aea040950fc0a4c2f9253629d6f993a/nonebot_plugin_easy_translate-0.2.0.tar.gz
+[2023-06-24 14:47:44] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: executing diffoscope
+[2023-06-24 14:47:44] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_easy_translate-0.1.5.tar.gz tmp/nonebot_plugin_easy_translate-0.2.0.tar.gz --markdown 20230624/n/nonebot-plugin-easy-translate/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-24 14:47:45] INFO root fetch - processPackages [ConversationAgent]: Downloading https://files.pythonhosted.org/packages/5d/a4/213f02f0605ff262d66c550a8593a96910cb28216e5b81fd3011fa85ed4b/ConversationAgent-0.5.8.tar.gz
+[2023-06-24 14:47:45] INFO root fetch - processPackages [ConversationAgent]: executing diffoscope
+[2023-06-24 14:47:45] INFO root fetch - processPackages [ConversationAgent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ConversationAgent-0.5.4.tar.gz tmp/ConversationAgent-0.5.8.tar.gz --markdown 20230624/C/ConversationAgent/0.5.4-0.5.8/diff.md --exclude *.pyd
+[2023-06-24 14:47:45] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.5.3.tar.gz]
+[2023-06-24 14:47:45] INFO root fetch - processPackages [labelprinterkit]: Remove: archive file [/home/abi/fetcher/tmp/labelprinterkit-0.5.4.tar.gz]
+[2023-06-24 14:47:45] INFO root fetch - main [MainThread]: End processing [labelprinterkit]: success
+[2023-06-24 14:47:45] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.0.tar.gz]
+[2023-06-24 14:47:45] INFO root fetch - processPackages [blizzardwarcraftapi]: Remove: archive file [/home/abi/fetcher/tmp/blizzardwarcraftapi-0.2.1.tar.gz]
+[2023-06-24 14:47:45] INFO root fetch - main [MainThread]: End processing [blizzardwarcraftapi]: success
+[2023-06-24 14:47:45] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_easy_translate-0.1.5.tar.gz]
+[2023-06-24 14:47:45] INFO root fetch - processPackages [nonebot-plugin-easy-translate]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_easy_translate-0.2.0.tar.gz]
+[2023-06-24 14:47:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-easy-translate]: success
+[2023-06-24 14:47:47] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.5.4.tar.gz]
+[2023-06-24 14:47:47] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.5.8.tar.gz]
+[2023-06-24 14:47:47] INFO root fetch - main [MainThread]: End processing [ConversationAgent]: success
+[2023-06-24 14:47:47] INFO root fetch - main [MainThread]: Store serial: [18629298]
