@@ -7032,3 +7032,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 04:22:58] INFO root fetch - processPackages [shakenfist-agent]: Remove: archive file [/home/abi/fetcher/tmp/shakenfist-agent-0.3.9.tar.gz]
 [2023-06-24 04:22:58] INFO root fetch - main [MainThread]: End processing [shakenfist-agent]: success
 [2023-06-24 04:22:58] INFO root fetch - main [MainThread]: Store serial: [18626331]
+[2023-06-24 04:28:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626331]
+[2023-06-24 04:28:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 04:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataprep-ml
+[2023-06-24 04:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cq23
+[2023-06-24 04:28:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: even-dist
+[2023-06-24 04:28:07] INFO root fetch - processPackages [even-dist]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-24 04:28:07] INFO root fetch - processPackages [dataprep-ml]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 04:28:07] INFO root fetch - processPackages [cq23]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-24 04:28:07] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/a2/c0/9e3160e3044b275aefde1635dc0b8240777b2905f18f5b576dfc36f6552d/dataprep_ml-0.0.8.tar.gz
+[2023-06-24 04:28:08] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/59/d0/7b05f0661a7b051702f40d280ba02e1a753f4072697862e787212b19a616/even-dist-0.2.9.tar.gz
+[2023-06-24 04:28:08] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/99/54/8443f85bcfca16f92f43e9d1acf7a0c882af044054d22c2179593a02841d/cq23-2.1.0.tar.gz
+[2023-06-24 04:28:08] INFO root fetch - processPackages [dataprep-ml]: Downloading https://files.pythonhosted.org/packages/4e/79/d0813f0b3b9153581248f0741a8901ae3307f52404569ca8cefcc21d96da/dataprep_ml-0.0.9.tar.gz
+[2023-06-24 04:28:08] INFO root fetch - processPackages [dataprep-ml]: executing diffoscope
+[2023-06-24 04:28:08] INFO root fetch - processPackages [dataprep-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataprep_ml-0.0.8.tar.gz tmp/dataprep_ml-0.0.9.tar.gz --markdown 20230624/d/dataprep-ml/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 04:28:08] INFO root fetch - processPackages [even-dist]: Downloading https://files.pythonhosted.org/packages/c8/54/4858ff792fae5eaad7a0eaa438f736d4b12bc53326c09b5756e3acc0558b/even-dist-0.3.0.tar.gz
+[2023-06-24 04:28:08] INFO root fetch - processPackages [cq23]: Downloading https://files.pythonhosted.org/packages/f2/06/a26adb8d24ce612461a4e289a691ffdfd90cca0619e4713ed30109c9c48b/cq23-2.2.0.tar.gz
+[2023-06-24 04:28:08] INFO root fetch - processPackages [cq23]: executing diffoscope
+[2023-06-24 04:28:08] INFO root fetch - processPackages [cq23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cq23-2.1.0.tar.gz tmp/cq23-2.2.0.tar.gz --markdown 20230624/c/cq23/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-24 04:28:08] INFO root fetch - processPackages [even-dist]: executing diffoscope
+[2023-06-24 04:28:08] INFO root fetch - processPackages [even-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/even-dist-0.2.9.tar.gz tmp/even-dist-0.3.0.tar.gz --markdown 20230624/e/even-dist/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-24 04:28:09] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.8.tar.gz]
+[2023-06-24 04:28:09] INFO root fetch - processPackages [dataprep-ml]: Remove: archive file [/home/abi/fetcher/tmp/dataprep_ml-0.0.9.tar.gz]
+[2023-06-24 04:28:09] INFO root fetch - main [MainThread]: End processing [dataprep-ml]: success
+[2023-06-24 04:28:09] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.1.0.tar.gz]
+[2023-06-24 04:28:09] INFO root fetch - processPackages [cq23]: Remove: archive file [/home/abi/fetcher/tmp/cq23-2.2.0.tar.gz]
+[2023-06-24 04:28:09] INFO root fetch - main [MainThread]: End processing [cq23]: success
+[2023-06-24 04:28:09] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.2.9.tar.gz]
+[2023-06-24 04:28:09] INFO root fetch - processPackages [even-dist]: Remove: archive file [/home/abi/fetcher/tmp/even-dist-0.3.0.tar.gz]
+[2023-06-24 04:28:09] INFO root fetch - main [MainThread]: End processing [even-dist]: success
+[2023-06-24 04:28:09] INFO root fetch - main [MainThread]: Store serial: [18626344]
