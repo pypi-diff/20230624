@@ -17228,3 +17228,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 19:06:14] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.8.tar.gz]
 [2023-06-24 19:06:14] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
 [2023-06-24 19:06:14] INFO root fetch - main [MainThread]: Store serial: [18630687]
+[2023-06-24 19:11:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630687]
+[2023-06-24 19:11:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 19:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alx-utils
+[2023-06-24 19:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyweb-db
+[2023-06-24 19:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: e3nn-jax
+[2023-06-24 19:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-elasticsearch
+[2023-06-24 19:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: applyx
+[2023-06-24 19:11:23] INFO root fetch - processPackages [pyweb-db]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 19:11:23] INFO root fetch - processPackages [e3nn-jax]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-24 19:11:23] INFO root fetch - processPackages [fastapi-elasticsearch]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-24 19:11:23] INFO root fetch - processPackages [alx-utils]: New version: [0.3] Old Version: [0.2]
+[2023-06-24 19:11:23] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-24 19:11:23] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/30/96/bf00ea1d25d2d488fbefc1ff443a118a6c42de1422b84c2c517bf582d16c/applyx-0.2.7-py3-none-any.whl
+[2023-06-24 19:11:23] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/13/4d/d1fc4ae9b7b5ba2731634f562a7749df0efdaf4f4aebdef6d703b0a56a67/e3nn_jax-0.9.1.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/e9/a6/7d59389e6491fcd66a395c5aa44c9fb3abaa6e9d660bd3beb02c45248161/pyweb_db-1.0.1.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [alx-utils]: Downloading https://files.pythonhosted.org/packages/9b/4d/24ffdd3c4601d30916ff6197cd557bae22b1115a035542e41605191e940d/alx-utils-0.2.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [fastapi-elasticsearch]: Downloading https://files.pythonhosted.org/packages/46/24/c413cb339baa4b1bf8f00fe2985ab2bd311608f7fbb2cab93c77e3dae558/fastapi-elasticsearch-0.6.0.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/55/82/e3be3f202f0a3163a1550c0b5b78be1aea8301a9ac6459c4ad6c5d2f7499/applyx-0.2.9-py3-none-any.whl
+[2023-06-24 19:11:23] INFO root fetch - processPackages [e3nn-jax]: Downloading https://files.pythonhosted.org/packages/dd/2b/f088a9fd1f6290d72497c0e1f822eff10efb1cc31d30c99f8264b09c3a01/e3nn_jax-0.9.2.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-24 19:11:23] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230624/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 19:11:23] INFO root fetch - processPackages [e3nn-jax]: executing diffoscope
+[2023-06-24 19:11:23] INFO root fetch - processPackages [e3nn-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e3nn_jax-0.9.1.tar.gz tmp/e3nn_jax-0.9.2.tar.gz --markdown 20230624/e/e3nn-jax/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-24 19:11:23] INFO root fetch - processPackages [pyweb-db]: Downloading https://files.pythonhosted.org/packages/98/06/cb9889cd1a7208199ea3b34376452bd66a459b4d8c828b90d0ba2b87357f/pyweb_db-1.0.2.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [alx-utils]: Downloading https://files.pythonhosted.org/packages/2c/3b/a5d876e6e19996856f3d6419363d8820211db4e456947acf4ab3ad933764/alx-utils-0.3.tar.gz
+[2023-06-24 19:11:23] INFO root fetch - processPackages [pyweb-db]: executing diffoscope
+[2023-06-24 19:11:23] INFO root fetch - processPackages [pyweb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyweb_db-1.0.1.tar.gz tmp/pyweb_db-1.0.2.tar.gz --markdown 20230624/p/pyweb-db/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 19:11:23] INFO root fetch - processPackages [alx-utils]: executing diffoscope
+[2023-06-24 19:11:23] INFO root fetch - processPackages [alx-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alx-utils-0.2.tar.gz tmp/alx-utils-0.3.tar.gz --markdown 20230624/a/alx-utils/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-24 19:11:23] INFO root fetch - processPackages [fastapi-elasticsearch]: Downloading https://files.pythonhosted.org/packages/cb/9f/e21cfc06bebac247754120e25a83ca63fb3fdc5ad43a39f695cb33cdee89/fastapi-elasticsearch-0.7.0.tar.gz
+[2023-06-24 19:11:24] INFO root fetch - processPackages [fastapi-elasticsearch]: executing diffoscope
+[2023-06-24 19:11:24] INFO root fetch - processPackages [fastapi-elasticsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-elasticsearch-0.6.0.tar.gz tmp/fastapi-elasticsearch-0.7.0.tar.gz --markdown 20230624/f/fastapi-elasticsearch/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-24 19:11:25] INFO root fetch - processPackages [alx-utils]: Remove: archive file [/home/abi/fetcher/tmp/alx-utils-0.2.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - processPackages [alx-utils]: Remove: archive file [/home/abi/fetcher/tmp/alx-utils-0.3.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - main [MainThread]: End processing [alx-utils]: success
+[2023-06-24 19:11:25] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.7-py3-none-any.whl.zip]
+[2023-06-24 19:11:25] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
+[2023-06-24 19:11:25] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-24 19:11:25] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.1.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - processPackages [pyweb-db]: Remove: archive file [/home/abi/fetcher/tmp/pyweb_db-1.0.2.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - main [MainThread]: End processing [pyweb-db]: success
+[2023-06-24 19:11:25] INFO root fetch - processPackages [fastapi-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-elasticsearch-0.6.0.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - processPackages [fastapi-elasticsearch]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-elasticsearch-0.7.0.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - main [MainThread]: End processing [fastapi-elasticsearch]: success
+[2023-06-24 19:11:25] INFO root fetch - processPackages [e3nn-jax]: Remove: archive file [/home/abi/fetcher/tmp/e3nn_jax-0.9.1.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - processPackages [e3nn-jax]: Remove: archive file [/home/abi/fetcher/tmp/e3nn_jax-0.9.2.tar.gz]
+[2023-06-24 19:11:25] INFO root fetch - main [MainThread]: End processing [e3nn-jax]: success
+[2023-06-24 19:11:25] INFO root fetch - main [MainThread]: Store serial: [18630704]
