@@ -13853,3 +13853,51 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:06:07] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.8.tar.gz]
 [2023-06-24 14:06:07] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
 [2023-06-24 14:06:07] INFO root fetch - main [MainThread]: Store serial: [18629191]
+[2023-06-24 14:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629191]
+[2023-06-24 14:11:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meo
+[2023-06-24 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-agents-nightly
+[2023-06-24 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minidevice
+[2023-06-24 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pwl_writer
+[2023-06-24 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onion-network
+[2023-06-24 14:11:16] INFO root fetch - processPackages [onion-network]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 14:11:16] INFO root fetch - processPackages [meo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-24 14:11:16] INFO root fetch - processPackages [minidevice]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-06-24 14:11:16] INFO root fetch - processPackages [pwl_writer]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-24 14:11:16] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-24 14:11:16] INFO root fetch - processPackages [onion-network]: Downloading https://files.pythonhosted.org/packages/7e/2b/134eb34ce3313b1736583f8043cc29eb2242bf2154e97fe0022e258cb4f8/onion_network-1.0.1.tar.gz
+[2023-06-24 14:11:16] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/6f/7c/1e4857315f7786a5f3e5bf4eaad9b36a29668c4cd8cc7acb25a0ab32b66d/minidevice-2.1.2.tar.gz
+[2023-06-24 14:11:16] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/28/7f/a8cf3b7d380da07449aaf78cdf42681eba429ad7f46e9da12ad259f89d59/pwl_writer-1.1.0.tar.gz
+[2023-06-24 14:11:17] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-24 14:11:17] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/f8/22/83bd08fb640542cc638999e61152121c173a83ffd33b81715b62c02958a6/meo-0.1.0.tar.gz
+[2023-06-24 14:11:17] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-24 14:11:17] INFO root fetch - processPackages [onion-network]: Downloading https://files.pythonhosted.org/packages/36/94/32753be46f1ef51632a5195486414926d4f7867f833b7c6322fc9d30bd56/onion_network-1.0.2.tar.gz
+[2023-06-24 14:11:17] INFO root fetch - processPackages [pwl_writer]: Downloading https://files.pythonhosted.org/packages/f8/0a/c51cdf5c2400f71e95e24d3bdd361aa949da55416caf3ddc427201c6247c/pwl_writer-1.1.1.tar.gz
+[2023-06-24 14:11:17] INFO root fetch - processPackages [minidevice]: Downloading https://files.pythonhosted.org/packages/14/c3/d80a7f19016813f05a074604b79e5558eb65f9c8309c30bb1b3997352d70/minidevice-2.1.3.tar.gz
+[2023-06-24 14:11:17] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/ca/40/ed68621939a118b103660e456ebc43c534409dd5a2a5284c32826f71b630/meo-0.1.1.tar.gz
+[2023-06-24 14:11:17] INFO root fetch - processPackages [pwl_writer]: executing diffoscope
+[2023-06-24 14:11:17] INFO root fetch - processPackages [pwl_writer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl_writer-1.1.0.tar.gz tmp/pwl_writer-1.1.1.tar.gz --markdown 20230624/p/pwl_writer/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-24 14:11:17] INFO root fetch - processPackages [onion-network]: executing diffoscope
+[2023-06-24 14:11:17] INFO root fetch - processPackages [onion-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onion_network-1.0.1.tar.gz tmp/onion_network-1.0.2.tar.gz --markdown 20230624/o/onion-network/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 14:11:17] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-24 14:11:17] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230624/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-24 14:11:17] INFO root fetch - processPackages [minidevice]: executing diffoscope
+[2023-06-24 14:11:17] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-06-24 14:11:17] INFO root fetch - processPackages [minidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minidevice-2.1.2.tar.gz tmp/minidevice-2.1.3.tar.gz --markdown 20230624/m/minidevice/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-06-24 14:11:17] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.0.tar.gz tmp/meo-0.1.1.tar.gz --markdown 20230624/m/meo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-24 14:11:18] INFO root fetch - processPackages [onion-network]: Remove: archive file [/home/abi/fetcher/tmp/onion_network-1.0.1.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - processPackages [onion-network]: Remove: archive file [/home/abi/fetcher/tmp/onion_network-1.0.2.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - main [MainThread]: End processing [onion-network]: success
+[2023-06-24 14:11:18] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.0.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.1.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-06-24 14:11:18] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.0.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - processPackages [pwl_writer]: Remove: archive file [/home/abi/fetcher/tmp/pwl_writer-1.1.1.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - main [MainThread]: End processing [pwl_writer]: success
+[2023-06-24 14:11:18] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.2.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - processPackages [minidevice]: Remove: archive file [/home/abi/fetcher/tmp/minidevice-2.1.3.tar.gz]
+[2023-06-24 14:11:18] INFO root fetch - main [MainThread]: End processing [minidevice]: success
+[2023-06-24 14:11:24] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-24 14:11:24] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-24 14:11:24] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-24 14:11:24] INFO root fetch - main [MainThread]: Store serial: [18629206]
