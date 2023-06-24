@@ -10872,3 +10872,33 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 09:00:25] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.5-py3-none-any.whl.zip]
 [2023-06-24 09:00:25] INFO root fetch - main [MainThread]: End processing [funboost]: success
 [2023-06-24 09:00:25] INFO root fetch - main [MainThread]: Store serial: [18627733]
+[2023-06-24 09:05:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627733]
+[2023-06-24 09:05:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dnd5epy
+[2023-06-24 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FluidCubeGame
+[2023-06-24 09:05:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seqio-nightly
+[2023-06-24 09:05:35] INFO root fetch - processPackages [FluidCubeGame]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-06-24 09:05:35] INFO root fetch - processPackages [dnd5epy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-24 09:05:35] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-24 09:05:35] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/e6/9e/23af3796102bf47311b70c67272c1d1beb78f563a1fe54829020bdec1ca6/FluidCubeGame-1.0.6.tar.gz
+[2023-06-24 09:05:35] INFO root fetch - processPackages [dnd5epy]: Downloading https://files.pythonhosted.org/packages/68/b3/201dfda416f86456354fe5868d130f337d722f79b7b50d00cb17bb22390e/dnd5epy-1.0.5.tar.gz
+[2023-06-24 09:05:35] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-24 09:05:35] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-24 09:05:35] INFO root fetch - processPackages [FluidCubeGame]: Downloading https://files.pythonhosted.org/packages/5b/eb/ff1d060256d279267846d27f51a6bd9c7764b0ef801d8afe3fcaee8d2dea/FluidCubeGame-1.0.8.tar.gz
+[2023-06-24 09:05:35] INFO root fetch - processPackages [dnd5epy]: Downloading https://files.pythonhosted.org/packages/8c/9c/0c39d909316026b642dea8bfd1a6ca33f28800cd9e40a1cc9513c6b9d0c3/dnd5epy-1.0.6.tar.gz
+[2023-06-24 09:05:35] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-24 09:05:35] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230624/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-24 09:05:35] INFO root fetch - processPackages [FluidCubeGame]: executing diffoscope
+[2023-06-24 09:05:35] INFO root fetch - processPackages [FluidCubeGame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FluidCubeGame-1.0.6.tar.gz tmp/FluidCubeGame-1.0.8.tar.gz --markdown 20230624/F/FluidCubeGame/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-06-24 09:05:36] INFO root fetch - processPackages [dnd5epy]: executing diffoscope
+[2023-06-24 09:05:36] INFO root fetch - processPackages [dnd5epy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnd5epy-1.0.5.tar.gz tmp/dnd5epy-1.0.6.tar.gz --markdown 20230624/d/dnd5epy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-24 09:05:36] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.6.tar.gz]
+[2023-06-24 09:05:36] INFO root fetch - processPackages [FluidCubeGame]: Remove: archive file [/home/abi/fetcher/tmp/FluidCubeGame-1.0.8.tar.gz]
+[2023-06-24 09:05:36] INFO root fetch - main [MainThread]: End processing [FluidCubeGame]: success
+[2023-06-24 09:05:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-24 09:05:37] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-24 09:05:37] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-24 09:05:38] INFO root fetch - processPackages [dnd5epy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5epy-1.0.5.tar.gz]
+[2023-06-24 09:05:38] INFO root fetch - processPackages [dnd5epy]: Remove: archive file [/home/abi/fetcher/tmp/dnd5epy-1.0.6.tar.gz]
+[2023-06-24 09:05:38] INFO root fetch - main [MainThread]: End processing [dnd5epy]: success
+[2023-06-24 09:05:38] INFO root fetch - main [MainThread]: Store serial: [18627747]
