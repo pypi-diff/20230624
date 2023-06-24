@@ -14095,3 +14095,59 @@ AssertionError: tmp/findmyfile-0.2.5.tar.gz does not exist
 [2023-06-24 14:47:47] INFO root fetch - processPackages [ConversationAgent]: Remove: archive file [/home/abi/fetcher/tmp/ConversationAgent-0.5.8.tar.gz]
 [2023-06-24 14:47:47] INFO root fetch - main [MainThread]: End processing [ConversationAgent]: success
 [2023-06-24 14:47:47] INFO root fetch - main [MainThread]: Store serial: [18629298]
+[2023-06-24 14:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18629298]
+[2023-06-24 14:52:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymecavideo
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nitrogfx-py
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SPyOD
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: manticore
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorcircuit-nightly
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2023-06-24 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boombig
+[2023-06-24 14:52:56] INFO root fetch - processPackages [SPyOD]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-24 14:52:56] INFO root fetch - processPackages [pymecavideo]: New version: [8.0rc11] Old Version: [8.0rc10]
+[2023-06-24 14:52:56] INFO root fetch - processPackages [boombig]: New version: [0.2] Old Version: [0.1]
+[2023-06-24 14:52:56] WARNING root fetch - processPackages [nitrogfx-py]: Skipping, unable to determine old version
+[2023-06-24 14:52:56] INFO root fetch - main [MainThread]: End processing [nitrogfx-py] error
+[2023-06-24 14:52:56] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.6.3] Old Version: [2023.6.2]
+[2023-06-24 14:52:56] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230624] Old Version: [0.3.8.dev230623]
+[2023-06-24 14:52:56] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-06-24 14:52:56] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/fd/46/0a6b9415e2f6d68e386db59a6b19fbf69dfc64ff007366b4bf6f7bdeec2a/manticore-0.3.8.dev230623.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [SPyOD]: Downloading https://files.pythonhosted.org/packages/94/3d/2dcd4edc663ecfad19d3912009598bf25655da3440f986ca181ded1e699d/SPyOD-0.1.6.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [boombig]: Downloading https://files.pythonhosted.org/packages/a5/56/ef71d4e7df047b364cbcf92ecc8b552dd795bd7f7a3ee7241e5d54660a8c/boombig-0.1.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [pymecavideo]: Downloading https://files.pythonhosted.org/packages/84/e5/c3bf7b740c29be05b61d8f3a75a93f02f2d6189443b66284922a1fb38b7b/pymecavideo-8.0rc10.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/88/9c/ffe8aeeaec76293346ec109e258652793acac0664096c828cf2a17b1e09e/homeassistant_stubs-2023.6.2.tar.gz
+[2023-06-24 14:52:57] WARNING root fetch - processPackages [pymecavideo]: Skipping package: exceeds size limit 10916216>=10485760
+[2023-06-24 14:52:57] INFO root fetch - main [MainThread]: End processing [pymecavideo] error
+[2023-06-24 14:52:57] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [SPyOD]: Downloading https://files.pythonhosted.org/packages/a0/be/c6005c0b08ab0b3466740538d6e794b7d9ed1278bdf9442756c5f2140a30/SPyOD-0.1.7.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/74/36/328a525a90fa145b017f2a16e14978fbc0c37a8d39ff86a4fe52a87eab7e/manticore-0.3.8.dev230624.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [boombig]: Downloading https://files.pythonhosted.org/packages/03/80/6e3a4381dba880cf642ce9f576c2d5f1e2ae8fa9227ff9da5f31e8ba5941/boombig-0.2.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [SPyOD]: executing diffoscope
+[2023-06-24 14:52:57] INFO root fetch - processPackages [SPyOD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPyOD-0.1.6.tar.gz tmp/SPyOD-0.1.7.tar.gz --markdown 20230624/S/SPyOD/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-24 14:52:57] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/76/f7/0b7001e09d46a890ec0bc9b69283e7940163638543197540f598ae24c2cc/homeassistant_stubs-2023.6.3.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [boombig]: executing diffoscope
+[2023-06-24 14:52:57] INFO root fetch - processPackages [boombig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boombig-0.1.tar.gz tmp/boombig-0.2.tar.gz --markdown 20230624/b/boombig/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-24 14:52:57] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-06-24 14:52:57] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-06-24 14:52:57] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230623.tar.gz tmp/manticore-0.3.8.dev230624.tar.gz --markdown 20230624/m/manticore/0.3.8.dev230623-0.3.8.dev230624/diff.md --exclude *.pyd
+[2023-06-24 14:52:57] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-06-24 14:52:57] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230624/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-06-24 14:52:57] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-06-24 14:52:57] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.6.2.tar.gz tmp/homeassistant_stubs-2023.6.3.tar.gz --markdown 20230624/h/homeassistant-stubs/2023.6.2-2023.6.3/diff.md --exclude *.pyd
+[2023-06-24 14:52:58] INFO root fetch - processPackages [boombig]: Remove: archive file [/home/abi/fetcher/tmp/boombig-0.1.tar.gz]
+[2023-06-24 14:52:58] INFO root fetch - processPackages [boombig]: Remove: archive file [/home/abi/fetcher/tmp/boombig-0.2.tar.gz]
+[2023-06-24 14:52:58] INFO root fetch - main [MainThread]: End processing [boombig]: success
+[2023-06-24 14:52:58] INFO root fetch - processPackages [SPyOD]: Remove: archive file [/home/abi/fetcher/tmp/SPyOD-0.1.6.tar.gz]
+[2023-06-24 14:52:58] INFO root fetch - processPackages [SPyOD]: Remove: archive file [/home/abi/fetcher/tmp/SPyOD-0.1.7.tar.gz]
+[2023-06-24 14:52:58] INFO root fetch - main [MainThread]: End processing [SPyOD]: success
+[2023-06-24 14:52:59] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230623.tar.gz]
+[2023-06-24 14:52:59] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230624.tar.gz]
+[2023-06-24 14:52:59] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-06-24 14:52:59] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-06-24 14:52:59] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-06-24 14:52:59] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-06-24 14:53:51] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.2.tar.gz]
+[2023-06-24 14:53:51] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.3.tar.gz]
+[2023-06-24 14:53:51] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-06-24 14:53:51] INFO root fetch - main [MainThread]: Store serial: [18629321]
