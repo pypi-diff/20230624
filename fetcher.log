@@ -11538,3 +11538,24 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 10:25:28] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230624-py2.py3-none-any.whl.zip]
 [2023-06-24 10:25:28] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
 [2023-06-24 10:25:28] INFO root fetch - main [MainThread]: Store serial: [18628036]
+[2023-06-24 10:30:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18628036]
+[2023-06-24 10:30:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 10:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petab
+[2023-06-24 10:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: protoc-gen-pyhttp
+[2023-06-24 10:30:36] INFO root fetch - processPackages [protoc-gen-pyhttp]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-24 10:30:36] INFO root fetch - processPackages [petab]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-24 10:30:36] INFO root fetch - processPackages [protoc-gen-pyhttp]: Downloading https://files.pythonhosted.org/packages/9d/21/2bfd330d5c3627d6e5a04125acc435f7cf4c4ed9beb59a614fe577e1072c/protoc_gen_pyhttp-1.0.0rc1-py3-none-any.whl
+[2023-06-24 10:30:36] INFO root fetch - processPackages [petab]: Downloading https://files.pythonhosted.org/packages/ed/00/539182c177a017e58a9dd7d2d8bb86b718263e4e2e02b491cca5f1f0b4a1/petab-0.2.1.tar.gz
+[2023-06-24 10:30:37] INFO root fetch - processPackages [protoc-gen-pyhttp]: Downloading https://files.pythonhosted.org/packages/16/86/b5d111e1139e7abe9b0ebc60aeb5d6abb7f9b259b5ed50ff4ce772c46a46/protoc_gen_pyhttp-1.0.0rc2-py3-none-any.whl
+[2023-06-24 10:30:37] INFO root fetch - processPackages [petab]: Downloading https://files.pythonhosted.org/packages/87/52/3fb72d309b0a64aa700bed80d7207c056625b7799199c2e661b43b9f3d84/petab-0.2.2.tar.gz
+[2023-06-24 10:30:37] INFO root fetch - processPackages [protoc-gen-pyhttp]: executing diffoscope
+[2023-06-24 10:30:37] INFO root fetch - processPackages [protoc-gen-pyhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protoc_gen_pyhttp-1.0.0rc1-py3-none-any.whl.zip tmp/protoc_gen_pyhttp-1.0.0rc2-py3-none-any.whl.zip --markdown 20230624/p/protoc-gen-pyhttp/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-24 10:30:37] INFO root fetch - processPackages [petab]: executing diffoscope
+[2023-06-24 10:30:37] INFO root fetch - processPackages [petab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petab-0.2.1.tar.gz tmp/petab-0.2.2.tar.gz --markdown 20230624/p/petab/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-24 10:30:38] INFO root fetch - processPackages [protoc-gen-pyhttp]: Remove: archive file [/home/abi/fetcher/tmp/protoc_gen_pyhttp-1.0.0rc1-py3-none-any.whl.zip]
+[2023-06-24 10:30:38] INFO root fetch - processPackages [protoc-gen-pyhttp]: Remove: archive file [/home/abi/fetcher/tmp/protoc_gen_pyhttp-1.0.0rc2-py3-none-any.whl.zip]
+[2023-06-24 10:30:38] INFO root fetch - main [MainThread]: End processing [protoc-gen-pyhttp]: success
+[2023-06-24 10:30:38] INFO root fetch - processPackages [petab]: Remove: archive file [/home/abi/fetcher/tmp/petab-0.2.1.tar.gz]
+[2023-06-24 10:30:38] INFO root fetch - processPackages [petab]: Remove: archive file [/home/abi/fetcher/tmp/petab-0.2.2.tar.gz]
+[2023-06-24 10:30:38] INFO root fetch - main [MainThread]: End processing [petab]: success
+[2023-06-24 10:30:38] INFO root fetch - main [MainThread]: Store serial: [18628042]
