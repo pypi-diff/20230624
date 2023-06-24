@@ -18246,3 +18246,50 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:31:15] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.3.1.tar.gz]
 [2023-06-24 20:31:15] INFO root fetch - main [MainThread]: End processing [m23]: success
 [2023-06-24 20:31:15] INFO root fetch - main [MainThread]: Store serial: [18631215]
+[2023-06-24 20:36:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631215]
+[2023-06-24 20:36:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-form-action
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pryngles
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ldimbenchmark
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: casino-dice
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsutils-ms
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stormlibpp
+[2023-06-24 20:36:24] INFO root fetch - processPackages [dsutils-ms]: New version: [1.5] Old Version: [1.4]
+[2023-06-24 20:36:24] INFO root fetch - processPackages [django-form-action]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-24 20:36:24] INFO root fetch - processPackages [casino-dice]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-24 20:36:24] WARNING root fetch - processPackages [stormlibpp]: Skipping, unable to determine old version
+[2023-06-24 20:36:24] INFO root fetch - main [MainThread]: End processing [stormlibpp] error
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 20:36:24] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/82/02/57bba472305f611d6b4e6047c5177f014b569cce0f99ca6bd63883f132cc/dsutils_ms-1.4.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [pryngles]: New version: [0.9.9] Old Version: [0.9.5]
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [django-form-action]: Downloading https://files.pythonhosted.org/packages/5d/ba/6b2b614889141b0a5093612766d640120fd8ba79742fe873c601d1ff0ae3/django_form_action-1.0.1-py3-none-any.whl
+[2023-06-24 20:36:24] INFO root fetch - processPackages [casino-dice]: Downloading https://files.pythonhosted.org/packages/60/70/97820cee45124fcd234e382f503b789eff040aaab71a189d91dad7ab6f33/casino-dice-1.0.0.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [pryngles]: Downloading https://files.pythonhosted.org/packages/cb/1e/d9a65a3d57cd4364643134d2f4e9a8ef503f8036a9a466e795eb2895ac35/pryngles-0.9.5.tar.gz
+[2023-06-24 20:36:24] WARNING root fetch - processPackages [pryngles]: Skipping package: exceeds size limit 11586695>=10485760
+[2023-06-24 20:36:24] INFO root fetch - main [MainThread]: End processing [pryngles] error
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/49/ad/e9ec45b84d9df762b665e966bd8e0836bff6addb940c5308d3fe712d3fa3/dsutils_ms-1.5.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [casino-dice]: Downloading https://files.pythonhosted.org/packages/96/37/3b2eb126f0ab6d4d04540ffff5b53d6e25d4cba0b01ebd1efe4a63ff490a/casino-dice-1.0.1.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-06-24 20:36:24] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230624/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 20:36:24] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 20:36:24] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.4.tar.gz tmp/dsutils_ms-1.5.tar.gz --markdown 20230624/d/dsutils-ms/1.4-1.5/diff.md --exclude *.pyd
+[2023-06-24 20:36:24] INFO root fetch - processPackages [django-form-action]: Downloading https://files.pythonhosted.org/packages/0a/e1/13eecd9f03f76ce0535dd794a97c87ef116bf3258fbe0c2e7e9e804b7aed/django-form-action-1.0.2.tar.gz
+[2023-06-24 20:36:24] INFO root fetch - processPackages [casino-dice]: executing diffoscope
+[2023-06-24 20:36:24] INFO root fetch - processPackages [casino-dice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casino-dice-1.0.0.tar.gz tmp/casino-dice-1.0.1.tar.gz --markdown 20230624/c/casino-dice/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-24 20:36:24] INFO root fetch - processPackages [django-form-action]: executing diffoscope
+[2023-06-24 20:36:24] INFO root fetch - processPackages [django-form-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_form_action-1.0.1-py3-none-any.whl.zip tmp/django-form-action-1.0.2.tar.gz --markdown 20230624/d/django-form-action/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-24 20:36:25] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-06-24 20:36:25] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-06-24 20:36:25] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-06-24 20:36:25] INFO root fetch - processPackages [casino-dice]: Remove: archive file [/home/abi/fetcher/tmp/casino-dice-1.0.0.tar.gz]
+[2023-06-24 20:36:25] INFO root fetch - processPackages [casino-dice]: Remove: archive file [/home/abi/fetcher/tmp/casino-dice-1.0.1.tar.gz]
+[2023-06-24 20:36:25] INFO root fetch - main [MainThread]: End processing [casino-dice]: success
+[2023-06-24 20:36:26] INFO root fetch - processPackages [django-form-action]: Remove: archive file [/home/abi/fetcher/tmp/django_form_action-1.0.1-py3-none-any.whl.zip]
+[2023-06-24 20:36:26] INFO root fetch - processPackages [django-form-action]: Remove: archive file [/home/abi/fetcher/tmp/django-form-action-1.0.2.tar.gz]
+[2023-06-24 20:36:26] INFO root fetch - main [MainThread]: End processing [django-form-action]: success
+[2023-06-24 20:36:26] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.4.tar.gz]
+[2023-06-24 20:36:26] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.5.tar.gz]
+[2023-06-24 20:36:26] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 20:36:26] INFO root fetch - main [MainThread]: Store serial: [18631233]
