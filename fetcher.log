@@ -10550,3 +10550,29 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 08:23:51] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230624.tar.gz]
 [2023-06-24 08:23:51] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-06-24 08:23:51] INFO root fetch - main [MainThread]: Store serial: [18627610]
+[2023-06-24 08:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18627610]
+[2023-06-24 08:29:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-24 08:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: citronella
+[2023-06-24 08:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kbrainsecurity
+[2023-06-24 08:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: season
+[2023-06-24 08:29:00] INFO root fetch - processPackages [citronella]: New version: [1.0.0] Old Version: [0.0.6]
+[2023-06-24 08:29:00] INFO root fetch - processPackages [season]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-06-24 08:29:00] INFO root fetch - processPackages [kbrainsecurity]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 08:29:01] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/97/8f/e39590e0efb00573611b423d829eaa418879705c7062363a7a86b2fcaf90/kbrainsecurity-0.0.4.tar.gz
+[2023-06-24 08:29:01] INFO root fetch - processPackages [season]: Downloading https://files.pythonhosted.org/packages/ea/9f/5fae72a60c502c99e513ecb9708aeb38946cf01c43798ff332d6dbed54d1/season-2.3.6-py3-none-any.whl
+[2023-06-24 08:29:01] INFO root fetch - processPackages [citronella]: Downloading https://files.pythonhosted.org/packages/51/ca/541653489c92ff8ba30d5e27da72d230ebe7304ed3050bbf8dc4219d4e28/citronella-0.0.6.tar.gz
+[2023-06-24 08:29:01] INFO root fetch - processPackages [kbrainsecurity]: Downloading https://files.pythonhosted.org/packages/9c/19/64a91295f2c0e2512848dc60d5b873192e141de9e831a671d6ac6f6aaa1f/kbrainsecurity-0.0.5.tar.gz
+[2023-06-24 08:29:01] INFO root fetch - processPackages [citronella]: Downloading https://files.pythonhosted.org/packages/61/31/b51a171a7834846a6141d507a66f4f96086f0405e0a3c6590c357767c402/citronella-1.0.0.tar.gz
+[2023-06-24 08:29:01] WARNING root fetch - processPackages [season]: Skipping package: exceeds size limit 13772883>=10485760
+[2023-06-24 08:29:01] INFO root fetch - main [MainThread]: End processing [season] error
+[2023-06-24 08:29:01] INFO root fetch - processPackages [kbrainsecurity]: executing diffoscope
+[2023-06-24 08:29:01] INFO root fetch - processPackages [kbrainsecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kbrainsecurity-0.0.4.tar.gz tmp/kbrainsecurity-0.0.5.tar.gz --markdown 20230624/k/kbrainsecurity/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 08:29:01] INFO root fetch - processPackages [citronella]: executing diffoscope
+[2023-06-24 08:29:01] INFO root fetch - processPackages [citronella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citronella-0.0.6.tar.gz tmp/citronella-1.0.0.tar.gz --markdown 20230624/c/citronella/0.0.6-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 08:29:02] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.4.tar.gz]
+[2023-06-24 08:29:02] INFO root fetch - processPackages [kbrainsecurity]: Remove: archive file [/home/abi/fetcher/tmp/kbrainsecurity-0.0.5.tar.gz]
+[2023-06-24 08:29:02] INFO root fetch - main [MainThread]: End processing [kbrainsecurity]: success
+[2023-06-24 08:29:02] INFO root fetch - processPackages [citronella]: Remove: archive file [/home/abi/fetcher/tmp/citronella-0.0.6.tar.gz]
+[2023-06-24 08:29:02] INFO root fetch - processPackages [citronella]: Remove: archive file [/home/abi/fetcher/tmp/citronella-1.0.0.tar.gz]
+[2023-06-24 08:29:02] INFO root fetch - main [MainThread]: End processing [citronella]: success
+[2023-06-24 08:29:02] INFO root fetch - main [MainThread]: Store serial: [18627618]
