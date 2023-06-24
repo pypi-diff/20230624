@@ -18441,3 +18441,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 20:52:00] INFO root fetch - processPackages [cnki-html2json]: Remove: archive file [/home/abi/fetcher/tmp/cnki-html2json-0.2.0.tar.gz]
 [2023-06-24 20:52:00] INFO root fetch - main [MainThread]: End processing [cnki-html2json]: success
 [2023-06-24 20:52:00] INFO root fetch - main [MainThread]: Store serial: [18631285]
+[2023-06-24 20:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631285]
+[2023-06-24 20:57:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atro-pyrsync
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: customgpt-client
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3Dinterpolations
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: maadstmlmedia
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prophecy-spark-ai
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-function-calling
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: underpin
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plutous-trade-crypto
+[2023-06-24 20:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eandb
+[2023-06-24 20:57:09] WARNING root fetch - processPackages [atro-pyrsync]: Skipping, unable to determine old version
+[2023-06-24 20:57:09] INFO root fetch - main [MainThread]: End processing [atro-pyrsync] error
+[2023-06-24 20:57:09] INFO root fetch - processPackages [openai-function-calling]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-24 20:57:09] INFO root fetch - processPackages [customgpt-client]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-24 20:57:09] INFO root fetch - processPackages [py3Dinterpolations]: New version: [0.2] Old Version: [0.1.2]
+[2023-06-24 20:57:09] WARNING root fetch - processPackages [maadstmlmedia]: Skipping, unable to determine old version
+[2023-06-24 20:57:09] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 20:57:09] INFO root fetch - main [MainThread]: End processing [maadstmlmedia] error
+[2023-06-24 20:57:09] INFO root fetch - processPackages [prophecy-spark-ai]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-24 20:57:09] INFO root fetch - processPackages [underpin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-24 20:57:09] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/ac/81/fa7288ac8267594f1c195eddc92df864923efb2e21b9d3ba1396bd7525e3/openai_function_calling-0.3.0.tar.gz
+[2023-06-24 20:57:09] WARNING root fetch - processPackages [eandb]: Skipping, unable to determine old version
+[2023-06-24 20:57:09] INFO root fetch - main [MainThread]: End processing [eandb] error
+[2023-06-24 20:57:09] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [underpin]: Downloading https://files.pythonhosted.org/packages/b4/8f/295e54044fe1e1db5b9cf98bac6f9cf141d3fe966c440ce39023a8d2090a/underpin-0.1.1.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/09/73/7f9b04f03e49367f7bdeaaeb530ebeb3e2aef901716e1823595c0fa33299/customgpt_client-1.0.6-py3-none-any.whl
+[2023-06-24 20:57:09] INFO root fetch - processPackages [py3Dinterpolations]: Downloading https://files.pythonhosted.org/packages/f1/e8/798d6a4fe903b99c735201a88f14b06ec54b4bf156fdb0a57d7eefb7b919/py3Dinterpolations-0.1.2.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [prophecy-spark-ai]: Downloading https://files.pythonhosted.org/packages/b0/3c/50e6f3e8042744b7fb49337d67d0f6c0e4283680ab4b05c6814a651fdc71/prophecy_spark_ai-0.1.6-py3-none-any.whl
+[2023-06-24 20:57:09] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [openai-function-calling]: Downloading https://files.pythonhosted.org/packages/cc/8e/56efc7a0d34e193472da22cb28ae1100250a20fb941e5f0d7e2acad36310/openai_function_calling-0.4.0.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-24 20:57:09] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230624/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 20:57:09] INFO root fetch - processPackages [underpin]: Downloading https://files.pythonhosted.org/packages/49/d7/ca4ac8e90bef3236fd928738b8ba7b57f6b736ddb1b7a9a258f3f5fee616/underpin-0.1.2.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [openai-function-calling]: executing diffoscope
+[2023-06-24 20:57:09] INFO root fetch - processPackages [openai-function-calling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_function_calling-0.3.0.tar.gz tmp/openai_function_calling-0.4.0.tar.gz --markdown 20230624/o/openai-function-calling/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 20:57:09] INFO root fetch - processPackages [py3Dinterpolations]: Downloading https://files.pythonhosted.org/packages/1a/73/a7c4415436071317b2f4c2e4736e6ee21f6a05388fd097b522487028e62b/py3Dinterpolations-0.2.tar.gz
+[2023-06-24 20:57:09] INFO root fetch - processPackages [prophecy-spark-ai]: Downloading https://files.pythonhosted.org/packages/bf/23/0ec13512b35913cedd317b381c0d4866b7ffbc98e7f193d753f022969a08/prophecy_spark_ai-0.1.7-py3-none-any.whl
+[2023-06-24 20:57:09] INFO root fetch - processPackages [py3Dinterpolations]: executing diffoscope
+[2023-06-24 20:57:09] INFO root fetch - processPackages [py3Dinterpolations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3Dinterpolations-0.1.2.tar.gz tmp/py3Dinterpolations-0.2.tar.gz --markdown 20230624/p/py3Dinterpolations/0.1.2-0.2/diff.md --exclude *.pyd
+[2023-06-24 20:57:09] INFO root fetch - processPackages [customgpt-client]: Downloading https://files.pythonhosted.org/packages/a7/9f/f3e4903c7d77cc6761c9852d41435deec74618f7dad0be0de579f9c2e564/customgpt_client-1.0.7-py3-none-any.whl
+[2023-06-24 20:57:09] INFO root fetch - processPackages [prophecy-spark-ai]: executing diffoscope
+[2023-06-24 20:57:09] INFO root fetch - processPackages [prophecy-spark-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy_spark_ai-0.1.6-py3-none-any.whl.zip tmp/prophecy_spark_ai-0.1.7-py3-none-any.whl.zip --markdown 20230624/p/prophecy-spark-ai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-24 20:57:09] INFO root fetch - processPackages [underpin]: executing diffoscope
+[2023-06-24 20:57:09] INFO root fetch - processPackages [underpin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/underpin-0.1.1.tar.gz tmp/underpin-0.1.2.tar.gz --markdown 20230624/u/underpin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-24 20:57:09] INFO root fetch - processPackages [customgpt-client]: executing diffoscope
+[2023-06-24 20:57:09] INFO root fetch - processPackages [customgpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customgpt_client-1.0.6-py3-none-any.whl.zip tmp/customgpt_client-1.0.7-py3-none-any.whl.zip --markdown 20230624/c/customgpt-client/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-24 20:57:10] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-24 20:57:10] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-24 20:57:10] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-24 20:57:10] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.3.0.tar.gz]
+[2023-06-24 20:57:10] INFO root fetch - processPackages [openai-function-calling]: Remove: archive file [/home/abi/fetcher/tmp/openai_function_calling-0.4.0.tar.gz]
+[2023-06-24 20:57:10] INFO root fetch - main [MainThread]: End processing [openai-function-calling]: success
+[2023-06-24 20:57:11] INFO root fetch - processPackages [py3Dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3Dinterpolations-0.1.2.tar.gz]
+[2023-06-24 20:57:11] INFO root fetch - processPackages [py3Dinterpolations]: Remove: archive file [/home/abi/fetcher/tmp/py3Dinterpolations-0.2.tar.gz]
+[2023-06-24 20:57:11] INFO root fetch - main [MainThread]: End processing [py3Dinterpolations]: success
+[2023-06-24 20:57:11] INFO root fetch - processPackages [prophecy-spark-ai]: Remove: archive file [/home/abi/fetcher/tmp/prophecy_spark_ai-0.1.6-py3-none-any.whl.zip]
+[2023-06-24 20:57:11] INFO root fetch - processPackages [prophecy-spark-ai]: Remove: archive file [/home/abi/fetcher/tmp/prophecy_spark_ai-0.1.7-py3-none-any.whl.zip]
+[2023-06-24 20:57:11] INFO root fetch - main [MainThread]: End processing [prophecy-spark-ai]: success
+[2023-06-24 20:57:11] INFO root fetch - processPackages [underpin]: Remove: archive file [/home/abi/fetcher/tmp/underpin-0.1.1.tar.gz]
+[2023-06-24 20:57:11] INFO root fetch - processPackages [underpin]: Remove: archive file [/home/abi/fetcher/tmp/underpin-0.1.2.tar.gz]
+[2023-06-24 20:57:11] INFO root fetch - main [MainThread]: End processing [underpin]: success
+[2023-06-24 20:57:15] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.6-py3-none-any.whl.zip]
+[2023-06-24 20:57:15] INFO root fetch - processPackages [customgpt-client]: Remove: archive file [/home/abi/fetcher/tmp/customgpt_client-1.0.7-py3-none-any.whl.zip]
+[2023-06-24 20:57:15] INFO root fetch - main [MainThread]: End processing [customgpt-client]: success
+[2023-06-24 20:57:15] INFO root fetch - main [MainThread]: Store serial: [18631321]
