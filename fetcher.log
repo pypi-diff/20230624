@@ -19638,3 +19638,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 22:35:07] INFO root fetch - processPackages [mcresources]: Remove: archive file [/home/abi/fetcher/tmp/mcresources-1.6.0.tar.gz]
 [2023-06-24 22:35:07] INFO root fetch - main [MainThread]: End processing [mcresources]: success
 [2023-06-24 22:35:07] INFO root fetch - main [MainThread]: Store serial: [18631872]
+[2023-06-24 22:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631872]
+[2023-06-24 22:40:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-24 22:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evadb
+[2023-06-24 22:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maisaedu-utilities-prefect
+[2023-06-24 22:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maisaedu-poormans-dms
+[2023-06-24 22:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genopyc
+[2023-06-24 22:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: masterqa
+[2023-06-24 22:40:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micropython-wifi-communication
+[2023-06-24 22:40:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 22:40:16] INFO root fetch - processPackages [masterqa]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-06-24 22:40:16] INFO root fetch - processPackages [micropython-wifi-communication]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-24 22:40:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 22:40:16] INFO root fetch - processPackages [genopyc]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-06-24 22:40:16] INFO root fetch - processPackages [evadb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-24 22:40:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/51/c8/520652d19cdb586cb001f3e2fd10b49475ec1fcf77f5ebf25ee483d4f069/maisaedu-poormans-dms-1.0.8.tar.gz
+[2023-06-24 22:40:16] INFO root fetch - processPackages [micropython-wifi-communication]: Downloading https://files.pythonhosted.org/packages/83/8e/755e597b09716a1877eb3adbb84d77902794b3710f9ea5695513998a8d51/micropython_wifi_communication-0.0.7.tar.gz
+[2023-06-24 22:40:16] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/9d/93/b37b1cb993eeea7065f6708036ebd25c4d5313713a14dfbb763623451a3f/evadb-0.2.8.tar.gz
+[2023-06-24 22:40:16] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/27/aa/a84fbe50d4cd0665bd3f2b32671a030342ad0e5347c62cd84baa19cb1e64/maisaedu-utilities-prefect-1.0.8.tar.gz
+[2023-06-24 22:40:16] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/66/2a/cf50108bd776bb86fad6d468b4e13b0ec73a6b8d39c9633933e6ef2f415a/genopyc-1.0.6-py3-none-any.whl
+[2023-06-24 22:40:16] INFO root fetch - processPackages [masterqa]: Downloading https://files.pythonhosted.org/packages/3b/e5/cafc2eb1761543a4daa6639396eda79606b7cfc814c33498778cd578725e/masterqa-1.8.3.tar.gz
+[2023-06-24 22:40:16] INFO root fetch - processPackages [maisaedu-poormans-dms]: Downloading https://files.pythonhosted.org/packages/7b/dc/9a6d6cd7622f50c7981e2b4362ed76ba8142b4b75f73867b9b409d609cf0/maisaedu-poormans-dms-1.0.9.tar.gz
+[2023-06-24 22:40:17] INFO root fetch - processPackages [evadb]: Downloading https://files.pythonhosted.org/packages/68/aa/b19d3f45b9444660fe9c64189284d835a6d90d952d099c10945f6a3cec49/evadb-0.2.9.tar.gz
+[2023-06-24 22:40:17] INFO root fetch - processPackages [micropython-wifi-communication]: Downloading https://files.pythonhosted.org/packages/04/e3/99fef0c9ba24c9638a39545c0738d2d2e8aadc8c2ec82510cf4fc9d37f16/micropython_wifi_communication-0.0.8.tar.gz
+[2023-06-24 22:40:17] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Downloading https://files.pythonhosted.org/packages/95/7c/dbd9fa092dadcd28e2e350cd4738749237ca8191a62152c690a10b487d1a/maisaedu-utilities-prefect-1.0.9.tar.gz
+[2023-06-24 22:40:17] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-06-24 22:40:17] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230624/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 22:40:17] INFO root fetch - processPackages [evadb]: executing diffoscope
+[2023-06-24 22:40:17] INFO root fetch - processPackages [evadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evadb-0.2.8.tar.gz tmp/evadb-0.2.9.tar.gz --markdown 20230624/e/evadb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-24 22:40:17] INFO root fetch - processPackages [micropython-wifi-communication]: executing diffoscope
+[2023-06-24 22:40:17] INFO root fetch - processPackages [micropython-wifi-communication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_wifi_communication-0.0.7.tar.gz tmp/micropython_wifi_communication-0.0.8.tar.gz --markdown 20230624/m/micropython-wifi-communication/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-24 22:40:17] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-06-24 22:40:17] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230624/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 22:40:17] INFO root fetch - processPackages [masterqa]: Downloading https://files.pythonhosted.org/packages/cb/25/11fb16b37c5f66d702d50dd705e247998b5e563630c48370fcfc313f79ff/masterqa-1.8.4.tar.gz
+[2023-06-24 22:40:17] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/6e/6c/05313434d935aed783c8cc24935ae0dab1279a85447d43b31c7ed05dfd4a/genopyc-1.1.0-py3-none-any.whl
+[2023-06-24 22:40:17] INFO root fetch - processPackages [masterqa]: executing diffoscope
+[2023-06-24 22:40:17] INFO root fetch - processPackages [masterqa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masterqa-1.8.3.tar.gz tmp/masterqa-1.8.4.tar.gz --markdown 20230624/m/masterqa/1.8.3-1.8.4/diff.md --exclude *.pyd
+[2023-06-24 22:40:17] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-24 22:40:17] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-1.0.6-py3-none-any.whl.zip tmp/genopyc-1.1.0-py3-none-any.whl.zip --markdown 20230624/g/genopyc/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-06-24 22:40:18] INFO root fetch - processPackages [micropython-wifi-communication]: Remove: archive file [/home/abi/fetcher/tmp/micropython_wifi_communication-0.0.7.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - processPackages [micropython-wifi-communication]: Remove: archive file [/home/abi/fetcher/tmp/micropython_wifi_communication-0.0.8.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - main [MainThread]: End processing [micropython-wifi-communication]: success
+[2023-06-24 22:40:18] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-06-24 22:40:18] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-06-24 22:40:18] INFO root fetch - processPackages [masterqa]: Remove: archive file [/home/abi/fetcher/tmp/masterqa-1.8.3.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - processPackages [masterqa]: Remove: archive file [/home/abi/fetcher/tmp/masterqa-1.8.4.tar.gz]
+[2023-06-24 22:40:18] INFO root fetch - main [MainThread]: End processing [masterqa]: success
+[2023-06-24 22:40:18] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.0.6-py3-none-any.whl.zip]
+[2023-06-24 22:40:18] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.1.0-py3-none-any.whl.zip]
+[2023-06-24 22:40:18] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-24 22:40:21] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.8.tar.gz]
+[2023-06-24 22:40:21] INFO root fetch - processPackages [evadb]: Remove: archive file [/home/abi/fetcher/tmp/evadb-0.2.9.tar.gz]
+[2023-06-24 22:40:21] INFO root fetch - main [MainThread]: End processing [evadb]: success
+[2023-06-24 22:40:21] INFO root fetch - main [MainThread]: Store serial: [18631886]
