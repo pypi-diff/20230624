@@ -7652,3 +7652,45 @@ AssertionError: tmp/pythoncryptographypackage-1.0.0.tar.gz does not exist
 [2023-06-24 05:20:26] INFO root fetch - processPackages [pyzstd]: Remove: archive file [/home/abi/fetcher/tmp/pyzstd-0.15.9-cp37-cp37m-musllinux_1_1_i686.whl.zip]
 [2023-06-24 05:20:26] INFO root fetch - main [MainThread]: End processing [pyzstd]: success
 [2023-06-24 05:20:26] INFO root fetch - main [MainThread]: Store serial: [18626580]
+[2023-06-24 05:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18626580]
+[2023-06-24 05:25:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-24 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleanphi
+[2023-06-24 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-module-register
+[2023-06-24 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mycotools
+[2023-06-24 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LLM-Toolbox
+[2023-06-24 05:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nitrado
+[2023-06-24 05:25:35] INFO root fetch - processPackages [fastapi-module-register]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-24 05:25:35] INFO root fetch - processPackages [mycotools]: New version: [0.9b9] Old Version: [0.9b8]
+[2023-06-24 05:25:35] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-24 05:25:35] WARNING root fetch - processPackages [cleanphi]: Skipping, unable to determine old version
+[2023-06-24 05:25:35] INFO root fetch - main [MainThread]: End processing [cleanphi] error
+[2023-06-24 05:25:35] INFO root fetch - processPackages [nitrado]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-24 05:25:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/3e/15/9cb9132ba6187eee0ca2a7aae3ce7d715352642e5a707e15d00144f13fe4/mycotools-0.9b8.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [fastapi-module-register]: Downloading https://files.pythonhosted.org/packages/c0/f3/d5d13a6a09a07056646940d3d773210f65afe5b6e02594cc67bfed7649dd/fastapi_module_register-0.0.4.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/2a/b2/7331d4209a15d5c2afe4f3ae4a820d9c20f6b4b5d571359ece5ca257331d/LLM-Toolbox-0.0.2.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [mycotools]: Downloading https://files.pythonhosted.org/packages/ee/a4/9aa7fd55d3bd93c854023d0732b10eaf6a738e6aa0289ceb539fb946d02f/mycotools-0.9b9.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/f6/b0/4cf1f50d5c8e637d80dac078436faf6ba1e14ba95ad7e140959ed2925f7e/nitrado-1.0.8.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [mycotools]: executing diffoscope
+[2023-06-24 05:25:35] INFO root fetch - processPackages [mycotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mycotools-0.9b8.tar.gz tmp/mycotools-0.9b9.tar.gz --markdown 20230624/m/mycotools/0.9b8-0.9b9/diff.md --exclude *.pyd
+[2023-06-24 05:25:35] INFO root fetch - processPackages [fastapi-module-register]: Downloading https://files.pythonhosted.org/packages/18/bf/a6ae22ef8b29f40555fe1f38a080599475d33926f204505e11447f315158/fastapi_module_register-0.0.5.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [fastapi-module-register]: executing diffoscope
+[2023-06-24 05:25:35] INFO root fetch - processPackages [fastapi-module-register]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_module_register-0.0.4.tar.gz tmp/fastapi_module_register-0.0.5.tar.gz --markdown 20230624/f/fastapi-module-register/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-24 05:25:35] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/a4/d7/10b5d4fd6a2d8749cabeddc144b272adf0be6a34cde6835ecf815a96544e/LLM-Toolbox-0.1.0.tar.gz
+[2023-06-24 05:25:35] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2023-06-24 05:25:35] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.0.2.tar.gz tmp/LLM-Toolbox-0.1.0.tar.gz --markdown 20230624/L/LLM-Toolbox/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-24 05:25:35] INFO root fetch - processPackages [nitrado]: Downloading https://files.pythonhosted.org/packages/18/5d/a182a36879b2e7f8aaebc3d49a610d00a10f3ecf37211672fc9db139c4b7/nitrado-1.0.9.tar.gz
+[2023-06-24 05:25:36] INFO root fetch - processPackages [nitrado]: executing diffoscope
+[2023-06-24 05:25:36] INFO root fetch - processPackages [nitrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nitrado-1.0.8.tar.gz tmp/nitrado-1.0.9.tar.gz --markdown 20230624/n/nitrado/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-24 05:25:36] INFO root fetch - processPackages [fastapi-module-register]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_register-0.0.4.tar.gz]
+[2023-06-24 05:25:36] INFO root fetch - processPackages [fastapi-module-register]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_module_register-0.0.5.tar.gz]
+[2023-06-24 05:25:36] INFO root fetch - main [MainThread]: End processing [fastapi-module-register]: success
+[2023-06-24 05:25:37] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b8.tar.gz]
+[2023-06-24 05:25:37] INFO root fetch - processPackages [mycotools]: Remove: archive file [/home/abi/fetcher/tmp/mycotools-0.9b9.tar.gz]
+[2023-06-24 05:25:37] INFO root fetch - main [MainThread]: End processing [mycotools]: success
+[2023-06-24 05:25:37] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.0.2.tar.gz]
+[2023-06-24 05:25:37] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.0.tar.gz]
+[2023-06-24 05:25:37] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2023-06-24 05:25:37] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.8.tar.gz]
+[2023-06-24 05:25:37] INFO root fetch - processPackages [nitrado]: Remove: archive file [/home/abi/fetcher/tmp/nitrado-1.0.9.tar.gz]
+[2023-06-24 05:25:37] INFO root fetch - main [MainThread]: End processing [nitrado]: success
+[2023-06-24 05:25:37] INFO root fetch - main [MainThread]: Store serial: [18626657]
