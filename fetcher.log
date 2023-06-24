@@ -19102,3 +19102,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 21:40:41] INFO root fetch - processPackages [c4m-flexcell]: Remove: archive file [/home/abi/fetcher/tmp/c4m_flexcell-0.4.0.dev3.tar.gz]
 [2023-06-24 21:40:41] INFO root fetch - main [MainThread]: End processing [c4m-flexcell]: success
 [2023-06-24 21:40:41] INFO root fetch - main [MainThread]: Store serial: [18631581]
+[2023-06-24 21:45:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18631581]
+[2023-06-24 21:45:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snok
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maadstml
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gehomesdk
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seleniumbase
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsutils-ms
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-cleaner
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m23
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gramps-webapi
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: carbonate-sdk
+[2023-06-24 21:45:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eulerpi
+[2023-06-24 21:45:51] INFO root fetch - processPackages [snok]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [dsutils-ms]: New version: [1.8] Old Version: [1.7]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [jupyter-cleaner]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [m23]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gramps-webapi]: New version: [1.0.0] Old Version: [0.7.0]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gehomesdk]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [maadstml]: New version: [3.40] Old Version: [3.39]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/77/84/f4da540098a63a20561a4eabc3a085403f873b6759547533829959f50dec/snok-0.0.8.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/63/71/5d60e0f60257938ca62b74d48008f789ad6b766ae919cc51fadd36c47888/dsutils_ms-1.7.tar.gz
+[2023-06-24 21:45:51] WARNING root fetch - processPackages [carbonate-sdk]: Skipping, unable to determine old version
+[2023-06-24 21:45:51] INFO root fetch - processPackages [carbonate-sdk]: Start processing: sqlean.py
+[2023-06-24 21:45:51] INFO root fetch - main [MainThread]: End processing [carbonate-sdk] error
+[2023-06-24 21:45:51] INFO root fetch - processPackages [eulerpi]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/4e/1e/fdb50b030224286c2fc9716f61070fdde37790590da1863e928f33f123d9/m23-1.3.1.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/78/e5/65dceafdeed2a83f4b797c95f5b80947cac4ec3190896167f2cd247dc1a0/gehomesdk-0.5.8.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/8a/9b/3f92b0ae58845e9ceb8821f990cd9714ee53a590f4866cec4de3df31792e/maadstml-3.39.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [sqlean.py]: New version: [0.21.5.1] Old Version: [0.21.5]
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/f5/46/1da34960cca983597375b48ec6a99114417ecddc7e84b790a9985a99e870/gramps-webapi-0.7.0.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/72/df/f1fe34560e671285056df105e30c4be7d82140b43f10c7582031f272c060/jupyter_cleaner-0.2.0.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [dsutils-ms]: Downloading https://files.pythonhosted.org/packages/5e/c4/6ee1c386fd603fa3436db4e95b85aa7e2fe2e1af2ce3248e8067b32f030d/dsutils_ms-1.8.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [snok]: Downloading https://files.pythonhosted.org/packages/39/0e/0a854f8c899c6ff1c39f119dd502a6e81c43e41e4a98f1a9d9e06896f96f/snok-0.0.9.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gehomesdk]: Downloading https://files.pythonhosted.org/packages/5d/14/ca1060e76076aab267e2a6e7dccae7575d443a3075ccc7203d8704e52b3a/gehomesdk-0.5.9.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [m23]: Downloading https://files.pythonhosted.org/packages/73/81/e7861aeb6f595cff1cef808a07cd7971b0dfd215484c3d0c99aab83eae52/m23-1.4.0.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [dsutils-ms]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [dsutils-ms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsutils_ms-1.7.tar.gz tmp/dsutils_ms-1.8.tar.gz --markdown 20230624/d/dsutils-ms/1.7-1.8/diff.md --exclude *.pyd
+[2023-06-24 21:45:51] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/6e/52/8598a24a5985a5172dfcd2a76257e7a8a8508ef980bc95a158a58cb75a95/eulerpi-0.3.1.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [sqlean.py]: Downloading https://files.pythonhosted.org/packages/09/c3/32fa136bef6418d1c76a504b41e3a25b582cd97292bc7f02a8a174fd388e/sqlean.py-0.21.5-cp39-cp39-win_amd64.whl
+[2023-06-24 21:45:51] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/fc/fc/545a30c311021f1a992a4dea296351582b8678a6e0e03e805cfad8e84567/maadstml-3.40.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gehomesdk]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gehomesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gehomesdk-0.5.8.tar.gz tmp/gehomesdk-0.5.9.tar.gz --markdown 20230624/g/gehomesdk/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-24 21:45:51] INFO root fetch - processPackages [jupyter-cleaner]: Downloading https://files.pythonhosted.org/packages/d9/b5/ac9363441bf00b1f697f351c220d0cd468f90d1ed6bfcf7339c9c707dfc6/jupyter_cleaner-0.2.1.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [snok]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [snok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snok-0.0.8.tar.gz tmp/snok-0.0.9.tar.gz --markdown 20230624/s/snok/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/92/e7/dfa142f5839ec892e1198af6ea0ae7d7753b7bd8a412aee6bab14ab05d76/gramps-webapi-1.0.0.tar.gz
+[2023-06-24 21:45:51] INFO root fetch - processPackages [m23]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [m23]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m23-1.3.1.tar.gz tmp/m23-1.4.0.tar.gz --markdown 20230624/m/m23/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-06-24 21:45:51] INFO root fetch - processPackages [jupyter-cleaner]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [jupyter-cleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_cleaner-0.2.0.tar.gz tmp/jupyter_cleaner-0.2.1.tar.gz --markdown 20230624/j/jupyter-cleaner/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gramps-webapi]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [gramps-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramps-webapi-0.7.0.tar.gz tmp/gramps-webapi-1.0.0.tar.gz --markdown 20230624/g/gramps-webapi/0.7.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-24 21:45:51] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-24 21:45:51] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.39.tar.gz tmp/maadstml-3.40.tar.gz --markdown 20230624/m/maadstml/3.39-3.40/diff.md --exclude *.pyd
+[2023-06-24 21:45:52] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/6c/9a/0980f6a195d446a8eeaa472f16d7854ab06b726e3e7a9e9c70d3a99249d8/eulerpi-0.4.0.tar.gz
+[2023-06-24 21:45:52] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-06-24 21:45:52] INFO root fetch - processPackages [sqlean.py]: Downloading https://files.pythonhosted.org/packages/a2/60/6505931759be5387ebbe962d16d28e87358b1ed902706a49e7d28fb27fd8/sqlean.py-0.21.5.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-24 21:45:52] INFO root fetch - processPackages [eulerpi]: executing diffoscope
+[2023-06-24 21:45:52] INFO root fetch - processPackages [eulerpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulerpi-0.3.1.tar.gz tmp/eulerpi-0.4.0.tar.gz --markdown 20230624/e/eulerpi/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-24 21:45:52] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-06-24 21:45:52] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230624/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-06-24 21:45:53] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.8.tar.gz]
+[2023-06-24 21:45:53] INFO root fetch - processPackages [snok]: Remove: archive file [/home/abi/fetcher/tmp/snok-0.0.9.tar.gz]
+[2023-06-24 21:45:53] INFO root fetch - main [MainThread]: End processing [snok]: success
+[2023-06-24 21:45:53] INFO root fetch - processPackages [sqlean.py]: executing diffoscope
+[2023-06-24 21:45:53] INFO root fetch - processPackages [sqlean.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlean.py-0.21.5-cp39-cp39-win_amd64.whl.zip tmp/sqlean.py-0.21.5.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230624/s/sqlean.py/0.21.5-0.21.5.1/diff.md --exclude *.pyd
+[2023-06-24 21:45:53] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.0.tar.gz]
+[2023-06-24 21:45:53] INFO root fetch - processPackages [jupyter-cleaner]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_cleaner-0.2.1.tar.gz]
+[2023-06-24 21:45:53] INFO root fetch - main [MainThread]: End processing [jupyter-cleaner]: success
+[2023-06-24 21:45:53] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.7.tar.gz]
+[2023-06-24 21:45:53] INFO root fetch - processPackages [dsutils-ms]: Remove: archive file [/home/abi/fetcher/tmp/dsutils_ms-1.8.tar.gz]
+[2023-06-24 21:45:53] INFO root fetch - main [MainThread]: End processing [dsutils-ms]: success
+[2023-06-24 21:45:54] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.8.tar.gz]
+[2023-06-24 21:45:54] INFO root fetch - processPackages [gehomesdk]: Remove: archive file [/home/abi/fetcher/tmp/gehomesdk-0.5.9.tar.gz]
+[2023-06-24 21:45:54] INFO root fetch - main [MainThread]: End processing [gehomesdk]: success
+[2023-06-24 21:45:54] INFO root fetch - processPackages [sqlean.py]: Remove: archive file [/home/abi/fetcher/tmp/sqlean.py-0.21.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-24 21:45:54] INFO root fetch - processPackages [sqlean.py]: Remove: archive file [/home/abi/fetcher/tmp/sqlean.py-0.21.5.1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-24 21:45:54] INFO root fetch - main [MainThread]: End processing [sqlean.py]: success
+[2023-06-24 21:45:54] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-06-24 21:45:54] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-06-24 21:45:54] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-06-24 21:45:55] INFO root fetch - processPackages [eulerpi]: Remove: archive file [/home/abi/fetcher/tmp/eulerpi-0.3.1.tar.gz]
+[2023-06-24 21:45:55] INFO root fetch - processPackages [eulerpi]: Remove: archive file [/home/abi/fetcher/tmp/eulerpi-0.4.0.tar.gz]
+[2023-06-24 21:45:55] INFO root fetch - main [MainThread]: End processing [eulerpi]: success
+[2023-06-24 21:45:55] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.39.tar.gz]
+[2023-06-24 21:45:55] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.40.tar.gz]
+[2023-06-24 21:45:55] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-24 21:45:55] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-0.7.0.tar.gz]
+[2023-06-24 21:45:55] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.0.0.tar.gz]
+[2023-06-24 21:45:55] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
+[2023-06-24 21:45:56] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.3.1.tar.gz]
+[2023-06-24 21:45:56] INFO root fetch - processPackages [m23]: Remove: archive file [/home/abi/fetcher/tmp/m23-1.4.0.tar.gz]
+[2023-06-24 21:45:56] INFO root fetch - main [MainThread]: End processing [m23]: success
+[2023-06-24 21:45:56] INFO root fetch - main [MainThread]: Store serial: [18631619]
