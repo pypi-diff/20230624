@@ -16453,3 +16453,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-24 17:42:53] WARNING root fetch - processPackages [TEST-TC]: Skipping, unable to determine old version
 [2023-06-24 17:42:53] INFO root fetch - main [MainThread]: End processing [TEST-TC] error
 [2023-06-24 17:42:53] INFO root fetch - main [MainThread]: Store serial: [18630357]
+[2023-06-24 17:47:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18630357]
+[2023-06-24 17:48:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-24 17:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pivotal-solver
+[2023-06-24 17:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: censoredsummarystats
+[2023-06-24 17:48:02] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-24 17:48:02] WARNING root fetch - processPackages [pivotal-solver]: Skipping, unable to determine old version
+[2023-06-24 17:48:02] INFO root fetch - main [MainThread]: End processing [pivotal-solver] error
+[2023-06-24 17:48:02] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/1e/f0/c9b21c9560cc6182d749a0ca61acc10ef865be76824db2511074aba41229/censoredsummarystats-0.2.5.tar.gz
+[2023-06-24 17:48:02] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/eb/b1/065a15d87dd1e0e9816bdb0717c710224c64a680e84833e1c06f3569a97d/censoredsummarystats-0.2.6.tar.gz
+[2023-06-24 17:48:02] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-24 17:48:02] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230624:/home/abi/fetcher/20230624:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.2.5.tar.gz tmp/censoredsummarystats-0.2.6.tar.gz --markdown 20230624/c/censoredsummarystats/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-24 17:48:04] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.5.tar.gz]
+[2023-06-24 17:48:04] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.6.tar.gz]
+[2023-06-24 17:48:04] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-24 17:48:04] INFO root fetch - main [MainThread]: Store serial: [18630367]
